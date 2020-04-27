@@ -3,6 +3,7 @@
 
 body {
     background-color: azure;
+    margin-left: 40px;
 }
 
 header {
@@ -72,8 +73,16 @@ span {
 #pink {
     color: hotpink;
 }
+@media screen and (max-width: 980px) {
+    body{
+        margin-left: 20px;
+    }
+}
 @media screen and (max-width: 500px) {
-    #me {
+    body{
+        margin-left: 5px;
+    }
+        #me {
         width: 100%;
         margin: auto;
         margin-top: 55px;
