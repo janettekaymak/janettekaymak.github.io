@@ -35,9 +35,8 @@ h1 {
 }
 
 h2 {
-    font-family: "Neucha";
+    font-family: "Neucha", Helvetica, sans-serif;
     font-size: 40px;
-    margin-left: 20px;
     color: hotpink;
 }
 
