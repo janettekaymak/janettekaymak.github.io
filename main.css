@@ -46,12 +46,16 @@ ul {
     color: dimgray;
     margin-left: 20px;
 }
-footer a:link, footer a:visited {
+
+footer a:link,
+footer a:visited {
     color: whitesmoke;
 }
-footer a:hover{
+
+footer a:hover {
     color: cyan;
 }
+
 a:hover {
     color: cyan;
 }
@@ -68,26 +72,32 @@ footer {
     text-align: center;
     margin-top: 150px;
 }
+
 #pink {
     color: hotpink;
 }
+
 @media screen and (max-width: 980px) {
-    body{
+    body {
         margin-left: 20px;
     }
 }
+
 @media screen and (max-width: 500px) {
-    body{
+    body {
         margin-left: 5px;
     }
-        #me {
+
+    #me {
         width: 100%;
         margin: auto;
         margin-top: 62px;
     }
-    #chalkanderaser{
+
+    #chalkanderaser {
         width: 40%;
     }
+
     footer {
         margin-top: 0px;
     }
