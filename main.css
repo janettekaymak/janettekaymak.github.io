@@ -49,7 +49,12 @@ ul {
     color: dimgray;
     margin-left: 20px;
 }
-
+footer a:link, footer a:visited {
+    color: whitesmoke;
+}
+footer a:hover{
+    color: cyan;
+}
 a:hover {
     color: cyan;
 }
