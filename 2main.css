@@ -111,7 +111,7 @@ p {
 
 @media screen and (max-width: 750px) {
     body{
-        background-color: deeppink;
+        background-color: hotpink;
     }.grid-container {
         grid-template-columns: auto;
     }
