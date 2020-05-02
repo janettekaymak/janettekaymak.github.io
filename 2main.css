@@ -84,6 +84,30 @@ p {
     padding: 10px 50px;
     text-align: justify;
 }
+footer a:link,
+footer a:visited {
+    color: whitesmoke;
+}
+
+footer a:hover {
+    color: cyan;
+}
+footer {
+    background-color: darkcyan;
+    border-radius: 15px;
+    width: 95%;
+    position: relative;
+    border: ridge bisque 15px;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: lightcyan;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#pink {
+    color: hotpink;
+}
 
 
 
