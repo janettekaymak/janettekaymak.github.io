@@ -36,13 +36,19 @@ h3 {
     padding: 20px;
   }
   .grid-item {
-    max-width: 400px;
+    width: 400px;
     padding: 10px;
     background-color: beige;
     border-radius: 20px;
   }
-  img {
-      max-width: 400px;
+  .chalk {
+      max-width: 150px;
+  }
+  #amazon {
+      width: 400px;
+  }
+  a:hover{
+      color: aqua;
   }
 
 
