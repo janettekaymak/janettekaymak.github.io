@@ -26,7 +26,7 @@ h2 {
 h3 {
     font-family: "Neucha", Helvetica, sans-serif;
     font-size: 25px;
-    color: teal;
+    color: darkcyan;
     text-align: center;
 }
 .grid-container {
@@ -50,6 +50,9 @@ h3 {
   }
   a:hover{
       color: aqua;
+  }
+  p {
+      font-family: Arial, Helvetica, sans-serif;
   }
 
 
