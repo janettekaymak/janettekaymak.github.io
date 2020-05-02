@@ -48,9 +48,9 @@ h3 {
   #amazon {
       width: 400px;
   }
-  a:hover{
+   a:hover{
       color: aqua;
-  }
+   }
   p {
       font-family: Arial, Helvetica, sans-serif;
   }
