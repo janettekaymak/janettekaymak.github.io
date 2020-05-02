@@ -98,14 +98,12 @@ footer a:hover {
 footer {
     background-color: darkcyan;
     border-radius: 15px;
-    width: 95%;
     position: relative;
     border: ridge bisque 15px;
     font-family: Helvetica;
     font-size: 22px;
     color: lightcyan;
     text-align: center;
-    margin-top: 150px;
 }
 
 
