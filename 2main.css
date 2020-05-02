@@ -33,7 +33,7 @@ h3 {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
-    padding: 20px;
+    padding: 10px;
   }
   .grid-item {
     width: 400px;
@@ -42,8 +42,7 @@ h3 {
     border-radius: 20px;
   }
   .chalk {
-      margin-top: 30px;
-      max-width: 150px;
+      max-width: 100px;
   }
   #amazon {
       width: 400px;
@@ -53,6 +52,8 @@ h3 {
    }
   p {
       font-family: Arial, Helvetica, sans-serif;
+      padding: 10px 50px;
+      text-align: justify;
   }
 
 
