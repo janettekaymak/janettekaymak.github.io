@@ -15,7 +15,7 @@ body {
     text-align: center;
     font-family: "Neucha", Helvetica, sans-serif;
     font-size: 50px;
-    line-height: 60px;
+    line-height: 50px;
 }
 h2 {
     font-family: "Neucha", Helvetica, sans-serif;
@@ -42,6 +42,7 @@ h3 {
     border-radius: 20px;
   }
   .chalk {
+      margin-top: 30px;
       max-width: 150px;
   }
   #amazon {
@@ -53,7 +54,7 @@ h3 {
 
 
 
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 960px) {
     header{
         background-color: hotpink;
         margin-right: 25px;
@@ -66,13 +67,10 @@ h3 {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     header{
-        background-color: teal;
+        background-color: darkcyan;
     }
-        h1 {
-            font-size: 40px;
-        }
         .grid-container{
             margin-left: 60px;
         }
