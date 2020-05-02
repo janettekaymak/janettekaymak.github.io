@@ -2,6 +2,7 @@ body {
     max-width: 1280px;
     background-color: azure;
     position: center;
+    margin-left: 70px;
 }
     header {
     background-color: darkcyan;
@@ -62,9 +63,17 @@ h3 {
 
 
   @media screen and (max-width: 1200px) {
-    .grid-container {
+    body{
+        margin-left: 0px;
+    }.grid-container {
         grid-template-columns: auto auto;
       }
+      #church, #facebook, #myown{
+        min-width: 96%;
+     }
+     .grid-item{
+         min-width: 96%;
+     }
    
 }
 
