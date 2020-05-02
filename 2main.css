@@ -84,6 +84,9 @@ p {
     padding: 10px 50px;
     text-align: justify;
 }
+footer p{
+    text-align: center;
+}
 footer a:link,
 footer a:visited {
     color: whitesmoke;
@@ -104,11 +107,6 @@ footer {
     text-align: center;
     margin-top: 150px;
 }
-
-#pink {
-    color: hotpink;
-}
-
 
 
 @media screen and (max-width: 1200px) {
