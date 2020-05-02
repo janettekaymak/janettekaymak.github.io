@@ -1,14 +1,13 @@
 body {
+    max-width: 1280px;
     background-color: azure;
-    margin-left: 40px;
+    position: center;
 }
     header {
     background-color: darkcyan;
     border-radius: 15px;
-    max-width: 95%;
     display: grid;
     border: ridge bisque 15px;
-    margin-right: 45px;
 }
   h1 {
     color: white;
@@ -36,19 +35,19 @@ h3 {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 10px;
-    padding: 10px;
+    grid-gap: 5px;
+    padding: 5px;
   }
   .grid-item {
     max-width: 400px;
-    padding: 10px;
+    padding: 5px;
     background-color: beige;
     border-radius: 20px;
   }
   .chalk {
       max-width: 100px;
   }
-  #church, #facebook {
+  #church, #facebook, #myown{
       max-width: 400px;
   }
    a:hover{
@@ -62,23 +61,21 @@ h3 {
 
 
 
-  @media screen and (max-width: 960px) {
-    header{
-        margin-right: 25px;
-    }
-    body {
-        margin-left: 20px;
-    }
-    .grid-container{
-        margin-right: 60px;
-    }
+  @media screen and (max-width: 1200px) {
+    .grid-container {
+        grid-template-columns: auto auto;
+      }
+   
 }
 
-@media screen and (max-width: 600px) {
-    header{
-        background-color: darkcyan;
+@media screen and (max-width: 750px) {
+    .grid-container {
+        grid-template-columns: auto;
+      }
+      #church, #facebook, #myown{
+       min-width: 100%;
     }
-        .grid-container{
-            margin-left: 60px;
-        }
+    .grid-item{
+        min-width: 100%;
+    }
 }
