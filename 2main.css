@@ -83,9 +83,12 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px 50px;
     text-align: justify;
+    color: dimgray;
+    line-height: 25px;
 }
 footer p{
     text-align: center;
+    color: white;
 }
 footer a:link,
 footer a:visited {
