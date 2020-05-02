@@ -4,28 +4,33 @@ body {
     position: center;
     margin-left: 70px;
 }
-    header {
+
+header {
     background-color: darkcyan;
     border-radius: 15px;
     display: grid;
     border: ridge bisque 15px;
 }
-  h1 {
+
+h1 {
     color: white;
     text-align: center;
     font-family: "Neucha", Helvetica, sans-serif;
     font-size: 50px;
     line-height: 50px;
 }
+
 h2 {
     font-family: "Neucha", Helvetica, sans-serif;
     font-size: 40px;
     color: hotpink;
     text-align: center;
 }
- #name{
+
+#name {
     margin-top: -15px;
 }
+
 h3 {
     font-family: "Neucha", Helvetica, sans-serif;
     font-size: 25px;
@@ -33,58 +38,88 @@ h3 {
     text-align: center;
     margin-top: -20px;
 }
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 5px;
     padding: 5px;
-  }
-  .grid-item {
+}
+
+.grid-item {
     max-width: 400px;
     padding: 5px;
-    background-color: beige;
+    background-color: bisque;
     border-radius: 20px;
-  }
-  .chalk {
-      max-width: 100px;
-  }
-  #church, #facebook, #myown{
-      max-width: 400px;
-  }
-   a:hover{
-      color: aqua;
-   }
-  p {
-      font-family: Arial, Helvetica, sans-serif;
-      padding: 10px 50px;
-      text-align: justify;
-  }
+}
+
+.chalk {
+    max-width: 100px;
+}
+
+#church,
+#facebook,
+#myown {
+    max-width: 400px;
+}
+#home{
+    margin-top: 70px;
+    background-color: plum;
+    padding: 50px;
+    width: 60px;
+    border-radius: 18px;
+    border: solid 3px darkcyan;
+    margin-left: 115px;
+}
+
+a:hover {
+    color: aqua;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 50px;
+    text-align: justify;
+}
 
 
 
-  @media screen and (max-width: 1200px) {
-    body{
+@media screen and (max-width: 1200px) {
+    body {
         margin-left: 0px;
-    }.grid-container {
+        background-color: paleturquoise;
+    }
+
+    .grid-container {
         grid-template-columns: auto auto;
-      }
-      #church, #facebook, #myown{
+    }
+
+    #church,
+    #facebook,
+    #myown {
         min-width: 96%;
-     }
-     .grid-item{
-         min-width: 96%;
-     }
-   
+    }
+
+    .grid-item {
+        min-width: 96%;
+    }
+
 }
 
 @media screen and (max-width: 750px) {
-    .grid-container {
+    body{
+        background-color: deeppink;
+    }.grid-container {
         grid-template-columns: auto;
-      }
-      #church, #facebook, #myown{
-       min-width: 100%;
     }
-    .grid-item{
+
+    #church,
+    #facebook,
+    #myown {
+        min-width: 100%;
+    }
+
+    .grid-item {
         min-width: 100%;
     }
 }
