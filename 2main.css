@@ -72,7 +72,9 @@ h3 {
     border: solid 3px darkcyan;
     margin-left: 115px;
 }
-
+a:link, a:active {
+    color: hotpink;
+}
 a:hover {
     color: aqua;
 }
