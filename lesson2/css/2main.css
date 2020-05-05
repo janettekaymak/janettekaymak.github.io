@@ -41,7 +41,7 @@ h3 {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;
     padding: 5px;
 }
@@ -61,7 +61,7 @@ h3 {
 #church,
 #facebook,
 #myown {
-    max-width: 400px;
+    max-width: 100%;
 }
 
 #home {
@@ -117,13 +117,13 @@ footer {
     }
 
     .grid-container {
-        grid-template-columns: auto auto;
+        grid-template-columns: 1fr 1fr;
     }
 
     #church,
     #facebook,
     #myown {
-        min-width: 96%;
+        min-width: 94%;
     }
 
     .grid-item {
