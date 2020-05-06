@@ -61,7 +61,7 @@ h3 {
 #church,
 #facebook,
 #myown {
-    max-width: 100%;
+    max-width: 98%;
 }
 
 #home {
@@ -123,7 +123,7 @@ footer {
     #church,
     #facebook,
     #myown {
-        min-width: 96%;
+        min-width: 94%;
     }
 
     .grid-item {
@@ -142,7 +142,7 @@ footer {
     #church,
     #facebook,
     #myown {
-        min-width: 100%;
+        min-width: 98%;
     }
 
     .grid-item {
