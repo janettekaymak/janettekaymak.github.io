@@ -1,0 +1,85 @@
+body {
+    max-width: 1200px;
+    margin: auto;
+    background-color: darkseagreen;
+}
+
+#icon {
+    position: absolute;
+    margin: 20px 0px -30px 30px;
+    max-width: 150px;
+
+}
+
+#sage {
+    max-width: 1200px;
+    margin-top: -20px;
+}
+
+h1 {
+    font-family: "Neucha", Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    float: right;
+    margin-right: 30px;
+    color: #935150;
+    text-shadow: #599dda 3px 3px 5px;
+    font-variant: small-caps;
+}
+
+h1 span {
+    font-size: 40px;
+    font-variant: none;
+}
+
+nav ul li a {
+    display: inline-flex;
+    padding: 19px 50px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin-left: 25px;
+    color: darkseagreen;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#navbox {
+    margin-top: -15px;
+    background-color: #935153;
+    height: 60px;
+    width: 1200px;
+}
+
+a:link,
+a:visited {}
+
+a:hover,
+a:active {
+    color: #f7b605;
+    background-color: #599dda;
+}
+
+.active {
+    color: #f7b605;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  h2{
+    font-family: "Neucha", Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #935150;
+    text-shadow: #599dda 3px 3px 5px; 
+  }
+  p{
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+  }
