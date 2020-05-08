@@ -99,6 +99,13 @@ a:active {
     width: 500px;
     text-align: justify;
 }
+#jessica{
+    max-width: 500px;
+}
+#personas{
+    display: grid;
+    padding: 0px 200px;
+}
 
 p {
     font-family: "Poppins", Helvetica, Arial, sans-serif;
