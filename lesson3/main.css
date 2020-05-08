@@ -133,3 +133,78 @@ footer p {
 #logo {
     width: 250px;
 }
+
+
+/*This is the code for a medium sized screen *********************************************************
+*******************************************************************************************************/
+@media screen and (max-width: 1180px){
+    body {
+        max-width: 1000px;
+        background-color: pink;
+    }
+    
+    #icon {
+        margin: 20px 0px -5px 20px;
+        max-width: 100px;
+        border: 5px solid #935153;
+    
+    }
+    
+    #sage {
+        max-width: 1000px;
+    }
+    
+    h1 {
+        font-size: 50px;
+        margin-right: 20px;
+        margin-bottom: 50px
+    }
+    
+    h2 {
+        font-size: 40px;
+    }
+    
+    h1 span,
+    h2 span {
+        font-size: 30px;
+        font-variant: none;
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+    
+    nav ul li a {
+        display: inline-flex;
+        padding: 19px 30px 22px 30px;
+        font-family: "Poppins";
+        margin-left: 22px;
+        color: darkseagreen;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    #navbox {
+        width: 1000px;
+    }
+    
+    #jessica{
+        margin-bottom: 30px;
+    }
+    
+    p {
+        font-family: "Poppins", Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        text-align: center;
+    }
+    #brownbox {
+        height: 35px;
+        width: 1000px;
+    }
+    
+    footer {
+        height: 60px;
+        width: 1000px;
+        padding: 10px 0px 20px 0px;
+    }
+}
