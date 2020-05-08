@@ -125,3 +125,6 @@ footer p {
 .white {
     color: rgb(247, 226, 168);
 }
+#logo {
+    width: 250px;
+}
