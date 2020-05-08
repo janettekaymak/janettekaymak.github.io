@@ -187,12 +187,6 @@ footer p {
     #jessica{
         margin-bottom: 30px;
     }
-    
-    p {
-        font-family: "Poppins", Helvetica, Arial, sans-serif;
-        font-size: 18px;
-        text-align: center;
-    }
     #brownbox {
         width: 1000px;
     }
@@ -234,7 +228,7 @@ footer p {
         font-size: 18px;
     }
     #h1type{
-        margin-top: 150px;
+        margin-top: 170px;
     }
     
     nav ul li a {
@@ -256,7 +250,7 @@ footer p {
     
     #jessica{
         max-width: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     #brownbox {
         height: 25px;
