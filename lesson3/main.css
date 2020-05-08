@@ -100,11 +100,7 @@ a:active {
     text-align: justify;
 }
 #jessica{
-    max-width: 500px;
-}
-#personas{
-    display: grid;
-    padding: 0px 200px;
+    margin-bottom: 30px;
 }
 
 p {
