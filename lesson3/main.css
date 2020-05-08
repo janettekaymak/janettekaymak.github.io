@@ -92,6 +92,7 @@ a:active {
     background-color: #599dda;
     height: 60px;
     width: 1200px;
+    padding: 10px;
   }
   footer p{
       color: white;
