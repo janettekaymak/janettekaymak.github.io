@@ -27,7 +27,7 @@ h1 {
     font-variant: small-caps;
 }
 
-h1 span {
+h1 span, h2 span {
     font-size: 40px;
     font-variant: none;
 }
