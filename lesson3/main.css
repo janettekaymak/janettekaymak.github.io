@@ -84,12 +84,12 @@ a:visited {
 
 a:hover,
 a:active {
-    color: #f7b605;
+    color: #f7cf05;
     background-color: #599dda;
 }
 
 .active {
-    color: #f7b605;
+    color: #f7c605;
 }
 
 .center {
