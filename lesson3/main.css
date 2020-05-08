@@ -8,12 +8,13 @@ body {
     position: absolute;
     margin: 20px 0px -30px 30px;
     max-width: 150px;
+    border: 7px solid #935153;
 
 }
 
 #sage {
     max-width: 1200px;
-    margin-top: -20px;
+    margin-top: -50px;
 }
 
 h1 {
@@ -21,7 +22,7 @@ h1 {
     font-size: 70px;
     float: right;
     margin-right: 30px;
-    color: #935150;
+    color: #935153;
     text-shadow: #599dda 3px 3px 5px;
     font-variant: small-caps;
 }
