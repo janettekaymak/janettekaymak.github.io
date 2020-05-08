@@ -87,3 +87,16 @@ a:active {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 18px;
   }
+  footer{
+    color: white;
+    background-color: #599dda;
+    height: 60px;
+    width: 1200px;
+  }
+  footer p{
+      color: white;
+      text-align: center;
+  }
+  .white{
+      color: rgb(247, 226, 168);
+  }
