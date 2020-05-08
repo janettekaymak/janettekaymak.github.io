@@ -140,7 +140,6 @@ footer p {
 @media screen and (max-width: 1180px){
     body {
         max-width: 1000px;
-        background-color: pink;
     }
     
     #icon {
@@ -202,7 +201,6 @@ footer p {
 @media screen and (max-width: 860px){
     body {
         max-width: 860px;
-        background-color: burlywood;
     }
     main{
         max-width: 860px;
