@@ -207,8 +207,9 @@ footer p {
     }
     
     h1 {
-        font-size: 32px;
+        font-size: 35px;
         margin: 130px 20px 0px 20px;
+        text-align: center;
     }
     h2 {
         font-size: 28px;
@@ -231,9 +232,7 @@ footer p {
     
     nav ul li a {
         max-width: 500px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 20px 130px;
+        padding: 20px 50px;
         text-align: center;
     }
     nav ul {
@@ -241,19 +240,25 @@ footer p {
         flex-direction: column;
         background-color:  #935153;
         margin-bottom: 200px;
+        max-width: 500px;
     }
     .center {
         text-align: left;
         width: 340px;  
     }
-    
+    p{
+        max-width: 340px;
+    }
+    #siteplan{
+        display: none;
+    }
     #jessica{
         max-width: 100%;
         margin-bottom: 20px;
     }
     #brownbox {
         height: 25px;
-        max-width: 500px;
+        width: auto;
     }
     
     footer {
