@@ -26,12 +26,23 @@ h1 {
     text-shadow: #599dda 3px 3px 5px;
     font-variant: small-caps;
 }
+h2{
+    font-family: "Neucha", Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #935150;
+    text-shadow: #599dda 3px 3px 5px; 
+  }
 
 h1 span, h2 span {
     font-size: 40px;
     font-variant: none;
 }
-
+.regular{
+    float: none;
+    margin: auto;
+    text-align: center;
+}
 nav ul li a {
     display: inline-flex;
     padding: 19px 50px;
@@ -76,16 +87,10 @@ a:active {
     width: 500px;
     text-align: left;
   }
-  h2{
-    font-family: "Neucha", Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    text-align: center;
-    color: #935150;
-    text-shadow: #599dda 3px 3px 5px; 
-  }
   p{
     font-family: Helvetica, Arial, sans-serif;
     font-size: 18px;
+    text-align: center;
   }
   footer{
     color: white;
