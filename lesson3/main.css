@@ -200,10 +200,10 @@ footer p {
 *******************************************************************************************************/
 @media screen and (max-width: 860px){
     body {
-        max-width: 860px;
+        max-width: 500px;
     }
     main{
-        max-width: 860px;
+        max-width: 500px;
     }
     
     h1 {
@@ -230,7 +230,7 @@ footer p {
     }
     
     nav ul li a {
-        max-width: 860px;
+        max-width: 500px;
         margin-left: auto;
         margin-right: auto;
         padding: 20px 130px;
@@ -243,7 +243,8 @@ footer p {
         margin-bottom: 200px;
     }
     .center {
-        width: 400px;  
+        text-align: left;
+        width: 340px;  
     }
     
     #jessica{
@@ -252,7 +253,7 @@ footer p {
     }
     #brownbox {
         height: 25px;
-        max-width: 860px;
+        max-width: 500px;
     }
     
     footer {
