@@ -84,12 +84,12 @@ a:visited {
 
 a:hover,
 a:active {
-    color: #f7cf05;
+    color: #f7bf05;
     background-color: #599dda;
 }
 
 .active {
-    color: #f7c605;
+    color: #f7d605;
 }
 
 .center {
@@ -128,7 +128,7 @@ footer p {
 }
 
 .white {
-    color: rgb(247, 226, 168);
+    color: rgb(250, 234, 190);
 }
 #logo {
     width: 250px;
