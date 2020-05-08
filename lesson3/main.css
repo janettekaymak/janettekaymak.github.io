@@ -108,6 +108,11 @@ p {
     font-size: 18px;
     text-align: center;
 }
+#brownbox {
+    background-color: #935153;
+    height: 45px;
+    width: 1200px;
+}
 
 footer {
     color: white;
