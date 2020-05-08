@@ -46,8 +46,8 @@ h1 span, h2 span {
 nav ul li a {
     display: inline-flex;
     padding: 19px 50px;
-    font-family: Helvetica, Arial, sans-serif;
-    margin-left: 25px;
+    font-family: "Poppins";
+    margin-left: 18px;
     color: darkseagreen;
     font-size: 20px;
     text-decoration: none;
@@ -68,7 +68,7 @@ nav ul {
 
 a:link,
 a:visited {
-    font-family:Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
 }
 
 a:hover,
@@ -88,7 +88,7 @@ a:active {
     text-align: left;
   }
   p{
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
     font-size: 18px;
     text-align: center;
   }
