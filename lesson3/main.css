@@ -260,7 +260,9 @@ footer p {
         height: 25px;
         width: auto;
     }
-    
+    #navbox{
+        width:auto;
+    }
     footer {
         height: auto;
         width: auto;
