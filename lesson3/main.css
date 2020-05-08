@@ -173,15 +173,11 @@ footer p {
     h3 {
         font-size: 20px;
     }
-    
+  
     nav ul li a {
-        display: inline-flex;
         padding: 19px 30px 22px 30px;
-        font-family: "Poppins";
         margin-left: 22px;
-        color: darkseagreen;
-        font-size: 16px;
-        text-decoration: none;
+        font-size: 18px;
     }
 
     #navbox {
@@ -198,13 +194,78 @@ footer p {
         text-align: center;
     }
     #brownbox {
-        height: 35px;
         width: 1000px;
     }
     
     footer {
-        height: 60px;
         width: 1000px;
-        padding: 10px 0px 20px 0px;
+    }
+}
+
+
+/*This is the code for a small sized screen *********************************************************
+*******************************************************************************************************/
+@media screen and (max-width: 860px){
+    body {
+        max-width: 860px;
+        background-color: burlywood;
+    }
+    main{
+        max-width: 860px;
+    }
+    
+    h1 {
+        font-size: 32px;
+        margin: 130px 20px 0px 20px;
+    }
+    h2 {
+        font-size: 28px;
+        margin-top: 200px;
+    }
+    h1 span,
+    h2 span {
+        font-size: 18px;
+    }
+    #sage {
+        max-width: 100%;
+        margin-top: 15px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    #h1type{
+        margin-top: 150px;
+    }
+    
+    nav ul li a {
+        max-width: 860px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px 130px;
+        text-align: center;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        background-color:  #935153;
+        margin-bottom: 200px;
+    }
+    .center {
+        width: 400px;  
+    }
+    
+    #jessica{
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    #brownbox {
+        height: 25px;
+        max-width: 860px;
+    }
+    
+    footer {
+        height: auto;
+        width: auto;
+        padding: 10px 50px;
     }
 }
