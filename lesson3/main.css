@@ -1,14 +1,14 @@
 body {
     max-width: 1200px;
     margin: auto;
-    background-color: rgb(236, 245, 236);
+    background-color: darkseagreen;
 }
 
 #icon {
     position: absolute;
     margin: 20px 0px -30px 30px;
     max-width: 150px;
-    border: 7px solid #6e2a2d;
+    border: 7px solid #912a2d;
 
 }
 
@@ -69,7 +69,7 @@ nav ul {
 
 #navbox {
     margin-top: -15px;
-    background-color: #912a2d;
+    background-color: #935153;
     height: 60px;
     width: 1200px;
 }
@@ -82,12 +82,12 @@ a:visited {
 a:hover,
 a:active {
     color: white;
-    background-color: #054e8f;
+    background-color: #376186;
 }
 
 .active {
     color: white;
-    background-color: #054e8f;
+    background-color: #376186;
 }
 
 .center {
@@ -107,14 +107,14 @@ p {
     text-align: center;
 }
 #brownbox {
-    background-color: #912a2d;
+    background-color: #935153;
     height: 35px;
     width: 1200px;
 }
 
 footer {
     color: white;
-    background-color: #054e8f;
+    background-color: #376186;
     height: 60px;
     width: 1200px;
     padding: 10px 0px 20px 0px;
@@ -143,7 +143,7 @@ footer p {
     #icon {
         margin: 20px 0px -5px 20px;
         max-width: 100px;
-        border: 5px solid #935153;
+        border: 5px solid #912a2d;
     
     }
     
@@ -238,7 +238,7 @@ footer p {
         flex-direction: column;
         margin-bottom: 200px;
         max-width: 500px;
-         background-color: #912a2d;
+         background-color: #935153;
     }
     .center {
         text-align: left;
