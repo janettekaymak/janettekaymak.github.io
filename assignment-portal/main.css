@@ -38,7 +38,7 @@ h2 {
     font-family: "Neucha", Helvetica, sans-serif;
     font-size: 40px;
     margin-left: 40px;
-    color: rgb(248, 38, 143);
+    color: hotpink;
 }
 
 ul {
@@ -74,7 +74,7 @@ footer {
 }
 
 #pink {
-    color: white;
+    color: hotpink;
 }
 
 @media screen and (max-width: 980px) {
