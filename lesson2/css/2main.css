@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: darkcyan;
+    background-color: rgb(2, 109, 109);
     border-radius: 15px;
     display: grid;
     border: ridge bisque 15px;
@@ -22,7 +22,7 @@ h1 {
 h2 {
     font-family: "Neucha", Helvetica, sans-serif;
     font-size: 40px;
-    color: hotpink;
+    color: rgb(247, 41, 141);
     text-align: center;
 }
 
@@ -33,7 +33,7 @@ h2 {
 h3 {
     font-family: "Neucha", Helvetica, sans-serif;
     font-size: 25px;
-    color: darkcyan;
+    color: rgb(2, 109, 109);
     text-align: center;
     margin-top: -20px;
 }
@@ -48,7 +48,7 @@ h3 {
 .grid-item {
     max-width: 400px;
     padding: 5px;
-    background-color: beige;
+    background-color: rgb(250, 250, 237);
     border-radius: 20px;
     box-shadow: 2px 2px 22px;
 }
@@ -69,11 +69,11 @@ h3 {
     padding: 50px;
     width: 60px;
     border-radius: 18px;
-    border: solid 3px hotpink;
+    border: solid 3px rgb(247, 41, 141);
     margin-left: 115px;
 }
 a:link, a:visited {
-    color: hotpink;
+    color:  rgb(247, 41, 141);
 }
 a:hover {
     color: aqua;
@@ -99,12 +99,12 @@ footer a:hover {
     color: cyan;
 }
 footer {
-    background-color: darkcyan;
+    background-color: rgb(2, 109, 109);
     border-radius: 15px;
     border: ridge bisque 15px;
     font-family: Helvetica;
     font-size: 22px;
-    color: lightcyan;
+    color: rgb(232, 252, 252);
     text-align: center;
 }
 
@@ -112,7 +112,6 @@ footer {
 @media screen and (max-width: 1200px) {
     body {
         margin-left: 0px;
-        background-color: paleturquoise;
     }
 
     .grid-container {
@@ -133,7 +132,6 @@ footer {
 
 @media screen and (max-width: 750px) {
     body{
-        background-color: hotpink;
     }.grid-container {
         grid-template-columns: auto;
     }
