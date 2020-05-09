@@ -8,7 +8,7 @@ body {
     position: absolute;
     margin: 20px 0px -30px 30px;
     max-width: 150px;
-    border: 7px solid #935153;
+    border: 7px solid #6e2a2d;
 
 }
 
@@ -22,8 +22,8 @@ h1 {
     font-size: 70px;
     float: right;
     margin-right: 30px;
-    color: #935153;
-    text-shadow: #599dda 3px 3px 5px;
+    color: #912a2d;
+    text-shadow: #d0e5f7 3px 3px 5px;
     font-variant: small-caps;
 }
 
@@ -31,8 +31,8 @@ h2 {
     font-family: "Neucha", Arial, Helvetica, sans-serif;
     font-size: 50px;
     text-align: center;
-    color: #935150;
-    text-shadow: #599dda 3px 3px 5px;
+    color: #912a2d;
+    text-shadow: #d0e5f7 3px 3px 5px;
 }
 
 h1 span,
@@ -44,8 +44,8 @@ h2 span {
 h3 {
     font-family: "Neucha", Arial, Helvetica, sans-serif;
     font-size: 30px;
-    color: #935150;
-    text-shadow: #599dda 3px 3px 5px;
+    color: #912a2d;
+    text-shadow: #d0e5f7 3px 3px 5px;
 }
 
 .regular {
@@ -59,7 +59,7 @@ nav ul li a {
     padding: 19px 50px;
     font-family: "Poppins";
     margin-left: 25px;
-    color: darkseagreen;
+    color: rgb(223, 250, 223);
     font-size: 20px;
     text-decoration: none;
 }
@@ -72,7 +72,7 @@ nav ul {
 
 #navbox {
     margin-top: -15px;
-    background-color: #935153;
+    background-color: #912a2d;
     height: 60px;
     width: 1200px;
 }
@@ -84,12 +84,13 @@ a:visited {
 
 a:hover,
 a:active {
-    color: #f7bf05;
+    color: white;
     background-color: #599dda;
 }
 
 .active {
-    color: #f7d605;
+    color: white;
+    background-color: #599dda;
 }
 
 .center {
@@ -109,7 +110,7 @@ p {
     text-align: center;
 }
 #brownbox {
-    background-color: #935153;
+    background-color: #912a2d;
     height: 35px;
     width: 1200px;
 }
@@ -238,9 +239,9 @@ footer p {
     nav ul {
         display: flex;
         flex-direction: column;
-        background-color:  #935153;
         margin-bottom: 200px;
         max-width: 500px;
+         background-color: #912a2d;
     }
     .center {
         text-align: left;
