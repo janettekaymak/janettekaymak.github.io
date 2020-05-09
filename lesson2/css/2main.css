@@ -131,8 +131,7 @@ footer {
 }
 
 @media screen and (max-width: 750px) {
-    body{
-    }.grid-container {
+    .grid-container {
         grid-template-columns: auto;
     }
 
