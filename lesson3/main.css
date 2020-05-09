@@ -1,7 +1,7 @@
 body {
     max-width: 1200px;
     margin: auto;
-    background-color: rgb(235, 248, 233);
+    background-color: rgb(236, 245, 236);
 }
 
 #icon {
@@ -23,7 +23,6 @@ h1 {
     float: right;
     margin-right: 30px;
     color: #912a2d;
-    text-shadow: #d0e5f7 3px 3px 5px;
     font-variant: small-caps;
 }
 
@@ -32,7 +31,6 @@ h2 {
     font-size: 50px;
     text-align: center;
     color: #912a2d;
-    text-shadow: #d0e5f7 3px 3px 5px;
 }
 
 h1 span,
@@ -45,7 +43,6 @@ h3 {
     font-family: "Neucha", Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: #912a2d;
-    text-shadow: #d0e5f7 3px 3px 5px;
 }
 
 .regular {
@@ -59,7 +56,7 @@ nav ul li a {
     padding: 19px 50px;
     font-family: "Poppins";
     margin-left: 25px;
-    color: rgb(223, 250, 223);
+    color: white;
     font-size: 20px;
     text-decoration: none;
 }
@@ -85,12 +82,12 @@ a:visited {
 a:hover,
 a:active {
     color: white;
-    background-color: #599dda;
+    background-color: #054e8f;
 }
 
 .active {
     color: white;
-    background-color: #599dda;
+    background-color: #054e8f;
 }
 
 .center {
@@ -117,7 +114,7 @@ p {
 
 footer {
     color: white;
-    background-color: #599dda;
+    background-color: #054e8f;
     height: 60px;
     width: 1200px;
     padding: 10px 0px 20px 0px;
@@ -129,7 +126,7 @@ footer p {
 }
 
 .white {
-    color: rgb(250, 234, 190);
+    color: white;
 }
 #logo {
     width: 250px;
