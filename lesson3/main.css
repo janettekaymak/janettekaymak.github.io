@@ -91,6 +91,7 @@ a:active {
 }
 .active{
     background-color: #912a2d;
+    box-shadow: rgb(227, 241, 252) 0px 0px 15px;
 }
 .center {
     display: block;
