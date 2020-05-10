@@ -1,7 +1,7 @@
 body {
     max-width: 1200px;
     margin: auto;
-    background-color: rgb(208, 240, 208);
+    background-color: rgb(173, 216, 173);
 }
 
 #icon {
@@ -9,12 +9,13 @@ body {
     margin: 20px 0px -30px 30px;
     max-width: 150px;
     border: 7px solid #912a2d;
-
+    box-shadow: rgb(227, 241, 252) 0px 0px 15px;
 }
 
 #sage {
     max-width: 1200px;
     margin-top: -50px;
+    box-shadow: rgb(227, 241, 252) 0px 0px 15px;
 }
 
 h1 {
@@ -24,6 +25,7 @@ h1 {
     margin-right: 30px;
     color: #912a2d;
     font-variant: small-caps;
+    text-shadow: rgb(227, 241, 252) 3px 3px 5px;
 }
 
 h2 {
@@ -94,6 +96,10 @@ a:active {
 }
 #jessica{
     margin-bottom: 30px;
+    box-shadow: rgb(227, 241, 252) 0px 0px 15px;
+}
+#logo, #color{
+    box-shadow: rgb(227, 241, 252) 0px 0px 15px;
 }
 
 p {
