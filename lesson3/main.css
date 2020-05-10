@@ -88,7 +88,9 @@ a:active {
     color: #F7b605;
     background-color: #599dda;
 }
-
+.active{
+    background-color: #912a2d;
+}
 .center {
     display: block;
     margin-left: auto;
