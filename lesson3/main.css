@@ -33,6 +33,7 @@ h2 {
     font-size: 50px;
     text-align: center;
     color: #912a2d;
+    text-shadow: rgb(227, 241, 252) 3px 3px 5px;
 }
 
 h1 span,
@@ -45,6 +46,7 @@ h3 {
     font-family: "Neucha", Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: #912a2d;
+    text-shadow: rgb(227, 241, 252) 3px 3px 5px;
 }
 
 .regular {
