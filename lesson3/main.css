@@ -9,12 +9,14 @@ body {
     margin: 20px 0px -30px 30px;
     max-width: 150px;
     border: 7px solid #912a2d;
+    box-shadow:  #d0e7fc 0px 0px 10px;
 
 }
 
 #sage {
     max-width: 1200px;
     margin-top: -50px;
+    box-shadow:  #d0e7fc 0px 0px 10px;
 }
 
 h1 {
@@ -24,6 +26,7 @@ h1 {
     margin-right: 30px;
     color: #912a2d;
     font-variant: small-caps;
+    text-shadow: #d0e7fc 3px 3px 5px;
 }
 
 h2 {
@@ -31,6 +34,7 @@ h2 {
     font-size: 50px;
     text-align: center;
     color: #912a2d;
+    text-shadow: #d0e7fc 3px 3px 5px;
 }
 
 h1 span,
@@ -43,6 +47,7 @@ h3 {
     font-family: "Neucha", Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: #912a2d;
+    text-shadow: #d0e7fc 3px 3px 5px;
 }
 
 .regular {
@@ -72,6 +77,7 @@ nav ul {
     background-color: #935153;
     height: 60px;
     width: 1200px;
+    box-shadow:  #d0e7fc 0px 0px 10px;
 }
 
 a:link,
@@ -83,11 +89,13 @@ a:hover,
 a:active {
     color: white;
     background-color: #376186;
+    box-shadow:  #d0e7fc 0px 0px 10px;
 }
 
 .active {
     color: white;
     background-color: #376186;
+    box-shadow:  #d0e7fc 0px 0px 10px;
 }
 
 .center {
@@ -99,6 +107,10 @@ a:active {
 }
 #jessica{
     margin-bottom: 30px;
+    box-shadow:  #d0e7fc 0px 0px 10px;
+}
+#color{
+    box-shadow:  #d0e7fc 0px 0px 10px;
 }
 
 p {
@@ -110,6 +122,7 @@ p {
     background-color: #935153;
     height: 35px;
     width: 1200px;
+    box-shadow:  #d0e7fc 0px 0px 10px;
 }
 
 footer {
@@ -118,6 +131,7 @@ footer {
     height: 60px;
     width: 1200px;
     padding: 10px 0px 20px 0px;
+    box-shadow:  #d0e7fc 0px 0px 10px;
 }
 
 footer p {
@@ -126,11 +140,12 @@ footer p {
 }
 
 .white {
-    color: white;
+    color: rgb(151, 248, 208);
 }
 #logo {
     width: 250px;
 }
+
 
 
 /*This is the code for a medium sized screen *********************************************************
@@ -144,6 +159,7 @@ footer p {
         margin: 20px 0px -5px 20px;
         max-width: 100px;
         border: 5px solid #912a2d;
+        
     
     }
     
@@ -239,6 +255,7 @@ footer p {
         margin-bottom: 200px;
         max-width: 500px;
          background-color: #935153;
+         box-shadow:  #d0e7fc 0px 0px 10px;
     }
     .center {
         text-align: left;
