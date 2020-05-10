@@ -82,12 +82,7 @@ a:visited {
 a:hover,
 a:active {
     color: white;
-    background-color: #054e8f;
-}
-
-.active {
-    color: white;
-    background-color: #054e8f;
+    background-color: #599dda;
 }
 
 .center {
