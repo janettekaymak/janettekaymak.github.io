@@ -106,7 +106,10 @@ a:active {
 #logo, #color, #brad{
     box-shadow: rgb(227, 241, 252) 0px 0px 15px;
 }
-
+hr{
+    background-color:#912a2d;
+    height: 5px;
+}
 p {
     font-family: "Poppins", Helvetica, Arial, sans-serif;
     font-size: 18px;
