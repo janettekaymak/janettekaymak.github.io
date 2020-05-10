@@ -235,14 +235,17 @@ footer p {
     nav ul li a {
         max-width: 500px;
         padding: 20px 50px;
-        text-align: center;
+        margin-left: -50px;
+       
     }
     nav ul {
         display: flex;
         flex-direction: column;
         margin-bottom: 200px;
-        max-width: 500px;
-         background-color: #935153;
+        max-width: 100%;
+        background-color: #935153;
+        text-align: center;
+        
     }
     .center {
         text-align: left;
