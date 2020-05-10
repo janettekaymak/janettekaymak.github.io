@@ -1,7 +1,7 @@
 body {
     max-width: 1200px;
     margin: auto;
-    background-color: rgb(194, 240, 194);
+    background-color: rgb(208, 240, 208);
 }
 
 #icon {
@@ -108,20 +108,18 @@ p {
 }
 
 footer {
-    color: white;
-    background-color: #054e8f;
+    background-color: #599dda;
     height: 60px;
     width: 1200px;
     padding: 10px 0px 20px 0px;
 }
 
 footer p {
-    color: white;
     text-align: center;
 }
 
 .white {
-    color: white;
+    color: black;
 }
 #logo {
     width: 250px;
