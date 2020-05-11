@@ -115,6 +115,7 @@ p {
     font-family: "Poppins", Helvetica, Arial, sans-serif;
     font-size: 18px;
     text-align: center;
+    line-height: 1.35;
 }
 #brownbox {
     background-color: #935153;
@@ -126,7 +127,7 @@ footer {
     background-color: #599dda;
     height: 60px;
     width: 1200px;
-    padding: 10px 0px 20px 0px;
+    padding: 10px 0px 30px 0px;
 }
 
 footer p {
