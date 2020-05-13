@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(173, 216, 173);
+}
+
+header {
+    background-color: #339af5;
+}
+
+h1 {
+    font-family: "Neucha", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    float: right;
+
+    color: #912a2d;
+    font-variant: small-caps;
+    text-shadow: rgb(227, 241, 252) 3px 3px 5px;
+}
+
+nav {
+    background-color: #935153;
+}
+
+nav ul li a {
+    font-family: "Poppins";
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+a:hover,
+a:active {
+    color: #F7b605;
+    background-color: #599dda;
+    box-shadow: rgb(227, 241, 252) 0px 0px 15px;
+}
+
+.active {
+    background-color: #912a2d;
+    box-shadow: rgb(227, 241, 252) 0px 0px 15px;
