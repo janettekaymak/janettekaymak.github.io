@@ -1,37 +1,158 @@
 body {
     background-color: rgb(173, 216, 173);
+    max-width: 500px;
 }
-
 #icon {
-    max-width: 100px;
-    border: 7px solid #912a2d;
+    max-width: 65px;
+    border: 3px solid #912a2d;
     box-shadow: rgb(227, 241, 252) 0px 0px 15px;
 }
-
-#top-h1 {
+h1 {
     font-family: "Neucha", Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    float: right;
-    margin-right: 10px;
+    font-size: 26px;
     color: #912a2d;
     font-variant: small-caps;
     text-shadow: rgb(227, 241, 252) 3px 3px 5px;
 }
-
+#top-h1 {
+    float: right;
+    margin-right: 6px;
+    font-variant: small-caps; 
+}
 #motto {
     float: right;
-    margin-right: 85px;
-    margin-top: -30px;
-    font-family: cursive;
-    
+    margin-right: -210px;
+    margin-top: 41px;
+    font-size: 12px;
+    font-family: "Poppins", cursive, Helvetica;
+    font-style: italic;  
 }
-
 #sage {
     max-width: 100%;
-    margin-top: -6px;
+    margin-top: -6.5px;
+    box-shadow: rgb(227, 241, 252) 0px 0px 15px;
+}
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+    background-color: #935153;
+    margin-top: -17px;
+}
+.active{
+    background-color: #912a2d;
+    box-shadow: rgb(227, 241, 252) 0px 0px 15px;
+}
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    color: white;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+.navigation li:first-child {
+    display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a{
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+.navigation a:hover {
+    color: #F7b605;
+    background-color: #599dda;
+    box-shadow: rgb(227, 241, 252) 0px 0px 15px;
+}
+h2 {
+    font-family: "Neucha", Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: #912a2d;
+    text-align: center;
+    text-shadow: rgb(227, 241, 252) 3px 3px 5px;
+    background-color: rgb(173, 216, 173);
+    margin-bottom: 0px;
+}
+main{
+    background-color: rgb(233, 245, 235);
+   
+}
+.graybox{
+    padding: 10px;
+    margin: 5px 0px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: gray;
+    border: gray dotted 2px;
+    font-size: 15px;
+    background-color: lightgray;
+}
+footer {
+    background-color: #599dda;
+    height: 60px;
+    padding: 7px 10px 0px 10px;
 }
 
-nav {
-    background-color: #935153;
-    margin-top: -15px;
+footer p {
+    font-family: 'Poppins';
+    font-size: 12px;
+    text-align: center;
+    line-height: .5;
 }
+footer a {
+    color: white;
+}
+footer a:hover{
+    color: #F7b605;
+    font-size: 14px;
+
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
+/* Media Query for medium+ views */
+@media only screen and (min-width: 32.5em) {
+    body{
+        max-width: 1200px;
+        margin: auto;
+        background-color: khaki;
+    }
+    
+    
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
