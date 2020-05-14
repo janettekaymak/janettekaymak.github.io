@@ -1,7 +1,6 @@
 /* Media Query for medium+ views */
 @media only screen and (min-width: 805px) {
     body {
-        max-width: 1200px;
         margin: auto;
     }
 
@@ -35,10 +34,6 @@
         font-style: italic;
     }
 
-    nav {
-        max-width: 1200px;
-    }
-
     .navigation {
         display: flex;
     }
@@ -58,7 +53,7 @@
     }
 
     main {
-        max-width: 600px;
+        max-width: 1200px;
         margin: auto;
     }
     h2{
@@ -68,6 +63,7 @@
     .graybox {
         padding: 30px;
         margin: 15px 0px;
+        font-size: 20px;
     }
 
     footer p {
