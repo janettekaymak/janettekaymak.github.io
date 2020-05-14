@@ -78,6 +78,9 @@ nav {
     text-decoration: none;
     color: white;
 }
+.ham a{
+    text-align: center;
+}
 
 .navigation a:hover {
     color: #F7b605;
