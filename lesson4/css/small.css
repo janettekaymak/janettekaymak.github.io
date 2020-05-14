@@ -152,4 +152,11 @@ footer a:hover {
 .responsive li {
     display: block;
 }
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
 
