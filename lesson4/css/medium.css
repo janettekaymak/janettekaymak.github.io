@@ -46,6 +46,7 @@
         font-weight: unset;
         letter-spacing: unset;
         border-top: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
     }
 
     .navigation li:first-child {
