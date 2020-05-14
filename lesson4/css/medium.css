@@ -64,7 +64,7 @@
     }
 
     footer p {
-        font-family: 'Poppins';
+        font-family: 'Poppins', Arial, Helvetica, sans-serif;
         font-size: 16px;
         text-align: center;
     }
@@ -72,7 +72,6 @@
     footer {
         max-width: 700px;
         margin: auto;
-        background-color: #599dda;
         height: 70px;
         padding: 7px 10px 0px 10px;
         border-radius: 10px;
