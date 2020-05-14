@@ -73,7 +73,9 @@ nav {
     padding: 0.75rem;
     text-align: left;
     text-decoration: none;
+    font-weight: lighter;
     color: white;
+    letter-spacing: .1em;
 }
 .ham a{
     text-align: center;
