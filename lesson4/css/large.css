@@ -53,7 +53,7 @@
     }
 
     main {
-        max-width: 1200px;
+        max-width: 1180px;
         margin: auto;
     }
     h2{
@@ -73,10 +73,12 @@
     }
 
     footer {
-        max-width: 1200px;
+        max-width: 1280px;
+        margin: auto;
         background-color: #599dda;
         height: 70px;
         padding: 7px 10px 0px 10px;
+        border-radius: 10px;
     }
     footer a:hover {
         font-size: 20px;
