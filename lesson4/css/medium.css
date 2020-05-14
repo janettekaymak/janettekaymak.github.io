@@ -10,7 +10,8 @@
         max-width: 150px;
         border: 4px solid #912a2d;
     }
-    #sage{
+
+    #sage {
         margin-top: -40px;
         margin-bottom: 5px;
     }
@@ -30,6 +31,20 @@
         font-size: 18px;
     }
 
+    nav {
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,935153+0,912a2d+100 */
+        background: #1e5799;
+        /* Old browsers */
+        background: -moz-linear-gradient(top, #1e5799 0%, #b86668 0%, #792225 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #1e5799 0%, #b86668 0%, #792225 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #1e5799 0%, #b86668 0%, #792225 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#912a2d', GradientType=0);
+        /* IE6-9 */
+    }
+
     .navigation {
         display: flex;
     }
@@ -46,7 +61,7 @@
         font-weight: unset;
         letter-spacing: unset;
         border-top: none;
-        border-right: 1px solid rgba(0,0,0,0.3);
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
     }
 
     .navigation li:first-child {
@@ -57,7 +72,8 @@
         max-width: 600px;
         margin: auto;
     }
-    h2{
+
+    h2 {
         font-size: 35px;
     }
 
@@ -79,6 +95,7 @@
         padding: 7px 10px 0px 10px;
         border-radius: 10px;
     }
+
     footer a:hover {
         font-size: 20px;
         transition: 1s;

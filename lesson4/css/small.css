@@ -76,9 +76,10 @@ nav {
     font-weight: lighter;
     color: white;
     letter-spacing: .1em;
-    border-top: 1px solid rgba(0,0,0,0.3);
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
-.ham a{
+
+.ham a {
     text-align: center;
 }
 
@@ -86,7 +87,7 @@ nav {
     color: #F7b605;
     background-color: #599dda;
     box-shadow: rgb(227, 241, 252) 0px 0px 15px;
-    transition: 1s;
+    transition: 2s;
 }
 
 h2 {
@@ -116,7 +117,18 @@ main {
 }
 
 footer {
-    background-color: #599dda;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,72a9d8+0,0273d6+100 */
+    background: #1e5799;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #1e5799 0%, #a0cbf0 0%, #0273d6 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #1e5799 0%, #a0cbf0 0%, #0273d6 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #1e5799 0%, #a0cbf0 0%, #0273d6 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#0273d6', GradientType=0);
+    /* IE6-9 */
+
     padding: 12px 0px .1px 0px;
 }
 
@@ -142,9 +154,10 @@ footer a:hover {
     font-size: 14px;
     transition: 1s;
 }
+
 #today {
     display: block;
- }
+}
 
 /* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
   <ul class="navigation responsive">
@@ -152,11 +165,10 @@ footer a:hover {
 .responsive li {
     display: block;
 }
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-
+}
