@@ -45,6 +45,7 @@
         text-align: center;
         font-weight: unset;
         letter-spacing: unset;
+        border-top: none;
     }
 
     .navigation li:first-child {
