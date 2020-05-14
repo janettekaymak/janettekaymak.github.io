@@ -17,8 +17,8 @@ body {
     position: absolute;
     margin-top: 10px;
     max-width: 65px;
-    border: 3px solid #912a2d;
-    border-radius: 5px;
+    border: 2px solid #912a2d;
+    border-radius: 10px;
     box-shadow: rgb(227, 241, 252) 0px 0px 15px;
 }
 
