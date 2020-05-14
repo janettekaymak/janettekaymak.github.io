@@ -29,7 +29,8 @@ h1 {
 
 #motto {
     float: right;
-    margin-top: -30px;
+    margin-right: -230px;
+    margin-top: 33px;
     padding-right: 10px;
     font-size: 12px;
     font-family: "Poppins", cursive, Helvetica;
