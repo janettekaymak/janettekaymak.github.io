@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link href="/lesson4/css/small.css" rel="stylesheet"> 
+    <link href="/lesson4/css/small.css" rel="stylesheet">
     <link href="/lesson4/css/medium.css" rel="stylesheet">
     <link href="/lesson4/css/large.css" rel="stylesheet">
 </head>
@@ -21,11 +21,20 @@
         <!---free image found at: https://clipartion.com/free-clipart-19964/--->
         <h1 id="top-h1">Southeastern Idaho Weather</h1>
         <div id="motto">"Sun, rain, or snow...You want to know"</div>
-        <img id="sage" src="images/sagebrush.jpg" alt="Idaho sagebrush with a beautiful blue sky and fluffy white clouds"> 
+        <img id="sage" src="images/sagebrush.jpg"
+            alt="Idaho sagebrush with a beautiful blue sky and fluffy white clouds">
     </header>
     <nav>
         <ul class="navigation">
-            <li class="ham"><a href="#" onclick="toggleMenu()">&#9776; MENU</a></li>
+            <li class="ham"><a href="#" onclick="toggleMenu()">
+                    <div class="container" onclick="myFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                    <script src="js/barX.js">
+                    </script>
+                </a></li>
             <li>
                 <a href="#">Home</a>
             </li>
@@ -52,18 +61,20 @@
         <div class="graybox">Hero w/weather summary</div>
         <div class="graybox">5 Day Forecast</div>
         <div class="graybox">Article</div>
-        <div class="graybox">Contact Information</div>        
+        <div class="graybox">Contact Information</div>
     </main>
     <footer>
         <p>
-            &#169; 2020 - Janette Kaymak - Manhattan, NY<br> 
-<a href=" https://www.byui.edu/online" class="white">BYU-I Online Learning</a>
-                <script src="js/today.js" id="today"></script></p>
-                
-        
+            &#169; 2020 - Janette Kaymak - Manhattan, NY<br>
+            <a href=" https://www.byui.edu/online" class="white">BYU-I Online Learning</a>
+            <script src="js/today.js" id="today"></script>
+        </p>
+
+
     </footer>
     <script src="js/toggleMenu.js"></script>
-    
+    <script src="js/collapse.js"></script>
+
 </body>
 <loom-container id="lo-engage-ext-container"></loom-container>
 

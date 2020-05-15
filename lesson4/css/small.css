@@ -83,6 +83,37 @@ nav {
 
 .navigation li:first-child {
     display: block;
+    height: 45px
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
 }
 
 .navigation li {
@@ -100,15 +131,12 @@ nav {
     border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.ham a {
-    text-align: center;
+.navigation a:hover {
+    color: #f7b605;
 }
 
-.navigation a:hover {
-    color: #F7b605;
-    background-color: #599dda;
-    box-shadow: rgb(227, 241, 252) 0px 0px 15px;
-    transition: 1.5s;
+.ham a {
+    text-align: left;
 }
 
 h2 {
