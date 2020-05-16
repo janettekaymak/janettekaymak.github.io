@@ -122,7 +122,7 @@ nav {
 .navigation a {
     display: block;
     padding: 0.75rem;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     font-weight: lighter;
     color: white;
