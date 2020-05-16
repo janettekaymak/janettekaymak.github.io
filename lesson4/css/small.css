@@ -40,11 +40,11 @@ h1 {
 
 #motto {
     float: right;
-    margin-right: -203px;
+    margin-right: -218px;
     margin-top: 35px;
     padding-right: 10px;
     font-size: 12px;
-    font-family: cursive, Verdana;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 #sage {
