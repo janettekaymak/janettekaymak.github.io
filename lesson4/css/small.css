@@ -55,23 +55,10 @@ h1 {
 
 nav {
     margin: 0 auto;
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#912a2d+0,396d9b+100,207cca+100,2989d8+100,7db9e8+100,207cca+100 */
-    background: #912a2d;
-    /* Old browsers */
-    background: -moz-linear-gradient(top, #912a2d 0%, #396d9b 100%, #207cca 100%, #2989d8 100%, #7db9e8 100%, #207cca 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #912a2d 0%, #396d9b 100%, #207cca 100%, #2989d8 100%, #7db9e8 100%, #207cca 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #912a2d 0%, #396d9b 100%, #207cca 100%, #2989d8 100%, #7db9e8 100%, #207cca 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#912a2d', endColorstr='#207cca', GradientType=0);
-    /* IE6-9 */
-    margin-top: -17px;
-}
-
-.active {
     background-color: #912a2d;
-    box-shadow: rgb(227, 241, 252) 0px 0px 15px;
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #912a2d, #2094ca);
+    margin-top: -17px;
 }
 
 .navigation {
@@ -130,8 +117,10 @@ nav {
     border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.navigation a:hover {
-    color: #f7b605;
+.active {
+    background-color: #a5040a;
+    background-image: linear-gradient(rgb(255, 238, 0), #a5040a);
+    box-shadow: rgb(227, 241, 252) 0px 0px 15px;
 }
 
 .ham a {
@@ -165,17 +154,8 @@ main {
 }
 
 footer {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,72a9d8+0,0273d6+100 */
-    background: #1e5799;
-    /* Old browsers */
-    background: -moz-linear-gradient(top, #1e5799 0%, #a0cbf0 0%, #105b9c 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #1e5799 0%, #a0cbf0 0%, #105b9c 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #1e5799 0%, #a0cbf0 0%, #105b9c 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#0273d6', GradientType=0);
-    /* IE6-9 */
+    background-color: rgb(177, 226, 248);
+    background-image: linear-gradient(rgb(214, 240, 252), rgb(2, 94, 156));
     padding: 12px 0px .1px 0px;
 }
 
