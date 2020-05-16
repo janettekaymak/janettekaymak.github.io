@@ -1,6 +1,6 @@
 body {
 
-    background-color: lemonchiffon;
+    background-color: #e4f7cd;
     background-image: radial-gradient(rgb(253, 252, 242), lemonchiffon, #e4f7cd, darkseagreen, rgb(253, 252, 242));
     margin: auto;
 }
@@ -145,7 +145,7 @@ main {
 }
 
 footer {
-    background-color: #e4f7cd;
+    background-color: #9b5153;
     background-image: linear-gradient(rgb(214, 240, 252), rgb(2, 94, 156));
     padding: 12px 0px .1px 0px;
     box-shadow: rgb(227, 241, 252) 0px 0px 15px;
@@ -160,7 +160,7 @@ footer p {
 }
 
 footer a {
-    background-color: #912a2d;
+    background-color: #a5040a;
     padding: 2px 3px;
     border-radius: 5px;
     color: white;
