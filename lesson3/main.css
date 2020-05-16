@@ -100,6 +100,11 @@ a:active {
     width: 500px;
     text-align: justify;
 }
+/*#borderimg { 
+    border: 40px solid transparent;
+    padding: 2px;
+    border-image: url(/lesson3/images/sunborder.png) 140 round;
+  }*/
 #jessica{
     margin-bottom: 30px;
     box-shadow: rgb(227, 241, 252) 0px 0px 15px;
