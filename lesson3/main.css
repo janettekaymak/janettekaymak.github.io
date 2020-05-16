@@ -214,16 +214,17 @@ footer p {
         max-width: 500px;
     }
     #icon{
+        max-width: 90px;
         position: absolute;
     }
     
     h1 {
-        font-size: 35px;
-        margin: 130px 20px 0px 20px;
+        font-size: 20px;
+        margin: 25px 15px 0px 20px;
         text-align: center;
     }
     h2 {
-        font-size: 28px;
+        font-size: 18px;
         margin-top: 200px;
     }
     h1 span,
