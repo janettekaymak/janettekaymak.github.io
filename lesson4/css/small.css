@@ -110,7 +110,7 @@ nav {
 
 .active {
     background-color: #a5040a;
-    background-image: linear-gradient(rgb(255, 238, 0), #a5040a);
+    background-image: linear-gradient( #a5040a, rgb(255, 238, 0));
     box-shadow: rgb(227, 241, 252) 0px 0px 15px;
 }
 
