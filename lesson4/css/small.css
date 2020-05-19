@@ -60,7 +60,7 @@ nav {
 
 .navigation li:first-child {
     display: block;
-    height: 45px
+    height: 45px;
 }
 
 .container {
@@ -68,7 +68,11 @@ nav {
     cursor: pointer;
     margin-top: -10px;
 }
+#menu{
+    margin-top: 2px;
+    margin-left: 10px;
 
+}
 .bar1,
 .bar2,
 .bar3 {
