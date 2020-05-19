@@ -40,16 +40,14 @@ h1 {
 }
 
 #sage {
-    max-width: 100%;
-    margin-top: -7px;
-    box-shadow: rgb(227, 241, 252) 0px 0px 15px;
+    display: none;
 }
 
 nav {
     margin: 0 auto;
     background-color: #9b5153;
     background-image: linear-gradient(to right, #912a2d, #2094ca);
-    margin-top: -17px;
+    margin-top: -20px;
 }
 
 .navigation {

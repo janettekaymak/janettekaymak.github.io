@@ -9,6 +9,10 @@
     }
 
     #sage {
+        display: inline-block;
+        max-width: 100%;
+        margin-top: -7px;
+        box-shadow: rgb(227, 241, 252) 0px 0px 15px;
         margin-top: -25px;
         margin-bottom: 5px;
     }
