@@ -133,6 +133,9 @@ main {
     max-width: 500px;
     margin: auto;
 }
+#rodeo{
+    max-width: 100%;
+}
 
 .graybox {
     padding: 10px;
