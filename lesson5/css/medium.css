@@ -59,7 +59,7 @@
     .navigation a:hover {
         background-color: #f8bf03;
         background-image: linear-gradient(#a5040a, rgb(255, 238, 0));
-        box-shadow: rgb(227, 241, 252) 0px 0px 55px;
+        box-shadow: lemonchiffon 0px 0px 55px;
         transition: 1s;
     }
 

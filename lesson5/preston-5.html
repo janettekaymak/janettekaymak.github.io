@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link href="/lesson5/css/small.css" rel="stylesheet">
-    <link href="/lesson5/css/medium.css" rel="stylesheet">
-    <link href="/lesson5/css/large.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
     <script src="/lesson4/js/toggleMenu.js" defer></script>
     <link rel="shortcut icon" href="/lesson4/sunny.ico">
 </head>
@@ -25,12 +25,12 @@
         <div id="motto">"Sun, rain, or snow...You want to know"</div>
         <img id="sage" src="/lesson4/images/shortsage.jpg"
             alt="Idaho sagebrush with a beautiful blue sky and fluffy white clouds">
-            <!--Image is part of my personal collection-->
+        <!--Image is part of my personal collection-->
     </header>
     <nav>
         <ul class="navigation">
             <li class="ham">
-                <div class="container" id="menu" onclick="myFunction(this)">
+                <div class="container" id="menu">
                     <div class="bar1"></div>
                     <div class="bar2"></div>
                     <div class="bar3"></div>
@@ -59,17 +59,47 @@
     </nav>
     <main>
         <h2>Preston Idaho</h2>
-        <div><img id="rodeo" src="/lesson4/images/smallrodeo.jpg" alt="rodeo scene"></div>
-        <!---Photo by Andre Ouellet on Unsplash and then modified by me in Adobe Photoshop-->
-        <div class="graybox">5 Day Forecast</div>
-        <div class="graybox">Article</div>
+        <div class="hero-box">
+            <div class="hero">
+                <img id="rodeo" src="images/rodeo.jpg" alt="rodeo scene">
+                <!---Photo by Andre Ouellet on Unsplash, and then modified by me in Adobe Photoshop-->
+            </div>
+            <section class="weather-summary">
+                <h3>Weather Summary</h3>
+                <p>Label: <span>Value</span></p>
+                <p>Label: <span>Value</span></p>
+                <p>Label: <span>Value</span></p>
+                <p>Label: <span>Value</span></p>
+            </section>
+        </div>
+        <div id="fiveday">5 Day Forecast</div>
+        <div class="article-box">
+            <div class="article">
+                <h2>Campgrounds Opening</h2>
+                <p>Dozens of Idaho campgrounds will be open just in time for Memorial Day weekend, officials at various
+                    Idaho national forests announced last week. But many others will remain closed — some, as usual,
+                    because of snowy mountain conditions, but some because of the coronavirus pandemic.</p>
+
+                <p>For weeks, campsites were among the areas of Idaho national forests that were closed to prevent
+                    spread of the coronavirus. Some U.S. Forest Service-managed hot springs outside of Boise are still
+                    closed, and the Forest Service has directed visitors to keep their groups to 10 people or fewer. But
+                    the agency made it a point to try to reopen campsites by Memorial Day weekend, which is often
+                    considered the start of camping season.</p>
+
+                <p>“We’ve been trying to figure out basically from the beginning how we could get our campgrounds open
+                    for Memorial Day, because we know how important it is to our communities with that being the kickoff
+                    to the camping season,” said Danelle Highfill, recreation manager for the Boise National Forest.
+                    <a href="https://www.idahostatesman.com/outdoors/camping/article242745156.html">Idaho Statesman</a>
+                </p>
+            </div>
+        </div>
         <div class="graybox">Contact Information</div>
     </main>
     <footer>
         <p>
             &#169; 2020 - Janette Kaymak - Manhattan, NY<br>
             <a href=" https://www.byui.edu/online" class="white">BYU-I Online Learning</a>
-            <script src="js/today.js" id="today" defer></script>
+            <script src="/lesson4/js/today.js" id="today" defer></script>
         </p>
     </footer>
 </body>
