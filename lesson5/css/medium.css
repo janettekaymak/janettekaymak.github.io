@@ -1,6 +1,15 @@
 /* Media Query for medium+ views */
 
 @media screen and (min-width: 768px) {
+    #pancakes{
+        background-color: #f8d303;
+            font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 16px;
+            padding: 3px;
+            margin: 0 95px 0 305px;
+            border-radius: 5px;
+            box-shadow: lemonchiffon 0px 0px 55px;
+    }
     #icon {
         margin: 0px 20px;
         max-width: 150px;
@@ -79,6 +88,7 @@
         font-size: 25px;
     }
     #preston{
+        padding: 20px;
         float: none;
         margin: 0;
         line-height: 1;

@@ -4,6 +4,13 @@ body {
     /*background-image: radial-gradient(white, #cdf1f7,#cdf1f7, rgb(146, 201, 247), white, white);*/
     margin: auto;
 }
+#pancakes{
+    background-color: #f8d303;
+        font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+        padding: 0 2px;
+        text-align: center;
+}
 
 #icon {
     position: -webkit-sticky;
@@ -26,7 +33,7 @@ h1 {
 #top-h1 {
     float: right;
     margin-top: 10px;
-    margin-right: 6px;
+    margin-right: 10px;
     font-variant: small-caps;
 }
 
@@ -164,6 +171,11 @@ span{
     margin-top: 15px;
     font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1;
+}
+p{
+    font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    text-align: justify;
 }
 .weather-summary{
     position: absolute;
