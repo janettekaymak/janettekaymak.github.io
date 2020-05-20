@@ -1,11 +1,10 @@
 body {
     background-color: #e4f7cd;
     background-image: radial-gradient(rgb(253, 252, 242), lemonchiffon, #e4f7cd, darkseagreen, rgb(253, 252, 242));
-    /*background-image: radial-gradient(white, #cdf1f7,#cdf1f7, rgb(146, 201, 247), white, white);*/
     margin: auto;
 }
 #pancakes{
-    background-color: #f8d303;
+    background-color: lemonchiffon;
         font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
         font-size: 16px;
         padding: 0 2px;
@@ -187,6 +186,7 @@ p{
     padding: 0 15px;
     max-width: 50%;
     border-radius: 15px;
+    box-shadow: 0 0 55px lemonchiffon;
 }
 #rodeo{
     max-width: 550px;

@@ -1,15 +1,19 @@
 /* Media Query for medium+ views */
 
 @media screen and (min-width: 768px) {
-    #pancakes{
-        background-color: #f8d303;
-            font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 16px;
-            padding: 3px;
-            margin: 0 95px 0 305px;
-            border-radius: 5px;
-            box-shadow: lemonchiffon 0px 0px 55px;
+    body {
+        /*background-image: radial-gradient(white, rgb(248, 235, 115), white, white, white, #e4f7cd, darkseagreen);
+        /*background-image: radial-gradient(rgb(253, 252, 242), lemonchiffon, #e4f7cd, darkseagreen, rgb(253, 252, 242));
+        /*background-image: radial-gradient(white, #cdf1f7,#cdf1f7, rgb(146, 201, 247), white, white);*/
     }
+
+    #pancakes {
+        padding: 3px;
+        margin: 0 95px 0 305px;
+        border-radius: 5px;
+        box-shadow: lemonchiffon 0px 0px 55px;
+    }
+
     #icon {
         margin: 0px 20px;
         max-width: 150px;
@@ -84,25 +88,31 @@
     h2 {
         font-size: 35px;
     }
-    h3{
+
+    h3 {
         font-size: 25px;
     }
-    #preston{
+
+    #preston {
         padding: 20px;
         float: none;
         margin: 0;
         line-height: 1;
-        margin-bottom: 30px;;
+        margin-bottom: 30px;
+        ;
     }
-    .weather-summary{
+
+    .weather-summary {
         top: 25px;
         left: 25px;
         max-width: 20%;
     }
-    #rodeo{
+
+    #rodeo {
         display: none;
     }
-    #widerodeo{
+
+    #widerodeo {
         display: inline;
         position: relative;
         max-width: 100%;
