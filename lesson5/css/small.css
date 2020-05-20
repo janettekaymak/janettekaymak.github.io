@@ -68,7 +68,7 @@ nav {
 }
 #menu{
     margin-top: -0px;
-    margin-left: 10px;
+    margin-left: 20px;
 
 }
 .bar1,
@@ -128,6 +128,11 @@ h2 {
     text-shadow: rgb(227, 241, 252) 3px 3px 5px;
     margin-bottom: 0px;
 }
+#preston{
+    float: right;
+    margin-right: 50px;
+    line-height: 2;
+}
 
 main {
     max-width: 500px;
@@ -135,7 +140,7 @@ main {
 }
 h3 {
     font-family: "Neucha", fantasy, cursive;
-    font-size: 2px;
+    font-size: 18px;
     color: #912a2d;
     text-align: center;
     text-shadow: rgb(227, 241, 252) 3px 3px 5px;
@@ -143,11 +148,12 @@ h3 {
 }
 .hero-box{
     position: relative;
+    margin-top: -25px;;
 }
 .hero-box h3 {
     margin-top: 5px;
     font-family: "Neucha", fantasy, cursive;
-    font-size: 18px;
+    font-size: 20px;
     color: rgb(253, 215, 1);
     text-shadow: rgb(1, 59, 99) 2px 2px 2px;
 }
@@ -157,23 +163,23 @@ span{
 }
 
 .hero-box p{
-    margin-top: 5px;
+    margin-top: 15px;
     font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
-    line-height: .5;
+    line-height: 1;
 }
 .weather-summary{
     position: absolute;
-    top: 17px;
+    top: 20px;
     left: 10px;
     background-color: rgba(3, 128, 201, 0.7);
     border: rgb(1, 82, 136) solid 2px;
     color: white;
     padding: 0 15px;
-    max-width: 27%;
+    max-width: 25%;
     border-radius: 15px;
 }
 #rodeo{
-    max-width: 385px;
+    max-width: 100%;
     border-radius: 5px;
 }
 #widerodeo{

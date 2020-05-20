@@ -40,6 +40,18 @@
     h2 {
         font-size: 45px;
     }
+    h3{
+        font-size: 35px;
+    }
+    .weather-summary{
+        top: 50px;
+        left: 75px;
+        font-size: 18px;
+    }
+    .hero-box h3 {
+        margin-top: 5px;
+        font-size: 35px;
+    }
     #widerodeo{
         display: inline;
         position: relative;
