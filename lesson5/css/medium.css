@@ -76,7 +76,12 @@
         font-size: 35px;
     }
     #rodeo{
-        min-width: 100%;
+        display: none;
+    }
+    #widerodeo{
+        display: inline;
+        position: relative;
+        max-width: 100%;
         border-radius: 15px;
     }
 

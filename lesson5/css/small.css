@@ -176,6 +176,9 @@ span{
     max-width: 385px;
     border-radius: 5px;
 }
+#widerodeo{
+    display: none;
+}
 #fiveday{
     display: none;
 }

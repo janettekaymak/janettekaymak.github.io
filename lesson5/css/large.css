@@ -40,6 +40,12 @@
     h2 {
         font-size: 45px;
     }
+    #widerodeo{
+        display: inline;
+        position: relative;
+        min-width: 100%;
+        border-radius: 15px;
+    }
 
     .graybox {
         padding: 30px;
