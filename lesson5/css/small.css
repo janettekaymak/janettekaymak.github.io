@@ -205,11 +205,11 @@ p{
     max-width: 100%;
 }
 
-.graybox {
-    padding: 10px;
-    margin: 10px 0px;
+.graybox p{
+    padding: 40px 15px;
+    margin: 20px 25px;
     font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
+    text-align: center;
     color: dimgray;
     border: lightgray dotted 2px;
     border-radius: 10px;
