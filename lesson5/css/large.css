@@ -1,6 +1,13 @@
 /* Media Query for large+ views */
 
 @media screen and (min-width: 1200px) {
+    #pancakes {
+        font-size: 18px;
+        padding: 10px;
+        margin: 20px 40px 0 325px;
+        border-radius: 5px;
+        box-shadow: lemonchiffon 0px 0px 55px;
+    }    
 
     #icon {
         min-width: 230px;
@@ -74,21 +81,34 @@
         margin-top: -720px;
     }
     #contact{
-        margin-left: 50px;
+        display: block;
+        max-width: 1200px;
+    }
+    .graybox{
+        position: relative;
+        float: right;
+        margin-top: -370px;
+        margin-right: 25px;
+    }
+    .graybox p{
+        line-height: 1.5;
+        height: 200px
     }
     #map1{
-        max-width: 100%;
+        min-width: 48%;
     }
 
      .social {
-        margin-left: 85px;
+        float: right;
+        margin-top: -55px;
+        padding: 20px 90px 0 40px;
     }
     footer p {
         font-size: 16px;
     }
 
     footer {
-        max-width: 900px;
+        max-width: 1200px;
         margin-bottom: 5px;
     }
 
