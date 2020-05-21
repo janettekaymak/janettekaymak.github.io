@@ -203,6 +203,7 @@ p{
 }
 .article-wide a:hover{
     color: blue;
+    text-shadow: blue 2px 2px 3px;
 }
 #tent{
     max-width: 100%;
