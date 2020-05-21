@@ -124,6 +124,7 @@
     table {
         margin: auto;
         font-family: "Poppins", arial, sans-serif;
+        font-size: 15px;
         border-collapse: collapse;
         width: 65%;
         margin-bottom: 65px;;
@@ -158,13 +159,27 @@
         float: right;
         margin-top: -675px;
     }
-
-    .graybox {
-        padding: 20px;
-        margin: 15px 0px;
-        font-size: 18px;
+    #contact{
+        display: flex;
+    }
+    #map1{
+        display: inline-block;
+        max-width: 365px;
+        border-radius: 15px;
+        margin-bottom: -5px;
+    }
+    .graybox{
+        min-width: 40%;
+        margin: 0 -20px 0 20px;
     }
 
+     .social {
+        margin-left: 45px;
+    }
+
+    #map{
+        display: none;
+    }
     footer p {
         font-size: 16px;
         text-align: center;

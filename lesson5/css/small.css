@@ -225,18 +225,19 @@ p{
     position: relative;
     margin-left: 40px;
 }
-.social a:link, a:visited{
-    border: rgb(253, 252, 242) solid 5px;
-    
+.social a:link, a:visited{   
 
 }
 .social a:hover{
-   border: cyan solid 5px;
+   background-color: cyan;
    transition: 1.5s;
-   box-shadow: yellow 0 0 30px;
+}
+#map1{
+    display: none;
 }
 #map{
-    max-width: 100%;
+    min-width: 100%;
+    margin-bottom: -5px;
 }
 footer {
     background-color: #9b5153;
