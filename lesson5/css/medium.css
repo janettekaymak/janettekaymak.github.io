@@ -117,6 +117,7 @@
         position: relative;
         max-width: 100%;
         border-radius: 15px;
+        box-shadow: 0 0 30px gray;
     }
     #fiveday{
         display: block;
@@ -143,7 +144,7 @@
           font-size: 30px;
       }
     .article-box{
-        display: inline-flexbox;
+        display: inline;
         flex-wrap: wrap;
         margin-top: -25px;
     }
@@ -158,6 +159,7 @@
         border-radius: 15px;
         float: right;
         margin-top: -675px;
+        box-shadow: 0 0 30px gray;
     }
     #contact{
         display: flex;
