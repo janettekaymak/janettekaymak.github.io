@@ -154,6 +154,9 @@
     .article, .article-wide{
         margin: 35px 0px;
     }
+    .article-wide a:hover{
+        color: cyan;
+    }
     #tent{
         max-width: 50%;
         border-radius: 15px;
