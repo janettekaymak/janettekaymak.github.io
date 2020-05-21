@@ -204,19 +204,40 @@ p{
 #tent{
     max-width: 100%;
 }
-
-.graybox p{
-    padding: 40px 15px;
+.graybox{
+    padding: 20px 15px;
     margin: 20px 25px;
-    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    color: dimgray;
     border: lightgray dotted 2px;
     border-radius: 10px;
-    font-size: 15px;
     background-color: white;
 }
 
+.graybox p{
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: dimgray;
+    font-size: 15px;
+}
+.graybox a img{
+    margin: 5px;
+}
+ .social {
+    position: relative;
+    margin-left: 40px;
+}
+.social a:link, a:visited{
+    border: rgb(253, 252, 242) solid 5px;
+    
+
+}
+.social a:hover{
+   border: cyan solid 5px;
+   transition: 1.5s;
+   box-shadow: yellow 0 0 30px;
+}
+#map{
+    max-width: 100%;
+}
 footer {
     background-color: #9b5153;
     background-image: linear-gradient(rgb(214, 240, 252), rgb(2, 94, 156));
