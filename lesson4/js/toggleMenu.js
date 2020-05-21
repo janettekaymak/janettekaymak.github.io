@@ -5,4 +5,4 @@ const menu = document.getElementById('menu');
 hambutton.addEventListener('click'), () => {
     mainnav.classList.toggle('responsive');
     menu.classList.toggle("change");
-}, false);
+}, false;
