@@ -81,12 +81,12 @@
     }
 
     main {
-        max-width: 600px;
+        max-width: 700px;
         margin: auto;
     }
 
     h2 {
-        font-size: 35px;
+        font-size: 40px;
     }
 
     h3 {
@@ -117,6 +117,46 @@
         position: relative;
         max-width: 100%;
         border-radius: 15px;
+    }
+    #fiveday{
+        display: block;
+    }
+    table {
+        margin: auto;
+        font-family: "Poppins", arial, sans-serif;
+        border-collapse: collapse;
+        width: 65%;
+        margin-bottom: 65px;;
+      }
+      
+      td, th {
+        border: 1px solid black;
+        text-align: center;
+        padding: 8px;
+      }
+      
+      tr:nth-child(odd) {
+        background-color: darkseagreen;
+      }
+     .emoji{
+          font-size: 30px;
+      }
+    .article-box{
+        display: inline-flexbox;
+        flex-wrap: wrap;
+        margin-top: -25px;
+    }
+    .article{
+        max-width: 45%;
+    }
+    .article, .article-wide{
+        margin: 35px 0px;
+    }
+    #tent{
+        max-width: 50%;
+        border-radius: 15px;
+        float: right;
+        margin-top: -675px;
     }
 
     .graybox {

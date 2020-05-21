@@ -173,7 +173,6 @@ span{
 }
 p{
     font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 1.5;
     text-align: justify;
 }
 .weather-summary{
@@ -197,6 +196,13 @@ p{
 }
 #fiveday{
     display: none;
+}
+.article, .article-wide {
+    margin: 0 20px;
+    line-height: 1.5;
+}
+#tent{
+    max-width: 100%;
 }
 
 .graybox {
