@@ -8,11 +8,9 @@
     }
 
     #pancakes {
-        padding: 3px;
-        margin: 0 20px 0 305px;
-        border-radius: 5px;
-        box-shadow: lemonchiffon 0px 0px 55px;
-    }
+        font-size: 18px;
+        padding: 10px;
+    }  
 
     #icon {
         margin: 0px 20px;

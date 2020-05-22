@@ -1,11 +1,6 @@
 /* Media Query for large+ views */
 
-@media screen and (min-width: 1200px) {
-    #pancakes {
-        font-size: 18px;
-        padding: 10px;
-        margin: 20px 40px 0 325px;
-    }    
+@media screen and (min-width: 1200px) {  
 
     #icon {
         min-width: 230px;
