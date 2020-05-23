@@ -209,6 +209,9 @@ p{
     color: blue;
     text-shadow: blue 2px 2px 3px;
 }
+ .google-maps{
+     display: none;
+ }
 #tent{
     max-width: 100%;
 }
