@@ -168,14 +168,7 @@
         border-radius: 15px;
         margin-bottom: -5px;
         box-shadow: 0 0 30px gray;
-    }
-    .google-maps{
-        display: block;
-    }
-    .google-maps a:hover{
-        color: blue;
-        text-shadow: blue 2px 2px 3px;
-    }
+    } 
     .graybox{
         min-width: 40%;
         margin: 0 -20px 0 20px;

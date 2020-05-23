@@ -210,8 +210,17 @@ p{
     text-shadow: blue 2px 2px 3px;
 }
  .google-maps{
-     display: none;
+    display: block;
+    position: absolute;
+    font-size: 24px;
+    text-shadow: 2px 2px 2px;
+    top: 2080px;
+    left: 20px; 
  }
+ .google-maps a:hover{
+    color: blue;
+    text-shadow: blue 2px 2px 3px;
+}
 #tent{
     max-width: 100%;
 }
