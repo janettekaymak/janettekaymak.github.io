@@ -91,6 +91,9 @@
     #map1{
         min-width: 48%;
     }
+    .google-maps{
+        margin-left: 45px;
+    }
 
      .social {
         float: right;
