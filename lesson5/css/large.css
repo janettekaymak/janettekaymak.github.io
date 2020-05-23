@@ -80,12 +80,13 @@
     .graybox{
         position: relative;
         float: right;
-        margin-top: -370px;
-        margin-right: 25px;
+        height: 315px;
+        margin-top: -420px;
+        margin-right: 5px;
     }
     .graybox p{
         line-height: 1.5;
-        height: 200px
+        height: 185px;
     }
     #map1{
         min-width: 48%;

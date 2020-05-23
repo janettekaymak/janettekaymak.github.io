@@ -205,22 +205,20 @@ p{
     margin: 0 20px;
     line-height: 1.5;
 }
-.article-wide a:hover{
+.article-wide a:hover, .google-maps a:hover{
     color: blue;
     text-shadow: blue 2px 2px 3px;
+}
+#big{
+    display: none;
 }
  .google-maps{
-    display: block;
-    position: absolute;
-    font-size: 24px;
-    text-shadow: 2px 2px 2px;
-    top: 2080px;
-    left: 20px; 
+    position: relative;
+    font-size: 19px;
+    text-align: center;
+    text-shadow: 2px 2px 2px; 
  }
- .google-maps a:hover{
-    color: blue;
-    text-shadow: blue 2px 2px 3px;
-}
+
 #tent{
     max-width: 100%;
 }
@@ -244,7 +242,7 @@ p{
 }
  .social {
     position: relative;
-    margin-left: 40px;
+    margin-left: 55px;
 }
 .social a:link, a:visited{   
 

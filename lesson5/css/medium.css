@@ -161,19 +161,31 @@
     }
     #contact{
         display: flex;
+        margin-top: 60px;
     }
     #map1{
-        display: inline-block;
+        display: block;
         max-width: 365px;
         border-radius: 15px;
         margin-bottom: -5px;
         box-shadow: 0 0 30px gray;
     } 
+    
     .graybox{
         min-width: 40%;
+        height: 270px;
         margin: 0 -20px 0 20px;
         box-shadow: 0 0 transparent;
     }
+    .google-maps{
+        margin-left: 15px;
+    }
+    #small{
+        display: none;
+     }
+     #big{
+         display: inline-block;
+     }
 
      .social {
         margin-left: 45px;
@@ -190,8 +202,7 @@
     footer {
         max-width: 800px;
         margin: auto;
-        margin-bottom: 60px;
-        margin-top: 40px;
+        margin-top: 25px;
         height: 70px;
         padding: 7px 10px 0px 10px;
         border-radius: 10px;
