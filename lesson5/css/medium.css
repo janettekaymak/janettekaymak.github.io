@@ -134,13 +134,12 @@
         text-align: center;
         padding: 8px;
       }
-      
-      tr:nth-child(even) {
-        background-color: rgb(5, 144, 199);
-        color: white;
+     
+      tr:nth-child(odd) {
+        background-color: darkseagreen;
       }
      .emoji{
-          font-size: 30px;
+          font-size: 70px;
       }
     .article-box{
         display: inline;
