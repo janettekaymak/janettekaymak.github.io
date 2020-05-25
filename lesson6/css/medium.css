@@ -136,7 +136,12 @@
       }
      
       tr:nth-child(odd) {
-        background-color: darkseagreen;
+        background-color: #9cfa84;
+      }
+      tr:nth-child(even) {
+        background-color: rgb(18, 50, 80);
+        background-image: linear-gradient(rgb(0, 12, 22), rgb(30, 94, 155));
+        color: white;
       }
      .emoji{
           font-size: 70px;
