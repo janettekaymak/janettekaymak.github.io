@@ -181,8 +181,8 @@ p{
 }
 .weather-summary{
     position: absolute;
-    top: 75px;
-    left: 15px;
+    top: 20px;
+    left: 20px;
     background-color: rgba(3, 128, 201, 0.7);
     border: rgb(1, 82, 136) solid 2px;
     color: white;

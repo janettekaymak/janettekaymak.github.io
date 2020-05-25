@@ -97,25 +97,15 @@
         margin: 0;
         line-height: 1;
         margin-bottom: 30px;
-        ;
     }
-
+    .border-shadow{
+        border-radius: 15px;
+        box-shadow: 0 0 30px gray;
+    }
     .weather-summary {
         top: 25px;
         left: 25px;
         max-width: 20%;
-    }
-
-    #rodeo {
-        display: none;
-    }
-
-    #widerodeo {
-        display: inline;
-        position: relative;
-        max-width: 100%;
-        border-radius: 15px;
-        box-shadow: 0 0 30px gray;
     }
     #fiveday{
         display: block;

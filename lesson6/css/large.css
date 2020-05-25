@@ -45,18 +45,12 @@
     }
     .weather-summary{
         top: 50px;
-        left: 75px;
+        left: 50px;
         font-size: 18px;
     }
     .hero-box h3 {
         margin-top: 5px;
         font-size: 35px;
-    }
-    #widerodeo{
-        display: inline;
-        position: relative;
-        min-width: 100%;
-        border-radius: 15px;
     }
     table{
         font-size: 18px;
