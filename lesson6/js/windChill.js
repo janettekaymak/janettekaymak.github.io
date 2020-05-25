@@ -7,7 +7,7 @@
     if (hightemp <= 50 && windspeed > 3) {
        windchill = Math.round(windchill);
     } else {
-       windchill = "None";
+       windchill = "N/A";
     }
     document.getElementById('windchill').innerHTML = windchill;
   }());
