@@ -105,7 +105,12 @@
     .weather-summary {
         top: 25px;
         left: 25px;
-        max-width: 20%;
+    }
+    .weather-summary p{
+        font-size: 18px;
+    } 
+    .hero-box h3 {
+        font-size: 30px;
     }
     #fiveday{
         display: block;
@@ -120,13 +125,20 @@
       }
       
       td, th {
-        border: 1px solid black;
+        border: 1px solid white;
         text-align: center;
         padding: 8px;
       }
      
       tr:nth-child(odd) {
-        background-color: darkseagreen;
+        background-color: rgb(57, 121, 57);
+        color: white;
+      }
+      tr:nth-child(even) {
+        background-color: rgb(2, 48, 75);
+        background-image: linear-gradient(rgb(0, 3, 5), #0284c0);
+        
+        color: white;
       }
      .emoji{
           font-size: 70px;

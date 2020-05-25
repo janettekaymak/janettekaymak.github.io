@@ -165,7 +165,7 @@ h3 {
     color: rgb(253, 215, 1);
     text-shadow: rgb(1, 59, 99) 2px 2px 2px;
 }
-span{
+#yellow{
    color: rgb(253, 215, 1); 
    text-shadow: rgb(1, 59, 99) 2px 2px 2px;
 }
@@ -181,8 +181,8 @@ p{
 }
 .weather-summary{
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 15px;
+    left: 15px;
     background-color: rgba(3, 128, 201, 0.7);
     border: rgb(1, 82, 136) solid 2px;
     color: white;

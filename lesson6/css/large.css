@@ -44,13 +44,15 @@
         font-size: 35px;
     }
     .weather-summary{
-        top: 50px;
-        left: 50px;
-        font-size: 18px;
+        top: 30px;
+        left: 30px;
     }
+    .weather-summary p{
+        font-size: 20px;
+    } 
     .hero-box h3 {
         margin-top: 5px;
-        font-size: 35px;
+        font-size: 40px;
     }
     table{
         font-size: 18px;
