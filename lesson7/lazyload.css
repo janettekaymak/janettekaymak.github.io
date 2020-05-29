@@ -18,7 +18,14 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 1.5;
-    text-align: justify;
+    
+}
+[data-src] {
+    min-width: 50px;
+    min-height: 50px;
+}
+figure{
+    margin-left: 0px;
 }
 figurecaption{
     font-family: Arial, Helvetica, sans-serif;
@@ -33,11 +40,4 @@ footer p{
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     border-radius: 20px;
-}
-[data-src] {
-    min-width: 50px;
-    min-height: 50px;
-}
-figure{
-    margin-left: 0px;
 }
