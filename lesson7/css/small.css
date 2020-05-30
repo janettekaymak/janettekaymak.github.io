@@ -129,23 +129,16 @@ h2 {
     margin-bottom: 0px;
 }
 
-main {
-    max-width: 350px;
-    margin: auto;
-}
-containerb {
+main, .containerb {
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    max-width: 350px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+.gallery{
+    width: 100%;
 }
 
-figure {
-    margin: 10px;
-    padding: 20px;
-}
 figcaption{
     display: none;
 }

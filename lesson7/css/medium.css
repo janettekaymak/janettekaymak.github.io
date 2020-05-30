@@ -69,34 +69,30 @@
     }
 
     main {
-        max-width: 800px;
+        max-width: 1080px;
         margin: auto;
     }
 
     h2 {
         font-size: 40px;
     }
-
     .containerb {
-        justify-content: center;
-        align-items: center;
-        margin: auto;
+        margin: 40px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        max-width: 1090px;
+        max-width: 1080px;
     }
-
     figure {
-        margin: 10px;
+        margin: 5px;
         border-radius: 15px;
-        padding: 20px;
+        padding: 15px ;
     }
-
+    
     .gallery {
         border-radius: 15px;
     }
-
-
+    
+   
     footer p {
         font-size: 16px;
         text-align: center;
