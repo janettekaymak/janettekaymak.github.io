@@ -50,3 +50,9 @@ footer p{
     padding: 10px;
     border-radius: 20px;
 }
+/* Saving this here for later. It's for centering stuff
+.parent-selector {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}*/
