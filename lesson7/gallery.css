@@ -1,0 +1,38 @@
+.containerb {
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    display:grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    max-width: 1200px;}
+
+figcaption{
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.gallery{
+    border-radius: 15px;
+}
+.gallery:hover{
+    box-shadow: 0 0 50px rgb(105, 139, 105);
+    transition: 1s;
+}
+
+@media screen and (max-width: 1090px) {
+    .containerb{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+@media screen and (max-width: 750px) {
+    .containerb{
+        grid-template-columns: 1fr;
+        max-width: 350px;
+        margin: auto;
+    }
+    .gallery:hover{
+        box-shadow: 0 0 50px transparent;
+
+    }
+}
+
