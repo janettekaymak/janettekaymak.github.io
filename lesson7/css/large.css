@@ -60,12 +60,8 @@
     figure {
         margin: 10px;
         background-color: white;
-        border-radius: 15px;
         padding: 20px;
-    }
-    
-    .gallery {
-        border-radius: 15px 15px 0 0;
+        border-radius: 5px;
     }
     
     .gallery:hover {

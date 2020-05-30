@@ -84,12 +84,11 @@
     }
     figure {
         margin: 5px;
-        border-radius: 15px;
         padding: 15px ;
     }
     
     .gallery {
-        border-radius: 15px;
+        border-radius: 10px;
     }
     
    
