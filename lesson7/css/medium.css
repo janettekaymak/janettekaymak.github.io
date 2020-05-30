@@ -1,16 +1,6 @@
 /* Media Query for medium+ views */
 
 @media screen and (min-width: 768px) {
-    body {
-        /*background-image: radial-gradient(white, rgb(248, 235, 115), white, white, white, #e4f7cd, darkseagreen);
-        /*background-image: radial-gradient(rgb(253, 252, 242), lemonchiffon, #e4f7cd, darkseagreen, rgb(253, 252, 242));
-        /*background-image: radial-gradient(white, #cdf1f7,#cdf1f7, rgb(146, 201, 247), white, white);*/
-    }
-
-    #pancakes {
-        font-size: 18px;
-        padding: 10px;
-    }  
 
     #icon {
         margin: 0px 20px;
