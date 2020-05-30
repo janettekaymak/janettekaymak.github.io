@@ -40,8 +40,39 @@
     h2 {
         font-size: 45px;
     }
-   
-  
+    .containerb {
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1200px;
+    }
+    
+    figcaption {
+        display: block;
+        font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        text-align: center;
+    
+    }
+    
+    figure {
+        margin: 10px;
+        background-color: white;
+        border-radius: 15px;
+        padding: 20px;
+    }
+    
+    .gallery {
+        border-radius: 15px 15px 0 0;
+    }
+    
+    .gallery:hover {
+        box-shadow: 0 0 50px rgb(105, 139, 105);
+        transition: 1s;
+    }
+    
    
     footer p {
         font-size: 16px;
@@ -56,3 +87,73 @@
         font-size: 20px;
     }
 }
+/*below is for gallery
+.containerb {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1200px;
+}
+
+figcaption {
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+figure {
+    margin: 10px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.gallery {
+    border-radius: 15px 15px 0 0;
+}
+
+.gallery:hover {
+    box-shadow: 0 0 50px rgb(105, 139, 105);
+    transition: 1s;
+}
+
+@media screen and (max-width: 1090px) {
+    .containerb {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .gallery:hover {
+        box-shadow: 0 0 50px transparent;
+
+    }
+
+    figcaption {
+        display: none;
+    }
+
+    figure {
+        margin: 0;
+        background-color: transparent;
+        border: 2px solid transparent;
+    }
+
+    .gallery {
+        border-radius: 15px;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .containerb {
+        grid-template-columns: 1fr;
+        max-width: 350px;
+        margin: auto;
+    }
+
+    .gallery {
+        border-radius: 0;
+    }*/
+
