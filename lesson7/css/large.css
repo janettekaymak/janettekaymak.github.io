@@ -34,7 +34,7 @@
     }
 
     main {
-        max-width: 900px;
+        max-width: 1090px;
     }
 
     h2 {
@@ -69,7 +69,7 @@
     }
     
     .gallery:hover {
-        box-shadow: 0 0 50px rgb(105, 139, 105);
+        box-shadow: 0 0 50px darkslategray;
         transition: 1s;
     }
     
