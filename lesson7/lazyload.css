@@ -34,6 +34,13 @@ figure{
     font-size: 14px;
 
 }
+/*img[data-src] {
+    filter: blur(0.5em);
+}
+img {
+    filter: blur(0em);
+    transition: filter 3s;
+}*/
 footer p{
     max-width: 500px;
     margin: auto;
