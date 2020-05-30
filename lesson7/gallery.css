@@ -8,14 +8,15 @@
 
 figcaption{
     font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
     text-align: center;
-    padding: 20px 0 0 0;
+   
 }
 figure{
     margin: 10px;
     background-color: white;
     border-radius: 15px;
-    padding: 20px 20px 30px 20px;
+    padding:20px;
     border: 2px solid rgb(105, 139, 105);
 }
 .gallery{
