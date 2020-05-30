@@ -3,20 +3,8 @@ body {
     background-image: radial-gradient(rgb(253, 252, 242), lemonchiffon, #e4f7cd, darkseagreen, rgb(253, 252, 242));
     margin: auto;
 }
-#pancakes{
-    display: none;
-    background-color: lemonchiffon;
-    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    padding: 0 2px;
-    text-align: center;
-}
-#pancakes.show{
-    display: block;
-}
 
 #icon {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     max-width: 65px;
@@ -138,133 +126,19 @@ h2 {
     text-shadow: rgb(227, 241, 252) 3px 3px 5px;
     margin-bottom: 0px;
 }
-#preston{
-    margin-bottom: 30px;;
-}
 
 main {
     max-width: 500px;
     margin: auto;
 }
-h3 {
-    font-family: "Neucha", fantasy, cursive;
-    font-size: 24px;
-    color: #912a2d;
-    text-align: center;
-    text-shadow: rgb(227, 241, 252) 3px 3px 5px;
-    margin-bottom: 0px;
-}
-.hero-box{
-    position: relative;
-    margin-top: -25px;;
-}
-.hero-box h3 {
-    margin-top: 5px;
-    font-family: "Neucha", fantasy, cursive;
-    font-size: 20px;
-    color: rgb(253, 215, 1);
-    text-shadow: rgb(1, 59, 99) 2px 2px 2px;
-}
-.yellow{
-   color: rgb(253, 215, 1); 
-   text-shadow: rgb(1, 59, 99) 2px 2px 2px;
-}
 
-.hero-box p{
-    margin-top: 15px;
-    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 1;
-}
-#heroimg img{
-    max-width: 100%;
-}
-p{
-    font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
-    text-align: justify;
-}
-.weather-summary{
-    position: absolute;
-    top: 3px;
-    left: 3px;
-    background-color: rgba(3, 128, 201, 0.7);
-    border: rgb(1, 82, 136) solid 2px;
-    color: white;
-    padding: 0 15px;
-    max-width: 50%;
-    border-radius: 15px;
-    box-shadow: 0 0 55px lemonchiffon;
-}
-.weather-summary p{
-    text-align: left;
-    font-size: 14px;
-    line-height: .7;
-}
-#rodeo{
-    max-width: 550px;
-    border-radius: 5px;
-}
-#widerodeo{
-    display: none;
-}
-#fiveday{
-    display: none;
-}
-.article, .article-wide {
-    margin: 0 20px;
-    line-height: 1.5;
-}
-.article-wide a:hover, .google-maps a:hover{
-    color: blue;
-    text-shadow: blue 2px 2px 3px;
-}
-#big{
-    display: none;
-}
- .google-maps{
-    position: relative;
-    font-size: 19px;
-    text-align: center;
- }
 
-#tent{
-    max-width: 100%;
-}
-.graybox{
-    padding: 20px 15px;
-    margin: 20px 25px;
-    border: lightgray dotted 2px;
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: 0 0 30px gray;
-}
 
-.graybox p{
-    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    color: dimgray;
-    font-size: 15px;
-}
-.graybox a img{
-    margin: 5px;
-}
- .social {
-    position: relative;
-    margin-left: 55px;
-}
-.social a:link, a:visited{   
 
-}
-.social a:hover{
-   background-color: cyan;
-   transition: 1.5s;
-}
-#map1{
-    display: none;
-}
-#map{
-    min-width: 100%;
-    margin-bottom: -5px;
-}
+
+
+
+
 footer {
     background-color: #9b5153;
     background-image: linear-gradient(rgb(214, 240, 252), rgb(2, 94, 156));
