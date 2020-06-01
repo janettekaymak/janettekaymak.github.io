@@ -137,6 +137,7 @@ main, .containerb {
 }
 .gallery{
     width: 100%;
+    padding-top: 50px;
 }
 
 figcaption{
