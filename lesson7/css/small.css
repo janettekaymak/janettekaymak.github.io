@@ -143,6 +143,14 @@ main, .containerb {
 figcaption{
     display: none;
 }
+/*img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+  img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }*/
 
 footer {
     background-color: #9b5153;
