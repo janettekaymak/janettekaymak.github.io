@@ -65,7 +65,7 @@
     }
     
     .gallery:hover {
-        box-shadow: 0 0 50px darkslategray;
+        box-shadow: 0 0 50px black;
         transition: 1s;
     }
     
