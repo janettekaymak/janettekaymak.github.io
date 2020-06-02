@@ -5,6 +5,7 @@ body {
 }
 
 #icon {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     max-width: 65px;
@@ -135,6 +136,16 @@ main, .containerb {
     margin-left: 0;
     margin-right: 0;
 }
+/*img[data-src] {
+    filter: blur(0.2em);
+    transition: filter .5s;
+}
+
+img {
+    filter: blur(0em);
+    transition: filter .5s;
+  }*/
+  
 .gallery{
     width: 100%;
     padding-bottom: 30px;
