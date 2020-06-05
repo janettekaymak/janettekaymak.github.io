@@ -3,14 +3,14 @@ body{
     margin: auto;
 }
 table, th, td {
-    border: 2px solid lightgray;
+    border: 2px solid rgb(180, 178, 178);
     border-collapse: collapse;
     text-align: center;
     padding: 8px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
     font-weight: lighter;
-    line-height: 1.25;
+    line-height: 1.3;
   }
   table {
     width: 100%;
