@@ -1,5 +1,5 @@
 body{
-    max-width: 430px;
+    max-width: 400px;
     margin: auto;
 }
 table, th, td {
@@ -10,6 +10,7 @@ table, th, td {
     font-family: 'Ubuntu', sans-serif;
     font-size: 22px;
     font-weight: lighter;
+    line-height: 1.25;
   }
   table {
     width: 100%;
@@ -23,6 +24,7 @@ table, th, td {
   }
   tr th{
       font-size: 24px;
+      line-height: 1.5;
   }
   h1{
       text-align: center;
@@ -37,4 +39,5 @@ table, th, td {
   }
   tfoot td{
       font-size: 16px;
+      line-height: 1.5;
   }
