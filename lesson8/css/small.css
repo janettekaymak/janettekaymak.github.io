@@ -131,7 +131,9 @@ h2 {
 }
 
 /*---------------- FORM ---------------*/
-
+form{
+    font-family: "Poppins", sans-serif;
+}
 form fieldset {
     margin: 2rem 0;
     border: 1px solid #445ba9;
@@ -139,27 +141,24 @@ form fieldset {
     padding: .5rem 2%;
 }
 form legend {
-    color: #445ba9;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
 form label.top, form div{
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
-    font-size: .8rem;
+    color: #912a2d;
 }
 form label.top input, form label.top select {
     -webkit-appearance: none;
     display: block;
-    font-size: 1rem;
     border: solid 1px #999;
     border-radius: 4px;
     padding: .75rem;
     color: #555;
     width: 100%;
-    max-width: 20rem;
-    background-color: rgba(0,0,0,0.1);
+    max-width: 25rem;
+    background-color:white;
 }
 form label.sbs {
     display: block;
@@ -168,7 +167,7 @@ form label.sbs {
 }
 form input.submitBtn{
     border: none;
-    background-color: #9c2c13;
+    background-color: #912a2d;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -177,11 +176,13 @@ form input.submitBtn{
     max-width: 20rem;
 }
 form label.top input:required {
-    border-left: red solid 6px;
+    border-left: #912a2d solid 6px;
 }
 form label.top input:required:valid{
     border-left: green solid 6px;
 }
+
+/*------------end of form---------*/
 
 footer {
     background-color: #9b5153;
