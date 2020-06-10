@@ -122,10 +122,10 @@ nav {
 }
 
 h2 {
+    text-align: center;
     font-family: "Neucha", fantasy, cursive;
     font-size: 28px;
     color: #912a2d;
-    margin-left: 35px;
     text-shadow: rgb(227, 241, 252) 3px 3px 5px;
     margin-bottom: 0px;
 }
