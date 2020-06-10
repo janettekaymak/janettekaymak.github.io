@@ -88,7 +88,14 @@
         box-shadow: 0 0 20px black;
 
     }
-
+    form label.top,
+form div {
+    max-width: 420px;
+}
+.space {
+    width: 420px;
+  
+}
 
 
     footer p {

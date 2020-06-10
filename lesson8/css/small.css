@@ -159,7 +159,7 @@ form label.top,
 form div {
     display: block;
     padding-top: 1rem;
-    max-width: 100%;
+    max-width: 94%;
 }
 
 form label.top input,
@@ -172,7 +172,7 @@ form label.top select.option {
     padding: .75rem;
     color: #555;
     width: 100%;
-    max-width: 360px;
+    max-width: 100%;
     background-color: white;
 }
 
@@ -186,7 +186,7 @@ form label.sbs {
 .space {
     margin-top: -15px;
     padding: .5rem;
-    width: 360px;
+    width: 96%;
     height: 215px;
     border-radius: 5px;
 }
