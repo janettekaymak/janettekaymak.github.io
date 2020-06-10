@@ -166,6 +166,9 @@ form label.sbs {
     padding: .75rem 0;
     color: #555;
 }
+.textbox{
+    height: 200px;
+}
 form input.submitBtn{
     border: none;
     background-color: #912a2d;
