@@ -129,6 +129,10 @@ h2 {
     text-shadow: rgb(227, 241, 252) 3px 3px 5px;
     margin-bottom: 0px;
 }
+main{
+    max-width: 465px;
+    margin: auto;
+}
 
 /*---------------- FORM ---------------*/
 form{
@@ -209,9 +213,9 @@ form label.top input:required:valid{
 #ratingvalue {
     margin: 0 15px;
 }
-.stormImg, .stormImg2, .stormImg3 {
+/*.stormImg, .stormImg2, .stormImg3 {
     display: none;
-}
+}*/
 h3.thankyou{
     font-family: "Neucha", fantasy, cursive;
     text-align: center;

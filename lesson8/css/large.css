@@ -35,13 +35,16 @@
         font-size: 20px;
         padding: 20px;
     }
+    main{
+        max-width: 800px;
+    }
 
    /*----------- MAIN --------------*/
 
 form label.sbs{
     padding: .4rem 0;
 }
-.stormImg{
+/*.stormImg{
     display: inline;
     float: right;
     margin-top: -338px;
@@ -64,7 +67,7 @@ form label.sbs{
     width: 25%;
     border-radius: 10px;
     box-shadow: 0 0 20px black;
-}
+}*/
 h3.thankyou{
     font-size: 34px;
 }
