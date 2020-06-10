@@ -1,6 +1,6 @@
 /* Media Query for large+ views */
 
-@media screen and (min-width: 980px) {  
+@media screen and (min-width: 980px) {
 
     #icon {
         min-width: 230px;
@@ -21,7 +21,8 @@
         margin-top: 20px;
         margin-right: 40px;
     }
-    h2{
+
+    h2 {
         font-size: 60px;
     }
 
@@ -35,16 +36,18 @@
         font-size: 20px;
         padding: 20px;
     }
-    main{
+
+    main {
         max-width: 800px;
     }
 
-   /*----------- MAIN --------------*/
+    /*----------- MAIN --------------*/
 
-form label.sbs{
-    padding: .4rem 0;
-}
-/*.stormImg{
+    form label.sbs {
+        padding: .4rem 0;
+    }
+
+    /*.stormImg{
     display: inline;
     float: right;
     margin-top: -338px;
@@ -68,9 +71,10 @@ form label.sbs{
     border-radius: 10px;
     box-shadow: 0 0 20px black;
 }*/
-h3.thankyou{
-    font-size: 34px;
-}
+    h3.thankyou {
+        font-size: 34px;
+    }
+
     footer p {
         font-size: 16px;
     }

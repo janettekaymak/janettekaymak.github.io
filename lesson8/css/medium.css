@@ -76,19 +76,21 @@
     h2 {
         font-size: 40px;
     }
-    h3.thankyou{
+
+    h3.thankyou {
         font-size: 30px;
     }
-    img.thanksImg{
+
+    img.thanksImg {
         display: block;
         margin: -20px auto 40px auto;
         border-radius: 10px;
         box-shadow: 0 0 20px black;
-      
+
     }
-    
-    
-   
+
+
+
     footer p {
         font-size: 16px;
         text-align: center;
@@ -108,5 +110,3 @@
         transition: 1s;
     }
 }
-
-

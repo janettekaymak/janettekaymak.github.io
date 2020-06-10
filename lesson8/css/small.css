@@ -129,16 +129,18 @@ h2 {
     text-shadow: rgb(227, 241, 252) 3px 3px 5px;
     margin-bottom: 0px;
 }
-main{
+
+main {
     max-width: 465px;
     margin: auto;
 }
 
 /*---------------- FORM ---------------*/
-form{
+form {
     font-family: "Poppins", sans-serif;
     color: #7c0206;
 }
+
 form fieldset {
     margin: 2rem 0;
     border: 1px solid #1e316d;
@@ -146,17 +148,23 @@ form fieldset {
     padding: .5rem 2%;
     max-width: 100%;
 }
+
 form legend {
     margin: 0 1rem;
     padding: 0 .5rem;
     color: #1e316d;
 }
-form label.top, form div{
+
+form label.top,
+form div {
     display: block;
     padding-top: 1rem;
     max-width: 100%;
 }
-form label.top input, form label.top select, form label.top select.option{
+
+form label.top input,
+form label.top select,
+form label.top select.option {
     -webkit-appearance: none;
     display: block;
     border: solid 1px #999;
@@ -165,23 +173,25 @@ form label.top input, form label.top select, form label.top select.option{
     color: #555;
     width: 100%;
     max-width: 420px;
-    background-color:white;
+    background-color: white;
 }
+
 form label.sbs {
     display: block;
     padding: .75rem 0;
     color: #555;
     max-width: 100%;
 }
-.space{
+
+.space {
     margin-top: -15px;
     padding: .5rem;
     width: 420px;
     height: 215px;
     border-radius: 5px;
 }
-    
-form input.submitBtn{
+
+form input.submitBtn {
     border: none;
     background-color: #912a2d;
     color: white;
@@ -191,29 +201,34 @@ form input.submitBtn{
     width: 96%;
     max-width: 20rem;
 }
+
 form label.top input:required {
     border-left: #aa2a2e solid 6px;
 }
-form label.top input:required:valid{
+
+form label.top input:required:valid {
     border-left: green solid 6px;
 }
 
 .flexly {
-	display: flex;
+    display: flex;
     align-items: center;
 }
+
 #white {
     background-color: white;
     width: 200px;
     color: #555;
 }
+
 #ratingvalue {
     margin: 0 15px;
 }
+
 /*.stormImg, .stormImg2, .stormImg3 {
     display: none;
 }*/
-h3.thankyou{
+h3.thankyou {
     font-family: "Neucha", fantasy, cursive;
     text-align: center;
     font-size: 20px;
@@ -222,7 +237,8 @@ h3.thankyou{
     margin: 50px;
 
 }
-.thanksImg{
+
+.thanksImg {
     display: none;
 }
 
@@ -270,4 +286,3 @@ footer a:hover {
 .responsive li {
     display: block;
 }
-
