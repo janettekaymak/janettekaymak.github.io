@@ -172,7 +172,7 @@ form label.top select.option {
     padding: .75rem;
     color: #555;
     width: 100%;
-    max-width: 420px;
+    max-width: 360px;
     background-color: white;
 }
 
@@ -186,20 +186,9 @@ form label.sbs {
 .space {
     margin-top: -15px;
     padding: .5rem;
-    width: 420px;
+    width: 360px;
     height: 215px;
     border-radius: 5px;
-}
-
-form input.submitBtn {
-    border: none;
-    background-color: #912a2d;
-    color: white;
-    border-radius: 10px;
-    padding: .75rem 1.5rem;
-    margin: 1rem 0 0 50px;
-    width: 96%;
-    max-width: 20rem;
 }
 
 form label.top input:required {
@@ -240,6 +229,16 @@ h3.thankyou {
 
 .thanksImg {
     display: none;
+}
+form input.submitBtn {
+    border: none;
+    background-color: #912a2d;
+    color: white;
+    border-radius: 10px;
+    padding: .75rem 1.5rem;
+    margin: 1rem 0 0 45px;
+    width: 96%;
+    max-width: 20rem;
 }
 
 
