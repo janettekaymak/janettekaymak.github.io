@@ -188,12 +188,18 @@ form label.top input:required {
 form label.top input:required:valid{
     border-left: green solid 6px;
 }
+
 .flexly {
 	display: flex;
     align-items: center;
     color: #912a2d;
 }
-
+#red{
+    color: #912a2d;
+}
+#white {
+    background-color: white;
+}
 #ratingvalue {
     margin: 0 15px;
 }
