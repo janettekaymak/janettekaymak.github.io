@@ -76,21 +76,18 @@
     h2 {
         font-size: 40px;
     }
-    .containerb {
-        margin: 40px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        max-width: 1080px;
+    h3.thankyou{
+        font-size: 30px;
     }
-    figure {
-        margin: 5px;
-        padding: 15px ;
+    img.thanksImg{
+        display: block;
+        margin: -20px auto 40px auto;
+       
+        border-radius: 10px;
+        box-shadow: 0 0 20px black;
+      
     }
     
-    .gallery {
-        border-radius: 10px;
-        padding-bottom: 0;
-    }
     
    
     footer p {
