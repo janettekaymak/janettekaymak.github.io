@@ -96,6 +96,11 @@ form div {
     width: 420px;
   
 }
+form input.submitBtn {;
+    margin-left: 70px;
+    width: 50%;
+  
+}
 
 
     footer p {
