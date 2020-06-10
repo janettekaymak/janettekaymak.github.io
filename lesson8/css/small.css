@@ -149,7 +149,6 @@ form legend {
 form label.top, form div{
     display: block;
     padding-top: 1rem;
-    color: #912a2d;
     max-width: 100%;
 }
 form label.top input, form label.top select, form label.top select.option{
@@ -195,10 +194,6 @@ form label.top input:required:valid{
 .flexly {
 	display: flex;
     align-items: center;
-    color: #912a2d;
-}
-#red{
-    color: #912a2d;
 }
 #white {
     background-color: white;
