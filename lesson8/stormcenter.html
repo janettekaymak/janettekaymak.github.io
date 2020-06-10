@@ -64,7 +64,7 @@
                         <label class="top">Full Name*<input type="text" name="name" required></label>
                         <label class="top">Email<input type="email" name="email" placeholder="someone@email.com"></label>
                         <label class="top">Phone<input type="tel" name="phone" required></label>
-                        <label class="top">Zipcode<input type="number" name="zipcode" required></label>
+                        <label class="top">Zipcode<input type="number" name="zipcode" required></label><br>
                     
      
                     </fieldset>
@@ -79,9 +79,25 @@
                                 <option value="info">Hurricane</option>
                                 <option value="data">Thunderstorm</option>
                                 <option value="construction">Tornado</option>
-                            
                             </select>
+                        </label><br><br>
+                        <label class="flexly" for="rating">Storm Severity &nbsp;&nbsp;&nbsp;
+                            <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                                    <span id="ratingvalue">5</span>
                         </label>
+                        <datalist id="tickmarks">
+                            <option value="0">
+                            <option value="1">
+                            <option value="2">
+                            <option value="3">
+                            <option value="4">
+                            <option value="5">
+                            <option value="6">
+                            <option value="7">
+                            <option value="8">
+                            <option value="9">
+                            <option value="10">
+                          </datalist><br>
                         <div>Audience</div>
                         <label class="sbs"><input type="radio" name="audience" value="beginner"> Beginner</label>
                         <label class="sbs"><input type="radio" name="audience" value="intermediate"> Intermediate</label>
@@ -128,6 +144,7 @@
             <script src="/lesson5a/js/toggleMenu.js" defer></script>
             <script src="gallery-7.js" defer></script>
             <script src="/lesson5a/js/today.js" id="today" defer></script>
+            <script src="stormcenter.js" defer></script>
         </p>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>

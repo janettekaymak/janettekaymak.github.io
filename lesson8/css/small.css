@@ -133,10 +133,11 @@ h2 {
 /*---------------- FORM ---------------*/
 form{
     font-family: "Poppins", sans-serif;
+    color: #1e316d
 }
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid #445ba9;
+    border: 1px solid #1e316d;
     border-radius: 10px;
     padding: .5rem 2%;
 }
@@ -181,6 +182,17 @@ form label.top input:required {
 form label.top input:required:valid{
     border-left: green solid 6px;
 }
+.flexly {
+	display: flex;
+    align-items: center;
+    color: #912a2d;
+}
+
+#ratingvalue {
+    margin: 0 15px;
+}
+
+
 
 /*------------end of form---------*/
 
