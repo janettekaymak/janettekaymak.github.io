@@ -150,7 +150,7 @@ form label.top, form div{
     padding-top: 1rem;
     color: #912a2d;
 }
-form label.top input, form label.top select {
+form label.top input, form label.top select, form label.top select.option{
     -webkit-appearance: none;
     display: block;
     border: solid 1px #999;
@@ -167,15 +167,18 @@ form label.sbs {
     color: #555;
 }
 .textbox{
+    width: 420px;
     height: 200px;
+    border-radius: 5px;
 }
+    
 form input.submitBtn{
     border: none;
     background-color: #912a2d;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
-    margin: 1rem 0 5rem 5%;
+    margin: 2rem 0 0 50px;
     width: 96%;
     max-width: 20rem;
 }
