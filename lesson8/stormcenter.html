@@ -79,14 +79,14 @@
                     <option value="Tornado">
                 </datalist><br>
                 <label id="red">Storm Region
-                    <select id="white" name="area">
+                    <select id="white" name="region">
                         <option value="">Select Region</option>
                         <option value="preston">Preston</option>
                         <option value="fishHaven">Fish Haven</option>
                         <option value="sodaSprings">Soda Springs</option>
                     </select>
                 </label><br><br>
-                <label class="flexly" for="rating">Storm Severity &nbsp;&nbsp;&nbsp;
+                <label class="flexly" for="rating" name="rating">Storm Severity &nbsp;&nbsp;&nbsp;
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
                         oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">5</span>
