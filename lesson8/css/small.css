@@ -140,6 +140,7 @@ form fieldset {
     border: 1px solid #1e316d;
     border-radius: 10px;
     padding: .5rem 2%;
+    max-width: 100%;
 }
 form legend {
     margin: 0 1rem;
@@ -149,6 +150,7 @@ form label.top, form div{
     display: block;
     padding-top: 1rem;
     color: #912a2d;
+    max-width: 100%;
 }
 form label.top input, form label.top select, form label.top select.option{
     -webkit-appearance: none;
@@ -158,13 +160,14 @@ form label.top input, form label.top select, form label.top select.option{
     padding: .75rem;
     color: #555;
     width: 100%;
-    max-width: 25rem;
+    max-width: 420px;
     background-color:white;
 }
 form label.sbs {
     display: block;
     padding: .75rem 0;
     color: #555;
+    max-width: 100%;
 }
 .textbox{
     width: 420px;
@@ -199,6 +202,7 @@ form label.top input:required:valid{
 }
 #white {
     background-color: white;
+    width: 200px;
 }
 #ratingvalue {
     margin: 0 15px;
