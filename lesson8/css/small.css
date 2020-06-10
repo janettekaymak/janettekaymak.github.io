@@ -133,7 +133,7 @@ h2 {
 /*---------------- FORM ---------------*/
 form{
     font-family: "Poppins", sans-serif;
-    color: #1e316d
+    color: #7c0206;
 }
 form fieldset {
     margin: 2rem 0;
@@ -145,6 +145,7 @@ form fieldset {
 form legend {
     margin: 0 1rem;
     padding: 0 .5rem;
+    color: #1e316d;
 }
 form label.top, form div{
     display: block;
@@ -168,7 +169,13 @@ form label.sbs {
     color: #555;
     max-width: 100%;
 }
-.textbox{
+#margin{
+    margin-top: 15px;
+    margin-left: -8px;
+    color: #7c0206;
+}
+textarea.textbox{
+    padding: .5rem;
     width: 420px;
     height: 215px;
     border-radius: 5px;
@@ -185,7 +192,7 @@ form input.submitBtn{
     max-width: 20rem;
 }
 form label.top input:required {
-    border-left: #912a2d solid 6px;
+    border-left: #aa2a2e solid 6px;
 }
 form label.top input:required:valid{
     border-left: green solid 6px;
@@ -198,6 +205,7 @@ form label.top input:required:valid{
 #white {
     background-color: white;
     width: 200px;
+    color: #555;
 }
 #ratingvalue {
     margin: 0 15px;
