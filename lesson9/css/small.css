@@ -122,19 +122,25 @@ nav {
 }
 
 h2 {
-    text-align: center;
     font-family: "Neucha", fantasy, cursive;
     font-size: 28px;
     color: #912a2d;
+    text-align: center;
     text-shadow: rgb(227, 241, 252) 3px 3px 5px;
     margin-bottom: 0px;
 }
 
-main {
-    max-width: 465px;
-    margin: auto;
+/*-----------------------------------------main-------------------------*/
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3px;
+    padding: 15px;
+   
 }
 
+/*---------------------------------------footer------------------------*/
 
 
 footer {
@@ -177,3 +183,4 @@ footer a:hover {
 .responsive li {
     display: block;
 }
+
