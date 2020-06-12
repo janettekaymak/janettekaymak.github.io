@@ -22,8 +22,9 @@ section{
 }
 img{
     display: block;
-    max-width: 150px;
-    margin: auto auto 7px auto;
+    width: 150px;
+    height: 200px;
+    margin: auto auto 5px auto;
     box-shadow: rgb(49, 49, 49) 0 0 15px;
 }
 h2{
