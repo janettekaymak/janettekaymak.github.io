@@ -11,9 +11,9 @@ fetch(requestURL)
         for (let i = 0; i < towns.length; i++) {
             if (towns[i].name == "Preston" || towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs") {
                 let card = document.createElement('section');
-                let name = document.createElement('h2');
                 let photo = document.createElement('img');
-                let motto = document.createElement('h3');
+                let name = document.createElement('h3');
+                let motto = document.createElement('h5');
                 let yearFounded = document.createElement('p');
                 let currentPopulation = document.createElement('p');
                 let averageRainfall = document.createElement('p');
@@ -21,14 +21,15 @@ fetch(requestURL)
                 //Create content
                 photo.setAttribute('src', 'images/' + towns[i].photo);
                 photo.setAttribute('alt', towns[i].name);
+                name.textContent = 'Welcome to ' + towns[i].name;
                 motto.textContent = '\"' + towns[i].motto + '\"';
                 yearFounded.textContent = 'This wonderful little town was founded in ' + towns[i].yearFounded + '.';
-                currentPopulation.textContent = 'They have a population of only ' + towns[i].currentPopulation + '.';
+                currentPopulation.textContent = "There's lots of room with a population of " + towns[i].currentPopulation + '.';
                 averageRainfall.textContent = 'The average rainfall each year is ' + towns[i].averageRainfall + '".';
 
-                //Put elements in each
-                card.appendChild(name);
+                //Put elements in section
                 card.appendChild(photo);
+                card.appendChild(name);
                 card.appendChild(motto);
                 card.appendChild(yearFounded);
                 card.appendChild(currentPopulation);

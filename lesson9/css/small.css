@@ -131,12 +131,43 @@ h2 {
 }
 
 /*-----------------------------------------main-------------------------*/
+section h3, section p, section h5{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+section h3, section h5{
+    font-family: "Neucha", fantasy, cursive;
+}
+section h3{
+    font-size: 35px;
+}
+section h5{
+    font-size: 19px;
+    font-style: italic;
+}
+section p{
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
 
+section{
+    width: 100%;
+    margin-left: 0;
+    background-color: rgb(253, 249, 224);
+    border: rgb(252, 246, 196) solid 2px;
+}
 .cards{
+    margin-top: 30px;
+    margin-bottom: 30px;
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 3px;
-    padding: 15px;
+    grid-template-columns: 1fr; 
+    gap: 30px;
+}
+main img{
+    display: block;
+    width: 100%;
+    margin-left: 0;
    
 }
 
