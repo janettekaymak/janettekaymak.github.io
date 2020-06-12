@@ -19,12 +19,12 @@ fetch(requestURL)
                 let averageRainfall = document.createElement('p');
 
                 //Create content
-                photo.setAttribute('src', 'Images/' + towns[i].photo);
+                photo.setAttribute('src', 'images/' + towns[i].photo);
                 photo.setAttribute('alt', towns[i].name);
                 motto.textContent = '\"' + towns[i].motto + '\"';
-                yearFounded.textContent = 'This wonderful little town was founded in ' + towns[i].yearFounded;
-                currentPopulation.textContent = ', and has a population of only ' + towns[i].currentPopulation;
-                averageRainfall.textContent = 'The average rainfall each year in inches is ' + towns[i].averageRainfall;
+                yearFounded.textContent = 'This wonderful little town was founded in ' + towns[i].yearFounded + '.';
+                currentPopulation.textContent = 'They have a population of only ' + towns[i].currentPopulation + '.';
+                averageRainfall.textContent = 'The average rainfall each year is ' + towns[i].averageRainfall + '".';
 
                 //Put elements in each
                 card.appendChild(name);
