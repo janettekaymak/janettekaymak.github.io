@@ -9,12 +9,12 @@ fetch(requestURL)
     const prophets = jsonObject['prophets'];
 
     //Create elements and content
-    for (var i = 0; i < prophets.length; i++ ) {
-        var card = document.createElement('each');
-        var title = document.createElement('h2');
-        var birthdate = document.createElement('p');
-        var bornAt = document.createElement('p');
-        var photo = document.createElement('img');
+    for (let i = 0; i < prophets.length; i++ ) {
+        let card = document.createElement('section');
+        let title = document.createElement('h2');
+        let birthdate = document.createElement('p');
+        let bornAt = document.createElement('p');
+        let photo = document.createElement('img');
 
         //Create content
         birthdate.textContent = 'Date of Birth: ' + prophets[i].birthdate;
