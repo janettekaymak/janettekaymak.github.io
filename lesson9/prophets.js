@@ -8,13 +8,13 @@ fetch(requestURL)
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     const prophets = jsonObject['prophets'];
 
-    //Create elements and content in
-    for (let i = 0; i < prophets.length; i++ ) {
-        let card = document.createElement('each');
-        let title = document.createElement('h2');
-        let birthdate = document.createElement('p');
-        let bornAt = document.createElement('p');
-        let photo = document.createElement('img');
+    //Create elements and content
+    for (var i = 0; i < prophets.length; i++ ) {
+        var card = document.createElement('each');
+        var title = document.createElement('h2');
+        var birthdate = document.createElement('p');
+        var bornAt = document.createElement('p');
+        var photo = document.createElement('img');
 
         //Create content
         birthdate.textContent = 'Date of Birth: ' + prophets[i].birthdate;
@@ -23,7 +23,7 @@ fetch(requestURL)
         photo.setAttribute('alt', prophets[i].name + prophets.lastname + " - " + prophets.order);
         title.textContent = prophets[i].name + ' ' + prophets[i].lastname;
 
-        //Add elements into section
+        //Put elements in each
         card.appendChild(title);
         card.appendChild(birthdate);
         card.appendChild(bornAt);
