@@ -2,16 +2,13 @@ main{
     background-color: #dddddd;
     box-shadow: dimgray 0 0 25px;
     margin-top: -10px;
-}
-    
-    
+}  
     h1{
     color: #4e4e91;
     text-align: center;
     font-family: Bree Serif, serif;
     margin-top: 10px;
 }
-
 .cards{
     display: grid;
     grid-template-columns: 1fr;
