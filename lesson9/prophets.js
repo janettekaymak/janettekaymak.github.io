@@ -10,24 +10,24 @@ fetch(requestURL)
 
     //Create elements and content in
     for (let i = 0; i < prophets.length; i++ ) {
-        let card = document.createElement('section');
-        let h2 = document.createElement('h2');
+        let card = document.createElement('each');
+        let title = document.createElement('h2');
         let birthdate = document.createElement('p');
         let bornAt = document.createElement('p');
-        let image = document.createElement('img');
+        let photo = document.createElement('img');
 
         //Create content
         birthdate.textContent = 'Date of Birth: ' + prophets[i].birthdate;
         bornAt.textContent = 'Place of Birth: ' + prophets[i].birthplace;
-        image.setAttribute('src', prophets[i].imageurl);
-        image.setAttribute('alt', prophets[i].name + prophets.lastname + " - " + prophets.order);
-        h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
+        photo.setAttribute('src', prophets[i].imageurl);
+        photo.setAttribute('alt', prophets[i].name + prophets.lastname + " - " + prophets.order);
+        title.textContent = prophets[i].name + ' ' + prophets[i].lastname;
 
         //Add elements into section
-        card.appendChild(h2);
+        card.appendChild(title);
         card.appendChild(birthdate);
         card.appendChild(bornAt);
-        card.appendChild(image);
+        card.appendChild(photo);
         document.querySelector('div.cards').appendChild(card);
     }
   });
