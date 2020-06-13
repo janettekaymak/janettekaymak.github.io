@@ -211,25 +211,26 @@ main img {
 #bottom {
     text-align: center;
     font-family: Poppins, Helvetica, sans-serif;
+    margin-bottom: 50px;
 
 }
 
 #bottom a {
     text-decoration: none;
-    color: mediumblue;
-    background-color: white;
-    padding: 2px 3px;
+    text-shadow: 1px 1px white;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    background-image: url(https://janettekaymak.github.io/lesson9/wire-frame/images/desktop-frame.jpg);
+    background-size: 20em;
+    padding: 50px 5px 5px 5px;
     border-radius: 5px;
-    border: mediumblue solid 1px;
 }
 
 #bottom a:hover {
-    padding: 5px;
-    border-radius: 5px;
-    color: white;
-    background-color: #a5040a;
-    border: transparent solid 1px;
-    font-size: 18px;
+    padding: 45px;
+    font-size: 25px;
+    box-shadow: 0 0 50px rgb(248, 238, 145);
     transition: 1s;
 }
 
