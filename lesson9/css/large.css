@@ -1,6 +1,6 @@
 /* Media Query for large+ views */
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1188px) {
 
     #icon {
         min-width: 230px;
@@ -67,21 +67,21 @@
     }
 
     section h5 {
-        font-size: 19px;
+        font-size: 18px;
     }
 
     section p {
-        font-size: 16px;
+        font-size: 14.5px;
     }
 
     section {
-        width: 92%;
+        width: 93%;
         margin: auto;
         padding: 10px;
     }
 
     .cards {
-        max-width: 1250px;
+        max-width: 1188px;
         margin: 50px auto 100px auto;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;

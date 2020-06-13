@@ -24,7 +24,7 @@ fetch(requestURL)
                 name.textContent = 'Welcome to ' + towns[i].name;
                 motto.textContent = '\"' + towns[i].motto + '\"';
                 yearFounded.textContent = 'Wonderful little town, founded in ' + towns[i].yearFounded + '.';
-                currentPopulation.textContent = "Lots of room, population " + towns[i].currentPopulation + '.';
+                currentPopulation.textContent = "There's lots of room, population " + towns[i].currentPopulation + '.';
                 averageRainfall.textContent = 'Average yearly rainfall is ' + towns[i].averageRainfall + '".';
 
                 //Put elements in section
