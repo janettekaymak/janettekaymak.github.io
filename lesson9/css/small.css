@@ -198,7 +198,23 @@ main img{
 
 /*---------------------------------------footer------------------------*/
 
-
+#bottom{
+    text-align: center;
+    font-family: Poppins, Helvetica, sans-serif;
+    
+}
+#bottom a{
+    text-decoration: none;
+    color: mediumblue;
+}
+#bottom a:hover {
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: #a5040a;
+    font-size: 18px;
+    transition: 1s;
+}
 footer {
     background-color: #9b5153;
     background-image: linear-gradient(rgb(214, 240, 252), rgb(2, 94, 156));
@@ -219,6 +235,7 @@ footer a {
     padding: 2px 3px;
     border-radius: 5px;
     color: white;
+    text-decoration: none;
 }
 
 footer a:hover {
