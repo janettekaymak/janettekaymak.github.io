@@ -136,6 +136,7 @@ h3 {
     color: #912a2d;
     text-shadow: rgb(227, 241, 252) 3px 3px 5px;
     text-align: center;
+    line-height: .5;
 }
 
 /*-----------------------------------------main-------------------------*/
@@ -148,8 +149,8 @@ h3 {
 #storybox {
     position: absolute;
     background-color: rgb(141, 215, 245, .75);
-    padding: 15px;
-    margin: -275px 50px 0px 50px;
+    padding: 0 15px;
+    margin: -255px 50px 0px 50px;
     font-family: "Poppins", Helvetica, sans-serif;
     text-align: justify;
     border: rgb(252, 246, 196) solid 2px;
