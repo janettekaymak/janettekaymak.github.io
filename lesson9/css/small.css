@@ -123,7 +123,7 @@ nav {
 
 h2 {
     font-family: "Neucha", fantasy, cursive;
-    font-size: 45px;
+    font-size: 40px;
     color: #912a2d;
     text-align: center;
     text-shadow: rgb(227, 241, 252) 3px 3px 5px;
@@ -131,7 +131,7 @@ h2 {
 }
 h3 {
     font-family: "Neucha", fantasy, cursive;
-    font-size: 25px;
+    font-size: 20px;
     color: #912a2d;
     text-shadow: rgb(227, 241, 252) 3px 3px 5px;
     text-align: center;
@@ -140,14 +140,14 @@ h3 {
 /*-----------------------------------------main-------------------------*/
 #flashflood{
     display: block;
-    margin: 50px auto 0 auto;
+    margin: 195px auto 0 auto;
     width: 100%;
 }
 #storybox {
     position: absolute;
     background-color: rgb(141, 215, 245, .75);
     padding: 15px;
-    margin: -565px 50px 0 50px;
+    margin: -295px 50px 0px 50px;
     font-family: "Poppins", Helvetica, sans-serif;
     text-align: justify;
     border: rgb(252, 246, 196) solid 2px;
@@ -156,28 +156,31 @@ h3 {
 section h3, section h5{
     text-align: center;
 }
-section h3, section h5{
+section h3{
     font-family: "Neucha", fantasy, cursive;
 }
 section h3{
-    font-size: 35px;
+    font-size: 32px;
 }
 section h5{
-    font-size: 19px;
-    font-style: italic;
+    font-family: cursive, fantasy;
+    font-size: 22px;
+   
 }
  section p{
     font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
     text-align: center;
+    line-height: .7em;
 }
 
 section{
-    width: 90%;
+    width: 85%;
     margin: auto;
     background-color: rgb(253, 249, 224);
-    border: rgb(252, 246, 196) solid 2px;
-    
+    border: rgb(252, 246, 196) solid 4px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: darkslategray 0 0 20px;
 }
 .cards{
     margin-top: 50px;

@@ -23,9 +23,9 @@ fetch(requestURL)
                 photo.setAttribute('alt', towns[i].name);
                 name.textContent = 'Welcome to ' + towns[i].name;
                 motto.textContent = '\"' + towns[i].motto + '\"';
-                yearFounded.textContent = 'This wonderful little town was founded in ' + towns[i].yearFounded + '.';
-                currentPopulation.textContent = "There's lots of room with a population of " + towns[i].currentPopulation + '.';
-                averageRainfall.textContent = 'The average rainfall each year is ' + towns[i].averageRainfall + '".';
+                yearFounded.textContent = 'Wonderful little town, founded in ' + towns[i].yearFounded + '.';
+                currentPopulation.textContent = "Lots of room, population " + towns[i].currentPopulation + '.';
+                averageRainfall.textContent = 'Average yearly rainfall is ' + towns[i].averageRainfall + '".';
 
                 //Put elements in section
                 card.appendChild(photo);

@@ -25,6 +25,9 @@
     h2 {
         font-size: 60px;
     }
+    h3 {
+        font-size: 35px;    
+    }
 
     #motto {
         margin-right: -405px;
@@ -39,11 +42,66 @@
 
 
     /*----------- MAIN --------------*/
-
-    main {
-        max-width: 800px;
+main{
+    max-width: 1200px;
+}
+    #flashflood{
+        display: block;
+        margin: 50px auto 500px auto;
+        width: 25%;
     }
-
+    #storybox {
+        position: absolute;
+        background-color: rgb(141, 215, 245);
+        padding: 15px;
+        width: 400px;
+        margin: -565px 50px 0 50px;
+        font-family: "Poppins", Helvetica, sans-serif;
+        text-align: justify;
+        border: rgb(252, 246, 196) solid 2px;
+        border-radius: 10px;
+    }
+    section h3, section h5{
+        text-align: center;
+    }
+    section h3, section h5{
+        font-family: "Neucha", fantasy, cursive;
+    }
+    section h3{
+        font-size: 35px;
+    }
+    section h5{
+        font-size: 19px;
+        font-style: italic;
+    }
+     section p{
+        font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    section{
+        width: 85%;
+        margin: auto;
+        background-color: rgb(253, 249, 224);
+        border: rgb(252, 246, 196) solid 4px;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: darkslategray 0 0 20px;
+    }
+    .cards{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; 
+        gap: 5px;
+    }
+    main img{
+        display: block;
+        width: 100%;
+        margin-left: 0;
+       
+    }
 
 
 
