@@ -23,10 +23,12 @@
     }
 
     h2 {
-        font-size: 60px;
+        font-size: 50px;
     }
+
     h3 {
-        font-size: 35px;    
+        font-size: 35px;
+        text-align: left;
     }
 
     #motto {
@@ -42,65 +44,55 @@
 
 
     /*----------- MAIN --------------*/
-main{
-    max-width: 1200px;
-}
-    #flashflood{
-        display: block;
-        margin: 50px auto 500px auto;
-        width: 25%;
+   body {
+        max-width: 1250px;
     }
+
+    #flashflood {
+        margin: 10px 0 100px 0;
+        width: 100%;
+        height: 200px;
+    }
+
     #storybox {
-        position: absolute;
-        background-color: rgb(141, 215, 245);
-        padding: 15px;
-        width: 400px;
-        margin: -565px 50px 0 50px;
-        font-family: "Poppins", Helvetica, sans-serif;
-        text-align: justify;
-        border: rgb(252, 246, 196) solid 2px;
-        border-radius: 10px;
+        width: 350px;
+        margin: -345px 50px 0 50px;
+        font-size: 21px;
+        text-align: left;
+        border: rgb(252, 246, 196) solid 3px;
     }
-    section h3, section h5{
-        text-align: center;
-    }
-    section h3, section h5{
-        font-family: "Neucha", fantasy, cursive;
-    }
-    section h3{
+
+    section h3 {
         font-size: 35px;
     }
-    section h5{
+
+    section h5 {
         font-size: 19px;
-        font-style: italic;
     }
-     section p{
-        font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 15px;
-        text-align: center;
+
+    section p {
+        font-size: 16px;
     }
-    
-    section{
-        width: 85%;
+
+    section {
+        width: 92%;
         margin: auto;
-        background-color: rgb(253, 249, 224);
-        border: rgb(252, 246, 196) solid 4px;
         padding: 10px;
-        border-radius: 5px;
-        box-shadow: darkslategray 0 0 20px;
     }
-    .cards{
-        margin-top: 50px;
-        margin-bottom: 50px;
+
+    .cards {
+        margin: 50px auto 100px auto;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr; 
-        gap: 5px;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
     }
-    main img{
+
+    main img {
         display: block;
         width: 100%;
-        margin-left: 0;
-       
+        margin-left: auto;
+        margin-right: auto;
+
     }
 
 
