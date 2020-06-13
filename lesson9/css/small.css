@@ -217,6 +217,10 @@ main img {
 #bottom a {
     text-decoration: none;
     color: mediumblue;
+    background-color: white;
+    padding: 2px 3px;
+    border-radius: 5px;
+    border: mediumblue solid 1px;
 }
 
 #bottom a:hover {
@@ -224,6 +228,7 @@ main img {
     border-radius: 5px;
     color: white;
     background-color: #a5040a;
+    border: transparent solid 1px;
     font-size: 18px;
     transition: 1s;
 }
