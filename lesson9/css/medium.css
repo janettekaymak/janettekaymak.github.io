@@ -1,6 +1,6 @@
 /* Media Query for medium+ views */
 
-@media screen and (min-width: 700px){
+@media only screen and (max-width: 1188px) and (min-width: 700px) {
 
     #icon {
         margin: 0px 20px;
@@ -69,24 +69,26 @@
     }
    
     /*-----------------------------main------------------*/
-    /*#flashflood {
-        display: block;
-        margin: 195px auto 0 auto;
+    body {
+        max-width: 1500px;
+    }
+
+    #flashflood {
+        margin: 10px 0 100px 0;
         width: 100%;
+        height: 200px;
     }
 
     #storybox {
-        position: absolute;
-        background-color: rgb(141, 215, 245, .75);
-        padding: 15px;
-        margin: -295px 50px 0px 50px;
-        font-family: "Poppins", Helvetica, sans-serif;
-        text-align: justify;
-        border: rgb(252, 246, 196) solid 2px;
-        border-radius: 10px;
+        width: 350px;
+        margin: -345px auto 0 40px;
+        font-size: 21px;
+        text-align: left;
+        border: rgb(252, 246, 196) solid 3px;
     }
 
-    section h3,
+
+    /*section h3,
     section h5 {
         text-align: center;
     }

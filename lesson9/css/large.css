@@ -2,46 +2,72 @@
 
 @media screen and (min-width: 1188px) {
 
+   
     #icon {
-        min-width: 230px;
-        margin-left: 40px;
-        border: 4px solid #912a2d;
+        margin: 0px 20px;
+        max-width: 150px;
+        border: 3px solid #912a2d;
     }
 
     #sage {
-        margin-top: -43px;
-        margin-bottom: 10px;
+        display: inline-block;
+        min-width: 100%;
+        margin-top: -7px;
+        box-shadow: rgb(227, 241, 252) 0px 0px 15px;
+        margin-top: -25px;
+        margin-bottom: 5px;
     }
 
     h1 {
-        font-size: 90px;
-    }
-
-    #top-h1 {
-        margin-top: 20px;
-        margin-right: 40px;
-    }
-
-    h2 {
         font-size: 50px;
     }
 
-    h3 {
-        font-size: 35px;
-        text-align: left;
+    #top-h1 {
+        margin-right: 20px;
     }
 
     #motto {
-        margin-right: -405px;
-        margin-top: 105px;
-        font-size: 25px;
+        margin-top: 65px;
+        margin-right: -295px;
+        font-family: cursive, fantasy;
+        font-size: 18px;
+    }
+
+    nav {
+        background-color: #9b5153;
+        /* For browsers that do not support gradients */
+        background-image: linear-gradient(#912a2d, #2094ca);
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        /* change state in small view */
+        flex: 1 1 100%;
     }
 
     .navigation a {
-        font-size: 20px;
-        padding: 20px;
+        font-size: 14px;
+        text-align: center;
+        font-weight: unset;
+        letter-spacing: unset;
+        border-top: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
     }
 
+    .navigation a:hover {
+        background-color: #f8bf03;
+        background-image: linear-gradient(#a5040a, rgb(255, 238, 0));
+        box-shadow: lemonchiffon 0px 0px 55px;
+        transition: 1s;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
 
     /*----------- MAIN --------------*/
     body {
