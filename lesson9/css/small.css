@@ -123,18 +123,38 @@ nav {
 
 h2 {
     font-family: "Neucha", fantasy, cursive;
-    font-size: 28px;
+    font-size: 45px;
     color: #912a2d;
     text-align: center;
     text-shadow: rgb(227, 241, 252) 3px 3px 5px;
     margin-bottom: 0px;
 }
+h3 {
+    font-family: "Neucha", fantasy, cursive;
+    font-size: 25px;
+    color: #912a2d;
+    text-shadow: rgb(227, 241, 252) 3px 3px 5px;
+    text-align: center;
+}
 
 /*-----------------------------------------main-------------------------*/
-section h3, section p, section h5{
+#flashflood{
+    display: block;
+    margin: 50px auto 0 auto;
+    width: 100%;
+}
+#storybox {
+    position: absolute;
+    background-color: rgb(141, 215, 245, .75);
+    padding: 15px;
+    margin: -565px 50px 0 50px;
+    font-family: "Poppins", Helvetica, sans-serif;
+    text-align: justify;
+    border: rgb(252, 246, 196) solid 2px;
+    border-radius: 10px;
+}
+section h3, section h5{
     text-align: center;
-    margin-right: auto;
-    margin-left: auto;
 }
 section h3, section h5{
     font-family: "Neucha", fantasy, cursive;
@@ -146,23 +166,25 @@ section h5{
     font-size: 19px;
     font-style: italic;
 }
-section p{
+ section p{
     font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
+    text-align: center;
 }
 
 section{
-    width: 100%;
-    margin-left: 0;
+    width: 90%;
+    margin: auto;
     background-color: rgb(253, 249, 224);
     border: rgb(252, 246, 196) solid 2px;
+    
 }
 .cards{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: grid;
     grid-template-columns: 1fr; 
-    gap: 30px;
+    gap: 50px;
 }
 main img{
     display: block;
