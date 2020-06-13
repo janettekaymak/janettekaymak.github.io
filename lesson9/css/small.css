@@ -129,6 +129,7 @@ h2 {
     text-shadow: rgb(227, 241, 252) 3px 3px 5px;
     margin-bottom: 0px;
 }
+
 h3 {
     font-family: "Neucha", fantasy, cursive;
     font-size: 25px;
@@ -138,11 +139,12 @@ h3 {
 }
 
 /*-----------------------------------------main-------------------------*/
-#flashflood{
+#flashflood {
     display: block;
     margin: 195px auto 0 auto;
     width: 100%;
 }
+
 #storybox {
     position: absolute;
     background-color: rgb(141, 215, 245, .75);
@@ -153,27 +155,33 @@ h3 {
     border: rgb(252, 246, 196) solid 2px;
     border-radius: 10px;
 }
-section h3, section h5{
+
+section h3,
+section h5 {
     text-align: center;
 }
-section h3{
+
+section h3 {
     font-family: "Neucha", fantasy, cursive;
 }
-section h3{
+
+section h3 {
     font-size: 32px;
 }
-section h5{
+
+section h5 {
     font-family: cursive, fantasy;
     font-size: 22px;
-   
+
 }
- section p{
+
+section p {
     font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     line-height: .7em;
 }
 
-section{
+section {
     width: 85%;
     margin: auto;
     background-color: lemonchiffon;
@@ -182,31 +190,35 @@ section{
     border-radius: 5px;
     box-shadow: darkslategray 0 0 20px;
 }
-.cards{
+
+.cards {
     margin-top: 50px;
     margin-bottom: 50px;
     display: grid;
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
     gap: 50px;
 }
-main img{
+
+main img {
     display: block;
     width: 100%;
     margin-left: 0;
-   
+
 }
 
 /*---------------------------------------footer------------------------*/
 
-#bottom{
+#bottom {
     text-align: center;
     font-family: Poppins, Helvetica, sans-serif;
-    
+
 }
-#bottom a{
+
+#bottom a {
     text-decoration: none;
     color: mediumblue;
 }
+
 #bottom a:hover {
     padding: 5px;
     border-radius: 5px;
@@ -215,6 +227,7 @@ main img{
     font-size: 18px;
     transition: 1s;
 }
+
 footer {
     background-color: #9b5153;
     background-image: linear-gradient(rgb(214, 240, 252), rgb(2, 94, 156));
@@ -256,4 +269,3 @@ footer a:hover {
 .responsive li {
     display: block;
 }
-
