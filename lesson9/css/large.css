@@ -44,7 +44,7 @@
 
 
     /*----------- MAIN --------------*/
-   body {
+    body {
         max-width: 1500px;
     }
 
@@ -100,9 +100,9 @@
         text-align: center;
         font-family: Poppins, Helvetica, sans-serif;
         margin-bottom: 50px;
-    
+
     }
-    
+
     #bottom a {
         text-decoration: none;
         text-shadow: 1px 1px white;
@@ -114,7 +114,7 @@
         padding: 50px 5px 5px 5px;
         border-radius: 5px;
     }
-    
+
     #bottom a:hover {
         padding: 45px;
         font-size: 25px;

@@ -71,7 +71,7 @@
     /*-----------------------------main------------------*/
     #flashflood {
         display: block;
-        margin: 80px auto 0 auto;
+        margin: 195px auto 0 auto;
         width: 100%;
     }
 
@@ -112,17 +112,17 @@
     }
 
     section {
-        display: flex;
-        flex-direction: row-reverse;
         width: 85%;
         margin-bottom: 50px;
 
     }
 
     .cards {
-
         margin-top: 50px;
         margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
     }
 
     main img {
