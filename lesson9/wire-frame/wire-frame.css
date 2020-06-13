@@ -1,6 +1,7 @@
 body{
     max-width: 1200px;
-    margin: auto;
+    margin-right: 300px;
+    margin-left: 60px;
 }
 h1{
     text-align: center;
@@ -13,7 +14,7 @@ section.grid{
 section.pad{
     display: grid;
     grid-template-columns: 1fr;
-    margin-left: 300px;
+    margin-left: 450px;
     margin-top: -50px;
 }
 footer{
