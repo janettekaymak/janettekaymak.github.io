@@ -67,13 +67,15 @@
     .navigation li:first-child {
         display: none;
     }
-
- .cards{
-     display: grid;
-     grid-template-columns: 1fr 1fr;
- }   
+/*-----------------------------main------------------*/
 
 
+
+
+
+
+/*-----------------------*/
+  
     
     footer p {
         font-size: 16px;
