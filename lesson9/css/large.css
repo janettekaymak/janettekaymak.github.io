@@ -24,7 +24,10 @@
     }
 
     h2 {
-        font-size: 60px;
+        font-size: 50px;
+    }
+    h3{
+        font-size: 35px;
     }
 
     #motto {
@@ -51,7 +54,7 @@
 
     #storybox {
         width: 350px;
-        margin: -325px auto 0 40px;
+        margin: -330px auto 0 40px;
         font-size: 21px;
         text-align: left;
         border: rgb(252, 246, 196) solid 3px;
