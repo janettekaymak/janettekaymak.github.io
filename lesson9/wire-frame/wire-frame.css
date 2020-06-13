@@ -3,19 +3,23 @@ body{
     margin-right: 300px;
     margin-left: 60px;
 }
-h1{
+h1, h3{
     text-align: center;
+}
+h1{
+    margin-left: 260px;
 }
 
 section.grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: -50px;
 }
 section.pad{
     display: grid;
     grid-template-columns: 1fr;
     margin-left: 450px;
-    margin-top: -50px;
+    margin-top: -260px;
 }
 footer{
     max-width: 500px;
