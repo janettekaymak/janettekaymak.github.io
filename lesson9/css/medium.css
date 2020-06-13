@@ -82,21 +82,46 @@
         text-align: left;
         border: rgb(252, 246, 196) solid 3px;
     }
-    h3{
+
+    h3 {
         line-height: .5em;
     }
-   
-  
 
 
-    
+    #bottom {
+        text-align: center;
+        font-family: Poppins, Helvetica, sans-serif;
+        margin-bottom: 50px;
+
+    }
+
+    #bottom a {
+        text-decoration: none;
+        text-shadow: 1px 1px white;
+        color: black;
+        font-size: 20px;
+        font-weight: bolder;
+        background-image: url(https://janettekaymak.github.io/lesson9/wire-frame/images/desktop-frame.jpg);
+        background-size: 20em;
+        padding: 50px 5px 5px 5px;
+        border-radius: 5px;
+    }
+
+    #bottom a:hover {
+        padding: 45px;
+        font-size: 25px;
+        box-shadow: 0 0 50px rgb(248, 238, 145);
+        transition: 1s;
+    }
+
+
     footer p {
         font-size: 16px;
         text-align: center;
     }
 
     footer {
-        max-width: 800px;
+        max-width: 1000px;
         margin: auto;
         margin-top: 25px;
         height: 70px;
@@ -107,5 +132,20 @@
     footer a:hover {
         font-size: 20px;
         transition: 1s;
+    }
+}
+
+@media only screen and (max-width: 1187px) and (min-width: 700px) {
+
+    section {
+        display: flex;
+    }
+    section:nth-child(odd){
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .cards{
+        margin-top: -50px;
+        margin-bottom: 100px;
     }
 }
