@@ -6,7 +6,25 @@ h1{
     text-align: center;
 }
 
-section{
+section.grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+section.pad{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 300px;
+    margin-top: -50px;
+}
+footer{
+    max-width: 500px;
+    margin: auto;
+}
+footer p{
+    text-align: center;
+}
+div{
+    border: black dotted 2px;
+    margin: 50px;
+    padding: 20px;
 }
