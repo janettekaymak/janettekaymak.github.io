@@ -71,7 +71,7 @@
     /*-----------------------------main------------------*/
     #flashflood {
         display: block;
-        margin: 195px auto 0 auto;
+        margin: 80px auto 0 auto;
         width: 100%;
     }
 
@@ -120,9 +120,9 @@
     }
 
     .cards {
+
         margin-top: 50px;
         margin-bottom: 50px;
-        display: inline-flexbox;
     }
 
     main img {
