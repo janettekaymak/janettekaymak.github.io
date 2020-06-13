@@ -1,6 +1,6 @@
 /* Media Query for medium+ views */
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px){
 
     #icon {
         margin: 0px 20px;
@@ -67,7 +67,7 @@
     .navigation li:first-child {
         display: none;
     }
-
+   
     /*-----------------------------main------------------*/
     /*#flashflood {
         display: block;
