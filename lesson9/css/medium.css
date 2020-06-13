@@ -145,7 +145,11 @@
         flex-direction: row-reverse;
     }
     section h5, section p, section h3{
+        display: flex;
         line-height: 1em;
+    }
+    main img{
+        min-width: 150px;
     }
     .cards{
         margin-top: -50px;
