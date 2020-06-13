@@ -69,13 +69,84 @@
     }
 
     /*-----------------------------main------------------*/
+    #flashflood {
+        display: block;
+        margin: 195px auto 0 auto;
+        width: 100%;
+    }
 
+    #storybox {
+        position: absolute;
+        background-color: rgb(141, 215, 245, .75);
+        padding: 15px;
+        margin: -295px 50px 0px 50px;
+        font-family: "Poppins", Helvetica, sans-serif;
+        text-align: justify;
+        border: rgb(252, 246, 196) solid 2px;
+        border-radius: 10px;
+    }
 
+    section h3,
+    section h5 {
+        text-align: center;
+    }
+
+    section h3 {
+        font-family: "Neucha", fantasy, cursive;
+    }
+
+    section h3 {
+        font-size: 32px;
+    }
+
+    section h5 {
+        font-family: cursive, fantasy;
+        font-size: 22px;
+
+    }
+
+    section p {
+        font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        line-height: .7em;
+    }
+
+    section {
+        width: 85%;
+        margin-bottom: 50px;
+
+    }
+
+    .cards {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    main img {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+
+    }
 
 
 
 
     /*-----------------------*/
+    #bottom {
+        margin-bottom: 50px;
+
+    }
+
+    #bottom a:hover {
+        padding: 45px;
+        font-size: 25px;
+        box-shadow: 0 0 50px rgb(248, 238, 145);
+        transition: 1s;
+    }
 
 
     footer p {
