@@ -242,6 +242,10 @@ main img {
     border-radius: 5px;
     border: dotted 3px;
 }
+#bottom a:hover {
+    font-size: 20px;
+    transition: 1s;
+}
 
 footer {
     background-color: rgb(141, 213, 247);
