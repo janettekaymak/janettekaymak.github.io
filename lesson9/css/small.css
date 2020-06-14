@@ -153,7 +153,7 @@ h3 {
     margin: -255px 50px 0px 50px;
     font-family: "Poppins", Helvetica, sans-serif;
     text-align: justify;
-    border: rgb(252, 246, 196) solid 2px;
+    border: #a5040a dotted 5px;
     border-radius: 10px;
 }
 
@@ -168,6 +168,7 @@ section h1 {
     font-family: "Neucha", fantasy, cursive;
     font-size: 32px;
     font-variant: none;
+    border-bottom: gold dotted 5px;
 }
 
 section h2 {
@@ -199,7 +200,7 @@ section {
     width: 85%;
     margin: auto;
     background-color: lemonchiffon;
-    border: rgb(248, 238, 143) solid 3px;
+    border: gold dotted 5px;
     padding: 10px;
     border-radius: 5px;
     box-shadow: darkslategray 0 0 20px;
@@ -239,6 +240,7 @@ main img {
     background-size: 20em;
     padding: 50px 5px 5px 5px;
     border-radius: 5px;
+    border: dotted 3px;
 }
 
 footer {

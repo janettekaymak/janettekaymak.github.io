@@ -80,7 +80,6 @@
         margin: -240px auto 0 10px;
         font-size: 16px;
         text-align: left;
-        border: rgb(252, 246, 196) solid 3px;
     }
 
     h3 {
@@ -146,6 +145,7 @@
     }
 
     section h1 {
+        border-bottom: transparent dotted 5px;
         grid-column: 2;
         grid-row: 1;
     }
