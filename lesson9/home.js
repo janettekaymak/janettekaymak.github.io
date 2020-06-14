@@ -12,11 +12,11 @@ fetch(requestURL)
             if (towns[i].name == "Preston" || towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs") {
                 let card = document.createElement('section');
                 let photo = document.createElement('img');
-                let name = document.createElement('h3');
-                let motto = document.createElement('h5');
-                let yearFounded = document.createElement('p');
-                let currentPopulation = document.createElement('p');
-                let averageRainfall = document.createElement('p');
+                let name = document.createElement('h1');
+                let motto = document.createElement('h2');
+                let yearFounded = document.createElement('h3');
+                let currentPopulation = document.createElement('h4');
+                let averageRainfall = document.createElement('h5');
 
                 //Create content
                 photo.setAttribute('src', 'images/' + towns[i].photo);

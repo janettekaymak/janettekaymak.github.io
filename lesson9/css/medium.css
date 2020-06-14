@@ -166,6 +166,8 @@
         grid-row:2;
     }
     section h5{
+        padding: 0 15px;
+        font-size: 26px;
         margin-top: 70px;
         grid-column: 2;
         grid-row:2;
@@ -174,6 +176,7 @@
         
     }
     section p {
+        padding: 5px;
         margin-top: -100px;
         grid-column: 2;
         grid-row:3;
