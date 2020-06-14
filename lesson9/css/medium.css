@@ -158,34 +158,42 @@
     section {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         max-height: 275px;
 
      }
-    section h3{
+    section h1{
+        grid-column: 2;
+        grid-row:1;
+    }
+    section h2{
+        padding: 0 15px;
+        font-size: 22px;
+        margin-top: 90px;
+        grid-column: 2;
+        grid-row:1;
+    }
+    section h3,
+    section h4,
+    section h5{
         grid-column: 2;
         grid-row:2;
+    }
+    section h3{
+        margin-top: -100px;
+    }
+    section h4{
+        margin-top: -75px;
     }
     section h5{
-        padding: 0 15px;
-        font-size: 26px;
-        margin-top: 70px;
-        grid-column: 2;
-        grid-row:2;
+        margin-top: -50px;
     }
-    section:nth-child(even){
-        
-    }
-    section p {
-        padding: 5px;
-        margin-top: -100px;
-        grid-column: 2;
-        grid-row:3;
-     }
+
      section img {
         height: 275px;
         margin-top: 0px;
         grid-column: 1;
-        grid-row:2;
+        grid-row: 1;
      }
      
 }
