@@ -183,6 +183,9 @@
         grid-column: 1;
         grid-row: 1;
     }
+    section:nth-child(2){
+        direction: rtl;
+    }
 
 }
 
