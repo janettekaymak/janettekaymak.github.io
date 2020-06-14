@@ -244,7 +244,7 @@ main img {
 }
 
 footer {
-    background-color: #9b5153;
+    background-color: rgb(141, 213, 247);
     background-image: linear-gradient(rgb(214, 240, 252), rgb(2, 94, 156));
     padding: 12px 0px .1px 0px;
     box-shadow: rgb(227, 241, 252) 0px 0px 15px;
