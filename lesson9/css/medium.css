@@ -140,7 +140,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        max-height: 275px;
+        max-height: 285px;
 
     }
 
@@ -179,9 +179,10 @@
 
     section img {
         height: 275px;
-        margin-top: 0px;
+        margin-top: 0;
         grid-column: 1;
         grid-row: 1;
+        border: gold dotted 5px;
     }
     section:nth-child(2){
         direction: rtl;
