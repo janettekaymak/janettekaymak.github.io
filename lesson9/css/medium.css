@@ -113,6 +113,12 @@
         box-shadow: 0 0 50px rgb(248, 238, 145);
         transition: 1s;
     }
+   #phone{
+        display: none;
+    }
+    #pad{
+        display: block;
+    }
 
 
     footer p {

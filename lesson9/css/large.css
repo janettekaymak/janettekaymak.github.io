@@ -102,6 +102,14 @@
         margin-right: auto;
 
     }
+    #pad{
+        display: none;
+    }
+    #desk{
+        display: block;
+    }
+
+
 
     footer p {
         font-size: 16px;
