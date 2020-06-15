@@ -3,7 +3,7 @@ body{
     margin-right: 300px;
     margin-left: 60px;
 }
-h3{
+h3, h1{
     text-align: center;
 }
 
@@ -13,6 +13,7 @@ section.grid{
     margin-top: -50px;
 }
 section.pad{
+    width: 700px;
     display: grid;
     grid-template-columns: 1fr;
     margin-left: 450px;
