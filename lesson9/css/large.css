@@ -57,9 +57,12 @@
         width: 350px;
         margin: -275px auto 0 20px;
         font-size: 21px;
-        text-align: left;
+        
     }
-
+    #storybox p{
+        margin-top: -20px;
+        margin-left: 10px;
+    }
     section h1 {
         font-size: 35px;
     }
