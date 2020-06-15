@@ -187,6 +187,8 @@
     }
     section:nth-child(3){
         direction: rtl;
+        padding: 10px 10px 10px 35px;
+        width: 81.5%;
     }
 
 }
