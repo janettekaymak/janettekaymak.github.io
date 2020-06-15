@@ -88,7 +88,7 @@
 
     .cards {
         max-width: 1188px;
-        margin: 50px auto 100px auto;
+        margin: 50px auto -1090px auto;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 30px;
