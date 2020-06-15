@@ -87,7 +87,7 @@
     }
 
 
-    #bottom {
+    .bottom {
         text-align: center;
         font-family: Poppins, Helvetica, sans-serif;
         margin-top: 95px;
@@ -95,7 +95,7 @@
 
     }
 
-    #bottom a {
+    .bottom a {
         text-decoration: none;
         text-shadow: 1px 1px white;
         color: black;
@@ -107,7 +107,7 @@
         border-radius: 5px;
     }
 
-    #bottom a:hover {
+    .bottom a:hover {
         padding: 45px;
         font-size: 25px;
         box-shadow: 0 0 50px rgb(248, 238, 145);

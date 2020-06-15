@@ -230,14 +230,14 @@ section:nth-child(1){
 
 /*---------------------------------------footer------------------------*/
 
-#bottom {
+.bottom {
     text-align: center;
     font-family: Poppins, Helvetica, sans-serif;
     margin: 50px 0 20px 0;
 
 }
 
-#bottom a {
+.bottom a {
     text-decoration: none;
     text-shadow: 1px 1px white;
     color: black;
@@ -249,9 +249,12 @@ section:nth-child(1){
     border-radius: 5px;
     border: dotted 3px;
 }
-#bottom a:hover {
+.bottom a:hover {
     font-size: 20px;
     transition: 1s;
+}
+#desk, #pad{
+    display: none;
 }
 
 footer {
