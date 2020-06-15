@@ -181,7 +181,7 @@
     section img {
         height: 280px;
         margin-top: 2px;
-        margin-right: 25px
+        margin-right: 25px;
         grid-column: 2;
         grid-row: 1;
     }
