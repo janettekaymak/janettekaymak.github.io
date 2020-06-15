@@ -10,7 +10,7 @@
 
     #sage {
         display: inline-block;
-        min-width: 100%;
+        width: 100%;
         margin-top: -7px;
         box-shadow: rgb(227, 241, 252) 0px 0px 15px;
         margin-top: -25px;
@@ -153,7 +153,7 @@
 
     section h2 {
         padding: 0 15px;
-        font-size: 22px;
+        font-size: 20px;
         margin-top: 90px;
         grid-column: 1;
         grid-row: 1;
@@ -188,7 +188,7 @@
     section:nth-child(3){
         direction: rtl;
         padding: 10px 10px 10px 35px;
-        width: 81.5%;
+        width: 82%;
     }
 
 }

@@ -175,9 +175,9 @@ section h1 {
 section h2 {
     text-shadow: transparent 3px 3px 5px;
     color: black;
-    font-family: cursive, fantasy;
-    font-weight: lighter;
-    font-size: 22px;
+    font-family: fantasy, serif;
+    font-style: italic;
+    font-size: 18px;
     margin-bottom: 35px;
 
 }

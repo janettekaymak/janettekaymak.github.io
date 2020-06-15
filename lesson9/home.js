@@ -22,7 +22,7 @@ fetch(requestURL)
                 photo.setAttribute('src', 'images/' + towns[i].photo);
                 photo.setAttribute('alt', towns[i].name);
                 name.textContent = 'Welcome to ' + towns[i].name;
-                motto.textContent = '\"' + towns[i].motto + '\"';
+                motto.textContent = towns[i].motto;
                 yearFounded.textContent = 'Wonderful little town - founded in ' + towns[i].yearFounded;
                 currentPopulation.textContent = "There's lots of room - population: " + towns[i].currentPopulation;
                 averageRainfall.textContent = 'Average yearly rainfall in inches: ' + towns[i].averageRainfall;
