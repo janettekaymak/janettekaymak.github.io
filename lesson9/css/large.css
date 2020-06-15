@@ -80,6 +80,11 @@
         margin: auto;
         padding: 10px;
     }
+    section:nth-child(1){
+        grid-row: 1;
+        grid-column: 3;
+    
+    }
 
     .cards {
         max-width: 1188px;
