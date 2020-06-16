@@ -20,7 +20,7 @@ fetch(requestURL)
         birthdate.textContent = 'Date of Birth: ' + prophets[i].birthdate;
         bornAt.textContent = 'Place of Birth: ' + prophets[i].birthplace;
         photo.setAttribute('src', prophets[i].imageurl);
-        photo.setAttribute('alt', prophets[i].name + prophets.lastname + " - " + prophets.order);
+        photo.setAttribute('alt', prophets[i].name + prophets[i].lastname + " - " + prophets[i].order);
         title.textContent = prophets[i].name + ' ' + prophets[i].lastname;
 
         //Put elements in each
