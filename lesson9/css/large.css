@@ -42,10 +42,66 @@
         padding: 20px;
     }
 
-    /*----------- MAIN --------------*/
-    body {
-        max-width: 1500px;
+    /*Preston Page Main--------------------------*/
+    .prestonMain{
+        max-width: 900px;
     }
+
+    .weather-summary{
+        top: 30px;
+        left: 30px;
+    }
+    .weather-summary p{
+        font-size: 20px;
+    } 
+    .hero-box h3 {
+        margin-top: 5px;
+        font-size: 40px;
+    }
+    table{
+        font-size: 18px;
+    }
+   
+    .article, .article-wide{
+        font-size: 17px;
+        margin: 35px 0px;
+        max-width: 45%;
+    }
+    #tent{
+        max-width: 50%;
+        border-radius: 15px;
+        float: right;
+        margin-top: -720px;
+    }
+    #contact{
+        display: block;
+        max-width: 1200px;
+    }
+    .graybox{
+        position: relative;
+        float: right;
+        height: 315px;
+        margin-top: -420px;
+        margin-right: 5px;
+    }
+    .graybox p{
+        line-height: 1.5;
+        height: 185px;
+    }
+    #map1{
+        min-width: 48%;
+    }
+    .google-maps{
+        margin-left: 45px;
+    }
+
+     .social {
+        float: right;
+        margin-top: -55px;
+        padding: 20px 90px 0 40px;
+    }
+
+    /*----------- Home page MAIN --------------*/
 
     #flashflood {
         margin: 5px 0 100px 0;
@@ -63,24 +119,24 @@
         margin-top: -20px;
         margin-left: 10px;
     }
-    section h1 {
+    townbox h1 {
         font-size: 35px;
     }
 
-    section h2 {
+    townbox h2 {
         font-size: 15px;
     }
 
-    section p {
+    townbox p {
         font-size: 14.5px;
     }
 
-    section {
+    townbox {
         width: 93%;
         margin: auto;
         padding: 10px;
     }
-    section:nth-child(1){
+    townbox:nth-child(1){
         grid-row: 1;
         grid-column: 3;
     
@@ -95,7 +151,7 @@
         gap: 30px;
     }
 
-    main img {
+    townbox img {
         display: block;
         width: 100%;
         margin-left: auto;
@@ -109,7 +165,7 @@
         display: block;
     }
 
-
+/*footer-------------------------*/
 
     footer p {
         font-size: 16px;
@@ -117,6 +173,74 @@
 
     footer {
         max-width: 1350px;
+        margin-bottom: 5px;
+    }
+
+    footer a:hover {
+        font-size: 20px;
+    }
+}
+
+/*Gallery Main-------------------------*/
+@media screen and (min-width: 980px) {
+    galleryMain {
+        max-width: 1090px;
+    }
+    .containerb {
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1200px;
+    }
+    
+    figcaption {
+        display: block;
+        font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+        text-align: center;
+    
+    }
+    
+    figure {
+        margin: 10px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    
+    .gallery:hover {
+        box-shadow: 0 0 50px black;
+        transition: 1s;
+    }
+    
+
+}
+
+/*Storm Center Form Main-------------------*/
+@media screen and (min-width: 980px) {
+
+    h2 {
+        font-size: 60px;
+    }
+
+    .formMain {
+        max-width: 800px;
+    }
+    form label.sbs {
+        padding: .4rem 0;
+    }
+    h3.thankyou {
+        font-size: 34px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+
+    footer {
+        max-width: 1200px;
         margin-bottom: 5px;
     }
 

@@ -1,7 +1,22 @@
+/*HEADER AND NAV mobile view-------------------------------------*/
+
 body {
     background-color: #e4f7cd;
     background-image: radial-gradient(rgb(253, 252, 242), lemonchiffon, #e4f7cd, darkseagreen, rgb(253, 252, 242));
     margin: auto;
+}
+
+#pancakes {
+    display: none;
+    background-color: lemonchiffon;
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 0 2px;
+    text-align: center;
+}
+
+#pancakes.show {
+    display: block;
 }
 
 #icon {
@@ -130,6 +145,29 @@ h2 {
     margin-bottom: 0px;
 }
 
+/*Gallery Main--------------------------------------*/
+.gallery-title {
+    font-size: 28px;
+}
+
+main,
+.containerb {
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.gallery {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+figcaption {
+    display: none;
+}
+
+
 h3 {
     font-family: "Neucha", fantasy, cursive;
     font-size: 25px;
@@ -139,7 +177,265 @@ h3 {
     line-height: .5;
 }
 
-/*-----------------------------------------main-------------------------*/
+p {
+    font-family: "Poppins", Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+/*main {
+    max-width: 414px;
+    margin: auto;
+}*/
+/*MAIN LESSON 5A PRESTON HOME PAGE---------------------------------------*/
+.hero-box {
+    position: relative;
+    margin-top: 10px;
+    ;
+}
+
+.hero-box h3 {
+    margin-top: 15px;
+    font-family: "Neucha", fantasy, cursive;
+    font-size: 20px;
+    color: rgb(253, 215, 1);
+    text-shadow: rgb(1, 59, 99) 2px 2px 2px;
+}
+
+.yellow {
+    color: rgb(253, 215, 1);
+    text-shadow: rgb(1, 59, 99) 2px 2px 2px;
+}
+
+.hero-box p {
+    margin-top: 15px;
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1;
+}
+
+#heroimg img {
+    max-width: 100%;
+}
+
+.weather-summary {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    background-color: rgba(3, 128, 201, 0.7);
+    border: rgb(1, 82, 136) solid 2px;
+    color: white;
+    padding: 0 15px;
+    max-width: 50%;
+    border-radius: 15px;
+    box-shadow: 0 0 55px lemonchiffon;
+}
+
+.weather-summary p {
+    text-align: left;
+    font-size: 14px;
+    line-height: .7;
+}
+
+#rodeo {
+    max-width: 550px;
+    border-radius: 5px;
+}
+
+#widerodeo {
+    display: none;
+}
+
+#fiveday {
+    display: none;
+}
+
+.article,
+.article-wide {
+    margin: 0 20px;
+    line-height: 1.5;
+}
+
+.article-wide a:hover,
+.google-maps a:hover {
+    color: blue;
+    text-shadow: blue 2px 2px 3px;
+}
+
+#big {
+    display: none;
+}
+
+.google-maps {
+    position: relative;
+    font-size: 19px;
+    text-align: center;
+}
+
+#tent {
+    max-width: 100%;
+}
+
+.graybox {
+    padding: 20px 15px;
+    margin: 20px 25px;
+    border: lightgray dotted 2px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 30px gray;
+}
+
+.graybox p {
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: dimgray;
+    font-size: 15px;
+}
+
+.graybox a img {
+    margin: 5px;
+}
+
+.social {
+    position: relative;
+    margin-left: 55px;
+}
+
+.social a:link,
+a:visited {}
+
+.social a:hover {
+    background-color: cyan;
+    transition: 1.5s;
+}
+
+#map1 {
+    display: none;
+}
+
+#map {
+    max-width: 100%;
+    margin-bottom: -5px;
+}
+
+
+/*Storm Center Form Main----------------------*/
+.form-title {
+    text-align: center;
+    font-family: "Neucha", fantasy, cursive;
+    font-size: 28px;
+}
+
+.formMain {
+    max-width: 465px;
+    margin: auto;
+}
+
+form {
+    font-family: "Poppins", sans-serif;
+    color: #7c0206;
+}
+
+form fieldset {
+    margin: 1rem 0 3rem 0;
+    border: 1px solid #1e316d;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    max-width: 100%;
+}
+
+form legend {
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    color: #1e316d;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    max-width: 93%;
+}
+
+form label.top input,
+form label.top select,
+form label.top select.option {
+    -webkit-appearance: none;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+    max-width: 100%;
+}
+
+.space {
+    margin-top: -15px;
+    padding: .5rem;
+    width: 94%;
+    height: 215px;
+    border-radius: 5px;
+}
+
+form label.top input:required {
+    border-left: #aa2a2e solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+.flexly {
+    display: flex;
+    align-items: center;
+}
+
+#white {
+    background-color: white;
+    width: 200px;
+    color: #555;
+}
+
+#ratingvalue {
+    margin: 0 15px;
+}
+
+h3.thankyou {
+    font-family: "Neucha", fantasy, cursive;
+    text-align: center;
+    font-size: 20px;
+    color: #912a2d;
+    text-shadow: rgb(227, 241, 252) 3px 3px 5px;
+    margin: 50px;
+
+}
+
+.thanksImg {
+    display: none;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #912a2d;
+    color: white;
+    border-radius: 10px;
+    padding: .75rem 1.5rem;
+    margin: 0 0 20px 40px;
+    width: 75%;
+    max-width: 20rem;
+}
+
+/*------------end of form---------*/
+
+
+/*main LESSON 9 HOME-------------------------*/
 #flashflood {
     display: block;
     margin: 130px auto 0 auto;
@@ -157,22 +453,22 @@ h3 {
     border-radius: 10px;
 }
 
-section h1,
-section h2,
-section h3,
-section h4,
-section h5 {
+townbox h1,
+townbox h2,
+townbox h3,
+townbox h4,
+townbox h5 {
     text-align: center;
 }
 
-section h1 {
+townbox h1 {
     font-family: "Neucha", fantasy, cursive;
     font-size: 32px;
     font-variant: none;
     border-bottom: gold dotted 5px;
 }
 
-section h2 {
+townbox h2 {
     text-shadow: transparent 3px 3px 5px;
     color: black;
     font-family: fantasy, serif;
@@ -182,23 +478,27 @@ section h2 {
 
 }
 
-section h3,
-section h4,
-section h5 {
+townbox h3,
+townbox h4,
+townbox h5 {
     text-shadow: transparent 3px 3px 5px;
     color: black;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: lighter;
     font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     line-height: .3em;
 }
 
-section h5 {
+townbox h5 {
     margin-top: -1px;
 }
 
-section {
+townbox img {
+    width: 100%;
+}
+
+townbox {
     width: 85%;
     margin: auto;
     background-color: lemonchiffon;
@@ -217,13 +517,7 @@ section {
     gap: 50px;
 }
 
-main img {
-    display: block;
-    width: 100%;
-    margin-left: 0;
-
-}
-section:nth-child(1){
+townbox:nth-child(1) {
     grid-row: 3;
 
 }
@@ -249,11 +543,14 @@ section:nth-child(1){
     border-radius: 5px;
     border: dotted 3px;
 }
+
 .bottom a:hover {
     font-size: 20px;
     transition: 1s;
 }
-#desk, #pad{
+
+#desk,
+#pad {
     display: none;
 }
 
@@ -292,9 +589,18 @@ footer a:hover {
     display: block;
 }
 
-/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+/* the onclick JS toggles the .reponsive class from display none 
+(.navigation li) to display block because the responsive class is 
+added to the end of the class list like this in HTML.
   <ul class="navigation responsive">
 */
 .responsive li {
     display: block;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }

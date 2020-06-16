@@ -10,7 +10,7 @@ fetch(requestURL)
         //Create elements and content
         for (let i = 0; i < towns.length; i++) {
             if (towns[i].name == "Preston" || towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs") {
-                let card = document.createElement('section');
+                let card = document.createElement('townbox');
                 let photo = document.createElement('img');
                 let name = document.createElement('h1');
                 let motto = document.createElement('h2');
