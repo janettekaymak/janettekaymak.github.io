@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Gallery Page | Janette Kaymak</title>
+    <meta name="description"
+        content="Lesson 05 Preston Home Page, by Janette Kaymak, CIT 230: Web Frontend Development, Brigham Young University - Idaho" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/sunny.ico">
+</head>
+
+<body>
+    <header>
+        <img id="icon" src="images/clipsun.jpg" alt="icon with sun and clouds">
+        <!--free image found at: https://clipartion.com/free-clipart-19964/-->
+        <h1 id="top-h1">Southeastern Idaho Weather</h1>
+        <div id="motto">"Sun, rain, or snow...You want to know"</div>
+        <img id="sage" src="images/shortsage.jpg"
+            alt="Idaho sagebrush with a beautiful blue sky and fluffy white clouds">
+        <!--Image is part of my personal collection-->
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li class="ham">
+                <div class="container" id="menu">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </li>
+            <li>
+                <a href="https://janettekaymak.github.io/lesson10/html/home.html">Home</a>
+            </li>
+            <li>
+                <a href="https://janettekaymak.github.io/lesson10/html/preston.html">Preston</a>
+            </li>
+            <li>
+                <a href="#">Soda Springs</a>
+            </li>
+            <li>
+                <a href="#">Fish Haven</a>
+            </li>
+            <li>
+                <a href="https://janettekaymak.github.io/lesson10/html/stormcenter.html">Storm Center</a>
+            </li>
+            <li>
+                <a href="https://janettekaymak.github.io/lesson10/html/gallery.html" class="active">Gallery</a>
+            </li>
+        </ul>
+
+    </nav>
+    <main class="galleryMain">
+        <h2 class="gallery-title">Photo Gallery</h2>
+        <div class="containerb">
+            <figure>
+                <img class="gallery" src="images/placeholder.jpg" data-src="images/johnhotspring.jpg"
+                    alt="idaho hot spring">
+                <figcaption>John Banner at a SE ID Hotsprings</figcaption>
+                <!--photo by my son Johnathan Banner-->
+            </figure>
+            <figure>
+                <img class="gallery" src="images/placeholder.jpg" data-src="images/snowboarder.jpg" alt="snowboarder">
+                <figcaption>Mark Banner Snowboarding</figcaption>
+                <!--photo by my son Mark Banner-->
+            </figure>
+            <figure>
+                <img class="gallery" src="images/placeholder.jpg" data-src="images/andrew.jpg"
+                    alt="little boy rock climbing">
+                <figcaption>Andrew Banner Rock Climbing</figcaption>
+                <!--photo by my son Mark Banner-->
+            </figure>
+            <figure>
+                <img class="gallery" src="images/placeholder.jpg" data-src="images/swing.jpg" alt="rope swing">
+                <figcaption>Mark Banner at a Swimming Hole</figcaption>
+                <!--photo by my son Mark Banner-->
+            </figure>
+            <figure>
+                <img class="gallery" src="images/placeholder.jpg" data-src="images/electrical.jpg"
+                    alt="electrical storm">
+                <figcaption>Electrical Storm</figcaption>
+                <!--photo by Max LaRochelle from Upsplash-->
+            </figure>
+            <figure>
+                <img class="gallery" src="images/placeholder.jpg" data-src="images/hangman.jpg"
+                    alt="swimming hole and blue sky">
+                <figcaption>Swinging Against a Blue Sky</figcaption>
+                <!--photo by my son Mark Banner-->
+            </figure>
+            <figure>
+                <img class="gallery" src="images/placeholder.jpg" data-src="images/jerryjohnson.jpg"
+                    alt="Jerry Johnson hotsprings in the winter">
+                <figcaption>Jerry Johnson Hotsprings</figcaption>
+                <!--photo from Upsplash-->
+            </figure>
+            <figure>
+                <img class="gallery" src="images/placeholder.jpg" data-src="images/blossums.jpg"
+                    alt="a puppy sitting in flowers">
+                <figcaption>Summer Blossums</figcaption>
+                <!--photo by myself, Janette Kaymak-->
+            </figure>
+            <figure>
+                <img class="gallery" src="images/placeholder.jpg" data-src="images/windfarm.jpg" alt="wind farm">
+                <figcaption>Power County Idaho Wind Farm</figcaption>
+                <!--photo by Science in HD from Upsplash-->
+            </figure>
+            <figure>
+                <img class="gallery" src="images/placeholder.jpg" data-src="images/rigbylake.jpg"
+                    alt="children swimming in a lake">
+                <figcaption>Swimmers at Rigby Lake</figcaption>
+                <!--photo by Jessica Colbert friend from Facebook-->
+            </figure>
+            <figure>
+                <img class="gallery" src="images/placeholder.jpg" data-src="images/stars.jpg" alt="night sky">
+                <figcaption>Night Sky at Bear Lake</figcaption>
+                <!--photo by Zetong Li from Upsplash-->
+            </figure>
+            <figure>
+                <img class="gallery" src="images/placeholder.jpg" data-src="images/noaa.jpg"
+                    alt="cloudburst with rainbow">
+                <figcaption>Cloudburst with Rainbow</figcaption>
+                <!--photo by NOAA from Upsplash-->
+            </figure>
+        </div>
+
+    </main>
+    <footer>
+        <p>
+            &#169; 2020 - Janette Kaymak - Manhattan, NY<br>
+            <a href=" https://www.byui.edu/online" class="white">BYU-I Online Learning</a>
+            <script src="js/toggleMenu.js" defer></script>
+            <script src="js/gallery-7.js" defer></script>
+            <script src="js/today.js" id="today" defer></script>
+        </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+</body>
+
+</html>

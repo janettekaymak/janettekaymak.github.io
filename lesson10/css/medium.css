@@ -1,0 +1,419 @@
+/* Media Query for medium+ views */
+
+@media screen and (min-width: 768px) {
+    #pancakes {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    #icon {
+        margin: 0px 20px;
+        max-width: 150px;
+        border: 3px solid #912a2d;
+    }
+
+    #sage {
+        display: inline-block;
+        width: 100%;
+        margin-top: -7px;
+        box-shadow: rgb(227, 241, 252) 0px 0px 15px;
+        margin-top: -25px;
+        margin-bottom: 5px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    #top-h1 {
+        margin-right: 20px;
+    }
+
+    #motto {
+        margin-top: 65px;
+        margin-right: -295px;
+        font-family: cursive, fantasy;
+        font-size: 18px;
+    }
+
+    nav {
+        background-color: #9b5153;
+        /* For browsers that do not support gradients */
+        background-image: linear-gradient(#912a2d, #2094ca);
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        /* change state in small view */
+        flex: 1 1 100%;
+    }
+
+    .navigation a {
+        font-size: 14px;
+        text-align: center;
+        font-weight: unset;
+        letter-spacing: unset;
+        border-top: none;
+        border-right: 1px solid rgba(0, 0, 0, 0.3);
+    }
+
+    .navigation a:hover {
+        background-color: #f8bf03;
+        background-image: linear-gradient(#a5040a, rgb(255, 238, 0));
+        box-shadow: lemonchiffon 0px 0px 55px;
+        transition: 1s;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    /*Gallery Main-----------------------------------*/
+    .galleryMain {
+        max-width: 1080px;
+        margin: auto;
+    }
+
+    .gallery-title {
+        font-size: 40px;
+    }
+
+    .containerb {
+        margin: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1080px;
+    }
+
+    figure {
+        margin: 5px;
+        padding: 15px;
+    }
+
+    .gallery {
+        border-radius: 10px;
+        padding-bottom: 0;
+    }
+
+    /*MAIN PRESTON PAGE-------------------------------------------*/
+    .prestonMain {
+        max-width: 700px;
+        margin: auto;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    #preston {
+        padding: 20px;
+        float: none;
+        margin: 0;
+        line-height: 1;
+        margin-bottom: 30px;
+    }
+
+    .border-shadow {
+        border-radius: 15px;
+        box-shadow: 0 0 30px gray;
+    }
+
+    .weather-summary {
+        top: 25px;
+        left: 25px;
+    }
+
+    .weather-summary p {
+        font-size: 18px;
+    }
+
+    .hero-box {
+        margin-top: -45px;
+    }
+
+    .hero-box h3 {
+        font-size: 30px;
+    }
+
+    #fiveday {
+        display: block;
+    }
+
+    table {
+        margin: auto;
+        font-family: "Poppins", arial, sans-serif;
+        font-size: 15px;
+        border-collapse: collapse;
+        width: 65%;
+        margin-bottom: 65px;
+        ;
+    }
+
+    td,
+    th {
+        border: 1px solid white;
+        text-align: center;
+        padding: 8px;
+    }
+
+    tr:nth-child(odd) {
+        background-color: rgb(57, 121, 57);
+        color: white;
+    }
+
+    tr:nth-child(even) {
+        background-color: rgb(2, 48, 75);
+        background-image: linear-gradient(rgb(3, 3, 3), rgb(2, 49, 80), #016a9b, #91b7ca);
+        color: white;
+    }
+
+    .emoji {
+        font-size: 70px;
+    }
+
+    .article-box {
+        display: inline;
+        flex-wrap: wrap;
+        margin-top: -25px;
+    }
+
+    .article {
+        max-width: 45%;
+    }
+
+    .article,
+    .article-wide {
+        margin: 35px 0px;
+    }
+
+    #tent {
+        max-width: 50%;
+        border-radius: 15px;
+        float: right;
+        margin-top: -695px;
+        box-shadow: 0 0 30px gray;
+    }
+
+    #contact {
+        display: flex;
+        margin-top: 60px;
+    }
+
+    #map1 {
+        display: block;
+        max-width: 365px;
+        border-radius: 15px;
+        margin-bottom: -5px;
+        box-shadow: 0 0 30px gray;
+    }
+
+    .graybox {
+        min-width: 40%;
+        height: 270px;
+        margin: 0 -20px 0 20px;
+        box-shadow: 0 0 transparent;
+    }
+
+    .google-maps {
+        margin-left: 15px;
+    }
+
+    #small {
+        display: none;
+    }
+
+    #big {
+        display: inline-block;
+    }
+
+    .social {
+        margin-left: 45px;
+    }
+
+    #map {
+        display: none;
+    }
+
+    /*Storm Center Form Main--------------------------------------*/
+
+        .formMain {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .form-title {
+            font-size: 40px;
+        }
+
+        h3.thankyou {
+            font-size: 30px;
+        }
+
+        img.thanksImg {
+            display: block;
+            margin: -20px auto 40px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 20px black;
+
+        }
+
+        form label.top,
+        form div {
+            max-width: 420px;
+        }
+
+        .space {
+            width: 420px;
+
+        }
+
+        form input.submitBtn {
+            margin-left: 70px;
+            width: 50%;
+
+        }
+    
+
+
+        /*MAIN HOME PAGE----------------------------------------------*/
+        #flashflood {
+            margin: 5px 0 100px 0;
+            width: 100%;
+            height: 150px;
+        }
+
+        #storybox {
+            width: 250px;
+            margin: -230px auto 0 15px;
+            font-size: 16px;
+            text-align: left;
+        }
+
+
+
+
+        .bottom {
+            text-align: center;
+            font-family: Poppins, Helvetica, sans-serif;
+            margin-top: 95px;
+            margin-bottom: 50px;
+
+        }
+
+        .bottom a {
+            text-decoration: none;
+            text-shadow: 1px 1px white;
+            color: black;
+            font-size: 20px;
+            font-weight: bolder;
+            background-image: url(https://janettekaymak.github.io/lesson9/wire-frame/images/desktop-frame.jpg);
+            background-size: 20em;
+            padding: 50px 5px 5px 5px;
+            border-radius: 5px;
+        }
+
+        .bottom a:hover {
+            padding: 45px;
+            font-size: 25px;
+            box-shadow: 0 0 50px rgb(248, 238, 145);
+            transition: 1s;
+        }
+
+        #phone {
+            display: none;
+        }
+
+        #pad {
+            display: block;
+        }
+
+
+        footer p {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        footer {
+            max-width: 1000px;
+            margin: auto;
+            margin-top: 25px;
+            height: 70px;
+            padding: 7px 10px 0px 10px;
+            border-radius: 10px;
+        }
+
+        footer a:hover {
+            font-size: 20px;
+            transition: 1s;
+        }
+    }
+
+    /*For JSON Main section-----------------------------------------------*/
+    @media only screen and (max-width: 1188px) and (min-width: 768px) {
+
+        townbox {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            max-height: 285px;
+
+        }
+
+        townbox h1 {
+            border-bottom: transparent dotted 5px;
+            grid-column: 1;
+            grid-row: 1;
+        }
+
+        townbox h2 {
+            direction: ltr;
+            padding: 0 15px;
+            font-size: 20px;
+            margin-top: 90px;
+            grid-column: 1;
+            grid-row: 1;
+        }
+
+        townbox h3,
+        townbox h4,
+        townbox h5 {
+            direction: ltr;
+            grid-column: 1;
+            grid-row: 2;
+        }
+
+        townbox h3 {
+            margin-top: -100px;
+        }
+
+        townbox h4 {
+            margin-top: -75px;
+        }
+
+        townbox h5 {
+            margin-top: -50px;
+        }
+
+        townbox img {
+            height: 280px;
+            margin-top: 2px;
+            margin-right: 25px;
+            grid-column: 2;
+            grid-row: 1;
+        }
+
+        townbox:nth-child(3) {
+            direction: rtl;
+            padding: 10px 10px 10px 35px;
+            width: 82%;
+        }
+
+    }
