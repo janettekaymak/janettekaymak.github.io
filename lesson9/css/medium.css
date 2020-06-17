@@ -243,7 +243,6 @@
     }
 
     /*Storm Center Form Main--------------------------------------*/
-    @media screen and (min-width: 700px) {
 
         .formMain {
             max-width: 600px;
@@ -281,7 +280,7 @@
             width: 50%;
 
         }
-    }
+    
 
 
         /*MAIN HOME PAGE----------------------------------------------*/
