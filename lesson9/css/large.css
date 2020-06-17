@@ -179,10 +179,10 @@
     footer a:hover {
         font-size: 20px;
     }
-}
+
 
 /*Gallery Main-------------------------*/
-@media screen and (min-width: 980px) {
+
     galleryMain {
         max-width: 1090px;
     }
@@ -216,10 +216,10 @@
     }
     
 
-}
+
 
 /*Storm Center Form Main-------------------*/
-@media screen and (min-width: 980px) {
+
 
     h2 {
         font-size: 60px;
