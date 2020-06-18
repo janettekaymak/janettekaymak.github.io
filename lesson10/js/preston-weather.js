@@ -9,11 +9,8 @@ document.getElementById('current-temp').textContent = Math.round(preston.main.te
 document.getElementById('hightemp').textContent = Math.round(preston.main.temp_max);
 document.getElementById('humidity').textContent = preston.main.humidity;
 document.getElementById('windspeed').textContent = Math.round(preston.wind.speed);
-
-
-const imagesrc = 'https://openweathermap.org/img/w/' + preston.weather[0].icon + '.png';  // note the concatenation
-const desc = preston.weather[0].description;  // note how we reference the weather array
 document.getElementById('conditions').textContent = preston.weather[0].main;
+
 
 });
 
