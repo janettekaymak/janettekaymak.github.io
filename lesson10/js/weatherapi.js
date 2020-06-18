@@ -10,6 +10,7 @@ document.getElementById('hightemp').textContent = Math.round(preston.main.temp_m
 
 const imagesrc = 'https://openweathermap.org/img/w/' + preston.weather[0].icon + '.png';  // note the concatenation
 const desc = preston.weather[0].description;  // note how we reference the weather array
+document.getElementById('description').textContent = preston.weather[0].description;
 document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
 document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
 document.getElementById('icon').setAttribute('alt', desc);
