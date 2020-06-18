@@ -4,7 +4,9 @@ fetch(apiURL)
 .then((preston) => {
   console.log(preston);
   
-document.getElementById('current-temp').textContent = preston.main.temp;
+document.getElementById('current-temp').textContent = Math.round(preston.main.temp);
+document.getElementById('hightemp').textContent = Math.round(preston.main.temp_max);
+
 
 const imagesrc = 'https://openweathermap.org/img/w/' + preston.weather[0].icon + '.png';  // note the concatenation
 const desc = preston.weather[0].description;  // note how we reference the weather array
