@@ -27,7 +27,7 @@ document.getElementById('conditions').textContent = preston.weather[0].main;
   let windchill = 35.74 + (0.6215 * hightemp) - (35.75 * (windspeed ** .16)) + (0.4275 * hightemp * (windspeed ** .16));
   
    
-  if (hightemp <= 80 && windspeed > 0) {
+  if (hightemp <= 50 && windspeed > 3) {
      windChill = Math.round(windChill) + "&#8457";
   } else {
      windChill = "N/A";
