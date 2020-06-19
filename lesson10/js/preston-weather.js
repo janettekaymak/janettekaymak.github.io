@@ -85,13 +85,12 @@ document.getElementById('day5').innerHTML = getWeekDay5(date);
 (function feelsLike () {
   const ht = document.getElementById('hightemp').innerHTML;
   const ws = document.getElementById('windspeed').innerHTML;
-  let feelsLike = 35.74 + (0.6215 * ht) - (35.75 * (ws ** .16)) + (0.4275 * ht * (ws ** .16)); 
+  let feelsLike = 35.74 + (0.6215 * ht) - (35.75 * (ws ** .16)) + (0.4275 * ht * (ws ** .16));
   if (ht <= 90 && ws > 0) {
      let feelsLike = Math.round(feelsLike);
   } else {
      feelsLike = "N/A";
   }
-  setTimeout(feelsLike, 3000);
   document.getElementById('windchill').innerHTML = feelsLike;
 }());
 
