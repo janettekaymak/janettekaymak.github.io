@@ -79,12 +79,12 @@ document.getElementById('day5').innerHTML = getWeekDay5(date);
 
 /*Windchill*/
 (function windChill () {
-  const hightemp = document.getElementById('hightemp').innerHTML;
-  const windspeed = document.getElementById('windspeed').innerHTML;
-  let windchill = 35.74 + (0.6215 * hightemp) - (35.75 * (windspeed ** .16)) + (0.4275 * hightemp * (windspeed ** .16));
+  const ht = document.getElementById('hightemp').innerHTML;
+  const ws = document.getElementById('windspeed').innerHTML;
+  let windchill = 35.74 + (0.6215 * ht) - (35.75 * (ws ** .16)) + (0.4275 * ht * (ws ** .16));
   
    
-  if (hightemp <= 50 && windspeed > 3) {
+  if (ht <= 50 && ws > 3) {
      let windchill = Math.round(windchill);
   } else {
      windchill = "N/A";
