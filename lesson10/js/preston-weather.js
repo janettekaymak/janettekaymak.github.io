@@ -77,17 +77,22 @@ document.getElementById('day5').innerHTML = getWeekDay5(date);
 
 
 
+
+
+
 /*Windchill*/
-(function windChill () {
+ 
+(function feelsLike () {
   const ht = document.getElementById('hightemp').innerHTML;
   const ws = document.getElementById('windspeed').innerHTML;
-  let windchill = 35.74 + (0.6215 * ht) - (35.75 * (ws ** .16)) + (0.4275 * ht * (ws ** .16));
-  
-   
-  if (ht <= 50 && ws > 3) {
-     let windchill = Math.round(windchill);
+  let feelsLike = 35.74 + (0.6215 * ht) - (35.75 * (ws ** .16)) + (0.4275 * ht * (ws ** .16)); 
+  if (ht <= 90 && ws > 0) {
+     let feelsLike = Math.round(feelsLike);
   } else {
-     windchill = "N/A";
+     feelsLike = "N/A";
   }
-  document.getElementById('windchill').innerHTML = windchill;
+  setTimeout(feelsLike, 3000);
+  document.getElementById('windchill').innerHTML = feelsLike;
 }());
+
+
