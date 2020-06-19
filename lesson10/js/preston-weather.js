@@ -27,6 +27,7 @@ function getWeekDay1(date){
   //Return the element that corresponds to that index.
   return weekdays[day];
 }
+
 function getWeekDay2(date){
   //Create an array containing each day, starting with Monday.
   var weekdays = new Array(
@@ -80,13 +81,13 @@ document.getElementById('day5').innerHTML = getWeekDay5(date);
 (function windChill () {
   const hightemp = document.getElementById('hightemp').innerHTML;
   const windspeed = document.getElementById('windspeed').innerHTML;
-  let windChill = 35.74 + (0.6215 * hightemp) - (35.75 * (windspeed ** .16)) + (0.4275 * hightemp * (windspeed ** .16));
+  let windchill = 35.74 + (0.6215 * hightemp) - (35.75 * (windspeed ** .16)) + (0.4275 * hightemp * (windspeed ** .16));
   
    
   if (hightemp <= 50 && windspeed > 3) {
-     windChill = Math.round(windChill) + "&#8457";
+     let windchill = Math.round(windchill);
   } else {
-     windChill = "N/A";
+     windchill = "N/A";
   }
-  document.getElementById('windChill').innerHTML = windChill;
+  document.getElementById('windchill').innerHTML = windchill;
 }());
