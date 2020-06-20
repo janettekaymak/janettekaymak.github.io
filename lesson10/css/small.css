@@ -6,19 +6,6 @@ body {
     margin: auto;
 }
 
-#pancakes {
-    display: none;
-    background-color: lemonchiffon;
-    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    padding: 0 2px;
-    text-align: center;
-}
-
-#pancakes.show {
-    display: block;
-}
-
 #icon {
     position: -webkit-sticky;
     position: sticky;
@@ -184,6 +171,18 @@ p {
 
 
 /*MAIN PRESTON HOME PAGE---------------------------------------*/
+#pancakes {
+    display: none;
+    background-color: lemonchiffon;
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 0 2px;
+    text-align: center;
+}
+
+#pancakes.show {
+    display: block;
+}
 .hero-box {
     position: relative;
     margin-top: 10px;
@@ -230,6 +229,9 @@ p {
     text-align: left;
     font-size: 14px;
     line-height: .7;
+}
+.hide{
+    display: none;
 }
 
 #rodeo {
