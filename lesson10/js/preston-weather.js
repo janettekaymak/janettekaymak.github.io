@@ -1,3 +1,18 @@
+(function windChill() {
+  const ht = document.getElementById('hightemp').innerHTML;
+  const ws = document.getElementById('windspeed').innerHTML;
+  let wc = 35.74 + (0.6215 * ht) - (35.75 * (ws ** .16)) + (0.4275 * ht * (ws ** .16));
+  if (ht <= 90 && ws > 0) {
+     let wc = Math.round(wc);
+  } else {
+     wc = "N/A";
+  }
+  document.getElementById('windchill').innerHTML = wc;
+}());
+
+
+
+
 const apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=Preston,us&units=imperial&APPID=abe726d4fa97f7d629527a984b3b6ae0';
 fetch(apiURL)
 .then((response) => response.json())
@@ -11,7 +26,7 @@ document.getElementById('windspeed').textContent = Math.round(preston.wind.speed
 document.getElementById('conditions').textContent = preston.weather[0].main;
 document.getElementById('high1').textContent = Math.round(preston.main.temp_max);
 document.getElementById('low1').textContent = Math.round(preston.main.temp_min);
-
+windChill();
 });
 
 
@@ -73,26 +88,8 @@ document.getElementById('day2').innerHTML = getWeekDay2(date);
 document.getElementById('day3').innerHTML = getWeekDay3(date);
 document.getElementById('day4').innerHTML = getWeekDay4(date);
 document.getElementById('day5').innerHTML = getWeekDay5(date);
-
-
-
-
-
-
-
-/*Windchill*/
  
-(function windChill() {
-  const ht = document.getElementById('hightemp').innerHTML;
-  const ws = document.getElementById('windspeed').innerHTML;
-  let wc = 35.74 + (0.6215 * ht) - (35.75 * (ws ** .16)) + (0.4275 * ht * (ws ** .16));
-  if (ht <= 50 && ws > 3) {
-     let wc = Math.round(wc);
-  } else {
-     wc = "N/A";
-  }
-  document.getElementById('windchill').innerHTML = wc;
-}());
+
 
 
 
