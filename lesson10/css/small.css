@@ -183,7 +183,7 @@ p {
 }
 
 
-/*MAIN LESSON 5A PRESTON HOME PAGE---------------------------------------*/
+/*MAIN PRESTON HOME PAGE---------------------------------------*/
 .hero-box {
     position: relative;
     margin-top: 10px;
@@ -201,12 +201,12 @@ p {
 .yellow {
     color: rgb(253, 215, 1);
     text-shadow: rgb(1, 59, 99) 2px 2px 2px;
+    line-height: .5em;
 }
 
 .hero-box p {
-    margin-top: 15px;
+    margin-top: -1px;
     font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 1;
 }
 
 #heroimg img {
