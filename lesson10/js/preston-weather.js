@@ -11,7 +11,7 @@ document.getElementById('windspeed').textContent = Math.round(preston.wind.speed
 document.getElementById('conditions').textContent = preston.weather[0].main;
 document.getElementById('high1').textContent = Math.round(preston.main.temp_max);
 document.getElementById('low1').textContent = Math.round(preston.main.temp_min);
-document.getElementById('emo1').setAttribute = preston.main.icon;
+
 });
 
 
@@ -82,16 +82,16 @@ document.getElementById('day5').innerHTML = getWeekDay5(date);
 
 /*Windchill*/
  
-(function feelsLike () {
+(function windChill() {
   const ht = document.getElementById('hightemp').innerHTML;
   const ws = document.getElementById('windspeed').innerHTML;
-  let feelsLike = 35.74 + (0.6215 * ht) - (35.75 * (ws ** .16)) + (0.4275 * ht * (ws ** .16));
-  if (ht <= 90 && ws > 0) {
-     let feelsLike = Math.round(feelsLike);
+  let wc = 35.74 + (0.6215 * ht) - (35.75 * (ws ** .16)) + (0.4275 * ht * (ws ** .16));
+  if (ht <= 50 && ws > 3) {
+     let wc = Math.round(wc);
   } else {
-     feelsLike = "N/A";
+     wc = "N/A";
   }
-  document.getElementById('windchill').innerHTML = feelsLike;
+  document.getElementById('windchill').innerHTML = wc;
 }());
 
 
