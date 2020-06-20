@@ -107,10 +107,12 @@
 
     h2 {
         font-size: 40px;
+        text-shadow: rgb(182, 219, 248) 3px 3px 5px;
     }
 
     h3 {
         font-size: 25px;
+        text-shadow: rgb(182, 219, 248) 3px 3px 5px;
     }
 
     #preston {
