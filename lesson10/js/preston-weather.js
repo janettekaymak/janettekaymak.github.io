@@ -15,7 +15,7 @@ windChill();
 
 
 
-/*Functions to get days of the week and show on 5dayforecast table*/
+/*Functions to get days of the week and show on 5dayforecast table
 
 function getWeekDay1(date){
   //Create an array containing each day, starting with Monday.
@@ -71,7 +71,7 @@ document.getElementById('day1').innerHTML = getWeekDay1(date);
 document.getElementById('day2').innerHTML = getWeekDay2(date);
 document.getElementById('day3').innerHTML = getWeekDay3(date);
 document.getElementById('day4').innerHTML = getWeekDay4(date);
-document.getElementById('day5').innerHTML = getWeekDay5(date);
+document.getElementById('day5').innerHTML = getWeekDay5(date);*/
  
 
 
@@ -79,17 +79,22 @@ document.getElementById('day5').innerHTML = getWeekDay5(date);
 
 
 
-(function windChill() {
-  const ht = document.getElementById('hightemp').innerHTML;
+function windChill (){
+  const t = document.getElementById('current-temp').innerHTML;
   const ws = document.getElementById('windspeed').innerHTML;
-  let wc = 35.74 + (0.6215 * ht) - (35.75 * (ws ** .16)) + (0.4275 * ht * (ws ** .16));
-  if (ht <= 100 && ws > 0) {
-     let wc = Math.round(wc);
-  } else {
+  var wc = 35.74 + (0.6215 * t) - (35.75 * (ws ** .16)) + (0.4275 * t * (ws ** .16));
+        
+  if (t <= 80 && ws > 0) {
+     var wc = Math.round(wc) + '°F';
+  } 
+    else {
      wc = "N/A";
   }
-  document.getElementById('windchill').innerHTML = wc;
-}());
+  document.getElementById('windchill').textContent = wc;
+};
+
+
+
 
 
 
