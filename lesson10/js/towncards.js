@@ -17,6 +17,7 @@ fetch(requestURL)
                 let yearFounded = document.createElement('h3');
                 let currentPopulation = document.createElement('h4');
                 let averageRainfall = document.createElement('h5');
+                let events = document.createElement('h6')
 
                 //Create content
                 photo.setAttribute('src', 'images/' + towns[i].photo);
@@ -26,7 +27,7 @@ fetch(requestURL)
                 yearFounded.textContent = 'Wonderful little town - founded in ' + towns[i].yearFounded + ".";
                 currentPopulation.textContent = "There's lots of room - population: " + towns[i].currentPopulation + "." ;
                 averageRainfall.textContent = 'Average yearly rainfall: ' + towns[i].averageRainfall + '"' + ".";
-
+                events.textContent = towns[i].events + ".";
                 //Put elements in section
                 card.appendChild(photo);
                 card.appendChild(name);
@@ -34,6 +35,7 @@ fetch(requestURL)
                 card.appendChild(yearFounded);
                 card.appendChild(currentPopulation);
                 card.appendChild(averageRainfall);
+                card.appendChild(events);
                 document.querySelector('div.cards').appendChild(card);
             }
         }

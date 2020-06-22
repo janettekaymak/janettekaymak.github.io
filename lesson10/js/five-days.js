@@ -1,3 +1,27 @@
+/*const apiURL = "https://api.openweathermap.org/data/2.5/forecast?q=Preston,us&units=imperial&APPID=abe726d4fa97f7d629527a984b3b6ae0";
+
+fetch(apiURL)
+.then((response) => response.json())
+.then((forecast) => {
+  console.log(forecast);
+  
+document.getElementById('current-temp').textContent = Math.round(preston.main.temp);
+document.getElementById('hightemp').textContent = Math.round(preston.main.temp_max);
+document.getElementById('humidity').textContent = preston.main.humidity;
+document.getElementById('windspeed').textContent = Math.round(preston.wind.speed);
+document.getElementById('conditions').textContent = preston.weather[0].main;
+document.getElementById('feelsLike').textContent = Math.round(preston.main.feels_like);
+
+});*/
+
+
+
+
+
+
+
+
+
 
 /*Functions to get days of the week and show on 5dayforecast table*/
 
@@ -56,7 +80,3 @@ function getWeekDay1(date){
   document.getElementById('day3').innerHTML = getWeekDay3(date);
   document.getElementById('day4').innerHTML = getWeekDay4(date);
   document.getElementById('day5').innerHTML = getWeekDay5(date);
-
-
-/*const URL = "https://api.openweathermap.org/data/2.5/forecast?q=Preston,us&units=imperial&APPID=abe726d4fa97f7d629527a984b3b6ae0";*/
-
