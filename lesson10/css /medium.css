@@ -365,7 +365,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr 1fr;
-            max-height: 285px;
+            max-height: 360px;
 
         }
 
@@ -386,26 +386,32 @@
 
         townbox h3,
         townbox h4,
-        townbox h5 {
+        townbox h5,
+        townbox h6 {
             direction: ltr;
             grid-column: 1;
             grid-row: 2;
         }
 
         townbox h3 {
-            margin-top: -100px;
+            margin-top: -200px;
         }
 
         townbox h4 {
-            margin-top: -75px;
+            margin-top: -175px;
         }
 
         townbox h5 {
-            margin-top: -50px;
+            margin-top: -150px;
+        }
+        townbox h6{
+            margin-top: -130px;
+            padding: 20px;
+            background-color: transparent;
         }
 
         townbox img {
-            height: 280px;
+            height: 355px;
             margin-top: 2px;
             margin-right: 25px;
             grid-column: 2;
