@@ -507,6 +507,8 @@ townbox h6{
     padding: 20px 50px;
     background-color: #f8e57b;
     border-radius: 5px;
+    border-bottom: gold dotted 5px;
+    border-top: gold dotted 5px;
 }
 
 townbox img {
