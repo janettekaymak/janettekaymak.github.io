@@ -13,6 +13,8 @@ document.getElementById('feelsLike').textContent = Math.round(preston.main.feels
 
 windChill();
 });
+
+
  
 
 /*windchill------------------------------------*/
