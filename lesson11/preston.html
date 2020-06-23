@@ -78,7 +78,7 @@
                 <p>Wind Speed: <span id="windspeed"></span> mph</p>
             </div>
         </div>
-        <div id="fiveday">
+        <div id="forecast">
             <h3>Five Day Forecast</h3>
             <table>
                 <tr>
@@ -90,15 +90,15 @@
                 </tr>
                 <tr>
                     <td><span id="high1"></span>&#8457; / <span id="low1"></span>&#8457;
-                        <span id="emo1" class="emoji">&#127774;</span></td>
+                        <span id="emo1" class="emoji"></span></td>
                     <td><span id="high2"></span>&#8457; / <span id="low2"></span>&#8457;
-                        <span id="emo2" class="emoji">&#127774;</span></td>
+                        <span id="emo2" class="emoji"></span></td>
                     <td><span id="high3"></span>&#8457; / <span id="low3"></span>&#8457;
-                        <span id="emo3" class="emoji">&#127774;</span></td>
+                        <span id="emo3" class="emoji"></span></td>
                     <td><span id="high4"></span>&#8457; / <span id="low4"></span>&#8457;
-                        <span id="emo4" class="emoji">&#127774;</span></td>
+                        <span id="emo4" class="emoji"></span></td>
                     <td><span id="high5"></span>&#8457; / <span id="low5"></span>&#8457;
-                        <span id="emo5" class="emoji">&#127774;</span></td>
+                        <span id="emo5" class="emoji"></span></td>
                 </tr>
             </table>
         </div>
@@ -176,7 +176,8 @@
     <script src="js/toggleMenu.js" defer></script>
     <script src="js/pancakeFriday.js" defer></script>
     <script src="js/preston-weather.js" defer></script>
-    <script src="js/five-days.js" defer></script>
+    <script src="js/forecast.js" defer></script>
+    <script>  buildForecast('5604473');</script>
 </body>
 
 </html>
