@@ -1,9 +1,9 @@
-/*const apiURL = "https://api.openweathermap.org/data/2.5/forecast?q=Preston,us&units=imperial&APPID=abe726d4fa97f7d629527a984b3b6ae0";*/
+//const apiURL = "https://api.openweathermap.org/data/2.5/forecast?q=Preston,us&units=imperial&APPID=abe726d4fa97f7d629527a984b3b6ae0";*/
 
 
-/* 5 day forecast */
+// 5 day forecast
 function buildForecast(id) {
-  url ="https://api.openweathermap.org/data/2.5/forecast?id=" + id + "&units=imperial&APPID=abe726d4fa97f7d629527a984b3b6ae0";
+  url = "https://api.openweathermap.org/data/2.5/forecast?id=" + id + "&units=imperial&APPID=abe726d4fa97f7d629527a984b3b6ae0";
   fetch(url)
   .then((response) => response.json())
   .then((town) => {
