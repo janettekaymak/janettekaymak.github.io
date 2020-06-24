@@ -246,6 +246,18 @@ p {
 #forecast {
     display: none;
 }
+.prestonEvents, eventbox p{
+    text-align: center;
+    padding: 10px;
+    background-color: lemonchiffon;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: -3px;
+    border: gold dotted 5px;
+}
+eventbox p{
+    border: gold dotted 5px;
+}
 
 .article,
 .article-wide {
@@ -489,8 +501,7 @@ townbox h2 {
 
 townbox h3,
 townbox h4,
-townbox h5,
-townbox h6 {
+townbox h5 {
     text-shadow: transparent 3px 3px 5px;
     color: black;
     font-size: 15px;
@@ -502,15 +513,6 @@ townbox h6 {
 
 townbox h5 {
     margin-top: -1px;
-}
-townbox h6{
-    line-height: 1.5em;
-    font-kerning: normal;
-    padding: 20px 50px;
-    background-color: #f8e57b;
-    border-radius: 5px;
-    margin-bottom: 0px;
-    margin-top: -10px;
 }
 
 townbox img {

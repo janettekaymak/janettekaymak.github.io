@@ -154,8 +154,8 @@
         font-family: "Poppins", arial, sans-serif;
         font-size: 16px;
         border-collapse: collapse;
-        width: 78%;
-        margin-bottom: 65px;
+        width: 80%;
+        margin-bottom: 25px;
     }
 
     td,
@@ -178,6 +178,12 @@
   
     .emoji {
         width: 90px;
+    }
+    .prestonEvents, eventbox p{
+        max-width: 75%;
+        margin: auto;
+        margin-bottom: 30px;
+        margin-top: -3px; 
     }
 
     .article-box {

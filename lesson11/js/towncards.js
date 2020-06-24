@@ -17,7 +17,7 @@ fetch(requestURL)
                 let yearFounded = document.createElement('h3');
                 let currentPopulation = document.createElement('h4');
                 let averageRainfall = document.createElement('h5');
-                let events = document.createElement(div);
+                
 
                 //Create content
                 photo.setAttribute('src', 'images/' + towns[i].photo);
@@ -28,6 +28,7 @@ fetch(requestURL)
                 currentPopulation.textContent = "There's lots of room - population: " + towns[i].currentPopulation + "." ;
                 averageRainfall.textContent = 'Average yearly rainfall: ' + towns[i].averageRainfall + '"' + ".";
                
+              
                 //Put elements in section
                 card.appendChild(photo);
                 card.appendChild(name);
@@ -35,7 +36,6 @@ fetch(requestURL)
                 card.appendChild(yearFounded);
                 card.appendChild(currentPopulation);
                 card.appendChild(averageRainfall);
-               
                 document.querySelector('div.cards').appendChild(card);
             }
         }
