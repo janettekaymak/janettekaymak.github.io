@@ -246,7 +246,7 @@ p {
 #forecast {
     display: none;
 }
-.prestonEvents, eventbox p{
+.prestonEvents, .fishEvents, .sodaEvents, eventbox p{
     text-align: center;
     padding: 10px;
     background-color: lemonchiffon;
