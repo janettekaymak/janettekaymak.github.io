@@ -61,7 +61,7 @@ function getWeekDay1(date){
   
   
   //Fetch JSON weather data from openweathermap
-  const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916,us&cnt=5&units=imperial&APPID=abe726d4fa97f7d629527a984b3b6ae0';
+  const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&cnt=5&units=imperial&APPID=abe726d4fa97f7d629527a984b3b6ae0';
   
   fetch(apiURL)
   .then((response) => response.json())
@@ -69,15 +69,15 @@ function getWeekDay1(date){
     console.log(forecast);
   
   //Fill in html with forecast data  
-  document.getElementById('shigh1').textContent = Math.round(forecast.list[0].main.temp_max);
-  document.getElementById('slow1').textContent = Math.round(forecast.list[0].main.temp_min);
-  document.getElementById('shigh2').textContent = Math.round(forecast.list[1].main.temp_max);
-  document.getElementById('slow2').textContent = Math.round(forecast.list[1].main.temp_min);
-  document.getElementById('shigh3').textContent = Math.round(forecast.list[2].main.temp_max);
-  document.getElementById('slow3').textContent = Math.round(forecast.list[2].main.temp_min);
-  document.getElementById('shigh4').textContent = Math.round(forecast.list[3].main.temp_max);
-  document.getElementById('slow4').textContent = Math.round(forecast.list[3].main.temp_min);
-  document.getElementById('shigh5').textContent = Math.round(forecast.list[4].main.temp_max);
-  document.getElementById('slow5').textContent = Math.round(forecast.list[4].main.temp_min);
+  document.getElementById('high1').textContent = Math.round(forecast.list[0].main.temp_max);
+  document.getElementById('low1').textContent = Math.round(forecast.list[0].main.temp_min);
+  document.getElementById('high2').textContent = Math.round(forecast.list[1].main.temp_max);
+  document.getElementById('low2').textContent = Math.round(forecast.list[1].main.temp_min);
+  document.getElementById('high3').textContent = Math.round(forecast.list[2].main.temp_max);
+  document.getElementById('low3').textContent = Math.round(forecast.list[2].main.temp_min);
+  document.getElementById('high4').textContent = Math.round(forecast.list[3].main.temp_max);
+  document.getElementById('low4').textContent = Math.round(forecast.list[3].main.temp_min);
+  document.getElementById('high5').textContent = Math.round(forecast.list[4].main.temp_max);
+  document.getElementById('low5').textContent = Math.round(forecast.list[4].main.temp_min);
   
   });
