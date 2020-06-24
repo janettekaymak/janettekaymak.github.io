@@ -80,4 +80,40 @@ function getWeekDay1(date){
   document.getElementById('high5').textContent = Math.round(forecast.list[4].main.temp_max);
   document.getElementById('low5').textContent = Math.round(forecast.list[4].main.temp_min);
   
-  });
+ //Get icon1
+const imagesrc = 'https://openweathermap.org/img/w/' + forecast.list[0].weather[0].icon + '.png'; 
+const desc = forecast.list[0].weather[0].description;
+document.getElementById('imagesrc').textContent = imagesrc;  
+document.getElementById('icon1').setAttribute('src', imagesrc); 
+document.getElementById('icon1').setAttribute('alt', desc);
+
+//Get icon2
+const imagesrc2 = 'https://openweathermap.org/img/w/' + forecast.list[1].weather[0].icon + '.png'; 
+const desc2 = forecast.list[1].weather[0].description;
+document.getElementById('imagesrc2').textContent = imagesrc2;  
+document.getElementById('icon2').setAttribute('src', imagesrc2); 
+document.getElementById('icon2').setAttribute('alt', desc2);
+
+//Get icon3
+const imagesrc3 = 'https://openweathermap.org/img/w/' + forecast.list[2].weather[0].icon + '.png'; 
+const desc3 = forecast.list[2].weather[0].description;
+document.getElementById('imagesrc3').textContent = imagesrc3;  
+document.getElementById('icon3').setAttribute('src', imagesrc3); 
+document.getElementById('icon3').setAttribute('alt', desc3);
+
+//Get icon4
+const imagesrc4 = 'https://openweathermap.org/img/w/' + forecast.list[3].weather[0].icon + '.png'; 
+const desc4 = forecast.list[3].weather[0].description;
+document.getElementById('imagesrc4').textContent = imagesrc4;  
+document.getElementById('icon4').setAttribute('src', imagesrc4); 
+document.getElementById('icon4').setAttribute('alt', desc4);
+
+//Get icon5
+const imagesrc5 = 'https://openweathermap.org/img/w/' + forecast.list[4].weather[0].icon + '.png'; 
+const desc5 = forecast.list[4].weather[0].description;
+document.getElementById('imagesrc5').textContent = imagesrc5;  
+document.getElementById('icon5').setAttribute('src', imagesrc5); 
+document.getElementById('icon5').setAttribute('alt', desc5);
+
+
+});
