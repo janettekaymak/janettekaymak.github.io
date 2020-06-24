@@ -81,15 +81,15 @@
         position: relative;
         float: right;
         height: 315px;
-        margin-top: -425px;
-        margin-right: 15px;
+        margin-top: -405px;
+        margin-right: 22px;
     }
     .graybox p{
         line-height: 1.5;
         height: 185px;
     }
     #map1{
-        min-width: 50%;
+        min-width: 46.5%;
     }
     .google-maps{
         margin-left: 45px;

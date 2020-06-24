@@ -17,7 +17,7 @@ fetch(requestURL)
                 let yearFounded = document.createElement('h3');
                 let currentPopulation = document.createElement('h4');
                 let averageRainfall = document.createElement('h5');
-               
+                let events = document.createElement(div);
 
                 //Create content
                 photo.setAttribute('src', 'images/' + towns[i].photo);
