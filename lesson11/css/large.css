@@ -61,6 +61,9 @@
     table{
         font-size: 18px;
     }
+    .prestonEvents, .sodaEvents, .fishEvents {
+        max-width: 50%;
+    }
    
     .article, .article-wide{
         font-size: 17px;

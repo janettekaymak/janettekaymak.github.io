@@ -179,8 +179,8 @@
     .emoji {
         width: 90px;
     }
-    .prestonEvents, .sodaEvents, .fishEvents, eventbox p{
-        max-width: 75%;
+    .prestonEvents, .sodaEvents, .fishEvents {
+        max-width: 70%;
         margin: auto;
         margin-bottom: 30px;
         margin-top: -3px; 
