@@ -52,7 +52,7 @@ function getWeekDay1(date){
       return weekdays[day];
     }
   
-  //Fill in tabe with days of week
+  //Fill in table with days of week
   document.getElementById('day1').innerHTML = getWeekDay1(date);
   document.getElementById('day2').innerHTML = getWeekDay2(date);
   document.getElementById('day3').innerHTML = getWeekDay3(date);
