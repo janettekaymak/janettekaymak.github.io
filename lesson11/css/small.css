@@ -219,6 +219,7 @@ p {
     background-color: rgba(3, 128, 201, 0.7);
     border: rgb(1, 82, 136) solid 2px;
     color: white;
+    text-shadow: black 2px 2px 1px;
     padding: 0 15px;
     max-width: 50%;
     border-radius: 15px;
