@@ -10,7 +10,7 @@ document.getElementById('humidity').textContent = preston.main.humidity;
 document.getElementById('windspeed').textContent = Math.round(preston.wind.speed);
 document.getElementById('conditions').textContent = preston.weather[0].main;
 document.getElementById('feelsLike').textContent = Math.round(preston.main.feels_like);
-document.getElementById('high1').textContent = 'help me!';
+//document.getElementById('high1').textContent = 'help me!';
 
 windChill();
 });

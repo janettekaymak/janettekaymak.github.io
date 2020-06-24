@@ -1,5 +1,5 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5585010&units=imperial&APPID=abe726d4fa97f7d629527a984b3b6ae0';
-fetch(apiURL)
+const url = 'https://api.openweathermap.org/data/2.5/weather?id=5585010&units=imperial&APPID=abe726d4fa97f7d629527a984b3b6ae0';
+fetch(url)
 .then((response) => response.json())
 .then((fishhaven) => {
   console.log(fishhaven);
