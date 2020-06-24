@@ -243,7 +243,7 @@ p {
     display: none;
 }
 
-#fiveday {
+#forecast {
     display: none;
 }
 
@@ -317,6 +317,9 @@ a:visited {}
 #weather-link {
     margin-left: 50px;
     margin-top: -20px;
+}
+#imagesrc, #imagesrc2, #imagesrc3, #imagesrc4, #imagesrc5{
+    display: none;
 }
 
 

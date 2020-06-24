@@ -152,11 +152,10 @@
     table {
         margin: auto;
         font-family: "Poppins", arial, sans-serif;
-        font-size: 15px;
+        font-size: 16px;
         border-collapse: collapse;
-        width: 65%;
+        width: 75%;
         margin-bottom: 65px;
-        ;
     }
 
     td,
@@ -177,8 +176,9 @@
         color: white;
     }
 
+  
     .emoji {
-        font-size: 70px;
+        width: 80px;
     }
 
     .article-box {
