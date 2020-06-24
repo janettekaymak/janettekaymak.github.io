@@ -172,10 +172,9 @@
 
     tr:nth-child(even) {
         background-color: rgb(2, 48, 75);
-        background-image: linear-gradient(rgb(3, 3, 3), rgb(2, 49, 80), #016a9b, #91b7ca);
+        background-image: linear-gradient(rgb(3, 3, 3), rgb(2, 49, 80), #178fc7, #e7f6fd);
         color: white;
     }
-
   
     .emoji {
         width: 80px;
