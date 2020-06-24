@@ -1,3 +1,9 @@
+//Pancake Alert
+if(dayName == 'Friday') {
+  document.getElementById("pancakes").innerHTML = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the City Park Pavilion.";
+  document.getElementById("pancakes").classList.add("show");
+}
+
 //Functions to get days of the week and show on 5dayforecast table
 
 //Get day 1
