@@ -68,6 +68,8 @@ function getWeekDay1(date){
   .then((forecast) => {
     console.log(forecast);
   
+    
+  
   //Fill in html with forecast data  
   document.getElementById('high1').textContent = Math.round(forecast.list[0].main.temp_max);
   document.getElementById('low1').textContent = Math.round(forecast.list[0].main.temp_min);
@@ -79,6 +81,8 @@ function getWeekDay1(date){
   document.getElementById('low4').textContent = Math.round(forecast.list[3].main.temp_min);
   document.getElementById('high5').textContent = Math.round(forecast.list[4].main.temp_max);
   document.getElementById('low5').textContent = Math.round(forecast.list[4].main.temp_min);
+  
+  
   
   });
   
