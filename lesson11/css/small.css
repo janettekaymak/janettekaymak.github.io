@@ -266,7 +266,7 @@ eventbox p{
 }
 
 .article-wide a:hover,
-.google-maps a:hover {
+.google-maps a:hover, #weather-link a:hover {
     color: blue;
     text-shadow: blue 2px 2px 3px;
 }
