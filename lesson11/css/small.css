@@ -216,10 +216,9 @@ p {
     position: absolute;
     top: -10px;
     left: 0px;
-    background-color: rgba(3, 128, 201, 0.7);
+    background-color: rgba(3, 93, 145, 0.7);
     border: rgb(1, 82, 136) solid 2px;
     color: white;
-    text-shadow: black 2px 2px 1px;
     padding: 0 15px;
     max-width: 50%;
     border-radius: 15px;
@@ -248,12 +247,12 @@ p {
     display: none;
 }
 .prestonEvents, .fishEvents, .sodaEvents{
-    color: dimgray;
     padding: 0px 0px 15px 0;
+    background-color: lemonchiffon;
+    border-radius: 5px;
     margin-bottom: 30px;
     margin-top: -3px;
-    border: lightgray dotted 2px;
-    background-color: white;
+    border: gold dotted 5px;
 }
 eventbox p{
     text-align: center;
