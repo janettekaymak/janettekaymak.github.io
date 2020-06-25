@@ -214,7 +214,7 @@ p {
 
 .weather-summary {
     position: absolute;
-    top: -10px;
+    top: -11px;
     left: 0px;
     background-color: rgba(1, 103, 161, 0.85);
     border: rgb(1, 82, 136) solid 2px;
@@ -250,9 +250,8 @@ p {
 .prestonEvents, .fishEvents, .sodaEvents{
     padding: 0px 0px 15px 0;
     background-color: lemonchiffon;
-    border-radius: 5px;
     margin-bottom: 30px;
-    margin-top: -3px;
+    margin-top: -5px;
     border: gold dotted 5px;
 }
 eventbox p{
