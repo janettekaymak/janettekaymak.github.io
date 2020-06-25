@@ -16,6 +16,7 @@ fetch(requestURL)
                 let event1 = document.createElement('p');
                 let event2 = document.createElement('p');
                 let event3 = document.createElement('p');
+                let event4 = document.createElement('p');
 
 
 
@@ -23,6 +24,7 @@ fetch(requestURL)
                 event1.textContent = towns[i].events[0];
                 event2.textContent = towns[i].events[1];
                 event3.textContent = towns[i].events[2];
+                event4.textContent = towns[i].events[3];
 
 
 
@@ -30,6 +32,7 @@ fetch(requestURL)
                 box.appendChild(event1);
                 box.appendChild(event2);
                 box.appendChild(event3);
+                box.appendChild(event4);
                 document.querySelector('div.fishEvents').appendChild(box);
             }
             
