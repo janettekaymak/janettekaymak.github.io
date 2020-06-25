@@ -1,10 +1,10 @@
 //Functions to get days of the week and show on 5dayforecast table
 
 //Get day 1
-function getWeekDay1(date){
-  //Create an array containing each day, starting with Sunday.
+function getWeekDay5(date){
+  //Create an array containing each day, starting with Friday.
   var weekdays = new Array(
-    "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+    "Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"
   );
   //Use the getDay() method to get the day.
   var day = (date).getDay();
@@ -13,7 +13,7 @@ function getWeekDay1(date){
 }
 
 //Get day 2
-function getWeekDay2(date){
+function getWeekDay1(date){
   //Create an array containing each day, starting with Monday.
   var weekdays = new Array(
     "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" 
@@ -23,7 +23,7 @@ function getWeekDay2(date){
 }
 
 //Get day 3
-function getWeekDay3(date){
+function getWeekDay2(date){
   //Create an array containing each day, starting with Tuesday.
   var weekdays = new Array(
     "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday",  "Monday" 
@@ -33,7 +33,7 @@ function getWeekDay3(date){
 }
 
 //Get day 4
-function getWeekDay4(date){
+function getWeekDay3(date){
   //Create an array containing each day, starting with Wednesday.
   var weekdays = new Array(
     "Wednesday", "Thursday", "Friday", "Saturday", "Sunday",  "Monday", "Tuesday"
@@ -43,7 +43,7 @@ function getWeekDay4(date){
   }
 
   //Get day 5
-  function getWeekDay5(date){
+  function getWeekDay4(date){
     //Create an array containing each day, starting with Thursday.
     var weekdays = new Array(
       "Thursday", "Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday" 
