@@ -216,7 +216,7 @@ p {
     position: absolute;
     top: -10px;
     left: 0px;
-    background-color: rgba(3, 93, 145, .8);
+    background-color: rgba(1, 103, 161, 0.85);
     border: rgb(1, 82, 136) solid 2px;
     color: white;
     padding: 0 15px;
@@ -229,6 +229,7 @@ p {
     text-align: left;
     font-size: 14px;
     line-height: .7;
+    text-shadow: black 2px 2px 1px;
 }
 .hide{
     display: none;
@@ -464,7 +465,7 @@ h3.thankyou {
 
 #storybox {
     position: absolute;
-    background-color: rgb(141, 215, 245, .75);
+    background-color: rgb(141, 215, 245, .85);
     padding: 0 15px;
     margin: -255px 50px 0px 50px;
     font-family: "Poppins", Helvetica, sans-serif;
