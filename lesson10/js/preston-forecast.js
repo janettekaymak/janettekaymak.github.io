@@ -72,15 +72,10 @@ function getWeekDay4(date){
   
   //Fill in html with forecast data  
   document.getElementById('high1').textContent = Math.round(forecast.list[0].main.temp_max);
-  document.getElementById('low1').textContent = Math.round(forecast.list[3].main.temp_min);
-  document.getElementById('high2').textContent = Math.round(forecast.list[14].main.temp_max);
-  document.getElementById('low2').textContent = Math.round(forecast.list[11].main.temp_min);
-  document.getElementById('high3').textContent = Math.round(forecast.list[22].main.temp_max);
-  document.getElementById('low3').textContent = Math.round(forecast.list[19].main.temp_min);
-  document.getElementById('high4').textContent = Math.round(forecast.list[30].main.temp_max);
-  document.getElementById('low4').textContent = Math.round(forecast.list[27].main.temp_min);
+  document.getElementById('high2').textContent = Math.round(forecast.list[8].main.temp_max);
+  document.getElementById('high3').textContent = Math.round(forecast.list[16].main.temp_max);
+  document.getElementById('high4').textContent = Math.round(forecast.list[24].main.temp_max);
   document.getElementById('high5').textContent = Math.round(forecast.list[32].main.temp_max);
-  document.getElementById('low5').textContent = Math.round(forecast.list[36].main.temp_min);
 
   //Get icon1
 const imagesrc = 'https://openweathermap.org/img/w/' + forecast.list[0].weather[0].icon + '.png'; 

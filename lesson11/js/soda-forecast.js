@@ -51,38 +51,33 @@ function getWeekDay4(date){
     var day = date.getDay();
     return weekdays[day];
   }
-
-//Fill in table with days of week
-document.getElementById('day1').innerHTML = getWeekDay1(date);
-document.getElementById('day2').innerHTML = getWeekDay2(date);
-document.getElementById('day3').innerHTML = getWeekDay3(date);
-document.getElementById('day4').innerHTML = getWeekDay4(date);
-document.getElementById('day5').innerHTML = getWeekDay5(date);
-
-
-//Fetch JSON weather data from openweathermap
-const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&APPID=abe726d4fa97f7d629527a984b3b6ae0';
-
-fetch(apiURL)
-.then((response) => response.json())
-.then((forecast) => {
-  console.log(forecast);
-
   
+  //Fill in table with days of week
+  document.getElementById('day1').innerHTML = getWeekDay1(date);
+  document.getElementById('day2').innerHTML = getWeekDay2(date);
+  document.getElementById('day3').innerHTML = getWeekDay3(date);
+  document.getElementById('day4').innerHTML = getWeekDay4(date);
+  document.getElementById('day5').innerHTML = getWeekDay5(date);
+  
+  
+  //Fetch JSON weather data from openweathermap
+  const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&APPID=abe726d4fa97f7d629527a984b3b6ae0';
+  
+  fetch(apiURL)
+  .then((response) => response.json())
+  .then((forecast) => {
+    console.log(forecast);
+  
+    
+  
+  //Fill in html with forecast data  
+  document.getElementById('high1').textContent = Math.round(forecast.list[0].main.temp_max);
+  document.getElementById('high2').textContent = Math.round(forecast.list[8].main.temp_max);
+  document.getElementById('high3').textContent = Math.round(forecast.list[16].main.temp_max);
+  document.getElementById('high4').textContent = Math.round(forecast.list[24].main.temp_max);
+  document.getElementById('high5').textContent = Math.round(forecast.list[32].main.temp_max);
 
-//Fill in html with forecast data  
-document.getElementById('high1').textContent = Math.round(forecast.list[0].main.temp_max);
-document.getElementById('low1').textContent = Math.round(forecast.list[3].main.temp_min);
-document.getElementById('high2').textContent = Math.round(forecast.list[14].main.temp_max);
-document.getElementById('low2').textContent = Math.round(forecast.list[11].main.temp_min);
-document.getElementById('high3').textContent = Math.round(forecast.list[22].main.temp_max);
-document.getElementById('low3').textContent = Math.round(forecast.list[19].main.temp_min);
-document.getElementById('high4').textContent = Math.round(forecast.list[30].main.temp_max);
-document.getElementById('low4').textContent = Math.round(forecast.list[27].main.temp_min);
-document.getElementById('high5').textContent = Math.round(forecast.list[32].main.temp_max);
-document.getElementById('low5').textContent = Math.round(forecast.list[36].main.temp_min);
-
-//Get icon1
+  //Get icon1
 const imagesrc = 'https://openweathermap.org/img/w/' + forecast.list[0].weather[0].icon + '.png'; 
 const desc = forecast.list[0].weather[0].description;
 document.getElementById('imagesrc').textContent = imagesrc;  
@@ -95,7 +90,7 @@ const desc2 = forecast.list[8].weather[0].description;
 document.getElementById('imagesrc2').textContent = imagesrc2;  
 document.getElementById('icon2').setAttribute('src', imagesrc2); 
 document.getElementById('icon2').setAttribute('alt', desc2);
-
+ 
 //Get icon3
 const imagesrc3 = 'https://openweathermap.org/img/w/' + forecast.list[16].weather[0].icon + '.png'; 
 const desc3 = forecast.list[16].weather[0].description;
