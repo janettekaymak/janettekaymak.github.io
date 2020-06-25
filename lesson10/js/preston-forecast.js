@@ -2,55 +2,55 @@
 
 //Get day 1
 function getWeekDay1(date){
-    //Create an array containing each day, starting with Monday.
+  //Create an array containing each day, starting with Sunday.
+  var weekdays = new Array(
+    "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+  );
+  //Use the getDay() method to get the day.
+  var day = (date).getDay();
+  //Return the element that corresponds to that index.
+  return weekdays[day];
+}
+
+//Get day 2
+function getWeekDay2(date){
+  //Create an array containing each day, starting with Monday.
+  var weekdays = new Array(
+    "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" 
+  );
+  var day = (date).getDay();
+  return weekdays[day];
+}
+
+//Get day 3
+function getWeekDay3(date){
+  //Create an array containing each day, starting with Tuesday.
+  var weekdays = new Array(
+    "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday",  "Monday" 
+  );
+  var day = (date).getDay();
+  return weekdays[day];
+}
+
+//Get day 4
+function getWeekDay4(date){
+  //Create an array containing each day, starting with Wednesday.
+  var weekdays = new Array(
+    "Wednesday", "Thursday", "Friday", "Saturday", "Sunday",  "Monday", "Tuesday"
+  );
+  var day = (date).getDay();
+  return weekdays[day];
+  }
+
+  //Get day 5
+  function getWeekDay5(date){
+    //Create an array containing each day, starting with Thursday.
     var weekdays = new Array(
-        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+      "Thursday", "Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday" 
     );
-    //Use the getDay() method to get the day.
-    var day = (date).getDay();
-    //Return the element that corresponds to that index.
+    var day = date.getDay();
     return weekdays[day];
   }
-  
-  //Get day 2
-  function getWeekDay2(date){
-    //Create an array containing each day, starting with Tuesday.
-    var weekdays = new Array(
-       "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday",  "Monday" 
-    );
-    var day = (date).getDay();
-    return weekdays[day];
-  }
-  
-  //Get day 3
-  function getWeekDay3(date){
-    //Create an array containing each day, starting with Wednesday.
-    var weekdays = new Array(
-       "Wednesday", "Thursday", "Friday", "Saturday", "Sunday",  "Monday", "Tuesday" 
-    );
-    var day = (date).getDay();
-    return weekdays[day];
-  }
-  
-  //Get day 4
-  function getWeekDay4(date){
-    //Create an array containing each day, starting with thursday.
-    var weekdays = new Array(
-       "Thursday", "Friday", "Saturday", "Sunday",  "Monday", "Tuesday", "Wednesday"
-    );
-    var day = (date).getDay();
-    return weekdays[day];
-    }
-  
-    //Get day 5
-    function getWeekDay5(date){
-      //Create an array containing each day, starting with Friday.
-      var weekdays = new Array(
-         "Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", 
-      );
-      var day = date.getDay();
-      return weekdays[day];
-    }
   
   //Fill in table with days of week
   document.getElementById('day1').innerHTML = getWeekDay1(date);
