@@ -61,7 +61,7 @@ function getWeekDay1(date){
   
   
   //Fetch JSON weather data from openweathermap
-  const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?q=Preston,us&cnt=5&units=imperial&APPID=abe726d4fa97f7d629527a984b3b6ae0';
+  const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?q=Preston,us&units=imperial&APPID=abe726d4fa97f7d629527a984b3b6ae0';
   
   fetch(apiURL)
   .then((response) => response.json())
@@ -72,15 +72,15 @@ function getWeekDay1(date){
   
   //Fill in html with forecast data  
   document.getElementById('high1').textContent = Math.round(forecast.list[0].main.temp_max);
-  document.getElementById('low1').textContent = Math.round(forecast.list[0].main.temp_min);
-  document.getElementById('high2').textContent = Math.round(forecast.list[1].main.temp_max);
-  document.getElementById('low2').textContent = Math.round(forecast.list[1].main.temp_min);
-  document.getElementById('high3').textContent = Math.round(forecast.list[2].main.temp_max);
-  document.getElementById('low3').textContent = Math.round(forecast.list[2].main.temp_min);
-  document.getElementById('high4').textContent = Math.round(forecast.list[3].main.temp_max);
-  document.getElementById('low4').textContent = Math.round(forecast.list[3].main.temp_min);
-  document.getElementById('high5').textContent = Math.round(forecast.list[4].main.temp_max);
-  document.getElementById('low5').textContent = Math.round(forecast.list[4].main.temp_min);
+  document.getElementById('low1').textContent = Math.round(forecast.list[3].main.temp_min);
+  document.getElementById('high2').textContent = Math.round(forecast.list[14].main.temp_max);
+  document.getElementById('low2').textContent = Math.round(forecast.list[11].main.temp_min);
+  document.getElementById('high3').textContent = Math.round(forecast.list[22].main.temp_max);
+  document.getElementById('low3').textContent = Math.round(forecast.list[19].main.temp_min);
+  document.getElementById('high4').textContent = Math.round(forecast.list[30].main.temp_max);
+  document.getElementById('low4').textContent = Math.round(forecast.list[27].main.temp_min);
+  document.getElementById('high5').textContent = Math.round(forecast.list[32].main.temp_max);
+  document.getElementById('low5').textContent = Math.round(forecast.list[36].main.temp_min);
 
   //Get icon1
 const imagesrc = 'https://openweathermap.org/img/w/' + forecast.list[0].weather[0].icon + '.png'; 
@@ -90,29 +90,29 @@ document.getElementById('icon1').setAttribute('src', imagesrc);
 document.getElementById('icon1').setAttribute('alt', desc);
 
 //Get icon2
-const imagesrc2 = 'https://openweathermap.org/img/w/' + forecast.list[1].weather[0].icon + '.png'; 
-const desc2 = forecast.list[1].weather[0].description;
+const imagesrc2 = 'https://openweathermap.org/img/w/' + forecast.list[8].weather[0].icon + '.png'; 
+const desc2 = forecast.list[8].weather[0].description;
 document.getElementById('imagesrc2').textContent = imagesrc2;  
 document.getElementById('icon2').setAttribute('src', imagesrc2); 
 document.getElementById('icon2').setAttribute('alt', desc2);
  
 //Get icon3
-const imagesrc3 = 'https://openweathermap.org/img/w/' + forecast.list[2].weather[0].icon + '.png'; 
-const desc3 = forecast.list[2].weather[0].description;
+const imagesrc3 = 'https://openweathermap.org/img/w/' + forecast.list[16].weather[0].icon + '.png'; 
+const desc3 = forecast.list[16].weather[0].description;
 document.getElementById('imagesrc3').textContent = imagesrc3;  
 document.getElementById('icon3').setAttribute('src', imagesrc3); 
 document.getElementById('icon3').setAttribute('alt', desc3);
 
 //Get icon4
-const imagesrc4 = 'https://openweathermap.org/img/w/' + forecast.list[3].weather[0].icon + '.png'; 
-const desc4 = forecast.list[3].weather[0].description;
+const imagesrc4 = 'https://openweathermap.org/img/w/' + forecast.list[24].weather[0].icon + '.png'; 
+const desc4 = forecast.list[24].weather[0].description;
 document.getElementById('imagesrc4').textContent = imagesrc4;  
 document.getElementById('icon4').setAttribute('src', imagesrc4); 
 document.getElementById('icon4').setAttribute('alt', desc4);
 
 //Get icon5
-const imagesrc5 = 'https://openweathermap.org/img/w/' + forecast.list[4].weather[0].icon + '.png'; 
-const desc5 = forecast.list[4].weather[0].description;
+const imagesrc5 = 'https://openweathermap.org/img/w/' + forecast.list[32].weather[0].icon + '.png'; 
+const desc5 = forecast.list[32].weather[0].description;
 document.getElementById('imagesrc5').textContent = imagesrc5;  
 document.getElementById('icon5').setAttribute('src', imagesrc5); 
 document.getElementById('icon5').setAttribute('alt', desc5);

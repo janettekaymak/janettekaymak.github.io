@@ -2,85 +2,87 @@
 
 //Get day 1
 function getWeekDay1(date){
-    //Create an array containing each day, starting with Monday.
+  //Create an array containing each day, starting with Monday.
+  var weekdays = new Array(
+      "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+  );
+  //Use the getDay() method to get the day.
+  var day = (date).getDay();
+  //Return the element that corresponds to that index.
+  return weekdays[day];
+}
+
+//Get day 2
+function getWeekDay2(date){
+  //Create an array containing each day, starting with Tuesday.
+  var weekdays = new Array(
+     "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday",  "Monday" 
+  );
+  var day = (date).getDay();
+  return weekdays[day];
+}
+
+//Get day 3
+function getWeekDay3(date){
+  //Create an array containing each day, starting with Wednesday.
+  var weekdays = new Array(
+     "Wednesday", "Thursday", "Friday", "Saturday", "Sunday",  "Monday", "Tuesday" 
+  );
+  var day = (date).getDay();
+  return weekdays[day];
+}
+
+//Get day 4
+function getWeekDay4(date){
+  //Create an array containing each day, starting with thursday.
+  var weekdays = new Array(
+     "Thursday", "Friday", "Saturday", "Sunday",  "Monday", "Tuesday", "Wednesday"
+  );
+  var day = (date).getDay();
+  return weekdays[day];
+  }
+
+  //Get day 5
+  function getWeekDay5(date){
+    //Create an array containing each day, starting with Friday.
     var weekdays = new Array(
-        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+       "Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", 
     );
-    //Use the getDay() method to get the day.
-    var day = (date).getDay();
-    //Return the element that corresponds to that index.
+    var day = date.getDay();
     return weekdays[day];
   }
+
+//Fill in table with days of week
+document.getElementById('day1').innerHTML = getWeekDay1(date);
+document.getElementById('day2').innerHTML = getWeekDay2(date);
+document.getElementById('day3').innerHTML = getWeekDay3(date);
+document.getElementById('day4').innerHTML = getWeekDay4(date);
+document.getElementById('day5').innerHTML = getWeekDay5(date);
+
+
+//Fetch JSON weather data from openweathermap
+const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5585010&units=imperial&APPID=abe726d4fa97f7d629527a984b3b6ae0';
+
+fetch(apiURL)
+.then((response) => response.json())
+.then((forecast) => {
+  console.log(forecast);
+
   
-  //Get day 2
-  function getWeekDay2(date){
-    //Create an array containing each day, starting with Tuesday.
-    var weekdays = new Array(
-       "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday",  "Monday" 
-    );
-    var day = (date).getDay();
-    return weekdays[day];
-  }
-  
-  //Get day 3
-  function getWeekDay3(date){
-    //Create an array containing each day, starting with Wednesday.
-    var weekdays = new Array(
-       "Wednesday", "Thursday", "Friday", "Saturday", "Sunday",  "Monday", "Tuesday" 
-    );
-    var day = (date).getDay();
-    return weekdays[day];
-  }
-  
-  //Get day 4
-  function getWeekDay4(date){
-    //Create an array containing each day, starting with thursday.
-    var weekdays = new Array(
-       "Thursday", "Friday", "Saturday", "Sunday",  "Monday", "Tuesday", "Wednesday"
-    );
-    var day = (date).getDay();
-    return weekdays[day];
-    }
-  
-    //Get day 5
-    function getWeekDay5(date){
-      //Create an array containing each day, starting with Friday.
-      var weekdays = new Array(
-         "Friday", "Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", 
-      );
-      var day = date.getDay();
-      return weekdays[day];
-    }
-  
-  //Fill in tabe with days of week
-  document.getElementById('day1').innerHTML = getWeekDay1(date);
-  document.getElementById('day2').innerHTML = getWeekDay2(date);
-  document.getElementById('day3').innerHTML = getWeekDay3(date);
-  document.getElementById('day4').innerHTML = getWeekDay4(date);
-  document.getElementById('day5').innerHTML = getWeekDay5(date);
-  
-  
-  //Fetch JSON weather data from openweathermap
-  const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5585010&cnt=5&units=imperial&APPID=abe726d4fa97f7d629527a984b3b6ae0';
-  
-  fetch(apiURL)
-  .then((response) => response.json())
-  .then((forecast) => {
-    console.log(forecast);
-  
-  //Fill in html with forecast data  
-  document.getElementById('high1').textContent = Math.round(forecast.list[0].main.temp_max);
-  document.getElementById('low1').textContent = Math.round(forecast.list[0].main.temp_min);
-  document.getElementById('high2').textContent = Math.round(forecast.list[1].main.temp_max);
-  document.getElementById('low2').textContent = Math.round(forecast.list[1].main.temp_min);
-  document.getElementById('high3').textContent = Math.round(forecast.list[2].main.temp_max);
-  document.getElementById('low3').textContent = Math.round(forecast.list[2].main.temp_min);
-  document.getElementById('high4').textContent = Math.round(forecast.list[3].main.temp_max);
-  document.getElementById('low4').textContent = Math.round(forecast.list[3].main.temp_min);
-  document.getElementById('high5').textContent = Math.round(forecast.list[4].main.temp_max);
-  document.getElementById('low5').textContent = Math.round(forecast.list[4].main.temp_min);
-  
- //Get icon1
+
+//Fill in html with forecast data  
+document.getElementById('high1').textContent = Math.round(forecast.list[0].main.temp_max);
+document.getElementById('low1').textContent = Math.round(forecast.list[3].main.temp_min);
+document.getElementById('high2').textContent = Math.round(forecast.list[14].main.temp_max);
+document.getElementById('low2').textContent = Math.round(forecast.list[11].main.temp_min);
+document.getElementById('high3').textContent = Math.round(forecast.list[22].main.temp_max);
+document.getElementById('low3').textContent = Math.round(forecast.list[19].main.temp_min);
+document.getElementById('high4').textContent = Math.round(forecast.list[30].main.temp_max);
+document.getElementById('low4').textContent = Math.round(forecast.list[27].main.temp_min);
+document.getElementById('high5').textContent = Math.round(forecast.list[32].main.temp_max);
+document.getElementById('low5').textContent = Math.round(forecast.list[36].main.temp_min);
+
+//Get icon1
 const imagesrc = 'https://openweathermap.org/img/w/' + forecast.list[0].weather[0].icon + '.png'; 
 const desc = forecast.list[0].weather[0].description;
 document.getElementById('imagesrc').textContent = imagesrc;  
@@ -88,29 +90,29 @@ document.getElementById('icon1').setAttribute('src', imagesrc);
 document.getElementById('icon1').setAttribute('alt', desc);
 
 //Get icon2
-const imagesrc2 = 'https://openweathermap.org/img/w/' + forecast.list[1].weather[0].icon + '.png'; 
-const desc2 = forecast.list[1].weather[0].description;
+const imagesrc2 = 'https://openweathermap.org/img/w/' + forecast.list[8].weather[0].icon + '.png'; 
+const desc2 = forecast.list[8].weather[0].description;
 document.getElementById('imagesrc2').textContent = imagesrc2;  
 document.getElementById('icon2').setAttribute('src', imagesrc2); 
 document.getElementById('icon2').setAttribute('alt', desc2);
 
 //Get icon3
-const imagesrc3 = 'https://openweathermap.org/img/w/' + forecast.list[2].weather[0].icon + '.png'; 
-const desc3 = forecast.list[2].weather[0].description;
+const imagesrc3 = 'https://openweathermap.org/img/w/' + forecast.list[16].weather[0].icon + '.png'; 
+const desc3 = forecast.list[16].weather[0].description;
 document.getElementById('imagesrc3').textContent = imagesrc3;  
 document.getElementById('icon3').setAttribute('src', imagesrc3); 
 document.getElementById('icon3').setAttribute('alt', desc3);
 
 //Get icon4
-const imagesrc4 = 'https://openweathermap.org/img/w/' + forecast.list[3].weather[0].icon + '.png'; 
-const desc4 = forecast.list[3].weather[0].description;
+const imagesrc4 = 'https://openweathermap.org/img/w/' + forecast.list[24].weather[0].icon + '.png'; 
+const desc4 = forecast.list[24].weather[0].description;
 document.getElementById('imagesrc4').textContent = imagesrc4;  
 document.getElementById('icon4').setAttribute('src', imagesrc4); 
 document.getElementById('icon4').setAttribute('alt', desc4);
 
 //Get icon5
-const imagesrc5 = 'https://openweathermap.org/img/w/' + forecast.list[4].weather[0].icon + '.png'; 
-const desc5 = forecast.list[4].weather[0].description;
+const imagesrc5 = 'https://openweathermap.org/img/w/' + forecast.list[32].weather[0].icon + '.png'; 
+const desc5 = forecast.list[32].weather[0].description;
 document.getElementById('imagesrc5').textContent = imagesrc5;  
 document.getElementById('icon5').setAttribute('src', imagesrc5); 
 document.getElementById('icon5').setAttribute('alt', desc5);
