@@ -5,11 +5,11 @@ fetch(url)
   console.log(soda);
   
 document.getElementById('sscurrent-temp').textContent = Math.round(soda.main.temp);
-document.getElementById('sshightemp').textContent = Math.round(soda.main.temp_max);
+document.getElementById('sshi').textContent = Math.round(soda.main.temp_max);
 document.getElementById('sshumidity').textContent = soda.main.humidity;
 document.getElementById('sswindspeed').textContent = Math.round(soda.wind.speed);
 document.getElementById('ssconditions').textContent = soda.weather[0].main;
-document.getElementById('ssfeelsLike').textContent = Math.round(soda.main.feels_like);
+document.getElementById('sslo').textContent = Math.round(soda.main.temp_min);
 
 windChill();
 });

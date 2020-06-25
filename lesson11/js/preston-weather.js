@@ -5,12 +5,12 @@ fetch(url)
   console.log(preston);
   
 document.getElementById('current-temp').textContent = Math.round(preston.main.temp);
-document.getElementById('hightemp').textContent = Math.round(preston.main.temp_max);
+document.getElementById('hi').textContent = Math.round(preston.main.temp_max);
 document.getElementById('humidity').textContent = preston.main.humidity;
 document.getElementById('windspeed').textContent = Math.round(preston.wind.speed);
 document.getElementById('conditions').textContent = preston.weather[0].main;
-document.getElementById('feelsLike').textContent = Math.round(preston.main.feels_like);
-//document.getElementById('high1').textContent = 'help me!';
+document.getElementById('lo').textContent = Math.round(preston.main.temp_min);
+
 
 windChill();
 });
@@ -30,16 +30,6 @@ function windChill (){
   }
   document.getElementById('windchill').textContent = wc;
 };
-
-
-
-
-
-
-
-
-
-
 
 
 

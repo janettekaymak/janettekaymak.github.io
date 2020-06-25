@@ -156,6 +156,7 @@
         border-collapse: collapse;
         width: 78%;
         margin-bottom: 65px;
+        text-shadow: black 2px 2px 1px;
     }
 
     td,

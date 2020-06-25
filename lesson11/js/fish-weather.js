@@ -5,11 +5,11 @@ fetch(url)
   console.log(fishhaven);
   
 document.getElementById('fcurrent-temp').textContent = Math.round(fishhaven.main.temp);
-document.getElementById('fhightemp').textContent = Math.round(fishhaven.main.temp_max);
+document.getElementById('fhi').textContent = Math.round(fishhaven.main.temp_max);
 document.getElementById('fhumidity').textContent = fishhaven.main.humidity;
 document.getElementById('fwindspeed').textContent = Math.round(fishhaven.wind.speed);
 document.getElementById('fconditions').textContent = fishhaven.weather[0].main;
-document.getElementById('ffeelsLike').textContent = Math.round(fishhaven.main.feels_like);
+document.getElementById('flo').textContent = Math.round(fishhaven.main.temp_min);
 
 windChill();
 });

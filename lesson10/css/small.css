@@ -229,6 +229,7 @@ p {
     text-align: left;
     font-size: 14px;
     line-height: .7;
+    text-shadow: black 2px 2px 1px;
 }
 .hide{
     display: none;
