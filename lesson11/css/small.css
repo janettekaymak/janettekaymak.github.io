@@ -216,7 +216,7 @@ p {
     position: absolute;
     top: -10px;
     left: 0px;
-    background-color: rgba(3, 93, 145, 0.7);
+    background-color: rgba(3, 93, 145, .8);
     border: rgb(1, 82, 136) solid 2px;
     color: white;
     padding: 0 15px;
