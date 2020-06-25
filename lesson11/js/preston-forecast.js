@@ -71,46 +71,47 @@ function getWeekDay3(date){
     
   
   //Fill in html with forecast data  
-  document.getElementById('high1').textContent = Math.round(forecast.list[0].main.temp_max);
-  document.getElementById('high2').textContent = Math.round(forecast.list[8].main.temp_max);
-  document.getElementById('high3').textContent = Math.round(forecast.list[16].main.temp_max);
-  document.getElementById('high4').textContent = Math.round(forecast.list[24].main.temp_max);
-  document.getElementById('high5').textContent = Math.round(forecast.list[32].main.temp_max);
+  document.getElementById('high1').textContent = Math.round(forecast.list[7].main.temp_max);
+  document.getElementById('high2').textContent = Math.round(forecast.list[15].main.temp_max);
+  document.getElementById('high3').textContent = Math.round(forecast.list[23].main.temp_max);
+  document.getElementById('high4').textContent = Math.round(forecast.list[31].main.temp_max);
+  document.getElementById('high5').textContent = Math.round(forecast.list[39].main.temp_max);
 
   //Get icon1
-const imagesrc = 'https://openweathermap.org/img/w/' + forecast.list[0].weather[0].icon + '.png'; 
-const desc = forecast.list[0].weather[0].description;
+const imagesrc = 'https://openweathermap.org/img/w/' + forecast.list[7].weather[0].icon + '.png'; 
+const desc = forecast.list[7].weather[0].description;
 document.getElementById('imagesrc').textContent = imagesrc;  
 document.getElementById('icon1').setAttribute('src', imagesrc); 
 document.getElementById('icon1').setAttribute('alt', desc);
 
 //Get icon2
-const imagesrc2 = 'https://openweathermap.org/img/w/' + forecast.list[8].weather[0].icon + '.png'; 
-const desc2 = forecast.list[8].weather[0].description;
+const imagesrc2 = 'https://openweathermap.org/img/w/' + forecast.list[15].weather[0].icon + '.png'; 
+const desc2 = forecast.list[15].weather[0].description;
 document.getElementById('imagesrc2').textContent = imagesrc2;  
 document.getElementById('icon2').setAttribute('src', imagesrc2); 
 document.getElementById('icon2').setAttribute('alt', desc2);
  
 //Get icon3
-const imagesrc3 = 'https://openweathermap.org/img/w/' + forecast.list[16].weather[0].icon + '.png'; 
-const desc3 = forecast.list[16].weather[0].description;
+const imagesrc3 = 'https://openweathermap.org/img/w/' + forecast.list[23].weather[0].icon + '.png'; 
+const desc3 = forecast.list[23].weather[0].description;
 document.getElementById('imagesrc3').textContent = imagesrc3;  
 document.getElementById('icon3').setAttribute('src', imagesrc3); 
 document.getElementById('icon3').setAttribute('alt', desc3);
 
 //Get icon4
-const imagesrc4 = 'https://openweathermap.org/img/w/' + forecast.list[24].weather[0].icon + '.png'; 
-const desc4 = forecast.list[24].weather[0].description;
+const imagesrc4 = 'https://openweathermap.org/img/w/' + forecast.list[31].weather[0].icon + '.png'; 
+const desc4 = forecast.list[31].weather[0].description;
 document.getElementById('imagesrc4').textContent = imagesrc4;  
 document.getElementById('icon4').setAttribute('src', imagesrc4); 
 document.getElementById('icon4').setAttribute('alt', desc4);
 
 //Get icon5
-const imagesrc5 = 'https://openweathermap.org/img/w/' + forecast.list[32].weather[0].icon + '.png'; 
-const desc5 = forecast.list[32].weather[0].description;
+const imagesrc5 = 'https://openweathermap.org/img/w/' + forecast.list[39].weather[0].icon + '.png'; 
+const desc5 = forecast.list[39].weather[0].description;
 document.getElementById('imagesrc5').textContent = imagesrc5;  
 document.getElementById('icon5').setAttribute('src', imagesrc5); 
 document.getElementById('icon5').setAttribute('alt', desc5);
 
 
 });
+  
