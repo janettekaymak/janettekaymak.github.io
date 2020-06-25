@@ -249,11 +249,11 @@ p {
 }
 .prestonEvents, .fishEvents, .sodaEvents{
     padding: 0px 0px 15px 0;
-    background-color: lemonchiffon;
+    background-color: rgb(250, 232, 132);
     border-radius: 5px;
     margin-bottom: 30px;
     margin-top: -3px;
-    border: gold dotted 5px;
+    border: transparent dotted 5px;
 }
 eventbox p{
     text-align: center;
