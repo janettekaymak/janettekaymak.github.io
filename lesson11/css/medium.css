@@ -183,7 +183,8 @@
         max-width: 60%;
         margin: auto;
         margin-bottom: 30px;
-        margin-top: -3px; 
+        margin-top: -3px;
+        border-radius: 5px; 
     }
 
     .article-box {
