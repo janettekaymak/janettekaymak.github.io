@@ -145,6 +145,9 @@
     .hero-box h3 {
         font-size: 30px;
     }
+    #heroimg img{
+        margin-bottom: 25px;
+    }
 
     #forecast {
         display: block;
@@ -188,8 +191,8 @@
     .prestonEvents, .sodaEvents, .fishEvents {
         max-width: 60%;
         margin: auto;
-        margin-bottom: 30px;
-        margin-top: 30px;
+        margin-bottom: 50px;
+        margin-top: 50px;
         border-radius: 5px; 
         box-shadow: 0 0 20px gray;
     }
