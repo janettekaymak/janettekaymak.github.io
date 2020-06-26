@@ -148,6 +148,10 @@
     #forecast {
         display: block;
     }
+    .centered{
+        text-align: center;
+        margin-top: -20px;
+    }
 
     table {
         margin: auto;
