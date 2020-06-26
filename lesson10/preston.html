@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Preston Home Page | Janette Kaymak</title>
     <meta name="description"
-        content="Lesson 05 Preston Home Page, by Janette Kaymak, CIT 230: Web Frontend Development, Brigham Young University - Idaho" />
+        content="Lesson 11 Preston Home Page, by Janette Kaymak, CIT 230: Web Frontend Development, Brigham Young University - Idaho" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
@@ -35,22 +35,22 @@
                 </div>
             </li>
             <li>
-                <a href="https://janettekaymak.github.io/lesson10/home.html">Home</a>
+                <a href="https://janettekaymak.github.io/lesson11/home.html">Home</a>
             </li>
             <li>
-                <a href="https://janettekaymak.github.io/lesson10/preston.html" class="active">Preston</a>
+                <a href="https://janettekaymak.github.io/lesson11/preston.html" class="active">Preston</a>
             </li>
             <li>
-                <a href="#">Soda Springs</a>
+                <a href="https://janettekaymak.github.io/lesson11/soda-springs.html">Soda Springs</a>
             </li>
             <li>
-                <a href="#">Fish Haven</a>
+                <a href="https://janettekaymak.github.io/lesson11/fish-haven.html">Fish Haven</a>
             </li>
             <li>
-                <a href="https://janettekaymak.github.io/lesson10/stormcenter.html">Storm Center</a>
+                <a href="https://janettekaymak.github.io/lesson11/stormcenter.html">Storm Center</a>
             </li>
             <li>
-                <a href="https://janettekaymak.github.io/lesson10/gallery.html">Gallery</a>
+                <a href="https://janettekaymak.github.io/lesson11/gallery.html">Gallery</a>
             </li>
         </ul>
 
@@ -59,12 +59,13 @@
         <h2 id="preston">Preston Idaho</h2>
         <div class="hero-box">
             <div class="hero">
-                <picture id="heroimg">
-                    <source srcset="images/rodeo500.jpg" media="(max-width: 767px)">
-                    <source srcset="images/rodeo700.jpg" media="(min-width: 768px) and 
+                <picture id="heroimg" class="flip">
+                    <source srcset="images/rodeoblue500.jpg" media="(max-width: 767px)">
+                    <source srcset="images/rodeoblue700.jpg" media="(min-width: 768px) and 
                     (max-width: 1187px)">
-                    <source srcset="images/rodeo900.jpg" media="(min-width: 1188px)">
-                    <img src="images/rodeo900.jpg" alt="rodeo" class="border-shadow">
+                    <source srcset="images/rodeoblue900.jpg" media="(min-width: 1188px)">
+                    <img src="images/rodeoblue900.jpg" alt="rodeo" class="border-shadow">
+                    <!--Photo by Andre Oullet from Unsplash-->
                 </picture>
             </div>
             <div class="weather-summary">
@@ -73,6 +74,7 @@
                 <p>Current Temp ~ <span id="current-temp"></span>&#8457;</p>
                 <p class="hide">High Temp ~ <span id="hightemp"></span>&#8457;</p>
                 <p>High / Low ~ <span id="hi"></span>&#8457; / <span id="lo"></span>&#8457;</p>
+                <p>Feels Like ~ <span id="feelsLike"></span>&#8457;</p>
                 <p>Wind Chill ~ <span id="windchill"></span></p>
                 <p>Humidity ~ <span id="humidity"></span>%</p>
                 <p>Wind Speed ~ <span id="windspeed"></span> mph</p>
@@ -80,6 +82,8 @@
         </div>
         <div id="forecast">
             <h3>Five Day Forecast</h3>
+            <p class="centered">The first day shows conditions 24 hours from the current time.</p>
+            <p class="centered">Each day shows conditions 24 hours from the previous day's time.</p>
             <table>
                 <tr>
                     <th id="day1"></th>
@@ -100,7 +104,8 @@
         <h3>Campgrounds Opening</h3>
         <div class="article-box">
             <div class="article">
-                <p><b>BY NICOLE BLANCHARD</b> - Dozens of Idaho campgrounds will be open just in time for Memorial Day weekend, officials at
+                <p><b>BY NICOLE BLANCHARD</b> - Dozens of Idaho campgrounds will be open just in time for Memorial Day
+                    weekend, officials at
                     various
                     Idaho national forests announced last week. But many others will remain closed — some, as usual,
                     because of snowy mountain conditions, but some because of the coronavirus pandemic.</p>
@@ -121,7 +126,7 @@
                     kickoff
                     to the camping season,” said Danelle Highfill . . .
                     <i>read more ~ </i>
-                    <a href="https://www.idahostatesman.com/outdoors/camping/article242745156.html">Idaho
+                    <a href="https://www.idahostatesman.com/search/?q=campgrounds+open">Idaho
                         Statesman</a></p>
             </div>
             <div>
@@ -144,12 +149,12 @@
                     &#128222; (208) 555-4324<br><br>
                     <u>idweather@gmail.com</u></p>
                 <div class="social">
-                    <a href="https://www.facebook.com/janette.kaymak/"><img src="images/fb-icon.png"
-                            class="icon" alt="facebook icon"></a>
+                    <a href="https://www.facebook.com/janette.kaymak/"><img src="images/fb-icon.png" class="icon"
+                            alt="facebook icon"></a>
                     <a href="https://www.instagram.com/napoleondynamite/?hl=en"><img src="images/insta-icon.png"
-                            class="icon" alt="facebook icon"></a>
+                            class="icon" alt="instagram icon"></a>
                     <a href="https://www.pinterest.com/search/pins/?q=rodeos&rs=typed&term_meta=rodeos%7Ctyped"><img
-                            src="images/pinterest.png" class= "icon" alt="facebook icon"></a>
+                            src="images/pinterest.png" class="icon" alt="pinterest icon"></a>
                 </div>
             </div>
             <img id="map" src="images/southidaho.jpg" alt="small map section">
@@ -157,7 +162,7 @@
                     href="https://www.google.com/maps/place/Preston,+ID+83263/@42.0997416,-111.9153444,13z/data=!3m1!4b1!4m5!3m4!1s0x8754f78c7cda6c31:0xf1b3b4fc465a4a3f!8m2!3d42.0963133!4d-111.8766173">Preston,ID</a>
             </p>
         </div>
-        <p id='weather-link'><a href="https://openweathermap.org/">Weather by OpenWeatherMap.org</a></p>
+        <p id='weather-link'><a href="https://openweathermap.org/">Weather by OpenWeatherMap</a></p>
     </main>
     <footer>
         <p>
@@ -169,9 +174,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/webfontload.js"></script>
     <script src="js/toggleMenu.js"></script>
-    <script src="js/pancakeFriday.js"></script>
     <script src="js/preston-weather.js"></script>
     <script src="js/preston-forecast.js"></script>
+    <script src="js/pancakeFriday.js"></script>
+
 </body>
 
 </html>

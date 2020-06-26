@@ -183,7 +183,6 @@ p {
 #pancakes.show {
     display: block;
 }
-
 .hero-box {
     position: relative;
     margin-top: 10px;
@@ -213,16 +212,17 @@ p {
     width: 100%;
 }
 
+
 .weather-summary {
     position: absolute;
-    top: -10px;
+    top: 0px;
     left: 0px;
-    background-color: rgba(3, 128, 201, 0.7);
+    background-color: rgb(1, 85, 134, 0.85);
     border: rgb(1, 82, 136) solid 2px;
     color: white;
     padding: 0 15px;
-    max-width: 50%;
-    border-radius: 15px;
+    max-width: 45%;
+    border-radius: 60px 0 60px 0;
     box-shadow: 0 0 55px lemonchiffon;
 }
 
@@ -230,10 +230,8 @@ p {
     text-align: left;
     font-size: 14px;
     line-height: .7;
-    text-shadow: black 2px 2px 1px;
 }
-
-.hide {
+.hide{
     display: none;
 }
 
@@ -257,7 +255,7 @@ p {
 }
 
 .article-wide a:hover,
-.google-maps a:hover {
+.google-maps a:hover, #weather-link a:hover {
     color: blue;
     text-shadow: blue 2px 2px 3px;
 }
@@ -268,7 +266,6 @@ p {
 
 .google-maps {
     position: relative;
-    font-size: 19px;
     text-align: center;
 }
 
@@ -317,17 +314,11 @@ a:visited {}
     max-width: 100%;
     margin-bottom: -5px;
 }
-
 #weather-link {
     margin-left: 50px;
-    margin-top: -20px;
+    margin-top: -17px;
 }
-
-#imagesrc,
-#imagesrc2,
-#imagesrc3,
-#imagesrc4,
-#imagesrc5 {
+#imagesrc, #imagesrc2, #imagesrc3, #imagesrc4, #imagesrc5{
     display: none;
 }
 
@@ -462,7 +453,7 @@ h3.thankyou {
 
 #storybox {
     position: absolute;
-    background-color: rgb(141, 215, 245, .75);
+    background-color: rgb(141, 215, 245, .85);
     padding: 0 15px;
     margin: -255px 50px 0px 50px;
     font-family: "Poppins", Helvetica, sans-serif;
@@ -499,8 +490,7 @@ townbox h2 {
 
 townbox h3,
 townbox h4,
-townbox h5,
-townbox h6 {
+townbox h5 {
     text-shadow: transparent 3px 3px 5px;
     color: black;
     font-size: 15px;
@@ -512,16 +502,6 @@ townbox h6 {
 
 townbox h5 {
     margin-top: -1px;
-}
-
-townbox h6 {
-    line-height: 1.5em;
-    font-kerning: normal;
-    padding: 20px 50px;
-    background-color: #f8e57b;
-    border-radius: 5px;
-    margin-bottom: 0px;
-    margin-top: -10px;
 }
 
 townbox img {
@@ -634,3 +614,8 @@ added to the end of the class list like this in HTML.
     display: table;
     clear: both;
 }
+
+
+
+
+

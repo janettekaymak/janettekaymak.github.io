@@ -131,6 +131,7 @@
     .weather-summary {
         top: 25px;
         left: 25px;
+        border-radius: 15px;
     }
 
     .weather-summary p {
@@ -144,9 +145,18 @@
     .hero-box h3 {
         font-size: 30px;
     }
+    #heroimg img{
+        margin-bottom: 15px;
+    }
 
     #forecast {
         display: block;
+    }
+    .centered {
+        font-size: 14px;
+        line-height: 1.75em;
+        text-align: center;
+        margin-top: -20px;
     }
 
     table {
@@ -154,8 +164,9 @@
         font-family: "Poppins", arial, sans-serif;
         font-size: 16px;
         border-collapse: collapse;
-        width: 78%;
-        margin-bottom: 65px;
+        width: 80%;
+        margin-bottom: 45px;
+        margin-top: -10px;
         text-shadow: black 2px 2px 1px;
     }
 
@@ -176,9 +187,17 @@
         background-image: linear-gradient(rgb(3, 3, 3), rgb(2, 49, 80), #178fc7, #e7f6fd);
         color: white;
     }
-
+  
     .emoji {
-        width: 80px;
+        width: 90px;
+    }
+    .prestonEvents, .sodaEvents, .fishEvents {
+        max-width: 60%;
+        margin: auto;
+        margin-bottom: 60px;
+        margin-top: 40px;
+        border-radius: 5px; 
+        box-shadow: 0 0 20px gray;
     }
 
     .article-box {
@@ -206,7 +225,7 @@
 
     #contact {
         display: flex;
-        margin-top: 60px;
+        margin-top: 65px;
     }
 
     #map1 {
@@ -358,14 +377,14 @@
         }
     }
 
-    /*For JSON Main section-----------------------------------------------*/
-    @media only screen and (max-width: 1188px) and (min-width: 768px) {
+       /*For JSON Main section-----------------------------------------------*/
+       @media only screen and (max-width: 1188px) and (min-width: 768px) {
 
         townbox {
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr 1fr;
-            max-height: 360px;
+            max-height: 285px;
 
         }
 
@@ -386,32 +405,26 @@
 
         townbox h3,
         townbox h4,
-        townbox h5,
-        townbox h6 {
+        townbox h5 {
             direction: ltr;
             grid-column: 1;
             grid-row: 2;
         }
 
         townbox h3 {
-            margin-top: -200px;
+            margin-top: -100px;
         }
 
         townbox h4 {
-            margin-top: -175px;
+            margin-top: -75px;
         }
 
         townbox h5 {
-            margin-top: -150px;
-        }
-        townbox h6{
-            margin-top: -130px;
-            padding: 20px;
-            background-color: transparent;
+            margin-top: -50px;
         }
 
         townbox img {
-            height: 355px;
+            height: 280px;
             margin-top: 2px;
             margin-right: 25px;
             grid-column: 2;
