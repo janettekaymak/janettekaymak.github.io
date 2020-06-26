@@ -10,7 +10,7 @@ document.getElementById('sshumidity').textContent = soda.main.humidity;
 document.getElementById('sswindspeed').textContent = Math.round(soda.wind.speed);
 document.getElementById('ssconditions').textContent = soda.weather[0].main;
 document.getElementById('sslo').textContent = Math.round(soda.main.temp_min);
-
+document.getElementById('ssfeelsLike').textContent = Math.round(soda.main.feels_like);
 windChill();
 });
  

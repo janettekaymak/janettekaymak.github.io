@@ -10,6 +10,7 @@ document.getElementById('fhumidity').textContent = fishhaven.main.humidity;
 document.getElementById('fwindspeed').textContent = Math.round(fishhaven.wind.speed);
 document.getElementById('fconditions').textContent = fishhaven.weather[0].main;
 document.getElementById('flo').textContent = Math.round(fishhaven.main.temp_min);
+document.getElementById('ffeelsLike').textContent = Math.round(fishhaven.main.feels_like);
 
 windChill();
 });
