@@ -217,7 +217,7 @@ p {
     position: absolute;
     top: 0px;
     left: 0px;
-    background-color: rgba(1, 75, 117, 0.7);
+    background-color: rgb(1, 85, 134, 0.85);
     border: rgb(1, 82, 136) solid 2px;
     color: white;
     padding: 0 15px;
@@ -230,7 +230,6 @@ p {
     text-align: left;
     font-size: 14px;
     line-height: .7;
-    text-shadow: black 2px 2px 1px;
 }
 .hide{
     display: none;
