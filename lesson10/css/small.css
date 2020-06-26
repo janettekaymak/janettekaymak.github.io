@@ -183,6 +183,7 @@ p {
 #pancakes.show {
     display: block;
 }
+
 .hero-box {
     position: relative;
     margin-top: 10px;
@@ -231,7 +232,8 @@ p {
     line-height: .7;
     text-shadow: black 2px 2px 1px;
 }
-.hide{
+
+.hide {
     display: none;
 }
 
@@ -315,11 +317,17 @@ a:visited {}
     max-width: 100%;
     margin-bottom: -5px;
 }
+
 #weather-link {
     margin-left: 50px;
     margin-top: -20px;
 }
-#imagesrc, #imagesrc2, #imagesrc3, #imagesrc4, #imagesrc5{
+
+#imagesrc,
+#imagesrc2,
+#imagesrc3,
+#imagesrc4,
+#imagesrc5 {
     display: none;
 }
 
@@ -505,7 +513,8 @@ townbox h6 {
 townbox h5 {
     margin-top: -1px;
 }
-townbox h6{
+
+townbox h6 {
     line-height: 1.5em;
     font-kerning: normal;
     padding: 20px 50px;
@@ -625,8 +634,3 @@ added to the end of the class list like this in HTML.
     display: table;
     clear: both;
 }
-
-
-
-
-
