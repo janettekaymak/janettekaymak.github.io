@@ -212,15 +212,16 @@ p {
     width: 100%;
 }
 
+
 .weather-summary {
     position: absolute;
-    top: -11px;
+    top: 0px;
     left: 0px;
-    background-color: rgba(1, 103, 161, 0.85);
+    background-color: rgba(1, 75, 117, 0.7);
     border: rgb(1, 82, 136) solid 2px;
     color: white;
     padding: 0 15px;
-    max-width: 50%;
+    max-width: 45%;
     border-radius: 15px;
     box-shadow: 0 0 55px lemonchiffon;
 }
