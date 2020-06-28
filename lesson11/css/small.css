@@ -30,16 +30,6 @@ h1 {
     margin-right: 10px;
     font-variant: small-caps;
 }
-
-#motto {
-    float: right;
-    margin-right: -233px;
-    margin-top: 35px;
-    padding-right: 10px;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif
-}
-
 #sage {
     display: none;
 }
@@ -130,6 +120,16 @@ h2 {
     text-align: center;
     text-shadow: rgb(227, 241, 252) 3px 3px 5px;
     margin-bottom: 0px;
+}
+.top-heading{
+    margin-top: -5px;
+}
+#motto {
+    text-align: center;
+    font-family: fantasy, serif;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: -10px;
 }
 
 /*Gallery Main--------------------------------------*/
@@ -458,7 +458,7 @@ h3.thankyou {
 /*main LESSON 9 HOME-------------------------*/
 #flashflood {
     display: block;
-    margin: 130px auto 0 auto;
+    margin: 140px auto 0 auto;
     width: 100%;
 }
 
