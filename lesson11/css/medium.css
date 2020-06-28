@@ -135,7 +135,13 @@
     }
 
     .hero-box {
-        margin-top: -45px;
+        margin-top: 0;
+    }
+    .town-name{
+        margin-top: 0;
+    }
+    .town-motto{
+        font-size: 18px;
     }
 
     .hero-box h3 {

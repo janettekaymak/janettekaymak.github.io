@@ -44,6 +44,10 @@
     .prestonMain{
         max-width: 900px;
     }
+    .town-motto{
+        font-size: 22px;
+        margin-top: -10px;
+    }
 
     .weather-summary{
         top: 30px;
