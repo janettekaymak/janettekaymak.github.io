@@ -142,9 +142,7 @@ main,
 .containerb {
     justify-content: center;
     align-items: center;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: -10px;
+    margin: -5px 0 -10px 0;
 }
 
 .gallery {

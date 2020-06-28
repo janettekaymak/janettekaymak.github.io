@@ -194,7 +194,7 @@
     .containerb {
         justify-content: center;
         align-items: center;
-        margin: 0;
+        margin: -10px 0 0 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         max-width: 1200px;
@@ -211,7 +211,7 @@
     figure {
         margin: 10px;
         background-color: white;
-        padding: 20px;
+        padding: 30px 25px;
         border-radius: 5px;
     }
     
