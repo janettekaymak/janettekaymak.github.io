@@ -123,14 +123,16 @@ nav {
 .ham a {
     text-align: left;
 }
+
+.responsive li {
+    display: block;
+}
+
 main {
     text-align: center;
     justify-content: center;
     align-items: center;
     margin: -5px 0 -10px 0;
-}
-.responsive li {
-    display: block;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
