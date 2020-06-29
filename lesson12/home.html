@@ -13,12 +13,15 @@
     <link href="css/large.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/shadow-cookie.ico">
 </head>
+
 <body>
-    <header></header>
+    <header>
+        <h1>Header Goes Here</h1>
+    </header>
     <nav>
         <ul class="navigation">
             <li class="ham">
-                <div class="container" id="menu">
+                <div class="container" id="menU">
                     <div class="bar1"></div>
                     <div class="bar2"></div>
                     <div class="bar3"></div>
@@ -43,13 +46,231 @@
 
     </nav>
     <main>
-        <h1>Future Website for Scoots!</h1>
-        <p>Under Construction. . .</p>
+        <div id="beige">
+            <h2>Future Website for Scoots!</h2>
+            <p>Under Construction. . .main{
+                background: url(/lesson12/images/beach.jpg);
+                background-size: cover;
+                background-position: center center;  
+            }
+            
+            #beige{
+                background-color: beige;
+                width: 400px;
+                margin: auto;
+            }
+            
+            h1{ 
+                text-align: center;
+            }
+            
+            nav {
+                margin: 0 auto;
+                background-color: lemonchiffon;
+                margin-top: -21px;
+            }
+            
+            .navigation {
+                list-style: none;
+                padding: 0;
+                font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+            .navigation li:first-child {
+                display: block;
+                height: 45px;
+            }
+            
+            .container {
+                display: inline-block;
+                cursor: pointer;
+                margin-top: -10px;
+            }
+            
+            #menU {
+                margin-top: 2px;
+                margin-left: 17px;
+            
+            }
+            
+            .bar1,
+            .bar2,
+            .bar3 {
+                width: 35px;
+                height: 5px;
+                background-color: black;
+                margin: 6px 0;
+                transition: 0.4s;
+            }
+            
+            .change .bar1 {
+                -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+                transform: rotate(-45deg) translate(-9px, 6px);
+            }
+            
+            .change .bar2 {
+                opacity: 0;
+            }
+            
+            .change .bar3 {
+                -webkit-transform: rotate(45deg) translate(-8px, -8px);
+                transform: rotate(45deg) translate(-8px, -8px);
+            }
+            
+            .navigation li {
+                display: none;
+            }
+            
+            .navigation a {
+                display: block;
+                padding: 0.75rem;
+                text-align: left;
+                text-decoration: none;
+                font-weight: lighter;
+                color: black;
+                letter-spacing: .1em;
+                border-top: 1px solid rgba(0, 0, 0, 0.3);
+            }
+            
+            .active {
+                background-color: skyblue;
+            }
+            
+            .ham a {
+                text-align: left;
+            }
+            main {
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                margin: -5px 0 -10px 0;
+            }
+            .responsive li {
+                display: block;
+            }
+            
+            /*----- Clearfix: Force an Element not to collapse -----*/
+            .clearfix:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            </p>
+            <h2>Future Website for Scoots!</h2>
+            <p>Under Construction. . .main{
+                background: url(/lesson12/images/beach.jpg);
+                background-size: cover;
+                background-position: center center;  
+            }
+            
+            #beige{
+                background-color: beige;
+                width: 400px;
+                margin: auto;
+            }
+            
+            h1{ 
+                text-align: center;
+            }
+            
+            nav {
+                margin: 0 auto;
+                background-color: lemonchiffon;
+                margin-top: -21px;
+            }
+            
+            .navigation {
+                list-style: none;
+                padding: 0;
+                font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
+            .navigation li:first-child {
+                display: block;
+                height: 45px;
+            }
+            
+            .container {
+                display: inline-block;
+                cursor: pointer;
+                margin-top: -10px;
+            }
+            
+            #menU {
+                margin-top: 2px;
+                margin-left: 17px;
+            
+            }
+            
+            .bar1,
+            .bar2,
+            .bar3 {
+                width: 35px;
+                height: 5px;
+                background-color: black;
+                margin: 6px 0;
+                transition: 0.4s;
+            }
+            
+            .change .bar1 {
+                -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+                transform: rotate(-45deg) translate(-9px, 6px);
+            }
+            
+            .change .bar2 {
+                opacity: 0;
+            }
+            
+            .change .bar3 {
+                -webkit-transform: rotate(45deg) translate(-8px, -8px);
+                transform: rotate(45deg) translate(-8px, -8px);
+            }
+            
+            .navigation li {
+                display: none;
+            }
+            
+            .navigation a {
+                display: block;
+                padding: 0.75rem;
+                text-align: left;
+                text-decoration: none;
+                font-weight: lighter;
+                color: black;
+                letter-spacing: .1em;
+                border-top: 1px solid rgba(0, 0, 0, 0.3);
+            }
+            
+            .active {
+                background-color: skyblue;
+            }
+            
+            .ham a {
+                text-align: left;
+            }
+            main {
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                margin: -5px 0 -10px 0;
+            }
+            .responsive li {
+                display: block;
+            }
+            
+            /*----- Clearfix: Force an Element not to collapse -----*/
+            .clearfix:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            </p>
+        </div>
     </main>
     <footer></footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="js/toggleMenu.js"></script>
     <script src="js/webfontLoad.js"></script>
+    <script src="js/toggleMenu.js"></script>
     <script src="js/lastModified.js"></script>
 </body>
 
