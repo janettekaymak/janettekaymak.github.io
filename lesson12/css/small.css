@@ -1,22 +1,48 @@
 body{
-    background: url(/lesson12/images/beach1500.jpg);
-    /*Image by Michael Fallon from Unsplash*/
+    background: url(/lesson12/images/mink-mingle-unsplash.jpg);
+    /*Image by Mink Mingle from Unsplash*/
+    max-width: 1450px;
+    max-height: 1200px;
+}
+
+#gold-circle{
+    background-color: gold;
+    width: 150px;
+    height: 150px;
+    display: block;
+    position: relative;
+    margin: 20px auto -25px auto;
+    border-radius: 150px;
+}
+
+#jetski{
+    display: block;
+    position: absolute;
+    margin-top: 20px;
 }
 
 #beige{
-    background-color: rgb(250, 243, 233);
-    max-width: 360px;
-    margin: auto;
+    background-color: blanchedalmond;
+    max-width: 350px;
+    margin: 40px auto;
     padding: 20px;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-size: 16.5px;
+    
 }
 
 h1{ 
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 60px;
     text-align: center;
+    color: blanchedalmond;
+    text-shadow:black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px, black 0 0 5px;
 }
 
 nav {
     margin: 0 auto;
-    background-color: lemonchiffon;
+    background-color: blanchedalmond;
     margin-top: -21px;
 }
 
@@ -83,7 +109,7 @@ nav {
 }
 
 .active {
-    background-color: skyblue;
+    background-color: rgb(3, 216, 216);
 }
 
 .ham a {
@@ -104,4 +130,14 @@ main {
     content: "";
     display: table;
     clear: both;
+}
+footer{
+    margin-top: -180px;
+}
+footer p{
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 20px;
+    margin-top: -80px;
+    color: rgb(250, 243, 233);
 }

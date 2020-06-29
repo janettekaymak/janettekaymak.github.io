@@ -22,8 +22,8 @@
     }
 
     .navigation a:hover {
-        background-color: skyblue;
-        box-shadow: skyblue 0px 0px 25px;
+        background-color: rgb(3, 216, 216);
+        box-shadow: white 0px 0px 55px;
         transition: 1s;
     }
 
