@@ -24,12 +24,12 @@
     background-color: blanchedalmond;
     max-width: 550px;
     margin: 60px auto;
-    padding: 20px;
+    padding: 20px 50px;
     border-radius: 20px;
     font-family: 'Poppins', 'Open Sans', sans-serif;
     font-size: 16.5px;
     line-height: 1.5em;
-    text-align: justify;
+    text-align: left;
     
 }
 
