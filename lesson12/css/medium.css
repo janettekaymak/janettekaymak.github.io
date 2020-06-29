@@ -23,7 +23,7 @@
 
     .navigation a:hover {
         background-color: rgb(3, 216, 216);
-        box-shadow: white 0px 0px 55px;
+        box-shadow: white 0px 0px 25px;
         transition: 1s;
     }
 

@@ -39,7 +39,7 @@ h1{
     font-size: 75px;
     text-align: center;
     color: blanchedalmond;
-    text-shadow:black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px, black 0 0 5px;
+    text-shadow:black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px, black 0 0 5px, black 0 0 6px, black 0 0 7px, black 0 0 8px, black 0 0 9px, black 0 0 10px;
 }
 h2{
     font-family: 'Fontdiner Swanky', cursive;
@@ -149,5 +149,5 @@ footer p{
     font-family: 'Poppins';
     font-size: 20px;
     margin-top: -80px;
-    color: rgb(250, 243, 233);
+    color: blanchedalmond;
 }
