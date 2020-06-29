@@ -1,13 +1,11 @@
-main{
-    background: url(/lesson12/images/beach.jpg);
+body{
+    background: url(/lesson12/images/beach1500.jpg);
     /*Image by Michael Fallon from Unsplash*/
-    background-size: cover;
-    background-position: center center;  
 }
 
 #beige{
     background-color: rgb(250, 243, 233);
-    width: 400px;
+    max-width: 360px;
     margin: auto;
     padding: 20px;
 }
