@@ -13,7 +13,7 @@
     }
 
     .navigation a {
-        font-size: 22px;
+        font-size: 18px;
         text-align: center;
         font-weight: unset;
         letter-spacing: unset;
@@ -23,7 +23,7 @@
 
     .navigation a:hover {
         color: navajowhite;
-        text-shadow:black 0 0 1px, black 0 0 2px, black 0 0 3px;
+        text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px;
         background-color: rgb(3, 216, 216);
         box-shadow: white 0px 0px 25px;
         transition: 1s;
@@ -32,29 +32,50 @@
     .navigation li:first-child {
         display: none;
     }
-    .sitebox{
+
+    .sitebox {
         border-radius: 20px;
     }
 
-    main{
+    main {
         max-width: 690px;
         margin: auto;
     }
-    #beige{
+
+    table,
+    th,
+    td {
+        padding: 8px;
+        font-size: 22px;
+        line-height: 1.3;
+    }
+
+    tr th {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    thead tr th {
+        font-size: 38px;
+        line-height: 1.4;
+    }
+
+    #beige {
         border-radius: 20px;
     }
-    
-    .grid{
-       display: grid;
-       grid-template-columns: 1fr 1fr;
-       grid-template-rows: 1fr 1fr;
-       gap: 25px;
-       margin:auto;
-       margin-top: 50px;
-     
-       
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 25px;
+        margin: auto;
+        margin-top: 50px;
+
+
     }
-    #site-footer{
+
+    #site-footer {
         margin-top: -50px;
     }
 }
