@@ -21,19 +21,6 @@
     margin-top: 20px;
 }
 
-#beige{
-    background-color: blanchedalmond;
-    max-width: 550px;
-    margin: 60px auto;
-    padding: 20px 50px;
-    border-radius: 20px;
-    font-family: 'Poppins', 'Open Sans', sans-serif;
-    font-size: 16.5px;
-    line-height: 1.5em;
-    text-align: left;
-    
-}
-
 h1{ 
     font-family: 'Fontdiner Swanky', cursive;
     font-size: 75px;
@@ -45,6 +32,7 @@ h2{
     font-family: 'Fontdiner Swanky', cursive;
     font-size: 45px;
     text-align: center;
+    line-height: 1em;
 }
 
 nav {
@@ -132,8 +120,43 @@ main {
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin: -5px 0 -10px 0;
+    margin: 40px 0 -10px 0;
 }
+#beige{
+    background-color: blanchedalmond;
+    max-width: 550px;
+    margin: 60px auto;
+    padding: 20px 50px;
+    border-radius: 20px;
+    font-family: 'Poppins', 'Open Sans', sans-serif;
+    font-size: 16.5px;
+    line-height: 1.5em;
+    text-align: left;
+    
+}
+.sitebox{
+    margin: auto;
+    background-color: blanchedalmond;
+    max-width: 360px;
+    padding: 20px 50px;
+    border-radius: 20px;
+    font-family: 'Poppins', 'Open Sans', sans-serif;
+    font-size: 16.5px;
+    line-height: 1.5em;
+    text-align: left;
+    
+}
+
+.sitebox p{
+    margin-top: -20px;
+}
+.grid{
+   display: grid;
+   grid-template-columns: 1fr;
+   gap: 30px;
+   
+}
+
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
@@ -151,3 +174,7 @@ footer p{
     margin-top: -95px;
     color: blanchedalmond;
 }
+#site-footer{
+    margin-top: -50px;
+}
+
