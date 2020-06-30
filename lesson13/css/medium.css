@@ -41,6 +41,9 @@
         max-width: 690px;
         margin: auto;
     }
+    table{
+        margin-top: 60px;
+    }
 
     table,
     th,
