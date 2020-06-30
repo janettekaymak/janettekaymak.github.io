@@ -22,6 +22,8 @@
     }
 
     .navigation a:hover {
+        color: navajowhite;
+        text-shadow:black 0 0 1px, black 0 0 2px, black 0 0 3px;
         background-color: rgb(3, 216, 216);
         box-shadow: white 0px 0px 25px;
         transition: 1s;
@@ -35,17 +37,21 @@
     }
 
     main{
-        max-width: 700px;
+        max-width: 690px;
+        margin: auto;
+    }
+    #beige{
+        border-radius: 20px;
     }
     
     .grid{
        display: grid;
        grid-template-columns: 1fr 1fr;
        grid-template-rows: 1fr 1fr;
-       gap: 30px;
+       gap: 25px;
        margin:auto;
        margin-top: 50px;
-       margin-left: 55px;
+     
        
     }
     #site-footer{
