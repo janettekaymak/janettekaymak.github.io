@@ -1,7 +1,10 @@
 /* Media Query for large+ views */
 
 @media screen and (min-width: 1188px) {
-
+    body{
+        max-width: 1450px;
+        margin: auto;
+    }
     .navigation a {
         font-size: 24px;
         padding: 20px;

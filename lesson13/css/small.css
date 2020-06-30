@@ -175,10 +175,10 @@ footer p{
     color: blanchedalmond;
 }
 #site-footer{
-    margin-top: -50px;
+    margin-top: -200px;
 }
 
-footer a{
+footer a:link, a:visited{
    text-decoration: none;
    color: blanchedalmond;
 }
