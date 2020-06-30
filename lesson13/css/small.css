@@ -178,3 +178,7 @@ footer p{
     margin-top: -50px;
 }
 
+footer a{
+   text-decoration: none;
+   color: blanchedalmond;
+}
