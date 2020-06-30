@@ -1,11 +1,11 @@
-.mink-mingle{
+.mink-mingle {
     background: url(/lesson13/images/mink-mingle-unsplash.jpg);
     /*Image by Mink Mingle from Unsplash
     alt="background image is beach with waves"*/
-   
+
 }
 
-#gold-circle{
+#gold-circle {
     background-color: gold;
     width: 155px;
     height: 150px;
@@ -15,20 +15,21 @@
     border-radius: 150px;
 }
 
-#jetski{
+#jetski {
     display: block;
     position: absolute;
     margin-top: 20px;
 }
 
-h1{ 
+h1 {
     font-family: 'Fontdiner Swanky', cursive;
     font-size: 75px;
     text-align: center;
     color: navajowhite;
-    text-shadow:black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px, black 0 0 5px, black 0 0 6px, black 0 0 7px, black 0 0 8px, black 0 0 9px, black 0 0 10px;
+    text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px, black 0 0 5px, black 0 0 6px, black 0 0 7px, black 0 0 8px, black 0 0 9px, black 0 0 10px;
 }
-h2{
+
+h2 {
     font-family: 'Fontdiner Swanky', cursive;
     font-size: 45px;
     text-align: center;
@@ -122,7 +123,8 @@ main {
     align-items: center;
     margin: 40px -15px -10px 0;
 }
-#beige{
+
+#beige {
     background-color: navajowhite;
     max-width: 550px;
     margin: 60px auto;
@@ -131,9 +133,10 @@ main {
     font-size: 16.5px;
     line-height: 1.5em;
     text-align: left;
-    
+
 }
-.sitebox{
+
+.sitebox {
     margin: auto;
     background-color: navajowhite;
     width: 335px;
@@ -142,58 +145,118 @@ main {
     font-size: 16.5px;
     line-height: 1.5em;
     text-align: left;
-    
+
 }
 
-.sitebox p{
+.sitebox p {
     margin-top: -20px;
 }
-.grid{
-   display: grid;
-   grid-template-columns: 1fr;
-   gap: 30px;
-   
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+
 }
-.colorbox{
+
+.colorbox {
     max-width: 85px;
     height: 165px;
     font-size: 14px;
     text-align: center;
 }
-#gold{
+
+#gold {
     background-color: gold;
     border: black solid 1px;
 
 }
-#almond{
+
+#almond {
     background-color: navajowhite;
     border: black solid 1px;
 
 }
-#black{
+
+#black {
     background-color: black;
     border: black solid 1px;
     color: white;
 
 }
-#turquoise{
+
+#turquoise {
     background-color: turquoise;
     border: black solid 1px;
 
 }
-#color{
+
+#color {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 5px;
 }
-#font{
+
+#font {
     text-align: center;
 }
-#smaller-head{
+
+#smaller-head {
     font-size: 70px;
 }
-h3{
+
+h3 {
     font-family: 'Fontdiner Swanky', cursive;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    line-height: 1.3;
+}
+
+table {
+    width: 100%;
+    box-shadow: black 0 0 20px;
+    opacity: .85;
+}
+
+thead tr {
+    background-color: rgb(3, 216, 216);
+    color: navajowhite;
+    text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px, black 0 0 5px, black 0 0 6px;
+}
+
+tbody tr th {
+    background-color: navajowhite;
+}
+
+tr {
+    background-color: navajowhite;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(3, 216, 216);
+}
+
+tr th {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+thead tr th {
+    font-size: 38px;
+    line-height: 1.4;
+}
+
+th {
+    font-weight: bolder;
 }
 
 
@@ -203,21 +266,29 @@ h3{
     display: table;
     clear: both;
 }
-footer{
+
+footer {
     margin-top: -195px;
 }
-footer p{
+
+footer p {
     text-align: center;
     font-family: 'Poppins';
     font-size: 20px;
     margin-top: -95px;
     color: navajowhite;
 }
-#site-footer{
+
+#site-footer {
     margin-top: -40px;
 }
 
-footer a:link, footer a:visited{
-   text-decoration: none;
-   color: navajowhite;
+footer a:link,
+footer a:visited {
+    text-decoration: none;
+    color: navajowhite;
+}
+
+#rental-footer {
+    margin-top: 200px;
 }
