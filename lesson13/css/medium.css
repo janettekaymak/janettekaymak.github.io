@@ -30,16 +30,17 @@
     .navigation li:first-child {
         display: none;
     }
-    
-    main{
-        max-width: 700px;
-        margin: auto;
+    .sitebox{
+        border-radius: 20px;
     }
+    
     .grid{
        display: grid;
        grid-template-columns: 1fr 1fr;
        grid-template-rows: 1fr 1fr;
+       gap: 30px;
        margin-top: 50px;
+       margin-left: -20px;
        
     }
     #site-footer{
