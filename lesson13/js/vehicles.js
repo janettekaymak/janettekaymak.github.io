@@ -47,7 +47,6 @@ fetch(myURL)
   .then((vehicles) => {
     console.log(vehicles);
   
-  let name = createElement('span');
   
   //Fill in html with forecast data  
   document.getElementById('met-name').textContent = "Vehicle Name";
