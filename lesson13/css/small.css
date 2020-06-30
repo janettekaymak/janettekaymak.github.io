@@ -7,7 +7,7 @@
 
 #gold-circle{
     background-color: gold;
-    width: 150px;
+    width: 155px;
     height: 150px;
     display: block;
     position: relative;
@@ -25,7 +25,7 @@ h1{
     font-family: 'Fontdiner Swanky', cursive;
     font-size: 75px;
     text-align: center;
-    color: blanchedalmond;
+    color: navajowhite;
     text-shadow:black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px, black 0 0 5px, black 0 0 6px, black 0 0 7px, black 0 0 8px, black 0 0 9px, black 0 0 10px;
 }
 h2{
@@ -37,7 +37,7 @@ h2{
 
 nav {
     margin: 0 auto;
-    background-color: blanchedalmond;
+    background-color: navajowhite;
     margin-top: -21px;
 }
 
@@ -123,7 +123,7 @@ main {
     margin: 40px 0 -10px 0;
 }
 #beige{
-    background-color: blanchedalmond;
+    background-color: navajowhite;
     max-width: 550px;
     margin: 60px auto;
     padding: 20px 50px;
@@ -136,8 +136,8 @@ main {
 }
 .sitebox{
     margin: auto;
-    background-color: blanchedalmond;
-    max-width: 360px;
+    background-color: navajowhite;
+    width: 360px;
     padding: 20px 50px;
     border-radius: 20px;
     font-family: 'Poppins', 'Open Sans', sans-serif;
@@ -156,6 +156,44 @@ main {
    gap: 30px;
    
 }
+.colorbox{
+    max-width: 85px;
+    height: 145px;
+    font-size: 14px;
+    text-align: center;
+}
+#gold{
+    background-color: gold;
+    border: black solid 1px;
+
+}
+#almond{
+    background-color: navajowhite;
+    border: black solid 1px;
+
+}
+#black{
+    background-color: black;
+    border: black solid 1px;
+    color: white;
+
+}
+#turquoise{
+    background-color: turquoise;
+    border: black solid 1px;
+
+}
+#color{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+#font{
+    text-align: center;
+}
+h3{
+    font-family: 'Fontdiner Swanky', cursive;
+}
 
 
 /*----- Clearfix: Force an Element not to collapse -----*/
@@ -165,20 +203,20 @@ main {
     clear: both;
 }
 footer{
-    margin-top: -180px;
+    margin-top: -195px;
 }
 footer p{
     text-align: center;
     font-family: 'Poppins';
     font-size: 20px;
     margin-top: -95px;
-    color: blanchedalmond;
+    color: navajowhite;
 }
 #site-footer{
     margin-top: -50px;
 }
 
-footer a:link, a:visited{
+footer a:link, footer a:visited{
    text-decoration: none;
-   color: blanchedalmond;
+   color: navajowhite;
 }
