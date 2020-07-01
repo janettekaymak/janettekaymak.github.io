@@ -206,8 +206,8 @@ h3 {
     flex-direction: column;
 }
 .photobox{
-    margin: auto;
-    max-width: 360px;
+    margin: 50px auto -20px 3%;
+    max-width: 100%;
     overflow: auto;
     white-space: nowrap;
 }
@@ -231,7 +231,7 @@ td {
 
 table {
     max-width: 100%;
-    margin: 50px -10px 50px auto;
+    margin: 50px -3% 50px 8%;
     box-shadow: black 0 0 20px;
     opacity: .85;
 }
