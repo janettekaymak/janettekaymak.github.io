@@ -120,6 +120,8 @@ nav {
 #beige {
     background-color: navajowhite;
     max-width: 550px;
+    height: 200px;
+    overflow: scroll;
     margin: 60px auto;
     padding: 20px 50px;
     font-family: 'Poppins', 'Open Sans', sans-serif;
