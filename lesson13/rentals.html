@@ -2,139 +2,143 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Scoots Home | Janette Kaymak</title>
-    <meta name="description"
-        content="Lesson 12 Scoots Home Page, Final Project, by Janette Kaymak, WDD 230: Web Frontend Development, Brigham Young University - Idaho" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link href="css/small.css" rel="stylesheet">
-    <link href="css/medium.css" rel="stylesheet">
-    <link href="css/large.css" rel="stylesheet">
-    <link rel="shortcut icon" href="images/ski.ico">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scoots Home | Janette Kaymak</title>
+  <meta name="description"
+    content="Lesson 12 Scoots Home Page, Final Project, by Janette Kaymak, WDD 230: Web Frontend Development, Brigham Young University - Idaho" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+  <link rel="shortcut icon" href="images/ski.ico">
 </head>
 
 <body class="mink-mingle">
-    <header>
-        <div id="gold-circle"><img src="images/jetski.png" alt="jet ski logo, man on a jet ski" id="jetski"></div>
-        <h1>Scoots Rentals</h1>
-    </header>
-    <nav>
-        <ul class="navigation">
-            <li class="ham">
-                <div class="container" id="menU">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </div>
-            </li>
-            <li>
-                <a href="https://janettekaymak.github.io/lesson13/index.html">Home</a>
-            </li>
-            <li>
-                <a href="https://janettekaymak.github.io/lesson13/rentals.html"  class="active">Rentals</a>
-            </li>
-            <li>
-                <a href="https://janettekaymak.github.io/lesson13/reservations.html">Reservations</a>
-            </li>
-            <li>
-                <a href="https://janettekaymak.github.io/lesson13/tours.html">Tours</a>
-            </li>
-            <li>
-                <a href="https://janettekaymak.github.io/lesson13/contact.html">Contact</a>
-            </li>
-        </ul>
+  <header>
+    <div id="gold-circle"><img src="images/jetski.png" alt="jet ski logo, man on a jet ski" id="jetski"></div>
+    <h1>Scoots Rentals</h1>
+  </header>
+  <nav>
+    <ul class="navigation">
+      <li class="ham">
+        <div class="container" id="menU">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </li>
+      <li>
+        <a href="https://janettekaymak.github.io/lesson13/index.html">Home</a>
+      </li>
+      <li>
+        <a href="https://janettekaymak.github.io/lesson13/rentals.html" class="active">Rentals</a>
+      </li>
+      <li>
+        <a href="https://janettekaymak.github.io/lesson13/reservations.html">Reservations</a>
+      </li>
+      <li>
+        <a href="https://janettekaymak.github.io/lesson13/tours.html">Tours</a>
+      </li>
+      <li>
+        <a href="https://janettekaymak.github.io/lesson13/contact.html">Contact</a>
+      </li>
+    </ul>
 
-    </nav>
-    <main>
-        <table class='rentals'>
-            <thead>
-                <tr>
-                    <th colspan="6">
-                        Max Persons and Price Chart
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th colspan="2"></th>
-                <th colspan="2">Reservations</th> 
-                <th colspan="2">Walk Ins</th>  
-              </tr>
-              <tr>
-                <th>Rental Type</th> 
-                <th>Max. Persons</th>
-                <th>Half Day (3 hrs)</th> 
-                <th>Full Day</th>
-                <th>Half Day (3 hrs)</th>
-                <th>Full Day</th>   
-              </tr>
-              <tr>
-                <td><span id="met-name"></span></td>
-                <td><span id="met-max"></span></td>
-                <td><span id="res-met-half"></span></td>
-                <td><span id="res-met-full"></span></td>
-                <td><span id="in-met-half"></span></td>
-                <td><span id="in-met-full"></span></td>
-              </tr>
-              <tr>
-                <td><span id="dio-name"></span></td>
-                <td><span id="dio-max"></span></td>
-                <td><span id="res-dio-half"></span></td>
-                <td><span id="res-dio-full"></span></td>
-                <td><span id="in-dio-half"></span></td>
-                <td><span id="in-dio-full"></span></td>
-              </tr>
-              <tr>
-                <td><span id="pcx-name"></span></td>
-                <td><span id="pcx-max"></span></td>
-                <td><span id="res-pcx-half"></span></td>
-                <td><span id="res-pcx-full"></span></td>
-                <td><span id="in-pcx-half"></span></td>
-                <td><span id="in-pcx-full"></span></td>
-              </tr>
-              <tr>
-                <td><span id="atv-name"></span></td>
-                <td><span id="atv-max"></span></td>
-                <td><span id="res-atv-half"></span></td>
-                <td><span id="res-atv-full"></span></td>
-                <td><span id="in-atv-half"></span></td>
-                <td><span id="in-atv-full"></span></td>
-              </tr>
-              <tr>
-                <td><span id="4door-name"></span></td>
-                <td><span id="4door-max"></span></td>
-                <td><span id="res-4door-half"></span></td>
-                <td><span id="res-4door-full"></span></td>
-                <td><span id="in-4door-half"></span></td>
-                <td><span id="in-4door-full"></span></td>
-              </tr>
-              <tr>
-                <td><span id="2door-name"></span></td>
-                <td><span id="2door-max"></span></td>
-                <td><span id="res-2door-half"></span></td>
-                <td><span id="res-2door-full"></span></td>
-                <td><span id="in-2door-half"></span></td>
-                <td><span id="in-2door-full"></span></td>
-              </tr>
-            </tbody>
-            </table>
-            <div>
-              <button><a href="https://janettekaymak.github.io/lesson13/reservations.html">Reserve Yours Now!</a></button>
-            </div>
+  </nav>
+  <main>
+    <div class="photobox-table">
+      <div class="photobox"><img src="/lesson11/images/fishhaven.jpg"><img src="/lesson11/images/fishhaven.jpg"><img src="/lesson11/images/fishhaven.jpg"><img src="/lesson11/images/fishhaven.jpg"><img src="/lesson11/images/fishhaven.jpg"><img src="/lesson11/images/fishhaven.jpg"></div>
+      <div>
+      <table class='rentals'>
+        <thead>
+          <tr>
+            <th colspan="6">
+              Max Persons and Price Chart
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th colspan="2"></th>
+            <th colspan="2">Reservations</th>
+            <th colspan="2">Walk Ins</th>
+          </tr>
+          <tr>
+            <th>Rental Type</th>
+            <th>Max. Persons</th>
+            <th>Half Day (3 hrs)</th>
+            <th>Full Day</th>
+            <th>Half Day (3 hrs)</th>
+            <th>Full Day</th>
+          </tr>
+          <tr>
+            <td><span id="met-name"></span></td>
+            <td><span id="met-max"></span></td>
+            <td><span id="res-met-half"></span></td>
+            <td><span id="res-met-full"></span></td>
+            <td><span id="in-met-half"></span></td>
+            <td><span id="in-met-full"></span></td>
+          </tr>
+          <tr>
+            <td><span id="dio-name"></span></td>
+            <td><span id="dio-max"></span></td>
+            <td><span id="res-dio-half"></span></td>
+            <td><span id="res-dio-full"></span></td>
+            <td><span id="in-dio-half"></span></td>
+            <td><span id="in-dio-full"></span></td>
+          </tr>
+          <tr>
+            <td><span id="pcx-name"></span></td>
+            <td><span id="pcx-max"></span></td>
+            <td><span id="res-pcx-half"></span></td>
+            <td><span id="res-pcx-full"></span></td>
+            <td><span id="in-pcx-half"></span></td>
+            <td><span id="in-pcx-full"></span></td>
+          </tr>
+          <tr>
+            <td><span id="atv-name"></span></td>
+            <td><span id="atv-max"></span></td>
+            <td><span id="res-atv-half"></span></td>
+            <td><span id="res-atv-full"></span></td>
+            <td><span id="in-atv-half"></span></td>
+            <td><span id="in-atv-full"></span></td>
+          </tr>
+          <tr>
+            <td><span id="4door-name"></span></td>
+            <td><span id="4door-max"></span></td>
+            <td><span id="res-4door-half"></span></td>
+            <td><span id="res-4door-full"></span></td>
+            <td><span id="in-4door-half"></span></td>
+            <td><span id="in-4door-full"></span></td>
+          </tr>
+          <tr>
+            <td><span id="2door-name"></span></td>
+            <td><span id="2door-max"></span></td>
+            <td><span id="res-2door-half"></span></td>
+            <td><span id="res-2door-full"></span></td>
+            <td><span id="in-2door-half"></span></td>
+            <td><span id="in-2door-full"></span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    </div>
+    <div>
+      <button><a href="https://janettekaymak.github.io/lesson13/reservations.html">Reserve Yours Now!</a></button>
+    </div>
+  </main>
+  <footer id="rental-footer"><img src="images/palms.png" id="palms" alt="black silhouette of palm trees">
+    <p> © 2020 - <a href="https://janettekaymak.github.io/assignment-portal/index.html">Janette Kaymak</a> -
+      Manhattan, NY<br>
 
-    </main>
-    <footer id="rental-footer"><img src="images/palms.png" id="palms" alt="black silhouette of palm trees">
-        <p> © 2020 - <a href="https://janettekaymak.github.io/assignment-portal/index.html">Janette Kaymak</a> -
-            Manhattan, NY<br>
-
-            Last updated: <span id="date"></span></p>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="js/webfontLoad.js"></script>
-    <script src="js/toggleMenu.js"></script>
-    <script src="js/vehicles.js"></script>
-    <script src="js/lastModified.js"></script>
+      Last updated: <span id="date"></span></p>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="js/webfontLoad.js"></script>
+  <script src="js/toggleMenu.js"></script>
+  <script src="js/vehicles.js"></script>
+  <script src="js/lastModified.js"></script>
 </body>
 
 </html>

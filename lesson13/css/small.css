@@ -120,8 +120,6 @@ nav {
 #beige {
     background-color: navajowhite;
     max-width: 550px;
-    height: 200px;
-    overflow: scroll;
     margin: 60px auto;
     padding: 20px 50px;
     font-family: 'Poppins', 'Open Sans', sans-serif;
@@ -202,6 +200,19 @@ nav {
 
 h3 {
     font-family: 'Fontdiner Swanky', cursive;
+}
+.photobox-table{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.photobox{
+    margin: 50px auto 10px auto;
+    max-width: 360px;
+    overflow: auto;
+    white-space: nowrap;
+}
+.photobox img{
+    margin: 0 50px 0 0;
 }
 
 table,
