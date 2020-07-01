@@ -1,9 +1,20 @@
-.mink-mingle {
-    background: url(/lesson13/images/mink-mingle-unsplash.jpg);
-    /*Image by Mink Mingle from Unsplash
-    alt="background image is beach with waves"*/
-
+html {
+    box-sizing: border-box;
 }
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+.mink-mingle{
+    /*The following image was obtained legally from Upsplash.com*/
+    background: url(images/mink-mingle-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    max-width: 1280px;
+}
+
+
 
 #gold-circle {
     background-color: gold;
@@ -37,7 +48,7 @@ h2 {
 }
 
 nav {
-    margin: 0 -30px 0 0;
+    margin: 0 -60px 0 0;
     background-color: navajowhite;
     margin-top: -21px;
 }
@@ -102,7 +113,6 @@ nav {
     font-weight: lighter;
     color: black;
     letter-spacing: .1em;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .active {
@@ -115,6 +125,10 @@ nav {
 
 .responsive li {
     display: block;
+}
+main{
+    max-width: 415px;
+    margin: auto;
 }
 
 #beige {
@@ -214,7 +228,7 @@ h3 {
 .photobox img{
     width: 360px;
     height: 438px;
-    margin: 0 2%;
+    margin: 0 20px;
 }
 
 table,
@@ -269,11 +283,11 @@ th {
 }
 
 button {
-    margin: 0 20%;
+    margin: 0 10% 0 25%;
     background-color: rgb(3, 216, 216);
     padding: 20px;
     border-radius: 10px;
-    max-width: 250px;
+    max-width: 290px;
 }
 
 button a {
