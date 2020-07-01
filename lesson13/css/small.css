@@ -212,6 +212,8 @@ h3 {
     white-space: nowrap;
 }
 .photobox img{
+    width: 360px;
+    height: 455px;
     margin: 0 50px 0 0;
 }
 
@@ -264,6 +266,16 @@ thead tr th {
 
 th {
     font-weight: bolder;
+}
+
+button {
+    background-color: rgb(3, 216, 216);
+    padding: 20px;
+}
+button a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 
