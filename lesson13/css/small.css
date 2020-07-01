@@ -202,19 +202,19 @@ h3 {
     font-family: 'Fontdiner Swanky', cursive;
 }
 .photobox-table{
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
 }
 .photobox{
-    margin: 50px auto 10px auto;
+    margin: auto;
     max-width: 360px;
     overflow: auto;
     white-space: nowrap;
 }
 .photobox img{
     width: 360px;
-    height: 455px;
-    margin: 0 50px 0 0;
+    height: 438px;
+    margin: 0 2%;
 }
 
 table,
@@ -231,7 +231,7 @@ td {
 
 table {
     max-width: 100%;
-    margin: 50px auto;
+    margin: 50px -10px 50px auto;
     box-shadow: black 0 0 20px;
     opacity: .85;
 }
@@ -269,9 +269,13 @@ th {
 }
 
 button {
+    margin: 0 20%;
     background-color: rgb(3, 216, 216);
     padding: 20px;
+    border-radius: 10px;
+    max-width: 250px;
 }
+
 button a {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
@@ -310,5 +314,5 @@ footer a:visited {
 }
 
 #rental-footer {
-    margin-top: 0px;
+    margin-top: 60px;
 }
