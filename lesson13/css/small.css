@@ -1,10 +1,11 @@
-body{
+body {
+    /*The following image was obtained legally from Unsplash.com, by Mink Mingle*/
     background: url("https://janettekaymak.github.io/lesson13/images/mink-mingle-unsplash.jpg");
 }
 
-#jetski{
-        display: block;
-        margin: 10px auto -45px auto;
+#jetski {
+    display: block;
+    margin: 10px auto -45px auto;
 }
 
 h1 {
@@ -12,7 +13,9 @@ h1 {
     font-size: 45px;
     text-align: center;
     color: navajowhite;
-    text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px, black 0 0 5px, black 0 0 6px, black 0 0 7px, black 0 0 8px, black 0 0 9px, black 0 0 10px;
+    text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px,
+        black 0 0 4px, black 0 0 5px, black 0 0 6px, black 0 0 7px,
+        black 0 0 8px, black 0 0 9px, black 0 0 10px;
 }
 
 nav {
@@ -107,7 +110,7 @@ added to the end of the class list like this in HTML.
     clear: both;
 }
 
-.img-flex{
+.img-flex {
     display: flex;
     max-width: 100%;
 }
@@ -115,6 +118,6 @@ added to the end of the class list like this in HTML.
 footer p {
     font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
     color: navajowhite;
-    text-align: center;  
+    text-align: center;
     margin-top: -70px;
 }
