@@ -20,7 +20,7 @@ fetch(apiURL)
     //Get icon
     const imagesrc = 'https://openweathermap.org/img/w/' + cast.weather[0].icon + '.png';
     const desc = cast.weather[0].description;
-    document.getElementById('imagesrc' + (day + 1)).textContent = imagesrc;
+    document.getElementById('imagesrc' + (day + 1)).setAttribute = imagesrc;
     document.getElementById('icon' + (day + 1)).setAttribute('src', imagesrc);
     document.getElementById('icon' + (day + 1)).setAttribute('alt', desc);
 
