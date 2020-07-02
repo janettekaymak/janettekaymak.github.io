@@ -1,4 +1,4 @@
-//Functions to get days of the week and show on 5dayforecast table
+/*Functions to get days of the week and show on 5dayforecast table
 
 //Get day 1
 function getWeekDay5(date) {
@@ -57,7 +57,7 @@ document.getElementById('day1').innerHTML = getWeekDay1(date);
 document.getElementById('day2').innerHTML = getWeekDay2(date);
 document.getElementById('day3').innerHTML = getWeekDay3(date);
 document.getElementById('day4').innerHTML = getWeekDay4(date);
-document.getElementById('day5').innerHTML = getWeekDay5(date);
+document.getElementById('day5').innerHTML = getWeekDay5(date);*/
 
 
 //Fetch JSON weather data from openweathermap
@@ -68,9 +68,32 @@ fetch(apiURL)
   .then((forecast) => {
     console.log(forecast);
 
+  const fiveDayForecast = forecast.list.filter(x => x.dt_txt.includes('18:00:00'));
+  console.log(fiveDayForecast);
+
+  const weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  let day = 0;
+  fiveDayForecast.forEach(cast => {
+    let d = new Date(cast.dt_txt);
+    document.getElementById('high' + (day + 1)).textContent = Math.round(cast.main.temp);
+    document.getElementById('day' + (day + 1)).textContent = weekDays[d.getDay()];
+
+    //Get icon
+    const imagesrc = 'https://openweathermap.org/img/w/' + cast.weather[0].icon + '.png';
+    const desc = cast.weather[0].description;
+    document.getElementById('imagesrc' + (day + 1)).textContent = imagesrc;
+    document.getElementById('icon' + (day + 1)).setAttribute('src', imagesrc);
+    document.getElementById('icon' + (day + 1)).setAttribute('alt', desc);
+
+    day++;
+    
+  });
+
+  });
 
 
-    //Fill in html with forecast data  
+
+    /*Fill in html with forecast data  
     document.getElementById('high1').textContent = Math.round(forecast.list[7].main.temp_max);
     document.getElementById('high2').textContent = Math.round(forecast.list[15].main.temp_max);
     document.getElementById('high3').textContent = Math.round(forecast.list[23].main.temp_max);
@@ -110,7 +133,7 @@ fetch(apiURL)
     const desc5 = forecast.list[39].weather[0].description;
     document.getElementById('imagesrc5').textContent = imagesrc5;
     document.getElementById('icon5').setAttribute('src', imagesrc5);
-    document.getElementById('icon5').setAttribute('alt', desc5);
+    document.getElementById('icon5').setAttribute('alt', desc5);*/
 
 
-  });
+  
