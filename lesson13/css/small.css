@@ -3,9 +3,9 @@ body {
     background: url("https://janettekaymak.github.io/lesson13/images/mink-mingle-unsplash.jpg");
 }
 
-#jetski {
+#icon {
     display: block;
-    margin: 10px auto -45px auto;
+    margin: -5px auto -45px auto;
 }
 
 h1 {
@@ -16,6 +16,12 @@ h1 {
     text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px,
         black 0 0 4px, black 0 0 5px, black 0 0 6px, black 0 0 7px,
         black 0 0 8px, black 0 0 9px, black 0 0 10px;
+}
+#motto{
+  text-align: center;
+  font-family: 'Fontdiner Swanky', cursive, fantasy;
+  margin-bottom: 40px;
+  margin-top: -20px;
 }
 
 nav {
