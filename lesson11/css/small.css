@@ -126,7 +126,7 @@ h2 {
 }
 #motto, .town-motto {
     text-align: center;
-    font-family: fantasy, serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     font-style: italic;
     font-size: 15px;
     margin-top: -10px;
@@ -492,7 +492,7 @@ townbox h1 {
 townbox h2 {
     text-shadow: transparent 3px 3px 5px;
     color: black;
-    font-family: fantasy, serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     font-style: italic;
     font-size: 18px;
     margin-bottom: 35px;
