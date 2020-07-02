@@ -2,6 +2,14 @@ body{
     background: url("https://janettekaymak.github.io/lesson13/images/mink-mingle-unsplash.jpg");
 }
 
+h1 {
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 75px;
+    text-align: center;
+    color: navajowhite;
+    text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px, black 0 0 5px, black 0 0 6px, black 0 0 7px, black 0 0 8px, black 0 0 9px, black 0 0 10px;
+}
+
 nav {
     margin: 0 auto;
     background-color: navajowhite;
@@ -94,4 +102,11 @@ added to the end of the class list like this in HTML.
     content: "";
     display: table;
     clear: both;
+}
+
+footer p {
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    color: navajowhite;
+    text-align: center;  
+    margin-top: -100px;
 }

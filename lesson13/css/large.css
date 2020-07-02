@@ -1,0 +1,10 @@
+/* Media Query for large+ views */
+
+@media screen and (min-width: 1188px) {
+
+    .navigation a {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+}
