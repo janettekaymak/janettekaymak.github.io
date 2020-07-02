@@ -1,0 +1,97 @@
+body{
+    background-image: url("https://janettekaymak.github.io/lesson13/images/mink-mingle-unsplash.jpg");
+}
+
+nav {
+    margin: 0 auto;
+    background-color: navajowhite;
+    margin-top: -21px;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navigation li:first-child {
+    display: block;
+    height: 45px;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+#menu {
+    margin-top: 2px;
+    margin-left: 17px;
+
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    font-weight: lighter;
+    color: black;
+    letter-spacing: .1em;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.active {
+    background-color: darkturquoise;
+
+    box-shadow: white 0px 0px 15px;
+}
+
+.ham a {
+    text-align: left;
+}
+
+/* the onclick JS toggles the .reponsive class from display none 
+(.navigation li) to display block because the responsive class is 
+added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+    display: block;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
