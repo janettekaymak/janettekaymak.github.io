@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>---> Scoots Home Page <--- | Janette Kaymak</title>
+    <title>~> Scoots Home Page <~ | Janette Kaymak</title>
     <meta name="description"
         content="Lesson 13 ~Scoots Home Page, by Janette Kaymak, CIT 230: Web Frontend Development, Brigham Young University - Idaho" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
@@ -16,9 +16,9 @@
 
 <body>
     <header>
-        <img id="icon" src="images/jetski-logo.png" alt="icon with man on jetski on a golden globe background">
+        <img id="jetski" src="images/jetski-logo.png" alt="icon with man on jetski on a golden globe background">
         <!--free image found at: https://clipartion.com/free-clipart-19964/-->
-        <h1 id="top-h1">---> Scoots Home Page <---</h1>
+        <h1 id="top-h1">Scoots Home</h1>
     </header>
     <nav>
         <ul class="navigation">
@@ -50,11 +50,17 @@
     <main>
     </main>
     <footer>
-        <img src="images/palms.png" alt="black silhouette of palm trees">
+        <picture>
+            <source class="img-flex" srcset="images/palms500.png" media="(max-width: 500px)">
+            <source class="img-flex" srcset="images/palms800.png" media="(min-width: 501px) and 
+            (max-width: 800px)">
+            <source class="img-flex" srcset="images/palms.png" media="(min-width: 801px)">
+            <img class="img-flex" src="images/palms.png" alt="rodeo">
+            <!--image made by myself with Adobe Photoshop-->
+        </picture>
         <p>
             &#169; 2020 - Janette Kaymak - Manhattan, NY<br>
             Last updated: <span id="date"></span>
-
             <script src="js/lastModified.js"></script>
         </p>
     </footer>
