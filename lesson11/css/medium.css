@@ -153,12 +153,6 @@
     #heroimg img{
         margin-bottom: 15px;
     }
-    .centered {
-        font-size: 12px;
-        line-height: 1.75em;
-        text-align: center;
-        margin-top: -20px;
-    }
 
     #forecast {
         display: block;
