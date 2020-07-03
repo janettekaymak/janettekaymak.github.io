@@ -155,7 +155,6 @@ added to the end of the class list like this in HTML.
     grid-area: box3;
     background-color: rgb(255, 255, 255, .7);
     border: darkturquoise solid 10px;
-   
     padding: 0 20px;
 }
 #box2 h3, 
@@ -169,7 +168,8 @@ added to the end of the class list like this in HTML.
 
 #box3 p{
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 14px;
+    line-height: 1.5em;
     text-align: justify;
 }
 
@@ -189,6 +189,10 @@ added to the end of the class list like this in HTML.
     display: none;
 }
 
+/*The following photos were obtained 
+from commercial websites that sell the vehicles. 
+I am claiming the fair use act because the items 
+are for sale.*/
 #photo1 img{
     grid-area: photo1;
     border: dimgray solid 2px;
