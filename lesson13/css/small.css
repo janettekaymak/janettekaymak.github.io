@@ -136,6 +136,7 @@ added to the end of the class list like this in HTML.
 .forecast{
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     padding: 0 30px;
+    text-align: center;
 }
 #box2{
     grid-area: box2;
@@ -180,7 +181,8 @@ added to the end of the class list like this in HTML.
 
 #icon1, #icon5{
     width: 120px;
-    margin-left: 20px;
+    margin-left: 4px;
+    margin-bottom: -30px;
 }
 
 .hidden{
