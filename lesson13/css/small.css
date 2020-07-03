@@ -34,7 +34,8 @@ nav {
 .navigation {
     list-style: none;
     padding: 0;
-    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Fontdiner Swanky','Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
 }
 
 .navigation li:first-child {
@@ -119,7 +120,7 @@ added to the end of the class list like this in HTML.
 
 #heroimg img{
     width: 100%;
-    margin-top: -16px;
+    margin-top: -19px;
 }
 
 #grid-box{
@@ -127,13 +128,14 @@ added to the end of the class list like this in HTML.
     margin: -5px auto 0 auto;
     display: grid;
     grid-template-areas:
-    'box1 box2'
-    'box3 box3';
+    'box1'
+    'box2'
+    'box3';
 }
 
 .forecast{
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 #box2{
     grid-area: box2;
@@ -151,12 +153,15 @@ added to the end of the class list like this in HTML.
 #box3{
     grid-area: box3;
     background-color: rgb(255, 255, 255, .7);
-    border-left: darkturquoise solid 10px;
-    border-right: darkturquoise solid 10px;
-    border-bottom: darkturquoise solid 10px;
+    border: darkturquoise solid 10px;
+   
     padding: 0 20px;
 }
-#box2 h3, #box1 h3, #box3 h3{
+#box2 h3, 
+#box1 h3, 
+#box3 h3,
+#box1 h4,
+#box2 h4{
     font-family: "Fontdiner Swanky", cursive, fantasy;
     text-align: center;
 }
@@ -197,4 +202,9 @@ footer p {
 footer p a{
     text-decoration: none;
     color: navajowhite;
+}
+
+footer a:hover{
+    color:cyan;
+    font-size: 17px;
 }

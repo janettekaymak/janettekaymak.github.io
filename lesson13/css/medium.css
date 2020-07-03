@@ -24,7 +24,7 @@
     }
 
     .navigation a {
-        font-size: 14px;
+        font-size: 18px;
         text-align: center;
         font-weight: unset;
         letter-spacing: unset;
@@ -54,6 +54,10 @@
     #grid-box{
         margin-top: 0;
         width: 65.85%;
+        display: grid;
+        grid-template-areas:
+        'box1 box2'
+        'box3 box3';
     }
 
 }
