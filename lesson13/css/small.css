@@ -10,7 +10,7 @@ body {
 
 h1 {
     font-family: 'Fontdiner Swanky', cursive, fantasy;
-    font-size: 45px;
+    font-size: 42px;
     text-align: center;
     color: navajowhite;
     text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px,
@@ -324,8 +324,7 @@ td {
 
 table {
     width: 100%;
-    margin: auto;
-    box-shadow: black 0 0 20px;
+    margin: -20px auto auto auto;
     opacity: .85;
 }
 
@@ -354,7 +353,7 @@ tr th {
 
 thead tr th {
     font-family: "Fontdiner Swanky";
-    font-size: 35px;
+    font-size: 32px;
     line-height: 1.25;
     padding: 15px;
 }

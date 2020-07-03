@@ -93,4 +93,10 @@
         border-top: none;
     }
 
+    table{
+        box-shadow: darkturquoise 0 0 50px;
+        margin: 30px auto 0 auto;
+        width: 85%;
+    }
+
 }
