@@ -46,10 +46,17 @@
 
     #heroimg img{
         display: block;
-        width: 65%;
+        width: 64.5%;
         margin: 50px auto 0 auto;
-        border: navajowhite solid 30px;
-        border-radius: 15px;
+        border-left: darkturquoise solid 10px;
+        border-right: darkturquoise solid 10px;
+        border-top: darkturquoise solid 10px;
+       
+       
+    }
+    #grid-box{
+        margin-top: 0;
+        width: 65.85%;
     }
 
 }

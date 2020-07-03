@@ -6,6 +6,15 @@
         font-size: 20px;
         padding: 20px;
     }
+
+    #grid-box{
+        grid-template-areas:
+        'box1 box2 box3 box3'
+    }
+    #box3{
+        border: darkturquoise solid 10px;
+    }
+
     footer p {
         margin-top: -90px;
     }

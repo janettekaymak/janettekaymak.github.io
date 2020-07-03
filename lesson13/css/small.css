@@ -121,7 +121,48 @@ added to the end of the class list like this in HTML.
     margin-top: -16px;
 }
 
+#grid-box{
+    width: 100%;
+    margin: -5px auto 0 auto;
+    display: grid;
+    grid-template-areas:
+    'box1 box2'
+    'box3 box3';
+}
 
+.forecast{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    padding: 0 20px;
+}
+#box2{
+    grid-area: box2;
+    background-color: rgb(0, 206, 209, .7);
+}
+
+#box1{
+    grid-area: box1;
+    background-color: rgb(255, 222, 173, .8 );
+    border: darkturquoise solid 10px;
+}
+
+#box3{
+    grid-area: box3;
+    background-color: rgb(255, 255, 255, .7);
+    border-left: darkturquoise solid 10px;
+    border-right: darkturquoise solid 10px;
+    border-bottom: darkturquoise solid 10px;
+    padding: 0 20px;
+}
+#box2 h3, #box1 h3, #box3 h3{
+    font-family: "Fontdiner Swanky", cursive, fantasy;
+    text-align: center;
+}
+
+#box3 p{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
 
 .img-flex {
     display: flex;

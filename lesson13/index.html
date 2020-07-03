@@ -16,7 +16,8 @@
 
 <body>
     <header>
-        <img id="icon" src="images/scooter-smaller.png" alt="icon of a turquoise colored motorized scooter with a golden sun background">
+        <img id="icon" src="images/scooter-smaller.png"
+            alt="icon of a turquoise colored motorized scooter with a golden sun background">
         <!--free image found at: https://clipartion.com/free-clipart-19964/-->
         <h1 id="top-h1">Scoots Home</h1>
         <h3 id="motto">"Come to gorgeous Cozumel, Mexico ~ We have what you need to scoot around!"</h3>
@@ -55,20 +56,39 @@
                 <source srcset="images/ajay-dongan700.jpg" media="(min-width: 768px) and 
                 (max-width: 1187px)">
                 <source srcset="images/ajay-dongan900.jpg" media="(min-width: 1188px)">
-                <img src="images/ajay-dongan900.jpg" alt="man and woman riding scooter in tropical setting" class="border-shadow">
+                <img src="images/ajay-dongan900.jpg" alt="man and woman riding scooter in tropical setting"
+                    class="border-shadow">
                 <!--Photo by Ajay Donga from Pexels-->
             </picture>
         </div>
         <div id="grid-box">
             <div id="box1" class="forecast">
-                <span></span>
+                <h3>Today's Weather:</h3>
+                <p>Conditions: <span id="conditions"></span></p>
+                <p>Temp: <span id="current-temp"></span>&#8457;</p>
+                <p>High / Low: <span id="hi"></span>&#8457; / <span id="lo"></span>&#8457;</p>
+                <p>Feels Like: <span id="feelsLike"></span>&#8457;</p>
+                <p>Humidity: <span id="humidity"></span>%</p>
+                <p>Wind Speed: <span id="windspeed"></span> mph</p>
+                <span id="imagesrc1"></span> &nbsp; <img src="#" alt="#" id="icon1"></td>
             </div>
-            <div id="box2">
-                <h3></h3>
-                <p></p>
+            <div id="box2" class="forecast">
+                <h3><span id="day5"></span>Weather:</h3>
+                <p>Conditions: <span id="conditions5"></span></p>
+                <p>Temp: <span id="current-temp5"></span>&#8457;</p>
+                <p>High / Low: <span id="hi5"></span>&#8457; / <span id="lo"></span>&#8457;</p>
+                <p>Feels Like: <span id="feelsLike5"></span>&#8457;</p>
+                <p>Humidity: <span id="humidity5"></span>%</p>
+                <p>Wind Speed: <span id="windspeed5"></span> mph</p>
+                <span id="imagesrc5"></span> &nbsp; <img src="#" alt="#" id="icon5"></td>
             </div>
-            <div id="box3" class="forecast">
-                <span></span>
+            <div id="box3">
+                <h3>Headline Goes Here</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum cum vero mollitia voluptatum tempora
+                    architecto, ipsam et doloremque rem, adipisci corrupti voluptas impedit facilis, quo voluptatem
+                    enim. Velit, consectetur repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+                    culpa sed, ex veniam praesentium maiores commodi cum quas aspernatur? Eligendi dignissimos non
+                    corrupti repellendus totam minus officiis rem, omnis cumque?</p>
             </div>
         </div>
     </main>
@@ -82,7 +102,8 @@
             <!--image made by myself with Adobe Photoshop-->
         </picture>
         <p>
-            &#169; 2020 - <a href="https://janettekaymak.github.io/assignment-portal/index.html">Janette Kaymak</a> - Manhattan, NY<br>
+            &#169; 2020 - <a href="https://janettekaymak.github.io/assignment-portal/index.html">Janette Kaymak</a> -
+            Manhattan, NY<br>
             Last updated: <span id="date"></span>
             <script src="js/lastModified.js"></script>
         </p>
