@@ -33,10 +33,10 @@
     }
 
     .navigation a:hover {
-        color: navajowhite;
+        color: turquoise;
         text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px;
-        background-color: darkturquoise;
-        box-shadow: white 0px 0px 25px;
+        background-color: rgb(252, 200, 122);
+        box-shadow: darkturquoise 0px 0px 25px;
         transition: 1s;
     }
 
@@ -58,6 +58,10 @@
         grid-template-areas:
         'box1 box2'
         'box3 box3';
+    }
+
+    #box2{
+        border: none;
     }
 
     #photo-grid-box{

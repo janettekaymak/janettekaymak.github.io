@@ -95,7 +95,7 @@ nav {
 }
 
 .active {
-    background-color: darkturquoise;
+    background-color: rgb(252, 200, 122);
 }
 
 .ham a {
@@ -195,6 +195,11 @@ added to the end of the class list like this in HTML.
     color: darkturquoise;
     text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px, black 0 0 5px;
 }
+.fontdiner:hover{
+    font-size: 20px;
+    color: red;
+    transition: .5s;
+}
 
 a {
     text-decoration: none;
@@ -204,7 +209,7 @@ a {
 from commercial websites that sell the vehicles. 
 I am claiming the fair use act because the items 
 are for sale.*/
-photo1 img{
+#photo1 img{
     grid-area: photo1;
     border: dimgray solid 2px;
     width: 90%;

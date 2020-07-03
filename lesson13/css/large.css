@@ -19,6 +19,10 @@
         border: darkturquoise double 10px;
     }
 
+    #box2{
+        border: rgb(255, 187, 0) double 10px;
+    }
+
     #box3{
         border-top: darkturquoise solid 10px;
         border-right:  darkturquoise solid 10px;
