@@ -27,6 +27,24 @@
     
     }
 
+    #photo-grid-box{
+        width: 98%;
+        margin: auto;
+        display: grid;
+        grid-template-areas:
+        'photo1 photo2 photo3 photo4 photo5 photo6';
+    }
+
+    #photo1 img,
+    #photo2 img,
+    #photo3 img,
+    #photo4 img,
+    #photo5 img,
+    #photo6 img{
+        border: dimgray solid 2px;
+        width: 100%;
+    }
+
     footer p {
         margin-top: -90px;
     }

@@ -1,6 +1,6 @@
 body {
     /*The following image was obtained legally from Unsplash.com, by Mink Mingle*/
-    background: url("https://janettekaymak.github.io/lesson13/images/mink-mingle-unsplash.jpg");
+    background: url("https://janettekaymak.github.io/lesson13/images/mink-mingle-longer.jpg");
 }
 
 #icon {
@@ -187,6 +187,59 @@ added to the end of the class list like this in HTML.
 
 .hidden{
     display: none;
+}
+
+#photo1 img{
+    grid-area: photo1;
+    border: dimgray solid 2px;
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+#photo2 img{
+    grid-area: photo2;
+    border: dimgray solid 2px;
+    border-top: none;
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+#photo3 img{
+    grid-area: photo3;
+    border: dimgray solid 2px;
+    border-top: none;
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+#photo4 img{
+    grid-area: photo4;
+    border: dimgray solid 2px;
+    border-top: none;
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+#photo5 img{
+    grid-area: photo5;
+    border: dimgray solid 2px;
+    border-top: none;
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+#photo6 img{
+    grid-area: photo6;
+    border: dimgray solid 2px;
+    border-top: none;
+    width: 90%;
+    display: block;
+    margin: auto;
 }
 
 .img-flex {
