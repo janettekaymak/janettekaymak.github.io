@@ -359,7 +359,7 @@ thead tr th {
     padding: 15px;
 }
 
-button {
+tfoot a {
     margin: 10px auto;
     background-color: red;
     padding: 20px;
@@ -368,6 +368,9 @@ button {
     font-family: 'Fontdiner Swanky', fantasy, cursive;
     font-size: 20px;
     color: black;
+}
+tfoot td{
+    height: 85px;
 }
 
 .high-footer{
