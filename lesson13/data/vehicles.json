@@ -1,0 +1,52 @@
+{
+    "vehicles": [
+      {
+        "name": "Honda Metro 49cc",
+        "max_persons": "1",
+        "res_half": "$",
+        "res_full": "$",
+        "in_half": "$",
+        "in_full": "$"
+      },
+      {
+        "name": "Honda Metro 49cc",
+        "max_persons": "1",
+        "res_half": "$",
+        "res_full": "$",
+        "in_half": "$",
+        "in_full": "$"
+      },
+      {
+        "name": "Honda Metro 49cc",
+        "max_persons": "1",
+        "res_half": "$",
+        "res_full": "$",
+        "in_half": "$",
+        "in_full": "$"
+      },
+      {
+        "name": "Honda Metro 49cc",
+        "max_persons": "1",
+        "res_half": "$",
+        "res_full": "$",
+        "in_half": "$",
+        "in_full": "$"
+      },
+      {
+        "name": "Honda Metro 49cc",
+        "max_persons": "1",
+        "res_half": "$",
+        "res_full": "$",
+        "in_half": "$",
+        "in_full": "$"
+      },
+      {
+        "name": "Honda Metro 49cc",
+        "max_persons": "1",
+        "res_half": "$",
+        "res_full": "$",
+        "in_half": "$",
+        "in_full": "$"
+      } 
+    ]
+  }

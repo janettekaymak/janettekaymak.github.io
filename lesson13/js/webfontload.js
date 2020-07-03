@@ -1,7 +1,7 @@
 WebFont.load({
     google: {
       families: [
-         "Poppins", "Neucha", "Fontdiner Swanky"
+         "Poppins", "Fontdiner Swanky", "Open Sans"
       ]
     }
   });
