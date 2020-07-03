@@ -164,6 +164,21 @@ added to the end of the class list like this in HTML.
     text-align: justify;
 }
 
+.today{
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+#icon1, #icon5{
+    width: 100px;
+    margin-left: 30px;
+}
+
+.hidden{
+    display: none;
+}
+
 .img-flex {
     display: flex;
     max-width: 100%;

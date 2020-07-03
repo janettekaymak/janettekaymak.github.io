@@ -14,8 +14,13 @@ fetch(apiURL)
   fiveDayForecast.forEach(cast => {
     let d = new Date(cast.dt_txt);
     document.getElementById('current-temp' + (day + 1)).textContent = Math.round(cast.main.temp);
-    document.getElementById('day' + (day + 1)).textContent = weekDays[d.getDay()];
-
+    document.getElementById('day' + (day + 1)).textContent = weekDays[d.getDay()] + "'s";
+    document.getElementById('hi' + (day + 1)).textContent = Math.round(cast.main.temp_max);
+    document.getElementById('lo' + (day + 1)).textContent = Math.round(cast.main.temp_min);
+    document.getElementById('feelsLike' + (day + 1)).textContent = Math.round(cast.main.feels_like);
+    document.getElementById('conditions' + (day + 1)).textContent = cast.weather[0].main;
+    document.getElementById('humidity' + (day + 1)).textContent = cast.main.humidity;
+    document.getElementById('windspeed' + (day + 1)).textContent = Math.round(cast.wind.speed);
     //Get icon
     const imagesrc = 'https://openweathermap.org/img/w/' + cast.weather[0].icon + '.png';
     const desc = cast.weather[0].description;
