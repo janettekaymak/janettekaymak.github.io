@@ -156,7 +156,7 @@ added to the end of the class list like this in HTML.
 #box3 {
     grid-area: box3;
     background-color: rgb(255, 255, 255, .7);
-    border: darkturquoise double 10px;
+    border: darkturquoise solid 10px;
     padding: 0 20px;
 }
 
@@ -172,7 +172,7 @@ added to the end of the class list like this in HTML.
 #box3 h3 {
     font-family: "Fontdiner Swanky", cursive, fantasy;
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 #box2 h2,
@@ -209,7 +209,7 @@ added to the end of the class list like this in HTML.
 
 .fontdiner {
     font-family: 'Fontdiner Swanky', fantasy, cursive;
-    font-size: 25px;
+    font-size: 20px;
     color: darkturquoise;
     text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px, black 0 0 5px;
 }
@@ -305,5 +305,5 @@ footer a:hover {
 }
 
 footer {
-    margin-top: -10px;
+    margin-top: -5px;
 }

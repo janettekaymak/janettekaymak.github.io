@@ -24,15 +24,13 @@
     }
 
     #box3{
-        border-top: darkturquoise solid 10px;
-        border-right:  darkturquoise solid 10px;
-        border-left:  darkturquoise solid 7px;
+        border: darkturquoise solid 10px;
         
     
     }
 
     #photo-grid-box{
-        width: 98%;
+        width: 65.7%;
         margin: auto;
         display: grid;
         grid-template-areas:

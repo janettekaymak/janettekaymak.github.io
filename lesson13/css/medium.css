@@ -63,6 +63,10 @@
     #box2{
         border: darkturquoise solid 10px;
     }
+    
+    #box3{ 
+        border: darkturquoise double 10px;  
+    }
 
     #photo-grid-box{
         width: 65.5%;
