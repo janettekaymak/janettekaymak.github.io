@@ -1,4 +1,3 @@
-//Fetch JSON weather data from openweathermap
 const myURL = 'https://janettekaymak.github.io/lesson13/data/vehicles.json';
 
 fetch(myURL)
