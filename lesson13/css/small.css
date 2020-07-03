@@ -263,3 +263,7 @@ footer a:hover{
     color:cyan;
     font-size: 17px;
 }
+
+footer{
+    margin-top: -20px;
+}
