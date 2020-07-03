@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>~ Scoots Contact Page ~ | Janette Kaymak</title>
+    <meta name="description"
+        content="Lesson 13 ~Scoots Contact Page, by Janette Kaymak, CIT 230: Web Frontend Development, Brigham Young University - Idaho" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/scooter.ico">
+</head>
+
+<body>
+    <header>
+        <img id="icon" src="images/scooter-smaller.png"
+            alt="icon of a turquoise colored motorized scooter with a golden sun background">
+        <!--free image found at: https://clipartion.com/free-clipart-19964/-->
+        <h1 id="top-h1">Scoots Contact</h1>
+        <h3 id="motto">"Come to Cozumel ~ We have what you need to scoot around!"</h3>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li class="ham">
+                <div class="container" id="menu">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </li>
+            <li>
+                <a href="https://janettekaymak.github.io/lesson13/index.html">Home</a>
+            </li>
+            <li>
+                <a href="https://janettekaymak.github.io/lesson13/rentals.html">Rentals</a>
+            </li>
+            <li>
+                <a href="https://janettekaymak.github.io/lesson13/reservations.html">Reservations</a>
+            </li>
+            <li>
+                <a href="https://janettekaymak.github.io/lesson13/tours.html" class="active">Tours</a>
+            </li>
+            <li>
+                <a href="https://janettekaymak.github.io/lesson13/contact.html">Contact</a>
+            </li>
+        </ul>
+
+    </nav>
+    <main>
+        
+    </main>
+    <footer>
+        <picture>
+            <source class="img-flex" srcset="images/palms500.png" media="(max-width: 500px)">
+            <source class="img-flex" srcset="images/palms800.png" media="(min-width: 501px) and 
+            (max-width: 800px)">
+            <source class="img-flex" srcset="images/palms.png" media="(min-width: 801px)">
+            <img class="img-flex" src="images/palms.png" alt="black palm trees">
+            <!--image made by myself with Adobe Photoshop-->
+        </picture>
+        <p>
+            &#169; 2020 - <a href="https://janettekaymak.github.io/assignment-portal/index.html">Janette Kaymak</a> -
+            Manhattan, NY<br>
+            Last updated: <span id="date"></span>
+            <script src="js/lastModified.js"></script><br>
+        </p>
+
+    </footer>
+    <script src="js/toggleMenu.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/vehicles.js"></script>
+</body>
+
+</html>
