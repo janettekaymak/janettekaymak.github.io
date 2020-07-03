@@ -116,6 +116,13 @@ added to the end of the class list like this in HTML.
     clear: both;
 }
 
+#heroimg img{
+    width: 100%;
+    margin-top: -16px;
+}
+
+
+
 .img-flex {
     display: flex;
     max-width: 100%;

@@ -44,4 +44,12 @@
         display: none;
     }
 
+    #heroimg img{
+        display: block;
+        width: 65%;
+        margin: 50px auto 0 auto;
+        border: navajowhite solid 30px;
+        border-radius: 15px;
+    }
+
 }
