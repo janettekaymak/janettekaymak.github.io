@@ -13,10 +13,18 @@
 
     #grid-box{
         grid-template-areas:
-        'box1 box2 box3 box3'
+        'box1 box3 box3 box2'
     }
+    #box1{
+        border: darkturquoise double 10px;
+    }
+
     #box3{
-        border: darkturquoise solid 10px;
+        border-top: darkturquoise solid 10px;
+        border-right:  darkturquoise solid 10px;
+        border-left:  darkturquoise solid 7px;
+        
+    
     }
 
     footer p {
