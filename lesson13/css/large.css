@@ -7,6 +7,10 @@
         padding: 20px;
     }
 
+    #heroimg img{
+        width: 64.5%;     
+    }
+
     #grid-box{
         grid-template-areas:
         'box1 box2 box3 box3'
