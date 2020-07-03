@@ -189,11 +189,22 @@ added to the end of the class list like this in HTML.
     display: none;
 }
 
+.fontdiner {
+    font-family: 'Fontdiner Swanky', fantasy, cursive;
+    font-size: 18px;
+    color: darkturquoise;
+    text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px, black 0 0 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
 /*The following photos were obtained 
 from commercial websites that sell the vehicles. 
 I am claiming the fair use act because the items 
 are for sale.*/
-#photo1 img{
+photo1 img{
     grid-area: photo1;
     border: dimgray solid 2px;
     width: 90%;
