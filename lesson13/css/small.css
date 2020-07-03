@@ -369,6 +369,13 @@ tfoot a {
     font-size: 20px;
     color: black;
 }
+
+tfoot a:hover{
+    box-shadow: white 0 0 50px;
+    color: white;
+    text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px;
+}
+
 tfoot td{
     height: 85px;
 }
