@@ -305,8 +305,75 @@ footer a:hover {
 }
 
 footer {
-    margin-top: 0px;
+    margin-top: 50px;
 }
 
 
 /*Rentals Page-----------------------------------------*/
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    line-height: 1.25;
+}
+
+table {
+    width: 100%;
+    margin: auto;
+    box-shadow: black 0 0 20px;
+    opacity: .85;
+}
+
+thead tr {
+    background-color: rgb(3, 216, 216);
+    color: navajowhite;
+    text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px, black 0 0 5px, black 0 0 6px;
+}
+
+tbody tr th {
+    background-color: navajowhite;
+}
+
+tr {
+    background-color: navajowhite;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(3, 216, 216);
+}
+
+tr th {
+    font-size: 14px;
+    line-height: 1;
+}
+
+thead tr th {
+    font-family: "Fontdiner Swanky";
+    font-size: 35px;
+    line-height: 1.25;
+    padding: 15px;
+}
+
+th {
+    font-weight: bolder;
+}
+
+button {
+    margin: 10px auto;
+    background-color: red;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 290px;
+}
+
+button a {
+    font-family: 'Fontdiner Swanky', fantasy, cursive;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
