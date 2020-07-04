@@ -231,27 +231,27 @@ I am claiming the fair use act because I'm not going
 to publish this website. If I were going to publish this 
 website for a real company, the company would provide 
 their own photos*/
-#photo1 img {
+#photo1 {
     grid-area: photo1;
 }
 
-#photo2 img {
+#photo2 {
     grid-area: photo2;
 }
 
-#photo3 img {
+#photo3 {
     grid-area: photo3;
 }
 
-#photo4 img {
+#photo4 {
     grid-area: photo4;
 }
 
-#photo5 img {
+#photo5 {
     grid-area: photo5;
 }
 
-#photo6 img {
+#photo6 {
     grid-area: photo6;
 }
 
