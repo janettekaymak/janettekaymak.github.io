@@ -1,20 +1,26 @@
-/*const url = 'https://api.openweathermap.org/data/2.5/weather?q=Cozumel&units=imperial&APPID=abe726d4fa97f7d629527a984b3b6ae0';
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Cozumel&units=imperial&APPID=abe726d4fa97f7d629527a984b3b6ae0';
 fetch(url)
 .then((response) => response.json())
-.then((preston) => {
-  console.log(preston);
+.then((cozumel) => {
+  console.log(cozumel);
   
-document.getElementById('current-temp').textContent = Math.round(preston.main.temp);
-document.getElementById('hi').textContent = Math.round(preston.main.temp_max);
-document.getElementById('humidity').textContent = preston.main.humidity;
-document.getElementById('windspeed').textContent = Math.round(preston.wind.speed);
-document.getElementById('conditions').textContent = preston.weather[0].main;
-document.getElementById('lo').textContent = Math.round(preston.main.temp_min);
-document.getElementById('feelsLike').textContent = Math.round(preston.main.feels_like);
+document.getElementById('current-temp').textContent = Math.round(cozumel.main.temp);
+document.getElementById('hi').textContent = Math.round(cozumel.main.temp_max);
+document.getElementById('humidity').textContent = cozumel.main.humidity;
+document.getElementById('windspeed').textContent = Math.round(cozumel.wind.speed);
+document.getElementById('conditions').textContent = cozumel.weather[0].main;
+document.getElementById('lo').textContent = Math.round(cozumel.main.temp_min);
+document.getElementById('feelsLike').textContent = Math.round(cozumel.main.feels_like);
+
+//Get today's icon
+const imgsrc = 'https://openweathermap.org/img/w/' + cozumel.weather[0].icon + '.png';
+    const des = cozumel.weather[0].description;
+    document.getElementById('source').setAttribute = imgsrc;
+    document.getElementById('icon').setAttribute('src', imgsrc);
+    document.getElementById('icon' + (day + 1)).setAttribute('alt', des);
 
 
-
-});*/
+});
 
 
 
