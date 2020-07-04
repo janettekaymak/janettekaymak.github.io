@@ -9,7 +9,6 @@ document.getElementById('hi').textContent = Math.round(cozumel.main.temp_max);
 document.getElementById('humidity').textContent = cozumel.main.humidity;
 document.getElementById('windspeed').textContent = Math.round(cozumel.wind.speed);
 document.getElementById('conditions').textContent = cozumel.weather[0].main;
-document.getElementById('lo').textContent = Math.round(cozumel.main.temp_min);
 document.getElementById('feelsLike').textContent = Math.round(cozumel.main.feels_like);
 
 //Get today's icon

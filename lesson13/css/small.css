@@ -3,7 +3,7 @@ body {
     background: url("https://janettekaymak.github.io/lesson13/images/mink-final.jpg");
 }
 
-#icon {
+#logo {
     display: block;
     margin: -5px auto -45px auto;
 }
@@ -199,7 +199,7 @@ added to the end of the class list like this in HTML.
 #icon1,
 #icon5 {
     width: 120px;
-    margin-left: 4px;
+    margin-left: -5px;
     margin-bottom: -30px;
 }
 
@@ -280,6 +280,24 @@ their own photos*/
     width: 90%;
     display: block;
     margin: auto;
+}
+
+#map {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+#google{
+    display: block;
+    margin: auto;
+    background-color: lemonchiffon;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    padding: 7px;
+    font-size: 14px;
+    color: black;
+    border: black solid 1px;
+    border-radius: 10px;
 }
 
 .img-flex {
@@ -370,16 +388,16 @@ tfoot a {
     color: black;
 }
 
-tfoot a:hover{
+tfoot a:hover {
     box-shadow: white 0 0 50px;
     color: white;
     text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px;
 }
 
-tfoot td{
+tfoot td {
     height: 85px;
 }
 
-.high-footer{
+.high-footer {
     margin-top: 0px;
 }
