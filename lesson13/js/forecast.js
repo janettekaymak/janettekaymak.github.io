@@ -16,7 +16,7 @@ const imgsrc = 'https://openweathermap.org/img/w/' + cozumel.weather[0].icon + '
     const des = cozumel.weather[0].description;
     document.getElementById('source').setAttribute = imgsrc;
     document.getElementById('icon').setAttribute('src', imgsrc);
-    document.getElementById('icon' + (day + 1)).setAttribute('alt', des);
+    document.getElementById('icon').setAttribute('alt', des);
 
 
 });
