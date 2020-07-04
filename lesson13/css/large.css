@@ -53,12 +53,8 @@
         box-shadow: black 0 0 20px;
     }
 
-    footer p {
-        margin-top: -90px;
-    }
-
-    footer{
-        margin-top: -250px;
+    #home-map img{
+        width: 66%;
     }
 
 }

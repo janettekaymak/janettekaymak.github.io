@@ -196,11 +196,13 @@ added to the end of the class list like this in HTML.
     font-weight: bolder;
 }
 
+#icon,
 #icon1,
 #icon5 {
-    width: 120px;
+    width: 100px;
     margin-left: -5px;
-    margin-bottom: -30px;
+    margin-bottom: -20px;
+    margin-top: 15px;
 }
 
 .hidden {
@@ -231,85 +233,79 @@ website for a real company, the company would provide
 their own photos*/
 #photo1 img {
     grid-area: photo1;
-    border: dimgray solid 2px;
-    width: 90%;
-    display: block;
-    margin: auto;
 }
 
 #photo2 img {
     grid-area: photo2;
-    border: dimgray solid 2px;
-    border-top: none;
-    width: 90%;
-    display: block;
-    margin: auto;
 }
 
 #photo3 img {
     grid-area: photo3;
-    border: dimgray solid 2px;
-    border-top: none;
-    width: 90%;
-    display: block;
-    margin: auto;
 }
 
 #photo4 img {
     grid-area: photo4;
-    border: dimgray solid 2px;
-    border-top: none;
-    width: 90%;
-    display: block;
-    margin: auto;
 }
 
 #photo5 img {
     grid-area: photo5;
-    border: dimgray solid 2px;
-    border-top: none;
-    width: 90%;
-    display: block;
-    margin: auto;
 }
 
 #photo6 img {
     grid-area: photo6;
-    border: dimgray solid 2px;
-    border-top: none;
-    width: 90%;
-    display: block;
-    margin: auto;
 }
 
-#map {
-    display: block;
-    max-width: 100%;
-    margin: 20px auto;
-}
-
-#google{
+#photo1 img,
+#photo2 img,
+#photo3 img,
+#photo4 img,
+#photo5 img,
+#photo6 img {
+    border: dimgray solid 1px;
+    width: 99%;
     display: block;
     margin: auto;
-    background-color: lemonchiffon;
-    font-family: Open Sans, Arial, Helvetica, sans-serif;
-    padding: 7px;
+
+}
+
+#photo-grid-box {
+    opacity: .75;
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+        'photo1 photo5'
+        'photo3 photo4'
+        'photo2 photo6';
+}
+
+#home-map img{
+    display: none;
+}
+
+#google {
+    display: block;
+    margin: auto;
+    width: 250px;
+    background-color: navajowhite;
+    font-family: sans-serif, Arial, Helvetica;
+    font-weight: bolder;
+    text-align: center;
+    padding: 15px 5px;
     font-size: 14px;
     color: black;
-    border: black solid 1px;
     border-radius: 10px;
 }
 
-.img-flex {
-    display: flex;
-    max-width: 100%;
+#google:hover{
+    background-color: rgb(79, 202, 250);
 }
 
 footer p {
     font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
     color: navajowhite;
     text-align: center;
-    margin-top: -70px;
+    padding: 50px 5px 150px 5px;
+    line-height: 1.5;
 }
 
 footer p a {
@@ -318,12 +314,19 @@ footer p a {
 }
 
 footer a:hover {
-    color: cyan;
-    font-size: 17px;
+    color: rgb(79, 202, 250);
+    font-size: 22px;
+    transition: 1s;
 }
 
 footer {
-    margin-top: 50px;
+    width: 100%;
+    background-color: black;
+    margin-bottom: -15px;
+}
+
+.img-flex {
+    display: none;
 }
 
 

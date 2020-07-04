@@ -63,7 +63,7 @@
         </div>
         <div id="grid-box">
             <div id="box1" class="forecast">
-                <span id="imagesrc1"></span> &nbsp; <img src="#" alt="#" id="icon1">
+                <span id="source"></span> &nbsp; <img src="#" alt="#" id="icon">
                 <h2>Just 4 you</h2>
                 <h3>Today's<span id="day0" class="hidden"></span> Weather</h3>
                 <h4>in beautiful Cozumel:</h4>
@@ -75,7 +75,7 @@
                 <p>Wind Speed: <span id="windspeed"></span> mph</p><br>
             </div>
             <div class="hidden">
-                <span id="source"></span> &nbsp; <img src="#" alt="#" id="icon">
+                <span id="imagesrc1"></span> &nbsp; <img src="#" alt="#" id="icon1">
                 <h2>Just 4 you</h2>
                 <h3>Today's<span id="day1" class="hidden"></span> Weather</h3>
                 <h4>in beautiful Cozumel:</h4>
@@ -151,25 +151,23 @@
             <div id="photo5"><img src="images/4door.jpg" alt="jeep"></div>
             <div id="photo6"><img src="images/2door.jpg" alt="jeep"></div>
         </div>
+        <!--<div id="palm-map-box">
+            <div id="left-palm"><img src="images/left-palm.jpg" alt="silhouette of palms and sunset"></div>
+            <div id="map"><img src="images/Cozumel-Map700.jpg" alt="map of cozumel"></div>-->
+            <!--Free printable images obtained (and modified by web designer) from https://www.worldatlas.com-->
+            <!--<div id="right-palm"><img src="images/right-palm.jpg" alt="silhouette of palms and sunset"></div>-->
+            <!--Palm and Sunset photos by Asad Photo Maldives from Pexels-->
+        <!--</div>-->
+        <div id="home-map">
+            <img src="images/home-map700.jpg" alt="map of cozumel surrounded by silhouettes of palms and a sunset">
+        </div>
     </main>
-    <div>
-        <img id="map" src="images/Cozumel-Map400.jpg" alt="map of cozumel"><!--Free printable images obtained (and modified by web designer) from https://www.worldatlas.com-->
-    </div>
     <footer>
-        <picture>
-            <source class="img-flex" srcset="images/palms500.png" media="(max-width: 500px)">
-            <source class="img-flex" srcset="images/palms800.png" media="(min-width: 501px) and 
-            (max-width: 800px)">
-            <source class="img-flex" srcset="images/palms-home.png" media="(min-width: 801px)">
-            <img class="img-flex" src="images/palms-home.png" alt="black palm trees">
-            <!--image made by myself with Adobe Photoshop-->
-        </picture>
+            <div>
+                <br><a id="google" href="https://www.google.com/maps/search/cozumel">Go ~~> Cozumel Google Maps</a>
+            </div>
         <p>
-            <a id="google" href="https://www.google.com/maps/search/cozumel">Go --> Google Maps</a>
-        </p>
-        <p>
-            &#169; 2020 - <a href="https://janettekaymak.github.io/assignment-portal/index.html">Janette Kaymak</a> -
-            Manhattan, NY<br>
+            &#169; 2020 - Manhattan - New York City, NY<br> By <a href="https://janettekaymak.github.io/assignment-portal/index.html">Janette Kaymak</a> - Web Developer<br>
             Last updated: <span id="date"></span>
             <script src="js/lastModified.js"></script><br>
             Weather by <a href="https://openweathermap.org/city/3530103">OpenWeatherMaps</a>
