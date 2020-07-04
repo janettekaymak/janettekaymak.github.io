@@ -278,10 +278,6 @@ their own photos*/
         'photo2 photo6';
 }
 
-#home-map img{
-    display: none;
-}
-
 #google {
     display: block;
     margin: auto;
@@ -401,6 +397,12 @@ tfoot td {
     height: 85px;
 }
 
-.high-footer {
-    margin-top: 0px;
+#just-map img{
+    display: block;
+    max-width: 100%;
+    margin: -2px auto auto auto;
+}
+
+#home-map img{
+    display: none;
 }
