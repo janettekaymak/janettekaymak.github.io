@@ -3,11 +3,15 @@ body {
     background: url("https://janettekaymak.github.io/lesson13/images/mink-final.jpg");
 }
 
-#tours-header{
-    background: url("https://janettekaymak.github.io/lesson13/images/cris-tagupa-unsplash.jpg")
+#tours-header {
+    background: url("https://janettekaymak.github.io/lesson13/images/cris-tagupa-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    max-width: 1500px;
+    height: 430px;
 }
 
-#tours-body{
+#tours-body {
     background: none;
     background-color: rgb(3, 216, 216);
 }
@@ -29,9 +33,9 @@ h1 {
         black 0 0 8px, black 0 0 9px, black 0 0 10px;
 }
 
-header h3{
+header h3 {
     color: navajowhite;
-    text-shadow:black 0 0 1px, black 0 0 2px, black 0 0 3px,
+    text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px,
         black 0 0 4px, black 0 0 5px, black 0 0 6px, black 0 0 7px,
         black 0 0 8px;
 
@@ -312,7 +316,7 @@ their own photos*/
     border-radius: 10px;
 }
 
-#google:hover{
+#google:hover {
     background-color: rgb(79, 202, 250);
 }
 
@@ -341,7 +345,7 @@ footer {
     margin-bottom: -10px;
 }
 
-.main-footer{
+.main-footer {
     margin-bottom: -15px;
 }
 
@@ -417,56 +421,57 @@ tfoot td {
     height: 85px;
 }
 
-#just-map img{
+#just-map img {
     display: block;
     max-width: 100%;
     margin: -2px auto auto auto;
 }
 
-#just-map-contact img{
+#just-map-contact img {
     opacity: .8;
     display: block;
     max-width: 100%;
     margin: -19px auto auto auto;
-    
+
 }
 
-#home-map img{
+#home-map img {
     display: none;
 }
 
-#wide img{
+#wide img {
     display: none;
 }
 
-#contact-footer h3{
+#contact-footer h3 {
     text-align: center;
     color: cyan;
     font-family: Fontdiner Swanky;
     font-size: 24px;
 }
 
-#contact-box p, #contact-footer p{
+#contact-box p,
+#contact-footer p {
     text-align: center;
     color: navajowhite;
     font-family: Poppins;
 
 }
 
-#contact-box p{
+#contact-box p {
     line-height: 1.5;
 }
 
-#contact-footer{
+#contact-footer {
     margin-bottom: -15px;
 }
 
-#contact-box a{
+#contact-box a {
     color: cyan;
 
 }
 
-#contact-box a:hover{
+#contact-box a:hover {
     color: rgb(243, 8, 243);
     font-size: 22px;
     transition: 1s;
@@ -474,7 +479,7 @@ tfoot td {
 
 #foot1,
 #foot2,
-#foot3{
+#foot3 {
     margin: auto;
     padding: 30px;
     border: navajowhite solid 2px;
@@ -482,35 +487,34 @@ tfoot td {
     margin: 30px 20px;
 }
 
-#social-icon-box img{
+#social-icon-box img {
     display: block;
     max-width: 100%;
     margin: auto;
 }
 
-#social-icon-box{
+#social-icon-box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 60%;
     margin: auto;
 }
 
-#contact-box{
+#contact-box {
     padding-bottom: 20px;
 }
 
-#updated{
+#updated {
     padding-bottom: 30px;
     margin-top: -20px
 }
 
-#contact-footer #google:hover{
+#contact-footer #google:hover {
     background-color: rgb(243, 8, 243);
     transition: 1s;
 }
 
-#social-icon-box a:hover{
+#social-icon-box a:hover {
     background-color: rgb(243, 8, 243);
     transition: 1s;
 }
-
