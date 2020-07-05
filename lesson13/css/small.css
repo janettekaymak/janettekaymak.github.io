@@ -76,7 +76,7 @@ nav {
     font-weight: 700;
     border-top: rgb(255, 187, 0) dotted 5px;
     border-left: rgb(255, 187, 0) dotted 5px;
-    border-right: rgb(255, 187, 0) dotted 5px;
+    border-bottom: rgb(255, 187, 0) dotted 5px;
 }
 
 .navigation li:first-child {
@@ -540,7 +540,7 @@ tfoot td {
     padding: 10px 50px 20px 50px;
     max-width: 100%;
     margin: auto;
-    margin-top: -20px;
+    margin-top: -25px;
 }
 
 #article h2{
