@@ -2,16 +2,16 @@
 
 @media screen and (min-width: 1188px) {
 
-    #logo{
+    #logo {
         width: 380px;
     }
 
-    header h1{
+    header h1 {
         margin-top: -110px;
-       font-size: 85px;
+        font-size: 85px;
     }
 
-    header h3{
+    header h3 {
         font-size: 30px;
     }
 
@@ -20,34 +20,35 @@
         padding: 20px;
     }
 
-    #heroimg img{
-        width: 64.5%;     
+    #heroimg img {
+        width: 64.5%;
     }
 
-    #grid-box{
+    #grid-box {
         grid-template-areas:
-        'box1 box3 box3 box2'
+            'box1 box3 box3 box2'
     }
-    #box1{
+
+    #box1 {
         border: darkturquoise double 10px;
     }
 
-    #box2{
+    #box2 {
         border: rgb(255, 187, 0) double 10px;
     }
 
-    #box3{
+    #box3 {
         border: darkturquoise solid 10px;
-        
-    
+
+
     }
 
-    #photo-grid-box{
+    #photo-grid-box {
         width: 65.7%;
         margin: auto;
         display: grid;
         grid-template-areas:
-        'photo1 photo2 photo3 photo4 photo5 photo6';
+            'photo1 photo2 photo3 photo4 photo5 photo6';
     }
 
     #photo1 img,
@@ -55,62 +56,71 @@
     #photo3 img,
     #photo4 img,
     #photo5 img,
-    #photo6 img{
+    #photo6 img {
         border: dimgray solid 2px;
         width: 100%;
     }
 
-    table{
+    table {
         margin: 60px auto 50px auto;
         width: 66%;
         box-shadow: black 0 0 20px;
     }
 
-    #home-map img{
+    #home-map img {
         width: 66%;
     }
 
-    #contact-box{
+    #contact-box {
         max-width: 100%;
         margin: auto;
-        grid-template-areas: 
-        'foot2 foot1 foot3';
+        grid-template-areas:
+            'foot2 foot1 foot3';
     }
 
-    #social-icon-box{
+    #social-icon-box {
         max-width: 50%;
     }
 
-    #just-map-contact img{
+    #just-map-contact img {
         display: none;
     }
 
-    #wide{
+    #wide {
         margin-top: -20px;
     }
 
-    #wide.move-down{
+    #wide.move-down {
         margin-top: 0px;
     }
 
-    #article{
+    #article {
         padding: 20px 70px 30px 70px;
         max-width: 75%;
         margin-top: 40px;
         font-size: 18px;
         border-radius: 15px;
     }
-    
-    #article h2{
+
+    #article h2 {
         font-size: 35px;
     }
-    
-    #tours-grid-box{
+
+    #tours-grid-box {
         margin: auto;
         margin-bottom: 40px;
         margin-top: 20px;
         grid-template-columns: 1fr 1fr 1fr;
         max-width: 87%;
+    }
+
+    #tour1,
+    #tour2,
+    #tour3,
+    #tour4,
+    #tour5,
+    #tour6 {
+        padding-bottom: 15px;
     }
 
 }
