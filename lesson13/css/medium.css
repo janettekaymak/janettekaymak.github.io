@@ -115,6 +115,10 @@
         display: none;
     }
 
+    #wide.contact-large-map{
+        margin-top: -20px;
+    }
+
     #foot1,
     #foot2,
     #foot3{
