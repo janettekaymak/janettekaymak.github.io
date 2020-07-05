@@ -1,7 +1,7 @@
 WebFont.load({
     google: {
       families: [
-         "Poppins", "Fontdiner Swanky", "Open Sans"
+         "Poppins", "Fontdiner Swanky", "Open Sans", "Anton", "Oswald"
       ]
     }
   });

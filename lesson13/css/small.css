@@ -46,8 +46,9 @@ nav {
 .navigation {
     list-style: none;
     padding: 0;
-    font-family: 'Fontdiner Swanky', 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Oswald', 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 19px;
+    font-weight: 700;
 }
 
 .navigation li:first-child {
@@ -316,7 +317,7 @@ their own photos*/
 
 .main-footer a {
     text-decoration: none;
-    color: hotpink;
+    color: rgb(255, 187, 0);
 }
 
 .main-footer a:hover {
