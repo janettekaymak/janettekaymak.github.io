@@ -41,6 +41,19 @@ header h3 {
 
 }
 
+h2, h3{
+    font-family: Fontdiner Swanky;
+    text-align: center;
+}
+
+p{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+#tours-main{
+    line-height: 1.5;
+}
+
 #motto {
     text-align: center;
     font-family: 'Fontdiner Swanky', cursive, fantasy;
@@ -50,7 +63,6 @@ header h3 {
 }
 
 nav {
-    opacity: .88;
     margin: 0 auto;
     background-color: navajowhite;
     margin-top: -21px;
@@ -62,6 +74,9 @@ nav {
     font-family: 'Oswald', 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 19px;
     font-weight: 700;
+    border-top: rgb(255, 187, 0) dotted 5px;
+    border-left: rgb(255, 187, 0) dotted 5px;
+    border-right: rgb(255, 187, 0) dotted 5px;
 }
 
 .navigation li:first-child {
@@ -117,7 +132,7 @@ nav {
     font-weight: lighter;
     color: black;
     letter-spacing: .1em;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: rgb(255, 187, 0) dotted 5px;
 }
 
 .active {
@@ -517,4 +532,36 @@ tfoot td {
 #social-icon-box a:hover {
     background-color: rgb(243, 8, 243);
     transition: 1s;
+}
+
+#article{
+    background-color: navajowhite;
+    border: rgb(255, 187, 0) dotted 5px;
+    padding: 20px;
+    max-width: 100%;
+    margin: auto;
+}
+
+#tours-grid-box h3{
+    margin-bottom: 2px;
+}
+
+#tours-grid-box img{
+    display: block;
+    margin: auto auto 50px auto;
+    border-radius: 8px;
+    border: black solid .5px;
+}
+
+#tours-grid-box img:hover{
+    box-shadow: white 0 0 70px;
+}
+
+#tours-grid-box{
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+#article{
+    margin-top: -20px;
 }

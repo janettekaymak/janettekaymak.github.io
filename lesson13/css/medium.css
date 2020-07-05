@@ -30,7 +30,7 @@
         font-weight: unset;
         letter-spacing: unset;
         border-top: none;
-        border-right: 1px solid rgba(0, 0, 0, 0.3);
+        border-right: rgb(255, 187, 0) dotted 5px;
     }
 
     .navigation a:hover {
@@ -138,5 +138,23 @@
         'foot1 foot2'
         'foot3 foot3';
     }
+
+    #wide img{
+        display: block;
+        width: 100%;
+
+    }
+
+    #tour1,
+#tour2,
+#tour3,
+#tour4,
+#tour5,
+#tour6{
+    border: black solid 1px;
+    margin: 20px;
+    background-color: white;
+    padding: 50px 0 0 0;
+}
       
 }
