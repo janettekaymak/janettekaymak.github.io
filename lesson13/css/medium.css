@@ -167,5 +167,9 @@
 #tours-grid-box img{
     margin-bottom: 20px;
 }
+
+#tours-grid-box img:hover{
+    box-shadow: darkturquoise 0 0 70px;
+}
       
 }
