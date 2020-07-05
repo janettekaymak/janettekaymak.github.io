@@ -577,3 +577,7 @@ tfoot td {
     color: red;
     transition: 1s;
 }
+
+#just-map-contact.move-down{
+    margin-top: 18px;
+}
