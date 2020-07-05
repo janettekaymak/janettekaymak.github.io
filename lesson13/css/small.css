@@ -449,16 +449,6 @@ tfoot td {
         grid-area: foot3;
     }
 
-    #contact-footer-box{
-        width: 100%;
-        display: grid;
-        margin: auto;
-        grid-template-areas: 
-        'foot1'
-        'foot2'
-        'foot3';
-    }
-
 #social-icon-box img{
     display: block;
     width: 80%;
