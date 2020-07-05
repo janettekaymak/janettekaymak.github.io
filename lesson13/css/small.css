@@ -537,9 +537,14 @@ tfoot td {
 #article{
     background-color: navajowhite;
     border: rgb(255, 187, 0) dotted 5px;
-    padding: 20px;
+    padding: 10px 50px 20px 50px;
     max-width: 100%;
     margin: auto;
+    margin-top: -20px;
+}
+
+#article h2{
+    margin-bottom: -10px;
 }
 
 #tours-grid-box h3{
@@ -560,8 +565,4 @@ tfoot td {
 #tours-grid-box{
     margin-bottom: 30px;
     margin-top: 50px;
-}
-
-#article{
-    margin-top: -20px;
 }
