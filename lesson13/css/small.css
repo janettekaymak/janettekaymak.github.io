@@ -318,7 +318,7 @@ their own photos*/
 footer {
     width: 100%;
     background-color: black;
-    margin-bottom: -9px;
+    margin-bottom: -10px;
 }
 
 
@@ -409,7 +409,7 @@ tfoot td {
     display: none;
 }
 
-#wide{
+#wide img{
     display: none;
 }
 
@@ -430,14 +430,34 @@ tfoot td {
 #foot1,
 #foot2,
 #foot3{
-    display: block;
-    max-width: 100%;
     margin: auto;
     padding: 30px;
     border: navajowhite solid 2px;
     border-radius: 15px;
     margin: 30px 20px;
 }
+
+    #foot1{
+        grid-area: foot1;
+    }
+
+    #foot2{
+        grid-area: foot2;
+    }
+
+    #foot3{
+        grid-area: foot3;
+    }
+
+    #contact-footer-box{
+        width: 100%;
+        display: grid;
+        margin: auto;
+        grid-template-areas: 
+        'foot1'
+        'foot2'
+        'foot3';
+    }
 
 #social-icon-box img{
     display: block;
@@ -460,3 +480,4 @@ tfoot td {
     padding-bottom: 30px;
     margin-top: -20px
 }
+
