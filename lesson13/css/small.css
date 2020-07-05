@@ -21,8 +21,10 @@ h1 {
 }
 
 header h3{
-    text-shadow: white 0 0 1px, white 0 0 2px, white 0 0 3px,
-        white 0 0 4px, white 0 0 5px, black 0 0 6px, black 0 0 7px, black 0 0 8px;
+    color: navajowhite;
+    text-shadow:black 0 0 1px, black 0 0 2px, black 0 0 3px,
+        black 0 0 4px, black 0 0 5px, black 0 0 6px, black 0 0 7px,
+        black 0 0 8px;
 
 }
 
