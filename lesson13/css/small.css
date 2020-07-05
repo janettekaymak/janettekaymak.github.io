@@ -278,7 +278,6 @@ their own photos*/
 }
 
 #photo-grid-box {
-    opacity: .75;
     margin: auto;
     display: grid;
     grid-template-areas:
@@ -328,6 +327,10 @@ footer {
     width: 100%;
     background-color: black;
     margin-bottom: -10px;
+}
+
+.main-footer{
+    margin-bottom: -15px;
 }
 
 
