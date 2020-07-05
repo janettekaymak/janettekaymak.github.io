@@ -296,7 +296,7 @@ their own photos*/
     background-color: rgb(79, 202, 250);
 }
 
-footer p {
+.main-footer p {
     font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
     color: navajowhite;
     text-align: center;
@@ -304,12 +304,12 @@ footer p {
     line-height: 1.5;
 }
 
-footer p a {
+.main-footer a {
     text-decoration: none;
-    color: navajowhite;
+    color: hotpink;
 }
 
-footer a:hover {
+.main-footer a:hover {
     color: rgb(79, 202, 250);
     font-size: 22px;
     transition: 1s;
@@ -318,7 +318,7 @@ footer a:hover {
 footer {
     width: 100%;
     background-color: black;
-    margin-bottom: -15px;
+    margin-bottom: -9px;
 }
 
 
@@ -399,6 +399,64 @@ tfoot td {
     margin: -2px auto auto auto;
 }
 
+#just-map-contact img{
+    display: block;
+    max-width: 100%;
+    margin: -20px auto auto auto;
+}
+
 #home-map img{
     display: none;
+}
+
+#wide{
+    display: none;
+}
+
+#contact-footer h3{
+    text-align: center;
+    color: cyan;
+    font-family: Fontdiner Swanky;
+    font-size: 24px;
+}
+
+#contact-footer p{
+    text-align: center;
+    color: navajowhite;
+    font-family: Poppins;
+
+}
+
+#foot1,
+#foot2,
+#foot3{
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    padding: 30px;
+    border: navajowhite solid 2px;
+    border-radius: 15px;
+    margin: 30px 20px;
+}
+
+#social-icon-box img{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+
+#social-icon-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
+    margin: auto;
+}
+
+#contact-box{
+    padding-bottom: 20px;
+}
+
+#updated{
+    padding-bottom: 30px;
+    margin-top: -20px
 }
