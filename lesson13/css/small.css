@@ -1,9 +1,9 @@
-body {
+/*body {
     /*The following image was obtained legally from Unsplash.com, by Mink Mingle*/
-    background: url("https://janettekaymak.github.io/lesson13/images/mink-final.jpg");
-}
+    /*background: url("https://janettekaymak.github.io/lesson13/images/mink-final.jpg");
+}*/
 
-#tours-header {
+header {
     background: url("https://janettekaymak.github.io/lesson13/images/cris-tagupa-unsplash.jpg");
     background-size: cover;
     background-position: center center;
@@ -11,7 +11,7 @@ body {
     height: 430px;
 }
 
-#tours-body {
+body {
     background: none;
     background-color: rgb(3, 184, 184);
 }
@@ -182,20 +182,20 @@ added to the end of the class list like this in HTML.
 
 #box2 {
     grid-area: box2;
-    background-color: rgb(0, 206, 209, .7);
+    background-color: rgb(0, 206, 209);
     border: rgb(255, 187, 0) double 10px;
 
 }
 
 #box1 {
     grid-area: box1;
-    background-color: rgb(255, 222, 173, .8);
+    background-color: rgb(255, 222, 173);
     border: darkturquoise solid 10px;
 }
 
 #box3 {
     grid-area: box3;
-    background-color: rgb(255, 255, 255, .7);
+    background-color: rgb(255, 255, 255);
     border: darkturquoise solid 10px;
     padding: 0 20px;
 }
@@ -381,7 +381,7 @@ td {
 table {
     width: 100%;
     margin: -20px auto auto auto;
-    opacity: .85;
+    /*opacity: .85;*/
 }
 
 thead tr {
