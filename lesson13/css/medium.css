@@ -1,11 +1,12 @@
 @media screen and (min-width: 768px) {
     
     #logo {
-        margin: -5px auto -70px auto;
+        margin: -10px auto;
     }
 
     h1 {
         font-size: 75px;
+        margin-top: -90px;
         margin-bottom: -20px;
     }
 
@@ -98,9 +99,9 @@
     }
 
     #just-map-contact img{
-        margin-top: 50px;
-        margin-bottom: 50px;
-        width: 88%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 94%;
         box-shadow: darkturquoise 0 0 50px;
     }
     
