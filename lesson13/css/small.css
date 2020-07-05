@@ -400,9 +400,11 @@ tfoot td {
 }
 
 #just-map-contact img{
+    opacity: .8;
     display: block;
     max-width: 100%;
-    margin: -20px auto auto auto;
+    margin: -19px auto auto auto;
+    
 }
 
 #home-map img{
@@ -420,11 +422,26 @@ tfoot td {
     font-size: 24px;
 }
 
-#contact-footer p{
+#contact-box p, #contact-footer p{
     text-align: center;
     color: navajowhite;
     font-family: Poppins;
 
+}
+
+#contact-footer{
+    margin-bottom: -15px;
+}
+
+#contact-box a{
+    color: cyan;
+
+}
+
+#contact-box a:hover{
+    color: rgb(243, 8, 243);
+    font-size: 22px;
+    transition: 1s;
 }
 
 #foot1,
@@ -436,18 +453,6 @@ tfoot td {
     border-radius: 15px;
     margin: 30px 20px;
 }
-
-    #foot1{
-        grid-area: foot1;
-    }
-
-    #foot2{
-        grid-area: foot2;
-    }
-
-    #foot3{
-        grid-area: foot3;
-    }
 
 #social-icon-box img{
     display: block;
@@ -469,5 +474,15 @@ tfoot td {
 #updated{
     padding-bottom: 30px;
     margin-top: -20px
+}
+
+#contact-footer #google:hover{
+    background-color: rgb(243, 8, 243);
+    transition: 1s;
+}
+
+#social-icon-box a:hover{
+    background-color: rgb(243, 8, 243);
+    transition: 1s;
 }
 

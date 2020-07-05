@@ -57,5 +57,30 @@
         width: 66%;
     }
 
+    #contact-box{
+        max-width: 100%;
+        margin: auto;
+        grid-template-areas: 
+        'foot2 foot1 foot3';
+    }
+
+    #social-icon-box{
+        max-width: 75%;
+    }
+
+    #just-map-contact img{
+        display: none;
+    }
+
+    #wide img{
+        display: block;
+        width: 100%;
+
+    }
+
+    #wide{
+        margin-top: -20px;
+    }
+
 
 }
