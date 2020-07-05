@@ -566,3 +566,15 @@ tfoot td {
     margin-bottom: 30px;
     margin-top: 50px;
 }
+
+#article a{
+    font-family: Fontdiner Swanky;
+    font-size: 22px;
+    color: darkturquoise;
+    text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px, black 0 0 5px, black 0 0 6px;
+}
+
+#article a:hover{
+    color: red;
+    transition: 1s;
+}
