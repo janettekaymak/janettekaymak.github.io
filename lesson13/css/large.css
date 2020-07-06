@@ -22,31 +22,23 @@
     }
 
     #heroimg img {
-        width: 64.5%;
+        width: 80%;
     }
 
     #grid-box {
+        width: 80%;
         grid-template-areas:
             'box1 box3 box3 box2'
     }
 
-    #box1 {
-        border: darkturquoise double 10px;
-    }
-
-    #box2 {
-        border: rgb(255, 187, 0) double 10px;
-    }
-
-    #box3 {
-        border: darkturquoise solid 10px;
-
-
+    #box1, #box2{
+        height: auto;
+        font-size: 115%;
     }
 
     #photo-grid-box {
         width: 100%;
-        margin: auto;
+        margin: -19px auto auto auto;
         display: grid;
         grid-template-areas:
             'photo1 photo2 photo3 photo4 photo5 photo6';

@@ -251,8 +251,8 @@ added to the end of the class list like this in HTML.
 }
 
 .fontdiner {
-    font-family: 'Fontdiner Swanky', fantasy, cursive;
-    font-size: 28px;
+    font-family: Poppins;
+    font-size: 24px;
     color: darkturquoise;
     text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px, black 0 0 5px;
 }
