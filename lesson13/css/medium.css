@@ -4,6 +4,10 @@
         background-image: linear-gradient(darkturquoise, rgb(3, 184, 184), rgb(0, 46, 59), rgb(0, 46, 59), black);
     }
 
+header {
+    height: 530px;
+}
+
     #logo {
         width: 390px;
         margin: -10px auto auto auto;
