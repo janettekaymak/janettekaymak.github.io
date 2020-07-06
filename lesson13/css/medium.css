@@ -44,7 +44,7 @@
         color: turquoise;
         text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px;
         background-color: rgb(252, 200, 122);
-        box-shadow: darkturquoise 0px 0px 50px;
+        box-shadow: #ff7800 0px 0px 50px;
         transition: 1s;
     }
 

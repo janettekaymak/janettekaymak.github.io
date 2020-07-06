@@ -26,14 +26,14 @@ h1 {
     font-family: 'Fontdiner Swanky', cursive, fantasy;
     font-size: 42px;
     text-align: center;
-    color: navajowhite;
+    color: #ff7800;
     text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px,
         black 0 0 4px, black 0 0 5px, black 0 0 6px, black 0 0 7px,
         black 0 0 8px, black 0 0 9px, black 0 0 10px;
 }
 
 header h3 {
-    color: navajowhite;
+    color: rgb(255, 187, 0);
     text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px,
         black 0 0 4px, black 0 0 5px, black 0 0 6px, black 0 0 7px,
         black 0 0 8px;
@@ -258,7 +258,7 @@ added to the end of the class list like this in HTML.
 }
 
 .fontdiner:hover {
-    color: red;
+    color: #ff7800;
     transition: .5s;
 }
 
@@ -333,7 +333,7 @@ their own photos*/
 }
 
 #google:hover {
-    background-color: rgb(79, 202, 250);
+    background-color: cyan;
 }
 
 .main-footer p {
@@ -350,7 +350,7 @@ their own photos*/
 }
 
 .main-footer a:hover {
-    color: rgb(79, 202, 250);
+    color: cyan;
     font-size: 22px;
     transition: 1s;
 }
