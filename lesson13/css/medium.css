@@ -200,7 +200,14 @@
     }
 
     #information{
-        padding: 20px 110px;
+        width: 60%;
+        padding: 20px;
+        
+    }
+
+    #information li{
+        margin-left: 0px;
+        line-height: 2;
     }
 
 }

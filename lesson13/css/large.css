@@ -116,4 +116,16 @@
         width: 100%;
     }
 
+    #information{
+        width: 38%;
+        margin: -100px auto auto auto;
+        padding: 20px;
+        
+    }
+
+    #information li{
+        margin-left: 0px;
+        line-height: 2;
+    }
+
 }

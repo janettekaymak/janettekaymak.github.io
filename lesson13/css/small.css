@@ -594,6 +594,7 @@ tfoot td {
 }
 
 #information{
+    margin: auto;
     background-color: navajowhite;
     padding: 10px;
 
