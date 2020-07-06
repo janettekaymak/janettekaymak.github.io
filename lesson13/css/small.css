@@ -40,15 +40,14 @@ h1 {
         text-align: center;
         font-family: 'Fontdiner Swanky', cursive, fantasy;
         margin-bottom: 40px;
-        margin-top: -22px;
+        margin-top: 30px auto auto auto;
         padding: 0 15px;
 }
 
 #hours{
     font-family: Poppins, Arial, Helvetica, sans-serif;
     text-align: center;
-    margin: -25px auto auto auto;
-    font-weight: lighter;
+    margin: -45px auto auto auto;
 }
 
 h2, h3{

@@ -7,13 +7,22 @@
     }
 
     header h1 {
-        margin-top: -10px;
+        margin-top: -20px;
         font-size: 85px;
+    }
+
+    #hours{
+        font-size: 18px;
+        margin: 10px auto auto auto;
     }
 
     #motto {
         font-size: 28px;
-        margin-top: 25px;
+        margin-top: 13px;
+    }
+
+    nav{
+        margin-top: -18px;
     }
 
     .navigation a {
