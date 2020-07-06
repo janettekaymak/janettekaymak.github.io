@@ -1,9 +1,9 @@
 @media screen and (min-width: 768px) {
 
-    body{
-         background-image: linear-gradient( darkturquoise,rgb(3, 184, 184), rgb(0, 46, 59),rgb(0, 46, 59), black); 
+    body {
+        background-image: linear-gradient(darkturquoise, rgb(3, 184, 184), rgb(0, 46, 59), rgb(0, 46, 59), black);
     }
-    
+
     #logo {
         width: 390px;
         margin: auto;
@@ -15,9 +15,10 @@
         margin-bottom: -20px;
     }
 
-    #motto{
+    #motto {
         margin-top: 30px;
         font-size: 21px;
+        padding: 0 5px;
     }
 
     .navigation {
@@ -51,37 +52,39 @@
         display: none;
     }
 
-    #heroimg img{
+    #heroimg img {
         display: block;
-        width: 63.5%;
-        margin: 50px auto 0 auto;
-        border: rgb(255, 187, 0) solid 10px;      
-    }
-    
-    #grid-box{
-        margin-top: 0;
-        width: 65.85%;
-        display: grid;
-        grid-template-areas:
-        'box1 box2'
-        'box3 box3';
-    }
-
-    #box2{
-        border: darkturquoise solid 10px;
-    }
-    
-    #box3{ 
-        border: darkturquoise double 10px;  
-    }
-
-    #photo-grid-box{
-        width: 65.5%;
+        width: 100%;
         margin: auto;
+    }
+
+    #grid-box {
+        margin-top: 0;
+        width: 90%;
         display: grid;
         grid-template-areas:
-        'photo1 photo2 photo3'
-        'photo4 photo5 photo6';
+            'box1 box2'
+            'box3 box3';
+    }
+
+    #box2,
+    #box1 {
+        height: 400px;
+        margin: 0;
+        padding-bottom: 40px;
+    }
+
+    #box3 p{
+        font-size: 18px;
+    }
+
+    #photo-grid-box {
+        width: 90%;
+        margin: 35px auto auto auto;
+        display: grid;
+        grid-template-areas:
+            'photo1 photo2 photo3'
+            'photo4 photo5 photo6';
     }
 
     #photo1 img,
@@ -89,29 +92,29 @@
     #photo3 img,
     #photo4 img,
     #photo5 img,
-    #photo6 img{
+    #photo6 img {
         border: dimgray solid 2px;
         width: 100%;
     }
 
     #photo4 img,
     #photo5 img,
-    #photo6 img{
+    #photo6 img {
         border-top: none;
     }
 
-    #just-map img{
+    #just-map img {
         display: none;
     }
 
-    #just-map-contact img{
+    #just-map-contact img {
         margin-top: 20px;
         margin-bottom: 20px;
         width: 94%;
         box-shadow: darkturquoise 0 0 50px;
     }
-    
-    #home-map img{
+
+    #home-map img {
         display: block;
         width: 100%;
         margin: auto;
@@ -121,79 +124,79 @@
         display: none;
     }
 
-    #wide.contact-large-map{
+    #wide.contact-large-map {
         margin-top: -20px;
     }
 
-    #wide.move-down{
+    #wide.move-down {
         margin-top: -18px;
     }
 
     #foot1,
     #foot2,
-    #foot3{
-      max-width: 100%;
-      margin: 20px;
+    #foot3 {
+        max-width: 100%;
+        margin: 20px;
     }
 
-    #foot1{
+    #foot1 {
         grid-area: foot1;
     }
 
-    #foot2{
+    #foot2 {
         grid-area: foot2;
     }
 
-    #foot3{
+    #foot3 {
         grid-area: foot3;
     }
 
-    #contact-box{
+    #contact-box {
         width: 87%;
         display: grid;
         margin: auto 50px;
-        grid-template-areas: 
-        'foot1 foot2'
-        'foot3 foot3';
+        grid-template-areas:
+            'foot1 foot2'
+            'foot3 foot3';
     }
 
-    #wide img{
+    #wide img {
         display: block;
         width: 100%;
 
     }
 
-#tour1,
-#tour2,
-#tour3,
-#tour4,
-#tour5,
-#tour6{
-    border: black solid .5px;
-    border-radius: 10px;
-    margin: 15px;
-    background-color: white;
-    padding-top: 10px;
-}
+    #tour1,
+    #tour2,
+    #tour3,
+    #tour4,
+    #tour5,
+    #tour6 {
+        border: black solid .5px;
+        border-radius: 10px;
+        margin: 15px;
+        background-color: white;
+        padding-top: 10px;
+    }
 
-#tours-grid-box{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 20px;
-    color: black;
-}
+    #tours-grid-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 20px;
+        color: black;
+    }
 
-#tours-grid-box img{
-    margin-bottom: 20px;
-}
+    #tours-grid-box img {
+        margin-bottom: 20px;
+    }
 
-#tours-grid-box img:hover{
-    box-shadow: cyan 0 0 70px;
-}
+    #tours-grid-box img:hover {
+        box-shadow: cyan 0 0 70px;
+    }
 
-#article img{
-    float: right;
-    margin: 10px 0px 10px 30px;
-}
-      
+    #article img {
+        float: right;
+        margin: 10px 0px 10px 30px;
+    }
+
 }

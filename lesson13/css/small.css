@@ -159,8 +159,9 @@ added to the end of the class list like this in HTML.
 }
 
 #heroimg img {
+    display: none;
     width: 100%;
-    margin-top: -19px;
+    margin: auto;
 }
 
 #grid-box {
@@ -169,8 +170,8 @@ added to the end of the class list like this in HTML.
     display: grid;
     grid-template-areas:
         'box1'
-        'box2'
-        'box3';
+        'box3'
+        'box2';
 }
 
 .forecast {
@@ -181,21 +182,22 @@ added to the end of the class list like this in HTML.
 
 #box2 {
     grid-area: box2;
-    background-color: rgb(0, 206, 209);
-    border: rgb(255, 187, 0) double 10px;
+    background-color: darkturquoise;
+    border: cyan dashed 5px;
 
 }
 
 #box1 {
     grid-area: box1;
-    background-color: rgb(255, 222, 173);
-    border: darkturquoise solid 10px;
+    background-color: rgb(146, 252, 252);
+    border: darkturquoise dashed 5px;
+    margin-top: 5px;
 }
 
 #box3 {
     grid-area: box3;
-    background-color: rgb(255, 255, 255);
-    border: darkturquoise solid 10px;
+    background-color: navajowhite;
+    border:rgb(255, 187, 0) dotted 7px;
     padding: 0 20px;
 }
 
@@ -250,7 +252,7 @@ added to the end of the class list like this in HTML.
 
 .fontdiner {
     font-family: 'Fontdiner Swanky', fantasy, cursive;
-    font-size: 20px;
+    font-size: 28px;
     color: darkturquoise;
     text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px, black 0 0 5px;
 }
@@ -308,7 +310,7 @@ their own photos*/
 }
 
 #photo-grid-box {
-    margin: auto;
+    margin: -19px auto auto auto;
     display: grid;
     grid-template-areas:
         'photo1 photo4'
@@ -445,7 +447,7 @@ tfoot td {
     opacity: .8;
     display: block;
     max-width: 100%;
-    margin: -19px auto auto auto;
+    margin: auto;
 
 }
 
