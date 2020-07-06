@@ -418,7 +418,7 @@ thead tr th {
 
 tfoot a {
     margin: 10px auto;
-    background-color: red;
+    background-color: #fa8722;
     padding: 20px;
     border-radius: 10px;
     max-width: 290px;
@@ -429,7 +429,7 @@ tfoot a {
 
 tfoot a:hover {
     box-shadow: white 0 0 50px;
-    color: white;
+    color: cyan;
     text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px;
 }
 
