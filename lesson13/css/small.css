@@ -183,13 +183,13 @@ added to the end of the class list like this in HTML.
 #box2 {
     grid-area: box2;
     background-color: darkturquoise;
-    border: cyan dashed 5px;
+    border: #fa8722 dashed 5px;
 
 }
 
 #box1 {
     grid-area: box1;
-    background-color: rgb(146, 252, 252);
+    background-color: rgb(185, 250, 250);
     border: darkturquoise dashed 5px;
     margin-top: 5px;
 }
