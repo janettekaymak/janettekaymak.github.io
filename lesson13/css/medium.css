@@ -188,7 +188,12 @@
 }
 
 #tours-grid-box img:hover{
-    box-shadow: darkturquoise 0 0 70px;
+    box-shadow: cyan 0 0 70px;
+}
+
+#article img{
+    float: right;
+    margin: 10px 0px 10px 30px;
 }
       
 }
