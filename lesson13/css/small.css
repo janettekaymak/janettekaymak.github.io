@@ -12,8 +12,8 @@ header {
 }
 
 body {
-    background: none;
-    background-color: rgb(3, 184, 184);
+   /*background-color: rgb(3, 184, 184);*/
+   background-image: linear-gradient( darkturquoise,rgb(3, 184, 184), rgb(0, 46, 59),rgb(0, 46, 59), black); 
 }
 
 #logo {
