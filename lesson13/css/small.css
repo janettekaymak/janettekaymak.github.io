@@ -587,3 +587,14 @@ tfoot td {
 #just-map-contact.move-down{
     margin-top: 18px;
 }
+
+#information li{
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+#information{
+    background-color: navajowhite;
+    padding: 10px;
+
+}
