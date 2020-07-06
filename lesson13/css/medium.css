@@ -190,8 +190,8 @@
         margin-bottom: 20px;
     }
 
-    #tours-grid-box img:hover {
-        box-shadow: cyan 0 0 70px;
+    #tours-grid-box img:hover, #article img:hover {
+        box-shadow: dimgray 0 0 30px;
     }
 
     #article img {

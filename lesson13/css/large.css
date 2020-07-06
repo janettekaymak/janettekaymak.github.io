@@ -109,7 +109,11 @@
     #tour4,
     #tour5,
     #tour6 {
-        padding-bottom: 15px;
+       padding: 0 20px;
+    }
+
+    #tours-grid-box img{
+        width: 100%;
     }
 
 }

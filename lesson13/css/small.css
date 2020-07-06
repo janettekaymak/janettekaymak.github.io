@@ -548,7 +548,8 @@ tfoot td {
 #article img{
     max-width: 100%;
     margin: 10px auto;
-    border-radius: 5px;
+    border-radius: 8px;
+    border: black solid .5px;
     
 }
 
