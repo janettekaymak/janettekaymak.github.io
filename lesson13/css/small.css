@@ -557,7 +557,7 @@ tfoot td {
 }
 
 #article a:hover{
-    color: red;
+    color: #fa8722;
     transition: 1s;
 }
 
