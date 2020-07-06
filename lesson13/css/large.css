@@ -44,7 +44,7 @@
     }
 
     #photo-grid-box {
-        width: 65.7%;
+        width: 100%;
         margin: auto;
         display: grid;
         grid-template-areas:
