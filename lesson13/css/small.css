@@ -597,5 +597,7 @@ tfoot td {
     margin: auto;
     background-color: navajowhite;
     padding: 10px;
+    border: dotted 7px #fa8722;
+    
 
 }
