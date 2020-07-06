@@ -574,10 +574,6 @@ tfoot td {
     border: black solid .5px;
 }
 
-#tours-grid-box img:hover{
-    box-shadow: white 0 0 70px;
-}
-
 #tours-grid-box{
     margin-bottom: 30px;
     margin-top: 50px;
