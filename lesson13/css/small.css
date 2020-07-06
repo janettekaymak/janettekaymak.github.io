@@ -8,7 +8,7 @@ header {
     background-size: cover;
     background-position: center center;
     max-width: 1500px;
-    height: 430px;
+    height: 530px;
 }
 
 body {
@@ -19,7 +19,7 @@ body {
 #logo {
     width: 360px;
     display: block;
-    margin: -10px auto;
+    margin: auto;
 }
 
 h1 {
