@@ -1,17 +1,19 @@
 @media screen and (min-width: 768px) {
     
     #logo {
-        margin: -10px auto;
+        width: 390px;
+        margin: auto;
     }
 
     h1 {
         font-size: 75px;
-        margin-top: -90px;
+        margin-top: -10px;
         margin-bottom: -20px;
     }
 
     #motto{
-        margin-top: 20px;
+        margin-top: 30px;
+        font-size: 21px;
     }
 
     .navigation {
