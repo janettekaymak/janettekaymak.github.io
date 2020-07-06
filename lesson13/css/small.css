@@ -4,7 +4,7 @@
 }*/
 
 header {
-    background: url("https://janettekaymak.github.io/lesson13/images/cris-tagupa-unsplash.jpg");
+    background: url("https://janettekaymak.github.io/lesson13/images/cris-tagupa-unsplash2.jpg");
     background-size: cover;
     background-position: center center;
     max-width: 1500px;
@@ -12,8 +12,7 @@ header {
 }
 
 body {
-   background-color: rgb(3, 184, 184);
-   background-image: linear-gradient( darkturquoise,rgb(3, 184, 184), rgb(0, 46, 59),rgb(0, 46, 59), black); 
+   background-color: darkturquoise;
 }
 
 #logo {
@@ -537,10 +536,18 @@ tfoot td {
 #article{
     background-color: navajowhite;
     border: rgb(255, 187, 0) dotted 5px;
-    padding: 10px 50px 20px 50px;
+    padding: 10px 30px;
     max-width: 100%;
     margin: auto;
     margin-top: -25px;
+    text-align: justify;
+}
+
+#article img{
+    max-width: 100%;
+    margin: 10px auto;
+    border-radius: 5px;
+    
 }
 
 #article h2{
@@ -549,6 +556,7 @@ tfoot td {
 
 #tours-grid-box h3{
     margin-bottom: 2px;
+    font-family: poppins;
 }
 
 #tours-grid-box img{
