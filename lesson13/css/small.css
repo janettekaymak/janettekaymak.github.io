@@ -718,7 +718,7 @@ form label.top input:required:valid {
 }
 
 form input.submitBtn {
-    border: none;
+    border: 1px solid black;
     background-color: #fa8722;
     border-radius: 10px;
     padding: .75rem 1.5rem;
@@ -745,5 +745,11 @@ form input.submitBtn {
 .confirmation{
     margin-top: -10px;
     line-height: 1.5;
+}
+
+#map img{
+    display: block;
+    max-width: 100%;
+    margin: auto;
 }
 
