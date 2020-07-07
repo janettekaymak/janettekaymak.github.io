@@ -51,7 +51,9 @@ h1 {
 }
 
 h2,
-h3 {
+h3,
+h4,
+h5 {
     font-family: Fontdiner Swanky;
     text-align: center;
 }
@@ -768,4 +770,14 @@ form input.submitBtn {
 #photo5.form-img p,
 #photo6.form-img p{
     text-align: center;
+}
+
+#two-locations{
+    background-color: turquoise;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#article.intro{
+    margin-bottom: 19px;
 }
