@@ -1,6 +1,6 @@
 /*body {
     /*The following image was obtained legally from Unsplash.com, by Mink Mingle*/
-    /*background: url("https://janettekaymak.github.io/lesson13/images/mink-final.jpg");
+/*background: url("https://janettekaymak.github.io/lesson13/images/mink-final.jpg");
 }*/
 
 header {
@@ -12,7 +12,7 @@ header {
 }
 
 body {
-   background-color: turquoise;
+    background-color: turquoise;
 }
 
 #logo {
@@ -37,29 +37,30 @@ h1 {
     text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px,
         black 0 0 4px, black 0 0 5px, black 0 0 6px, black 0 0 7px,
         black 0 0 8px;
-        text-align: center;
-        font-family: 'Fontdiner Swanky', cursive, fantasy;
-        margin-bottom: 40px;
-        margin-top: 30px auto auto auto;
-        padding: 0 15px;
+    text-align: center;
+    font-family: 'Fontdiner Swanky', cursive, fantasy;
+    margin-bottom: 40px;
+    margin-top: 30px auto auto auto;
+    padding: 0 15px;
 }
 
-#hours{
+#hours {
     font-family: Poppins, Arial, Helvetica, sans-serif;
     text-align: center;
     margin: -42px auto auto auto;
 }
 
-h2, h3{
+h2,
+h3 {
     font-family: Fontdiner Swanky;
     text-align: center;
 }
 
-p{
+p {
     font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
-#tours-main{
+#tours-main {
     line-height: 1.5;
 }
 
@@ -199,7 +200,7 @@ added to the end of the class list like this in HTML.
 #box3 {
     grid-area: box3;
     background-color: navajowhite;
-    border:rgb(255, 187, 0) dotted 7px;
+    border: rgb(255, 187, 0) dotted 7px;
     padding: 0 20px;
 }
 
@@ -451,7 +452,7 @@ tfoot td {
     margin: auto;
 }
 
-#contact-map img{
+#contact-map img {
     display: block;
     max-width: 100%;
     margin: -19px auto auto auto;
@@ -541,7 +542,7 @@ tfoot td {
     transition: 1s;
 }
 
-#article{
+#article {
     background-color: navajowhite;
     border: rgb(255, 187, 0) dotted 5px;
     padding: 10px 30px;
@@ -551,59 +552,76 @@ tfoot td {
     text-align: justify;
 }
 
-#article img{
+#article img {
     max-width: 100%;
     margin: 10px auto;
     border-radius: 8px;
     border: black solid .5px;
-    
+
 }
 
-#article h2{
+#article h2 {
     margin-bottom: -10px;
 }
 
-#article a:hover{
+#article a:hover {
     color: #fa8722;
     transition: 1s;
 }
 
-#tours-grid-box h3{
+#tours-grid-box h3 {
     margin-bottom: 2px;
     font-family: poppins;
 }
 
-#tours-grid-box img{
+#tours-grid-box img {
     display: block;
     margin: auto auto 50px auto;
     border-radius: 8px;
     border: black solid .5px;
 }
 
-#tours-grid-box{
+#tours-grid-box {
     margin-bottom: 30px;
     margin-top: 50px;
 }
 
-#article a{
+#article a {
     color: darkturquoise;
     text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px;
 }
 
-#just-map-contact.move-down{
+#just-map-contact.move-down {
     margin-top: 18px;
 }
 
-#information li{
+#information li {
     font-family: Poppins, Arial, Helvetica, sans-serif;
     line-height: 1.5;
 }
 
-#information{
+#information {
     margin: auto;
     background-color: navajowhite;
     padding: 10px;
     border: dotted 7px #fa8722;
-    
+}
 
+#list {
+    background-image: linear-gradient(rgb(3, 171, 173),
+     darkturquoise, turquoise, rgb(40, 236, 236), 
+     rgb(168, 241, 229), navajowhite);
+    padding: 10px;
+    margin-top: -19px;
+}
+
+#list li {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 0 10px;
+}
+
+#list2,
+#list3 {
+    margin-top: -15px;
 }
