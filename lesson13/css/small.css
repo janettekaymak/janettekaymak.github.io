@@ -39,6 +39,7 @@ h1 {
         black 0 0 8px;
     text-align: center;
     font-family: 'Fontdiner Swanky', cursive, fantasy;
+    font-size: 22px;
     margin-top: 30px auto auto auto;
     padding: 0 15px;
 }
@@ -46,7 +47,7 @@ h1 {
 #hours {
     font-family: Poppins, Arial, Helvetica, sans-serif;
     text-align: center;
-    margin: -30px auto auto auto;
+    margin: -30px auto -10px auto;
 }
 
 h2,
@@ -701,7 +702,7 @@ form label.top input:required {
 }
 
 form label.top input:required:valid {
-    border-left: rgb(44, 44, 44) solid 6px;
+    border-left: rgb(44, 44, 44) solid 10px;
 }
 
 #white {
