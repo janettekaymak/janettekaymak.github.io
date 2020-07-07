@@ -612,7 +612,7 @@ tfoot td {
     background-image: linear-gradient(rgb(3, 171, 173),
             darkturquoise, turquoise, rgb(40, 236, 236),
             rgb(168, 241, 229), white);
-    padding: 10px;
+    padding: 20px 10px 50px 10px;
     margin-top: -19px;
 }
 
@@ -622,14 +622,8 @@ tfoot td {
     padding: 0 10px;
 }
 
-#list2,
-#list3 {
-    margin-top: -15px;
-}
-
 #form{
-    background: linear-gradient(rgb(3, 171, 173),
-    darkturquoise, turquoise, rgb(40, 236, 236),
+    background: linear-gradient(darkturquoise, turquoise, rgb(40, 236, 236),
     rgb(168, 241, 229), white);
 }
 
@@ -752,3 +746,23 @@ form input.submitBtn {
     margin: auto;
 }
 
+.form-img{
+    background-color: white;
+    border: solid 1px;
+}
+#photo1.form-img img,
+#photo2.form-img img,
+#photo3.form-img img,
+#photo4.form-img img,
+#photo5.form-img img,
+#photo6.form-img img{
+    border: none;
+}
+#photo1.form-img p,
+#photo2.form-img p,
+#photo3.form-img p,
+#photo4.form-img p,
+#photo5.form-img p,
+#photo6.form-img p{
+    text-align: center;
+}
