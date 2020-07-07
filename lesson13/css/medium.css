@@ -238,4 +238,18 @@
         padding: 0 150px;
     }
 
+    #thanks-header{
+        height: 630px;
+    }
+    
+    #refund{
+        padding: 10px 100px;
+        margin-top: 10px;
+    }
+    
+    #motto.confirmation{
+        margin: -20px 150px auto 150px;
+        line-height: 1.5;
+    }
+
 }
