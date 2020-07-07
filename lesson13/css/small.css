@@ -497,7 +497,7 @@ tfoot td {
 }
 
 #contact-box a:hover {
-    color: rgb(243, 8, 243);
+    color: #fa8722;
     font-size: 22px;
     transition: 1s;
 }
@@ -535,12 +535,12 @@ tfoot td {
 }
 
 #contact-footer #google:hover {
-    background-color: rgb(243, 8, 243);
+    background-color: #fa8722;
     transition: 1s;
 }
 
 #social-icon-box a:hover {
-    background-color: rgb(243, 8, 243);
+    background-color: #fa8722;
     transition: 1s;
 }
 
@@ -776,6 +776,7 @@ form input.submitBtn {
     background-color: turquoise;
     padding: 20px;
     border-radius: 15px;
+    border: dotted 5px #fa8722;
 }
 
 #article.intro{
