@@ -323,7 +323,9 @@ their own photos*/
         'photo3 photo6';
 }
 
-#google {
+#google1,
+#google2,
+#google3 {
     display: block;
     margin: auto;
     width: 250px;
