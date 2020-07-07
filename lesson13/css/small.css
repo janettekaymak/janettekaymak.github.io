@@ -492,14 +492,8 @@ tfoot td {
 }
 
 #contact-box a {
-    color: cyan;
+    color: #fa8722
 
-}
-
-#contact-box a:hover {
-    color: #fa8722;
-    font-size: 22px;
-    transition: 1s;
 }
 
 #foot1,
@@ -549,6 +543,9 @@ tfoot td {
 #social-icon-box a:hover {
     background-color: #fa8722;
     transition: 1s;
+}
+#google.fbutton{
+    color: black;
 }
 
 #article {
