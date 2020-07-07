@@ -338,7 +338,8 @@ their own photos*/
 }
 
 #google:hover {
-    background-color: cyan;
+    background-color: #fa8722;
+    color: cyan;
 }
 
 .main-footer p {
@@ -494,6 +495,10 @@ tfoot td {
 #contact-box a {
     color: #fa8722
 
+}
+
+#contact-box a:hover {
+    color: cyan;
 }
 
 #foot1,
