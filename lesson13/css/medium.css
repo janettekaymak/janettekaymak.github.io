@@ -250,4 +250,8 @@ header {
         grid-template-areas: 'list1 list2 list3';
     }
 
+    #form{
+        width: 50%;
+    }
+
 }
