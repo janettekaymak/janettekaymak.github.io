@@ -225,28 +225,5 @@ header {
     #list li {
         padding: 0;
         font-size: 15px;
-    }
-    
-    #list2,
-    #list3 {
-        margin-top: 0;
-    }
-
-    #list1{
-        grid-area: list1;
-    }
-
-    #list2{
-        gird-area: list2
-    }
-
-    #list3{
-        grid-area: list3;
-    }
-
-    #list-grid-box{
-        margin-top: -25px;
-        display: grid;
-        grid-template-areas: 'list1 list2 list3';
-    }
+   
 }
