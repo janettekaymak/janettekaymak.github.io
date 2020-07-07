@@ -8,7 +8,7 @@ header {
     background-size: cover;
     background-position: center center;
     max-width: 1500px;
-    height: 510px;
+    height: 540px;
 }
 
 body {
@@ -39,7 +39,6 @@ h1 {
         black 0 0 8px;
     text-align: center;
     font-family: 'Fontdiner Swanky', cursive, fantasy;
-    margin-bottom: 40px;
     margin-top: 30px auto auto auto;
     padding: 0 15px;
 }
@@ -47,7 +46,7 @@ h1 {
 #hours {
     font-family: Poppins, Arial, Helvetica, sans-serif;
     text-align: center;
-    margin: -42px auto auto auto;
+    margin: -30px auto auto auto;
 }
 
 h2,
