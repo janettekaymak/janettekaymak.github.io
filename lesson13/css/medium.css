@@ -132,6 +132,10 @@ header {
         display: none;
     }
 
+    #contact-map img{
+        display: none;
+    }
+
     #wide.contact-large-map {
         margin-top: -20px;
     }

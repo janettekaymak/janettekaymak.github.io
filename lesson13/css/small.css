@@ -446,11 +446,15 @@ tfoot td {
 }
 
 #just-map-contact img {
-    opacity: .8;
     display: block;
     max-width: 100%;
     margin: auto;
+}
 
+#contact-map img{
+    display: block;
+    max-width: 100%;
+    margin: -19px auto auto auto;
 }
 
 #home-map img {
