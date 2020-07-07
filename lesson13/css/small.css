@@ -455,6 +455,7 @@ tfoot td {
     margin: auto;
 }
 
+/*-------Contact--------------*/
 #contact-map img {
     display: block;
     max-width: 100%;
@@ -552,6 +553,7 @@ tfoot td {
 #google.fbutton{
     color: black;
 }
+/*--------------------------*/
 
 #article {
     background-color: navajowhite;
