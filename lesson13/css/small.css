@@ -543,7 +543,9 @@ tfoot td {
     margin-top: -20px
 }
 
-#contact-footer #google:hover {
+#contact-footer #google1:hover,
+#contact-footer #google2:hover,
+#contact-footer #google3:hover {
     background-color: #fa8722;
     transition: 1s;
 }
@@ -551,9 +553,6 @@ tfoot td {
 #social-icon-box a:hover {
     background-color: #fa8722;
     transition: 1s;
-}
-#google.fbutton{
-    color: black;
 }
 /*--------------------------*/
 
