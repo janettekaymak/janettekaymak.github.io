@@ -141,4 +141,14 @@
         line-height: 2;
     }
 
+    #list{
+        background: linear-gradient(rgb(3, 181, 184), cyan, white);
+        padding: 15px 10px 40px 10px
+    }
+
+
+    #list li {
+        font-size: 18px;
+    }
+
 }

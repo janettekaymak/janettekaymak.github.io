@@ -54,22 +54,101 @@
         <div id="list">
             <h2>Information and Services</h2>
             <div id="list-grid-box">
-                <ul id="list1">
-                    <li>$50 security deposit required to confirm reservations.</li>
-                    <li>Valid drivers license required at time of rental.</li>
-                    <li>No one under 12 years of age can ride on scooters.</li>
-                </ul>
-                <ul id="list2">
-                    <li>Fuel charge not included, unlimited mileage.</li>
-                    <li>Liability insurance, free of charge.</li>
-                    <li>Reservations rate requires 24 hour prior notification.</li>
-                </ul>
-                <ul id="list3">
-                    <li>Free delivery within Cozumel for 2+ day rentals.</li>
-                    <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
-                    <li>Rentals may be returned to either location.</li>
-                </ul>
+                <div id="list1">
+                    <ul>
+                        <li>$50 security deposit required to confirm reservations.</li>
+                        <li>Valid drivers license required at time of rental.</li>
+                        <li>No one under 12 years of age can ride on scooters.</li>
+                    </ul>
+                </div>
+                <div id="list2">
+                    <ul>
+                        <li>Fuel charge not included, unlimited mileage.</li>
+                        <li>Liability insurance, free of charge.</li>
+                        <li>Reservations rate requires 24 hour prior notification.</li>
+                    </ul>
+                </div>
+                <div id="list3">
+                    <ul>
+                        <li>Free delivery within Cozumel for 2+ day rentals.</li>
+                        <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
+                        <li>Rentals may be returned to either location.</li>
+                    </ul>
+                </div>
             </div>
+        </div>
+        <div id="form">
+            <h2>Vehicle Reservation</h2>
+            <h4>Fill out and submit this form to reserve your vehicle:</h4>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Your Information</legend>
+                    <label class="top">Full Name*<input type="text" name="name" title="Must be at least 5 characters"
+                            pattern="^[a-zA-Z\s\.\-]{5,}$" required></label>
+                    <label class="top">Email<input type="email" name="email" placeholder="someone@email.com"></label>
+                    <label class="top">Telephone*<input id="tel" type="tel" name="phone" placeholder="(XXX) XXX-XXXX"
+                            pattern="\(\d{3}\) \d{3}\-\d{4}" class="masked" title="10-digit number" required></label>
+                    <label class="top">Zipcode*<input type="number" name="zipcode" required></label><br>
+                    <!--<img class="stormImg" src="/lesson7/images/nasa.jpg" alt="electrical storm">-->
+                </fieldset>
+                <fieldset>
+                    <legend>Credit Card Information</legend>
+                    <label class="top">Name on Credit Card*<input type="text" name="name" title="Must be at least 5 characters"
+                        pattern="^[a-zA-Z\s\.\-]{5,}$" required></label>
+                    <label class="top">Expiration Date<input type="date" name="date"></label>
+                    <label class="top">Storm Type <input list="stormtype" name="stormtype"></label>
+                    <datalist id="stormtype">
+                        <option value="Flash Flood">
+                        <option value="Hail">
+                        <option value="Hurricane">
+                        <option value="Thunderstorm">
+                        <option value="Tornado">
+                    </datalist><br>
+                    <label id="red">Storm Region
+                        <select id="white" name="region">
+                            <option value="" selected disabled>Select Region - </option>
+                            <option value="preston">Preston</option>
+                            <option value="fishHaven">Fish Haven</option>
+                            <option value="sodaSprings">Soda Springs</option>
+                        </select>
+                    </label><br><br>
+                    <label class="flexly" for="rating">Storm Severity &nbsp;&nbsp;&nbsp;
+                        <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                            oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">5</span>
+                    </label>
+                    <datalist id="tickmarks">
+                        <option value="0">
+                        <option value="1">
+                        <option value="2">
+                        <option value="3">
+                        <option value="4">
+                        <option value="5">
+                        <option value="6">
+                        <option value="7">
+                        <option value="8">
+                        <option value="9">
+                        <option value="10">
+                    </datalist>
+                    <div>User In Danger?</div>
+                    <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
+                    <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+                    <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label><br>
+                    <!--<img class="stormImg2" src="/lesson7/images/electrical.jpg" alt="NASA image of hurricane">-->
+                </fieldset>
+                <fieldset>
+                    <legend>Vehicle Reservation</legend>
+                    <label>Add your comments below:<br><br><textarea name="comments" class="space"></textarea></label>
+                    <!--<img class="stormImg3" src="/lesson7/images/noaa.jpg" alt="electrical storm">-->
+                </fieldset>
+                <input type="submit" value="Reserve My Vehicle" class="submitBtn"><br><br>
+            </form>
+        </div>
+        <div id="just-map">
+            <img src="images/Cozumel-Map700.jpg" alt="cozumel map">
+        </div>
+        <div id="wide">
+            <img src="images/large-map.jpg" alt="map of cozumel surrounded by silhouettes of palms and a sunset">
         </div>
     </main>
     <footer class="main-footer">

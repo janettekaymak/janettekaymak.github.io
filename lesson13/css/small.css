@@ -609,8 +609,8 @@ tfoot td {
 
 #list {
     background-image: linear-gradient(rgb(3, 171, 173),
-     darkturquoise, turquoise, rgb(40, 236, 236), 
-     rgb(168, 241, 229), navajowhite);
+            darkturquoise, turquoise, rgb(40, 236, 236),
+            rgb(168, 241, 229), white);
     padding: 10px;
     margin-top: -19px;
 }
@@ -624,4 +624,124 @@ tfoot td {
 #list2,
 #list3 {
     margin-top: -15px;
+}
+
+#form{
+    background: linear-gradient(rgb(3, 171, 173),
+    darkturquoise, turquoise, rgb(40, 236, 236),
+    rgb(168, 241, 229), white);
+}
+
+#form h2{
+    padding-top: 50px;
+    margin-top: 0px;
+}
+
+#form h4{
+    text-align: center;
+    padding: 0 10px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.formMain {
+    max-width: 465px;
+    margin: auto;
+}
+
+form {
+    font-family: "Poppins", sans-serif;
+}
+
+form fieldset {
+    margin: 1rem 0 3rem 0;
+    border: 1px solid black;
+    padding: .5rem 2%;
+    max-width: 100%;
+}
+
+form legend {
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    max-width: 93%;
+}
+
+form label.top input,
+form label.top select,
+form label.top select.option {
+    -webkit-appearance: none;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 97%;
+    max-width: 97%;
+    background-color: white;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+    max-width: 100%;
+}
+
+.space {
+    margin-top: -15px;
+    padding: .5rem;
+    width: 94%;
+    height: 215px;
+    border-radius: 5px;
+}
+
+form label.top input:required {
+    border-left: #fa8722 solid 10px;
+}
+
+form label.top input:required:valid {
+    border-left: rgb(44, 44, 44) solid 6px;
+}
+
+.flexly {
+    display: flex;
+    align-items: center;
+}
+
+#white {
+    background-color: white;
+    width: 200px;
+    color: #555;
+}
+
+#ratingvalue {
+    margin: 0 15px;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #912a2d;
+    color: white;
+    border-radius: 10px;
+    padding: .75rem 1.5rem;
+    margin: 0 0 20px 40px;
+    width: 75%;
+    max-width: 20rem;
+}
+
+h3.thankyou {
+    font-family: "Neucha", fantasy, cursive;
+    text-align: center;
+    line-height: 1.25em;
+    font-size: 20px;
+    color: #912a2d;
+    text-shadow: rgb(227, 241, 252) 3px 3px 5px;
+    margin: 50px;
+
 }
