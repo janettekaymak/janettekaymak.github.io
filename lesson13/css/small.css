@@ -504,12 +504,19 @@ tfoot td {
 
 #foot1,
 #foot2,
-#foot3 {
+#foot3,
+#foot4,
+#foot5 {
     margin: auto;
     padding: 30px;
     border: navajowhite solid 2px;
     border-radius: 15px;
     margin: 30px 20px;
+}
+#foot4 img, #foot5 img{
+    display: block;
+    max-width: 100%;
+    margin: auto;
 }
 
 #social-icon-box img {
@@ -773,7 +780,7 @@ form input.submitBtn {
 }
 
 #two-locations{
-    background-color: turquoise;
+    background-color: rgb(252, 200, 122);
     padding: 20px;
     border-radius: 15px;
     border: dotted 5px #fa8722;
