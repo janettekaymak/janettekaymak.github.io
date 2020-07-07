@@ -151,4 +151,18 @@
         font-size: 18px;
     }
 
+
+    #thanks-header{
+        height: 620px;
+    }
+    
+    #refund{
+        margin: 10px 150px auto 150px;
+        font-size: 20px;
+    }
+    
+    #motto.confirmation{
+        margin-top: 10px;
+    }
+
 }
