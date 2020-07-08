@@ -9,7 +9,7 @@ header {
 }
 
 body {
-    background-color: turquoise;
+    background-color: rgb(252, 233, 206);
 }
 
 #logo {
@@ -576,7 +576,7 @@ tfoot td {
 #updated-contact{
     padding: 0 0 20px 0;
 }
-/*--------------------------*/
+/*-------------Tours-------------*/
 
 #article {
     background-color: navajowhite;
@@ -610,11 +610,14 @@ tfoot td {
     font-family: poppins;
 }
 
-#tours-grid-box img {
+#tours-grid-box img, figure {
     display: block;
     margin: auto auto 50px auto;
     border-radius: 8px;
-    border: black solid .5px;
+}
+
+#tours-grid-box img{
+    border: solid 1px;
 }
 
 #tours-grid-box {

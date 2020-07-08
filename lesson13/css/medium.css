@@ -200,7 +200,7 @@
         color: black;
     }
 
-    #tours-grid-box img {
+    #tours-grid-box img, figure {
         margin-bottom: 20px;
     }
 
