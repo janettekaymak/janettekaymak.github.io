@@ -822,3 +822,6 @@ form input.submitBtn {
 #article.intro{
     margin-bottom: 19px;
 }
+#article.intro img{
+    margin: auto auto 15px auto;
+}

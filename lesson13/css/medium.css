@@ -214,6 +214,10 @@
         margin: 30px 0px 0 30px;
     }
 
+    #article.intro img{
+        margin: auto auto 10px 15px;
+    }
+
     #tours-main{
         margin-bottom: -10px;
     }
