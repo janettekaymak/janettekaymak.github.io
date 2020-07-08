@@ -771,10 +771,11 @@ form input.submitBtn {
 }
 
 #thanks-header{
-    height: 665px;
+    height: 675px;
 }
 
-#thanks-footer{
+#contact-footer.thanks-footer{
+    padding-top: 5px;
     margin-top: -19px;
 }
 
