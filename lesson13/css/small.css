@@ -8,8 +8,8 @@ header {
     height: 540px;
 }
 
-body {
-    background-color: rgb(252, 233, 206);
+#tours-body {
+    background-color: rgb(250, 239, 224);
 }
 
 #logo {
@@ -632,6 +632,9 @@ tfoot td {
 
 #just-map-contact.move-down {
     margin-top: 18px;
+}
+#tours-main{
+    margin-bottom: -50px;
 }
 
 /*------------------Reservations____________________*/
