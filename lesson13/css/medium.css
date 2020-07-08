@@ -165,7 +165,9 @@
     #wide img {
         display: block;
         width: 100%;
-
+    }
+    #wide.contact-map{
+        margin: -19px auto 0 auto;
     }
 
     #tour1,
