@@ -122,11 +122,15 @@
         box-shadow: darkturquoise 0 0 50px;
     }
 
-    #home-map img {
+    #photo-grid-box.contact-cars{
+        margin-bottom: 60px;
+    }
+
+   /* #home-map img {
         display: block;
         width: 100%;
         margin: auto;
-    }
+    }*/
 
     #just-map-contact img {
         display: none;

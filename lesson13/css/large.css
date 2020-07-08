@@ -74,8 +74,12 @@
         box-shadow: black 0 0 20px;
     }
 
-    #home-map img {
+    /*#home-map img {
         width: 66%;
+    }*/
+
+    #photo-grid-box.contact-cars{
+        margin-bottom: 30px;
     }
 
     #social-icon-box {
