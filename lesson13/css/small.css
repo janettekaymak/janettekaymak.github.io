@@ -8,10 +8,6 @@ header {
     height: 540px;
 }
 
-#tours-body {
-    background-color: rgb(250, 239, 224);
-}
-
 #logo {
     width: 360px;
     display: block;
@@ -578,6 +574,10 @@ tfoot td {
 }
 /*-------------Tours-------------*/
 
+#tours-body {
+    background-color: rgb(250, 239, 224);
+}
+
 #article {
     background-color: navajowhite;
     border: rgb(255, 187, 0) dotted 5px;
@@ -590,7 +590,7 @@ tfoot td {
 
 #article img{
     max-width: 100%;
-    margin: 10px auto;
+    margin: 30px auto -30px auto;
     border-radius: 8px;
     border: black solid .5px;
 
