@@ -336,9 +336,8 @@ their own photos*/
     border-radius: 10px;
 }
 
-#google:hover {
+#google1:hover {
     background-color: #fa8722;
-    color: cyan;
 }
 
 .main-footer p {
@@ -491,8 +490,14 @@ tfoot td {
     margin-bottom: -15px;
 }
 
-#foot3 a {
-    color: #fa8722
+#foot3 a{
+    color: cyan;
+}
+
+#foot3 a:hover {
+    color: #fa8722;
+    font-size: 22px;
+    transition: 1s;
 
 }
 
