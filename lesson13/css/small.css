@@ -605,7 +605,7 @@ tfoot td {
 }
 
 #article a {
-    color: darkturquoise;
+    color: rgb(1, 184, 187);
     text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px;
 }
 
