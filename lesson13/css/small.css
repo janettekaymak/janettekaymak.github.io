@@ -456,8 +456,8 @@ tfoot td {
     margin: -19px auto auto auto;
 }
 
-#home-map img {
-    display: none;
+#just-map-contact.contact-map img{
+    margin: -19px auto -50px auto;
 }
 
 #wide img {
@@ -630,9 +630,6 @@ tfoot td {
     text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px;
 }
 
-#just-map-contact.move-down {
-    margin-top: 18px;
-}
 #tours-main{
     margin-bottom: -50px;
 }
