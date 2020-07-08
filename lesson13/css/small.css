@@ -491,7 +491,7 @@ tfoot td {
 }
 
 #contact-grid-box{
-    margin-top: -10px;
+    margin-top: 20px;
 }
 
 #contact-footer {
@@ -508,11 +508,10 @@ tfoot td {
 #foot3,
 #foot4,
 #foot5 {
-    margin: auto;
-    padding: 30px;
+    padding: 20px;
     border: navajowhite solid 2px;
     border-radius: 15px;
-    margin: 30px 20px;
+    margin: 10px;
 }
 #foot4 img, #foot5 img{
     display: block;
@@ -533,11 +532,6 @@ tfoot td {
     margin: auto;
 }
 
-#updated {
-    padding-bottom: 30px;
-    margin-top: -20px
-}
-
 #contact-footer #google1:hover,
 #contact-footer #google2:hover,
 #contact-footer #google3:hover {
@@ -551,7 +545,7 @@ tfoot td {
 }
 
 #updated-contact{
-    padding: 0 0 50px 0;
+    padding: 0 0 20px 0;
 }
 /*--------------------------*/
 
