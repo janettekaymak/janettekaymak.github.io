@@ -122,6 +122,11 @@
         box-shadow: darkturquoise 0 0 50px;
     }
 
+    #wide.move img{
+        margin-bottom: -20px;
+        margin-top: -20px;
+    }
+
     #photo-grid-box.contact-cars{
         margin-bottom: 60px;
     }
