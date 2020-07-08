@@ -495,7 +495,7 @@ tfoot td {
     margin-bottom: -15px;
 }
 
-#contact-box a {
+#foot3 a {
     color: #fa8722
 
 }
@@ -553,6 +553,10 @@ tfoot td {
 #social-icon-box a:hover {
     background-color: #fa8722;
     transition: 1s;
+}
+
+#updated-contact{
+    padding: 0 0 50px 0;
 }
 /*--------------------------*/
 

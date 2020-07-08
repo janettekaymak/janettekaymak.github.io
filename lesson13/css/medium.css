@@ -146,9 +146,11 @@
 
     #foot1,
     #foot2,
-    #foot3 {
+    #foot3,
+    #foot4,
+    #foot5 {
         max-width: 100%;
-        margin: 20px;
+        margin: 5px;
     }
 
     #foot1 {
@@ -162,14 +164,22 @@
     #foot3 {
         grid-area: foot3;
     }
+    #foot4 {
+        grid-area: foot4;
+    }
 
-    #contact-box {
-        width: 87%;
+    #foot5 {
+        grid-area: foot5;
+    }
+
+    #contact-grid-box {
+        width: 98%;
         display: grid;
-        margin: auto 50px;
+        margin: 10px 7px;
         grid-template-areas:
             'foot1 foot2'
-            'foot3 foot3';
+            'foot3 foot3'
+            'foot4 foot5';
     }
 
     #wide img {
