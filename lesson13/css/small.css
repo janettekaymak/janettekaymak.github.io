@@ -450,6 +450,10 @@ tfoot td {
 }
 
 /*-------Contact--------------*/
+
+#photo-grid-box.contact-cars{
+    margin-bottom: 25px;
+}
 #contact-map img {
     display: block;
     max-width: 100%;
