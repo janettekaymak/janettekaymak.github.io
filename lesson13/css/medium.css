@@ -175,7 +175,7 @@
     #contact-grid-box {
         width: 98%;
         display: grid;
-        margin: 10px 7px;
+        margin: 15px 7px;
         grid-template-areas:
             'foot1 foot2'
             'foot3 foot3'
