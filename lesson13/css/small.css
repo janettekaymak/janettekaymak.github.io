@@ -479,16 +479,19 @@ tfoot td {
     font-size: 24px;
 }
 
-#contact-box p,
+#contact-grid-box p,
 #contact-footer p {
     text-align: center;
     color: navajowhite;
     font-family: Poppins;
-
 }
 
-#contact-box p {
+#contact-grid-box p {
     line-height: 1.5;
+}
+
+#contact-grid-box{
+    margin-top: -10px;
 }
 
 #contact-footer {
@@ -498,10 +501,6 @@ tfoot td {
 #foot3 a {
     color: #fa8722
 
-}
-
-#contact-box a:hover {
-    color: cyan;
 }
 
 #foot1,
