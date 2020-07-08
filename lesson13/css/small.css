@@ -1,7 +1,4 @@
-/*body {
-    /*The following image was obtained legally from Unsplash.com, by Mink Mingle*/
-/*background: url("https://janettekaymak.github.io/lesson13/images/mink-final.jpg");
-}*/
+
 
 header {
     background: url("https://janettekaymak.github.io/lesson13/images/cris-tagupa-unsplash2.jpg");
@@ -490,10 +487,6 @@ tfoot td {
     line-height: 1.5;
 }
 
-#contact-grid-box{
-    margin-top: 20px;
-}
-
 #contact-footer {
     margin-bottom: -15px;
 }
@@ -507,11 +500,42 @@ tfoot td {
 #foot2,
 #foot3,
 #foot4,
-#foot5 {
+#foot4img,
+#foot5,
+#foot5img {
     padding: 20px;
     border: navajowhite solid 2px;
     border-radius: 15px;
     margin: 10px;
+}
+#foot1 {
+    grid-area: foot1;
+}
+
+#foot2 {
+    grid-area: foot2;
+}
+
+#foot3 {
+    grid-area: foot3;
+}
+#foot4 {
+    grid-area: foot4;
+}
+
+#foot5 {
+    grid-area: foot5;
+}
+
+#contact-grid-box{
+    display: grid;
+    grid-template-areas: 
+    'foot5'
+    'foot4'
+    'foot1'
+    'foot2'
+    'foot3';
+    margin-top: 10px;
 }
 #foot4 img, #foot5 img{
     display: block;

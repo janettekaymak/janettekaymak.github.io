@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 1188px) {
 
-    header{
+    header {
         height: 540px;
     }
 
@@ -15,7 +15,7 @@
         font-size: 85px;
     }
 
-    #hours{
+    #hours {
         font-size: 18px;
         margin: 18px auto auto auto;
     }
@@ -25,7 +25,7 @@
         margin-top: 13px;
     }
 
-    nav{
+    nav {
         margin-top: -18px;
     }
 
@@ -44,7 +44,8 @@
             'box1 box3 box3 box2'
     }
 
-    #box1, #box2{
+    #box1,
+    #box2 {
         height: auto;
         font-size: 115%;
     }
@@ -115,26 +116,26 @@
     #tour4,
     #tour5,
     #tour6 {
-       padding: 0 20px;
+        padding: 0 20px;
     }
 
-    #tours-grid-box img{
+    #tours-grid-box img {
         width: 100%;
     }
 
-    #information{
+    #information {
         width: 38%;
         margin: -100px auto 20px auto;
         padding: 20px;
-        
+
     }
 
-    #information li{
+    #information li {
         margin-left: 0px;
         line-height: 2;
     }
 
-    #list{
+    #list {
         background: linear-gradient(rgb(3, 181, 184), cyan, white);
         padding: 15px 10px 40px 10px
     }
@@ -145,16 +146,16 @@
     }
 
 
-    #thanks-header{
+    #thanks-header {
         height: 620px;
     }
-    
-    #refund{
+
+    #refund {
         margin: 10px 150px auto 150px;
         font-size: 20px;
     }
-    
-    #motto.confirmation{
+
+    #motto.confirmation {
         margin-top: 10px;
     }
 
@@ -163,18 +164,17 @@
     #foot3,
     #foot4,
     #foot5 {
-        max-width: 100%;
-        margin: 15px;
-        padding: 10px 50px;
+        margin: 20px;
     }
 
     #contact-grid-box {
-        width: 98%;
+        width: 90%;
         display: grid;
-        margin: 15px 7px;
+        margin: 20px auto auto auto;
         grid-template-areas:
-            'foot1 foot3 foot2'
-            'foot4 foot5';
+            'foot4 foot4 foot4 foot5 foot5 foot5'
+            'foot1 foot1 foot2 foot2 foot3 foot3'
+        ;
     }
 
 }
