@@ -77,13 +77,6 @@
         width: 66%;
     }
 
-    #contact-box {
-        max-width: 100%;
-        margin: auto;
-        grid-template-areas:
-            'foot2 foot1 foot3';
-    }
-
     #social-icon-box {
         max-width: 50%;
     }
@@ -163,6 +156,25 @@
     
     #motto.confirmation{
         margin-top: 10px;
+    }
+
+    #foot1,
+    #foot2,
+    #foot3,
+    #foot4,
+    #foot5 {
+        max-width: 100%;
+        margin: 15px;
+        padding: 10px 50px;
+    }
+
+    #contact-grid-box {
+        width: 98%;
+        display: grid;
+        margin: 15px 7px;
+        grid-template-areas:
+            'foot1 foot3 foot2'
+            'foot4 foot5';
     }
 
 }
