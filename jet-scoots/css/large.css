@@ -51,8 +51,8 @@
     }
 
     #photo-grid-box {
-        width: 100%;
-        margin: -19px auto auto auto;
+        width: 99.7%;
+        margin: -19px -2px auto 0;
         display: grid;
         grid-template-areas:
             'photo1 photo2 photo3 photo4 photo5 photo6';
