@@ -311,7 +311,7 @@ their own photos*/
 
 }
 
-#photo-grid-box {
+#photo-grid-box, #photo-grid-box2 {
     margin: -19px auto auto auto;
     display: grid;
     grid-template-areas:

@@ -272,8 +272,26 @@
         width: 100%;
         margin-top: 0;
     }
-    form{
-        padding: 0 150px;
+
+    #photo-grid-box2{
+        grid-template-areas: 
+        'photo1'
+        'photo2'
+        'photo3'
+        'photo4'
+        'photo5'
+        'photo6';
+        float: left;
+        display: block;
+        width: 30%;
+        margin: auto;
+    }
+    #form{
+        float: right;
+        display: block;
+        width: 54%;
+        margin: auto;
+        padding: 20px;
     }
 
     #thanks-header{
