@@ -79,7 +79,8 @@
     }*/
 
     #photo-grid-box.contact-cars{
-        margin-bottom: 30px;
+        width: 100%;
+        margin: -19px auto 30px auto;
     }
 
     #social-icon-box {
