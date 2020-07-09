@@ -51,100 +51,101 @@
 
     </nav>
     <main>
-        <div id="form-grid-box">
-            <div id="list">
-                <h2>InfOrmatiOn and Services</h2>
-                <ul>
+        <div id="list">
+            <h2>InfOrmatiOn and Services</h2>
+            <div id="list-grid-box">
+                <ul id="left">
                     <li>$50 security deposit (credit card only) required to confirm reservations.</li>
                     <li>Valid drivers license in hand required at time of rental.</li>
                     <li>No one under 12 years of age allowed to ride on scooters.</li>
                     <li>Fuel charge not included.</li>
                     <li>Unlimited mileage.</li>
+                </ul>
+                <ul id="right">
                     <li>Liability insurance, free of charge.</li>
                     <li>Reservations rate requires 24 hour prior notification.</li>
                     <li>Free delivery within Cozumel for 2+ day rentals.</li>
-                    <li>Payment due at time of pickup or delivery, via Google Pay, cash, credit card, debit card, or PayPal.</li>
+                    <li>Payment due at time of pickup or delivery, via Google Pay, cash, credit card, debit card, or
+                        PayPal.</li>
                     <li>Rentals may be returned to either location.</li>
                 </ul>
             </div>
-            <div id="photo-grid-box" class="wider">
-                <div id="photo1" class="form-img">
-                    <img src="images/honda-metro.jpg" alt="scooter">
-                    <p>Honda Metro</p>
-                </div>
-                <div id="photo2" class="form-img">
-                    <img src="images/honda-dio.jpg" alt="scooter or jeep">
-                    <p>Honda Dio</p>
-                </div>
-                <div id="photo3" class="form-img">
-                    <img src="images/honda-pcx.jpg" alt="scooter">
-                    <p>Honda PCX150</p>
-                </div>
-                <div id="photo4" class="form-img">
-                    <img src="images/honda-Pioneer.jpg" alt="jeep">
-                    <p>Honda Pioneer</p>
-                </div>
-                <div id="photo5" class="form-img">
-                    <img src="images/4door.jpg" alt="jeep">
-                    <p>4dr Jeep Wrangler</p>
-                </div>
-                <div id="photo6" class="form-img">
-                    <img src="images/2door.jpg" alt="jeep">
-                    <p>2dr Jeep Wrangler</p>
-                </div>
+        </div>
+        <div id="photo-grid-box" class="wider">
+            <div id="photo1" class="form-img">
+                <img src="images/honda-metro.jpg" alt="scooter">
+                <p>Honda Metro</p>
             </div>
-            <div id="form">
-                <h2>Vehicle ReservatiOn</h2>
-                <h4>Fill out and submit this form to reserve your vehicle:</h4>
-                <form method="get" action="thanks.html">
-                    <fieldset>
-                        <legend>Your Information</legend>
-                        <label class="top">Full Name*<input type="text" name="name"
-                                title="Must be at least 5 characters" pattern="^[a-zA-Z\s\.\-]{5,}$" required></label>
-                        <label class="top">Email<input type="email" name="email"
-                                placeholder="someone@email.com"></label>
-                        <label class="top">Telephone*<input id="tel" type="tel" name="phone"
-                                placeholder="(XXX) XXX-XXXX" pattern="\(\d{3}\) \d{3}\-\d{4}" class="masked"
-                                title="10-digit number" required></label>
-                        <label class="top">Zipcode*<input type="number" name="zipcode" required></label><br>
-                        <!--<img class="stormImg" src="/lesson7/images/nasa.jpg" alt="electrical storm">-->
-                    </fieldset>
-                    <fieldset>
-                        <legend>Credit Card Information</legend>
-                        <label class="top">Name on Credit Card*<input type="text" name="name"
-                                title="Must be at least 5 characters" pattern="^[a-zA-Z\s\.\-]{5,}$" required></label>
-                        <label class="top">Expiration Date<input type="date" name="date"></label>
-                        <label class="top">Storm Type <input list="stormtype" name="stormtype"></label>
-                        <datalist id="stormtype">
-                            <option value="Flash Flood">
-                            <option value="Hail">
-                            <option value="Hurricane">
-                            <option value="Thunderstorm">
-                            <option value="Tornado">
-                        </datalist><br>
-                        <label id="red">Storm Region
-                            <select id="white" name="region">
-                                <option value="" selected disabled>Select Region - </option>
-                                <option value="preston">Preston</option>
-                                <option value="fishHaven">Fish Haven</option>
-                                <option value="sodaSprings">Soda Springs</option>
-                            </select>
-                        </label><br><br>
-                        <div>User In Danger?</div>
-                        <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
-                        <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
-                        <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label><br>
-                        <!--<img class="stormImg2" src="/lesson7/images/electrical.jpg" alt="NASA image of hurricane">-->
-                    </fieldset>
-                    <fieldset>
-                        <legend>Vehicle Reservation</legend>
-                        <label>Add your comments below:<br><br><textarea name="comments"
-                                class="space"></textarea></label>
-                        <!--<img class="stormImg3" src="/lesson7/images/noaa.jpg" alt="electrical storm">-->
-                    </fieldset>
-                    <input type="submit" value="Reserve My Vehicle" class="submitBtn"><br><br>
-                </form>
+            <div id="photo2" class="form-img">
+                <img src="images/honda-dio.jpg" alt="scooter or jeep">
+                <p>Honda Dio</p>
             </div>
+            <div id="photo3" class="form-img">
+                <img src="images/honda-pcx.jpg" alt="scooter">
+                <p>Honda PCX150</p>
+            </div>
+            <div id="photo4" class="form-img">
+                <img src="images/honda-Pioneer.jpg" alt="jeep">
+                <p>Honda Pioneer</p>
+            </div>
+            <div id="photo5" class="form-img">
+                <img src="images/4door.jpg" alt="jeep">
+                <p>4dr Jeep Wrangler</p>
+            </div>
+            <div id="photo6" class="form-img">
+                <img src="images/2door.jpg" alt="jeep">
+                <p>2dr Jeep Wrangler</p>
+            </div>
+        </div>
+        <div id="form">
+            <h2>Vehicle ReservatiOn</h2>
+            <h4>Fill out and submit this form to reserve your vehicle:</h4>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Your Information</legend>
+                    <label class="top">Full Name*<input type="text" name="name" title="Must be at least 5 characters"
+                            pattern="^[a-zA-Z\s\.\-]{5,}$" required></label>
+                    <label class="top">Email<input type="email" name="email" placeholder="someone@email.com"></label>
+                    <label class="top">Telephone*<input id="tel" type="tel" name="phone" placeholder="(XXX) XXX-XXXX"
+                            pattern="\(\d{3}\) \d{3}\-\d{4}" class="masked" title="10-digit number" required></label>
+                    <label class="top">Zipcode*<input type="number" name="zipcode" required></label><br>
+                    <!--<img class="stormImg" src="/lesson7/images/nasa.jpg" alt="electrical storm">-->
+                </fieldset>
+                <fieldset>
+                    <legend>Credit Card Information</legend>
+                    <label class="top">Name on Credit Card*<input type="text" name="name"
+                            title="Must be at least 5 characters" pattern="^[a-zA-Z\s\.\-]{5,}$" required></label>
+                    <label class="top">Expiration Date<input type="date" name="date"></label>
+                    <label class="top">Storm Type <input list="stormtype" name="stormtype"></label>
+                    <datalist id="stormtype">
+                        <option value="Flash Flood">
+                        <option value="Hail">
+                        <option value="Hurricane">
+                        <option value="Thunderstorm">
+                        <option value="Tornado">
+                    </datalist><br>
+                    <label id="red">Storm Region
+                        <select id="white" name="region">
+                            <option value="" selected disabled>Select Region - </option>
+                            <option value="preston">Preston</option>
+                            <option value="fishHaven">Fish Haven</option>
+                            <option value="sodaSprings">Soda Springs</option>
+                        </select>
+                    </label><br><br>
+                    <div>User In Danger?</div>
+                    <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
+                    <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+                    <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label><br>
+                    <!--<img class="stormImg2" src="/lesson7/images/electrical.jpg" alt="NASA image of hurricane">-->
+                </fieldset>
+                <fieldset>
+                    <legend>Vehicle Reservation</legend>
+                    <label>Add your comments below:<br><br><textarea name="comments" class="space"></textarea></label>
+                    <!--<img class="stormImg3" src="/lesson7/images/noaa.jpg" alt="electrical storm">-->
+                </fieldset>
+                <input type="submit" value="Reserve My Vehicle" class="submitBtn"><br><br>
+            </form>
+        </div>
         </div>
         <div>
             <figure id="just-map-contact" class="move">
@@ -183,10 +184,10 @@
                 <div id="social-icon-box">
                     <a href="https://www.facebook.com/Cozumel-262312095626"><img src="images/fb-icon.png"
                             alt="facebook icon"></a>
-                    <a href="https://www.instagram.com/explore/tags/snorkeling/"><img
-                            src="images/insta-icon.png" alt="instagram icon"></a>
-                    <a href="https://www.pinterest.com/search/pins/?q=scooters"><img
-                            src="images/pinterest.png" alt="facebook icon"></a>
+                    <a href="https://www.instagram.com/explore/tags/snorkeling/"><img src="images/insta-icon.png"
+                            alt="instagram icon"></a>
+                    <a href="https://www.pinterest.com/search/pins/?q=scooters"><img src="images/pinterest.png"
+                            alt="facebook icon"></a>
                 </div>
             </div>
             <div id="foot3">

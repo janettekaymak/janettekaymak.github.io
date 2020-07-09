@@ -670,6 +670,10 @@ tfoot td {
     padding: 0 10px;
 }
 
+#right{
+    margin-top: -15px;
+}
+
 #form{
     background: linear-gradient(darkturquoise, turquoise, rgb(40, 236, 236),
     rgb(168, 241, 229), white);

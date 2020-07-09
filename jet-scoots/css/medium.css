@@ -249,8 +249,25 @@
         font-size: 15px;
     }
     #list{
-        padding: 30px 150px;
+        padding: auto;;
     }
+
+    #list-grid-box{
+        display: grid;
+        grid-template-areas: 
+        'left right';
+    }
+
+    
+    #right{
+        margin: auto;
+        grid-area: right;
+    }
+
+    #left{
+        grid-area: left;
+    }
+
     #photo-grid-box.wider{
         width: 100%;
         margin-top: 0;
