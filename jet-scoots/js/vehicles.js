@@ -1,4 +1,4 @@
-const myURL = 'https://janettekaymak.github.io/lesson13/data/vehicles.json';
+const myURL = 'https://janettekaymak.github.io/jet-scoots/data/vehicles.json';
 
 fetch(myURL)
   .then((response) => response.json())
