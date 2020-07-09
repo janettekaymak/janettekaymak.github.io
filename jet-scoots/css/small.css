@@ -644,18 +644,6 @@ tfoot td {
 
 /*------------------Reservations____________________*/
 
-#information li {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-    line-height: 1.5;
-}
-
-#information {
-    margin: auto;
-    background-color: navajowhite;
-    padding: 10px;
-    border: dotted 7px #fa8722;
-}
-
 #list {
     background-image: linear-gradient(rgb(3, 171, 173),
             darkturquoise, turquoise, rgb(40, 236, 236),
