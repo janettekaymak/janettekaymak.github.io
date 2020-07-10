@@ -103,84 +103,84 @@
                 <h4 id="fill">Fill out and submit this form to reserve your vehicle:</h4>
                 <form method="get" action="thanks.html">
                     <fieldset>
-                        <legend>My ~ScOOts Vehicle</legend><br>
-                        <label></label>
-                            <select name="vehicle">
-                                <option value="" selected disabled>Select Vehicle - </option>
-                                <option value="hondametro">Honda Metro Scooter</option>
-                                <option value="hondadio">Honda Dio Scooter</option>
-                                <option value="hondapcx150">Honda PCX150 Scooter</option>
-                                <option value="hondapioneer">Honda Pioneer ATV</option>
-                                <option value="jeepwrangler4dr">Jeep Wrangler 4door w/ac</option>
-                                <option value="jeepwrangler2dr">Jeep Wrangler 2door</option>
-                            </select><br><br>
+                        <legend>Vehicle Selection</legend>
+                        <label class="top">Choose Your Vehicle :<input list="vehicles" name="vehicles" required></label>
+                        <datalist id="vehicles">
+                            <option value="" selected disabled>Select Vehicle - </option>
+                            <option value="Honda Metro Scooter"></option>
+                            <option value="Honda Dio Scooter"></option>
+                            <option value="Honda PCX150 Scooter"></option>
+                            <option value="Honda Pioneer ATV"></option>
+                            <option value="Jeep Wrangler 4door w/ac"></option>
+                            <option value="Jeep Wrangler 2door"></option>
+                        </datalist><br>
                         <label class="top">Pick Up or Delivery Date :<input type="date" name="pickupdate"
                                 required></label><br>
-                        <label>Pick Up or Delivery Time :</label>
-                            <select name="time">
-                                <option value="" selected disabled>Select Time - </option>
-                                <option value="7am">7:00 am</option>
-                                <option value="730am">7:30 am</option>
-                                <option value="8am">8:00 am</option>
-                                <option value="830am">8:30 am</option>
-                                <option value="9am">9:00 am</option>
-                                <option value="930am">9:30 am</option>
-                                <option value="10am">10:00 am</option>
-                                <option value="1030am">10:30 am</option>
-                                <option value="11am">11:00 am</option>
-                                <option value="1130am">11:30 am</option>
-                                <option value="12pm">12:00 pm</option>
-                                <option value="1230pm">12:30 pm</option>
-                                <option value="1pm">1:00 pm</option>
-                                <option value="130pm">1:30 pm</option>
-                                <option value="2pm">2:00 pm</option>
-                                <option value="230pm">2:30 pm</option>
-                                <option value="3pm">3:00 pm</option>
-                                <option value="330pm">3:30 pm</option>
-                                <option value="4pm">4:00 pm</option>
-                                <option value="430pm">4:30 pm</option>
-                                <option value="5pm">5:00 pm</option>
-                                <option value="530pm">5:30 pm</option>
-                                <option value="6pm">6:00 pm</option>
-                                <option value="630pm">6:30 pm</option>
-                                <option value="7pm">7:00 pm</option>
-                                <option value="730pm">7:30 pm</option>
-                                <option value="8pm">8:00 pm</option>
-                                <option value="830pm">8:30 pm</option>
-                            </select><br>
+                        <label class="top">Pick Up or Delivery Time :<input list="time" name="time" required></label>
+                        <datalist id="time">
+                            <option value="" selected disabled>Select Time - </option>
+                            <option value="7:00 am"></option>
+                            <option value="7:30 am"></option>
+                            <option value="8:00 am"></option>
+                            <option value="8:30 am"></option>
+                            <option value="9:00 am"></option>
+                            <option value="9:30 am"></option>
+                            <option value="10:00 am"></option>
+                            <option value="10:30 am"></option>
+                            <option value="11:00 am"></option>
+                            <option value="11:30 am"></option>
+                            <option value="12:00 pm"></option>
+                            <option value="12:30 pm"></option>
+                            <option value="1:00 pm"></option>
+                            <option value="1:30 pm"></option>
+                            <option value="2:00 pm"></option>
+                            <option value="2:30 pm"></option>
+                            <option value="3:00 pm"></option>
+                            <option value="3:30 pm"></option>
+                            <option value="4:00 pm"></option>
+                            <option value="4:30 pm"></option>
+                            <option value="5:00 pm"></option>
+                            <option value="5:30pm"></option>
+                            <option value="6:00 pm"></option>
+                            <option value="6:30 pm"></option>
+                            <option value="7:00 pm"></option>
+                            <option value="7:30 pm"></option>
+                            <option value="8:00 pm"></option>
+                            <option value="8:30 pm"></option>
+                        </datalist><br>
                         <label class="top">Return Date :<input type="date" name="return date" required></label><br>
-                        <label>Return Time :</label>
-                            <select name="returntime">
-                                <option value="" selected disabled>Select Time - </option>
-                                <option value="7am">7:00 am</option>
-                                <option value="730am">7:30 am</option>
-                                <option value="8am">8:00 am</option>
-                                <option value="830am">8:30 am</option>
-                                <option value="9am">9:00 am</option>
-                                <option value="930am">9:30 am</option>
-                                <option value="10am">10:00 am</option>
-                                <option value="1030am">10:30 am</option>
-                                <option value="11am">11:00 am</option>
-                                <option value="1130am">11:30 am</option>
-                                <option value="12pm">12:00 pm</option>
-                                <option value="1230pm">12:30 pm</option>
-                                <option value="1pm">1:00 pm</option>
-                                <option value="130pm">1:30 pm</option>
-                                <option value="2pm">2:00 pm</option>
-                                <option value="230pm">2:30 pm</option>
-                                <option value="3pm">3:00 pm</option>
-                                <option value="330pm">3:30 pm</option>
-                                <option value="4pm">4:00 pm</option>
-                                <option value="430pm">4:30 pm</option>
-                                <option value="5pm">5:00 pm</option>
-                                <option value="530pm">5:30 pm</option>
-                                <option value="6pm">6:00 pm</option>
-                                <option value="630pm">6:30 pm</option>
-                                <option value="7pm">7:00 pm</option>
-                                <option value="730pm">7:30 pm</option>
-                                <option value="8pm">8:00 pm</option>
-                                <option value="830pm">8:30 pm</option>
-                            </select><br>
+                        <label class="top">Return Time :<input list="returntime" name="returntime" required></label>
+                        <datalist id="returntime">
+                            <option value="" selected disabled>Select Time - </option>
+                            <option value="7:00 am"></option>
+                            <option value="7:30 am"></option>
+                            <option value="8:00 am"></option>
+                            <option value="8:30 am"></option>
+                            <option value="9:00 am"></option>
+                            <option value="9:30 am"></option>
+                            <option value="10:00 am"></option>
+                            <option value="10:30 am"></option>
+                            <option value="11:00 am"></option>
+                            <option value="11:30 am"></option>
+                            <option value="12:00 pm"></option>
+                            <option value="12:30 pm"></option>
+                            <option value="1:00 pm"></option>
+                            <option value="1:30 pm"></option>
+                            <option value="2:00 pm"></option>
+                            <option value="2:30 pm"></option>
+                            <option value="3:00 pm"></option>
+                            <option value="3:30 pm"></option>
+                            <option value="4:00 pm"></option>
+                            <option value="4:30 pm"></option>
+                            <option value="5:00 pm"></option>
+                            <option value="5:30pm"></option>
+                            <option value="6:00 pm"></option>
+                            <option value="6:30 pm"></option>
+                            <option value="7:00 pm"></option>
+                            <option value="7:30 pm"></option>
+                            <option value="8:00 pm"></option>
+                            <option value="8:30 pm"></option>
+                        </datalist><br>
                         <div>Select Vehicle Location for Pick Up:</div>
                         <label class="sbs"><input type="radio" name="location" value="playacarmen"> ~ScOOts~ Playa del
                             Carmen<br>
