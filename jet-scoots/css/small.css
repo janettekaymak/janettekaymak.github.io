@@ -793,6 +793,12 @@ form input.submitBtn {
     background-color: white;
     border: solid 1px;
 }
+
+#finePrint{
+    font-size: 12px;
+    text-align: justify;
+}
+
 #photo1.form-img img,
 #photo2.form-img img,
 #photo3.form-img img,
