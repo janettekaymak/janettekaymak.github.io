@@ -248,9 +248,6 @@
         padding: 0;
         font-size: 15px;
     }
-    #list{
-        padding: auto;;
-    }
 
     #list-grid-box{
         display: grid;
