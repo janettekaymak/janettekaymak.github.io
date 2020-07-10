@@ -301,6 +301,10 @@
         margin: auto 12% 50px 12%;
     }
 
+    #white-background{
+        background-color: white;
+    }
+
     #thanks-header{
         height: 630px;
     }
