@@ -669,6 +669,7 @@ tfoot td {
 #form{
     background: linear-gradient(darkturquoise, turquoise, rgb(40, 236, 236),
     rgb(168, 241, 229), white);
+    margin-bottom: -20px;
 }
 
 #form h2{
@@ -756,12 +757,13 @@ form input.submitBtn {
     font-size: 22px;
     border: 1px solid black;
     background-color: #fa8722;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: .75rem 1.5rem;
-    margin: -15px 0 20px 40px;
+    margin: -25px auto 25px 10px;
     width: 75%;
-    max-width: 20rem;
+    width: 95%;
 }
+
 
 .field{
     margin-top: -30px;

@@ -122,20 +122,14 @@
         box-shadow: darkturquoise 0 0 50px;
     }
 
-    #wide.move img{
+    #wide.move img {
         margin-bottom: -20px;
         margin-top: -20px;
     }
 
-    #photo-grid-box.contact-cars{
+    #photo-grid-box.contact-cars {
         margin-bottom: 60px;
     }
-
-   /* #home-map img {
-        display: block;
-        width: 100%;
-        margin: auto;
-    }*/
 
     #just-map-contact img {
         display: none;
@@ -175,7 +169,8 @@
         display: block;
         width: 100%;
     }
-    #wide.contact-map{
+
+    #wide.contact-map {
         margin: 40px auto 0 auto;
     }
 
@@ -211,7 +206,8 @@
         color: black;
     }
 
-    #tours-grid-box img, figure {
+    #tours-grid-box img,
+    figure {
         margin-bottom: 20px;
     }
 
@@ -225,11 +221,11 @@
         margin: 30px 0px 0 30px;
     }
 
-    #article.intro img{
+    #article.intro img {
         margin: auto auto 10px 15px;
     }
 
-    #tours-main{
+    #tours-main {
         margin-bottom: -10px;
     }
 
@@ -249,69 +245,72 @@
         font-size: 15px;
     }
 
-    #list-grid-box{
+    #list-grid-box {
         display: grid;
-        grid-template-areas: 
-        'left right';
+        grid-template-areas:
+            'left right';
     }
 
-    
-    #right{
+
+    #right {
         margin: auto;
         grid-area: right;
     }
 
-    #left{
+    #left {
         grid-area: left;
     }
 
-    #photo-grid-box.wider{
+    #photo-grid-box.wider {
         width: 100%;
         margin-top: 0;
     }
 
-    #photo-grid-box2{
-        grid-template-areas: 
-        'photo1'
-        'photo2'
-        'photo3'
-        'photo4'
-        'photo5'
-        'photo6';
+    #photo-grid-box2 {
+        grid-template-areas:
+            'photo1'
+            'photo2'
+            'photo3'
+            'photo4'
+            'photo5'
+            'photo6';
         float: right;
         display: block;
         width: 39%;
         margin: auto;
     }
-    #form{
+
+    #form {
         float: left;
         display: block;
         width: 55.6%;
-        margin: auto auto -20px auto;
+        margin: auto auto 20px auto;
         padding: 0 20px;
     }
-    #form h2{
+
+    #form h2 {
         margin-top: -20px;
     }
 
-    form input.submitBtn {
-        margin: auto 12% 50px 12%;
+    #contact-footer.reservations {
+        margin-top: 2507px;
     }
 
-    #white-background{
-        background-color: white;
+    body{
+        background: linear-gradient(white, white, white, black, black);
     }
 
-    #thanks-header{
+
+    #thanks-header {
         height: 630px;
     }
-    
-    #refund{
+
+    #refund {
         padding: 10px 100px;
         margin-top: 10px;
     }
-    
-    #motto.confirmation{
+
+    #motto.confirmation {
         margin: -20px 150px auto 150px;
         line-height: 1.5;
     }
