@@ -92,8 +92,7 @@
                     <label class="top" for="city"><i class="fa fa-institution"></i> City :
                         <input type="text" id="city" name="city" title="Must be at least 3 characters"
                             pattern="^[a-zA-Z\s\.\-]{3,}$" placeholder="Gotham City" required></label>
-                    <label class="top">Zipcode :<input type="zip" name="zipcode" placeholder="12345"
-                            required></label>
+                    <label class="top">Zipcode :<input type="zip" name="zipcode" placeholder="12345" required></label>
                     <label class="top" for="expmonth">Exp Month :
                         <input type="text" id="expmonth" name="expmonth" placeholder="September" required></label>
                     <label class="top" for="expyear">Exp Year :
@@ -115,20 +114,96 @@
                 </fieldset>
                 <fieldset>
                     <legend>Vehicle Reservation</legend>
-                    <label id="red">Desired Vehicle :
-                        <select id="white" name="region">
+                    <label class="top">Pick Up or Delivery Date :<input type="date" name="pickupdate" required></label><br>
+                    <label>Pick Up or Delivery Time :
+                        <select name="time">
+                            <option value="" selected disabled>Select Time - </option>
+                            <option value="7am">7:00 am</option>
+                            <option value="730am">7:30 am</option>
+                            <option value="8am">8:00 am</option>
+                            <option value="830am">8:30 am</option>
+                            <option value="9am">9:00 am</option>
+                            <option value="930am">9:30 am</option>
+                            <option value="10am">10:00 am</option>
+                            <option value="1030am">10:30 am</option>
+                            <option value="11am">11:00 am</option>
+                            <option value="1130am">11:30 am</option>
+                            <option value="12pm">12:00 pm</option>
+                            <option value="1230pm">12:30 pm</option>
+                            <option value="1pm">1:00 pm</option>
+                            <option value="130pm">1:30 pm</option>
+                            <option value="2pm">2:00 pm</option>
+                            <option value="230pm">2:30 pm</option>
+                            <option value="3pm">3:00 pm</option>
+                            <option value="330pm">3:30 pm</option>
+                            <option value="4pm">4:00 pm</option>
+                            <option value="430pm">4:30 pm</option>
+                            <option value="5pm">5:00 pm</option>
+                            <option value="530pm">5:30 pm</option>
+                            <option value="6pm">6:00 pm</option>
+                            <option value="630pm">6:30 pm</option>
+                            <option value="7pm">7:00 pm</option>
+                            <option value="730pm">7:30 pm</option>
+                            <option value="8pm">8:00 pm</option>
+                            <option value="830pm">8:30 pm</option>
+                        </select>
+                    </label><br>
+                    <label class="top">Return Date :<input type="date" name="return date" required></label><br>
+                    <label>Return Time :
+                        <select name="returntime">
+                            <option value="" selected disabled>Select Time - </option>
+                            <option value="7am">7:00 am</option>
+                            <option value="730am">7:30 am</option>
+                            <option value="8am">8:00 am</option>
+                            <option value="830am">8:30 am</option>
+                            <option value="9am">9:00 am</option>
+                            <option value="930am">9:30 am</option>
+                            <option value="10am">10:00 am</option>
+                            <option value="1030am">10:30 am</option>
+                            <option value="11am">11:00 am</option>
+                            <option value="1130am">11:30 am</option>
+                            <option value="12pm">12:00 pm</option>
+                            <option value="1230pm">12:30 pm</option>
+                            <option value="1pm">1:00 pm</option>
+                            <option value="130pm">1:30 pm</option>
+                            <option value="2pm">2:00 pm</option>
+                            <option value="230pm">2:30 pm</option>
+                            <option value="3pm">3:00 pm</option>
+                            <option value="330pm">3:30 pm</option>
+                            <option value="4pm">4:00 pm</option>
+                            <option value="430pm">4:30 pm</option>
+                            <option value="5pm">5:00 pm</option>
+                            <option value="530pm">5:30 pm</option>
+                            <option value="6pm">6:00 pm</option>
+                            <option value="630pm">6:30 pm</option>
+                            <option value="7pm">7:00 pm</option>
+                            <option value="730pm">7:30 pm</option>
+                            <option value="8pm">8:00 pm</option>
+                            <option value="830pm">8:30 pm</option>
+                        </select>
+                    </label><br><br><br>
+                    <label>Desired Vehicle :
+                        <select name="vehicle">
                             <option value="" selected disabled>Select Vehicle - </option>
                             <option value="hondametro">Honda Metro Scooter</option>
                             <option value="hondadio">Honda Dio Scooter</option>
                             <option value="hondapcx150">Honda PCX150 Scooter</option>
                             <option value="hondapioneer">Honda Pioneer ATV</option>
-                            <option value="sodaSprings">Honda PCX150 Scooter</option>
-                            <option value="sodaSprings">Honda PCX150 Scooter</option>
+                            <option value="jeepwrangler4dr">Jeep Wrangler 4door w/ac</option>
+                            <option value="jeepwrangler2dr">Jeep Wrangler 2door</option>
                         </select>
                     </label><br><br>
+                    <div>Select Vehicle Location for Pick Up:</div>
+                    <label class="sbs"><input type="radio" name="location" value="playacarmen"> ~ScOOts~ Playa del
+                        Carmen<br>
+                        77720 Playa del Carmen<br>
+                        Quintana Roo Mexico</label>
+                    <label class="sbs"><input type="radio" name="location" value="puertamaya"> ~ScOOts~ Puerta Maya<br>
+                        77600 San Miguel de Cozumel<br>
+                        Quintana Roo, Mexico</label><br>
                     <label>State below whether you want pick-up or delivery.
                         If you want delivery, list the address for delivery.
-                        Include any other additional notes or information :<br><br><textarea name="comments"
+                        Include anything else you think we should know :<br><br><textarea name="comments"
                             class="space"></textarea></label>
                     <p id="finePrint">**You must fill out a seperate form for each vehicle you wish to reserve.
                         An additional 50$ deposit is required to reserve EACH vehicle.
@@ -160,11 +235,11 @@
             </div>
             <div id="photo5" class="form-img">
                 <img src="images/4door.jpg" alt="jeep">
-                <p>4dr Jeep Wrangler</p>
+                <p>4door Jeep Wrangler</p>
             </div>
             <div id="photo6" class="form-img">
                 <img src="images/2door.jpg" alt="jeep">
-                <p>2dr Jeep Wrangler</p>
+                <p>2door Jeep Wrangler</p>
             </div>
         </div>
         <div>
