@@ -201,8 +201,14 @@
         ;
     }
 
-    form{
-        padding: 30px;
+    #form{
+        padding: 0 165px;
+        width: 43.8%; 
+        margin: auto;
+    }
+    #photo-grid-box2{
+        width: 28%;
+        margin: auto;
     }
 
 }

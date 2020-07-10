@@ -673,7 +673,7 @@ tfoot td {
 
 #form h2{
     padding-top: 50px;
-    margin-top: 0px;
+    margin-top: -30px;
 }
 
 #form h4{
@@ -758,9 +758,13 @@ form input.submitBtn {
     background-color: #fa8722;
     border-radius: 10px;
     padding: .75rem 1.5rem;
-    margin: -15px 0 40px 40px;
+    margin: -15px 0 20px 40px;
     width: 75%;
     max-width: 20rem;
+}
+
+.field{
+    margin-top: -30px;
 }
 
 #thanks-header{
