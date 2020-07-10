@@ -76,45 +76,20 @@
             <h4 id="fill">Fill out and submit this form to reserve your vehicle:</h4>
             <form method="get" action="thanks.html">
                 <fieldset>
-                    <legend>Credit Card and Billing Information</legend>
-                    <div>Select Type of Credit Card :</div>
-                    <label class="sbs"><input type="radio" name="card" value="visa"> Visa</label>
-                    <label class="sbs"><input type="radio" name="card" value="mastercard"> Mastercard</label>
-                    <label class="sbs"><input type="radio" name="card" value="discover"> Discover</label>
-                    <label class="sbs"><input type="radio" name="card" value="citibank"> Citibank</label>
-                    <label class="sbs"><input type="radio" name="card" value="american express"> American
-                        Express</label>
-                    <label class="top">Name on Credit Card :<input type="text" name="name" placeholder="Captain America"
-                            title="Must be at least 5 characters" pattern="^[a-zA-Z\s\.\-]{5,}$" required></label>
-                    <label class="top" for="adr" required>Street Address :<input type="text" id="adr" name="address"
-                            placeholder="101 W. Dream St." title="Must be at least 6 characters"
-                            pattern="^[a-zA-Z\s\.\,\#\0-9\-]{6,}$" required></label>
-                    <label class="top" for="city"><i class="fa fa-institution"></i> City :
-                        <input type="text" id="city" name="city" title="Must be at least 3 characters"
-                            pattern="^[a-zA-Z\s\.\-]{3,}$" placeholder="Gotham City" required></label>
-                    <label class="top">Zipcode :<input type="zip" name="zipcode" placeholder="12345" required></label>
-                    <label class="top" for="expmonth">Exp Month :
-                        <input type="text" id="expmonth" name="expmonth" placeholder="September" required></label>
-                    <label class="top" for="expyear">Exp Year :
-                        <input type="text" id="expyear" name="expyear" placeholder="2022" required></label>
-                    <label class="top" for="cvv">CVV :
-                        <input type="text" id="cvv" name="cvv" placeholder="410" required></label>
-                </fieldset>
-                <fieldset>
-
-                    <legend>Contact Information</legend>
-                    <label class="top">First Name :<input type="text" name="name" placeholder="Captain"
-                            title="Must be at least 2 characters" pattern="^[a-zA-Z\s\.\-]{2,}$" required></label>
-                    <label class="top">Last Name :<input type="text" name="name" placeholder="America"
-                            title="Must be at least 2 characters" pattern="^[a-zA-Z\s\.\-]{2,}$" required></label>
-                    <label class="top">Email :<input type="email" name="email" placeholder="captain_america@email.com"
-                            required></label>
-                    <label class="top">Telephone :<input id="tel" type="tel" name="phone" class="masked"
-                            required></label>
-                </fieldset>
-                <fieldset>
-                    <legend>Vehicle Reservation</legend>
-                    <label class="top">Pick Up or Delivery Date :<input type="date" name="pickupdate" required></label><br>
+                    <legend>My ~ScOOts Vehicle</legend><br>
+                    <label>
+                        <select name="vehicle">
+                            <option value="" selected disabled>Select Vehicle - </option>
+                            <option value="hondametro">Honda Metro Scooter</option>
+                            <option value="hondadio">Honda Dio Scooter</option>
+                            <option value="hondapcx150">Honda PCX150 Scooter</option>
+                            <option value="hondapioneer">Honda Pioneer ATV</option>
+                            <option value="jeepwrangler4dr">Jeep Wrangler 4door w/ac</option>
+                            <option value="jeepwrangler2dr">Jeep Wrangler 2door</option>
+                        </select>
+                    </label><br><br>
+                    <label class="top">Pick Up or Delivery Date :<input type="date" name="pickupdate"
+                            required></label><br>
                     <label>Pick Up or Delivery Time :
                         <select name="time">
                             <option value="" selected disabled>Select Time - </option>
@@ -181,18 +156,7 @@
                             <option value="8pm">8:00 pm</option>
                             <option value="830pm">8:30 pm</option>
                         </select>
-                    </label><br><br><br>
-                    <label>Desired Vehicle :
-                        <select name="vehicle">
-                            <option value="" selected disabled>Select Vehicle - </option>
-                            <option value="hondametro">Honda Metro Scooter</option>
-                            <option value="hondadio">Honda Dio Scooter</option>
-                            <option value="hondapcx150">Honda PCX150 Scooter</option>
-                            <option value="hondapioneer">Honda Pioneer ATV</option>
-                            <option value="jeepwrangler4dr">Jeep Wrangler 4door w/ac</option>
-                            <option value="jeepwrangler2dr">Jeep Wrangler 2door</option>
-                        </select>
-                    </label><br><br>
+                    </label><br>
                     <div>Select Vehicle Location for Pick Up:</div>
                     <label class="sbs"><input type="radio" name="location" value="playacarmen"> ~ScOOts~ Playa del
                         Carmen<br>
@@ -205,6 +169,31 @@
                         If you want delivery, list the address for delivery.
                         Include anything else you think we should know :<br><br><textarea name="comments"
                             class="space"></textarea></label>
+                </fieldset>
+                <fieldset class="field">
+                    <legend>Credit Card and Billing Information</legend>
+                    <div>Select Type of Credit Card :</div>
+                    <label class="sbs"><input type="radio" name="card" value="visa"> Visa</label>
+                    <label class="sbs"><input type="radio" name="card" value="mastercard"> Mastercard</label>
+                    <label class="sbs"><input type="radio" name="card" value="discover"> Discover</label>
+                    <label class="sbs"><input type="radio" name="card" value="citibank"> Citibank</label>
+                    <label class="sbs"><input type="radio" name="card" value="american express"> American
+                        Express</label>
+                    <label class="top">Name on Credit Card :<input type="text" name="name" placeholder="Captain America"
+                            title="Must be at least 5 characters" pattern="^[a-zA-Z\s\.\-]{5,}$" required></label>
+                    <label class="top" for="adr" required>Street Address :<input type="text" id="adr" name="address"
+                            placeholder="101 W. Dream St." title="Must be at least 6 characters"
+                            pattern="^[a-zA-Z\s\.\,\#\0-9\-]{6,}$" required></label>
+                    <label class="top" for="city"><i class="fa fa-institution"></i> City :
+                        <input type="text" id="city" name="city" title="Must be at least 3 characters"
+                            pattern="^[a-zA-Z\s\.\-]{3,}$" placeholder="Gotham City" required></label>
+                    <label class="top">Zipcode :<input type="zip" name="zipcode" placeholder="12345" required></label>
+                    <label class="top" for="expmonth">Exp Month :
+                        <input type="text" id="expmonth" name="expmonth" placeholder="September" required></label>
+                    <label class="top" for="expyear">Exp Year :
+                        <input type="text" id="expyear" name="expyear" placeholder="2022" required></label>
+                    <label class="top" for="cvv">CVV :
+                        <input type="text" id="cvv" name="cvv" placeholder="410" required></label>
                     <p id="finePrint">**You must fill out a seperate form for each vehicle you wish to reserve.
                         An additional 50$ deposit is required to reserve EACH vehicle.
                         Your credit card will be charged $50 which will go towards your rental fee. To cancel your
@@ -212,6 +201,17 @@
                         on your deposit, send an email to <u>scoots2rent@gmail.com</u> within 24 hours of submitting
                         this form, stating that you wish to cancel your reservation.
                     </p>
+                </fieldset>
+                <fieldset class="field">
+                    <legend>Contact Information</legend>
+                    <label class="top">First Name :<input type="text" name="name" placeholder="Captain"
+                            title="Must be at least 2 characters" pattern="^[a-zA-Z\s\.\-]{2,}$" required></label>
+                    <label class="top">Last Name :<input type="text" name="name" placeholder="America"
+                            title="Must be at least 2 characters" pattern="^[a-zA-Z\s\.\-]{2,}$" required></label>
+                    <label class="top">Email :<input type="email" name="email" placeholder="captain_america@email.com"
+                            required></label>
+                    <label class="top">Telephone :<input id="tel" type="tel" name="phone" class="masked"
+                            required></label>
                 </fieldset>
                 <input type="submit" value="Reserve My Vehicle" class="submitBtn"><br><br>
             </form>

@@ -281,17 +281,28 @@
         'photo4'
         'photo5'
         'photo6';
-        float: left;
+        float: right;
         display: block;
-        width: 30%;
+        width: 39%;
         margin: auto;
     }
     #form{
-        float: right;
+        float: left;
         display: block;
-        width: 54%;
-        margin: auto;
-        padding: 20px;
+        width: 55.6%;
+        margin: auto auto -20px auto;
+        padding: 0 20px;
+    }
+    #form h2{
+        margin-top: -20px;
+    }
+
+    .field{
+        margin-top: -30px;
+    }
+
+    form input.submitBtn {
+        margin: auto 12% 50px 12%;
     }
 
     #thanks-header{
