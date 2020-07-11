@@ -315,4 +315,9 @@
         line-height: 1.5;
     }
 
+    #contactBtn{
+        width: 32%;
+        margin: -59px auto 26px auto;
+    }
+
 }

@@ -211,17 +211,16 @@
         margin: auto;
     }
     form input.submitBtn {
-        font-family: Fontdiner Swanky;
-        font-size: 22px;
-        border: 1px solid black;
-        background-color: #fa8722;
-        border-radius: 5px;
-        padding: .75rem 1.5rem;
         margin: -25px auto 25px 10px;
         width: 50%;
     }
     #contact-footer.reservations {
         margin-top: 2370px;
+    }
+
+    #contactBtn{
+        width: 20%;
+        margin: -28px auto -38px auto;
     }
 
 }

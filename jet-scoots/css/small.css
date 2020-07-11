@@ -752,7 +752,7 @@ form label.top input:required:valid {
 
 
 
-form input.submitBtn {
+form input.submitBtn, #contactBtn {
     font-family: Fontdiner Swanky;
     font-size: 22px;
     border: 1px solid black;
@@ -761,6 +761,14 @@ form input.submitBtn {
     padding: .75rem 1.5rem;
     margin: -25px auto 25px 10px;
     width: 95%;
+    text-align: center;
+}
+#contactBtn a{
+    color: black;
+}
+#contactBtn{
+    width: 50%;
+    margin: -24px auto 26px auto;
 }
 
 
