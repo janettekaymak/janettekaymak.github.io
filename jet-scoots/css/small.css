@@ -442,6 +442,9 @@ tfoot a:hover, #review a:hover {
     color: cyan;
     text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px;
 }
+ #contactBtn a:hover{
+     color: cyan;
+ }
 
 tfoot td {
     height: 85px;
