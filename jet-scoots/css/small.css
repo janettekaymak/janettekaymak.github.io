@@ -444,6 +444,7 @@ tfoot a:hover, #review a:hover {
 }
  #contactBtn a:hover{
      color: cyan;
+     text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px, black 0 0 4px;
  }
 
 tfoot td {
