@@ -164,6 +164,15 @@
             'foot1 foot2'
             'foot3 foot3';
     }
+    #contact-grid-box.contact {
+        width: 98%;
+        display: grid;
+        margin: 15px 7px;
+        grid-template-areas:
+            'foot1 foot2'
+            'foot4 foot5'
+            'foot3 foot3';
+    }
 
     #wide img {
         display: block;
