@@ -499,6 +499,9 @@ tfoot td {
 #contact-footer {
     margin-bottom: -15px;
 }
+#contact-footer.contact{
+    margin-top: -55px;
+}
 
 #foot3 a{
     color: cyan;
@@ -551,6 +554,16 @@ tfoot td {
     'foot2'
     'foot3';
     margin-top: 10px;
+}
+#contact-grid-box.contact{
+    display: grid;
+    grid-template-areas: 
+    'foot1'
+    'foot2'
+    'foot4'
+    'foot5'
+    'foot3';
+    margin-top: -5px;
 }
 #foot4 img, #foot5 img{
     display: block;
