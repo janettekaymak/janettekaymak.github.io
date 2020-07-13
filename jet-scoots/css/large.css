@@ -200,8 +200,18 @@
         margin: 20px auto auto auto;
         grid-template-areas:
             'foot4 foot4 foot4 foot5 foot5 foot5'
+            'foot1 foot1 foot2 foot2 foot3 foot3';
+    }
+    #contact-grid-box.contact {
+        width: 90%;
+        display: grid;
+        margin: 10px auto auto auto;
+        grid-template-areas:
             'foot1 foot1 foot2 foot2 foot3 foot3'
-        ;
+            'foot4 foot4 foot4 foot5 foot5 foot5';
+    }
+    #contact-footer.contact{
+        margin-top: -5px;
     }
 
     #form{
