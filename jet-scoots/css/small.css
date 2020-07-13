@@ -657,6 +657,9 @@ tfoot td {
     padding: 20px 10px;
     margin-top: -19px;
 }
+#list.rentals{
+    margin-top: 0;
+}
 
 #list li {
     font-family: Poppins, Arial, Helvetica, sans-serif;

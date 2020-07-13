@@ -163,6 +163,9 @@
     #list {
         padding: 15px 100px 40px 100px
     }
+    #list.rentals{
+        margin-top: -15px;
+    }
 
 
     #list li {
