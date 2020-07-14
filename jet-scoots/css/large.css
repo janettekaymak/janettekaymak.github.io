@@ -238,5 +238,8 @@
         max-width: 20%;
         margin: -45px auto 35px auto;
     }
+    #finePrint{
+        padding: 0px 100px 0 0;
+    }
 
 }

@@ -843,6 +843,7 @@ form input.submitBtn, #contactBtn {
 #finePrint{
     font-size: 12px;
     text-align: justify;
+    padding: 0px 50px;
 }
 
 #photo1.form-img img,
