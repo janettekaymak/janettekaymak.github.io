@@ -275,34 +275,62 @@
         margin-top: 0;
     }
 
-    #photo-grid-box2 {
-        grid-template-areas:
-            'photo1'
-            'photo2'
-            'photo3'
-            'photo4'
-            'photo5'
-            'photo6';
-        float: right;
-        display: block;
-        width: 39%;
-        margin: auto;
-    }
-
     #form {
-        float: left;
-        display: block;
-        width: 55.6%;
-        margin: auto auto 20px auto;
-        padding: 0 20px;
+        margin: -40px auto 20px auto;
+    }
+    #form-grid-box{
+        display: grid;
+        grid-template-areas: 
+        'field1 field2'
+        'field3 field3';
+
+    }
+    #field1{
+        grid-area: field1;
+        margin: 30px 10px 10px 10px;
+    }
+    #field1 label{
+        max-width: 300px;
+    }
+    #field2{
+        grid-area: field2;
+        margin: 30px 10px 10px 0px;
+    }
+    #field2 label{
+        min-width: 300px;
+    }
+    #field3{
+        grid-area: field3;
+        margin: 10px;
+        padding: 0 140px 20px 180px;
+    }
+   .space{
+        max-width: 300px;
     }
 
     #form h2 {
         margin-top: -20px;
     }
+    form input.submitBtn{
+        display: block;
+        width: 85%;
+        margin: auto auto 10px 190px;
+    }
+    form label.top input,
+form label.top select,
+form label.top select.option {
+    -webkit-appearance: none;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    max-width: 85%;
+    background-color: white;
+}
 
     #contact-footer.reservations {
-        margin-top: 2400px;
+        margin-top: 10px;
     }
 
     #reservations-body{
@@ -327,6 +355,17 @@
     #contactBtn{
         width: 32%;
         margin: -59px auto 26px auto;
+    }
+    #review a{
+        max-width: 30%;
+        padding: 10px 25px;
+        margin: -15px auto -20px auto;
+        background-color: #fa8722;
+        border-radius: 10px;
+        font-family: 'Fontdiner Swanky', fantasy, cursive;
+        text-align: center;
+        font-size: 20px;
+        color: black;
     }
 
 }
