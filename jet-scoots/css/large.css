@@ -241,5 +241,13 @@
     #finePrint{
         padding: 0px 100px 0 0;
     }
+    #field1{
+        width: 87%;
+        margin: 20px auto 10px 30px;
+    }
+    #field2{
+        width: 87%;
+        margin: 20px auto 10px 0;
+    }
 
 }
