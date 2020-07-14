@@ -316,7 +316,7 @@
     }
     form input.submitBtn{
         display: block;
-        width: 85%;
+        width: 62.5%;
         margin: auto auto 10px 210px;
     }
     form label.top input,
@@ -335,11 +335,6 @@ form label.top select.option {
     #contact-footer.reservations {
         margin-top: 10px;
     }
-
-    #reservations-body{
-        background: linear-gradient(white, white, white, black, black);
-    }
-
 
     #thanks-header {
         height: 630px;
