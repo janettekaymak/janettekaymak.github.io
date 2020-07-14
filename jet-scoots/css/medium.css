@@ -289,14 +289,14 @@
     #field1{
         grid-area: field1;
         margin: 30px 10px 10px 30px;
-        width: 80%;
+        width: 60%;
     }
     #field1 label{
         max-width: 280px;
     }
     #field2{
         grid-area: field2;
-        margin: 30px -10px 10px -45px;
+        margin: 30px -30px 10px -135px;
         width: 100%;
     }
     #field2 label{
