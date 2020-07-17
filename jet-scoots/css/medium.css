@@ -316,7 +316,7 @@
     }
     form input.submitBtn{
         display: block;
-        width: 85%;
+        width: 65%;
         margin: auto auto 10px 210px;
     }
     form label.top input,
