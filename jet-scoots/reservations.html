@@ -107,19 +107,16 @@
                 <form method="get" action="thanks.html" id="form-grid-box">
                     <fieldset id="field1">
                         <legend>Vehicle Selection</legend>
-                        <label class="top">Choose Your Vehicle :<input list="vehicles" name="vehicles" required></label>
-                        <datalist id="vehicles">
-                            <option value="" selected disabled>Select Vehicle - </option>
-                            <option value="Honda Metro Scooter"></option>
-                            <option value="Honda Dio Scooter"></option>
-                            <option value="Honda PCX150 Scooter"></option>
-                            <option value="Honda Pioneer ATV"></option>
-                            <option value="Jeep Wrangler 4door w/ac"></option>
-                            <option value="Jeep Wrangler 2door"></option>
-                        </datalist><br>
+                        <div>Choose Your Vehicle :</div>
+                        <label class="sbs"><input type="radio" name="vehicle" value="hondametro">Honda Metro Scooter</label>
+                        <label class="sbs"><input type="radio" name="vehicle" value="hondadio">Honda Dio Scooter</label>
+                        <label class="sbs"><input type="radio" name="vehicle" value="hondapcx150">Honda PCX150 Scooter</label>
+                        <label class="sbs"><input type="radio" name="vehicle" value="hondaatv">Honda Pioneer ATV</label>
+                        <label class="sbs"><input type="radio" name="vehicle" value="jeep4dr">Jeep Wrangler 4door w/ac</label>
+                        <label class="sbs"><input type="radio" name="vehicle" value="jeep2dr">Jeep Wranger 2door</label>
                         <label class="top">Pick Up or Delivery Date :<input type="date" name="pickupdate"
                                 required></label><br>
-                        <label class="top">Pick Up or Delivery Time :<input list="time" name="time" required></label>
+                        <!--<label class="top">Pick Up or Delivery Time :<input list="time" name="time" required></label>
                         <datalist id="time">
                             <option value="" selected disabled>Select Time - </option>
                             <option value="7:00 am"></option>
@@ -150,9 +147,9 @@
                             <option value="7:30 pm"></option>
                             <option value="8:00 pm"></option>
                             <option value="8:30 pm"></option>
-                        </datalist><br>
+                        </datalist><br>-->
                         <label class="top">Return Date :<input type="date" name="return date" required></label><br>
-                        <label class="top">Return Time :<input list="returntime" name="returntime" required></label>
+                        <!--<label class="top">Return Time :<input list="returntime" name="returntime" required></label>
                         <datalist id="returntime">
                             <option value="" selected disabled>Select Time - </option>
                             <option value="7:00 am"></option>
@@ -183,7 +180,7 @@
                             <option value="7:30 pm"></option>
                             <option value="8:00 pm"></option>
                             <option value="8:30 pm"></option>
-                        </datalist><br>
+                        </datalist><br>-->
                         <div>Select Vehicle Location for Pick Up:</div>
                         <label class="sbs"><input type="radio" name="location" value="playacarmen"> ~ScOOts~ Cozumel
                             Ferry Dock<br>
@@ -197,6 +194,7 @@
                             Quintana Roo, Mexico</label><br>
                         <label>Type YES if you want your vehicle<br>
                                delivered. List the address for delivery.<br>
+                               Please specify time desired for delivery.<br>
                                Include any other necessary instructions:<br><br>
                             <textarea name="comments" class="space"></textarea></label><br><br>
                     </fieldset>
