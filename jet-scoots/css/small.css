@@ -180,7 +180,7 @@ added to the end of the class list like this in HTML.
 
 #box2 {
     grid-area: box2;
-    background-color: darkturquoise;
+    background-color: rgb(136, 249, 253);
     border: #fa8722 dashed 5px;
 
 }
