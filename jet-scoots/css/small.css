@@ -4,12 +4,12 @@ header {
     background: url("https://janettekaymak.github.io/jet-scoots/images/cris-tagupa-unsplash2.jpg");
     background-size: cover;
     background-position: center center;
-    max-width: 1500px;
-    height: 540px;
+    max-width: 800px;
+    height: 430px;
 }
 
 #logo {
-    width: 360px;
+    width: 260px;
     display: block;
     margin: -10px auto auto auto;
 }

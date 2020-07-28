@@ -5,11 +5,12 @@
     }
 
     header {
-        height: 535px;
+        height: 440px;
+        max-width: 1200px;
     }
 
     #logo {
-        width: 390px;
+        width: 280px;
         margin: -10px auto auto auto;
     }
 

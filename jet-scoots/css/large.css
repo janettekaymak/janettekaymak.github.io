@@ -3,14 +3,15 @@
 @media screen and (min-width: 1188px) {
 
     header {
-        height: 540px;
+        height: 480px;
+        max-width: 1500px;
     }
     #tours-header.res{
         height: 545px;
     }
 
     #logo {
-        width: 390px;
+        width: 320px;
     }
 
     header h1 {
