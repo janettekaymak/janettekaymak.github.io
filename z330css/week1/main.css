@@ -7,13 +7,15 @@ header{
     color: #FAEBD7;
     margin-top: -40px;
     margin-left: -40px;
-    margin-right: -35px;
-    max-width: 92%;
-    
+    margin-right: -35px;  
 }
 
 header ul li a{
     line-height: 2em;
+}
+
+ul{
+    list-style: none;
 }
 
 hr{
@@ -87,4 +89,28 @@ img{
     display: block;
     margin: auto;
     max-width: 100%;
+}
+
+
+
+@media screen and (min-width: 805px){
+    
+    body{
+        display: flex;
+    }
+    header{
+        float:left;
+        height: 100%;
+    }
+
+    main{
+       margin-left: 400px;
+       margin-right: 50px;
+    }
+    
+    article{
+        margin-bottom: 50px;
+    }
+
+  
 }
