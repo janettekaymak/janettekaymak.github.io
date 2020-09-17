@@ -8,6 +8,7 @@ header{
     margin-top: -40px;
     margin-left: -40px;
     margin-right: -35px;
+    max-width: 92%;
     
 }
 
@@ -35,16 +36,26 @@ h2 a{
     color: black;
 }
 
+h2 a:active{
+    color: #DEB887;
+}
+
+h2 a:hover{
+    color: #6495ED;
+    text-decoration: underline;
+}
+
 body{
     font-family: Helvetica, Arial, sans-serif;
     background-color:  #FAEBD7;
-    padding: 10px;
+    padding: 5px;
+    max-width: 98%;
 }
 
 article{
     background-color: white;
     margin-top: 30px;
-    padding: 50px;
+    padding: 30px;
 }
 
 ul li a{
@@ -57,6 +68,18 @@ nav a:active{
 
 nav a:hover{
     color: white;
+    text-decoration: underline;
+}
+
+p a:link, p a:visited{
+    color: #6495ED;
+}
+
+p a:active{
+    color: #DEB887;
+}
+
+p a:hover{
     text-decoration: underline;
 }
 
