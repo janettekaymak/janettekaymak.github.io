@@ -1,31 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
 header{
     background-color: #6495ED;
     text-align: right;
-    padding: 30px;
+    padding: 50px;
     color: #FAEBD7;
     margin-top: -40px;
     margin-left: -40px;
     margin-right: -35px;
     
 }
+
+header ul li a{
+    line-height: 2em;
+}
+
+hr{
+    color: #FAEBD7; 
+}
+
     a {
     text-decoration: none;
 }
+
 h1, h2 {
     font-family: Lora;
 }
+
 h1 a {
     color:  #FAEBD7;
 }
+
+h2 a{
+    color: black;
+}
+
 body{
     font-family: Helvetica, Arial, sans-serif;
     background-color:  #FAEBD7;
-    padding: 30px;
+    padding: 10px;
 }
+
 article{
     background-color: white;
+    margin-top: 30px;
+    padding: 50px;
 }
+
 ul li a{
     color:  #FAEBD7;
+}
+
+nav a:active{
+    color: #DEB887;
+}
+
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+img{
+    display: block;
+    margin: auto;
+    max-width: 100%;
 }
