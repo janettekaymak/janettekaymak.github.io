@@ -98,6 +98,7 @@ img{
     body{
         display: flex;
     }
+    
     header{
         float:left;
         height: 100%;
