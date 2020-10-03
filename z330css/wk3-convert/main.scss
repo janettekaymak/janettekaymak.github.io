@@ -107,9 +107,18 @@ img {
 
 
 @media screen and (min-width: 805px) {
+    @mixin flex-container() {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
 
     body {
-        display: flex;
+        @include flex-container();
     }
 
     header {
