@@ -1,91 +1,104 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+//colors as variables
+$darker-color: #6495ED;
+$active-color: #DEB887;
+$lighter-color: #FAEBD7;
 
-header{
-    background-color: #6495ED;
+header {
+    background-color: $darker-color;
     text-align: right;
     padding: 50px;
-    color: #FAEBD7;
+    color: $lighter-color;
     margin-top: -40px;
     margin-left: -40px;
-    margin-right: -35px;  
+    margin-right: -35px;
+
+    ul li a {
+        line-height: 2em;
+    }
 }
 
-header ul li a{
-    line-height: 2em;
-}
-
-ul{
+ul {
     list-style: none;
 }
 
-hr{
-    color: #FAEBD7; 
+hr {
+    color: $lighter-color;
 }
 
-    a {
+a {
     text-decoration: none;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: Lora;
 }
 
 h1 a {
-    color:  #FAEBD7;
+    color: $lighter-color;
 }
 
-h2 a{
-    color: black;
+h2 {
+    a {
+        color: black;
+    }
+
+    a:active {
+        color: $active-color;
+    }
+
+    a:hover {
+        color: $darker-color;
+        text-decoration: underline;
+    }
 }
 
-h2 a:active{
-    color: #DEB887;
-}
-
-h2 a:hover{
-    color: #6495ED;
-    text-decoration: underline;
-}
-
-body{
+body {
     font-family: Helvetica, Arial, sans-serif;
-    background-color:  #FAEBD7;
+    background-color: $lighter-color;
     padding: 5px;
     max-width: 98%;
 }
 
-article{
+article {
     background-color: white;
     margin-top: 30px;
     padding: 30px;
 }
 
-ul li a{
-    color:  #FAEBD7;
+ul li a {
+    color: $lighter-color;
 }
 
-nav a:active{
-    color: #DEB887;
+nav {
+    a:active {
+        color: $active-color;
+    }
+
+    a:hover {
+        color: white;
+        text-decoration: underline;
+    }
 }
 
-nav a:hover{
-    color: white;
-    text-decoration: underline;
+p {
+
+    a:link,
+    a:visited {
+        color: $darker-color;
+    }
+
+    a:active {
+        color: $active-color;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
 }
 
-p a:link, p a:visited{
-    color: #6495ED;
-}
-
-p a:active{
-    color: #DEB887;
-}
-
-p a:hover{
-    text-decoration: underline;
-}
-
-img{
+img {
     display: block;
     margin: auto;
     max-width: 100%;
@@ -93,25 +106,25 @@ img{
 
 
 
-@media screen and (min-width: 805px){
-    
-    body{
+@media screen and (min-width: 805px) {
+
+    body {
         display: flex;
     }
-    
-    header{
-        float:left;
+
+    header {
+        float: left;
         height: 100%;
     }
 
-    main{
-       margin-left: 400px;
-       margin-right: 50px;
+    main {
+        margin-left: 400px;
+        margin-right: 50px;
     }
-    
-    article{
+
+    article {
         margin-bottom: 50px;
     }
 
-  
+
 }
