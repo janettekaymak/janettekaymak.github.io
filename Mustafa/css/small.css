@@ -7,6 +7,7 @@ nav ul li a:link{
     text-decoration: none;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
 }
 nav ul {
     text-align: right;
@@ -16,4 +17,9 @@ nav ul {
 nav li {
     display: inline-block;
     margin: 5px 10px;
+}
+
+header{
+    margin-left: 100px;
+    margin-bottom: -50px;
 }
