@@ -2,7 +2,7 @@ body{
     background-color: black;
     color: white;
 }
-nav ul li a:link{
+nav ul li a:link, a:visited{
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -20,6 +20,13 @@ nav li {
 }
 
 header{
-    margin-left: 100px;
-    margin-bottom: -50px;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+h1{
+    font-family: 'Carter One';
+    font-size: 40px;
+}
+img{
+    max-width: 100%;
 }
