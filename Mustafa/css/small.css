@@ -9,14 +9,17 @@ nav ul li a:link, a:visited{
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
 }
+nav ul li a:hover{
+    color: rgb(193, 136, 247);
+    font-weight: bolder;
+}
 nav ul {
-    text-align: right;
+    text-align: center;
 
 }
 
 nav li {
-    display: inline-block;
-    margin: 5px 10px;
+   list-style: none;
 }
 
 header{
@@ -26,14 +29,30 @@ header{
 h1{
     font-family: 'Carter One';
     font-size: 40px;
+    color: lemonchiffon;
 }
 img{
-    max-width: 100%;
+  max-width: 100%;
+}
+
+#lemon-box{
+    background-color: lemonchiffon;
+    margin: auto;
+    max-width: 360px;
+    color: black;
+    padding: 10px 40px;
+    line-height: 2em;
+    border-radius: 15px;
+
 }
 p{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
 footer{
     background-color: black;
     padding:20px 150px;
+}
+footer p{
+    text-align: center;
 }
