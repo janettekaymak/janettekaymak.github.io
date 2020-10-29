@@ -3,8 +3,16 @@
 @import url('https://fonts.googleapis.com/css?family=Anton&family=Carter+One&display=swap');
 
 body {
+    margin: auto;
+    background-size: cover;
+    background-position: center center;
     background-color: black;
     color: white;
+}
+
+#about-background{
+   
+    background: url(images/Sunset.jpg);
 }
 
 nav ul li a:link,
@@ -79,10 +87,3 @@ footer p {
     text-align: center;
 }
 
-body.about {
-    background: url(images/Sunset.jpg);
-    background-size: cover;
-    background-position: center center;
-    height: 1000px;
-    max-width: 1280px;
-}
