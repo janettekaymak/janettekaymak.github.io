@@ -19,6 +19,12 @@ nav ul li a:hover {
     font-weight: bolder;
 }
 
+span.lilac{
+    color: rgb(133, 7, 252);
+    font-weight: bolder;
+    font-size: 125%;;
+}
+
 nav li {
     list-style: none;
 }
