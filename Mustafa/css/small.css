@@ -19,6 +19,10 @@ nav ul li a:hover {
     font-weight: bolder;
 }
 
+nav {
+    margin-left: 80px;
+}
+
 span.lilac{
     color: rgb(133, 7, 252);
     font-weight: bolder;

@@ -1,0 +1,16 @@
+@media screen and (min-width: 900px){
+
+    h1{
+        font-size: 60px;
+    }
+
+#lemon-box{
+    max-width: 560px;
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 700px;
+}
+
+
+
+}
