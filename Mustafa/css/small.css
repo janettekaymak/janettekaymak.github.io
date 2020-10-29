@@ -10,9 +10,15 @@ body {
     color: white;
 }
 
+.about{
+    background-color: transparent;
+}
+
 #about-background{
    
     background: url(images/Sunset.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 
 nav ul li a:link,
