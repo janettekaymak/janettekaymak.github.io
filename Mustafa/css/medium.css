@@ -1,10 +1,23 @@
 @media screen and (min-width: 768px){
 
+    ul li{
+        display: inline-flex;
+        padding: 0 10px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
     img.small-mico{
         display: none;
     }
     img.mico{
         display: block;
+    }
+
+    #lemon-box {
+        max-width: 660px;
     }
 
 }
