@@ -102,6 +102,19 @@ img.janette{
     display: none;
 }
 
+a.jette{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 18px;
+    color: rgb(200, 2, 250);
+}
+
+a.jette:hover{
+    font-size: 20px;
+    color: forestgreen;
+}
+
+
 footer {
     background-color: black;
     padding: 20px 150px;
