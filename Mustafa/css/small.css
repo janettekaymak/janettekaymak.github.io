@@ -93,6 +93,7 @@ p {
 }
 
 img.aboutPhoto {
+    display: block;
     max-width: 100%;
 }
 
