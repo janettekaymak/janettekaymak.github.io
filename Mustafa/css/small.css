@@ -89,13 +89,17 @@ p {
 
 img.aboutPhoto {
     display: inline-block;
-    max-width: 100%;
+    min-width: 100%;
 }
 
 #long-bio{
     line-height: 1.5em;
     padding: 0 30px;
     text-align: left;
+}
+
+img.janette{
+    display: none;
 }
 
 footer {
