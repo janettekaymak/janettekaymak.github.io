@@ -4,22 +4,15 @@
 
 body {
     margin: auto;
-    background-size: cover;
-    background-position: center center;
     background-color: black;
     color: white;
 }
 
-.about{
-    background-color: transparent;
-}
-
-#about-background{
-   
-    background: url(images/Sunset.jpg);
+/*body.about{
+    background: url(images/sunset.jpg);
     background-size: cover;
     background-position: center center;
-}
+}*/
 
 nav ul li a:link,
 a:visited {
@@ -82,6 +75,15 @@ img.small-mico{
 p {
     font-family: 'Raleway', Helvetica, sans-serif;
     text-align: justify;
+}
+
+#long-bio {
+    padding: 10px 30px;
+   
+}
+
+#sunset {
+    max-width: 100%;
 }
 
 footer {

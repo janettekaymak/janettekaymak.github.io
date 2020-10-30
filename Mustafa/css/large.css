@@ -1,15 +1,25 @@
-@media screen and (min-width: 900px){
+@media screen and (min-width: 900px) {
 
-    h1{
+    h1 {
         font-size: 60px;
     }
 
-#lemon-box{
-    max-width: 560px;
-    position: absolute;
-    margin-top: -600px;
-    margin-left: 700px;
-}
+    #lemon-box {
+        max-width: 560px;
+        position: absolute;
+        margin-top: -600px;
+        margin-left: 700px;
+    }
+
+    #long-bio {
+        padding: 10px 30px;
+        width: 25%;
+        float: right;
+    }
+
+    #sunset {
+        max-width: 70%;
+    }
 
 
 
