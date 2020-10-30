@@ -83,6 +83,7 @@ p {
 }
 
 #sunset {
+    display: block;
     max-width: 100%;
 }
 
