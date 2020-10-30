@@ -27,16 +27,16 @@
     }
 
     #long-bio {
-
-        padding: 0 35px;
-        width: 21%;
-        float: right;
-        text-align: left;
         line-height: 2em;
+        position: absolute;
+        width: 40%;
+        margin-top: -75%;
+        margin-left: 50%;
+        color: black;
     }
 
     img.aboutPhoto {
-        max-width: 71%;
+        min-width: 100%;
     }
 
 }
