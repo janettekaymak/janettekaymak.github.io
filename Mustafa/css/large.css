@@ -13,6 +13,15 @@
         margin-left: 700px;
     }
 
+    #long-bio {
+        line-height: 1.8em;
+        position: absolute;
+        width: 52.5%;
+        margin-top: -98%;
+        margin-left: 40%;
+        color: black;
+    }
+
 
 
 }

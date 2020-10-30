@@ -27,12 +27,15 @@
     }
 
     #long-bio {
-        line-height: 1em;
+        background-color: rgb(250, 247, 233, .5);
+        padding: 10px 40px;
+        line-height: 1.31em;
         position: absolute;
         width: 52.5%;
-        margin-top: -98%;
+        margin-top: -101%;
         margin-left: 40%;
         color: black;
+        border-radius: 15px;
     }
 
     img.aboutPhoto {
