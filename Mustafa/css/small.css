@@ -88,8 +88,13 @@ p {
 }
 
 img.aboutPhoto {
-    display: block;
+    display: inline-block;
     max-width: 100%;
+}
+
+#long-bio{
+    padding: 0 20px;
+    text-align: left;
 }
 
 footer {
