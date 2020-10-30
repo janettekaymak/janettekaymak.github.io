@@ -26,10 +26,16 @@ a:visited {
 nav ul li a:hover {
     color: rgb(193, 136, 247);
     font-weight: bolder;
+    font-size: 30px;
+    transition: .5s;
 }
 
 nav {
     margin-left: 80px;
+}
+
+li{
+    margin-bottom: 10px;
 }
 
 span.lilac{
@@ -51,6 +57,9 @@ h1 {
     font-family: 'Staatliches';
     font-size: 40px;
     color: lemonchiffon;
+    border: dotted rgb(193, 136, 247) 7px;
+    padding: 5px;
+    margin: 0 10px
 }
 
 img.mico {

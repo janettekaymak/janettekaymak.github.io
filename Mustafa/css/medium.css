@@ -2,7 +2,7 @@
 
     ul li{
         display: inline-flex;
-        padding: 0 10px;
+        padding: 5px 10px;
     }
 
     nav {
@@ -17,8 +17,25 @@
         display: block;
     }
 
+    h1{
+        margin: 0 120px
+    }
+
     #lemon-box {
         max-width: 660px;
+    }
+
+    #long-bio {
+       
+        padding: 0 35px;
+        width: 21%;
+        float: right;
+        text-align: left;
+        line-height: 2em;
+    }
+
+    #sunset {
+        max-width: 71%;
     }
 
 }
