@@ -19,7 +19,7 @@ a:visited {
     color: white;
     text-decoration: none;
     font-size: 20px;
-    font-family:  'Raleway', Helvetica, sans-serif;
+    font-family: 'Raleway', Helvetica, sans-serif;
     padding: 20px;
 }
 
@@ -34,14 +34,15 @@ nav {
     margin-left: 80px;
 }
 
-li{
+li {
     margin-bottom: 10px;
 }
 
-span.lilac{
+span.lilac {
     color: rgb(133, 7, 252);
     font-weight: bolder;
-    font-size: 125%;;
+    font-size: 125%;
+    ;
 }
 
 nav li {
@@ -66,7 +67,7 @@ img.mico {
     display: none;
 }
 
-img.small-mico{
+img.small-mico {
     min-width: 100%;
 }
 
@@ -88,7 +89,7 @@ p {
 
 #long-bio {
     padding: 10px 30px;
-   
+
 }
 
 img.sunset {
@@ -103,4 +104,3 @@ footer {
 footer p {
     text-align: center;
 }
-
