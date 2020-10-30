@@ -27,12 +27,11 @@
     }
 
     #long-bio {
-        padding: 0;
-        line-height: 1.5em;
+        line-height: 1em;
         position: absolute;
-        width: 40%;
-        margin-top: -1000px;
-        margin-left: 500px;
+        width: 52.5%;
+        margin-top: -98%;
+        margin-left: 40%;
         color: black;
     }
 
