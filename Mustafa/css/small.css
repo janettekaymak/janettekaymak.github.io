@@ -114,6 +114,40 @@ a.jette:hover{
     color: forestgreen;
 }
 
+img.green, img.leylak{
+    max-width: 100%;
+}
+
+.pinkLilac{
+    color: rgb(248, 76, 248);
+    font-family: cursive;
+    font-size: 70px;
+    border: none;
+}
+h2.leylak{
+    color: rgb(180, 176, 180);
+    font-family: Staatliches;
+    padding: 0 20px;
+}
+
+h3.leylak{
+    color: rgb(180, 176, 180);
+    font-family: Raleway;
+    padding: 0 20px;
+}
+
+header.leylakBorder{
+    border: dotted rgb(193, 136, 247) 7px;
+    padding: 5px;
+    margin: 20px; 
+}
+
+h1.green {
+    border: none;
+    color: rgb(118, 201, 98);
+    font-size: 75px;
+}
+
 
 footer {
     background-color: black;
