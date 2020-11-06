@@ -1,9 +1,9 @@
 @media screen and (min-width: 900px) {
 
     h1 {
-        padding: 10px;
-        font-size: 60px;
-        margin: 0 200px;
+        padding: 20px 30px;
+        font-size: 50px;
+        margin: 0 180px;
     }
 
     #lemon-box {
@@ -20,6 +20,28 @@
         margin-top: -98%;
         margin-left: 40%;
         color: black;
+    }
+
+    header.leylakBorder{
+        margin: 20px 350px; 
+    }
+
+    img.green, img.leylak{
+        display: block;
+        margin: auto;
+    }
+
+    nav li {
+        padding: 10px;
+    }
+
+    nav ul li a:link,
+    a:visited {
+        font-size: 30px;
+    }
+
+    h2.leylak{
+        font-size: 25px;
     }
 
 

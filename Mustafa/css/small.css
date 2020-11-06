@@ -20,14 +20,17 @@ a:visited {
     text-decoration: none;
     font-size: 20px;
     font-family: 'Raleway', Helvetica, sans-serif;
-    padding: 20px;
+    padding: 5px 10px;
+    border: dotted  transparent 6px;
 }
 
 nav ul li a:hover {
-    color: rgb(193, 136, 247);
+    background-color: white;
+    border: dotted  rgb(133, 7, 252) 6px;
+    border-radius: 5px;
+    color: black;
     font-weight: bolder;
-    font-size: 30px;
-    transition: .5s;
+    transition: 1s;
 }
 
 nav {
@@ -47,6 +50,7 @@ span.lilac {
 
 nav li {
     list-style: none;
+    padding: 3px;
 }
 
 header {
@@ -55,7 +59,7 @@ header {
 }
 
 h1 {
-    font-family: 'Staatliches';
+    font-family: 'Limelight';
     font-size: 40px;
     color: lemonchiffon;
     border: dotted rgb(193, 136, 247) 7px;
@@ -126,7 +130,8 @@ img.green, img.leylak{
 }
 h2.leylak{
     color: rgb(180, 176, 180);
-    font-family: Staatliches;
+    font-family: Limelight;
+    font-size: 110%;;
     padding: 0 20px;
 }
 
@@ -143,6 +148,7 @@ header.leylakBorder{
 }
 
 h1.green {
+    margin: auto;
     border: none;
     color: rgb(118, 201, 98);
     font-size: 75px;

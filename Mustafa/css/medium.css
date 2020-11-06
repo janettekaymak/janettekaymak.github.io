@@ -1,8 +1,13 @@
 @media screen and (min-width: 768px) {
 
+    nav ul li a:link,
+    a:visited {
+        font-size: 25px;
+    }
+
     ul li {
         display: inline-flex;
-        padding: 5px 10px;
+        padding: 5px 0;
     }
 
     nav {
@@ -42,9 +47,13 @@
         min-width: 100%;
     }
 
-    img.janette{
+    img.janette {
         margin-top: -5px;
         display: block;
         min-width: 100%;
+    }
+
+    header.leylakBorder {
+        margin: 20px 150px;
     }
 }
