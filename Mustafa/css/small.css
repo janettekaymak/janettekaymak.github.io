@@ -154,6 +154,38 @@ h1.green {
     font-size: 75px;
 }
 
+div.movieTop{
+    background-color: rgb(196, 192, 147);
+    background-image: radial-gradient(rgb(246, 248, 218), rgb(223, 219, 183),rgb(114, 111, 84));
+    color:black;
+    padding: 10px 30px 50px 30px;
+}
+
+div.movieBottom{
+    margin-top: -6px;
+    background-image: linear-gradient(rgb(109, 192, 109),rgb(73, 107, 73), black);
+    padding: 10px 30px;
+    line-height: 1.5em;
+}
+
+div.movieBottom p{
+    margin-bottom: 40px;
+}
+
+button{
+    margin: auto;
+    display: block;
+    padding: 10px;
+    background-color: white;
+    border: dotted  rgb(133, 7, 252) 6px;
+    color: black;
+    font-family: Limelight;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
 
 footer {
     background-color: black;
