@@ -159,11 +159,13 @@ div.movieTop{
     background-image: radial-gradient(rgb(246, 248, 218), rgb(223, 219, 183),rgb(114, 111, 84));
     color:black;
     padding: 10px 30px 50px 30px;
+    line-height: 1.5em;
 }
 
 div.movieBottom{
     margin-top: -6px;
-    background-image: linear-gradient(rgb(109, 192, 109),rgb(73, 107, 73), black);
+    background-color: rgb(73, 107, 73);
+    background-image: linear-gradient(rgb(177, 209, 177),rgb(118, 165, 118),rgb(73, 107, 73),rgb(37, 54, 37),rgb(19, 32, 19), black);
     padding: 10px 30px;
     line-height: 1.5em;
 }
