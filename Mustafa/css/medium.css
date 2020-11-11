@@ -56,4 +56,46 @@
     header.leylakBorder {
         margin: 20px 150px;
     }
+
+    #tour1,
+    #tour2,
+    #tour3,
+    #tour4,
+    #tour5,
+    #tour6,
+    #tour7,
+    #tour8,
+    #tour9,
+    #tour10,
+    #tour11,
+    #tour12,
+    #tour13,
+    #tour14,
+    #tour15,
+    #tour16,
+    #tour17,
+    #tour18 {
+        border: black solid .5px;
+        border-radius: 10px;
+        margin: 15px;
+        background-color: white;
+        padding-top: 10px;
+    }
+
+    #tours-grid-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 20px;
+        color: black;
+    }
+
+    #tours-grid-box img,
+    figure {
+        margin-bottom: 20px;
+    }
+
+    #tours-grid-box img:hover,
+    #article img:hover {
+        box-shadow: dimgray 0 0 30px;
+    }
 }

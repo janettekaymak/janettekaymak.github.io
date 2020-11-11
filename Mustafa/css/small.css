@@ -169,6 +169,21 @@ div.movieTop{
     line-height: 1.5em;
 }
 
+#tours-grid-box img, figure {
+    display: block;
+    margin: auto auto 50px auto;
+    border-radius: 8px;
+}
+
+#tours-grid-box img{
+    border: solid 1px;
+}
+
+#tours-grid-box {
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
 div.movieBottom{
     margin-top: -6px;
     background-color: rgb(73, 107, 73);
