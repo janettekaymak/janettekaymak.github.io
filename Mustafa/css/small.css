@@ -131,7 +131,14 @@ img.green, img.leylak{
 h2.leylak{
     color: rgb(180, 176, 180);
     font-family: Limelight;
-    font-size: 110%;;
+    font-size: 110%;
+    padding: 0 20px;
+}
+
+h2.gallery{
+    color: rgb(118, 201, 98);
+    font-family: Limelight;
+    font-size: 40px;
     padding: 0 20px;
 }
 
