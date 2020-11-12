@@ -76,36 +76,11 @@
         position: absolute;
         margin: 50px;
         max-width: 38%;
-        border-radius: 15px;
         background-color: #dfcebe;
         background-image: none;
-
     }
 
-    #tour1,
-    #tour2,
-    #tour3,
-    #tour4,
-    #tour5,
-    #tour6,
-    #tour7,
-    #tour8,
-    #tour9,
-    #tour10,
-    #tour11,
-    #tour12,
-    #tour13,
-    #tour14,
-    #tour15,
-    #tour16,
-    #tour17,
-    #tour18 {
-        border: black solid .5px;
-        border-radius: 10px;
-        margin: 15px;
-        background-color: white;
-        padding-top: 10px;
-    }
+   
 
     #tours-grid-box {
         display: grid;
@@ -114,13 +89,9 @@
         color: black;
     }
 
-    #tours-grid-box img,
-    figure {
-        margin-bottom: 20px;
-    }
 
     #tours-grid-box img {
-        max-width: 320px;
+            max-width: 94%;
     }
 
     #tours-grid-box img:hover,

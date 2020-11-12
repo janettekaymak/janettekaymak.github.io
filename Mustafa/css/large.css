@@ -77,9 +77,6 @@
         margin-top: -750px;
         margin-left: 43%;
         max-width: 50%;
-        border-radius: 15px;
-       
-
     }
 
     #tours-grid-box {
@@ -87,7 +84,7 @@
         margin-bottom: 40px;
         margin-top: 20px;
         grid-template-columns: 1fr 1fr 1fr;
-        max-width: 87%;
+        max-width: 98%;
     }
 
     #tour1,
@@ -108,12 +105,12 @@
     #tour16,
     #tour17,
     #tour18  {
-        padding: 20px;
+        padding: 0px;
     }
 
     #tours-grid-box img {
-        width: 100%;
-    }
+        min-width: 94%;
+}
 
 
 

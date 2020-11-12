@@ -151,7 +151,7 @@ h3.leylak{
 header.leylakBorder{
     border: dotted rgb(193, 136, 247) 7px;
     padding: 5px;
-    margin: 20px; 
+    margin: 20px 15px -25px 15px; 
 }
 
 #up{
@@ -177,12 +177,13 @@ div.movieTop{
 
 #tours-grid-box img, figure {
     display: block;
-    margin: auto auto 50px auto;
-    border-radius: 8px;
+    margin: auto auto 15px auto;
 }
 
 #tours-grid-box img{
-    border: solid 1px;
+    max-width: 90%;
+    border: gray ridge 5px;
+    border-radius: 3px;
 }
 
 #tours-grid-box {
