@@ -191,6 +191,11 @@ div.movieTop{
     margin-top: 50px;
 }
 
+#tours-grid-box img:hover,
+#article img:hover {
+    box-shadow: gray 0 0 50px;
+}
+
 div.movieBottom{
     margin-top: -6px;
     background-color: rgb(73, 107, 73);

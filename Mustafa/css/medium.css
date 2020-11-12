@@ -94,8 +94,4 @@
             max-width: 94%;
     }
 
-    #tours-grid-box img:hover,
-    #article img:hover {
-        box-shadow: dimgray 0 0 30px;
-    }
 }
