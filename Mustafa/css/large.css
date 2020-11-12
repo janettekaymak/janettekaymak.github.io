@@ -65,6 +65,7 @@
     }
 
     div.movieTop{
+        border-radius: 15px;
         margin: 50px;
         max-width: 45%;
         background-color: rgb(196, 192, 147);
@@ -72,6 +73,7 @@
     }
 
     div.movieBottom{
+        border-radius: 15px;
         line-height: 2em;
         position: absolute;
         margin-top: -750px;
