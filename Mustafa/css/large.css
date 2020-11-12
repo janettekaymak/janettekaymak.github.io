@@ -27,6 +27,7 @@
     }
 
     img.green, img.leylak{
+        border-radius: 15px;
         display: block;
         margin: auto;
     }
@@ -37,11 +38,43 @@
 
     nav ul li a:link,
     a:visited {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     h2.leylak{
         font-size: 25px;
+    }
+
+    header.leylakBorder{
+        padding: 5px;
+        margin: 30px 200px auto 200px; 
+    }
+
+    h1.green{
+        font-size: 40px;
+        line-height: .1em;
+        padding-top: 20px;
+    }
+    h2.leylak, h1.leylak{
+        line-height: .1em;
+    }
+
+    div.movieTop{
+        margin: 50px;
+        max-width: 45%;
+        background-color: rgb(196, 192, 147);
+        background-image: radial-gradient(rgb(246, 248, 218), rgb(223, 219, 183),rgb(114, 111, 84));
+    }
+
+    div.movieBottom{
+        line-height: 2em;
+        position: absolute;
+        margin-top: -750px;
+        margin-left: 43%;
+        max-width: 50%;
+        border-radius: 15px;
+       
+
     }
 
     #tours-grid-box {
