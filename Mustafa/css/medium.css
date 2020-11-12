@@ -57,6 +57,17 @@
         margin: 20px 150px;
     }
 
+    div.movieTop{
+        line-height: 2em;
+        position: absolute;
+        margin: 50px;
+        max-width: 38%;
+        border-radius: 15px;
+        background-color: #dfcebe;
+        background-image: none;
+
+    }
+
     #tour1,
     #tour2,
     #tour3,
