@@ -59,6 +59,11 @@
         line-height: .1em;
     }
 
+    #up{
+        margin: -20px auto 10px auto;
+        font-size: 22px;
+    }
+
     div.movieTop{
         margin: 50px;
         max-width: 45%;

@@ -154,6 +154,12 @@ header.leylakBorder{
     margin: 20px; 
 }
 
+#up{
+    margin: -20px auto 10px auto;
+    color: rgb(180, 176, 180, .6);
+    font-size: 25px;
+}
+
 h1.green {
     margin: auto;
     border: none;
