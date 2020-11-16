@@ -22,13 +22,13 @@
         color: black;
     }
 
-    img.green{
+    img.green {
         border-radius: 15px;
         display: block;
         margin: auto;
     }
 
-    img.leylak{
+    img.leylak {
         display: block;
         margin: auto;
     }
@@ -42,39 +42,44 @@
         font-size: 25px;
     }
 
-    h2.leylak{
+    h2.leylak {
         font-size: 25px;
     }
 
     header.leylakBorder {
-       max-width: 640px;
-       display: block;
-       margin: 30px auto auto auto;
+        max-width: 640px;
+        display: block;
+        margin: 30px auto auto auto;
     }
 
-    h1.green{
-        font-size: 40px;
+    h1.green a:link,
+    h1.green a:visited,
+    h1.green {
+        font-size: 50px;
         line-height: .1em;
         padding-top: 20px;
+        margin: 10px auto;
     }
-    h2.leylak, h1.leylak{
+
+    h2.leylak,
+    h1.leylak {
         line-height: .1em;
     }
 
-    #up{
+    #up {
         margin: -20px auto 10px auto;
         font-size: 22px;
     }
 
-    div.movieTop{
+    div.movieTop {
         border-radius: 15px;
-        margin: 50px;
+        margin: 65px 50px;
         max-width: 45%;
         background-color: rgb(196, 192, 147);
-        background-image: radial-gradient(rgb(246, 248, 218), rgb(223, 219, 183),rgb(114, 111, 84));
+        background-image: radial-gradient(rgb(246, 248, 218), rgb(223, 219, 183), rgb(114, 111, 84));
     }
 
-    div.movieBottom{
+    div.movieBottom {
         border-radius: 15px;
         line-height: 2em;
         position: absolute;
@@ -83,7 +88,7 @@
         max-width: 50%;
     }
 
-    div.top{
+    div.top {
         position: sticky;
         max-width: 836px;
         border-radius: 15px 15px 0 0;
@@ -91,7 +96,7 @@
         margin: auto auto -50px auto;
     }
 
-    div.bottom{
+    div.bottom {
         position: sticky;
         max-width: 836px;
         border-radius: 0 0 15px 15px;
@@ -99,7 +104,10 @@
         margin: -90px auto auto auto;
     }
 
-
+    #gbottombutt {
+        margin-top: -15px;
+        margin-bottom: -15px;
+    }
 
     #tours-grid-box {
         margin: auto;
@@ -126,13 +134,13 @@
     #tour15,
     #tour16,
     #tour17,
-    #tour18  {
+    #tour18 {
         padding: 0px;
     }
 
     #tours-grid-box img {
         min-width: 94%;
-}
+    }
 
 
 

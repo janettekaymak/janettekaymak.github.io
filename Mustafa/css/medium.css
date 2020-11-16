@@ -5,7 +5,7 @@
         font-size: 25px;
     }
 
-    ul li {
+    nav ul li {
         display: inline-flex;
         padding: 5px 0;
     }
@@ -53,10 +53,11 @@
         min-width: 100%;
     }
 
-    h1.green {
+    h1.green a:link, h1.green a:visited, h1.green {
         line-height: .7em;
         padding-top: 20px;
         font-size: 55px;
+        margin-bottom: -5px;
     }
 
     h2.leylak, h1.leylak{
@@ -84,7 +85,13 @@
         background-image: none;
     }
 
-   
+    div.movieBottom p{
+        margin-top: 10px;
+    }
+
+    #photobutt{
+        margin-bottom: -8px;
+    }
 
     #tours-grid-box {
         display: grid;

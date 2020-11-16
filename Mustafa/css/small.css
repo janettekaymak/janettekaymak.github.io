@@ -8,12 +8,6 @@ body {
     color: white;
 }
 
-/*body.about{
-    background: url(images/sunset.jpg);
-    background-size: cover;
-    background-position: center center;
-}*/
-
 nav ul li a:link,
 a:visited {
     color: white;
@@ -39,6 +33,11 @@ nav {
 
 li {
     margin-bottom: 10px;
+}
+
+ul li{
+    font-family: Raleway;
+    line-height: 1em;
 }
 
 span.lilac {
@@ -149,7 +148,7 @@ h3.leylak, h4.year {
 }
 
 h4.year{
-    margin-top: -5px;
+    margin-top: 0px;
     line-height: .5em;
 }
 
@@ -165,11 +164,15 @@ header.leylakBorder{
     font-size: 25px;
 }
 
-h1.green {
-    margin: auto;
+h1.green, h1.green a:link, h1.green a:visited {
+    margin: auto auto -20px auto;
     border: none;
     color: rgb(118, 201, 98);
     font-size: 75px;
+    text-decoration: none;
+}
+h1.green a:hover{
+    color: greenyellow;
 }
 
 div.movieTop{
@@ -178,6 +181,23 @@ div.movieTop{
     color:black;
     padding: 10px 30px 50px 30px;
     line-height: 1.5em;
+}
+
+#topbutt{
+    margin-bottom: 15px;
+}
+
+#bottombutt{
+    margin-top: 15px;
+}
+
+#gbottombutt{
+    margin-top: 30px;
+    margin-bottom: -35px
+}
+
+#photobutt{
+    margin-bottom: -25px;
 }
 
 #tours-grid-box img, figure {
@@ -211,6 +231,7 @@ div.movieBottom{
 
 div.movieBottom p{
     margin-bottom: 40px;
+    margin-top: 15px;
 }
 
 div.top{
@@ -231,19 +252,28 @@ div.bottom{
     background-image: linear-gradient(rgb(179, 78, 209), rgb(236, 208, 245),rgb(241, 249, 250));
 }
 
-button{
+a.button {
     margin: auto;
     display: block;
-    padding: 10px;
+    padding: 5px 10px;
+    width: 160px;
     background-color: white;
     border: dotted  rgb(179, 78, 209) 6px;
-    color: black;
     font-family: Limelight;
     font-size: 20px;
+    text-decoration: none;
 }
 
-a{
-    text-decoration: none;
+a.button:link, a.button:visited{
+    color: black;
+    text-align: center;
+}
+
+h1.interviews{
+    margin: -30px 20px 10px 20px;
+    line-height: 1.5em;
+    padding: 10px 0;
+    font-size: 25px;
 }
 
 footer {
