@@ -15,12 +15,12 @@ a:visited {
     font-size: 20px;
     font-family: 'Raleway', Helvetica, sans-serif;
     padding: 5px 10px;
-    border: dotted  transparent 6px;
+    border: dotted transparent 6px;
 }
 
 nav ul li a:hover {
     background-color: white;
-    border: dotted  rgb(179, 78, 209) 6px;
+    border: dotted rgb(179, 78, 209) 6px;
     border-radius: 5px;
     color: black;
     font-weight: bolder;
@@ -35,7 +35,7 @@ li {
     margin-bottom: 10px;
 }
 
-ul li{
+ul li {
     font-family: Raleway;
     line-height: 1em;
 }
@@ -95,117 +95,124 @@ img.aboutPhoto {
     min-width: 100%;
 }
 
-#long-bio{
+#long-bio {
     line-height: 1.5em;
     padding: 0 30px;
     text-align: left;
 }
 
-img.janette{
+img.janette {
     display: none;
 }
 
-a.jette{
+a.jette {
     text-decoration: none;
     font-weight: bolder;
     font-size: 18px;
     color: rgb(200, 2, 250);
 }
 
-a.jette:hover{
+a.jette:hover {
     font-size: 20px;
     color: forestgreen;
 }
 
-img.green, img.leylak{
+img.green,
+img.leylak {
     max-width: 100%;
 }
 
-.pinkLilac{
+.pinkLilac {
     color: rgb(221, 87, 233);
     font-family: cursive;
     font-size: 70px;
     border: none;
 }
-h2.leylak{
+
+h2.leylak {
     color: rgb(180, 176, 180);
     font-family: Limelight;
     font-size: 110%;
     padding: 0 20px;
 }
 
-h2.gallery{
+h2.gallery {
     color: rgb(118, 201, 98);
     font-family: Limelight;
     font-size: 40px;
     padding: 0 20px;
 }
 
-h3.leylak, h4.year {
+h3.leylak,
+h4.year {
     color: rgb(180, 176, 180);
     font-family: Raleway;
     padding: 0 20px;
 }
 
-h4.year{
+h4.year {
     margin-top: 0px;
     line-height: .5em;
 }
 
-header.leylakBorder{
+header.leylakBorder {
     border: dotted rgb(179, 78, 209) 7px;
     padding: 5px;
-    margin: 20px 15px 20px 15px; 
+    margin: 20px 15px 20px 15px;
 }
 
-#up{
+#up {
     margin: -20px auto 10px auto;
     color: rgb(180, 176, 180, .6);
     font-size: 25px;
 }
 
-h1.green, h1.green a:link, h1.green a:visited {
+h1.green,
+h1.green a:link,
+h1.green a:visited {
     margin: auto auto -20px auto;
     border: none;
     color: rgb(118, 201, 98);
     font-size: 75px;
     text-decoration: none;
 }
-h1.green a:hover{
+
+h1.green a:hover {
     color: greenyellow;
 }
 
-div.movieTop{
+div.movieTop {
     background-color: rgb(196, 192, 147);
-    background-image: radial-gradient(rgb(246, 248, 218), rgb(223, 219, 183),rgb(114, 111, 84));
-    color:black;
+    background-image: radial-gradient(rgb(246, 248, 218), rgb(223, 219, 183), rgb(114, 111, 84));
+    color: black;
     padding: 10px 30px 50px 30px;
     line-height: 1.5em;
 }
 
-#topbutt{
+#topbutt {
     margin-bottom: 15px;
 }
 
-#bottombutt{
+#bottombutt {
     margin-top: 15px;
 }
 
-#gbottombutt{
+#gbottombutt {
     margin-top: 30px;
     margin-bottom: -35px
 }
 
-#photobutt{
+#photobutt {
     margin-bottom: -25px;
 }
 
-#tours-grid-box img, figure {
+#tours-grid-box img,
+figure {
     display: block;
     margin: auto auto 15px auto;
 }
 
-#tours-grid-box img{
+#tours-grid-box img {
     max-width: 90%;
     border: gray ridge 5px;
     border-radius: 3px;
@@ -221,35 +228,35 @@ div.movieTop{
     box-shadow: gray 0 0 50px;
 }
 
-div.movieBottom{
+div.movieBottom {
     margin-top: -6px;
     background-color: rgb(73, 107, 73);
-    background-image: linear-gradient(rgb(177, 209, 177),rgb(118, 165, 118),rgb(73, 107, 73),rgb(37, 54, 37),rgb(19, 32, 19), black);
+    background-image: linear-gradient(rgb(177, 209, 177), rgb(118, 165, 118), rgb(73, 107, 73), rgb(37, 54, 37), rgb(19, 32, 19), black);
     padding: 10px 30px;
     line-height: 1.5em;
 }
 
-div.movieBottom p{
+div.movieBottom p {
     margin-bottom: 40px;
     margin-top: 15px;
 }
 
-div.top{
+div.top {
     margin-top: -6px;
     padding: 10px 30px;
     line-height: 1.5em;
     color: black;
     background-color: rgb(216, 181, 226);
-    background-image: linear-gradient(rgb(241, 249, 250), rgb(236, 208, 245),rgb(179, 78, 209));
+    background-image: linear-gradient(rgb(241, 249, 250), rgb(236, 208, 245), rgb(179, 78, 209));
 }
 
-div.bottom{
+div.bottom {
     margin-top: -6px;
     padding: 10px 30px;
     line-height: 1.5em;
     color: black;
     background-color: rgb(216, 181, 226);
-    background-image: linear-gradient(rgb(179, 78, 209), rgb(236, 208, 245),rgb(241, 249, 250));
+    background-image: linear-gradient(rgb(179, 78, 209), rgb(236, 208, 245), rgb(241, 249, 250));
 }
 
 a.button {
@@ -258,22 +265,41 @@ a.button {
     padding: 5px 10px;
     width: 160px;
     background-color: white;
-    border: dotted  rgb(179, 78, 209) 6px;
+    border: dotted rgb(179, 78, 209) 6px;
     font-family: Limelight;
     font-size: 20px;
     text-decoration: none;
 }
 
-a.button:link, a.button:visited{
+a.button:link,
+a.button:visited {
     color: black;
     text-align: center;
 }
 
-h1.interviews{
+h1.interviews {
     margin: -30px 20px 10px 20px;
     line-height: 1.5em;
     padding: 10px 0;
     font-size: 25px;
+}
+
+#newsbox h2 {
+    text-align: center;
+    color: grey;
+    font-family: Limelight;
+}
+
+#newsbox p {
+    margin: 10px 20px;
+    line-height: 1.5em;
+}
+
+h5 {
+    text-align: center;
+    margin: -20px 20px 10px 20px;
+     color: lightgray;
+    font-family: Raleway, sans-serif;
 }
 
 footer {

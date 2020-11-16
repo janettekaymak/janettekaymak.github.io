@@ -105,4 +105,16 @@
             max-width: 94%;
     }
 
+    #news4{
+        display: flexbox;
+    }
+
+    img.newsimg{
+        max-width: 360px;
+        float: left;
+    }
+    #four{
+        margin: auto 20px 10px 20px;
+    }
+
 }
