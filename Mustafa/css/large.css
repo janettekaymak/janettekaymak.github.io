@@ -22,12 +22,13 @@
         color: black;
     }
 
-    header.leylakBorder{
-        margin: 20px 350px; 
+    img.green{
+        border-radius: 15px;
+        display: block;
+        margin: auto;
     }
 
-    img.green, img.leylak{
-        border-radius: 15px;
+    img.leylak{
         display: block;
         margin: auto;
     }
@@ -45,9 +46,10 @@
         font-size: 25px;
     }
 
-    header.leylakBorder{
-        padding: 5px;
-        margin: 20px 200px auto 200px; 
+    header.leylakBorder {
+       max-width: 640px;
+       display: block;
+       margin: 30px auto auto auto;
     }
 
     h1.green{
@@ -80,6 +82,24 @@
         margin-left: 43%;
         max-width: 50%;
     }
+
+    div.top{
+        position: sticky;
+        max-width: 836px;
+        border-radius: 15px 15px 0 0;
+        display: block;
+        margin: auto auto -50px auto;
+    }
+
+    div.bottom{
+        position: sticky;
+        max-width: 836px;
+        border-radius: 0 0 15px 15px;
+        display: block;
+        margin: -90px auto auto auto;
+    }
+
+
 
     #tours-grid-box {
         margin: auto;

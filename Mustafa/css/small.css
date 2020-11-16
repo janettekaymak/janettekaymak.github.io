@@ -26,7 +26,7 @@ a:visited {
 
 nav ul li a:hover {
     background-color: white;
-    border: dotted  rgb(133, 7, 252) 6px;
+    border: dotted  rgb(179, 78, 209) 6px;
     border-radius: 5px;
     color: black;
     font-weight: bolder;
@@ -42,7 +42,7 @@ li {
 }
 
 span.lilac {
-    color: rgb(133, 7, 252);
+    color: rgb(179, 78, 209);
     font-weight: bolder;
     font-size: 125%;
     ;
@@ -62,7 +62,7 @@ h1 {
     font-family: 'Limelight';
     font-size: 40px;
     color: lemonchiffon;
-    border: dotted rgb(193, 136, 247) 7px;
+    border: dotted rgb(179, 78, 209) 7px;
     padding: 5px;
     margin: 0 10px
 }
@@ -123,7 +123,7 @@ img.green, img.leylak{
 }
 
 .pinkLilac{
-    color: rgb(248, 76, 248);
+    color: rgb(221, 87, 233);
     font-family: cursive;
     font-size: 70px;
     border: none;
@@ -142,14 +142,19 @@ h2.gallery{
     padding: 0 20px;
 }
 
-h3.leylak{
+h3.leylak, h4.year {
     color: rgb(180, 176, 180);
     font-family: Raleway;
     padding: 0 20px;
 }
 
+h4.year{
+    margin-top: -5px;
+    line-height: .5em;
+}
+
 header.leylakBorder{
-    border: dotted rgb(193, 136, 247) 7px;
+    border: dotted rgb(179, 78, 209) 7px;
     padding: 5px;
     margin: 20px 15px 20px 15px; 
 }
@@ -208,12 +213,30 @@ div.movieBottom p{
     margin-bottom: 40px;
 }
 
+div.top{
+    margin-top: -6px;
+    padding: 10px 30px;
+    line-height: 1.5em;
+    color: black;
+    background-color: rgb(216, 181, 226);
+    background-image: linear-gradient(rgb(241, 249, 250), rgb(236, 208, 245),rgb(179, 78, 209));
+}
+
+div.bottom{
+    margin-top: -6px;
+    padding: 10px 30px;
+    line-height: 1.5em;
+    color: black;
+    background-color: rgb(216, 181, 226);
+    background-image: linear-gradient(rgb(179, 78, 209), rgb(236, 208, 245),rgb(241, 249, 250));
+}
+
 button{
     margin: auto;
     display: block;
     padding: 10px;
     background-color: white;
-    border: dotted  rgb(133, 7, 252) 6px;
+    border: dotted  rgb(179, 78, 209) 6px;
     color: black;
     font-family: Limelight;
     font-size: 20px;
