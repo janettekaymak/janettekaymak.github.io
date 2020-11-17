@@ -371,9 +371,19 @@ a.none:link, a.none:visited{
     color: white;
 }
 
+.social{
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.social img{
+    padding: 0 5px;
+    margin-bottom: -8px
+}
+
 footer {
     background-color: black;
-    padding: 20px 150px;
+    padding: 20px 0;
 }
 
 footer p {
