@@ -142,9 +142,10 @@
         grid-area: contact4;
     }
     #contact-box{
+        padding: 0 7px;
         max-width: 900px;
         display: grid;
-        margin: auto 5px;
+        margin: auto;
         grid-template-areas: 
         'contact3 contact1'
         'contact2 contact4';
