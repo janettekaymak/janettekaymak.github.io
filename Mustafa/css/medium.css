@@ -115,7 +115,7 @@
     }
 
     #news4{
-        display: flexbox;
+        display: inline-flexbox;
     }
 
     img.newsimg{
