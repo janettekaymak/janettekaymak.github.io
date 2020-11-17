@@ -330,6 +330,33 @@ h5 {
     font-family: Raleway, sans-serif;
 }
 
+#contact1, #contact2, #contact3, #contact4{
+    margin: 40px;
+    padding: 30px;
+    border: lemonchiffon 1px solid;
+}
+
+#happyimg, #goodimg{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+#avatar{
+    display: block;
+    margin: -50px auto auto auto;
+    max-width: 200px;
+}
+
+ a.none {
+     font-size: 20px;
+    text-decoration: none;
+}
+
+a.none:link, a.none:visited{
+    color: white;
+}
+
 footer {
     background-color: black;
     padding: 20px 150px;
