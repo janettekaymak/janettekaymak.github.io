@@ -15,12 +15,10 @@ a:visited {
     font-size: 20px;
     font-family: 'Raleway', Helvetica, sans-serif;
     padding: 5px 10px;
-    border: dotted transparent 6px;
 }
 
-nav ul li a:hover {
+nav ul li a:hover, a.active {
     background-color: white;
-    border: dotted rgb(179, 78, 209) 6px;
     border-radius: 5px;
     color: black;
     font-weight: bolder;
