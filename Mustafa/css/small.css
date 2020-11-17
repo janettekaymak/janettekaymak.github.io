@@ -63,7 +63,7 @@ h1 {
     color: lemonchiffon;
     border: dotted rgb(179, 78, 209) 7px;
     padding: 5px;
-    margin: 0 10px
+    margin: -40px 10px 0 10px;
 }
 
 img.mico {
@@ -291,7 +291,7 @@ h1.interviews {
 }
 
 div.fb-post {
-   max-width: 400px;
+   max-width: 360px;
 }
 
 img.newsimg{
