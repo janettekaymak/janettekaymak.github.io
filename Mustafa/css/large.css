@@ -6,6 +6,10 @@
         margin: 0 180px;
     }
 
+    h1.interviews{
+        margin: 0 250px;
+    }
+
     #lemon-box {
         max-width: 560px;
         position: absolute;

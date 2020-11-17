@@ -24,7 +24,11 @@
     }
 
     h1 {
-        margin: 0 120px
+        margin: 0 120px;
+    }
+
+    h1.interviews{
+        margin: 0 100px;
     }
 
     #lemon-box {
