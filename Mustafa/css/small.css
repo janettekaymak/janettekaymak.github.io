@@ -14,6 +14,14 @@ a:visited {
 }
 
 nav ul li a:hover, a.active {
+    background-color: rgb(252, 241, 150);
+    border-radius: 5px;
+    color: black;
+    font-weight: bolder;
+    transition: 1s;
+}
+
+a.active {
     background-color: white;
     border-radius: 5px;
     color: black;
@@ -155,7 +163,7 @@ h4.year {
 }
 
 header.leylakBorder {
-    border: dotted rgb(252, 241, 150) 7px;
+    border: dotted lemonchiffon 7px;
     padding: 5px;
     margin: 20px 15px 20px 15px;
 }
@@ -259,6 +267,7 @@ div.bottom {
 }
 
 a.button{
+    border: transparent solid 1px;
     margin: auto;
     display: block;
     padding: 5px 10px;
@@ -274,6 +283,11 @@ a.button:link,
 a.button:visited {
     color: black;
     text-align: center;
+}
+
+a.button:hover{
+    background-color: rgb(252, 241, 150);
+    border: black solid 1px;
 }
 
 h1.interviews {
