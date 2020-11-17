@@ -287,7 +287,7 @@ h1.interviews {
 }
 
 #news1, #news2, #news4{
-    border-top: rgb(179, 78, 209) dotted 2px;
+    border-top: dimgrey solid 1px;
     padding-top: 30px;
     margin: 30px auto;
 }
