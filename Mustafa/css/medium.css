@@ -109,14 +109,30 @@
             max-width: 94%;
     }
 
+    #newsbox{
+        display: block;
+        margin: auto;
+    }
+
+    #news1, #news2, #news4{
+        margin: 30px;
+        padding: 15px;
+        border: gray 1px solid;
+        border-radius: 15px;
+    }
     #news1{
-        max-width: 1200px;
-        
+        padding: 30px;
     }
 
     img.newsimg{
         float: left;
     }
+
+    iframe{
+        min-width: 650px;
+        height: 480px;
+    }
+
     #four{
         margin: auto 20px 10px 20px;
     }

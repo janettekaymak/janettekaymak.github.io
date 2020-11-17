@@ -286,6 +286,12 @@ h1.interviews {
     font-size: 25px;
 }
 
+#news1, #news2, #news4{
+    border-top: rgb(179, 78, 209) dotted 2px;
+    padding-top: 30px;
+    margin: 30px auto;
+}
+
 #newsbox h2 {
     text-align: center;
     color: grey;
@@ -307,6 +313,13 @@ img.newsimg{
     display: block;
     margin: auto;
     max-width: 100%;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    min-width: 360px;
+    height: 300px;
 }
 
 h5 {
