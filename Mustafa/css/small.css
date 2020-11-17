@@ -64,9 +64,6 @@ h1 {
     font-family: 'Limelight';
     font-size: 40px;
     color: rgb(180, 176, 180);
-    /*border: dotted rgb(252, 240, 138) 7px;*/
-    padding: 5px;
-    margin: -40px 10px 0 10px;
 }
 
 img.mico {
@@ -95,8 +92,10 @@ img.aboutPhoto {
 }
 
 #long-bio {
+    margin-top: -5px;
+    background-color: rgb(51, 34, 21);
     line-height: 1.5em;
-    padding: 0 30px;
+    padding:20px 30px;
     text-align: left;
 }
 
@@ -108,7 +107,7 @@ a.jette {
     text-decoration: none;
     font-weight: bolder;
     font-size: 18px;
-    color: rgb(179, 78, 209);
+    color: rgb(247, 142, 4);
 }
 
 a.jette:hover {
@@ -156,7 +155,7 @@ h4.year {
 }
 
 header.leylakBorder {
-    border: dotted rgb(179, 78, 209) 7px;
+    border: dotted rgb(252, 241, 150) 7px;
     padding: 5px;
     margin: 20px 15px 20px 15px;
 }
@@ -278,7 +277,6 @@ a.button:visited {
 }
 
 h1.interviews {
-    margin: -30px 20px 10px 20px;
     line-height: 1.5em;
     padding: 10px 0;
     font-size: 25px;

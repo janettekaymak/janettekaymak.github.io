@@ -23,16 +23,7 @@
         display: block;
     }
 
-    h1 {
-        margin: 0 120px;
-    }
-
-    h1.interviews{
-        margin: 0 100px;
-    }
-
     #long-bio {
-        background-color: rgb(250, 247, 233, .5);
         padding: 10px 40px;
         line-height: 1.31em;
         position: absolute;
@@ -68,10 +59,6 @@
         margin-bottom: 10px;
     }
 
-    header.leylakBorder {
-        margin: 20px 150px;
-    }
-
     #up{
         margin: -10px auto 10px auto;
     }
@@ -103,6 +90,13 @@
 
     #tours-grid-box img {
             max-width: 94%;
+    }
+
+    h1.interviews {
+        margin: -50px auto -10px auto;
+        line-height: 1.5em;
+        padding: 10px 0;
+        font-size: 35px;
     }
 
     #newsbox{
