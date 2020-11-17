@@ -334,6 +334,11 @@ h5 {
     margin: 40px;
     padding: 30px;
     border: lemonchiffon 1px solid;
+    border-radius: 15px;
+}
+
+#contact3{
+    font-size: 20px;
 }
 
 #happyimg, #goodimg{
@@ -348,8 +353,8 @@ h5 {
     max-width: 200px;
 }
 
- a.none {
-     font-size: 20px;
+ a.none{
+    font-size: 20px;
     text-decoration: none;
 }
 
