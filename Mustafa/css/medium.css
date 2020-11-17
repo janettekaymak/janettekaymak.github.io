@@ -81,20 +81,20 @@
     }
 
     div.movieTop {
-        line-height: 2em;
-        position: absolute;
-        margin: 50px;
-        max-width: 38%;
-        background-color: #dfcebe;
-        background-image: none;
+        position: sticky;
+        margin-bottom: -120px;
     }
 
     div.movieBottom p{
-        margin-top: 10px;
+        margin-top: 0px;
+    }
+
+    #gbottombutt{
+        margin-top: 5px;
     }
 
     #photobutt{
-        margin-bottom: -8px;
+        margin-bottom: -28px;
     }
 
     #tours-grid-box {
