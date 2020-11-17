@@ -290,6 +290,20 @@ h1.interviews {
     font-family: Limelight;
 }
 
+div.fb-post {
+   max-width: 400px;
+}
+
+img.newsimg{
+    display: block;
+    margin: auto;
+    max-width: 360px;
+}
+
+#news1{
+    max-width: 360px;
+}
+
 #newsbox p {
     margin: 10px 20px;
     line-height: 1.5em;

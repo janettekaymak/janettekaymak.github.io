@@ -142,6 +142,20 @@
         min-width: 94%;
     }
 
+    #newsbox{
+        display: block;
+        margin: auto;
+        max-width: 1200px;
+    }
 
+    #news1, #news4{
+        margin: 30px;
+        padding: 15px;
+        border: gray 1px solid;
+        border-radius: 15px;
+    }
+    #news1{
+        padding: 30px;
+    }
 
 }
