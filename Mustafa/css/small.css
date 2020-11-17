@@ -13,7 +13,8 @@ a:visited {
     padding: 5px 10px;
 }
 
-nav ul li a:hover, a.active {
+nav ul li a:hover,
+a.active {
     background-color: rgb(252, 241, 150);
     border-radius: 5px;
     color: black;
@@ -33,11 +34,12 @@ nav {
     margin-left: 80px;
 }
 
-p.center a:link, p.center a:visited{
+p.center a:link,
+p.center a:visited {
     color: lemonchiffon;
 }
 
-p.center{
+p.center {
     text-align: center;
     padding-bottom: 20px;
 }
@@ -103,7 +105,7 @@ img.aboutPhoto {
     margin-top: -5px;
     background-color: rgb(51, 34, 21);
     line-height: 1.5em;
-    padding:20px 30px;
+    padding: 20px 30px;
     text-align: left;
 }
 
@@ -266,7 +268,7 @@ div.bottom {
     background-image: linear-gradient(rgb(179, 78, 209), rgb(236, 208, 245), rgb(241, 249, 250));
 }
 
-a.button{
+a.button {
     border: transparent solid 1px;
     margin: auto;
     display: block;
@@ -285,7 +287,7 @@ a.button:visited {
     text-align: center;
 }
 
-a.button:hover{
+a.button:hover {
     background-color: rgb(252, 241, 150);
     border: black solid 1px;
 }
@@ -296,7 +298,9 @@ h1.interviews {
     font-size: 25px;
 }
 
-#news1, #news2, #news4{
+#news1,
+#news2,
+#news4 {
     border-top: dimgrey solid 1px;
     padding-top: 30px;
     margin: 30px auto;
@@ -308,7 +312,7 @@ h1.interviews {
     font-family: Limelight;
 }
 
-img.newsimg{
+img.newsimg {
     display: block;
     margin: auto;
     max-width: 360px;
@@ -319,13 +323,13 @@ img.newsimg{
     line-height: 1.5em;
 }
 
-#park{
+#park {
     display: block;
     margin: auto;
     max-width: 100%;
 }
 
-iframe{
+iframe {
     display: block;
     margin: auto;
     min-width: 360px;
@@ -335,54 +339,49 @@ iframe{
 h5 {
     text-align: center;
     margin: -20px 20px 10px 20px;
-     color: lightgray;
+    color: lightgray;
     font-family: Raleway, sans-serif;
 }
 
-#contact1, #contact2, #contact3, #contact4{
-    margin: 40px;
-    padding: 30px;
-    border: lemonchiffon 1px solid;
-    border-radius: 15px;
+#contact3 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    max-width: 260px;
+    border: lemonchiffon solid 1px;
+    border-radius: 10px;
+    margin: 50px auto auto auto;
+    line-height: 1px;
 }
 
-#contact3{
-    font-size: 20px;
-}
-
-#happyimg, #goodimg, #girlimg{
+#happyimg {
+    border-radius: 10px;
     display: block;
-    margin: auto;
+    margin: 70px auto;
     max-width: 100%;
 }
 
-#avatar{
-    display: block;
-    margin: -50px auto auto auto;
-    max-width: 200px;
-}
-
- a.none{
+a.none {
     font-size: 20px;
     text-decoration: none;
 }
 
-a.none:link, a.none:visited{
+a.none:link,
+a.none:visited {
     color: white;
 }
 
-.social{
+.social {
     font-family: Raleway, Arial, Helvetica, sans-serif;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.social img{
+.social img {
     padding: 0 5px;
     margin-bottom: -8px
 }
 
-.social a:hover{
+.social a:hover {
     box-shadow: white 0 0 50px;
 }
 

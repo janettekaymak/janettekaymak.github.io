@@ -124,45 +124,4 @@
         height: 480px;
     }
 
-    #four{
-        margin: auto 20px 10px 20px;
-    }
-
-    #contact1, #contact2, #contact3, #contact4{
-        margin: 5px;
-        padding: 10px;
-        border: lemonchiffon 1px solid;
-        border-radius: 15px;
-    }
-
-    #contact1{
-        grid-area: contact1;
-    }
-    #contact2{
-        grid-area: contact2;
-    }
-    #contact3{
-        padding-top: 70px;
-        grid-area: contact3;
-    }
-    #contact4{
-        grid-area: contact4;
-    }
-    #contact-box{
-        padding: 0 7px;
-        max-width: 900px;
-        display: grid;
-        margin: auto;
-        grid-template-areas: 
-        'contact3 contact1'
-        'contact2 contact4';
-
-    }
-    #contact-box img{
-        border-radius: 15px;
-    }
-    #avatar{
-        max-width: 300px;
-    }
-
 }

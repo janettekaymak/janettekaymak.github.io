@@ -171,22 +171,4 @@
         height: 600px;
     }
 
-    #contact1{
-        grid-area: contact1;
-        margin: 15px;
-    }
-    #contact2{
-        grid-area: contact2;
-        margin: 15px;
-    }
-    #contact3{
-        padding-top: 70px;
-        grid-area: contact3;
-        margin: 15px;
-    }
-    #contact4{
-        grid-area: contact4;
-        margin: 15px;
-    }
-
 }
