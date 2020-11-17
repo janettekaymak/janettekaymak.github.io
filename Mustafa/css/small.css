@@ -125,6 +125,7 @@ img.leylak {
 }
 
 .pinkLilac {
+    margin-top: 0px;
     color: rgb(221, 87, 233);
     font-family: cursive;
     font-size: 70px;
@@ -261,7 +262,7 @@ div.bottom {
     background-image: linear-gradient(rgb(179, 78, 209), rgb(236, 208, 245), rgb(241, 249, 250));
 }
 
-a.button {
+a.button{
     margin: auto;
     display: block;
     padding: 5px 10px;
