@@ -353,6 +353,10 @@ h5 {
     line-height: 1px;
 }
 
+#contact3 p a:hover{
+    color: forestgreen;
+}
+
 #happyimg {
     border-radius: 10px;
     display: block;
