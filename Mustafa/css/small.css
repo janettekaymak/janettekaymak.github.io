@@ -31,8 +31,13 @@ nav {
     margin-left: 80px;
 }
 
-a:link, a:visited{
-    color: lightgray;
+p.center a:link, p.center a:visited{
+    color: lemonchiffon;
+}
+
+p.center{
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 li {
@@ -310,6 +315,10 @@ img.newsimg{
 #newsbox p {
     margin: 10px 20px;
     line-height: 1.5em;
+}
+
+#park{
+    max-width: 100%;
 }
 
 h5 {
