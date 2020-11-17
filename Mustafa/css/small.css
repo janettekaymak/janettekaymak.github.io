@@ -374,11 +374,16 @@ a.none:link, a.none:visited{
 .social{
     font-family: Raleway, Arial, Helvetica, sans-serif;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .social img{
     padding: 0 5px;
     margin-bottom: -8px
+}
+
+.social a:hover{
+    box-shadow: white 0 0 50px;
 }
 
 footer {
