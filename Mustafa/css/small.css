@@ -318,6 +318,8 @@ img.newsimg{
 }
 
 #park{
+    display: block;
+    margin: auto;
     max-width: 100%;
 }
 
