@@ -13,8 +13,9 @@
     #lemon-box {
         max-width: 560px;
         position: absolute;
-        margin-top: -600px;
-        margin-left: 700px;
+        margin-top: -680px;
+        margin-left: 620px;
+        margin-right: 20px;
     }
 
     #long-bio {
