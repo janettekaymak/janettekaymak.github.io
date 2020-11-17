@@ -144,9 +144,9 @@
     #contact-box{
         max-width: 900px;
         display: grid;
-        margin: auto;
+        margin: auto 5px;
         grid-template-areas: 
-        'contact1 contact3'
+        'contact3 contact1'
         'contact2 contact4';
 
     }
