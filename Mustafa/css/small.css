@@ -31,7 +31,9 @@ a.active {
 }
 
 nav {
-    margin-left: 80px;
+    margin-top: -25px;
+   text-align: center;
+   margin-right: 30px;
 }
 
 p.center a:link,
