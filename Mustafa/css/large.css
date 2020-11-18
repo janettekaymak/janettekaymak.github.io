@@ -43,7 +43,7 @@
     }
 
     nav ul li {
-        padding: 10px 20px;
+        padding: 10px 15px;
     }
 
     nav ul li a:link,
@@ -58,7 +58,7 @@
     header.leylakBorder {
         max-width: 640px;
         display: block;
-        margin: 30px auto auto auto;
+        margin: 30px auto;
     }
 
     h1.green a:link,
