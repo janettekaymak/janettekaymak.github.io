@@ -182,6 +182,11 @@ header.leylakBorder {
     font-size: 25px;
 }
 
+b{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+    font-size: 18px;
+}
+
 h1.green,
 h1.green a:link,
 h1.green a:visited {
