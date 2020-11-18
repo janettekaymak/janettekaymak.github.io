@@ -76,6 +76,13 @@ h1 {
     color: rgb(180, 176, 180);
 }
 
+#upless{
+    margin: -25px auto 35px auto;
+    font-family: 'Limelight';
+    font-size: 25px;
+    color: rgb(180, 176, 180);
+}
+
 img.mico {
     display: none;
 }
