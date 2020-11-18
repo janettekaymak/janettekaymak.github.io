@@ -385,6 +385,10 @@ h5 {
     max-width: 100%;
 }
 
+#about-social{
+    margin-top: 40px;
+}
+
 a.none {
     font-size: 20px;
     text-decoration: none;
