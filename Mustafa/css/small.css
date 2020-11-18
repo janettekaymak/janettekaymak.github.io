@@ -169,13 +169,14 @@ h4.year {
 
 h4.year {
     margin-top: 0px;
+    margin-bottom: 15px;
     line-height: .5em;
 }
 
 header.leylakBorder {
     border: dotted lemonchiffon 7px;
     padding: 5px;
-    margin: 20px 15px 20px 15px;
+    margin: 20px 15px 40px 15px;
 }
 
 #up {
