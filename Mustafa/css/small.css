@@ -98,6 +98,7 @@ img.small-mico {
     color: black;
     padding: 10px 40px;
     line-height: 2em;
+    margin-bottom: 30px;
 }
 
 p {
@@ -282,6 +283,7 @@ div.top {
 
 div.bottom {
     margin-top: -6px;
+    margin-bottom: 30px;
     padding: 10px 30px;
     line-height: 1.5em;
     color: black;
