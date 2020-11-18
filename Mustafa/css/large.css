@@ -117,6 +117,7 @@
 
     #butt1, #butt2, #butt3{
         margin: 0 45px;
+        padding: 10px;
     }
     
     div.buttonbox{
