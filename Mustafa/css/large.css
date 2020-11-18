@@ -115,10 +115,20 @@
         margin: -90px auto auto auto;
     }
 
-    #gbottombutt {
+    #butt1, #butt2, #butt3{
+        margin: 0 45px;
+    }
+    
+    div.buttonbox{
+        display: flex;
+        justify-content: center;
+        margin: 20px auto -20px auto;
+    }
+
+    /*#gbottombutt {
         margin-top: -15px;
         margin-bottom: -15px;
-    }
+    }*/
 
     #tours-grid-box {
         margin: auto;

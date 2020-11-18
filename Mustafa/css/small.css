@@ -201,10 +201,6 @@ h1.green a:visited {
     text-decoration: none;
 }
 
-h1.green a:hover {
-    color: greenyellow;
-}
-
 div.movieTop {
     background-color: rgb(196, 192, 147);
     background-image: radial-gradient(rgb(246, 248, 218), rgb(223, 219, 183), rgb(114, 111, 84));
@@ -213,11 +209,21 @@ div.movieTop {
     line-height: 1.5em;
 }
 
+#butt1, #butt2, #butt3{
+    margin: 0 5px;
+}
+
+div.buttonbox{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto -20px auto;
+}
+
 #topbutt {
     margin-bottom: 15px;
 }
 
-#bottombutt {
+/*#bottombutt {
     margin-top: 15px;
 }
 
@@ -228,7 +234,7 @@ div.movieTop {
 
 #photobutt {
     margin-bottom: -25px;
-}
+}*/
 
 #tours-grid-box img,
 figure {
@@ -261,7 +267,7 @@ div.movieBottom {
 }
 
 div.movieBottom p {
-    margin-bottom: 40px;
+    margin-bottom: 15px;
     margin-top: 15px;
 }
 
@@ -411,4 +417,5 @@ footer {
 
 footer p {
     text-align: center;
+    line-height: 5px;
 }
