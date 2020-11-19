@@ -1,247 +1,256 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>About Me</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <style>
-      @import url("https://fonts.googleapis.com/css?family=Kalam&display=swap");
-      @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
-      @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
-      @import url("https://fonts.googleapis.com/css?family=Permanent+Marker|Shadows+Into+Light&display=swap");
-      nav {
-        color: mediumblue;
-        background-color: plum;
-        font-size: 16px;
-        font-family: Tahoma;
-        padding: 20px;
-        text-align: right;
-        maxiumu-width: 97.5%;
-        margin-bottom: 0px;
-      }
-      nav a {
-        color: mediumblue;
-      }
-      nav a:hover {
-        color: cyan;
-      }
-      h1 {
-        color: deepSkyBlue;
-        font-family: fantasy;
-        font-size: 60px;
-        text-align: center;
-        line-height: 0.8;
-      }
-      .grads {
-        position: relative;
-        float: right;
-        border-radius: 18px;
-        margin: 50px;
-        padding: 5px;
-        margin-top: -30px;
-      }
-      h2 {
-        color: darkTurquoise;
-        font-family: "Shadows Into Light";
-        font-size: 30px;
-        text-align: center;
-        line-height: 0.5;
-      }
-      .first-para {
-        background-color: LightSkyBlue;
-        padding: 8px;
-        border-radius: 18px;
-        margin-right: 20px;
-        margin-left: 20px;
-      }
-      .hats {
-        border-radius: 18px;
-        border: 7px ridge #ddd;
-        padding: 5px;
-        margin: 0px 5px 10px 10px;
-      }
-      .second-para {
-        background-color: salmon;
-        padding: 8px;
-        border-radius: 18px;
-        margin: 6px 10px 0px 5px;
-        float: right;
-      }
-      .third-para {
-        background-color: plum;
-        padding: 12px;
-        border-radius: 18px;
-        width: 525px;
-        margin: 0px 5px 5px 12px;
-      }
-      .tri-shirt {
-        position: relative;
-        top: 5px;
-        border-radius: 18px;
-        border: 7px ridge #ddd;
-        padding: 5px;
-        margin: 0px 5px 5px 10px;
-      }
-      .bottom-para {
-        background-color: hotpink;
-        padding: 8px;
-        width: 378px;
-        border-radius: 18px;
-        margin: 6px 10px 40px 5px;
-        float: right;
-      }
-      p {
-        color: indigo;
-        font-family: Kalam, helvetica, sans-serif;
-        font-size: 22px;
-      }
-      span {
-        color: darkturquoise;
-      }
-      h4 {
-        font-family: "Shadows Into Light", helvetica;
-        font-size: 25px;
-        text-align: center;
-        text-decoration: overline;
-        margin-top: 40px;
-      }
-      h4 a {
-        color: mediumblue;
-      }
-      h4 a:hover {
-        color: cyan;
-      }
-      p a:hover {
-        color: lime;
-      }
-      #content {
-        /* width: 980px;
+
+<head>
+  <title>About Me</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Kalam&display=swap");
+    @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+    @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+    @import url("https://fonts.googleapis.com/css?family=Permanent+Marker|Shadows+Into+Light&display=swap");
+
+    nav {
+      color: mediumblue;
+      background-color: plum;
+      font-size: 16px;
+      font-family: Tahoma;
+      padding: 20px;
+      text-align: right;
+      maxiumu-width: 97.5%;
+      margin-bottom: 0px;
+    }
+
+    nav a {
+      color: mediumblue;
+    }
+
+    nav a:hover {
+      color: cyan;
+    }
+
+    h1 {
+      color: deepSkyBlue;
+      font-family: fantasy;
+      font-size: 60px;
+      text-align: center;
+      line-height: 0.8;
+    }
+
+    .grads {
+      position: relative;
+      float: right;
+      border-radius: 18px;
+      margin: 50px;
+      padding: 5px;
+      margin-top: -30px;
+    }
+
+    h2 {
+      color: darkTurquoise;
+      font-family: "Shadows Into Light";
+      font-size: 30px;
+      text-align: center;
+      line-height: 0.5;
+    }
+
+    .first-para {
+      background-color: LightSkyBlue;
+      padding: 8px;
+      border-radius: 18px;
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+
+    .hats {
+      border-radius: 18px;
+      border: 7px ridge #ddd;
+      padding: 5px;
+      margin: 0px 5px 10px 10px;
+    }
+
+    .second-para {
+      background-color: salmon;
+      padding: 8px;
+      border-radius: 18px;
+      margin: 6px 10px 0px 5px;
+      float: right;
+    }
+
+    .third-para {
+      background-color: plum;
+      padding: 12px;
+      border-radius: 18px;
+      width: 525px;
+      margin: 0px 5px 5px 12px;
+    }
+
+    .tri-shirt {
+      position: relative;
+      top: 5px;
+      border-radius: 18px;
+      border: 7px ridge #ddd;
+      padding: 5px;
+      margin: 0px 5px 5px 10px;
+    }
+
+    .bottom-para {
+      background-color: hotpink;
+      padding: 8px;
+      width: 378px;
+      border-radius: 18px;
+      margin: 6px 10px 40px 5px;
+      float: right;
+    }
+
+    p {
+      color: indigo;
+      font-family: Kalam, helvetica, sans-serif;
+      font-size: 22px;
+    }
+
+    span {
+      color: darkturquoise;
+    }
+
+    h4 {
+      font-family: "Shadows Into Light", helvetica;
+      font-size: 25px;
+      text-align: center;
+      text-decoration: overline;
+      margin-top: 40px;
+    }
+
+    h4 a {
+      color: mediumblue;
+    }
+
+    h4 a:hover {
+      color: cyan;
+    }
+
+    p a:hover {
+      color: lime;
+    }
+
+    #content {
+      /* width: 980px;
         margin: auto;
         height: auto;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
         align-items: center;*/
-        
-      }
-      body {
-        border: ridge 20px darkturquoise;
-        border-radius: 18px;
-        background-color: #faf9ed;
-      }
-      footer {
-        background-color: plum;
-        padding: 1em;
-        height: 55px;
-      }
-      .icons {
-        float: right;
-        margin-top: 0px;
-      }
-       .copyright {
-        font-family: "Raleway", Calibri, sans-serif;
-        font-size: 12px;
-        color: mediumblue;
-        line-height: 0;
-      }
-      .icons a:hover {
-        background-color: cyan;
-      }
-      #logo {
-        position: relative;
-        top: 20px;
-        right: -20px;
-      }
-      #banner {
-        margin-bottom: 50px;
-      }
-    </style>
-    <link rel="shortcut icon" href="images/logo.png">
-  </head>
-  <body>
-    <div>
-      <header>
-        <img
-          id="logo"
-          src="https://cdn.glitch.com/580f9041-19e8-4044-a2cb-53b5ae9593cf%2FLogo.png?v=1574450140000"
-          alt="Rolling Thunder River Company logo with purple mountains, golden sky, greenery, and a blue river"
-          width="115"
-          height="100"
-        />
-        <nav>
-          <a href="https://cherry-sandpaper.glitch.me"
-            >Back to Fake Website (Home)</a
-          >
-          | <a href="https://vimeo.com/349561480">Watch GREEN</a> |
-          <a target="_blank" href="https://cherry-sandpaper.glitch.me/FAQ.html"
-            >FAQ about Fake Websites</a
-          > | 
-          <a target="_blank" href="https://cherry-sandpaper.glitch.me/moreAboutMe.html"
-             >More About Me</a> |
-          <a
-            target="_blank"
-            href="https://cherry-sandpaper.glitch.me/scripturecode.html"
-            >SCRIPTURE Surprise</a
-          >
-        </nav>
-        <div id="banner">
-          <img
-            src="https://cdn.glitch.com/580f9041-19e8-4044-a2cb-53b5ae9593cf%2Fbanner.jpg?v=1576522844162"
-            alt="several family photos, wedding, winning at sundance, engagement, grandkids"
-            width="100%"
-          />
-        </div>
-      </header>
-    </div>
-    <main>
-      <div id="content">
-        <div id="title">
-          <h1><span>....</span>About Me<span>....</span></h1>
-          <h2>
-            and a little about Mustafa
-          </h2>
-          <p class="first-para">
-            Thank you for coming here to learn about the real person behind
-            Rolling Thunder Whitewater Rafting, which incidently, is a fake
-            website. My name is Janette, I'm 58 years old and I am exploring.
-            Right now I am studying Web Frontend Development. I'm discovering
-            that I really love the artistic side of CSS (stands for Cascading
-            Style Sheet - it's how we make web pages look pretty & cool). After
-            I get my Bachelor's degree, I plan to get a Master's degree in
-            something creative. I'm using this last year of getting my
-            Bachelor's degree to try and discover which path to take. Some
-            possibilities might be Costume Design, Film Animation, TV Writing or
-            Screenwriting.<br /><br /><img
-              class="grads"
-              src="https://cdn.glitch.com/580f9041-19e8-4044-a2cb-53b5ae9593cf%2FGraduatesOpt.jpg?v=1575231699583"
-              alt="My husband and me in our graduation caps and gowns. His is blue from Columbia University and 
-               mine is grey, from Parsons The New School for Fashion Design"
-              width="30%"
-            />
-            I am in my second marriage and my husband's name is Mustafa. He is a
-            Sundance award-winning filmmaker! (Watch
-            <a href="https://vimeo.com/349561480">GREEN</a>) Mustafa is the age
-            of my children and he is from Turkey. Some people think it's funny
-            to call me a Cougar (nickname for an older woman who pursues younger
-            men); however, it was the other way around because Mustafa kept
-            asking me for two years before I would agree to go out with him. We
-            have six grown children from my first marriage and we have seven and
-            a half (there's a bun in the oven) grandchildren! My husband is
-            unusually fortunate because I turned him into a grandpa when he was
-            only 29 years old.<br /><br />
-            I am originally from Alaska, but now I live in New York City.
-            Although there is an interesting energy here and I love the
-            diversity, someday I hope to move out West to be near all of my
-            children and my six rowdy, ornery brothers. My dream is to buy a big
-            beautiful cabin, big enough for everyone to visit, in Midway, Utah
-            where my Anderson ancestors are from. That would also be a nice
-            location for my film-producing husband. Sundance is nearby and
-            hopping a plane to LA or NYC from the SLC airport would be a
-            snap.<br /><br />
-          </p>
-        </div>
+
+    }
+
+    body {
+      border: ridge 20px darkturquoise;
+      border-radius: 18px;
+      background-color: #faf9ed;
+    }
+
+    footer {
+      background-color: plum;
+      padding: 1em;
+      height: 55px;
+    }
+
+    .icons {
+      float: right;
+      margin-top: 0px;
+    }
+
+    .copyright {
+      font-family: "Raleway", Calibri, sans-serif;
+      font-size: 12px;
+      color: mediumblue;
+      line-height: 0;
+    }
+
+    .icons a:hover {
+      background-color: cyan;
+    }
+
+    #logo {
+      position: relative;
+      top: 20px;
+      right: -20px;
+    }
+
+    #banner {
+      margin-bottom: 50px;
+    }
+  </style>
+  <link rel="shortcut icon" href="images/logo.png">
+</head>
+
+<body>
+  <div>
+    <header>
+      <img id="logo" src="images/logo.png"
+        alt="Rolling Thunder River Company logo with purple mountains, golden sky, greenery, and a blue river"
+        width="115" height="100" />
+      <nav>
+        <a href="http://janettekaymak.github.io/rolling-thunder/index.html">Back to Fake Website (Home)</a> | 
+        <a href="http://vimeo.com/349561480" target="_blank">Watch GREEN</a> |
+        <a href="http://janettekaymak.github.io/rolling-thunder/FAQ.html">FAQ about Fake Websites</a> |
+        <a href="http://janettekaymak.github.io/rolling-thunder/moreAboutMe.html">More About Me</a> |
+        <a target="_blank" href="http://janettekaymak.github.io/rolling-thunder/scripturecode.html">SCRIPTURE
+          Surprise</a>
+      </nav>
+      <div id="banner">
+        <img src="images/me-banner.jpg"
+          alt="several family photos, wedding, winning at sundance, engagement, grandkids" width="100%" />
       </div>
-      <!--<img
+    </header>
+  </div>
+  <main>
+    <div id="content">
+      <div id="title">
+        <h1><span>....</span>About Me<span>....</span></h1>
+        <h2>
+          and a little about Mustafa
+        </h2>
+        <p class="first-para">
+          Thank you for coming here to learn about the real person behind
+          Rolling Thunder Whitewater Rafting, which incidently, is a fake
+          website. My name is Janette, I'm 58 years old and I am exploring.
+          Right now I am studying Web Frontend Development. I'm discovering
+          that I really love the artistic side of CSS (stands for Cascading
+          Style Sheet - it's how we make web pages look pretty & cool). After
+          I get my Bachelor's degree, I plan to get a Master's degree in
+          something creative. I'm using this last year of getting my
+          Bachelor's degree to try and discover which path to take. Some
+          possibilities might be Costume Design, Film Animation, TV Writing or
+          Screenwriting.<br /><br /><img class="grads"
+            src="https://cdn.glitch.com/580f9041-19e8-4044-a2cb-53b5ae9593cf%2FGraduatesOpt.jpg?v=1575231699583" alt="My husband and me in our graduation caps and gowns. His is blue from Columbia University and 
+               mine is grey, from Parsons The New School for Fashion Design" width="30%" />
+          I am in my second marriage and my husband's name is Mustafa. He is a
+          Sundance award-winning filmmaker! (Watch
+          <a href="https://vimeo.com/349561480">GREEN</a>) Mustafa is the age
+          of my children and he is from Turkey. Some people think it's funny
+          to call me a Cougar (nickname for an older woman who pursues younger
+          men); however, it was the other way around because Mustafa kept
+          asking me for two years before I would agree to go out with him. We
+          have six grown children from my first marriage and we have seven and
+          a half (there's a bun in the oven) grandchildren! My husband is
+          unusually fortunate because I turned him into a grandpa when he was
+          only 29 years old.<br /><br />
+          I am originally from Alaska, but now I live in New York City.
+          Although there is an interesting energy here and I love the
+          diversity, someday I hope to move out West to be near all of my
+          children and my six rowdy, ornery brothers. My dream is to buy a big
+          beautiful cabin, big enough for everyone to visit, in Midway, Utah
+          where my Anderson ancestors are from. That would also be a nice
+          location for my film-producing husband. Sundance is nearby and
+          hopping a plane to LA or NYC from the SLC airport would be a
+          snap.<br /><br />
+        </p>
+      </div>
+    </div>
+    <!--<img
           class="hats"
           src="https://cdn.glitch.com/580f9041-19e8-4044-a2cb-53b5ae9593cf%2F44811195_10213028682131259_1668685001694117888_o.jpg?v=1576028216803"
           alt="A collage of about 360 crocheted hats"
@@ -311,36 +320,23 @@
             back to top of page
           </a>
         </h4>-->
-      <footer>
-        <span class="copyright"
-          >&copy; 2019 FAKE Rolling Thunder River Co. - </br/>REAL Janette
-          Kaymak</span
-        >
-        <div class="icons">
-          <a target="_blank" href="https://www.facebook.com/janette.kaymak"
-            ><img
-              src="https://cdn.glitch.com/580f9041-19e8-4044-a2cb-53b5ae9593cf%2Ftiny%20FB%20cupcake%20icon2.jpg?v=1575603373250"
-              alt="facebook icon on a cupcake"
-              width="40"
-              height="40"
-          /></a>
-          <a target="_blank" href="https://www.instagram.com/"
-            ><img
-              src="https://cdn.glitch.com/580f9041-19e8-4044-a2cb-53b5ae9593cf%2Ftiny%20instagram%20icon2.jpg?v=1575605935468"
-              alt="instagram icon with a cherry and whipped cream"
-              width="40"
-              height="40"
-          /></a>
-          <a target="_blank" href="https://www.pinterest.com/"
-            ><img
-              src="https://cdn.glitch.com/580f9041-19e8-4044-a2cb-53b5ae9593cf%2Ftiny%20pinterest%20logo2.jpg?v=1575605957974"
-              alt="pinterest icon with icecream cone"
-              width="40"
-              height="40"
-            />
-          </a>
-        </div>
-      </footer>
-    </main>
-  </body>
+    <footer>
+      <span class="copyright">&copy; 2019 FAKE Rolling Thunder River Co. - </br />REAL Janette
+        Kaymak</span>
+      <div class="icons">
+        <a target="_blank" href="https://www.facebook.com/janette.kaymak"><img
+            src="https://cdn.glitch.com/580f9041-19e8-4044-a2cb-53b5ae9593cf%2Ftiny%20FB%20cupcake%20icon2.jpg?v=1575603373250"
+            alt="facebook icon on a cupcake" width="40" height="40" /></a>
+        <a target="_blank" href="https://www.instagram.com/"><img
+            src="https://cdn.glitch.com/580f9041-19e8-4044-a2cb-53b5ae9593cf%2Ftiny%20instagram%20icon2.jpg?v=1575605935468"
+            alt="instagram icon with a cherry and whipped cream" width="40" height="40" /></a>
+        <a target="_blank" href="https://www.pinterest.com/"><img
+            src="https://cdn.glitch.com/580f9041-19e8-4044-a2cb-53b5ae9593cf%2Ftiny%20pinterest%20logo2.jpg?v=1575605957974"
+            alt="pinterest icon with icecream cone" width="40" height="40" />
+        </a>
+      </div>
+    </footer>
+  </main>
+</body>
+
 </html>
