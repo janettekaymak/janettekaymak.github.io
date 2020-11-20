@@ -31,7 +31,9 @@ a.active {
 }
 
 nav {
-    margin-left: 80px;
+    margin-top: -25px;
+   text-align: center;
+   margin-right: 30px;
 }
 
 p.center a:link,
@@ -96,7 +98,7 @@ img.small-mico {
     color: black;
     padding: 10px 40px;
     line-height: 2em;
-
+    margin-bottom: 30px;
 }
 
 p {
@@ -113,7 +115,7 @@ img.aboutPhoto {
     background-color: rgb(51, 34, 21);
     line-height: 1.5em;
     padding: 20px 30px;
-    text-align: left;
+    text-align: justify;
 }
 
 img.janette {
@@ -124,7 +126,7 @@ a.jette {
     text-decoration: none;
     font-weight: bolder;
     font-size: 18px;
-    color: green;
+    color: rgb(255, 217, 0);
 }
 
 a.jette:hover {
@@ -167,13 +169,14 @@ h4.year {
 
 h4.year {
     margin-top: 0px;
+    margin-bottom: 15px;
     line-height: .5em;
 }
 
 header.leylakBorder {
     border: dotted lemonchiffon 7px;
     padding: 5px;
-    margin: 20px 15px 20px 15px;
+    margin: 20px 15px 40px 15px;
 }
 
 #up {
@@ -191,15 +194,11 @@ b{
 h1.green,
 h1.green a:link,
 h1.green a:visited {
-    margin: auto auto -20px auto;
+    margin: -15px auto -20px auto;
     border: none;
     color: rgb(118, 201, 98);
     font-size: 75px;
     text-decoration: none;
-}
-
-h1.green a:hover {
-    color: greenyellow;
 }
 
 div.movieTop {
@@ -208,6 +207,16 @@ div.movieTop {
     color: black;
     padding: 10px 30px 50px 30px;
     line-height: 1.5em;
+}
+
+#butt1, #butt2, #butt3{
+    margin: 0 5px;
+}
+
+div.buttonbox{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto -20px auto;
 }
 
 #topbutt {
@@ -258,8 +267,9 @@ div.movieBottom {
 }
 
 div.movieBottom p {
-    margin-bottom: 40px;
+    margin-bottom: 15px;
     margin-top: 15px;
+    text-align: justify;
 }
 
 div.top {
@@ -273,6 +283,7 @@ div.top {
 
 div.bottom {
     margin-top: -6px;
+    margin-bottom: 30px;
     padding: 10px 30px;
     line-height: 1.5em;
     color: black;
@@ -376,6 +387,10 @@ h5 {
     max-width: 100%;
 }
 
+#about-social{
+    margin-top: 40px;
+}
+
 a.none {
     font-size: 20px;
     text-decoration: none;
@@ -408,4 +423,5 @@ footer {
 
 footer p {
     text-align: center;
+    line-height: 5px;
 }

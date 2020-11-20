@@ -2,17 +2,17 @@
 
     nav ul li a:link,
     a:visited {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     nav ul li {
         display: inline-flex;
-        padding: 5px 0;
+        padding: 5px;
     }
 
     nav {
         text-align: center;
-        margin-left: 0;
+       margin-bottom: -10px;
     }
 
     img.small-mico {
@@ -77,13 +77,17 @@
         margin-top: 0px;
     }
 
-    #gbottombutt{
-        margin-top: 5px;
+    #butt1, #butt2, #butt3{
+        margin: 0 20px;
     }
 
-    #photobutt{
-        margin-bottom: -28px;
-    }
+ a.button{
+     display: none;
+ }
+
+ main a.button{
+     display: block;
+ }
 
     #tours-grid-box {
         display: grid;

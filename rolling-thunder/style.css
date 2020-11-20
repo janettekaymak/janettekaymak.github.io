@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Kalam&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker|Shadows+Into+Light&display=swap");
+nav {
+  color: mediumblue;
+  background-color: plum;
+  font-family: "Raleway", Calibri, sans-serif;
+  font-size: 1.2em;
+  padding: 0.5em;
+  height: 40px;
+  text-align: center;
+}
+nav a {
+  color: mediumBlue;
+  line-height: 2em;
+}
+nav a:hover {
+  color: cyan;
+}
+#top-row {
+  padding: 1.5em;
+  height: 340px;
+}
+#next-row {
+  background-color: cyan;
+  padding: 1.5em;
+  height: 340px;
+}
+.left-col {
+  width: 48%;
+  text-align: justify;
+}
+.right-col {
+  width: 48%; 
+}
+#last-row {
+  padding: 1.5em;
+  text-align: center;
+}
+footer {
+  background-color: plum;
+  padding: 1em;
+  height: 55px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: DodgerBlue;
+  font-size: 24px;
+  font-family: "Permanent Marker", Gill Sans, Lucinda Bright;
+  line-height: 0.3em;
+}
+#content {
+  width: 940px;
+  margin: auto;
+  height: auto;
+  border: ridge 20px darkturquoise;
+  border-radius: 18px;
+  background-color: #faf9ed;
+}
+p {
+  font-family: "Kalam", Calibri, sans-serif;
+  color: #01473b;
+  font-size: 18px;
+  line-height: 1.4em;
+}
+.mellow {
+  color: LightSeaGreen;
+  font-size: 40px;
+}
+.pow {
+  color: DarkViolet;
+  font-size: 35px;
+}
+.icons {
+  float: right;
+  margin-top: 10px;
+}
+.copyright {
+  font-family: "Raleway", Calibri, sans-serif;
+  font-size: 1.2em;
+  color: purple;
+  line-height: 3em;
+}
+.run {
+  font-size: 35px;
+}
+
+#logo {
+  position: relative;
+  top: 85px;
+  right: -20px;
+}
+#banner {
+  width: 100%;
+}
+.icons a:hover {
+  background-color: cyan;
+}
+#top-row,
+#next-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+img {
+  max-width: 100%;
+}
+
