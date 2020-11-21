@@ -1,7 +1,9 @@
 body {
     max-width: 1280px;
+    display: block;
+    margin: auto;
     background-color: azure;
-    margin-left: 70px;
+   /* margin-left: 70px;*/
 }
 
 header {
