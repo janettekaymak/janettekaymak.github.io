@@ -4,7 +4,7 @@
 
     header {
         height: 480px;
-        max-width: 2000px;
+        min-width: 2000px;
     }
     #tours-header.res{
         height: 545px;
