@@ -22,7 +22,7 @@ a.active {
     transition: 1s;
 }
 
-a.active {
+nav ul li a.active {
     background-color: white;
     border-radius: 5px;
     color: black;
@@ -126,11 +126,11 @@ a.jette {
     text-decoration: none;
     font-weight: bolder;
     font-size: 18px;
-    color: rgb(255, 217, 0);
+    color: rgb(6, 250, 6);
 }
 
 a.jette:hover {
-    color: rgb(6, 250, 6);
+    color: rgb(255, 217, 0);
 }
 
 img.green,
