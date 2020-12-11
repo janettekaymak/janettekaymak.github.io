@@ -21,6 +21,7 @@
 
     img.mico {
         display: block;
+        margin: auto;
     }
 
     #long-bio {
@@ -125,6 +126,7 @@
 
     img.newsimg{
         float: left;
+        padding: 75px 30px 5px 30px;
     }
 
     iframe{
