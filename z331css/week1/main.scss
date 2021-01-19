@@ -1,96 +1,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-/*variables*/
+
+//variables
 $darker: #6495ED;
 $medium: #DEB887;
 $lighter: #FAEBD7;
-$main-font: Helvetica, Arial, sans-serif;
-$headline-font: Lora, serif, cursive;
-header{
+$main-font: Helvetica,
+Arial,
+sans-serif;
+$headline-font: Lora,
+serif,
+cursive;
+
+header {
     background-color: $darker;
     text-align: right;
     padding: 50px;
     color: $lighter;
     margin-top: -40px;
     margin-left: -40px;
-    margin-right: -35px;  
+    margin-right: -35px;
+
+    ul li a {
+        line-height: 2em;
+        color: $lighter;
+    }
 }
 
-header ul li a{
-    line-height: 2em;
-}
 
-ul{
+
+ul {
     list-style: none;
 }
 
-hr{
-    color: $lighter; 
+hr {
+    color: $lighter;
 }
 
-    a {
+a {
     text-decoration: none;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: $headline-font;
 }
 
 h1 a {
-    color:  $lighter;
+    color: $lighter;
 }
 
-h2 a{
-    color: black;
+h2 {
+    a {
+        color: black;
+    }
+
+    a:active {
+        color: #a19585;
+    }
+
+    a:hover {
+        color: $darker;
+        text-decoration: underline;
+    }
 }
 
-h2 a:active{
-    color: #a19585;
-}
 
-h2 a:hover{
-    color: $darker;
-    text-decoration: underline;
-}
 
-body{
+body {
     font-family: $main-font;
-    background-color:  $lighter;
+    background-color: $lighter;
     padding: 5px;
     max-width: 98%;
 }
 
-article{
+article {
     background-color: white;
     margin-top: 30px;
     padding: 30px;
 }
 
-ul li a{
-    color:  $lighter;
+nav {
+    a:active {
+        color: $medium;
+    }
+
+    a:hover {
+        color: white;
+        text-decoration: underline;
+    }
 }
 
-nav a:active{
-    color: $medium;
+p {
+    a:link,
+    a:visited {
+        color: $darker;
+    }
+    a:active {
+        color: $medium;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
 }
 
-nav a:hover{
-    color: white;
-    text-decoration: underline;
-}
-
-p a:link, p a:visited{
-    color: $darker;
-}
-
-p a:active{
-    color: $medium;
-}
-
-p a:hover{
-    text-decoration: underline;
-}
-
-img{
+img {
     display: block;
     margin: auto;
     max-width: 100%;
@@ -98,25 +111,25 @@ img{
 
 
 
-@media screen and (min-width: 805px){
-    
-    body{
+@media screen and (min-width: 805px) {
+
+    body {
         display: flex;
     }
-    
-    header{
-        float:left;
+
+    header {
+        float: left;
         height: 100%;
     }
 
-    main{
-       margin-left: 400px;
-       margin-right: 50px;
+    main {
+        margin-left: 400px;
+        margin-right: 50px;
     }
-    
-    article{
+
+    article {
         margin-bottom: 50px;
     }
 
-  
+
 }

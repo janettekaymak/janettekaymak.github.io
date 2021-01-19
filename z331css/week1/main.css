@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
-/*variables*/
 header {
   background-color: #6495ED;
   text-align: right;
@@ -9,9 +8,9 @@ header {
   margin-left: -40px;
   margin-right: -35px;
 }
-
 header ul li a {
   line-height: 2em;
+  color: #FAEBD7;
 }
 
 ul {
@@ -26,7 +25,8 @@ a {
   text-decoration: none;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: Lora, serif, cursive;
 }
 
@@ -37,11 +37,9 @@ h1 a {
 h2 a {
   color: black;
 }
-
 h2 a:active {
   color: #a19585;
 }
-
 h2 a:hover {
   color: #6495ED;
   text-decoration: underline;
@@ -60,27 +58,21 @@ article {
   padding: 30px;
 }
 
-ul li a {
-  color: #FAEBD7;
-}
-
 nav a:active {
   color: #DEB887;
 }
-
 nav a:hover {
   color: white;
   text-decoration: underline;
 }
 
-p a:link, p a:visited {
+p a:link,
+p a:visited {
   color: #6495ED;
 }
-
 p a:active {
   color: #DEB887;
 }
-
 p a:hover {
   text-decoration: underline;
 }
