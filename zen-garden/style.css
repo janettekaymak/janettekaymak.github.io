@@ -8,7 +8,7 @@
 /* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
 
 
-/* basic elements */
+/* basic elements 
 html {
 	margin: 0;
 	padding: 0;
@@ -50,7 +50,7 @@ abbr {
 	}
 
 
-/* specific divs */
+/* specific divs 
 .page-wrapper { 
 	background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left; 
 	padding: 0 175px 0 110px;  
