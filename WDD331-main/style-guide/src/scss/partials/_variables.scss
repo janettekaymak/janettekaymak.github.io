@@ -1,0 +1,22 @@
+// color palette - these colors will be the color swatches of the Colors section
+
+$color-1: #8fd4ff; // Blue
+$color-2: #ffe733; // Yellow
+$color-3: #e22840; // Red
+$color-4: #fff; // White
+$color-5: #000; // Black
+
+// additional colors
+
+$success: #6fce72; // green
+$alert: $color-3; // red
+
+// fonts
+$primary-font: 'Open Sans', sans-serif;
+$secondary-font: 'Press Start 2P', cursive;
+
+// breakpoints
+
+$S:     768px;
+$M:     1024px;
+$L:     1600px;

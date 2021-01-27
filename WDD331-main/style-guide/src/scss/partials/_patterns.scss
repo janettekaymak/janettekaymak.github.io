@@ -1,0 +1,8 @@
+.cd-box {
+  // this is the container of various design elements - i.e. the 2 logo of the branding section
+  background: $color-5;
+  border: 1px solid $color-4;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px (#000, .05);
+  padding: 6px;
+}

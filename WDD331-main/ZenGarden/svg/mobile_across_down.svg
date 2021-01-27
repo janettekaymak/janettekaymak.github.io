@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200" viewBox="0 0 600 600">
+  <defs>
+    <clipPath id="clip-Mobile_1_1">
+      <rect width="600" height="600"/>
+    </clipPath>
+  </defs>
+  <g id="Mobile_1_1" data-name="Mobile 1 – 1" clip-path="url(#clip-Mobile_1_1)">
+    <rect width="600" height="600" fill='none' />
+    <g id="Group_23" data-name="Group 23" transform="translate(-721.5 -495)">
+      <line id="Line_7" data-name="Line 7" x2="561.5" transform="translate(740.5 651.5)" fill="none" stroke="#fff" stroke-width="25" stroke-dasharray="25 50"/>
+      <line id="Line_25" data-name="Line 25" x1="2" y1="338.5" transform="translate(1273 625.5)" fill="none" stroke="#fff" stroke-width="25" stroke-dasharray="25 50"/>
+      <line id="Line_31" data-name="Line 31" x1="2" y1="338.5" transform="translate(1273 625.5)" fill="none" stroke="#fff" stroke-width="25" stroke-dasharray="25 50"/>
+    </g>
+  </g>
+</svg>

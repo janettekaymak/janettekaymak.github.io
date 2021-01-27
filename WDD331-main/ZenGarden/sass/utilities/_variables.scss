@@ -1,0 +1,28 @@
+//breakpoints
+$break-small: 480px;
+$break-medium: 545px;
+$break-large: 945px;
+
+// color palette
+$color-1: #8fd4ff; // Blue
+$color-2: #fed75a; // Yellow
+$color-3: #e22840; // Red
+$color-4: #ffc0cb; // Pink
+$color-5: #ffa500; // Orange
+$color-6: #fff;    // White
+$color-7: #000;    // Black
+$color-8: #301ddd; // Dark Blue
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Press+Start+2P&display=swap');
+$primary-font: 'Open Sans', sans-serif;
+$secondary-font: 'Press Start 2P', cursive;
+
+//buttons
+$button-radius: 50%;
+
+//pacman
+$pacman-color: $color-2;
+$pellet-color: $color-6;
+$pacman-size: 140px;
+$pacman-small: 100px;

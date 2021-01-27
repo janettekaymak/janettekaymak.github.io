@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="750" height="375" viewBox="0 0 1500 750">
+  <defs>
+    <clipPath id="clip-Desktop_2">
+      <rect width="1500" height="750"/>
+    </clipPath>
+  </defs>
+  <g id="Desktop_2" data-name="Desktop 2" clip-path="url(#clip-Desktop_2)">
+    <rect width="1500" height="750" fill='none'/>
+    <g id="Group_17" data-name="Group 17" transform="translate(203 -818)">
+      <line id="Line_12" data-name="Line 12" y1="347" transform="translate(198.5 998.5)" fill="none" stroke="#fff" stroke-width="25" stroke-dasharray="25 50"/>
+      <line id="Line_11" data-name="Line 11" x2="715" transform="translate(189.5 1333.5)" fill="none" stroke="#fff" stroke-width="25" stroke-dasharray="25 50"/>
+      <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(335 1281)" fill="#fff" stroke="#707070" stroke-width="1">
+        <circle cx="53" cy="53" r="53" stroke="none"/>
+        <circle cx="53" cy="53" r="52.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

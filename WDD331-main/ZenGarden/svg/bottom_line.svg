@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1017" height="375" viewBox="0 0 2034 750">
+  <defs>
+    <clipPath id="clip-Bottom_Line">
+      <rect width="2034" height="750"/>
+    </clipPath>
+  </defs>
+  <g id="Bottom_Line" data-name="Bottom Line" clip-path="url(#clip-Bottom_Line)">
+    <rect width="2034" height="750" fill='none'/>
+    <line id="Line_30" data-name="Line 30" x2="1572" transform="translate(231.5 375.5)" fill="none" stroke="#fff" stroke-width="25" stroke-dasharray="25 50"/>
+  </g>
+</svg>

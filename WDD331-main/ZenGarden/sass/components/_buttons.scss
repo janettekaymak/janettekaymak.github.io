@@ -1,0 +1,103 @@
+footer {
+  a {
+    &:hover {
+      border-radius: 0;
+      color: $color-6;
+      font-weight: 900;
+    }
+  }
+}
+
+.next,
+.viewall {
+  a {
+    border-radius: $button-radius;
+    color: $color-6;
+    display: inline-block;
+    margin: .2rem;
+    text-decoration: none;
+
+    &:hover {
+      border-radius: 0;
+      font-weight: 900;
+    }
+  }
+}
+
+.next {
+  a {
+    background-color: $color-3;
+    padding: 10px 30px;
+  }
+}
+
+.viewall {
+  a {
+    background-color: $color-4;
+    padding: 10px 23px;
+  }
+}
+
+.zen-resources {
+  a {
+    &:hover {
+      border-radius: 0;
+      font-weight: 900;
+    }
+  }
+}
+
+.view-css,
+.css-resources,
+.zen-faq,
+.zen-submit,
+.zen-translations {
+  display: inline-block;
+  margin: 1rem 0;
+
+  a {
+    border-radius: $button-radius;
+    color: $color-6;
+    display: inline;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+}
+
+.view-css {
+  a {
+    background-color: $color-5;
+  }
+}
+
+.css-resources {
+  a {
+    background-color: $color-1;
+  }
+
+  abbr {
+    color: $color-6;
+  }
+}
+
+.zen-faq {
+  a {
+    background-color: $color-3;
+  }
+
+  abbr {
+    color: $color-6;
+  }
+}
+
+.zen-submit {
+  a {
+    background-color: $color-4;
+  }
+}
+
+.zen-translations {
+  a {
+    background-color: $color-5;
+  }
+}

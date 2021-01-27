@@ -1,0 +1,144 @@
+::before,
+::after {
+  z-index: -99;
+}
+
+.preamble {
+  padding-bottom: 36%;
+  position: relative;
+
+  &::before {
+    content: url('./svg/mobile_down_left_down_pp.svg');
+    left: 30%;
+    position: absolute;
+    top: -30%;
+  }
+
+  &::after {
+    content: url('./svg/mobile_down_pp.svg');
+    left: 28%;
+    position: absolute;
+    top: 70%;
+  }
+
+  @include breakpoint(medium) {
+    padding-bottom: 0;
+
+    &::before {
+      left: 40%;
+      top: -10%;
+    }
+
+    &::after {
+      top: 95%;
+    }
+  }
+
+  @include breakpoint(large) {
+    &::before {
+      content: url('./svg/desktop_down_right_pp.svg');
+      left: -140%;
+      top: -10%;
+    }
+
+    &::after {
+      content: url('./svg/desktop_down_left_pp.svg');
+      left: -25%;
+      top: 65%;
+    }
+  }
+}
+
+.participation {
+  padding: 36% 0;
+  position: relative;
+
+  &::before {
+    content: url('./svg/mobile_down_right_down.svg');
+    left: 30%;
+    position: absolute;
+    top: -10%;
+  }
+
+  &::after {
+    content: url('./svg/mobile_down_left_down.svg');
+    left: 30%;
+    position: absolute;
+    top: 78%;
+  }
+
+  @include breakpoint(medium) {
+    padding-bottom: 0;
+
+    &::after {
+      top: 97%;
+    }
+  }
+
+  @include breakpoint(large) {
+    padding: 0;
+
+    &::before {
+      content: url('./svg/desktop_down_right.svg');
+      left: -150%;
+      top: 0;
+    }
+
+    &::after {
+      content: url('./svg/desktop_down_left.svg');
+      left: -30%;
+      top: 85%;
+    }
+  }
+}
+
+.benefits {
+  padding-bottom: 36%;
+  position: relative;
+
+  &::after {
+    content: url('./svg/mobile_down_pp.svg');
+    left: 30%;
+    position: absolute;
+    top: 50%;
+  }
+
+  @include breakpoint(medium) {
+    padding-bottom: 0;
+
+    &::after {
+      top: 98%;
+    }
+  }
+
+  @include breakpoint(large) {
+    margin: -100px 0 45px;
+
+    &::after {
+      content: url('./svg/desktop_down_pp.svg');
+      left: -40%;
+      top: 100%;
+    }
+  }
+}
+
+.requirements {
+  position: relative;
+
+  &::after {
+    content: url('./svg/bottom_line.svg');
+    left: -50%;
+    position: absolute;
+    top: 76%;
+
+    @include breakpoint(medium) {
+      left: -250px;
+      top: 725px;
+    }
+
+    @include breakpoint(large) {
+      left: -45px;
+      top: 440px;
+    }
+  }
+}

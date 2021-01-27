@@ -1,0 +1,22 @@
+//prefix mixins
+@mixin transform($options) {
+  -moz-transform: $options;
+  -ms-transform: $options;
+  -o-transform: $options;
+  -webkit-transform: $options;
+  transform: $options;
+}
+
+@mixin transform-origin($options) {
+  -moz-transform-origin: $options;
+  -ms-transform-origin: $options;
+  -o-transform-origin: $options;
+  -webkit-transform-origin: $options;
+  transform-origin: $options;
+}
+
+@mixin animation($options) {
+  -moz-animation: $options;
+  -webkit-animation: $options;
+  animation: $options;
+}

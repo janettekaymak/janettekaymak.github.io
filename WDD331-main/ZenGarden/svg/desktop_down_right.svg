@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="750" height="375" viewBox="0 0 1500 750">
+  <defs>
+    <clipPath id="clip-Desktop_4">
+      <rect width="1500" height="750"/>
+    </clipPath>
+  </defs>
+  <g id="Desktop_4" data-name="Desktop 4" clip-path="url(#clip-Desktop_4)">
+    <rect width="1500" height="750" fill='none'/>
+    <g id="Group_26" data-name="Group 26" transform="translate(3455 -1988)">
+      <line id="Line_27" data-name="Line 27" x1="359" transform="translate(-2884.5 2609.5)" fill="none" stroke="#fff" stroke-width="25" stroke-dasharray="25 50"/>
+      <line id="Line_28" data-name="Line 28" y1="516" transform="translate(-2840.5 2105.5)" fill="none" stroke="#fff" stroke-width="25" stroke-dasharray="25 50"/>
+    </g>
+  </g>
+</svg>

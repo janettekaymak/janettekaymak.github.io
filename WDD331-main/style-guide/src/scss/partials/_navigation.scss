@@ -1,0 +1,60 @@
+header {
+  background-color: $color-2;
+}
+
+.cd-main-nav {
+  // main navigation background color - full screen on small devices
+  background: $color-2;
+
+  li {
+    a {
+      border-color: lighten($color-2, 5%);
+      color: $color-5;
+    }
+
+    @include mq(M) {
+      li {
+        a {
+          color: $color-3;
+
+          .selected {
+            box-shadow: 0 2px 0 $color-1;
+            color: $color-5;
+          }
+
+          &:hover {
+            color: $color-5;
+          }
+        }
+      }
+    }
+  }
+}
+
+.cd-nav-trigger {
+  span {
+    // hamburger menu
+    background-color: $color-5;
+
+    &::before,
+    &::after {
+      // upper and lower lines
+      background-color: $color-5;
+    }
+  }
+}
+
+.nav-is-visible {
+  .cd-nav-trigger {
+    span {
+      // hide line in the center on mobile when nav is visible
+      background-color: ($color-5, 0);
+
+      &::before,
+      &::after {
+        // preserve visibility of upper and lower lines - close icon
+        background-color: ($color-5, 1);
+      }
+    }
+  }
+}

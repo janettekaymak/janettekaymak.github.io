@@ -1,0 +1,435 @@
+*,
+*::after,
+*::before {
+  @include box-sizing(border-box);
+}
+
+html * {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: $color-4;
+  font: 1.6rem $primary-font;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  box-shadow: 0 1px 1px (#000, .1);
+  height: 50px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+
+  nav {
+    display: inline-block;
+  }
+
+  @include mq(M) {
+    @include clearfix;
+    height: 80px;
+  }
+}
+
+.cd-nav-trigger {
+  color: transparent;
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+  white-space: nowrap;
+  width: 50px;
+
+  span {
+    @include transition(background-color .3s .3s);
+    height: 2px;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -1px;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+
+    &::before,
+    &::after {
+      // Force Hardware Acceleration in WebKit
+      @include transform(translateZ(0));
+      @include transition(transform .3s .3s);
+      -moz-backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      content: '';
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      will-change: transform;
+    }
+
+    &::before {
+      @include transform(translateY(-6px));
+    }
+
+    &::after {
+      @include transform(translateY(6px));
+    }
+  }
+
+  @include mq(M) {
+    display: none;
+  }
+}
+
+.cd-main-nav {
+  @include transform(translateY(-100%));
+  @include transition(transform .3s);
+  height: 100vh;
+  left: 0;
+  padding: 50px 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+
+  li {
+    a {
+      border-bottom-width: 1px;
+      border-style: solid;
+      display: block;
+      font-size: 1.8rem;
+      padding: 1em 0;
+    }
+
+    &:first-of-type {
+      a {
+        border-top-width: 1px;
+      }
+    }
+  }
+
+  @include mq(M) {
+    @include transform(translateY(0));
+    background: transparent;
+    display: table;
+    height: 80px;
+    padding: 0 2em;
+    position: static;
+    text-align: left;
+    width: auto;
+
+    li {
+      display: table-cell;
+      padding: 0 1em;
+      vertical-align: middle;
+    }
+
+    li {
+      a {
+        @include transition(all .2s);
+        border-bottom: 0;
+        display: inline-block;
+        font-size: 1.6rem;
+        padding: .4em .2em;
+      }
+    }
+
+    li {
+      &:first-of-type {
+        a {
+          border-top: 0;
+        }
+      }
+    }
+  }
+
+  @include mq(L) {
+    display: none;
+  }
+}
+
+.nav-is-visible {
+  .cd-nav-trigger {
+    span {
+
+      &::before {
+        @include transform(translateY(0) rotate(-45deg));
+      }
+
+      &::after {
+        @include transform(translateY(0) rotate(45deg));
+      }
+    }
+
+    .cd-main-nav {
+      @include transform(translateY(0));
+    }
+  }
+}
+
+main {
+  margin: 0 auto;
+  max-width: $M;
+  padding: 50px 0;
+  width: 90%;
+
+  >h1 {
+    margin: 3em 0;
+    text-align: center;
+  }
+
+  @include mq(M) {
+    padding-top: 80px;
+  }
+
+  @include mq(L) {
+    max-width: none;
+    padding: 120px 0 50px;
+
+    >h1 {
+      font-size: 2.6rem;
+      height: 80px;
+      left: 50%;
+      line-height: 80px;
+      margin: 0 0 0 -200px;
+      position: fixed;
+      top: 0;
+      width: 400px;
+      z-index: 20;
+    }
+  }
+}
+
+section {
+  @include clearfix;
+  margin: 3em 0;
+
+  &:nth-of-type(1) h2::before {
+    content: '1. ';
+  }
+
+  &:nth-of-type(2) h2::before {
+    content: '2. ';
+  }
+
+  &:nth-of-type(3) h2::before {
+    content: '3. ';
+  }
+
+  &:nth-of-type(4) h2::before {
+    content: '4. ';
+  }
+
+  &:nth-of-type(5) h2::before {
+    content: '5. ';
+  }
+
+  &:nth-of-type(6) h2::before {
+    content: '6. ';
+  }
+
+  &:nth-of-type(7) h2::before {
+    content: '7. ';
+  }
+
+  &:nth-of-type(8) h2::before {
+    content: '8. ';
+  }
+
+  &:nth-of-type(9) h2::before {
+    content: '9. ';
+  }
+
+  &:nth-of-type(10) h2::before {
+    content: '10. ';
+  }
+
+  @include mq(S) {
+    margin: 3em 0 5em;
+  }
+
+  @include mq(L) {
+    @include column(.48);
+    margin: 0 4% 4em 0;
+
+    &:nth-of-type(2n) {
+      margin-right: 0;
+    }
+  }
+}
+
+// xColor section - basic style
+
+.cd-colors {
+
+  li {
+    @include column(.48);
+    margin: 0 4% 1em 0;
+    text-align: center;
+
+    &:nth-of-type(2n) {
+      margin-right: 0;
+    }
+  }
+
+  .cd-color-swatch {
+    padding: 50% 0;
+    position: relative;
+    width: 100%;
+
+    &::before,
+    &::after {
+      // lighter and darker color shades of the same swatch
+      bottom: 0;
+      content: '';
+      height: 20%;
+      position: absolute;
+      width: 50%;
+    }
+
+    &::before {
+      left: 0;
+    }
+
+    &::after {
+      right: 0;
+    }
+  }
+
+  li:nth-of-type(1) .cd-color-swatch {
+    background: $color-1;
+
+    &::before {
+      background: lighten($color-1, 5%);
+    }
+
+    &::after {
+      background: darken($color-1, 5%);
+    }
+  }
+
+  li:nth-of-type(2) .cd-color-swatch {
+    background: $color-2;
+
+    &::before {
+      background: lighten($color-2, 5%);
+    }
+
+    &::after {
+      background: darken($color-2, 5%);
+    }
+  }
+
+  li:nth-of-type(3) .cd-color-swatch {
+    background: $color-3;
+
+    &::before {
+      background: lighten($color-3, 5%);
+    }
+
+    &::after {
+      background: darken($color-3, 5%);
+    }
+  }
+
+  li:nth-of-type(4) .cd-color-swatch {
+    background: $color-4;
+
+    &::before {
+      background: lighten($color-4, 5%);
+    }
+
+    &::after {
+      background: darken($color-4, 5%);
+    }
+  }
+
+  li:nth-of-type(5) .cd-color-swatch {
+    background: $color-5;
+
+    &::before {
+      background: lighten($color-5, 5%);
+    }
+
+    &::after {
+      background: darken($color-5, 5%);
+    }
+  }
+
+  @include mq(S) {
+    li {
+      @include column(.19);
+      margin: 0 1.25% 1em 0;
+
+      &:nth-of-type(2n) {
+        margin-right: 1.25%;
+      }
+
+      &:nth-of-type(5n) {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.cd-typography .cd-box,
+.cd-buttons .cd-box {
+  padding: 1em;
+
+  @include mq(S) {
+    .cd-box {
+      padding: 2em;
+    }
+  }
+}
+
+// xTypography section - basic style
+
+.cd-typography {
+
+  h1 {
+    &::before {
+      color: $color-1;
+      content: 'Aa - ';
+    }
+  }
+}
+
+.cd-buttons {
+  .cd-box {
+    &:first-of-type {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+    &:last-of-type {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      margin-top: -1px;
+    }
+  }
+
+  button {
+    margin: .4em;
+  }
+
+  @include mq(M) {
+    button {
+      margin: 1em;
+    }
+  }
+}

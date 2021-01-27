@@ -1,0 +1,154 @@
+body {
+  background-color: $color-7;
+  color: $color-6;
+  font-family: $primary-font;
+  margin: auto;
+  overflow-x: hidden;
+  padding: 3%;
+
+  @include breakpoint(large) {
+    margin: auto;
+    max-width: 900px;
+    padding: 0;
+  }
+}
+
+h1 {
+  color: $color-2;
+  font-family: $secondary-font;
+  font-size: 2.5rem;
+  font-weight: 300;
+  padding: 5% 0 0 5%;
+
+  @include breakpoint(medium) {
+    font-size: 2.8rem;
+  }
+
+  @include breakpoint(large) {
+    font-size: 3.8rem;
+  }
+}
+
+h2 {
+  font-size: 1.5rem;
+  padding: 0 5%;
+
+  @include breakpoint(large) {
+    font-size: 2rem;
+  }
+}
+
+h3 {
+  color: $color-2;
+  font-family: $secondary-font;
+  font-size: 1.2rem;
+
+  @include breakpoint(large) {
+    padding-top: 25%;
+  }
+}
+
+.resources {
+  @include breakpoint(large) {
+    padding-top: 0;
+  }
+}
+
+p {
+  line-height: 1.15;
+  padding-bottom: 1rem;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+a {
+  color: $color-2;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-8;
+  }
+}
+
+.summary,
+.preamble,
+.participation,
+.requirements {
+  text-align: right;
+}
+
+.summary,
+.preamble,
+#zen-supporting,
+.sidebar {
+  margin: auto;
+  max-width: 500px;
+
+  @include breakpoint(large) {
+    max-width: 100%;
+  }
+}
+
+.summary {
+  padding-top: 15%;
+}
+
+.summary :last-child {
+  padding: 1.5rem 0 8rem;
+}
+
+.requirements {
+  :nth-child(6) {
+    padding: 4rem 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+.design-archives {
+  padding: 2.5rem 0;
+  text-align: right;
+}
+
+.zen-resources {
+  padding: 2.5rem 0;
+
+  ul {
+    text-align: center;
+  }
+}
+
+.extra2 {
+  padding-top: 5rem;
+}
+
+.requirements,
+.benefits,
+.participation,
+.explanation,
+.preamble {
+  padding: 10% 0;
+
+  @include breakpoint(medium) {
+    border: 0;
+    padding-top: 200px;
+  }
+
+  @include breakpoint(large) {
+    padding: 0;
+  }
+}
+
+.preamble {
+  margin-top: 5rem;
+
+  @include breakpoint(medium) {
+    margin-top: 0;
+  }
+
+  @include breakpoint(large) {
+    margin: -125px 0 0;
+  }
+}

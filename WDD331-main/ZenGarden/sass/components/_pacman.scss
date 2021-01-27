@@ -1,0 +1,120 @@
+.extra1 {
+  @include animation(eating-top .5s infinite);
+  @include transform-origin(bottom);
+  background: $pacman-color;
+  border-radius: 100em 100em 0 0;
+  height: $pacman-small / 2;
+  margin: 5em 0 0;
+  width: $pacman-small;
+
+  &::before {
+    @include animation(eating-bottom .5s infinite);
+    @include transform(rotate(80deg));
+    @include transform-origin(top);
+    background: $pacman-color;
+    border-radius: 0 0 100em 100em;
+    content: '';
+    display: block;
+    height: $pacman-small / 2;
+    margin-top: $pacman-small / 2;
+    position: absolute;
+    width: $pacman-small;
+  }
+
+  &::after {
+    @include transform-origin(pac-man-center);
+    -moz-animation: pac-man-center .5s infinite, pacman-pellet .5s -.33s infinite linear;
+    -webkit-animation: pac-man-center .5s infinite, pacman-pellet .5s -.33s infinite linear;
+    animation: pac-man-center .5s infinite, pacman-pellet .5s -.33s infinite linear;
+    border-radius: 0;
+    content: '';
+    display: block;
+    height: 15px;
+    margin-left: $pacman-small / 2 - 7.5;
+    margin-top: $pacman-small / 2 - 7.5;
+    position: absolute;
+    width: 15px;
+  }
+}
+
+
+@include breakpoint(medium) {
+  .extra1 {
+    height: $pacman-size / 2;
+    width: $pacman-size;
+
+    &::before {
+      height: $pacman-size / 2;
+      margin-top: $pacman-size / 2;
+      width: $pacman-size;
+    }
+
+    &::after {
+      height: 20px;
+      margin-left: $pacman-size / 2 - 10;
+      margin-top: $pacman-size / 2 - 10;
+      width: 20px;
+    }
+  }
+}
+
+@keyframes eating-top {
+  0% {
+    transform: rotate(-40deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-40deg);
+  }
+}
+
+@keyframes eating-bottom {
+  0% {
+    transform: rotate(80deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(80deg);
+  }
+}
+
+@keyframes pac-man-center {
+  0% {
+    transform: rotate(40deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(40deg);
+  }
+}
+
+@keyframes pacman-pellet {
+  0% {
+    box-shadow:
+    70px 0 0 0 $pellet-color,
+    120px 0 0 0 $pellet-color,
+    170px 0 0 0 $pellet-color,
+    220px 0 0 0 $pellet-color;
+    opacity: 1;
+  }
+
+  100% {
+    box-shadow:
+    20px 0 0 0 $pellet-color,
+    70px 0 0 0 $pellet-color,
+    120px 0 0 0 $pellet-color,
+    170px 0 0 0 $pellet-color;
+  }
+}

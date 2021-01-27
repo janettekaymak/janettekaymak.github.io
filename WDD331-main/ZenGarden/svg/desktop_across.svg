@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="750" height="375" viewBox="0 0 1500 750">
+  <defs>
+    <clipPath id="clip-Desktop_1">
+      <rect width="1500" height="750"/>
+    </clipPath>
+  </defs>
+  <g id="Desktop_1" data-name="Desktop 1" clip-path="url(#clip-Desktop_1)">
+    <rect width="1500" height="750" fill='none'/>
+    <line id="Line_26" data-name="Line 26" x2="419" transform="translate(540.5 375.5)" fill="none" stroke="#fff" stroke-width="25" stroke-dasharray="25 50"/>
+  </g>
+</svg>

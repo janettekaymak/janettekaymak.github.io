@@ -1,0 +1,71 @@
+// Animation Styles
+
+.extra2,
+.extra3,
+.extra4,
+.extra5,
+.extra6 {
+  max-width: 150px;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+  z-index: -1;
+
+  &:hover {
+    content: url('./svg/dark_blue_ghost.svg');
+  }
+
+  @include breakpoint(medium) {
+    max-width: 250px;
+  }
+}
+
+.extra2,
+.extra4,
+.extra6 {
+  animation: enterLeft 10s linear infinite;
+}
+
+.extra3,
+.extra5 {
+  animation: enterRight 10s linear infinite;
+
+}
+
+.extra2,
+.extra6 {
+  content: url('./svg/blue_ghost.svg');
+
+}
+
+.extra3 {
+  content: url('./svg/red_ghost.svg');
+}
+
+.extra4 {
+  content: url('./svg/pink_ghost.svg');
+}
+
+.extra5 {
+  content: url('./svg/orange_ghost.svg');
+}
+
+@keyframes enterRight {
+  0% {
+    right: -275%;
+  }
+
+  100% {
+    right: 175%;
+  }
+}
+
+@keyframes enterLeft {
+  0% {
+    left: -275%;
+  }
+
+  100% {
+    left: 175%;
+  }
+}
