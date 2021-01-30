@@ -1,0 +1,32 @@
+.preamble{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        width: 400px;
+        text-align:justify;
+        position: absolute flex;
+        margin-top: -600px;
+        margin-bottom: -250px;
+        margin-left: 180px;
+        line-height: 1em;
+}
+p{
+    margin-bottom: -10px;
+}
+h3{
+    margin-bottom: -10px;
+    text-align: center;
+}
+p:nth-child(4){
+    width: 150px;
+    text-align: center;
+    margin-left: 120px;
+}
+#cover{
+    position: absolute;
+    margin-top: -141px;
+    margin-left: 133px;
+}
+#cover:hover{
+   width: 0px;
+   transition: 3s;
+}
