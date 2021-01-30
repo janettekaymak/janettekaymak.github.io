@@ -21,12 +21,16 @@ p:nth-child(4){
     text-align: center;
     margin-left: 120px;
 }
+#under{
+    width: 650px;
+}
 #cover{
+    width: 493px;
     position: absolute;
     margin-top: -141px;
     margin-left: 133px;
 }
 #cover:hover{
-   width: 0px;
+   width: 5px;
    transition: 3s;
 }
