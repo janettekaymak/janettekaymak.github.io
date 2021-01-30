@@ -1,5 +1,5 @@
 #banner{
- display: inline-flex;
+        max-width: 100%;
 }
 .preamble{
         font-family: Arial, Helvetica, sans-serif;
