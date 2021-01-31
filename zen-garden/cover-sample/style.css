@@ -1,7 +1,9 @@
 body {
     background-color: darkseagreen;
-    background-image: linear-gradient(white, white, darkseagreen,gold);
-    height: 1000px;*/
+    background-image: linear-gradient(white, white, rgb(106, 192, 106),rgb(247, 205, 91));
+    height: 1000px;
+    max-width: 800px;
+    margin: auto;
 }
 #banner{
         max-width: 100%;
@@ -14,7 +16,7 @@ body {
         position: absolute flex;
         margin-top: -565px;
         margin-bottom: -250px;
-        margin-left: 68px;
+        margin-left: 78px;
         line-height: 1em;
 }
 p{
@@ -27,17 +29,17 @@ h3{
 p:nth-child(4){
     width: 160px;
     text-align: center;
-    margin-left: 40px;
+    margin-left: 50px;
 }
 #under{
     width: 360px;
-    margin-left: -10px;
+    margin-left: 0px;
 }
 #cover{
     width: 352px;
     position: absolute;
     margin-top: -219px;
-    margin-left: 9px;
+    margin-left: 19px;
 }
 #cover:hover{
    opacity: 0;
