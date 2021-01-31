@@ -50,7 +50,7 @@ h3 {
 }
 
 #cover:hover,
-#cover2:hover, #cover3:hover {
+#cover2:hover, #cover3:hover, #cover4:hover {
     opacity: 0;
     transition: 1.5s;
 }
