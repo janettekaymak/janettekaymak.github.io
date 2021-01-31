@@ -4,12 +4,12 @@
 .preamble{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 16px;
-        width: 400px;
+        width: 235px;
         text-align:justify;
         position: absolute flex;
-        margin-top: -600px;
+        margin-top: -565px;
         margin-bottom: -250px;
-        margin-left: 180px;
+        margin-left: 68px;
         line-height: 1em;
 }
 p{
@@ -20,18 +20,19 @@ h3{
     text-align: center;
 }
 p:nth-child(4){
-    width: 150px;
+    width: 160px;
     text-align: center;
-    margin-left: 120px;
+    margin-left: 40px;
 }
 #under{
-    width: 650px;
+    width: 360px;
+    margin-left: -10px;
 }
 #cover{
-    width: 493px;
+    width: 350px;
     position: absolute;
-    margin-top: -141px;
-    margin-left: 133px;
+    margin-top: -218px;
+    margin-left: 9px;
 }
 #cover:hover{
    opacity: 0;
