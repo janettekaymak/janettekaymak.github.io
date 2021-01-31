@@ -112,6 +112,7 @@ div.benefits{
     margin-left: 70px;
     text-align: center;
     font-weight: bold;
+    text-shadow: grey 1px 1px;
 }
 div.benefits h3{
     line-height: .5em;
