@@ -1,7 +1,7 @@
 body {
     background-color: darkseagreen;
     background-image: linear-gradient(purple,rgb(123, 212, 247),white, lemonchiffon,darkseagreen, darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple);
-    max-width: 1200px;
+    max-width: 850px;
     margin: auto;
 }
 
@@ -111,7 +111,6 @@ div.benefits{
     margin-top: -280px;
     margin-left: 70px;
     text-align: center;
-    font-weight: bold;
     text-shadow: grey 1px 1px;
 }
 div.benefits h3{
@@ -119,5 +118,5 @@ div.benefits h3{
 }
 #cover4{
     position: absolute;
-    margin-top: -270px;
+    margin-top: -255px;
 }
