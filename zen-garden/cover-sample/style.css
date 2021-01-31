@@ -50,7 +50,7 @@ h3 {
 }
 
 #cover:hover,
-#cover2:hover, #cover3:hover, #cover4:hover {
+#cover2:hover, #cover3:hover, #cover4:hover, #cover5:hover {
     opacity: 0;
     transition: 1.5s;
 }
@@ -119,4 +119,34 @@ div.benefits h3{
 #cover4{
     position: absolute;
     margin-top: -255px;
+}
+#block5{
+    margin-top: 45px;
+}
+div.requirements{
+    color: rgb(238, 235, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute flex;
+    width: 255px;
+    font-size: 14.5px;
+    margin-top: -1010px;
+    margin-left: 70px;
+    text-align: justify;
+}
+.requirements h3{
+    line-height: .5em;
+}
+.requirements p:nth-child(5),.requirements p:nth-child(6){
+    width: 165px;
+    margin-left: 93px;
+}
+#dude{
+    width: 190px;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+#cover5{
+    position: absolute;
+    margin-top: -864px;
+    margin-left: 65px; 
 }
