@@ -117,3 +117,7 @@ div.benefits{
 div.benefits h3{
     line-height: .5em;
 }
+#cover4{
+    position: absolute;
+    margin-top: -270px;
+}
