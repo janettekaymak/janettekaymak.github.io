@@ -100,3 +100,19 @@ div.participation {
     margin-top: -426px;
     width: 310px;
 }
+#block4{
+    margin-top: 0px;
+}
+div.benefits{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute flex;
+    width: 220px;
+    font-size: 15px;
+    margin-top: -280px;
+    margin-left: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+div.benefits h3{
+    line-height: .5em;
+}
