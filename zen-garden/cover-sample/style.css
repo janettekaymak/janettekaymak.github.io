@@ -1,9 +1,8 @@
 body {
     background-color: darkseagreen;
-    background-image: linear-gradient(white, white, lemonchiffon, darkseagreen, darkseagreen, lemonchiffon, white);
+    background-image: linear-gradient(white, white, lemonchiffon, darkseagreen, darkseagreen, lemonchiffon, purple);
     max-width: 900px;
     margin: auto;
-    max-height: 100%;
 }
 
 #banner {
