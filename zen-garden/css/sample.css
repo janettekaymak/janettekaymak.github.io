@@ -151,15 +151,15 @@ div.requirements {
 
 .requirements p:nth-child(5),
 .requirements p:nth-child(6) {
-    width: 165px;
-    margin-left: 93px;
+    width: 175px;
+    margin-left: 90px;
     text-align: left;
 }
 
 #cover5 {
     width: 275px;
     position: absolute;
-    margin-top: -900px;
+    margin-top: -901px;
     margin-left: 60px;
 }
 
