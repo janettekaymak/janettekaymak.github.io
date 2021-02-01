@@ -15,7 +15,7 @@ body {
     color: white;
     width: 235px;
     text-align: justify;
-    position: flex;
+    position: absolute;
     margin-top: -565px;
     margin-bottom: -250px;
     margin-left: 78px;
@@ -44,9 +44,9 @@ h3 {
 
 #cover {
     width: 352px;
-    position: flex;
-    margin-top: -219px;
-    margin-left: 19px;
+    position: absolute;
+    margin-top: 18px;
+    margin-left:-340px;
 }
 
 #cover:hover,
@@ -61,14 +61,14 @@ h3 {
 #block2 {
     margin-left: 0px;
     width: 360px;
-    margin-top: 0px;
+    margin-top: -30px;
 }
 
 .explanation {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     width: 235px;
-    position: flex;
+    position: absolute;
     margin-top: -673px;
     margin-bottom: -250px;
     margin-left: 45px;
@@ -86,13 +86,13 @@ h3 {
 }
 
 #block3 {
-    margin-top: 255px;
+    margin-top: -162px;
 }
 
 div.participation {
     color: rgb(1, 56, 1);
     font-family: Arial, Helvetica, sans-serif;
-    position: flex;
+    position: absolute;
     width: 280px;
     font-size: 15px;
     margin-top: -490px;
@@ -100,19 +100,19 @@ div.participation {
 }
 
 #cover3 {
-    position: flex;
-    margin-left: 26px;
-    margin-top: -426px;
+    position: absolute;
+    margin-left: -335px;
+    margin-top: -122px;
     width: 310px;
 }
 
 #block4 {
-    margin-top: 0px;
+    margin-top: -20px;
 }
 
 div.benefits {
     font-family: Arial, Helvetica, sans-serif;
-    position: flex;
+    position: absoulte;
     width: 220px;
     font-size: 15px;
     margin-top: -280px;
@@ -125,22 +125,23 @@ div.benefits h3 {
 }
 
 #cover4 {
-    position: flex;
+    position: absolute;
     margin-top: -255px;
 }
 
 #block5 {
-    margin-top: -28px;
+    margin-top: 48px;
     margin-bottom: 100px;
+    margin-bottom: -110px;
 }
 
 div.requirements {
     color: rgb(238, 235, 235);
     font-family: Arial, Helvetica, sans-serif;
-    position: flex;
+    position: absolute;
     width: 255px;
     font-size: 14.5px;
-    margin-top: -1110px;
+    margin-top: -900px;
     margin-left: 70px;
     text-align: justify;
 }
@@ -158,8 +159,8 @@ div.requirements {
 
 #cover5 {
     width: 275px;
-    position: flex;
-    margin-top: -870px;
+    position: absolute;
+    margin-top: -900px;
     margin-left: 60px;
 }
 
