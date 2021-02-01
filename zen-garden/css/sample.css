@@ -15,7 +15,7 @@ body {
     color: white;
     width: 235px;
     text-align: justify;
-    position: absolute flex;
+    position: absolute;
     margin-top: -565px;
     margin-bottom: -250px;
     margin-left: 78px;
@@ -164,7 +164,7 @@ div.requirements {
     margin-bottom: 100px;
 }
 
-button {
+button{
     background-color: rgb(188, 157, 245);
     font-size: 18px;
     padding: 10px;
