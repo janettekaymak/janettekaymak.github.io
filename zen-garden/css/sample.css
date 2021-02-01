@@ -15,7 +15,7 @@ body {
     color: white;
     width: 235px;
     text-align: justify;
-    position: absolute flex;
+    position: flex;
     margin-top: -565px;
     margin-bottom: -250px;
     margin-left: 78px;
@@ -44,7 +44,7 @@ h3 {
 
 #cover {
     width: 352px;
-    position: absolute;
+    position: flex;
     margin-top: -219px;
     margin-left: 19px;
 }
@@ -61,15 +61,15 @@ h3 {
 #block2 {
     margin-left: 0px;
     width: 360px;
-    margin-top: 320px;
+    margin-top: 0px;
 }
 
 .explanation {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     width: 235px;
-    position: absolute;
-    margin-top: -675px;
+    position: flex;
+    margin-top: -673px;
     margin-bottom: -250px;
     margin-left: 45px;
     line-height: 1em;
@@ -92,7 +92,7 @@ h3 {
 div.participation {
     color: rgb(1, 56, 1);
     font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
+    position: flex;
     width: 280px;
     font-size: 15px;
     margin-top: -490px;
@@ -100,7 +100,7 @@ div.participation {
 }
 
 #cover3 {
-    position: absolute;
+    position: flex;
     margin-left: 26px;
     margin-top: -426px;
     width: 310px;
@@ -112,7 +112,7 @@ div.participation {
 
 div.benefits {
     font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
+    position: flex;
     width: 220px;
     font-size: 15px;
     margin-top: -280px;
@@ -125,25 +125,24 @@ div.benefits h3 {
 }
 
 #cover4 {
-    position: absolute;
+    position: flex;
     margin-top: -255px;
 }
 
 #block5 {
-    margin-top: 45px;
+    margin-top: -28px;
     margin-bottom: 100px;
 }
 
 div.requirements {
     color: rgb(238, 235, 235);
     font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
+    position: flex;
     width: 255px;
     font-size: 14.5px;
     margin-top: -1110px;
     margin-left: 70px;
     text-align: justify;
-    margin-bottom: 100px;
 }
 
 .requirements h3 {
@@ -158,10 +157,10 @@ div.requirements {
 }
 
 #cover5 {
-    position: absolute;
-    margin-top: -964px;
-    margin-left: 65px;
-    margin-bottom: 100px;
+    width: 275px;
+    position: flex;
+    margin-top: -870px;
+    margin-left: 60px;
 }
 
 button {
