@@ -139,6 +139,7 @@ div.requirements{
 .requirements p:nth-child(5),.requirements p:nth-child(6){
     width: 165px;
     margin-left: 93px;
+    text-align: left;
 }
 #dude{
     width: 190px;
