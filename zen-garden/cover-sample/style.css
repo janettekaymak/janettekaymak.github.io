@@ -121,6 +121,7 @@ div.benefits h3{
 }
 #block5{
     margin-top: 45px;
+    margin-bottom: 100px; 
 }
 div.requirements{
     color: rgb(238, 235, 235);
@@ -128,9 +129,10 @@ div.requirements{
     position: absolute flex;
     width: 255px;
     font-size: 14.5px;
-    margin-top: -1010px;
+    margin-top: -1110px;
     margin-left: 70px;
     text-align: justify;
+    margin-bottom: 100px; 
 }
 .requirements h3{
     line-height: .5em;
@@ -140,15 +142,18 @@ div.requirements{
     margin-left: 93px;
     text-align: left;
 }
-/*The following image was obtained free from Klipartz,
-then it was changed so as not to mimic Zelda*/
-#dude{
-    width: 190px;
-    margin-top: 60px;
-    margin-left: 50px;
-}
 #cover5{
     position: absolute;
-    margin-top: -864px;
-    margin-left: 65px; 
+    margin-top: -964px;
+    margin-left: 65px;
+    margin-bottom: 100px; 
 }
+button{
+    background-color: rgb(188, 157, 245);
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+/*The following images were obtained free from Klipartz,
+then it was changed so as not to mimic Zelda #dude and #tilt-dude */
+
+
