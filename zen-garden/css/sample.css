@@ -68,7 +68,7 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     width: 235px;
-    position: absolute flex;
+    position: absolute;
     margin-top: -675px;
     margin-bottom: -250px;
     margin-left: 45px;
@@ -92,7 +92,7 @@ h3 {
 div.participation {
     color: rgb(1, 56, 1);
     font-family: Arial, Helvetica, sans-serif;
-    position: absolute flex;
+    position: absolute;
     width: 280px;
     font-size: 15px;
     margin-top: -490px;
@@ -100,7 +100,7 @@ div.participation {
 }
 
 #cover3 {
-    postion: absolute;
+    position: absolute;
     margin-left: 26px;
     margin-top: -426px;
     width: 310px;
@@ -112,7 +112,7 @@ div.participation {
 
 div.benefits {
     font-family: Arial, Helvetica, sans-serif;
-    position: absolute flex;
+    position: absolute;
     width: 220px;
     font-size: 15px;
     margin-top: -280px;
@@ -137,7 +137,7 @@ div.benefits h3 {
 div.requirements {
     color: rgb(238, 235, 235);
     font-family: Arial, Helvetica, sans-serif;
-    position: absolute flex;
+    position: absolute;
     width: 255px;
     font-size: 14.5px;
     margin-top: -1110px;
