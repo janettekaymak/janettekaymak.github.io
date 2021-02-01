@@ -1,7 +1,7 @@
 body {
     background-image: url(janettekaymak.github.io/zen-garden/cover-sample/images/klipartz.com.png);
     background-color: darkseagreen;
-    background-image: linear-gradient(purple,rgb(123, 212, 247),white, lemonchiffon,darkseagreen, darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple);
+    background-image: linear-gradient(purple, rgb(123, 212, 247), white, lemonchiffon, darkseagreen, darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple);
     max-width: 850px;
     margin: auto;
 }
@@ -51,7 +51,10 @@ h3 {
 }
 
 #cover:hover,
-#cover2:hover, #cover3:hover, #cover4:hover, #cover5:hover {
+#cover2:hover,
+#cover3:hover,
+#cover4:hover,
+#cover5:hover {
     opacity: 0;
     transition: 1.5s;
 }
@@ -86,6 +89,7 @@ h3 {
 #block3 {
     margin-top: 255px;
 }
+
 div.participation {
     color: rgb(1, 56, 1);
     font-family: Arial, Helvetica, sans-serif;
@@ -95,16 +99,19 @@ div.participation {
     margin-top: -490px;
     margin-left: 42px;
 }
-#cover3{
-    postion:absolute;
+
+#cover3 {
+    postion: absolute;
     margin-left: 26px;
     margin-top: -426px;
     width: 310px;
 }
-#block4{
+
+#block4 {
     margin-top: 0px;
 }
-div.benefits{
+
+div.benefits {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute flex;
     width: 220px;
@@ -113,18 +120,22 @@ div.benefits{
     margin-left: 70px;
     text-align: center;
 }
-div.benefits h3{
+
+div.benefits h3 {
     line-height: .5em;
 }
-#cover4{
+
+#cover4 {
     position: absolute;
     margin-top: -255px;
 }
-#block5{
+
+#block5 {
     margin-top: 45px;
-    margin-bottom: 100px; 
+    margin-bottom: 100px;
 }
-div.requirements{
+
+div.requirements {
     color: rgb(238, 235, 235);
     font-family: Arial, Helvetica, sans-serif;
     position: absolute flex;
@@ -133,27 +144,31 @@ div.requirements{
     margin-top: -1110px;
     margin-left: 70px;
     text-align: justify;
-    margin-bottom: 100px; 
+    margin-bottom: 100px;
 }
-.requirements h3{
+
+.requirements h3 {
     line-height: .5em;
 }
-.requirements p:nth-child(5),.requirements p:nth-child(6){
+
+.requirements p:nth-child(5),
+.requirements p:nth-child(6) {
     width: 165px;
     margin-left: 93px;
     text-align: left;
 }
-#cover5{
+
+#cover5 {
     position: absolute;
     margin-top: -964px;
     margin-left: 65px;
-    margin-bottom: 100px; 
+    margin-bottom: 100px;
 }
-button{
+
+button {
     background-color: rgb(188, 157, 245);
     font-size: 18px;
     padding: 10px;
     border-radius: 5px;
-/*The following images were obtained free from Klipartz,
+    /*The following images were obtained free from Klipartz,
 then it was changed so as not to mimic Zelda #dude and #tilt-dude, #zelda, #wave */
-
