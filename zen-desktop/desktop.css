@@ -1,6 +1,10 @@
 body {
     background-color: darkseagreen;
-    background-image: linear-gradient(purple, rgb(123, 212, 247), white, lemonchiffon, darkseagreen, darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple);
+    background-image: url(images/grass.png), linear-gradient(purple, rgb(123, 212, 247), white, lemonchiffon, darkseagreen, darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple);
+    max-width: 1000px;
+    margin: auto;
+}
+.page-wrapper{
     max-width: 850px;
     margin: auto;
 }
@@ -132,17 +136,17 @@ div.participation {
 
 #block4 {
     position: absolute;
-    margin-top: -345px;
+    margin-top: -352px;
     margin-left: 395px;
 }
 
 div.benefits {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    width: 220px;
-    font-size: 15px;
-    margin-top: -300px;
-    margin-left: 465px;
+    width: 210px;
+    font-size: 16px;
+    margin-top: -302px;
+    margin-left: 470px;
     text-align: center;
 }
 
@@ -152,7 +156,7 @@ div.benefits h3 {
 
 #cover4 {
     position: absolute;
-    margin-top: -342px;
+    margin-top: -337px;
     margin-left: 395px;
 }
 
