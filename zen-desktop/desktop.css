@@ -14,21 +14,21 @@ body {
 }
 section h1, section h2{
     display: block;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 1em;
-    color: rgb(83, 1, 83);
+    font-family: cursive;
+    line-height: 1.25em;
+    color: purple;
    
 }
 section h1{
-    margin: -280px auto auto 90px;
+    margin: -300px auto auto 50px;
     font-size: 50px;
 }
 
 section h2 {
-    margin: 0px auto auto 175px;
-    font-size: 18px;
+    margin: 0px auto auto 110px;
+    font-size: 20px;
 }
-div.functions:nth-child(2){
+p.zelda{
     margin-left: 560px;    
     
 }
@@ -197,15 +197,18 @@ div.requirements {
 
 p.link{
     margin-top: 10px;
-    margin-left: -370px;
+    margin-left: -420px;
     text-align: center;
 }
 
 button {
-    background-color: rgb(188, 157, 245);
-    font-size: 16px;
+    color: purple;
+    background-color: rgb(214, 195, 248);
+    font-size: 18px;
     padding: 5px;
     border-radius: 5px;
+    border: purple solid 2px;
+    font-family: sans-serif;
 }
     /*The following images were obtained free from Klipartz,
 then it was changed so as not to mimic Zelda #dude and #tilt-dude, #zelda, #wave */
@@ -213,8 +216,8 @@ then it was changed so as not to mimic Zelda #dude and #tilt-dude, #zelda, #wave
 aside.sidebar{
     padding: 30px;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 1.25em;
+    font-family: Cursive;
+    line-height: 1.35em;
     max-width: 300px;
     background-image: url(images/bricks.png);
     background-color: hsl(342, 100%, 25%, .7);
@@ -232,6 +235,7 @@ aside.sidebar a:hover{
   text-shadow: white 3px 3px 5px;
 }
 aside.sidebar h3{
+    font-size: 40px;
     text-align: left;
 }
 aside.sidebar ul li{
