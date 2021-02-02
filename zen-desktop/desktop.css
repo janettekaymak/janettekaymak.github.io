@@ -25,7 +25,7 @@ section h2 {
     font-size: 18px;
 }
 div.functions:nth-child(2){
-    margin-left: 530px;    
+    margin-left: 560px;    
     
 }
 
@@ -132,7 +132,7 @@ div.participation {
 
 #block4 {
     position: absolute;
-    margin-top: -348px;
+    margin-top: -345px;
     margin-left: 395px;
 }
 
@@ -152,12 +152,12 @@ div.benefits h3 {
 
 #cover4 {
     position: absolute;
-    margin-top: -345px;
+    margin-top: -342px;
     margin-left: 395px;
 }
 
 #block5 {
-    margin-top: -42px;
+    margin-top: -40px;
     margin-bottom: -110px;
     margin-left: 390px;
 }
@@ -168,7 +168,7 @@ div.requirements {
     position: absolute;
     width: 255px;
     font-size: 14.5px;
-    margin-top: -900px;
+    margin-top: -898px;
     margin-left: 460px;
     text-align: justify;
 }
@@ -212,7 +212,7 @@ aside.sidebar{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.25em;
     max-width: 300px;
-    background-image: url(images/klipartz.com.png);
+    background-image: url(images/bricks.png);
     background-color: hsl(342, 100%, 25%, .7);
     background-position: center;
     background-size: contain;
@@ -232,5 +232,4 @@ aside.sidebar h3{
 }
 aside.sidebar ul li{
     font-weight: bold;
-    list-style: none;
 } 
