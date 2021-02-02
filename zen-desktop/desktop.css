@@ -1,4 +1,5 @@
 body {
+    display: block;
     background-color: darkseagreen;
     background-image: url(images/grass.png), linear-gradient(purple, rgb(123, 212, 247), white, lemonchiffon, darkseagreen, darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple);
     max-width: 1000px;
