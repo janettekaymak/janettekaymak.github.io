@@ -32,7 +32,7 @@ div.functions:nth-child(2){
 #under {
     width: 360px;
     margin-top: 10px;
-    margin-left: 8px;
+    margin-left: 28px;
 }
 
 .preamble {
@@ -44,7 +44,7 @@ div.functions:nth-child(2){
     position: absolute;
     margin-top: -555px;
     margin-bottom: -250px;
-    margin-left: 86px;
+    margin-left: 106px;
     line-height: 1em;
 }
 
@@ -80,7 +80,7 @@ h3 {
 }
 
 #block2 {
-    margin-left: 357px;
+    margin-left: 387px;
     width: 360px;
     margin-top: -435px;
 }
@@ -93,7 +93,7 @@ h3 {
     position: absolute;
     margin-top: -680px;
     margin-bottom: -250px;
-    margin-left: 397px;
+    margin-left: 427px;
     line-height: 1em;
 }
 
@@ -109,7 +109,7 @@ h3 {
 
 #block3 {
     margin-top: -352px;
-    margin-left: 6px;
+    margin-left: 35px;
 }
 
 div.participation {
@@ -119,7 +119,7 @@ div.participation {
     width: 280px;
     font-size: 15px;
     margin-top: -484px;
-    margin-left: 45px;
+    margin-left: 75px;
     text-align: justify;
 }
 
@@ -132,8 +132,8 @@ div.participation {
 
 #block4 {
     position: absolute;
-    margin-top: -358px;
-    margin-left: 422px;
+    margin-top: -348px;
+    margin-left: 395px;
 }
 
 div.benefits {
@@ -142,7 +142,7 @@ div.benefits {
     width: 220px;
     font-size: 15px;
     margin-top: -300px;
-    margin-left: 490px;
+    margin-left: 465px;
     text-align: center;
 }
 
@@ -152,14 +152,14 @@ div.benefits h3 {
 
 #cover4 {
     position: absolute;
-    margin-top: -357px;
-    margin-left: 420px;
+    margin-top: -345px;
+    margin-left: 395px;
 }
 
 #block5 {
-    margin-top: -55px;
+    margin-top: -42px;
     margin-bottom: -110px;
-    margin-left: 436px;
+    margin-left: 390px;
 }
 
 div.requirements {
@@ -169,7 +169,7 @@ div.requirements {
     width: 255px;
     font-size: 14.5px;
     margin-top: -900px;
-    margin-left: 506px;
+    margin-left: 460px;
     text-align: justify;
 }
 
@@ -188,7 +188,7 @@ div.requirements {
     width: 273px;
     position: absolute;
     margin-top: -898px;
-    margin-left: 498px;
+    margin-left: 450px;
 }
 
 p.link{
@@ -207,18 +207,18 @@ button {
 then it was changed so as not to mimic Zelda #dude and #tilt-dude, #zelda, #wave */
 
 aside.sidebar{
-    padding: 30px 50px;
+    padding: 30px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.25em;
-    width: 310px;
+    max-width: 300px;
     background-image: url(images/klipartz.com.png);
     background-color: hsl(342, 100%, 25%, .7);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     border-radius: 25px;
     margin-top: -880px;
-    margin-left: 15px;
+    margin-left: 30px;
 }
 aside.sidebar a:link, aside.sidebar a:visited{
     color: white;
