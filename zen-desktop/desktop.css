@@ -208,24 +208,27 @@ aside.sidebar{
     padding: 50px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 1em;
+    line-height: 1.25em;
     width: 360px;
     background-image: url(images/klipartz.com.png);
-    background-color: hsl(300, 100%, 25%);
+    background-color: hsl(342, 100%, 25%, .7);
     background-position: center;
-
+    background-size: cover;
+    border-radius: 25px;
+    margin-top: -560px;
+    margin-left: 15px;
 }
 aside.sidebar a:link{
     color: white;
     text-decoration: none;
 }
 aside.sidebar a:hover{
-  text-shadow: white 2px 3px 5px;
+  text-shadow: white 3px 3px 5px;
 }
 aside.sidebar h3{
     text-align: left;
 }
 aside.sidebar ul li{
-    line-height: 2em;
     font-weight: bold;
+    list-style: none;
 } 
