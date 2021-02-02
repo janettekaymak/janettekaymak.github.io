@@ -8,6 +8,25 @@ body {
 #banner {
     max-width: 100%;
 }
+section h1, section h2{
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1em;
+   
+}
+section h1{
+    margin: -350px auto auto 90px;
+    font-size: 50px;
+}
+
+section h2 {
+    margin: 0px auto auto 175px;
+    font-size: 18px;
+}
+div.functions:nth-child(2){
+    margin-left: 530px;    
+    
+}
 
 .preamble {
     font-family: Arial, Helvetica, sans-serif;
@@ -16,9 +35,9 @@ body {
     width: 235px;
     text-align: justify;
     position: absolute;
-    margin-top: -565px;
+    margin-top: -545px;
     margin-bottom: -250px;
-    margin-left: 78px;
+    margin-left: 138px;
     line-height: 1em;
 }
 
@@ -33,19 +52,20 @@ h3 {
 
 .preamble p:nth-child(4) {
     width: 160px;
-    text-align: center;
+    text-align: justify;
     margin-left: 40px;
 }
 
 #under {
     width: 360px;
-    margin-left: 0px;
+    margin-top: 20px;
+    margin-left: 60px;
 }
 
 #cover {
     width: 352px;
     position: absolute;
-    margin-top: 18px;
+    margin-top: 38px;
     margin-left:-340px;
 }
 
@@ -59,19 +79,20 @@ h3 {
 }
 
 #block2 {
-    margin-left: 0px;
+    margin-left: 437px;
     width: 360px;
-    margin-top: -30px;
+    margin-top: -360px;
 }
 
 .explanation {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
     font-size: 15px;
     width: 235px;
     position: absolute;
-    margin-top: -673px;
+    margin-top: -683px;
     margin-bottom: -250px;
-    margin-left: 45px;
+    margin-left: 477px;
     line-height: 1em;
 }
 
@@ -81,12 +102,13 @@ h3 {
 
 #cover2 {
     width: 297px;
-    margin-top: -492px;
-    margin-left: -26px;
+    margin-top: -483px;
+    margin-left: -22px;
 }
 
 #block3 {
-    margin-top: -162px;
+    margin-top: -382px;
+    margin-left: 86px;
 }
 
 div.participation {
@@ -96,18 +118,21 @@ div.participation {
     width: 280px;
     font-size: 15px;
     margin-top: -490px;
-    margin-left: 42px;
+    margin-left: 125px;
+    text-align: justify;
 }
 
 #cover3 {
     position: absolute;
     margin-left: -335px;
-    margin-top: -122px;
+    margin-top: -342px;
     width: 310px;
 }
 
 #block4 {
-    margin-top: -20px;
+    position: absolute;
+    margin-top: -668px;
+    margin-left: 502px;
 }
 
 div.benefits {
@@ -115,8 +140,8 @@ div.benefits {
     position: absolute;
     width: 220px;
     font-size: 15px;
-    margin-top: -280px;
-    margin-left: 70px;
+    margin-top: -620px;
+    margin-left: 570px;
     text-align: center;
 }
 
@@ -126,12 +151,14 @@ div.benefits h3 {
 
 #cover4 {
     position: absolute;
-    margin-top: -329px;
+    margin-top: -667px;
+    margin-left: 500px;
 }
 
 #block5 {
-    margin-top: -25px;
+    margin-top: -362px;
     margin-bottom: -110px;
+    margin-left: 486px;
 }
 
 div.requirements {
@@ -141,7 +168,7 @@ div.requirements {
     width: 255px;
     font-size: 14.5px;
     margin-top: -900px;
-    margin-left: 70px;
+    margin-left: 556px;
     text-align: justify;
 }
 
@@ -157,16 +184,49 @@ div.requirements {
 }
 
 #cover5 {
-    width: 275px;
+    width: 273px;
     position: absolute;
-    margin-top: -901px;
-    margin-left: 60px;
+    margin-top: -898px;
+    margin-left: 546px;
+}
+
+p.link{
+    margin-left: -350px;
+    text-align: center;
 }
 
 button {
     background-color: rgb(188, 157, 245);
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px;
     border-radius: 5px;
+}
     /*The following images were obtained free from Klipartz,
 then it was changed so as not to mimic Zelda #dude and #tilt-dude, #zelda, #wave */
+
+aside.sidebar{
+    padding: 50px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1em;
+    width: 360px;
+    background-image: url(images/klipartz.com.png);
+    background-size: cover;
+    background-color: hsl(300, 100%, 25%);
+    background-position: center;
+
+}
+aside.sidebar a:link{
+    color: white;
+    text-decoration: none;
+}
+aside.sidebar a:hover{
+  text-shadow: white 2px 3px 5px;
+}
+aside.sidebar h3{
+    text-align: left;
+}
+aside.sidebar ul li{
+    line-height: 2em;
+    font-weight: bold;
+} 
