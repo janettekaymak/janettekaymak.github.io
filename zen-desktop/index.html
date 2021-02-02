@@ -135,24 +135,6 @@
 		</p>
 	</div>
 	<img src="images/cover3.png" id="cover3">
-	<div class="functions">
-		<p class="link"><img id="dude" src="images/dude.png" width="150"></p>
-		<p class="link"><button type="button" onclick="sword(1)">ATTACK</button>
-			<button type="button" onclick="sword(0)">BE NICE</button>
-		</p>
-
-		<script>
-			function sword(sw) {
-				var pic;
-				if (sw == 0) {
-					pic = "images/dude.png"
-				} else {
-					pic = "images/tilt-dude.png"
-				}
-				document.getElementById('dude').src = pic;
-			}
-		</script>
-	</div>
 	<div> <img src="images/block4.png" id="block4"></div>
 	<div class="benefits" id="zen-benefits" role="article">
 
@@ -291,8 +273,24 @@
 			</div>
 		</div>
 	</aside>
+	</div>
+	<div class="functions">
+		<p class="link"><img id="dude" src="images/dude.png" width="150"></p>
+		<p class="link"><button type="button" onclick="sword(1)">ATTACK</button>
+			<button type="button" onclick="sword(0)">BE NICE</button>
+		</p>
 
-
+		<script>
+			function sword(sw) {
+				var pic;
+				if (sw == 0) {
+					pic = "images/dude.png"
+				} else {
+					pic = "images/tilt-dude.png"
+				}
+				document.getElementById('dude').src = pic;
+			}
+		</script>
 	</div>
 
 	<!--
