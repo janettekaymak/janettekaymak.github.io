@@ -46,10 +46,14 @@ p.zelda{
     width: 235px;
     text-align: justify;
     position: absolute;
-    margin-top: -555px;
+    margin-top: -575px;
     margin-bottom: -250px;
     margin-left: 106px;
     line-height: 1em;
+}
+div.preamble h3{
+    font-size: 25px;
+    line-height: 1.2em;
 }
 
 p {
@@ -57,6 +61,7 @@ p {
 }
 
 h3 {
+    font-family: cursive;
     margin-bottom: -10px;
     text-align: center;
 }
@@ -95,7 +100,7 @@ h3 {
     font-size: 15px;
     width: 235px;
     position: absolute;
-    margin-top: -680px;
+    margin-top: -690px;
     margin-bottom: -250px;
     margin-left: 427px;
     line-height: 1em;
@@ -104,10 +109,14 @@ h3 {
 .explanation p:nth-child(3) {
     width: 160px;
 }
+div.explanation h3{
+    font-size: 24px;
+    line-height: 1em;
+}
 
 #cover2 {
     width: 297px;
-    margin-top: -486px;
+    margin-top: -492px;
     margin-left: -22px;
 }
 
@@ -122,16 +131,20 @@ div.participation {
     position: absolute;
     width: 280px;
     font-size: 15px;
-    margin-top: -484px;
+    margin-top: -504px;
     margin-left: 75px;
     text-align: justify;
+}
+div.participation h3{
+    font-size: 30px;
+    line-height: 1em;
 }
 
 #cover3 {
     position: absolute;
     margin-left: -335px;
-    margin-top: -315px;
-    width: 310px;
+    margin-top: -311px;
+    width: 312px;
 }
 
 #block4 {
@@ -145,13 +158,15 @@ div.benefits {
     position: absolute;
     width: 210px;
     font-size: 16px;
-    margin-top: -302px;
+    margin-top: -320px;
     margin-left: 470px;
     text-align: center;
+    line-height: 1em;
 }
 
 div.benefits h3 {
-    line-height: .5em;
+    font-size: 35px;
+    line-height: 1em;
 }
 
 #cover4 {
@@ -171,14 +186,16 @@ div.requirements {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     width: 255px;
-    font-size: 14.5px;
-    margin-top: -898px;
+    font-size: 15px;
+    margin-top: -918px;
     margin-left: 460px;
     text-align: justify;
+    line-height: 1em;
 }
 
-.requirements h3 {
-    line-height: .5em;
+div.requirements h3 {
+    font-size: 30px;
+    line-height: 1em;
 }
 
 .requirements p:nth-child(5),
