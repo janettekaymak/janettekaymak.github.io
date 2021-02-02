@@ -51,10 +51,6 @@ p.zelda{
     margin-left: 106px;
     line-height: 1em;
 }
-div.preamble h3{
-    font-size: 25px;
-    line-height: 1.2em;
-}
 
 p {
     margin-bottom: -10px;
@@ -77,6 +73,27 @@ h3 {
     position: absolute;
     margin-top: 28px;
     margin-left:-340px;
+}
+div.participation::after{
+    font-family: cursive;
+    position:absolute;
+    content: "The Road to";
+    color: white;
+    font-size: 30px;
+    margin: -958px auto auto 70px;
+}
+div.explanation::after{
+    font-family: cursive;
+    position:absolute;
+    content: "Enlightenment";
+    color: white;
+    font-size: 30px;
+    margin: -628px auto auto -300px;
+}
+div.preamble h3{
+    opacity: 0;
+    font-size: 25px;
+    line-height: 1.2em;
 }
 
 #cover:hover,
@@ -110,6 +127,7 @@ h3 {
     width: 160px;
 }
 div.explanation h3{
+    opacity: 0;
     font-size: 24px;
     line-height: 1em;
 }
@@ -118,6 +136,16 @@ div.explanation h3{
     width: 297px;
     margin-top: -492px;
     margin-left: -22px;
+}
+
+div.requirements::after{
+    font-family: cursive;
+    position: absolute;
+    content: "So What is This About?";
+    color: black;
+    font-size: 24px;
+    margin-top: -1685px;
+    margin-left: -25px;
 }
 
 #block3 {
@@ -136,8 +164,18 @@ div.participation {
     text-align: justify;
 }
 div.participation h3{
+    opacity: 0;
     font-size: 30px;
     line-height: 1em;
+}
+aside::after{
+    color: rgb(1, 56, 1);
+    font-family: cursive;
+    position: absolute;
+    content: "Participation";
+    font-size: 34px;
+    margin-top: -1078px;
+    margin-left: 70px;
 }
 
 #cover3 {
@@ -165,8 +203,17 @@ div.benefits {
 }
 
 div.benefits h3 {
+    opacity: 0;
     font-size: 35px;
     line-height: 1em;
+}
+div.extra1::after{
+    font-family: cursive;
+    position: absolute;
+    content: "Benefits";
+    font-size: 35px;
+    margin-top: -1225px;
+    margin-left: 520px;
 }
 
 #cover4 {
@@ -194,8 +241,18 @@ div.requirements {
 }
 
 div.requirements h3 {
+    opacity: 0;
     font-size: 30px;
     line-height: 1em;
+}
+div.extra2::after{
+    color: white;
+    font-family: cursive;
+    position: absolute;
+    content: "Requirements";
+    font-size: 30px;
+    margin-top: -923px;
+    margin-left: 505px;
 }
 
 .requirements p:nth-child(5),
