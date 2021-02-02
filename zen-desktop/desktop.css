@@ -11,18 +11,22 @@ body {
     margin: auto;
     max-width: 1000px;
 }
-.page-wrapper{
+
+.page-wrapper {
     max-width: 850px;
     margin: auto;
 }
-section h1, section h2{
+
+section h1,
+section h2 {
     display: block;
     font-family: cursive;
     line-height: 1.25em;
     color: purple;
-   
+
 }
-section h1{
+
+section h1 {
     margin: -300px auto auto 50px;
     font-size: 50px;
 }
@@ -31,9 +35,10 @@ section h2 {
     margin: 0px auto auto 110px;
     font-size: 20px;
 }
-p.zelda{
-    margin-left: 500px;    
-    
+
+p.zelda {
+    margin-left: 500px;
+
 }
 
 #under {
@@ -75,25 +80,28 @@ h3 {
     width: 352px;
     position: absolute;
     margin-top: 28px;
-    margin-left:-340px;
+    margin-left: -340px;
 }
-div.participation::after{
+
+div.participation::after {
     font-family: cursive;
-    position:absolute;
+    position: absolute;
     content: "The Road to";
     color: white;
     font-size: 30px;
     margin: -958px auto auto 70px;
 }
-div.explanation::after{
+
+div.explanation::after {
     font-family: cursive;
-    position:absolute;
+    position: absolute;
     content: "Enlightenment";
     color: white;
     font-size: 30px;
     margin: -628px auto auto -300px;
 }
-div.preamble h3{
+
+div.preamble h3 {
     opacity: 0;
     font-size: 25px;
     line-height: 1.2em;
@@ -129,7 +137,8 @@ div.preamble h3{
 .explanation p:nth-child(3) {
     width: 160px;
 }
-div.explanation h3{
+
+div.explanation h3 {
     opacity: 0;
     font-size: 24px;
     line-height: 1em;
@@ -141,7 +150,7 @@ div.explanation h3{
     margin-left: -22px;
 }
 
-div.requirements::after{
+div.requirements::after {
     font-family: cursive;
     position: absolute;
     content: "So What is This About?";
@@ -166,12 +175,14 @@ div.participation {
     margin-left: 75px;
     text-align: justify;
 }
-div.participation h3{
+
+div.participation h3 {
     opacity: 0;
     font-size: 30px;
     line-height: 1em;
 }
-aside::after{
+
+aside::after {
     color: rgb(1, 56, 1);
     font-family: cursive;
     position: absolute;
@@ -210,7 +221,8 @@ div.benefits h3 {
     font-size: 35px;
     line-height: 1em;
 }
-div.requirements::before{
+
+div.requirements::before {
     color: black;
     font-family: cursive;
     position: absolute;
@@ -249,7 +261,8 @@ div.requirements h3 {
     font-size: 30px;
     line-height: 1em;
 }
-aside::before{
+
+aside::before {
     color: white;
     font-family: cursive;
     position: absolute;
@@ -273,7 +286,7 @@ aside::before{
     margin-left: 450px;
 }
 
-p.link{
+p.link {
     margin-top: 10px;
     margin-left: -420px;
     text-align: center;
@@ -288,10 +301,11 @@ button {
     border: purple solid 2px;
     font-family: sans-serif;
 }
-    /*The following images were obtained free from Klipartz,
+
+/*The following images were obtained free from Klipartz,
 then it was changed so as not to mimic Zelda #dude and #tilt-dude, #zelda, #wave */
 
-aside.sidebar{
+aside.sidebar {
     padding: 30px;
     color: white;
     line-height: 1.3em;
@@ -304,15 +318,19 @@ aside.sidebar{
     margin-top: -880px;
     margin-left: 30px;
 }
-aside.sidebar a:link, aside.sidebar a:visited{
+
+aside.sidebar a:link,
+aside.sidebar a:visited {
     color: white;
     text-decoration: none;
 }
-aside.sidebar a:hover{
+
+aside.sidebar a:hover {
     color: purple;
-  text-shadow: white 1px 1px 1px;
+    text-shadow: white 1px 1px 1px;
 }
-aside.sidebar h3{
+
+aside.sidebar h3 {
     font-size: 30px;
     text-align: center;
     color: purple;
@@ -320,6 +338,7 @@ aside.sidebar h3{
     padding: 5px;
     border-radius: 5px;
 }
-aside.sidebar ul li{
+
+aside.sidebar ul li {
     font-family: sans-serif;
-} 
+}
