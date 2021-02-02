@@ -12,10 +12,11 @@ section h1, section h2{
     display: block;
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1em;
+    color: rgb(83, 1, 83);
    
 }
 section h1{
-    margin: -350px auto auto 90px;
+    margin: -280px auto auto 90px;
     font-size: 50px;
 }
 
@@ -28,6 +29,12 @@ div.functions:nth-child(2){
     
 }
 
+#under {
+    width: 360px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
 .preamble {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -35,9 +42,9 @@ div.functions:nth-child(2){
     width: 235px;
     text-align: justify;
     position: absolute;
-    margin-top: -545px;
+    margin-top: -555px;
     margin-bottom: -250px;
-    margin-left: 138px;
+    margin-left: 88px;
     line-height: 1em;
 }
 
@@ -56,16 +63,10 @@ h3 {
     margin-left: 40px;
 }
 
-#under {
-    width: 360px;
-    margin-top: 20px;
-    margin-left: 60px;
-}
-
 #cover {
     width: 352px;
     position: absolute;
-    margin-top: 38px;
+    margin-top: 28px;
     margin-left:-340px;
 }
 
@@ -79,9 +80,9 @@ h3 {
 }
 
 #block2 {
-    margin-left: 437px;
+    margin-left: 387px;
     width: 360px;
-    margin-top: -360px;
+    margin-top: -435px;
 }
 
 .explanation {
@@ -90,9 +91,9 @@ h3 {
     font-size: 15px;
     width: 235px;
     position: absolute;
-    margin-top: -683px;
+    margin-top: -680px;
     margin-bottom: -250px;
-    margin-left: 477px;
+    margin-left: 427px;
     line-height: 1em;
 }
 
@@ -102,13 +103,13 @@ h3 {
 
 #cover2 {
     width: 297px;
-    margin-top: -483px;
+    margin-top: -486px;
     margin-left: -22px;
 }
 
 #block3 {
-    margin-top: -382px;
-    margin-left: 86px;
+    margin-top: -352px;
+    margin-left: 36px;
 }
 
 div.participation {
@@ -117,22 +118,22 @@ div.participation {
     position: absolute;
     width: 280px;
     font-size: 15px;
-    margin-top: -490px;
-    margin-left: 125px;
+    margin-top: -484px;
+    margin-left: 75px;
     text-align: justify;
 }
 
 #cover3 {
     position: absolute;
     margin-left: -335px;
-    margin-top: -342px;
+    margin-top: -315px;
     width: 310px;
 }
 
 #block4 {
     position: absolute;
     margin-top: -668px;
-    margin-left: 502px;
+    margin-left: 452px;
 }
 
 div.benefits {
@@ -141,7 +142,7 @@ div.benefits {
     width: 220px;
     font-size: 15px;
     margin-top: -620px;
-    margin-left: 570px;
+    margin-left: 520px;
     text-align: center;
 }
 
@@ -152,13 +153,13 @@ div.benefits h3 {
 #cover4 {
     position: absolute;
     margin-top: -667px;
-    margin-left: 500px;
+    margin-left: 450px;
 }
 
 #block5 {
     margin-top: -362px;
     margin-bottom: -110px;
-    margin-left: 486px;
+    margin-left: 436px;
 }
 
 div.requirements {
@@ -168,7 +169,7 @@ div.requirements {
     width: 255px;
     font-size: 14.5px;
     margin-top: -900px;
-    margin-left: 556px;
+    margin-left: 506px;
     text-align: justify;
 }
 
@@ -187,46 +188,49 @@ div.requirements {
     width: 273px;
     position: absolute;
     margin-top: -898px;
-    margin-left: 546px;
+    margin-left: 498px;
 }
 
 p.link{
-    margin-left: -350px;
+    margin-top: 10px;
+    margin-left: -370px;
     text-align: center;
 }
 
 button {
     background-color: rgb(188, 157, 245);
     font-size: 16px;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
 }
     /*The following images were obtained free from Klipartz,
 then it was changed so as not to mimic Zelda #dude and #tilt-dude, #zelda, #wave */
 
 aside.sidebar{
-    padding: 50px;
+    padding: 30px 50px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 1em;
-    width: 360px;
+    line-height: 1.25em;
+    width: 310px;
     background-image: url(images/klipartz.com.png);
-    background-size: cover;
-    background-color: hsl(300, 100%, 25%);
+    background-color: hsl(342, 100%, 25%, .7);
     background-position: center;
-
+    background-size: cover;
+    border-radius: 25px;
+    margin-top: -560px;
+    margin-left: 15px;
 }
-aside.sidebar a:link{
+aside.sidebar a:link, aside.sidebar a:visited{
     color: white;
     text-decoration: none;
 }
 aside.sidebar a:hover{
-  text-shadow: white 2px 3px 5px;
+  text-shadow: white 3px 3px 5px;
 }
 aside.sidebar h3{
     text-align: left;
 }
 aside.sidebar ul li{
-    line-height: 2em;
     font-weight: bold;
+    list-style: none;
 } 
