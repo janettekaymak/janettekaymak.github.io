@@ -4,13 +4,15 @@ body {
     max-width: 1000px;
     margin: auto;
 }
+
+#banner {
+    display: block;
+    margin: auto;
+    max-width: 1000px;
+}
 .page-wrapper{
     max-width: 850px;
     margin: auto;
-}
-
-#banner {
-    max-width: 100%;
 }
 section h1, section h2{
     display: block;
