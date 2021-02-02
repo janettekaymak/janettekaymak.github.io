@@ -209,13 +209,14 @@ div.benefits h3 {
     font-size: 35px;
     line-height: 1em;
 }
-div.extra1::after{
+div.requirements::before{
+    color: black;
     font-family: cursive;
     position: absolute;
     content: "Benefits";
     font-size: 35px;
-    margin-top: -1225px;
-    margin-left: 520px;
+    margin-top: -260px;
+    margin-left: 60px;
 }
 
 #cover4 {
@@ -247,14 +248,14 @@ div.requirements h3 {
     font-size: 30px;
     line-height: 1em;
 }
-div.extra2::after{
+aside::before{
     color: white;
     font-family: cursive;
     position: absolute;
     content: "Requirements";
     font-size: 30px;
-    margin-top: -923px;
-    margin-left: 505px;
+    margin-top: -35px;
+    margin-left: 445px;
 }
 
 .requirements p:nth-child(5),
