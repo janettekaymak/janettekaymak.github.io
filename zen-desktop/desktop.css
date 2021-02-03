@@ -2,14 +2,14 @@ body {
     display: block;
     background-color: darkseagreen;
     background-image: url("images/grass.png"), linear-gradient(purple, rgb(123, 212, 247), white, lemonchiffon, darkseagreen, darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple);
-    max-width: 1000px;
+   
     margin: auto;
 }
 
 #banner {
     display: block;
     margin: auto;
-    max-width: 1000px;
+    max-width: 100%;
 }
 
 .page-wrapper {
@@ -86,20 +86,20 @@ h3 {
 div.participation::after {
     font-family: cursive;
     position: absolute;
-    content: "The Road to";
+    content: "The Road to Enlightenment";
     color: white;
-    font-size: 30px;
-    margin: -958px auto auto 70px;
+    font-size: 18px;
+    margin: -938px auto auto 50px;
 }
 
-div.explanation::after {
+/*div.explanation::after {
     font-family: cursive;
     position: absolute;
     content: "Enlightenment";
     color: white;
     font-size: 30px;
     margin: -628px auto auto -300px;
-}
+}*/
 
 div.preamble h3 {
     opacity: 0;
