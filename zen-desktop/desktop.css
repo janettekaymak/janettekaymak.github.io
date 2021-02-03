@@ -284,6 +284,9 @@ p.link {
     margin-left: -420px;
     text-align: center;
 }
+p.link:nth-child(2){
+    margin-bottom: 50px;
+}
 
 button {
     color: purple;
