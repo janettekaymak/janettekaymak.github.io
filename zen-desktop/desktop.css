@@ -118,6 +118,13 @@ h3 {
     width: 360px;
     margin-top: -435px;
 }
+/*header::after{
+    content:"Click on each block to reveal a hidden message!";
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-left: 45px;
+    color: purple;
+}*/
 div.explanation h3 {
     color: white;
     font-size: 18px;
