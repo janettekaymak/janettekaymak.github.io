@@ -52,20 +52,20 @@
 	<img src="images2/mountain-banner2.jpg" id="banner">
 	<div class="page-wrapper">
 		<div class="functions">
-			<p class="zelda">
-				<button type="button" onclick="zwave(1)">Dazzle</button>
-				<button type="button" onclick="zwave(0)">Demure</button>
-			</p><br>
-			<p class="zelda"><img id="zelda" src="images2/zelda.png" width="150"></p>
+			<p class="link"><img id="tilt-dude" src="images2/tilt-dude.png" width="150"></p>
+			<p class="link"><button type="button" onclick="sword(1)">Be Nice</button>
+				<button type="button" onclick="sword(0)">Attack</button>
+			</p>
+
 			<script>
-				function zwave(sw) {
+				function sword(sw) {
 					var pic;
 					if (sw == 0) {
-						pic = "images2/zelda.png"
+						pic = "images2/tilt-dude.png"
 					} else {
-						pic = "images2/wave.png"
+						pic = "images2/dude.png"
 					}
-					document.getElementById('zelda').src = pic;
+					document.getElementById('tilt-dude').src = pic;
 				}
 			</script>
 		</div>
@@ -276,20 +276,20 @@
 			</div>
 		</aside>
 		<div class="functions">
-			<p class="link"><img id="tilt-dude" src="images2/tilt-dude.png" width="150"></p>
-			<p class="link"><button type="button" onclick="sword(1)">Be Nice</button>
-				<button type="button" onclick="sword(0)">Attack</button>
-			</p>
-
+			<p class="zelda">
+				<button type="button" onclick="zwave(1)">Dazzle</button>
+				<button type="button" onclick="zwave(0)">Demure</button>
+			</p><br>
+			<p class="zelda"><img id="zelda" src="images2/zelda.png" width="150"></p>
 			<script>
-				function sword(sw) {
+				function zwave(sw) {
 					var pic;
 					if (sw == 0) {
-						pic = "images2/tilt-dude.png"
+						pic = "images2/zelda.png"
 					} else {
-						pic = "images2/dude.png"
+						pic = "images2/wave.png"
 					}
-					document.getElementById('tilt-dude').src = pic;
+					document.getElementById('zelda').src = pic;
 				}
 			</script>
 		</div>
