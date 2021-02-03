@@ -36,9 +36,12 @@ section h2 {
     font-size: 20px;
 }
 
-p.zelda {
+p.link {
     margin-left: 500px;
 
+}
+p.link:nth-child(2){
+    margin-bottom: 20px;
 }
 
 #under {
@@ -289,15 +292,6 @@ div.requirements h3 {
     margin-left: 450px;
 }
 
-p.link {
-    margin-top: 10px;
-    margin-left: -420px;
-    text-align: center;
-}
-p.link:nth-child(2){
-    margin-bottom: 50px;
-}
-
 button {
     color: purple;
     background-color: rgb(188, 218, 23);
@@ -347,4 +341,12 @@ aside.sidebar h3 {
 
 aside.sidebar ul li {
     font-family: sans-serif;
+}
+p.zelda {
+    margin-top: 10px;
+    margin-left: -400px;
+    text-align: center;
+}
+p.zelda:nth-child(1){
+    margin-top: 30px;
 }
