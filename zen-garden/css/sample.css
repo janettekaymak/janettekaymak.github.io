@@ -207,10 +207,13 @@ div.requirements {
 }
 
 button {
-    background-color: rgb(188, 157, 245);
+    color: purple;
+    background-color: rgb(188, 218, 23);
     font-size: 18px;
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
+    border: purple solid 2px;
+    font-family: sans-serif;
 }
 
 /*The following images were obtained free from Klipartz,
@@ -252,4 +255,12 @@ aside.sidebar h3 {
 
 aside.sidebar ul li {
     font-family: sans-serif;
+}
+p.link {
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: center;
+}
+p.link:nth-child(2){
+    margin-bottom: 50px;
 }
