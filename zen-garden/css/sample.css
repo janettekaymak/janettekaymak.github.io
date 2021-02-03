@@ -101,7 +101,7 @@ div.participation::after {
     content: "The Road to";
     color: white;
     font-size: 30px;
-    margin: -1520px auto auto 70px;
+    margin: -1510px auto auto 70px;
 }
 div.explanation::after {
     font-family: cursive;
@@ -131,10 +131,9 @@ div.explanation::after {
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    width: 235px;
+    width: 241px;
     position: absolute;
-    margin-top: -673px;
-    margin-bottom: -250px;
+    margin-top: -692px;
     margin-left: 40px;
     line-height: 1em;
 }
@@ -143,14 +142,30 @@ div.explanation::after {
     width: 160px;
 }
 
+div.explanation h3 {
+    opacity: 0;
+    font-size: 24px;
+    line-height: 1em;
+}
+
 #cover2 {
     width: 297px;
-    margin-top: -495px;
+    margin-top: -478px;
+    margin-left: -22px;
+}
+
+div.requirements::after {
+    font-family: cursive;
+    position: absolute;
+    content: "So What is This About?";
+    color: black;
+    font-size: 24px;
+    margin-top: -2217px;
     margin-left: -22px;
 }
 
 #block3 {
-    margin-top: -162px;
+    margin-top: -176px;
 }
 
 div.participation {
@@ -159,15 +174,29 @@ div.participation {
     position: absolute;
     width: 280px;
     font-size: 15px;
-    margin-top: -490px;
+    margin-top: -505px;
     margin-left: 42px;
+}
+div.participation h3 {
+    opacity: 0;
+    font-size: 30px;
+    line-height: 1em;
 }
 
 #cover3 {
     position: absolute;
     margin-left: -335px;
-    margin-top: -122px;
+    margin-top: -135px;
     width: 310px;
+}
+aside::after {
+    color: rgb(1, 56, 1);
+    font-family: cursive;
+    position: absolute;
+    content: "Participation";
+    font-size: 34px;
+    margin-top: -2310px;
+    margin-left: 67px;
 }
 
 #block4 {
@@ -179,18 +208,30 @@ div.benefits {
     position: absolute;
     width: 220px;
     font-size: 15px;
-    margin-top: -280px;
+    margin-top: -315px;
     margin-left: 70px;
     text-align: center;
 }
 
 div.benefits h3 {
-    line-height: .5em;
+    opacity: 0;
+    font-size: 35px;
+    line-height: 1em;
 }
 
 #cover4 {
     position: absolute;
     margin-top: -329px;
+}
+
+div.requirements::before {
+    color: black;
+    font-family: cursive;
+    position: absolute;
+    content: "Benefits";
+    font-size: 35px;
+    margin-top: -285px;
+    margin-left: 55px;
 }
 
 #block5 {
@@ -204,13 +245,15 @@ div.requirements {
     position: absolute;
     width: 255px;
     font-size: 14.5px;
-    margin-top: -900px;
+    margin-top: -925px;
     margin-left: 70px;
     text-align: justify;
 }
 
-.requirements h3 {
-    line-height: .5em;
+div.requirements h3 {
+    opacity: 0;
+    font-size: 30px;
+    line-height: 1em;
 }
 
 .requirements p:nth-child(5),
@@ -223,8 +266,17 @@ div.requirements {
 #cover5 {
     width: 275px;
     position: absolute;
-    margin-top: -895px;
+    margin-top: -900px;
     margin-left: 60px;
+}
+aside::before {
+    color: white;
+    font-family: cursive;
+    position: absolute;
+    content: "Requirements";
+    font-size: 30px;
+    margin-top: -945px;
+    margin-left: 85px;
 }
 
 button {
