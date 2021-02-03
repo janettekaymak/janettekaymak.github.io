@@ -1,19 +1,15 @@
 
 body {
-    max-width: 360px;
     background-color: darkseagreen;
     background-image: url(https://janettekaymak.github.io/zen-garden/images2/grass2.png), linear-gradient(purple, rgb(123, 212, 247), white, lemonchiffon, darkseagreen, darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple);
 }
 
 div.page-wrapper {
     max-width: 360px;
-  
 }
 
 #banner {
-    display: block;
-    margin: -10px auto auto -10px;
-    max-width: 416px;
+    max-width: 100%;
 }
 section h1, section h2{
     display: block;
