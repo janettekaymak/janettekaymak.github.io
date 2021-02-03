@@ -8,7 +8,7 @@ body {
     display: block;
     margin: auto;
     background-color: darkseagreen;
-    background-image: url(images/grass2.png), linear-gradient(purple, rgb(123, 212, 247), white, lemonchiffon, darkseagreen, darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple);
+    background-image: url(images2/grass2.png), linear-gradient(purple, rgb(123, 212, 247), white, lemonchiffon, darkseagreen, darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple);
 }
 
 div.page-wrapper {
@@ -221,7 +221,7 @@ aside.sidebar {
     color: white;
     line-height: 1.3em;
     max-width: 300px;
-    background-image: url(images/bricks2.png);
+    background-image: url(images2/bricks2.png);
     background-color: hsl(342, 100%, 25%, .7);
     background-position: center;
     background-size: contain;
