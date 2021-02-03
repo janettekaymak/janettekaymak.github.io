@@ -202,7 +202,7 @@ div.participation h3 {
 
 #block4 {
     position: absolute;
-    margin-top: -352px;
+    margin-top: -330px;
     margin-left: 395px;
 }
 
@@ -211,7 +211,7 @@ div.benefits {
     position: absolute;
     width: 210px;
     font-size: 16px;
-    margin-top: -337px;
+    margin-top: -317px;
     margin-left: 475px;
     text-align: center;
     line-height: 1em;
@@ -234,13 +234,14 @@ div.benefits h3 {
 }*/
 
 #cover4 {
+    opacity: 1;
     position: absolute;
-    margin-top: -337px;
+    margin-top: -317px;
     margin-left: 395px;
 }
 
 #block5 {
-    margin-top: -40px;
+    margin-top: 10px;
     margin-bottom: -110px;
     margin-left: 390px;
 }
@@ -318,7 +319,7 @@ aside.sidebar {
     background-position: center;
     background-size: contain;
     border-radius: 25px;
-    margin-top: -880px;
+    margin-top: -957px;
     margin-left: 30px;
 }
 
