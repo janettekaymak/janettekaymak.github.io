@@ -47,16 +47,20 @@ p.zelda {
     margin-left: 28px;
 }
 
+div.preamble h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
 .preamble {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
     color: white;
-    width: 235px;
+    width: 225px;
     text-align: justify;
     position: absolute;
-    margin-top: -575px;
+    margin-top: -599px;
     margin-bottom: -250px;
-    margin-left: 106px;
+    margin-left: 110px;
     line-height: 1em;
 }
 
@@ -66,12 +70,11 @@ p {
 
 h3 {
     font-family: cursive;
-    margin-bottom: -10px;
     text-align: center;
 }
 
 .preamble p:nth-child(4) {
-    width: 160px;
+    width: 150px;
     text-align: justify;
     margin-left: 40px;
 }
@@ -83,7 +86,7 @@ h3 {
     margin-left: -340px;
 }
 
-div.participation::after {
+/*div.participation::after {
     font-family: cursive;
     position: absolute;
     content: "The Road to Enlightenment";
@@ -101,12 +104,6 @@ div.participation::after {
     margin: -628px auto auto -300px;
 }*/
 
-div.preamble h3 {
-    opacity: 0;
-    font-size: 25px;
-    line-height: 1.2em;
-}
-
 #cover:hover,
 #cover2:hover,
 #cover3:hover,
@@ -121,14 +118,19 @@ div.preamble h3 {
     width: 360px;
     margin-top: -435px;
 }
+div.explanation h3 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
 
 .explanation {
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-    font-size: 15px;
+    font-size: 15.5px;
     width: 235px;
     position: absolute;
-    margin-top: -690px;
+    margin-top: -715px;
     margin-bottom: -250px;
     margin-left: 427px;
     line-height: 1em;
@@ -138,27 +140,21 @@ div.preamble h3 {
     width: 160px;
 }
 
-div.explanation h3 {
-    opacity: 0;
-    font-size: 24px;
-    line-height: 1em;
-}
-
 #cover2 {
     width: 297px;
-    margin-top: -492px;
+    margin-top: -480px;
     margin-left: -22px;
 }
 
-div.requirements::after {
+/*div.requirements::after {
     font-family: cursive;
     position: absolute;
     content: "So What is This About?";
     color: black;
-    font-size: 24px;
+    font-size: 18px;
     margin-top: -1685px;
-    margin-left: -25px;
-}
+    margin-left: 5px;
+}*/
 
 #block3 {
     margin-top: -352px;
@@ -166,31 +162,29 @@ div.requirements::after {
 }
 
 div.participation {
-    color: rgb(1, 56, 1);
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     width: 280px;
     font-size: 15px;
-    margin-top: -504px;
+    margin-top: -525px;
     margin-left: 75px;
     text-align: justify;
 }
 
 div.participation h3 {
-    opacity: 0;
-    font-size: 30px;
-    line-height: 1em;
+    font-size: 18px;
+  
 }
 
-aside::after {
-    color: rgb(1, 56, 1);
+/*aside::after {
+    color: black;
     font-family: cursive;
     position: absolute;
     content: "Participation";
-    font-size: 34px;
+    font-size: 18px;
     margin-top: -1078px;
-    margin-left: 70px;
-}
+    margin-left: 100px;
+}*/
 
 #cover3 {
     position: absolute;
@@ -210,27 +204,27 @@ div.benefits {
     position: absolute;
     width: 210px;
     font-size: 16px;
-    margin-top: -320px;
-    margin-left: 470px;
+    margin-top: -337px;
+    margin-left: 475px;
     text-align: center;
     line-height: 1em;
 }
 
 div.benefits h3 {
-    opacity: 0;
-    font-size: 35px;
-    line-height: 1em;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 35px;
 }
 
-div.requirements::before {
+/*div.requirements::before {
     color: black;
     font-family: cursive;
     position: absolute;
     content: "Benefits";
-    font-size: 35px;
+    font-size: 18px;
     margin-top: -260px;
-    margin-left: 60px;
-}
+    margin-left: 85px;
+}*/
 
 #cover4 {
     position: absolute;
@@ -249,33 +243,32 @@ div.requirements {
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     width: 255px;
-    font-size: 15px;
-    margin-top: -918px;
+    font-size: 15.7px;
+    margin-top: -935px;
     margin-left: 460px;
     text-align: justify;
     line-height: 1em;
 }
 
 div.requirements h3 {
-    opacity: 0;
-    font-size: 30px;
-    line-height: 1em;
+    color:white;
+    font-size: 18px;
 }
 
-aside::before {
+/*aside::before {
     color: white;
     font-family: cursive;
     position: absolute;
     content: "Requirements";
-    font-size: 30px;
+    font-size: 18px;
     margin-top: -35px;
-    margin-left: 445px;
-}
+    margin-left: 475px;
+}*/
 
 .requirements p:nth-child(5),
 .requirements p:nth-child(6) {
     width: 175px;
-    margin-left: 90px;
+    margin-left: 98px;
     text-align: left;
 }
 
