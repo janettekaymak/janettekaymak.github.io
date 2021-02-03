@@ -58,8 +58,7 @@ p.zelda:nth-child(1){
     width: 235px;
     text-align: justify;
     position: absolute;
-    margin-top: -565px;
-    margin-bottom: -250px;
+    margin-top: -575px;
     margin-left: 78px;
     line-height: 1em;
 }
@@ -69,8 +68,14 @@ p {
 }
 
 h3 {
+    font-family: cursive;
     margin-bottom: -10px;
     text-align: center;
+}
+div.preamble h3 {
+    opacity: 0;
+    font-size: 25px;
+    line-height: 1.2em;
 }
 
 .preamble p:nth-child(4) {
@@ -89,6 +94,22 @@ h3 {
     position: absolute;
     margin-top: 18px;
     margin-left: -340px;
+}
+div.participation::after {
+    font-family: cursive;
+    position: absolute;
+    content: "The Road to";
+    color: white;
+    font-size: 30px;
+    margin: -1520px auto auto 70px;
+}
+div.explanation::after {
+    font-family: cursive;
+    position: absolute;
+    content: "Enlightenment";
+    color: white;
+    font-size: 30px;
+    margin: -997px auto auto 60px;
 }
 
 #cover:hover,
