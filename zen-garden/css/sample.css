@@ -3,7 +3,7 @@ body {
     display: block;
     margin: auto;
     background-color: darkseagreen;
-    background-image: background-image: url(images/grass.png), linear-gradient(purple, rgb(123, 212, 247), white, lemonchiffon, darkseagreen, darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple);
+    background-image: background-image: url(http//janettekaymak.github.io/zen-garden/images/grass.png), linear-gradient(purple, rgb(123, 212, 247), white, lemonchiffon, darkseagreen, darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple);
 }
 
 div.page-wrapper {
