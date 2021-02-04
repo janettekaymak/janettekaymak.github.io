@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
 body {
     background-color: darkseagreen;
     background-image: url(https://janettekaymak.github.io/zen-garden/images2/grass2.png), linear-gradient(purple, rgb(123, 212, 247), white, lemonchiffon, darkseagreen, darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple);
@@ -9,7 +12,7 @@ div.page-wrapper {
 }
 
 #banner {
-    max-width: 100%;
+    max-width: 104%;
 }
 p.link {
     margin-top: 10px;
@@ -22,14 +25,15 @@ p.link:nth-child(2){
 section h1, section h2{
     display: block;
     text-align: center;
-    font-family: cursive;
+    font-family: 'Merienda', cursive;
     line-height: .25em;
     color: purple;
    
 }
 section h1{
-    font-size: 50px;
+    font-size: 42px;
     margin-top: 20px;
+    margin-bottom: 35px;
 }
 
 section h2 {
@@ -37,24 +41,24 @@ section h2 {
 }
 header::after{
     content:"Click on each block to reveal a hidden message!";
-    font-family: sans-serif;
-    font-size: 16px;
-    margin-left: 0px;
+    font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+    font-size: 18px;
+    margin-left: 40px;
 }
 
 h3 {
-    font-family: cursive;
+    font-family: 'Merienda' cursive;
     margin-bottom: -10px;
     text-align: center;
 }
 .preamble {
-    font-family: sans-serif;
-    font-size: 16px;
+    font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+    font-size: 17px;
     color: white;
     width: 235px;
     text-align: justify;
     position: absolute;
-    margin-top: -575px;
+    margin-top: -580px;
     margin-left: 78px;
     line-height: 1em;
 }
@@ -63,6 +67,7 @@ p {
     margin-bottom: -10px;
 }
 div.preamble h3 {
+    font-family: 'Merienda', cursive;
     opacity: 1;
     font-size: 25px;
     line-height: 1.2em;
@@ -114,19 +119,19 @@ div.explanation::after {
 }
 
 #block2 {
-    margin-left: 0px;
+    margin-left: 20px;
     width: 360px;
     margin-top: -60px;
 }
 
 .explanation {
     text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+    font-size: 17px;
     width: 241px;
     position: absolute;
-    margin-top: -692px;
-    margin-left: 40px;
+    margin-top: -685px;
+    margin-left: 60px;
     line-height: 1em;
 }
 
@@ -135,15 +140,16 @@ div.explanation::after {
 }
 
 div.explanation h3 {
+    font-family: 'Merienda', cursive;
     opacity: 1;
-    font-size: 24px;
+    font-size: 21px;
     line-height: 1em;
 }
 
 #cover2 {
     display: block;
     width: 297px;
-    margin-top: -488px;
+    margin-top: -480px;
     margin-left: -22px;
 }
 
@@ -159,27 +165,29 @@ div.explanation h3 {
 
 #block3 {
     margin-top: -176px;
+    margin-left: -10px;
 }
 
 div.participation {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
     position: absolute;
     width: 280px;
-    font-size: 15px;
+    font-size: 16px;
     margin-top: -505px;
-    margin-left: 42px;
+    margin-left: 32px;
 }
 div.participation h3 {
     opacity: 1;
     font-size: 30px;
     line-height: 1em;
+    font-family: 'Merienda', cursive;
 }
 
 #cover3 {
     display: block;
     position: absolute;
-    margin-left: 22px;
-    margin-top: -480px;
+    margin-left: 15px;
+    margin-top: -483px;
     width: 310px;
 }
 /*aside::after {
@@ -197,16 +205,17 @@ div.participation h3 {
 }
 
 div.benefits {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
     position: absolute;
     width: 220px;
-    font-size: 15px;
-    margin-top: -315px;
+    font-size: 16px;
+    margin-top: -305px;
     margin-left: 70px;
     text-align: center;
 }
 
 div.benefits h3 {
+    font-family: 'Merienda', cursive;
     opacity: 1;
     font-size: 35px;
     line-height: 1em;
@@ -231,20 +240,22 @@ div.benefits h3 {
 #block5 {
     margin-top: -25px;
     margin-bottom: -110px;
+    margin-left: 10px;
 }
 
 div.requirements {
     color: rgb(238, 235, 235);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
     position: absolute;
     width: 255px;
-    font-size: 14.5px;
+    font-size: 15.5px;
     margin-top: -925px;
-    margin-left: 70px;
+    margin-left: 80px;
     text-align: justify;
 }
 
 div.requirements h3 {
+    font-family: 'Merienda', cursive;
     opacity: 1;
     font-size: 30px;
     line-height: 1em;
@@ -262,7 +273,7 @@ div.requirements h3 {
     width: 275px;
     position: absolute;
     margin-top: -900px;
-    margin-left: 60px;
+    margin-left: 70px;
 }
 /*aside::before {
     color: white;
@@ -277,7 +288,7 @@ div.requirements h3 {
 button {
     color: purple;
     background-color: rgb(188, 218, 23);
-    font-size: 18px;
+    font-size: 20px;
     padding: 5px;
     border-radius: 5px;
     border: purple solid 2px;
@@ -313,6 +324,7 @@ aside.sidebar a:hover {
 }
 
 aside.sidebar h3 {
+    font-family: 'Merienda', cursive;
     font-size: 30px;
     text-align: center;
     color: purple;
