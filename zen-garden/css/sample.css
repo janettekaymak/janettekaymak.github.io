@@ -12,7 +12,7 @@ div.page-wrapper {
 }
 
 #banner {
-    max-width: 104%;
+    max-width: 100%;
 }
 p.link {
     margin-top: 10px;
@@ -43,13 +43,17 @@ header::after{
     content:"Click on each block to reveal a hidden message!";
     font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
     font-size: 18px;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 h3 {
     font-family: 'Merienda' cursive;
     margin-bottom: -10px;
     text-align: center;
+}
+#block1 {
+    width: 360px;
+    margin-left: 0px;
 }
 .preamble {
     font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
@@ -77,11 +81,6 @@ div.preamble h3 {
     width: 160px;
     text-align: justify;
     margin-left: 40px;
-}
-
-#block1 {
-    width: 360px;
-    margin-left: 0px;
 }
 
 #cover1 {
@@ -119,7 +118,7 @@ div.explanation::after {
 }
 
 #block2 {
-    margin-left: 20px;
+    margin-left: 0px;
     width: 360px;
     margin-top: -60px;
 }
@@ -131,7 +130,7 @@ div.explanation::after {
     width: 241px;
     position: absolute;
     margin-top: -685px;
-    margin-left: 60px;
+    margin-left: 40px;
     line-height: 1em;
 }
 
@@ -202,6 +201,7 @@ div.participation h3 {
 
 #block4 {
     margin-top: -27px;
+    margin-left: -6px;
 }
 
 div.benefits {
@@ -210,7 +210,7 @@ div.benefits {
     width: 220px;
     font-size: 16px;
     margin-top: -300px;
-    margin-left: 70px;
+    margin-left: 64px;
     text-align: center;
 }
 
@@ -225,6 +225,7 @@ div.benefits h3 {
     display: block;
     position: absolute;
     margin-top: -329px;
+    margin-left: -6px;
 }
 
 /*div.requirements::before {
@@ -240,6 +241,7 @@ div.benefits h3 {
 #block5 {
     margin-top: -25px;
     margin-bottom: -110px;
+    margin-left: -10px;
 
 }
 
@@ -251,7 +253,7 @@ div.requirements {
     font-size: 17px;
     line-height: 1em;
     margin-top: -915px;
-    margin-left: 70px;
+    margin-left: 60px;
     text-align: justify;
 }
 
@@ -274,7 +276,7 @@ div.requirements h3 {
     width: 275px;
     position: absolute;
     margin-top: -900px;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 /*aside::before {
     color: white;
@@ -303,14 +305,14 @@ aside.sidebar {
     padding: 30px;
     color: white;
     line-height: 1.3em;
-    max-width: 300px;
+    max-width: 360px;
     background-image: url(https://janettekaymak.github.io/zen-garden/images2/bricks2.png);
     background-color: hsl(342, 100%, 25%, .7);
     background-position: center;
     background-size: contain;
     border-radius: 25px;
     margin-top: 24px;
-    margin-left: 20px;
+    margin-left: auto;
 
 }
 
@@ -336,7 +338,9 @@ aside.sidebar h3 {
 }
 
 aside.sidebar ul li {
+    font-size: 18px;
     font-family: sans-serif;
+    line-height: 1.4em;
 }
 p.zelda{
     width: 200px;
