@@ -53,7 +53,7 @@ h3 {
 }
 .preamble {
     font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
-    font-size: 17px;
+    font-size: 17.5px;
     color: white;
     width: 235px;
     text-align: justify;
@@ -127,7 +127,7 @@ div.explanation::after {
 .explanation {
     text-align: justify;
     font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
-    font-size: 17px;
+    font-size: 17.5px;
     width: 241px;
     position: absolute;
     margin-top: -685px;
@@ -173,12 +173,12 @@ div.participation {
     position: absolute;
     width: 280px;
     font-size: 16px;
-    margin-top: -505px;
+    margin-top: -500px;
     margin-left: 32px;
 }
 div.participation h3 {
     opacity: 1;
-    font-size: 30px;
+    font-size: 26px;
     line-height: 1em;
     font-family: 'Merienda', cursive;
 }
@@ -187,7 +187,7 @@ div.participation h3 {
     display: block;
     position: absolute;
     margin-left: 15px;
-    margin-top: -483px;
+    margin-top: -480px;
     width: 310px;
 }
 /*aside::after {
@@ -209,7 +209,7 @@ div.benefits {
     position: absolute;
     width: 220px;
     font-size: 16px;
-    margin-top: -305px;
+    margin-top: -300px;
     margin-left: 70px;
     text-align: center;
 }
@@ -217,7 +217,7 @@ div.benefits {
 div.benefits h3 {
     font-family: 'Merienda', cursive;
     opacity: 1;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 1em;
 }
 
@@ -240,24 +240,25 @@ div.benefits h3 {
 #block5 {
     margin-top: -25px;
     margin-bottom: -110px;
-    margin-left: 10px;
+
 }
 
 div.requirements {
-    color: rgb(238, 235, 235);
+    color: white;
     font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
     position: absolute;
     width: 255px;
-    font-size: 15.5px;
-    margin-top: -925px;
-    margin-left: 80px;
+    font-size: 17px;
+    line-height: 1em;
+    margin-top: -915px;
+    margin-left: 70px;
     text-align: justify;
 }
 
 div.requirements h3 {
     font-family: 'Merienda', cursive;
     opacity: 1;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 1em;
 }
 
@@ -273,7 +274,7 @@ div.requirements h3 {
     width: 275px;
     position: absolute;
     margin-top: -900px;
-    margin-left: 70px;
+    margin-left: 60px;
 }
 /*aside::before {
     color: white;
@@ -309,6 +310,7 @@ aside.sidebar {
     background-size: contain;
     border-radius: 25px;
     margin-top: 24px;
+    margin-left: 20px;
 
 }
 
