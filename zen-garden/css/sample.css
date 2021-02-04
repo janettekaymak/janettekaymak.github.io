@@ -340,6 +340,7 @@ aside.sidebar h3 {
 aside.sidebar ul li {
     font-size: 18px;
     font-family: sans-serif;
+    line-height: 1.4em;
 }
 p.zelda{
     width: 200px;
