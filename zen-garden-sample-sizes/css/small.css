@@ -1,0 +1,351 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+body {
+    background-color: darkseagreen;
+    background-image: url(https://janettekaymak.github.io/zen-garden/images2/grass2.png), linear-gradient(purple, rgb(123, 212, 247), white, lemonchiffon, darkseagreen, darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple);
+}
+
+div.page-wrapper {
+    max-width: 360px;
+}
+
+#banner {
+    max-width: 104%;
+}
+p.link {
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: center;
+}
+p.link:nth-child(2){
+    margin-bottom: 30px;
+}
+section h1, section h2{
+    display: block;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    line-height: .25em;
+    color: purple;
+   
+}
+section h1{
+    font-size: 42px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+section h2 {
+    font-size: 20px;
+}
+header::after{
+    content:"Click on each block to reveal a hidden message!";
+    font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+h3 {
+    font-family: 'Merienda' cursive;
+    margin-bottom: -10px;
+    text-align: center;
+}
+.preamble {
+    font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+    font-size: 17.5px;
+    color: white;
+    width: 235px;
+    text-align: justify;
+    position: absolute;
+    margin-top: -580px;
+    margin-left: 78px;
+    line-height: 1em;
+}
+
+p {
+    margin-bottom: -10px;
+}
+div.preamble h3 {
+    font-family: 'Merienda', cursive;
+    opacity: 1;
+    font-size: 25px;
+    line-height: 1.2em;
+}
+
+.preamble p:nth-child(4) {
+    width: 160px;
+    text-align: justify;
+    margin-left: 40px;
+}
+
+#block1 {
+    width: 360px;
+    margin-left: 0px;
+}
+
+#cover1 {
+    display: block;
+    width: 352px;
+    position: absolute;
+    margin-top: -615px;
+    margin-left: 20px;
+   
+}
+/*div.participation::after {
+    font-family: cursive;
+    position: absolute;
+    content: "The Road to";
+    color: white;
+    font-size: 30px;
+    margin: -1510px auto auto 70px;
+}
+div.explanation::after {
+    font-family: cursive;
+    position: absolute;
+    content: "Enlightenment";
+    color: white;
+    font-size: 30px;
+    margin: -997px auto auto 60px;
+}*/
+
+#cover1:hover,
+#cover2:hover,
+#cover3:hover,
+#cover4:hover,
+#cover5:hover {
+    opacity: 0;
+    transition: 1.5s;
+}
+
+#block2 {
+    margin-left: 20px;
+    width: 360px;
+    margin-top: -60px;
+}
+
+.explanation {
+    text-align: justify;
+    font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+    font-size: 17.5px;
+    width: 241px;
+    position: absolute;
+    margin-top: -685px;
+    margin-left: 60px;
+    line-height: 1em;
+}
+
+.explanation p:nth-child(3) {
+    width: 160px;
+}
+
+div.explanation h3 {
+    font-family: 'Merienda', cursive;
+    opacity: 1;
+    font-size: 21px;
+    line-height: 1em;
+}
+
+#cover2 {
+    display: block;
+    width: 297px;
+    margin-top: -480px;
+    margin-left: -22px;
+}
+
+/*div.requirements::after {
+    font-family: cursive;
+    position: absolute;
+    content: "So What is This About?";
+    color: black;
+    font-size: 24px;
+    margin-top: -2217px;
+    margin-left: -22px;
+}*/
+
+#block3 {
+    margin-top: -176px;
+    margin-left: -10px;
+}
+
+div.participation {
+    font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+    position: absolute;
+    width: 280px;
+    font-size: 16px;
+    margin-top: -500px;
+    margin-left: 32px;
+}
+div.participation h3 {
+    opacity: 1;
+    font-size: 26px;
+    line-height: 1em;
+    font-family: 'Merienda', cursive;
+}
+
+#cover3 {
+    display: block;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -480px;
+    width: 310px;
+}
+/*aside::after {
+    color: rgb(1, 56, 1);
+    font-family: cursive;
+    position: absolute;
+    content: "Participation";
+    font-size: 34px;
+    margin-top: -2310px;
+    margin-left: 67px;
+}*/
+
+#block4 {
+    margin-top: -27px;
+}
+
+div.benefits {
+    font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+    position: absolute;
+    width: 220px;
+    font-size: 16px;
+    margin-top: -300px;
+    margin-left: 70px;
+    text-align: center;
+}
+
+div.benefits h3 {
+    font-family: 'Merienda', cursive;
+    opacity: 1;
+    font-size: 30px;
+    line-height: 1em;
+}
+
+#cover4 {
+    display: block;
+    position: absolute;
+    margin-top: -329px;
+}
+
+/*div.requirements::before {
+    color: black;
+    font-family: cursive;
+    position: absolute;
+    content: "Benefits";
+    font-size: 35px;
+    margin-top: -285px;
+    margin-left: 55px;
+}*/
+
+#block5 {
+    margin-top: -25px;
+    margin-bottom: -110px;
+
+}
+
+div.requirements {
+    color: white;
+    font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+    position: absolute;
+    width: 255px;
+    font-size: 17px;
+    line-height: 1em;
+    margin-top: -915px;
+    margin-left: 70px;
+    text-align: justify;
+}
+
+div.requirements h3 {
+    font-family: 'Merienda', cursive;
+    opacity: 1;
+    font-size: 25px;
+    line-height: 1em;
+}
+
+.requirements p:nth-child(5),
+.requirements p:nth-child(6) {
+    width: 175px;
+    margin-left: 90px;
+    text-align: left;
+}
+
+#cover5 {
+    display: block;
+    width: 275px;
+    position: absolute;
+    margin-top: -900px;
+    margin-left: 60px;
+}
+/*aside::before {
+    color: white;
+    font-family: cursive;
+    position: absolute;
+    content: "Requirements";
+    font-size: 30px;
+    margin-top: -945px;
+    margin-left: 85px;
+}*/
+
+button {
+    color: purple;
+    background-color: rgb(188, 218, 23);
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: purple solid 2px;
+    font-family: sans-serif;
+}
+
+/*The following images were obtained free from Klipartz,
+then it was changed so as not to mimic Zelda #dude and #tilt-dude, #zelda, #wave */
+
+aside.sidebar {
+    padding: 30px;
+    color: white;
+    line-height: 1.3em;
+    max-width: 300px;
+    background-image: url(https://janettekaymak.github.io/zen-garden/images2/bricks2.png);
+    background-color: hsl(342, 100%, 25%, .7);
+    background-position: center;
+    background-size: contain;
+    border-radius: 25px;
+    margin-top: 24px;
+    margin-left: 20px;
+
+}
+
+aside.sidebar a:link,
+aside.sidebar a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+aside.sidebar a:hover {
+    color: purple;
+    text-shadow: white 1px 1px 1px;
+}
+
+aside.sidebar h3 {
+    font-family: 'Merienda', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: purple;
+    background-color: rgb(248, 248, 255, .5);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+aside.sidebar ul li {
+    font-family: sans-serif;
+}
+p.zelda{
+    width: 200px;
+    margin-top: 6px;
+    margin-left: 120px;      
+}
+p.zelda:nth-child(1){
+    margin: 20px auto -10px 100px;
+}
+p.zelda:nth-child(3){
+    margin-bottom: 50px;
+}
