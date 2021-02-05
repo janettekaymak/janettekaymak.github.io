@@ -17,6 +17,7 @@
     #banner {
         display: block;
         margin: auto;
+        max-width: 100%;
     }
 
     .page-wrapper {
