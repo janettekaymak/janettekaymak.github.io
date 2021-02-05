@@ -3,14 +3,14 @@
     #dragon{
         display: inline;
         position:absolute;
-        margin: -20px auto auto 75%;
+        margin: -10px auto auto 58%;
         width: 300px; 
        
     }
     #dragonright{
         display: inline;
         position:absolute;
-        margin: -20px 75% auto auto;
+        margin: -10px auto auto 3%;
         width: 300px; 
        
     }
@@ -146,5 +146,29 @@
 
     p.zelda:nth-child(1) {
         margin-top: 30px;
+    }
+}
+@media screen and (min-width: 950px){
+    #dragon{
+        margin: -10px 0 0 67%;
+        width: 380px; 
+       
+    }
+    #dragonright{
+        margin: -10px auto auto auto;
+        width: 380px; 
+       
+    }
+}
+@media screen and (min-width: 1200px){
+    #dragon{
+        margin: -10px 0 0 71%;
+       
+    }
+}
+@media screen and (min-width: 1500px){
+    #dragon{
+        margin: -10px 0 0 81%;
+       
     }
 }
