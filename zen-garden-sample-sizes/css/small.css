@@ -9,6 +9,13 @@ body {
 div.page-wrapper {
     max-width: 360px;
 }
+#dragon{
+    display:none;
+    position:absolute;
+    margin: -20px auto auto 75%;;
+    width: 400px; 
+   
+}
 
 #banner {
     max-width: 100%;
