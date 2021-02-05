@@ -1,149 +1,66 @@
-body {
-    display: block;
-    background-color: darkseagreen;
-    background-image: url("images/grass.png"), linear-gradient(purple, rgb(123, 212, 247), white, lemonchiffon, darkseagreen, darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple);
-   
-    margin: auto;
-}
+@media screen and (min-width: 730px) {
 
 #banner {
     display: block;
     margin: auto;
-    max-width: 100%;
 }
 
 .page-wrapper {
-    max-width: 850px;
-    margin: auto;
-}
-
-section h1,
-section h2 {
     display: block;
-    font-family: cursive;
-    line-height: 1.25em;
-    color: purple;
-
+    margin: auto;
+    min-width: 850px;
 }
 
 section h1 {
-    margin: -300px auto auto 50px;
-    font-size: 50px;
+   margin-top: -260px;
+   margin-left: 50px;
+   text-align: left;
 }
 
 section h2 {
-    margin: 0px auto auto 110px;
-    font-size: 20px;
+    text-align: left;
+    margin-left: 100px;
+}
+header::after{
+    margin-left: 80px;
 }
 
 p.link {
-    margin-left: 500px;
+    margin-left: 340px;
+    margin-top: 10px;
 
 }
 p.link:nth-child(2){
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
-#under {
+#block1 {
     width: 360px;
     margin-top: 10px;
-    margin-left: 28px;
-}
-
-div.preamble h3 {
-    font-size: 18px;
-    margin-bottom: 30px;
+    margin-left: 5px;
 }
 
 .preamble {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    width: 225px;
-    text-align: justify;
-    position: absolute;
-    margin-top: -599px;
+    margin-top: -580px;
     margin-bottom: -250px;
-    margin-left: 110px;
-    line-height: 1em;
+    margin-left: 82px;
 }
 
-p {
-    margin-bottom: -10px;
-}
-
-h3 {
-    font-family: cursive;
-    text-align: center;
-}
-
-.preamble p:nth-child(4) {
-    width: 150px;
-    text-align: justify;
-    margin-left: 40px;
-}
-
-#cover {
-    width: 352px;
-    position: absolute;
-    margin-top: 28px;
-    margin-left: -340px;
-}
-
-/*div.participation::after {
-    font-family: cursive;
-    position: absolute;
-    content: "The Road to Enlightenment";
-    color: white;
-    font-size: 18px;
-    margin: -938px auto auto 50px;
-}
-
-/*div.explanation::after {
-    font-family: cursive;
-    position: absolute;
-    content: "Enlightenment";
-    color: white;
-    font-size: 30px;
-    margin: -628px auto auto -300px;
-}*/
-
-#cover:hover,
-#cover2:hover,
-#cover3:hover,
-#cover4:hover,
-#cover5:hover {
-    opacity: 0;
-    transition: 1.5s;
+#cover1 {
+    margin-top: -615px;
+    margin-left: 25px;
 }
 
 #block2 {
-    margin-left: 405px;
+    margin-left: 410px;
     width: 360px;
-    margin-top: -435px;
-}
-/*header::after{
-    content:"Click on each block to reveal a hidden message!";
-    font-family: sans-serif;
-    font-size: 16px;
-    margin-left: 45px;
-    color: purple;
-}*/
-div.explanation h3 {
-    color: white;
-    font-size: 18px;
-    margin-bottom: 30px;
+    margin-top: -460px;
 }
 
 .explanation {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-    font-size: 15.5px;
-    width: 235px;
-    position: absolute;
-    margin-top: -715px;
+    margin-top: -685px;
     margin-bottom: -250px;
-    margin-left: 445px;
-    line-height: 1em;
+    margin-left: 450px;
 }
 
 .explanation p:nth-child(3) {
@@ -151,24 +68,13 @@ div.explanation h3 {
 }
 
 #cover2 {
-    opacity: 1;
     width: 297px;
     margin-top: -480px;
-    margin-left: -22px;
+    margin-left: -23px;
 }
 
-/*div.requirements::after {
-    font-family: cursive;
-    position: absolute;
-    content: "So What is This About?";
-    color: black;
-    font-size: 18px;
-    margin-top: -1685px;
-    margin-left: 5px;
-}*/
-
 #block3 {
-    margin-top: -352px;
+    margin-top: -302px;
     margin-left: 35px;
 }
 
@@ -177,37 +83,21 @@ div.participation {
     position: absolute;
     width: 280px;
     font-size: 15px;
-    margin-top: -525px;
+    margin-top: -500px;
     margin-left: 75px;
     text-align: justify;
 }
-
-div.participation h3 {
-    font-size: 18px;
-  
-}
-
-/*aside::after {
-    color: black;
-    font-family: cursive;
-    position: absolute;
-    content: "Participation";
-    font-size: 18px;
-    margin-top: -1078px;
-    margin-left: 100px;
-}*/
-
 #cover3 {
     position: absolute;
-    margin-left: -335px;
-    margin-top: -314px;
+    margin-left: 57px;
+    margin-top: -483px;
     width: 312px;
 }
 
 #block4 {
     position: absolute;
-    margin-top: -330px;
-    margin-left: 395px;
+    margin-top: -380px;
+    margin-left: 399px;
 }
 
 div.benefits {
@@ -215,40 +105,21 @@ div.benefits {
     position: absolute;
     width: 210px;
     font-size: 16px;
-    margin-top: -317px;
-    margin-left: 475px;
+    margin-top: -335px;
+    margin-left: 479px;
     text-align: center;
     line-height: 1em;
 }
 
-div.benefits h3 {
-    color: white;
-    font-size: 18px;
-    margin-bottom: 35px;
-    margin-left: 20px;
-}
-
-/*div.requirements::before {
-    color: black;
-    font-family: cursive;
-    position: absolute;
-    content: "Benefits";
-    font-size: 18px;
-    margin-top: -260px;
-    margin-left: 85px;
-}*/
-
 #cover4 {
-    opacity: 1;
     position: absolute;
-    margin-top: -317px;
-    margin-left: 395px;
+    margin-top: -366px;
+    margin-left: 397px;
 }
 
 #block5 {
     margin-top: 10px;
-    margin-bottom: -110px;
-    margin-left: 390px;
+    margin-left: 360px;
 }
 
 div.requirements {
@@ -257,26 +128,11 @@ div.requirements {
     position: absolute;
     width: 255px;
     font-size: 15.7px;
-    margin-top: -935px;
-    margin-left: 460px;
+    margin-top: -920px;
+    margin-left: 430px;
     text-align: justify;
     line-height: 1em;
 }
-
-div.requirements h3 {
-    color:white;
-    font-size: 18px;
-}
-
-/*aside::before {
-    color: white;
-    font-family: cursive;
-    position: absolute;
-    content: "Requirements";
-    font-size: 18px;
-    margin-top: -35px;
-    margin-left: 475px;
-}*/
 
 .requirements p:nth-child(5),
 .requirements p:nth-child(6) {
@@ -289,7 +145,7 @@ div.requirements h3 {
     width: 273px;
     position: absolute;
     margin-top: -898px;
-    margin-left: 450px;
+    margin-left: 420px;
 }
 
 button {
@@ -302,51 +158,16 @@ button {
     font-family: sans-serif;
 }
 
-/*The following images were obtained free from Klipartz,
-then it was changed so as not to mimic Zelda #dude and #tilt-dude, #zelda, #wave */
-
 aside.sidebar {
-    padding: 30px;
-    color: white;
-    line-height: 1.3em;
-    max-width: 300px;
-    background-image: url(images/bricks.png);
-    background-color: hsl(342, 100%, 25%, .7);
-    background-position: center;
-    background-size: contain;
-    border-radius: 25px;
-    margin-top: -957px;
+    max-width: 260px;
+    margin-top: -925px;
     margin-left: 30px;
 }
-
-aside.sidebar a:link,
-aside.sidebar a:visited {
-    color: white;
-    text-decoration: none;
-}
-
-aside.sidebar a:hover {
-    color: purple;
-    text-shadow: white 1px 1px 1px;
-}
-
-aside.sidebar h3 {
-    font-size: 30px;
-    text-align: center;
-    color: purple;
-    background-color: rgb(248, 248, 255, .5);
-    padding: 5px;
-    border-radius: 5px;
-}
-
-aside.sidebar ul li {
-    font-family: sans-serif;
-}
 p.zelda {
-    margin-top: 10px;
-    margin-left: -400px;
-    text-align: center;
+   
+   
 }
 p.zelda:nth-child(1){
     margin-top: 30px;
+}
 }

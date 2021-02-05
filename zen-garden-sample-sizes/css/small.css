@@ -12,15 +12,16 @@ div.page-wrapper {
 }
 
 #banner {
-    max-width: 104%;
+    max-width: 100%;
 }
 p.link {
-    margin-top: 10px;
+    margin-top: 0px;
     margin-left: 20px;
     text-align: center;
 }
 p.link:nth-child(2){
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: -90px;
 }
 section h1, section h2{
     display: block;
@@ -32,7 +33,7 @@ section h1, section h2{
 }
 section h1{
     font-size: 42px;
-    margin-top: 20px;
+    margin-top: 120px;
     margin-bottom: 35px;
 }
 
@@ -92,22 +93,6 @@ div.preamble h3 {
     margin-left: 20px;
    
 }
-/*div.participation::after {
-    font-family: cursive;
-    position: absolute;
-    content: "The Road to";
-    color: white;
-    font-size: 30px;
-    margin: -1510px auto auto 70px;
-}
-div.explanation::after {
-    font-family: cursive;
-    position: absolute;
-    content: "Enlightenment";
-    color: white;
-    font-size: 30px;
-    margin: -997px auto auto 60px;
-}*/
 
 #cover1:hover,
 #cover2:hover,
@@ -153,16 +138,6 @@ div.explanation h3 {
     margin-left: -22px;
 }
 
-/*div.requirements::after {
-    font-family: cursive;
-    position: absolute;
-    content: "So What is This About?";
-    color: black;
-    font-size: 24px;
-    margin-top: -2217px;
-    margin-left: -22px;
-}*/
-
 #block3 {
     margin-top: -176px;
     margin-left: -10px;
@@ -190,15 +165,6 @@ div.participation h3 {
     margin-top: -480px;
     width: 310px;
 }
-/*aside::after {
-    color: rgb(1, 56, 1);
-    font-family: cursive;
-    position: absolute;
-    content: "Participation";
-    font-size: 34px;
-    margin-top: -2310px;
-    margin-left: 67px;
-}*/
 
 #block4 {
     margin-top: -27px;
@@ -226,16 +192,6 @@ div.benefits h3 {
     position: absolute;
     margin-top: -329px;
 }
-
-/*div.requirements::before {
-    color: black;
-    font-family: cursive;
-    position: absolute;
-    content: "Benefits";
-    font-size: 35px;
-    margin-top: -285px;
-    margin-left: 55px;
-}*/
 
 #block5 {
     margin-top: -25px;
@@ -276,15 +232,6 @@ div.requirements h3 {
     margin-top: -900px;
     margin-left: 60px;
 }
-/*aside::before {
-    color: white;
-    font-family: cursive;
-    position: absolute;
-    content: "Requirements";
-    font-size: 30px;
-    margin-top: -945px;
-    margin-left: 85px;
-}*/
 
 button {
     color: purple;
