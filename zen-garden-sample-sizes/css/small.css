@@ -313,6 +313,7 @@ p.zelda:nth-child(3) {
 }
 
 #dragon {
+    display: none;
     opacity: .7;
     position: absolute;
     width: 690px;
