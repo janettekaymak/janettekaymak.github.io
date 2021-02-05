@@ -311,12 +311,3 @@ p.zelda:nth-child(1) {
 p.zelda:nth-child(3) {
     margin-bottom: 50px;
 }
-
-#dragon {
-    display: none;
-    opacity: .7;
-    position: absolute;
-    width: 690px;
-    margin-left: 855px;
-    margin-top: -2335px;
-}
