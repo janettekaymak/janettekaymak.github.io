@@ -14,7 +14,9 @@ div.page-wrapper {
 }
 
 #banner {
-    max-width: 100%;
+    max-width: 110%;
+    margin-top: -8px;
+    margin-left: -8px;
 }
 
 p.link {
