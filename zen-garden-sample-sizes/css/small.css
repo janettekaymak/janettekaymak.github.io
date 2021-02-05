@@ -293,6 +293,9 @@ aside.sidebar h3 {
 aside.sidebar ul li {
     font-family: sans-serif;
 }
+#dog{
+    width: 150px;
+}
 
 p.zelda {
     width: 200px;
