@@ -128,11 +128,10 @@
     }
 
     div.requirements {
-        color: rgb(238, 235, 235);
-        font-family: Arial, Helvetica, sans-serif;
+        color: white;
         position: absolute;
         width: 255px;
-        font-size: 15.7px;
+        font-size: 17px;
         margin-top: -920px;
         margin-left: 430px;
         text-align: justify;
