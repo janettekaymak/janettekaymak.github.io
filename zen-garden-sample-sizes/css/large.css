@@ -1,175 +1,177 @@
 @media screen and (min-width: 730px) {
 
-#banner {
-    display: block;
-    margin: auto;
-}
+    #banner {
+        display: block;
+        margin: auto;
+    }
 
-.page-wrapper {
-    display: block;
-    margin: auto;
-    min-width: 850px;
-}
+    .page-wrapper {
+        display: block;
+        margin: auto;
+        min-width: 850px;
+    }
 
-section h1 {
-   margin-top: -260px;
-   margin-left: 7px;
-   text-align: left;
-}
+    section h1 {
+        margin-top: -260px;
+        margin-left: 7px;
+        text-align: left;
+    }
 
-section h2 {
-    text-align: left;
-    margin-left: 85px;
-  
-}
-header::after{
-    margin-left: 80px;
-    font-size: 16px;
-}
+    section h2 {
+        text-align: left;
+        margin-left: 85px;
 
-p.link {
-    margin-left: 160px;
-    margin-top: 10px;
+    }
 
-}
-p.link:nth-child(2){
-    margin-bottom: 0px;
-}
+    header::after {
+        margin-left: 80px;
+        font-size: 16px;
+    }
 
-#block1 {
-    width: 360px;
-    margin-top: 10px;
-    margin-left: 5px;
-}
+    p.link {
+        margin-left: 160px;
+        margin-top: 10px;
 
-.preamble {
-    margin-top: -580px;
-    margin-bottom: -250px;
-    margin-left: 82px;
-}
+    }
 
-#cover1 {
-    margin-top: -615px;
-    margin-left: 25px;
-}
+    p.link:nth-child(2) {
+        margin-bottom: 0px;
+    }
 
-#block2 {
-    margin-left: 410px;
-    width: 360px;
-    margin-top: -460px;
-}
+    #block1 {
+        width: 360px;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
 
-.explanation {
-    margin-top: -685px;
-    margin-bottom: -250px;
-    margin-left: 450px;
-}
+    .preamble {
+        margin-top: -580px;
+        margin-bottom: -250px;
+        margin-left: 82px;
+    }
 
-.explanation p:nth-child(3) {
-    width: 160px;
-}
+    #cover1 {
+        margin-top: -615px;
+        margin-left: 25px;
+    }
 
-#cover2 {
-    width: 297px;
-    margin-top: -480px;
-    margin-left: -23px;
-}
+    #block2 {
+        margin-left: 410px;
+        width: 360px;
+        margin-top: -460px;
+    }
 
-#block3 {
-    margin-top: -302px;
-    margin-left: 35px;
-}
+    .explanation {
+        margin-top: -685px;
+        margin-bottom: -250px;
+        margin-left: 450px;
+    }
 
-div.participation {
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    width: 280px;
-    font-size: 15px;
-    margin-top: -500px;
-    margin-left: 75px;
-    text-align: justify;
-}
-#cover3 {
-    position: absolute;
-    margin-left: 57px;
-    margin-top: -483px;
-    width: 312px;
-}
+    .explanation p:nth-child(3) {
+        width: 160px;
+    }
 
-#block4 {
-    position: absolute;
-    margin-top: -380px;
-    margin-left: 399px;
-}
+    #cover2 {
+        width: 297px;
+        margin-top: -480px;
+        margin-left: -23px;
+    }
 
-div.benefits {
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    width: 210px;
-    font-size: 16px;
-    margin-top: -335px;
-    margin-left: 479px;
-    text-align: center;
-    line-height: 1em;
-}
+    #block3 {
+        margin-top: -302px;
+        margin-left: 35px;
+    }
 
-#cover4 {
-    position: absolute;
-    margin-top: -366px;
-    margin-left: 397px;
-}
+    div.participation {
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        width: 280px;
+        font-size: 15px;
+        margin-top: -500px;
+        margin-left: 75px;
+        text-align: justify;
+    }
 
-#block5 {
-    margin-top: 10px;
-    margin-left: 360px;
-}
+    #cover3 {
+        position: absolute;
+        margin-left: 57px;
+        margin-top: -483px;
+        width: 312px;
+    }
 
-div.requirements {
-    color: rgb(238, 235, 235);
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    width: 255px;
-    font-size: 15.7px;
-    margin-top: -920px;
-    margin-left: 430px;
-    text-align: justify;
-    line-height: 1em;
-}
+    #block4 {
+        position: absolute;
+        margin-top: -380px;
+        margin-left: 399px;
+    }
 
-.requirements p:nth-child(5),
-.requirements p:nth-child(6) {
-    width: 175px;
-    margin-left: 98px;
-    text-align: left;
-}
+    div.benefits {
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        width: 210px;
+        font-size: 16px;
+        margin-top: -335px;
+        margin-left: 479px;
+        text-align: center;
+        line-height: 1em;
+    }
 
-#cover5 {
-    width: 273px;
-    position: absolute;
-    margin-top: -898px;
-    margin-left: 420px;
-}
+    #cover4 {
+        position: absolute;
+        margin-top: -366px;
+        margin-left: 397px;
+    }
 
-button {
-    color: purple;
-    background-color: rgb(188, 218, 23);
-    font-size: 18px;
-    padding: 5px;
-    border-radius: 5px;
-    border: purple solid 2px;
-    font-family: sans-serif;
-}
+    #block5 {
+        margin-top: 10px;
+        margin-left: 360px;
+    }
 
-aside.sidebar {
-    max-width: 260px;
-    margin-top: -925px;
-    margin-left: 30px;
-}
-p.zelda {
-   
-   
-}
-p.zelda:nth-child(1){
-    margin-top: 30px;
-}
+    div.requirements {
+        color: rgb(238, 235, 235);
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        width: 255px;
+        font-size: 15.7px;
+        margin-top: -920px;
+        margin-left: 430px;
+        text-align: justify;
+        line-height: 1em;
+    }
+
+    .requirements p:nth-child(5),
+    .requirements p:nth-child(6) {
+        width: 175px;
+        margin-left: 98px;
+        text-align: left;
+    }
+
+    #cover5 {
+        width: 273px;
+        position: absolute;
+        margin-top: -898px;
+        margin-left: 420px;
+    }
+
+    button {
+        color: purple;
+        background-color: rgb(188, 218, 23);
+        font-size: 18px;
+        padding: 5px;
+        border-radius: 5px;
+        border: purple solid 2px;
+        font-family: sans-serif;
+    }
+
+    aside.sidebar {
+        max-width: 260px;
+        margin-top: -925px;
+        margin-left: 30px;
+    }
+
+    p.zelda {}
+
+    p.zelda:nth-child(1) {
+        margin-top: 30px;
+    }
 }
