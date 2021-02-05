@@ -13,20 +13,22 @@
 
 section h1 {
    margin-top: -260px;
-   margin-left: 50px;
+   margin-left: 10px;
    text-align: left;
 }
 
 section h2 {
     text-align: left;
-    margin-left: 100px;
+    margin-left: 85px;
+  
 }
 header::after{
     margin-left: 80px;
+    font-size: 16px;
 }
 
 p.link {
-    margin-left: 340px;
+    margin-left: 160px;
     margin-top: 10px;
 
 }
