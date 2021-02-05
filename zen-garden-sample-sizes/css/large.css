@@ -119,8 +119,6 @@
         line-height: 1em;
     }
 
-  
-
     #cover5 {
         margin-top: -898px;
         margin-left: 420px;
@@ -131,8 +129,6 @@
         margin-top: -925px;
         margin-left: 30px;
     }
-
-    p.zelda {}
 
     p.zelda:nth-child(1) {
         margin-top: 30px;
