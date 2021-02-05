@@ -309,9 +309,9 @@ p.zelda:nth-child(3) {
 }
 
 #dragon {
-    padding: 0 0 0 70px;
+    opacity: .7;
     position: absolute;
-    width: 300px;
-    margin-left: 825px;
-    margin-top: -2230px;
+    width: 690px;
+    margin-left: 855px;
+    margin-top: -2335px;
 }
