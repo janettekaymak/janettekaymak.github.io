@@ -18,7 +18,7 @@ div.page-wrapper {
 #dragonleft {
     display: inline;
     position: absolute;
-    width: 80px;
+    width: 140px;
 }
 
 #dragonright {
@@ -28,30 +28,30 @@ div.page-wrapper {
 }
 
 #dragonleft {
-    animation: myfirst 7s linear 1s infinite alternate;
+    animation: myfirst 8s linear 1s infinite alternate;
 }
 
 @keyframes myfirst {
     0% {
-        left: 120%
+        left:120%; top:0px;
     }
 
     100% {
-        left: -500px
+        left:-500px; top:0px;
     }
 }
 
 #dragonright {
-    animation: myfirst 5s linear 1s infinite alternate;
+    animation: mysecond 4s linear 1s infinite alternate;
 }
 
-@keyframes myfirst {
+@keyframes mysecond {
     0% {
-        left: -500px;
+        left:-500px; top:0px;
     }
 
     100% {
-        left: 120%;
+        left:120%; top:0px;
     }
 }
 
