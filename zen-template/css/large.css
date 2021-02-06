@@ -1,22 +1,24 @@
 @media screen and (min-width: 730px) {
 
-    #dragon {
-        display: inline;
+    #dragonright {
+        /*display: inline;
         position: absolute;
-        margin: -10px auto auto 58%;
+        margin: -10px auto auto 58%;*/
         width: 300px;
     }
 
-    #dragonright {
-        display: inline;
+    #dragonleft {
+        /*display: inline;
         position: absolute;
-        margin: -10px auto auto 3%;
+        margin: -10px auto auto 3%;*/
         width: 300px;
     }
 
     #banner {
         display: block;
         margin: auto;
+        max-width: 100%;
+        margin-top: -8px;
     }
 
     .page-wrapper {
@@ -148,25 +150,25 @@
 }
 
 @media screen and (min-width: 950px) {
-    #dragon {
-        margin: -10px 0 0 67%;
+    #dragonright {
+        /*margin: -10px 0 0 67%;*/
         width: 380px;
     }
 
-    #dragonright {
-        margin: -10px auto auto auto;
+    #dragonleft {
+        /*margin: -10px auto auto auto;*/
         width: 380px;
     }
 }
 
-@media screen and (min-width: 1200px) {
-    #dragon {
+/*@media screen and (min-width: 1200px) {
+    #dragonright {
         margin: -10px 0 0 71%;
     }
 }
 
 @media screen and (min-width: 1500px) {
-    #dragon {
+    #dragonright {
         margin: -10px 0 0 81%;
     }
-}
+}*/

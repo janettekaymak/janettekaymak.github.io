@@ -10,10 +10,33 @@ div.page-wrapper {
     max-width: 360px;
 }
 
-#dragon,
-#dragonright {
+/*#dragonright
+#dragonleft {
     display: none;
+}*/
+
+#dragonleft, #dragonright {
+    display: inline;
+    position: absolute;
+    width: 140px;
 }
+#dragonleft {
+    animation: myfirst 7s linear 1s infinite alternate;
+  }
+  
+  @keyframes myfirst {
+    0%   {left:120%}
+    100%  {left:-500px}
+  }
+
+  #dragonright {
+    animation: myfirst 5s linear 1s infinite alternate;
+  }
+  
+  @keyframes myfirst {
+    0%   {left:120%; top: 0px;}
+    100% {left:-500px; top: 0px;}
+  }
 
 #banner {
     max-width: 110%;
@@ -83,7 +106,6 @@ p {
 
 div.preamble h3 {
     font-family: 'Merienda', cursive;
-    opacity: 1;
     font-size: 25px;
     line-height: 1.2em;
 }
