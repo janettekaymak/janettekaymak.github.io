@@ -47,13 +47,11 @@ div.page-wrapper {
 
 @keyframes myfirst {
     0% {
-        left: 120%;
-        top: 0px;
+        left: -500px;
     }
 
     100% {
-        left: -500px;
-        top: 0px;
+        left: 120%;
     }
 }
 
