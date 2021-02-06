@@ -1,0 +1,288 @@
+/*** uncss> filename: https://janettekaymak.github.io/zen-desktop/desktop.css ***/
+body {
+display: block;
+background-color: darkseagreen;
+background-image: url("images/grass.png"), linear-gradient(purple, rgb(123, 212, 247), white, lemonchiffon, darkseagreen, darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple);
+margin: auto;
+}
+
+#banner {
+display: block;
+margin: auto;
+max-width: 100%;
+}
+
+.page-wrapper {
+max-width: 850px;
+margin: auto;
+}
+
+section h1,
+section h2 {
+display: block;
+font-family: cursive;
+line-height: 1.25em;
+color: purple;
+}
+
+section h1 {
+margin: -300px auto auto 50px;
+font-size: 50px;
+}
+
+section h2 {
+margin: 0 auto auto 110px;
+font-size: 20px;
+}
+
+p.link {
+margin-left: 500px;
+}
+
+p.link:nth-child(2) {
+margin-bottom: 20px;
+}
+
+#under {
+width: 360px;
+margin-top: 10px;
+margin-left: 28px;
+}
+
+p {
+margin-bottom: -10px;
+}
+
+h3 {
+font-family: cursive;
+text-align: center;
+}
+
+div.preamble h3 {
+font-size: 18px;
+margin-bottom: 30px;
+}
+
+.preamble {
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+width: 225px;
+text-align: justify;
+position: absolute;
+margin-top: -599px;
+margin-bottom: -250px;
+margin-left: 110px;
+line-height: 1em;
+}
+
+.preamble p:nth-child(4) {
+width: 150px;
+text-align: justify;
+margin-left: 40px;
+}
+
+#cover {
+width: 352px;
+position: absolute;
+margin-top: 28px;
+margin-left: -340px;
+}
+
+#block2 {
+margin-left: 405px;
+width: 360px;
+margin-top: -435px;
+}
+
+div.explanation h3 {
+color: white;
+font-size: 18px;
+margin-bottom: 30px;
+}
+
+.explanation {
+font-family: Arial, Helvetica, sans-serif;
+text-align: justify;
+font-size: 15.5px;
+width: 235px;
+position: absolute;
+margin-top: -715px;
+margin-bottom: -250px;
+margin-left: 445px;
+line-height: 1em;
+}
+
+.explanation p:nth-child(3) {
+width: 160px;
+}
+
+#cover2 {
+opacity: 1;
+width: 297px;
+margin-top: -480px;
+margin-left: -22px;
+}
+
+#block3 {
+margin-top: -352px;
+margin-left: 35px;
+}
+
+div.participation {
+font-family: Arial, Helvetica, sans-serif;
+position: absolute;
+width: 280px;
+font-size: 15px;
+margin-top: -525px;
+margin-left: 75px;
+text-align: justify;
+}
+
+div.participation h3 {
+font-size: 18px;
+}
+
+#cover3 {
+position: absolute;
+margin-left: -335px;
+margin-top: -314px;
+width: 312px;
+}
+
+#block4 {
+position: absolute;
+margin-top: -330px;
+margin-left: 395px;
+}
+
+div.benefits {
+font-family: Arial, Helvetica, sans-serif;
+position: absolute;
+width: 210px;
+font-size: 16px;
+margin-top: -317px;
+margin-left: 475px;
+text-align: center;
+line-height: 1em;
+}
+
+div.benefits h3 {
+color: white;
+font-size: 18px;
+margin-bottom: 35px;
+margin-left: 20px;
+}
+
+#cover4 {
+opacity: 1;
+position: absolute;
+margin-top: -317px;
+margin-left: 395px;
+}
+
+#block5 {
+margin-top: 10px;
+margin-bottom: -110px;
+margin-left: 390px;
+}
+
+div.requirements {
+color: rgb(238, 235, 235);
+font-family: Arial, Helvetica, sans-serif;
+position: absolute;
+width: 255px;
+font-size: 15.7px;
+margin-top: -935px;
+margin-left: 460px;
+text-align: justify;
+line-height: 1em;
+}
+
+div.requirements h3 {
+color: white;
+font-size: 18px;
+}
+
+.requirements p:nth-child(5),
+.requirements p:nth-child(6) {
+width: 175px;
+margin-left: 98px;
+text-align: left;
+}
+
+#cover5 {
+width: 273px;
+position: absolute;
+margin-top: -898px;
+margin-left: 450px;
+}
+
+#cover:hover,
+#cover2:hover,
+#cover3:hover,
+#cover4:hover,
+#cover5:hover {
+opacity: 0;
+transition: 1.5s;
+}
+
+button {
+color: purple;
+background-color: rgb(188, 218, 23);
+font-size: 18px;
+padding: 5px;
+border-radius: 5px;
+border: purple solid 2px;
+font-family: sans-serif;
+}
+
+/* The following images were obtained free from Klipartz,
+then it was changed so as not to mimic Zelda #dude and #tilt-dude, #zelda, #wave */
+
+aside.sidebar {
+padding: 30px;
+color: white;
+line-height: 1.3em;
+max-width: 300px;
+background-image: url(images/bricks.png);
+background-color: hsl(342, 100%, 25%, 0.7);
+background-position: center;
+background-size: contain;
+border-radius: 25px;
+margin-top: -957px;
+margin-left: 30px;
+}
+
+aside.sidebar a:link,
+aside.sidebar a:visited {
+color: white;
+text-decoration: none;
+}
+
+aside.sidebar a:hover {
+color: purple;
+text-shadow: white 1px 1px 1px;
+}
+
+aside.sidebar h3 {
+font-size: 30px;
+text-align: center;
+color: purple;
+background-color: rgb(248, 248, 255, 0.5);
+padding: 5px;
+border-radius: 5px;
+}
+
+aside.sidebar ul li {
+font-family: sans-serif;
+}
+
+p.zelda {
+margin-top: 10px;
+margin-left: -400px;
+text-align: center;
+}
+
+p.zelda:nth-child(1) {
+margin-top: 30px;
+}
