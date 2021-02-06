@@ -1,9 +1,8 @@
 body {
-    display: block;
-    background-color: darkseagreen;
-    background-image: url("images/grass.png"), linear-gradient(purple, rgb(123, 212, 247), white, lemonchiffon, darkseagreen, darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple);
-   
-    margin: auto;
+      display: block;
+      background-color: darkseagreen;
+      background-image: url("images/grass.png"), linear-gradient(purple, rgb(123, 212, 247), white, lemonchiffon, darkseagreen, darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple);
+      margin: auto;
 }
 
 #banner {
@@ -23,7 +22,6 @@ section h2 {
     font-family: cursive;
     line-height: 1.25em;
     color: purple;
-
 }
 
 section h1 {
@@ -38,9 +36,9 @@ section h2 {
 
 p.link {
     margin-left: 500px;
-
 }
-p.link:nth-child(2){
+
+p.link:nth-child(2) {
     margin-bottom: 20px;
 }
 
@@ -48,6 +46,15 @@ p.link:nth-child(2){
     width: 360px;
     margin-top: 10px;
     margin-left: 28px;
+}
+
+p {
+    margin-bottom: -10px;
+}
+
+h3 {
+    font-family: cursive;
+    text-align: center;
 }
 
 div.preamble h3 {
@@ -67,15 +74,6 @@ div.preamble h3 {
     line-height: 1em;
 }
 
-p {
-    margin-bottom: -10px;
-}
-
-h3 {
-    font-family: cursive;
-    text-align: center;
-}
-
 .preamble p:nth-child(4) {
     width: 150px;
     text-align: justify;
@@ -89,45 +87,12 @@ h3 {
     margin-left: -340px;
 }
 
-/*div.participation::after {
-    font-family: cursive;
-    position: absolute;
-    content: "The Road to Enlightenment";
-    color: white;
-    font-size: 18px;
-    margin: -938px auto auto 50px;
-}
-
-/*div.explanation::after {
-    font-family: cursive;
-    position: absolute;
-    content: "Enlightenment";
-    color: white;
-    font-size: 30px;
-    margin: -628px auto auto -300px;
-}*/
-
-#cover:hover,
-#cover2:hover,
-#cover3:hover,
-#cover4:hover,
-#cover5:hover {
-    opacity: 0;
-    transition: 1.5s;
-}
-
 #block2 {
     margin-left: 405px;
     width: 360px;
     margin-top: -435px;
 }
-/*header::after{
-    content:"Click on each block to reveal a hidden message!";
-    font-family: sans-serif;
-    font-size: 16px;
-    margin-left: 45px;
-    color: purple;
-}*/
+
 div.explanation h3 {
     color: white;
     font-size: 18px;
@@ -157,16 +122,6 @@ div.explanation h3 {
     margin-left: -22px;
 }
 
-/*div.requirements::after {
-    font-family: cursive;
-    position: absolute;
-    content: "So What is This About?";
-    color: black;
-    font-size: 18px;
-    margin-top: -1685px;
-    margin-left: 5px;
-}*/
-
 #block3 {
     margin-top: -352px;
     margin-left: 35px;
@@ -184,18 +139,7 @@ div.participation {
 
 div.participation h3 {
     font-size: 18px;
-  
 }
-
-/*aside::after {
-    color: black;
-    font-family: cursive;
-    position: absolute;
-    content: "Participation";
-    font-size: 18px;
-    margin-top: -1078px;
-    margin-left: 100px;
-}*/
 
 #cover3 {
     position: absolute;
@@ -228,16 +172,6 @@ div.benefits h3 {
     margin-left: 20px;
 }
 
-/*div.requirements::before {
-    color: black;
-    font-family: cursive;
-    position: absolute;
-    content: "Benefits";
-    font-size: 18px;
-    margin-top: -260px;
-    margin-left: 85px;
-}*/
-
 #cover4 {
     opacity: 1;
     position: absolute;
@@ -264,19 +198,9 @@ div.requirements {
 }
 
 div.requirements h3 {
-    color:white;
+    color: white;
     font-size: 18px;
 }
-
-/*aside::before {
-    color: white;
-    font-family: cursive;
-    position: absolute;
-    content: "Requirements";
-    font-size: 18px;
-    margin-top: -35px;
-    margin-left: 475px;
-}*/
 
 .requirements p:nth-child(5),
 .requirements p:nth-child(6) {
@@ -292,6 +216,15 @@ div.requirements h3 {
     margin-left: 450px;
 }
 
+#cover:hover,
+#cover2:hover,
+#cover3:hover,
+#cover4:hover,
+#cover5:hover {
+    opacity: 0;
+    transition: 1.5s;
+}
+
 button {
     color: purple;
     background-color: rgb(188, 218, 23);
@@ -302,7 +235,7 @@ button {
     font-family: sans-serif;
 }
 
-/*The following images were obtained free from Klipartz,
+/* The following images were obtained free from Klipartz,
 then it was changed so as not to mimic Zelda #dude and #tilt-dude, #zelda, #wave */
 
 aside.sidebar {
@@ -334,7 +267,7 @@ aside.sidebar h3 {
     font-size: 30px;
     text-align: center;
     color: purple;
-    background-color: rgb(248, 248, 255, .5);
+    background-color: rgb(248, 248, 255, 0.5);
     padding: 5px;
     border-radius: 5px;
 }
@@ -342,11 +275,13 @@ aside.sidebar h3 {
 aside.sidebar ul li {
     font-family: sans-serif;
 }
+
 p.zelda {
     margin-top: 10px;
     margin-left: -400px;
     text-align: center;
 }
-p.zelda:nth-child(1){
+
+p.zelda:nth-child(1) {
     margin-top: 30px;
 }
