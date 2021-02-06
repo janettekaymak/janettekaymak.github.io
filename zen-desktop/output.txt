@@ -1,0 +1,15 @@
+Usage: analyze-css --url <url> [options]
+
+Options:
+  -V, --version        output the version number
+  --url <url>          Set URL of CSS to analyze
+  --file <file>        Set local CSS file to analyze
+  --ignore-ssl-errors  Ignores SSL errors, such as expired or self-signed
+                       certificate errors
+  -p, --pretty         Causes JSON with the results to be pretty-printed
+  -N, --no-offenders   Show only the metrics without the offenders part
+  --auth-user <user>   Sets the user name used for HTTP authentication
+  --auth-pass <pass>   Sets the password used for HTTP authentication
+  -x, --proxy <proxy>  Sets the HTTP proxy
+  -h, --help           display help for command
+
