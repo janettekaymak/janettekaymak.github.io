@@ -9,8 +9,10 @@ body {
 div.page-wrapper {
     max-width: 360px;
 }
-#dragon, #dragonright{
-    display:none;
+
+#dragon,
+#dragonright {
+    display: none;
 }
 
 #banner {
