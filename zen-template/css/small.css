@@ -366,7 +366,7 @@ p.zelda {
 }
 
 p.zelda:nth-child(1) {
-    margin: 10px auto -10px 100px;
+    margin: 20px auto -10px 100px;
 }
 
 p.zelda:nth-child(3) {
@@ -384,6 +384,6 @@ p.zelda:nth-child(3) {
   }
   
   @keyframes zelda {
-    0%   { left:0px; top:0px;}
+    0%   { left:-10px; top:0px;}
     100% { left:100px; top:0px;}
   }
