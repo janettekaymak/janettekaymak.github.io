@@ -49,11 +49,11 @@ div.page-wrapper {
 
 @keyframes mysecond {
     0% {
-        left:-500px; top:0px;
+        right:-500px; top:0px;
     }
 
     100% {
-        left:120%; top:0px;
+        right:120%; top:0px;
     }
 }
 
