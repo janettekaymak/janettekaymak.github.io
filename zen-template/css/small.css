@@ -28,7 +28,7 @@ div.page-wrapper {
 }
 
 #dragonleft {
-    animation: myfirst 8s linear 1s infinite alternate;
+    animation: myfirst 8s linear 0s infinite alternate;
 }
 
 @keyframes myfirst {
