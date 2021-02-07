@@ -29,21 +29,21 @@ div.page-wrapper {
     width: 140px;
 }
 
-#dragonright {
+#dragonleft {
     animation: myfirst 8s linear 0s infinite alternate;
 }
 
 @keyframes myfirst {
     0% {
-        left:120%; top:0px;
+        left:-500px; top:0px;
     }
 
     100% {
-        left:-500px; top:0px;
+        left:120%; top:0px;
     }
 }
 
-#dragonleft {
+#dragonright {
     animation: mysecond 4s linear 1s infinite alternate;
 }
 
