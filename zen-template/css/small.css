@@ -27,6 +27,7 @@ div.page-wrapper {
     display: inline;
     position: absolute;
     width: 140px;
+    margin-left: 120%;
 }
 
 #dragonleft {
