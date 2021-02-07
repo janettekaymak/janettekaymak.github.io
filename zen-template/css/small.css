@@ -3,7 +3,9 @@
 
 body {
     background-color: darkseagreen;
-    background-image: url(https://janettekaymak.github.io/zen-template/images/grass2.png), linear-gradient(purple, rgb(123, 212, 247), white, lemonchiffon, darkseagreen, darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple, purple);
+    background-image: url(https://janettekaymak.github.io/zen-template/images/grass2.png), 
+    linear-gradient(purple, rgb(123, 212, 247), white, lemonchiffon, darkseagreen, 
+    darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple, purple);
 }
 
 div.page-wrapper {
