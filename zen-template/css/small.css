@@ -29,7 +29,7 @@ div.page-wrapper {
     width: 140px;
 }
 
-#dragonleft {
+#dragonright {
     animation: myfirst 8s linear 0s infinite alternate;
 }
 
@@ -43,7 +43,7 @@ div.page-wrapper {
     }
 }
 
-#dragonright {
+#dragonleft {
     animation: mysecond 4s linear 1s infinite alternate;
 }
 
