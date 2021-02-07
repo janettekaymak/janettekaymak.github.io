@@ -366,7 +366,7 @@ p.zelda {
 }
 
 p.zelda:nth-child(1) {
-    margin: 20px auto -10px 100px;
+    margin: 10px auto -10px 100px;
 }
 
 p.zelda:nth-child(3) {
