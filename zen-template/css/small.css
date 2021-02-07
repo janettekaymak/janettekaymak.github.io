@@ -56,7 +56,7 @@ div.page-wrapper {
 }
 
 #banner {
-    max-width: 115%;
+    max-width: 110%;
     margin-top: -8px;
     margin-left: -8px;
 }
@@ -118,6 +118,11 @@ h3 {
     text-align: center;
 }
 
+#block1 {
+    width: 360px;
+    margin-left: -6px;
+}
+
 .preamble {
     font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
     font-size: 17.5px;
@@ -126,7 +131,7 @@ h3 {
     text-align: justify;
     position: absolute;
     margin-top: -580px;
-    margin-left: 78px;
+    margin-left: 72px;
     line-height: 1em;
 }
 
@@ -146,31 +151,17 @@ div.preamble h3 {
     margin-left: 40px;
 }
 
-#block1 {
-    width: 360px;
-    margin-left: 0px;
-}
-
 #cover1 {
     display: block;
     width: 352px;
     position: absolute;
     margin-top: -615px;
-    margin-left: 20px;
+    margin-left: 14px;
 
-}
-
-#cover1:hover,
-#cover2:hover,
-#cover3:hover,
-#cover4:hover,
-#cover5:hover {
-    opacity: 0;
-    transition: 1.5s;
 }
 
 #block2 {
-    margin-left: 20px;
+    margin-left: -6px;
     width: 360px;
     margin-top: -60px;
 }
@@ -182,7 +173,7 @@ div.preamble h3 {
     width: 241px;
     position: absolute;
     margin-top: -685px;
-    margin-left: 60px;
+    margin-left: 34px;
     line-height: 1em;
 }
 
@@ -235,6 +226,7 @@ div.participation h3 {
 
 #block4 {
     margin-top: -27px;
+    margin-left: -6px;
 }
 
 div.benefits {
@@ -243,7 +235,7 @@ div.benefits {
     width: 220px;
     font-size: 16px;
     margin-top: -300px;
-    margin-left: 70px;
+    margin-left: 64px;
     text-align: center;
 }
 
@@ -258,11 +250,13 @@ div.benefits h3 {
     display: block;
     position: absolute;
     margin-top: -329px;
+    margin-left: -6px;
 }
 
 #block5 {
     margin-top: -25px;
-    margin-bottom: -110px;
+    margin-bottom: -90px;
+    margin-left: -8px;
 
 }
 
@@ -273,14 +267,13 @@ div.requirements {
     width: 255px;
     font-size: 17px;
     line-height: 1em;
-    margin-top: -915px;
-    margin-left: 70px;
+    margin-top: -935px;
+    margin-left: 62px;
     text-align: justify;
 }
 
 div.requirements h3 {
     font-family: 'Merienda', cursive;
-    opacity: 1;
     font-size: 25px;
     line-height: 1em;
 }
@@ -296,8 +289,17 @@ div.requirements h3 {
     display: block;
     width: 275px;
     position: absolute;
-    margin-top: -900px;
-    margin-left: 60px;
+    margin-top: -918px;
+    margin-left: 52px;
+}
+
+#cover1:hover,
+#cover2:hover,
+#cover3:hover,
+#cover4:hover,
+#cover5:hover {
+    opacity: 0;
+    transition: 1.5s;
 }
 
 button {
@@ -324,7 +326,7 @@ aside.sidebar {
     background-size: contain;
     border-radius: 25px;
     margin-top: 24px;
-    margin-left: 20px;
+    margin-left: 0px;
 
 }
 
