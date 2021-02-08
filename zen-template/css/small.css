@@ -75,7 +75,7 @@ p.link:nth-child(1) {
   
   @keyframes link {
     0%  {left:-120px; top:0px;}
-    50% {left: 30px; top:-100px;}
+    50% {left: -10px; top:-100px;}
     100%{left:100px; top:0px;}
   }
 
