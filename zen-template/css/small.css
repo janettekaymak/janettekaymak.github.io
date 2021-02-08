@@ -35,13 +35,8 @@ div.page-wrapper {
 }
 
 @keyframes myfirst {
-    0% {
-        left:-500px; top:0px;
-    }
-
-    100% {
-        left:120%; top:0px;
-    }
+    0% {left:-500px; top:0px;}
+    100% {left:120%; top:0px;}
 }
 
 #dragonright {
@@ -49,13 +44,8 @@ div.page-wrapper {
 }
 
 @keyframes mysecond {
-    0% {
-        right:-500px; top:0px;
-    }
-
-    100% {
-        right:120%; top:0px;
-    }
+  0%{right:-500px; top:0px;}
+  100%{right:120%; top:0px;}
 }
 
 #banner {
@@ -84,8 +74,9 @@ p.link:nth-child(1) {
   }
   
   @keyframes link {
-    0%   { left:-120px; top:0px;}
-    100%  { left:100px; top:0px;}
+    0%  {left:-120px; top:0px;}
+    50% {left: 30px; top:-100px;}
+    100%{left:100px; top:0px;}
   }
 
 section h1,
@@ -380,14 +371,17 @@ p.zelda:nth-child(3) {
 p.zelda:nth-child(3) {
     position: relative;
     animation-name: zelda;
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
   }
   
   @keyframes zelda {
-    0%   { left:-10px; top:0px;}
-    100% { left:100px; top:0px;}
+    0%  {left:-10px; top:0px;}
+    25% {left:10px; top:40px;}
+    50% {left:40px; top:0px;}
+    75% {left:80px; top:40px;}
+    100%{left:100px; top:0px;}
   }
   
