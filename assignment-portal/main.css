@@ -281,7 +281,6 @@ footer {
     display: inline-flex;
     margin: 20px auto 140px 50px;
     margin-top: 20px;
-    margin-bottom: 140px;
 }
 
 /* End of Minion*/
@@ -329,7 +328,7 @@ h3 {
 h3.gingham {
     color: hotpink;
     margin-top: -220px;
-    margin-left: 110px;
+    margin-left: 85px;
 }
 
 .color1 {
@@ -342,6 +341,9 @@ h3.gingham {
 
 .mix {
     fill: pink;
+}
+.SVGgingham{
+    margin-bottom: -100px;
 }
 
 @media screen and (max-width: 800px) {
@@ -434,8 +436,6 @@ h3.gingham {
     }
 
     h3.gingham {
-        color: hotpink;
         margin-top: -120px;
-        margin-left: 120px;
     }
 }
