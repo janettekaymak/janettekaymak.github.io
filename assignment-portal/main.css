@@ -345,6 +345,10 @@ h3.gingham {
 .SVGgingham{
     margin-bottom: -100px;
 }
+.SVGgingham:hover, .SVGbrickwall:hover{
+    opacity: 0;
+    transition: 2s;
+}
 
 @media screen and (max-width: 800px) {
     body {
