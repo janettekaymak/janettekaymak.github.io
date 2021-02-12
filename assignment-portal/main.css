@@ -48,7 +48,7 @@ hr{
     margin-top: -25px;
 }
 
-.grid-item, p {
+.grid-item {
     margin-left: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: dimgray;
@@ -170,6 +170,14 @@ footer {
     margin: 15px auto auto 10px;
     border-radius: 0 0 50px 50px;
   }
+  #line p {
+      color: gold;
+      font-family:  "Neucha", Helvetica, sans-serif;
+      font-size: 25px;
+      text-align: center;
+      margin: 10px auto auto -70px;
+
+  }
   #legs{
     background: dodgerblue;
     width: 60px;
@@ -241,6 +249,43 @@ footer {
       margin-bottom: 140px;
   }
   /* End of Minion*/
+  /* SVG Brick Wall */
+  .brickWall{
+      width: 300px;
+      display: block;
+      margin: auto;
+  }
+  h3 {
+    font-family:  "Neucha", Helvetica, sans-serif;
+    font-size: 35px;
+    color: rgb(2, 109, 109);
+    margin-bottom: 0px;
+    margin-left: 80px;
+}
+h3.gingham{
+    color: hotpink;
+    margin-top: -220px;
+    margin-left: 120px;
+}
+  .brickcolor1{
+    fill: firebrick;
+   
+  }
+  .brickcolor2{
+    fill: brown;
+  
+  }
+  .brickcolor3{
+    fill: darkred;
+   
+  }
+  .brickcolor4{
+    fill: #A23333;
+    
+  }
+  .back{
+    fill: slategrey;
+  }
 
 @media screen and (max-width: 800px) {
     body {
@@ -316,5 +361,10 @@ footer {
     }
     footer p{
         font-size: 16px;;
+    }
+    h3.gingham{
+        color: hotpink;
+        margin-top: -120px;
+        margin-left: 120px;
     }
 }

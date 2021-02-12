@@ -103,12 +103,54 @@
                     <div id="overalls"></div>
                     <div id="pockets"></div>
                     <div id="legs"></div>
-                    <div id="line"></div>
+                    <div id="line"><p>CSS Minion</p></div>
                     <div id="l-shoe"></div>
                     <div id="r-shoe"></div>
                 </div>
             </section>
+            <section .class="svg">
+                <div class="card-frame">
+                    <h3>SVG Brick Wall:</h3>
+                    <svg width="450" height="500">
+                        <!-- define pattern -->
+                        <defs>
+                            <pattern id="my3pattern" patternUnits="userSpaceOnUse" x="0" y="0" width="60" height="30">
+                                <rect width="60" height="30" x="0" y="0" class="back" />
+
+                                <rect width="28" height="13" x="0" y="0" class="brickcolor1" />
+
+                                <rect width="28" height="13" x="30" y="0" class="brickcolor2" />
+
+                                <rect width="14" height="13" x="0" y="15" class="brickcolor4" />
+                                <rect width="28" height="13" x="16" y="15" class="brickcolor3" />
+
+                                <rect width="14" height="13" x="46" y="15" class="brickcolor4" />
+
+                            </pattern>
+                        </defs>
+                        <rect width="300" height="360" x="20" y="0" fill="url(#my3pattern)" background
+                            stroke-width="1" stroke="black" />
+                    </svg>
+                </div>
+            </section>
+            <section class="svg">
+            <div class="card-frame">
+                <h3 class="gingham">Gingham</h3>
+                <svg width="450" height="500"> 
+                  <!-- define pattern -->
+                  <defs>
+                    <pattern id="my2pattern" patternUnits="userSpaceOnUse" x="0" y="0" width="28" height="28">
+                      <rect width="28" height="28" x="0" y="0" class="mix"/>
+                      <rect width="14" height="14" x="0" y="0" class="color1"/>
+                       <rect width="14" height="14" x="14" y="14" class="color2"/>
+                    </pattern>
+                  </defs>
+              
+                  <rect width="300" height="360" x="20" y="0" fill="url(#my2pattern)" background stroke-width="1" stroke="black" />
+              </svg>
+              </div>
         </div>
+    </section>
     </nav>
     <footer>
         <p>
