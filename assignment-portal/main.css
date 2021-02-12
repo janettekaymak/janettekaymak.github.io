@@ -91,6 +91,157 @@ footer {
     text-align: center;
     margin-top: 25px;
 }
+/* Minion */
+    #minion{
+    background: gold;
+    width: 200px;
+    height: 160px;
+    border: 2px;
+    border-style: solid solid none solid;
+    border-radius: 110px 110px 0 0;
+  }
+  #goggle1, #goggle2 {
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    background: white;
+    border-radius: 60px;
+    border: solid 18px darkgrey;
+  }
+  #goggle1{
+     margin: 20px auto auto -4px;
+  }
+  #goggle2{
+      margin: 20px auto auto 91px;
+  }
+  #eye1, #eye2{
+    background: black;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    border-radius: 10px; 
+  }
+  #eye1{
+    margin: 65px auto auto 60px;
+    box-shadow: 0 0 0 7px darkolivegreen, 0 0 0 8px black;
+  }
+  #eye2{
+    margin: 65px auto auto 128px;
+    box-shadow: 0 0 0 7px saddlebrown, 0 0 0 8px black;
+  }
+  #mouth{
+    background: hotpink;
+    width: 50px;
+    height: 15px;
+    margin: 133px auto auto auto;
+    border-radius: 0 0 110px 110px;
+    border: 7px white;
+    border-style: solid none none none;
+    box-shadow: 0 0 0 2px black;
+  }
+  #overalls{
+    background: dodgerblue;
+    width: 200px;
+    height: 100px;
+    border: solid 2px;
+    position: absolute;
+    margin: 5px auto auto -2px;
+    border-radius: 0 0 60px 60px;
+  }
+  #strap1, #strap2{
+    background: dodgerblue;
+    width: 12px;
+    height: 85px;
+    position: absolute;
+    border: 6px;
+    border-style: none double none double;
+  }
+  #strap1{
+     margin: 75px auto auto -2px;
+  }
+  #strap2{
+     margin: 75px auto auto 178px;
+  }
+  #pockets{
+    background: dodgerblue;
+    width: 170px;
+    height: 70px;
+    border: double 6px;
+    position: absolute;
+    margin: 15px auto auto 10px;
+    border-radius: 0 0 50px 50px;
+  }
+  #legs{
+    background: dodgerblue;
+    width: 60px;
+    height: 20px;
+    border: 2px;
+    border-style: none solid solid solid;
+    position: absolute;
+    margin: 106px auto auto 67px;
+    border-radius: 0 0 10px 10px
+  }
+  #line{
+    position:absolute;
+    background: dodgerblue;
+    width: 2px;
+    height: 109px;
+    border: solid 2px;
+    margin: 15px auto auto 95px;
+  }
+  #l-arm, #r-arm {
+    width: 20px;
+    height: 105px;
+    background: gold;
+    position: absolute;
+    border: 30px;
+    border-style: solid none none none;
+    box-shadow: 0 0 0 2px black;
+    border-radius: 20px 20px 0px 0px;
+  }
+  #l-arm{
+    margin: 28px auto auto -41px;
+    -ms-transform: rotate(-35deg); 
+    transform: rotate(-35deg);
+  }
+  #r-arm{
+    margin: 28px auto auto 221px;
+    -ms-transform: rotate(35deg); 
+    transform: rotate(35deg);
+  }
+  #thumb1, #thumb2 {
+    position: absolute;
+    width: 10px;
+    height: 21px;
+    background: black;
+    border-radius: 15px 15px 0 0;
+  }
+  #thumb1{
+    margin: 37px auto auto -53px;
+  }
+  #thumb2{
+    margin: 37px auto auto 243px;
+  }
+  #l-shoe, #r-shoe{
+    position: absolute;
+    width: 45px;
+    height: 20px;
+    background: black;
+    border-radius: 20px 20px 5px 5px;
+  }
+  #l-shoe{
+    margin: 122px auto auto 52px;
+  }
+  #r-shoe{
+    margin: 122px auto auto 101px;
+  }
+  #minionAll{
+      display: inline-flex;
+      margin: 20px auto 140px 50px;
+      margin-top: 20px;
+      margin-bottom: 140px;
+  }
+  /* End of Minion*/
 
 @media screen and (max-width: 800px) {
     body {
