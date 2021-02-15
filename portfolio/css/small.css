@@ -3,6 +3,7 @@
 body {
     display: block;
     margin: auto;
+    background-image: url(https://janettekaymak.github.io/portfolio/images/pinkcactus.png);
 }
 
 h1 {
@@ -53,13 +54,13 @@ div.circle p{
 
 #red {
     background-color: red;
-    background-image: linear-gradient(to right, #e317d1, red,
+    background-image: linear-gradient(to right, rgb(252, 40, 252), red,
            orangered);
     margin: -3px auto auto 119px;
 }
 
 #red:hover{
-    box-shadow: 0 0 0 100px #e218d1;
+    box-shadow: 0 0 0 100px rgb(252, 40, 252, .5);
     transition: 1s;
 }
 
@@ -105,7 +106,7 @@ div.circle p{
 
 #purple {
     margin: -62px auto auto 15px;
-    background: linear-gradient( to bottom right, blueviolet, purple, #e317d1);
+    background: linear-gradient( to bottom right, blueviolet, purple, rgb(252, 40, 252));
 }
 
 #purple:hover{
