@@ -41,6 +41,10 @@ nav {
 
 }
 
+#me:hover{
+    opacity: 0;
+}
+
 div.circle {
     position: absolute;
     width: 117px;
