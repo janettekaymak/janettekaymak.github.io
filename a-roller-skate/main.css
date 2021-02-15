@@ -356,7 +356,7 @@ footer {
 
 /*The portion below is for mobile devices*/
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 768px) {
     #top-image {
         height: 1120px;
         width: 980px;

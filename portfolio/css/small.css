@@ -1,6 +1,114 @@
-div.circle{
-    width: 200px;
-    height: 200px;
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+body {
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: Reggae One, cursive;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    display: block;
+    margin: auto;
+    max-width: 355px;
+    min-height: 355px;
+    border: solid 1px;
+    border-radius: 300px;
+    background: radial-gradient(black, black, lightgrey, white);
+}
+
+#me {
+    display: block;
+    position: relative;
+    width: 125px;
+    border-radius: 150px;
+    margin: 110px auto auto 115px;
+
+}
+
+div.circle {
+    position: absolute;
+    width: 117px;
+    height: 117px;
     border-radius: 100px;
-    background: linear-gradient(red, pink, white);
+    border: solid 1px;
+}
+
+div.circle p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px,
+    black 0 0 4px, black 0 0 5px, black 0 0 6px, black 0 0 7px;
+}
+
+#red {
+    background-color: red;
+    background-image: linear-gradient(to right, #e317d1, red,
+           orangered);
+    margin: -3px auto auto 119px;
+}
+
+#red:hover{
+    box-shadow: 0 0 0 100px #e218d1;
+    transition: 1s;
+}
+
+#orange {
+    background: linear-gradient(to top, orangered, orange, rgb(255, 208, 0));
+    margin: -62px auto auto 221px;
+}
+
+#orange:hover{
+    box-shadow: 0 0 0 100px rgb(255, 69, 0, .5);
+    transition: 1s;
+}
+
+#yellow {
+    background: linear-gradient(to top left, rgb(255, 208, 0), yellow, greenyellow);
+    margin: -181px auto auto 221px;
+}
+
+#yellow:hover{
+    box-shadow: 0 0 0 100px rgb(255, 208, 0, .5);
+    transition: 1s;
+}
+
+#green {
+    margin: -241px auto auto 119px;
+    background: linear-gradient(to left,yellowgreen, green, teal );
+}
+
+#green:hover{
+    box-shadow: 0 0 0 100px rgb(173, 255, 47, .5);
+    transition: 1s;
+}
+
+#blue {
+    margin: -181px auto auto 15px;
+    background: linear-gradient( to bottom, teal, blue, blueviolet);
+}
+
+#blue:hover{
+    box-shadow: 0 0 0 100px rgb(0, 128, 128, .5);
+    transition: 1s;
+}
+
+#purple {
+    margin: -62px auto auto 15px;
+    background: linear-gradient( to bottom right, blueviolet, purple, #e317d1);
+}
+
+#purple:hover{
+    box-shadow: 0 0 0 100px rgb(138, 43, 226, .5);
+    transition: 1s;
 }
