@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
 
 body {
+    background-color: rgb(238, 255, 205);
     display: block;
     margin: auto;
     background-image: url(https://janettekaymak.github.io/zen-template/images/grass2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
  
 }
 
@@ -13,6 +12,9 @@ h1 {
     text-align: center;
     font-family: Reggae One, cursive;
     font-size: 50px;
+    text-shadow: darkseagreen 0 0 1px,darkseagreen 0 0 2px,darkseagreen 0 0 3px,
+    darkseagreen 0 0 4px,darkseagreen 0 0 5px,darkseagreen 0 0 6px,darkseagreen 0 0 7px,
+    darkseagreen 0 0 8px,darkseagreen 0 0 9px,darkseagreen 0 0 10px;
 }
 h2{
     text-align: center;
@@ -24,9 +26,10 @@ nav {
     margin: auto;
     max-width: 355px;
     min-height: 355px;
-    border: solid 1px;
+    border: dotted 3px;
     border-radius: 300px;
-    background: radial-gradient(black, black, lightgrey, white);
+    background: radial-gradient(black, black,rgb(243, 255, 219),
+    rgb(226, 250, 178));
 }
 
 #me {
@@ -61,6 +64,16 @@ div.circle p{
            orangered);
     margin: -3px auto auto 119px;
 }
+#red{
+    animation-name: red;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes red {
+    0%  {left:73px; top:900px;}
+    100%{left:73px; top:500px;}
+  }
 
 #red:hover{
     box-shadow: 0 0 0 100px rgb(252, 40, 252, .5);
@@ -76,11 +89,31 @@ div.circle p{
     box-shadow: 0 0 0 100px rgb(255, 69, 0, .5);
     transition: 1s;
 }
+#orange{
+    animation-name: orange;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes orange {
+    0%  {left:73px; top:900px;}
+    100%{left:73px; top:500px;}
+  }
 
 #yellow {
     background: linear-gradient(to top left, rgb(255, 208, 0), yellow, greenyellow);
     margin: -181px auto auto 221px;
 }
+#yellow{
+    animation-name: yellow;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes yellow {
+    0%  {left:73px; top: 100px;}
+    100%{left:73px; top:500px;}
+  }
 
 #yellow:hover{
     box-shadow: 0 0 0 100px rgb(255, 208, 0, .5);
@@ -91,6 +124,16 @@ div.circle p{
     margin: -241px auto auto 119px;
     background: linear-gradient(to left,yellowgreen, green, teal );
 }
+#green{
+    animation-name: green;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes green {
+    0%  {left:73px; top: 100px;}
+    100%{left:73px; top:500px;}
+  }
 
 #green:hover{
     box-shadow: 0 0 0 100px rgb(173, 255, 47, .5);
@@ -101,6 +144,16 @@ div.circle p{
     margin: -181px auto auto 15px;
     background: linear-gradient( to bottom, teal, blue, blueviolet);
 }
+#blue{
+    animation-name: blue;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes blue {
+    0%  {left:73px; top: 100px;}
+    100%{left:73px; top:500px;}
+  }
 
 #blue:hover{
     box-shadow: 0 0 0 100px rgb(0, 128, 128, .5);
@@ -111,8 +164,19 @@ div.circle p{
     margin: -62px auto auto 15px;
     background: linear-gradient( to bottom right, blueviolet, purple, rgb(252, 40, 252));
 }
+#purple{
+    animation-name: purple;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes purple {
+    0%  {left:73px; top:900px;}
+    100%{left:73px; top:500px;}
+  }
 
 #purple:hover{
     box-shadow: 0 0 0 100px rgb(138, 43, 226, .5);
     transition: 1s;
 }
+  
