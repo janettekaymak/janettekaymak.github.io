@@ -63,10 +63,8 @@ div.circle p{
     background-image: linear-gradient(to right, rgb(252, 40, 252), red,
            orangered);
     margin: -3px auto auto 119px;
-}
-#red{
     animation-name: red;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-timing-function: linear;
   }
   
@@ -83,13 +81,6 @@ div.circle p{
 #orange {
     background: linear-gradient(to top, orangered, orange, rgb(255, 208, 0));
     margin: -62px auto auto 221px;
-}
-
-#orange:hover{
-    box-shadow: 0 0 0 100px rgb(255, 69, 0, .5);
-    transition: 1s;
-}
-#orange{
     animation-name: orange;
     animation-duration: 2s;
     animation-timing-function: linear;
@@ -100,13 +91,16 @@ div.circle p{
     100%{left:73px; top:500px;}
   }
 
+#orange:hover{
+    box-shadow: 0 0 0 100px rgb(255, 69, 0, .5);
+    transition: 1s;
+}
+
 #yellow {
     background: linear-gradient(to top left, rgb(255, 208, 0), yellow, greenyellow);
     margin: -181px auto auto 221px;
-}
-#yellow{
     animation-name: yellow;
-    animation-duration: 1s;
+    animation-duration: 5s;
     animation-timing-function: linear;
   }
   
@@ -123,8 +117,6 @@ div.circle p{
 #green {
     margin: -241px auto auto 119px;
     background: linear-gradient(to left,yellowgreen, green, teal );
-}
-#green{
     animation-name: green;
     animation-duration: 3s;
     animation-timing-function: linear;
@@ -143,10 +135,8 @@ div.circle p{
 #blue {
     margin: -181px auto auto 15px;
     background: linear-gradient( to bottom, teal, blue, blueviolet);
-}
-#blue{
     animation-name: blue;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: linear;
   }
   
@@ -163,10 +153,8 @@ div.circle p{
 #purple {
     margin: -62px auto auto 15px;
     background: linear-gradient( to bottom right, blueviolet, purple, rgb(252, 40, 252));
-}
-#purple{
     animation-name: purple;
-    animation-duration: 1s;
+    animation-duration: 3s;
     animation-timing-function: linear;
   }
   
