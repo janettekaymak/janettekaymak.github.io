@@ -171,4 +171,8 @@ div.circle p{
     box-shadow: 0 0 0 100px rgb(138, 43, 226, .5);
     transition: 1s;
 }
+footer{
+    background: purple;
+    margin: 400px auto auto auto;
+}
   
