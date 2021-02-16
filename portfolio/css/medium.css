@@ -1,9 +1,27 @@
-@media screen and (min-width: 768px){
-    
-    div.wrapper {
-        max-width: 900px;
-        border: ridge 25px darkseagreen;
-        border-radius: 25px;
-        margin-top: 0;
-      }
+@media screen and (min-width: 768px) {
+
+  div.wrapper {
+    max-width: 900px;
+    border: ridge 25px darkseagreen;
+    border-radius: 25px;
+    margin-top: 0;
+  }
+
+  h2{
+    font-size: 39px;
+  }
+
+
+  div.row {
+    margin: 5px auto -80px auto;
+  }
+
+  #r8{
+    margin: -20px -165px auto 165px;
+  }
+
+  #r9{
+    margin: -20px 170px auto -170px;
+  }
+
 }

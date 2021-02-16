@@ -11,9 +11,19 @@
 
 .roses {
   float: left;
-  width: 11%;
-  padding: 5px;
+  width: 14.2%;
+  padding: 0px;
 }
+#r8{
+  display:inline-block
+  float: none;
+  margin: 0px -50px auto 50px;
+}
+#r9{
+  float: right;
+  margin: 0px 50px auto -50px;
+}
+
 
 /* Clearfix (clear floats) */
 .row::after {
@@ -36,7 +46,7 @@ div.row {
 #r8,
 #r9 {
   position: relative;
-  animation-duration: 10s;
+  animation-duration: 9s;
   animation-timing-function: linear;
   /*animation-iteration-count: infinite;*/
   z-index: 3;
@@ -55,7 +65,7 @@ div.row {
 
   100% {
     left: 0px;
-    top: 1500px;
+    top: 1000px;
   }
 }
 
@@ -72,7 +82,7 @@ div.row {
 
   100% {
     left: 0px;
-    top: 1500px;
+    top: 1000px;
   }
 }
 
