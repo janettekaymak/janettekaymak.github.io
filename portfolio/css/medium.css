@@ -7,8 +7,9 @@
     margin-top: 0;
   }
 
-  h2 {
+  #portfolio {
     font-size: 45px;
+    margin: auto auto 70px -140px;
   }
 
 
@@ -17,16 +18,16 @@
   }
 
   #r8 {
-    margin: -20px -165px auto 165px;
+    margin: -20px -280px auto 280px;
   }
 
   #r9 {
-    margin: -20px 165px auto -165px;
+    margin: -75px 160px auto -160px;
   }
 
   #border1,
   #border2 {
-    width: 30%;
+    width: 35%;
   }
 
   footer {

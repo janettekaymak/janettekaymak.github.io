@@ -37,7 +37,7 @@ div.row {
 #r8,
 #r9 {
   position: relative;
-  animation-duration: 10s;
+  animation-duration: 1s;
   animation-timing-function: linear;
   /*animation-iteration-count: infinite;*/
   z-index: 3;
@@ -163,11 +163,11 @@ div.row {
 }
 
 #r8 {
+  position: absolute;
   animation-name: eight;
   animation-delay: 19s;
-  display:inline-block
-  float: none;
-  margin: -5px -105px auto 105px;
+  margin-left: 58px;
+
 }
 
 @keyframes eight {
@@ -183,10 +183,12 @@ div.row {
 }
 
 #r9 {
+  postion: absolute;
   animation-name: nine;
   animation-delay: 21s;
-  float: right;
-  margin: -37px 50px auto -50px;
+  margin-top: -58px;
+  margin-left: 235px;
+
 }
 
 @keyframes nine {
@@ -229,8 +231,8 @@ h1 {
   color: rgb(128, 0, 70);
   text-align: center;
   font-family: "Raleway", Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
-  margin: auto auto 30px -55px;
+  font-size: 20px;
+  margin-bottom: 50px;
 }
 
 div.bigCircle {
