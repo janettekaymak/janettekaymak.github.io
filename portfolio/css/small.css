@@ -61,7 +61,7 @@ div.row {
 }
 
 #r2 {
-  animation-name: one;
+  animation-name: two;
   animation-delay: 7s;
 }
 
@@ -167,6 +167,7 @@ div.row {
   animation-name: eight;
   animation-delay: 19s;
   margin-left: 60px;
+  z-index: 2;
 
 }
 
@@ -187,6 +188,7 @@ div.row {
   animation-name: nine;
   animation-delay: 21s;
   margin-right: 60px;
+  z-index: 2;
 }
 
 
@@ -265,6 +267,7 @@ nav p a {
   width: 125px;
   border-radius: 150px;
   margin: 112px auto auto 110px;
+  border: solid 3px rgb(128, 0, 70);
 
 }
 
@@ -294,7 +297,7 @@ div.circle p {
   background-color: red;
   background-image: linear-gradient(to right, rgb(252, 40, 252), red,
       orangered);
-  margin: 0px auto auto 115px;
+  margin: 0px auto auto 114px;
   animation-name: red;
   animation-duration: 4s;
   animation-timing-function: linear;
@@ -319,7 +322,7 @@ div.circle p {
 
 #orange {
   background: linear-gradient(to top, orangered, orange, rgb(255, 208, 0));
-  margin: -180px auto auto 220px;
+  margin: -176px auto auto 219px;
   animation-name: orange;
   animation-duration: 2s;
   animation-timing-function: linear;
@@ -344,7 +347,7 @@ div.circle p {
 
 #yellow {
   background: linear-gradient(to top left, rgb(255, 208, 0), yellow, greenyellow);
-  margin: -239px auto auto 220px;
+  margin: -238px auto auto 220px;
   animation-name: yellow;
   animation-duration: 5s;
   animation-timing-function: linear;
@@ -368,7 +371,7 @@ div.circle p {
 }
 
 #green {
-  margin: -180px auto auto 114px;
+  margin: -177px auto auto 114px;
   background: linear-gradient(to left, yellowgreen, green, teal);
   animation-name: green;
   animation-duration: 3s;
@@ -393,7 +396,7 @@ div.circle p {
 }
 
 #blue {
-  margin: -55px auto auto 8px;
+  margin: -57px auto auto 8px;
   background: linear-gradient(to bottom, teal, blue, blueviolet);
   animation-name: blue;
   animation-duration: 2s;
@@ -418,7 +421,7 @@ div.circle p {
 }
 
 #purple {
-  margin: 6px auto auto 8px;
+  margin: 2px auto auto 10px;
   background: linear-gradient(to bottom right, blueviolet, purple, rgb(252, 40, 252));
   animation-name: purple;
   animation-duration: 3s;

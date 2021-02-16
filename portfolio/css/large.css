@@ -1,0 +1,38 @@
+@media screen and (min-width: 1050px) {
+
+    div.wrapper {
+        max-width: 1000px;
+        border: ridge 25px darkseagreen;
+        border-radius: 25px;
+        margin-top: 0;
+    }
+
+    .roses {
+        width: 12%;
+        margin-left: 1.9%;
+      }
+
+      h2{
+        font-size: 38px;
+        margin-top: 50px;;
+      }
+      #portfolio:nth-child(2) {
+          margin-left: 50px;
+      }
+
+      #r8 {
+        margin: 30px 10px auto 210px;
+      }
+    
+      #r9 {
+        margin-right: 250px;
+        margin: 30px 250px auto auto;
+    
+      }
+    
+      #border1,
+      #border2 {
+        width: 30%;
+      }
+
+}
