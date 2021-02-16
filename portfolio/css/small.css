@@ -226,6 +226,13 @@ h1 {
     darkseagreen 0 0 8px, darkseagreen 0 0 9px, darkseagreen 0 0 10px;
 }
 
+h2{
+  color: rgb(128, 0, 70);
+  text-align: center;
+  font-family: "Raleway", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
 #portfolio {
   color: rgb(128, 0, 70);
   text-align: center;
