@@ -13,7 +13,8 @@
   }
 
   #portfolio {
-    margin: -10px auto 100px auto;
+    padding: 10px;
+    margin: -50px auto 70px auto;
     font-size: 28px;
 
   }
@@ -24,13 +25,13 @@
   }
 
   #r8 {
-    margin-left: 220px;
-    margin-top: -20px;
+    margin-left: 150px;
+    margin-top: 30px;
   }
 
   #r9 {
-    margin-right: 220px;
-    margin-top: -20px;
+    margin-right: 160px;
+    margin-top: 30px;
   }
 
   #border1,
