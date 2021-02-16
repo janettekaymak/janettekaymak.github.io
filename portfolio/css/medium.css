@@ -7,7 +7,7 @@
     margin-top: 0;
   }
 
-  h2{
+  h2 {
     font-size: 45px;
   }
 
@@ -16,16 +16,22 @@
     margin: 5px auto -80px auto;
   }
 
-  #r8{
-    margin: -20px -185px auto 185px;
+  #r8 {
+    margin: -20px -165px auto 165px;
   }
 
-  #r9{
-    margin: -20px 185px auto -185px;
+  #r9 {
+    margin: -20px 165px auto -165px;
   }
-  
-  #border1, #border2{
+
+  #border1,
+  #border2 {
     width: 30%;
+  }
+
+  footer {
+    border: 25px darkseagreen;
+    border-style: ridge none none none;
   }
 
 }
