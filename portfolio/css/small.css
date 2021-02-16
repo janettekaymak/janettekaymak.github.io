@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
 
-body {
+body.index {
     background-color: rgb(238, 255, 205);
     display: block;
     margin: auto;
