@@ -22,7 +22,7 @@ h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-nav {
+div.bigCircle {
     display: block;
     margin: auto;
     max-width: 355px;
@@ -32,18 +32,24 @@ nav {
     background: radial-gradient(black, black,rgb(243, 255, 219),
     rgb(226, 250, 178));
 }
+nav p a{
+    color:white;
+    text-decoration: none;
+}
 
 #me {
+    opacity: .5;
     display: block;
     position: relative;
     width: 125px;
     border-radius: 150px;
-    margin: 110px auto auto 115px;
+    margin: 112px auto auto 115px;
 
 }
 
 #me:hover{
-    opacity: 0;
+    opacity: 1;
+    transition: 1s;
 }
 
 div.circle {
@@ -67,7 +73,7 @@ div.circle p{
     background-color: red;
     background-image: linear-gradient(to right, rgb(252, 40, 252), red,
            orangered);
-    margin: -4px auto auto 117px;
+    margin: -5px auto auto 117px;
     animation-name: red;
     animation-duration: 4s;
     animation-timing-function: linear;
