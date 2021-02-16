@@ -17,11 +17,11 @@
 #r8{
   display:inline-block
   float: none;
-  margin: 0px -50px auto 50px;
+  margin: 0px -60px auto 60px;
 }
 #r9{
   float: right;
-  margin: 0px 50px auto -50px;
+  margin: 0px 60px auto -60px;
 }
 
 
@@ -432,6 +432,28 @@ div.circle p {
 #purple:hover {
   box-shadow: 0 0 0 100px rgb(138, 43, 226, .5);
   transition: 1s;
+}
+
+.roseborder{
+  margin: 20px auto -205px auto;
+}
+
+#border1, #border2{
+  width: 50%;
+}
+#border2{
+  float: right;
+}
+
+footer p{
+  font-family: "Raleway", Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+#fbicon{
+  border:rgb(209, 2, 113) solid 5px;
+  border-radius: 30px;
 }
 
 footer {

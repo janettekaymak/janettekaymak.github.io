@@ -8,7 +8,7 @@
   }
 
   h2{
-    font-size: 39px;
+    font-size: 45px;
   }
 
 
@@ -17,11 +17,15 @@
   }
 
   #r8{
-    margin: -20px -165px auto 165px;
+    margin: -20px -185px auto 185px;
   }
 
   #r9{
-    margin: -20px 170px auto -170px;
+    margin: -20px 185px auto -185px;
+  }
+  
+  #border1, #border2{
+    width: 30%;
   }
 
 }
