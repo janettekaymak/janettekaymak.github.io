@@ -453,7 +453,12 @@ footer p{
 
 #fbicon{
   border:rgb(209, 2, 113) solid 5px;
-  border-radius: 30px;
+  border-radius: 50px;
+}
+
+footer img:hover{
+  width: 8%;
+  transition: 1s;
 }
 
 footer {
