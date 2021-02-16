@@ -194,7 +194,9 @@ div.row {
   }
 }
 /*/////////////////////////////////////////////////////////////////////////////////////////////////
+THE ROSES ARE ABOVE ^ AND EVERYTHING ELSE IS BELOW \/
 ////////////////////////////////////////////////////////////////////////////////////////////////*/
+
 div.wrapper {
   max-width: 767px;
   background-color: rgb(238, 255, 205);
@@ -256,7 +258,7 @@ div.circle {
   width: 117px;
   height: 117px;
   border-radius: 100px;
-  border: solid 1px;
+  border: solid 1px rgb(128, 0, 70);;
 }
 
 div.circle p {
