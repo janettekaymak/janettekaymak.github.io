@@ -14,15 +14,6 @@
   width: 14.2%;
   padding: 0px;
 }
-#r8{
-  display:inline-block
-  float: none;
-  margin: 0px -60px auto 60px;
-}
-#r9{
-  float: right;
-  margin: 0px 60px auto -60px;
-}
 
 
 /* Clearfix (clear floats) */
@@ -174,6 +165,9 @@ div.row {
 #r8 {
   animation-name: eight;
   animation-delay: 19s;
+  display:inline-block
+  float: none;
+  margin: -5px -105px auto 105px;
 }
 
 @keyframes eight {
@@ -191,6 +185,8 @@ div.row {
 #r9 {
   animation-name: nine;
   animation-delay: 21s;
+  float: right;
+  margin: -37px 50px auto -50px;
 }
 
 @keyframes nine {
@@ -229,11 +225,12 @@ h1 {
     darkseagreen 0 0 8px, darkseagreen 0 0 9px, darkseagreen 0 0 10px;
 }
 
-h2 {
+#portfolio {
   color: rgb(128, 0, 70);
   text-align: center;
   font-family: "Raleway", Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
+  margin: auto auto 30px -55px;
 }
 
 div.bigCircle {
