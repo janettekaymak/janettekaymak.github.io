@@ -17,6 +17,7 @@ h1 {
     darkseagreen 0 0 8px,darkseagreen 0 0 9px,darkseagreen 0 0 10px;
 }
 h2{
+    color:grey;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -26,7 +27,7 @@ nav {
     margin: auto;
     max-width: 355px;
     min-height: 355px;
-    border: dotted 3px;
+    border: dotted 3px rgb(0,0,0, .5);
     border-radius: 300px;
     background: radial-gradient(black, black,rgb(243, 255, 219),
     rgb(226, 250, 178));
@@ -46,7 +47,7 @@ nav {
 }
 
 div.circle {
-    position: absolute;
+    position: relative;
     width: 117px;
     height: 117px;
     border-radius: 100px;
@@ -66,15 +67,15 @@ div.circle p{
     background-color: red;
     background-image: linear-gradient(to right, rgb(252, 40, 252), red,
            orangered);
-    margin: -3px auto auto 119px;
+    margin: -4px auto auto 117px;
     animation-name: red;
     animation-duration: 4s;
     animation-timing-function: linear;
   }
   
   @keyframes red {
-    0%  {left:73px; top:900px;}
-    100%{left:73px; top:500px;}
+    0%  {left: 0px; top:400px;}
+    100%{left: 0px; top:0px;}
   }
 
 #red:hover{
@@ -84,15 +85,15 @@ div.circle p{
 
 #orange {
     background: linear-gradient(to top, orangered, orange, rgb(255, 208, 0));
-    margin: -62px auto auto 221px;
+    margin: -177px auto auto 220px;
     animation-name: orange;
     animation-duration: 2s;
     animation-timing-function: linear;
   }
   
   @keyframes orange {
-    0%  {left:73px; top:900px;}
-    100%{left:73px; top:500px;}
+    0%  {left:0px; top:500px;}
+    100%{left:0px; top:0px;}
   }
 
 #orange:hover{
@@ -102,15 +103,15 @@ div.circle p{
 
 #yellow {
     background: linear-gradient(to top left, rgb(255, 208, 0), yellow, greenyellow);
-    margin: -181px auto auto 221px;
+    margin: -237px auto auto 220px;
     animation-name: yellow;
     animation-duration: 5s;
     animation-timing-function: linear;
   }
   
   @keyframes yellow {
-    0%  {left:73px; top: 100px;}
-    100%{left:73px; top:500px;}
+    0%  {left:0px; top:-500px;}
+    100%{left:0px; top:0px;}
   }
 
 #yellow:hover{
@@ -119,7 +120,7 @@ div.circle p{
 }
 
 #green {
-    margin: -241px auto auto 119px;
+    margin: -180px auto auto 119px;
     background: linear-gradient(to left,yellowgreen, green, teal );
     animation-name: green;
     animation-duration: 3s;
@@ -127,8 +128,8 @@ div.circle p{
   }
   
   @keyframes green {
-    0%  {left:73px; top: 100px;}
-    100%{left:73px; top:500px;}
+    0%  {left:0px; top: -500px;}
+    100%{left:0px; top:0px;}
   }
 
 #green:hover{
@@ -137,16 +138,16 @@ div.circle p{
 }
 
 #blue {
-    margin: -181px auto auto 15px;
+    margin: -61px auto auto 16px;
     background: linear-gradient( to bottom, teal, blue, blueviolet);
     animation-name: blue;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-timing-function: linear;
   }
   
   @keyframes blue {
-    0%  {left:73px; top: 100px;}
-    100%{left:73px; top:500px;}
+    0%  {left:0px; top: -500px;}
+    100%{left:0px; top:0px;}
   }
 
 #blue:hover{
@@ -155,7 +156,7 @@ div.circle p{
 }
 
 #purple {
-    margin: -62px auto auto 15px;
+    margin: -0px auto auto 15px;
     background: linear-gradient( to bottom right, blueviolet, purple, rgb(252, 40, 252));
     animation-name: purple;
     animation-duration: 3s;
@@ -163,8 +164,8 @@ div.circle p{
   }
   
   @keyframes purple {
-    0%  {left:73px; top:900px;}
-    100%{left:73px; top:500px;}
+    0%  {left:0px; top:900px;}
+    100%{left:0px; top:0px;}
   }
 
 #purple:hover{
@@ -172,6 +173,7 @@ div.circle p{
     transition: 1s;
 }
 footer{
+    height: 200px;
     background: purple;
     margin: 400px auto auto auto;
 }
