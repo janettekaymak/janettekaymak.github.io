@@ -1,220 +1,430 @@
 @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
 
-div.wrapper {
-    max-width: 767px;
-    background-color: rgb(238, 255, 205);
-    display: block;
-    margin: auto;
-    background-image: url(https://janettekaymak.github.io/zen-template/images/grass2.png);
- 
-}
-#pinkcactus1{
-   position: relative;
-   margin: -10px auto -50px -200px;
-   animation-name: pink;
-   animation-duration: 4s;
-   animation-timing-function: linear;
-   animation-iteration-count: infinite;
-   animation-direction: alternate;
+.roses img {
+  width: 100%;
 }
 
-@keyframes pink {
-  0%  {left:0px; top:0px;}
-  100%{left:700px; top:0px;}
+* {
+  box-sizing: border-box;
 }
-#pinkcactus2{
-  position: absolute;
-  margin: 0 -200px auto auto;
-  animation-name: pink2;
-  animation-duration: 4s;
+
+.roses {
+  float: left;
+  width: 11%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div.row {
+  margin: 30px auto -80px auto;
+}
+
+#r1,
+#r2,
+#r3,
+#r4,
+#r5,
+#r6,
+#r7,
+#r8,
+#r9 {
+  position: relative;
+  animation-duration: 10s;
   animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+  /*animation-iteration-count: infinite;*/
+  z-index: 3;
 }
 
-@keyframes pink2 {
- 0%  {right:0px; top:0px;}
- 100%{right:700px; top:0px;}
+#r1 {
+  animation-name: one;
+  animation-delay: 5s;
 }
-#banner{
-  display: none;
-  max-width: 100%;
-  opacity: .7;
+
+@keyframes one {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 1500px;
+  }
+}
+
+#r2 {
+  animation-name: one;
+  animation-delay: 7s;
+}
+
+@keyframes two {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 1500px;
+  }
+}
+
+#r3 {
+  animation-name: three;
+  animation-delay: 9s;
+}
+
+@keyframes three {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 1500px;
+  }
+}
+
+#r4 {
+  animation-name: four;
+  animation-delay: 11s;
+}
+
+@keyframes four {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 1500px;
+  }
+}
+
+#r5 {
+  animation-name: five;
+  animation-delay: 13s;
+}
+
+@keyframes five {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 1500px;
+  }
+}
+
+#r6 {
+  animation-name: six;
+  animation-delay: 15s;
+}
+
+@keyframes six {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 1500px;
+  }
+}
+
+#r7 {
+  animation-name: seven;
+  animation-delay: 17s;
+}
+
+@keyframes seven {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 1500px;
+  }
+}
+
+#r8 {
+  animation-name: eight;
+  animation-delay: 19s;
+}
+
+@keyframes eight {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 1500px;
+  }
+}
+
+#r9 {
+  animation-name: nine;
+  animation-delay: 21s;
+}
+
+@keyframes nine {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 1500px;
+  }
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////*/
+div.wrapper {
+  max-width: 767px;
+  background-color: rgb(238, 255, 205);
+  display: block;
+  margin: -30px auto auto auto;
+  background-image: url(https://janettekaymak.github.io/zen-template/images/grass2.png);
+
 }
 
 h1 {
-    text-align: center;
-    font-family: Reggae One, cursive;
-    font-size: 50px;
-    text-shadow: darkseagreen 0 0 1px,darkseagreen 0 0 2px,darkseagreen 0 0 3px,
-    darkseagreen 0 0 4px,darkseagreen 0 0 5px,darkseagreen 0 0 6px,darkseagreen 0 0 7px,
-    darkseagreen 0 0 8px,darkseagreen 0 0 9px,darkseagreen 0 0 10px;
+  padding: 60px 0 0 0;
+  text-align: center;
+  font-family: Reggae One, cursive;
+  font-size: 50px;
+  text-shadow: darkseagreen 0 0 1px, darkseagreen 0 0 2px, darkseagreen 0 0 3px,
+    darkseagreen 0 0 4px, darkseagreen 0 0 5px, darkseagreen 0 0 6px, darkseagreen 0 0 7px,
+    darkseagreen 0 0 8px, darkseagreen 0 0 9px, darkseagreen 0 0 10px;
 }
-h2{
-    color:grey;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+h2 {
+  color: grey;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto auto 100px auto;
 }
 
 div.bigCircle {
-    display: block;
-    margin: auto;
-    max-width: 360px;
-    min-height: 360px;
-    border: dotted 3px rgb(0,0,0, .0);
-    border-radius: 300px;
-    background: radial-gradient(black,rgb(243, 255, 219),
-    rgb(226, 250, 178));
+  display: block;
+  margin: auto;
+  max-width: 360px;
+  min-height: 360px;
+  border: dotted 3px rgb(0, 0, 0, .0);
+  border-radius: 300px;
+  background: radial-gradient(black, rgb(243, 255, 219),
+      rgb(226, 250, 178));
 }
-nav p a{
-    color:white;
-    text-decoration: none;
+
+nav p a {
+  color: white;
+  text-decoration: none;
 }
 
 #me {
-    opacity: .5;
-    display: block;
-    position: relative;
-    width: 125px;
-    border-radius: 150px;
-    margin: 112px auto auto 110px;
+  opacity: .5;
+  display: block;
+  position: relative;
+  width: 125px;
+  border-radius: 150px;
+  margin: 112px auto auto 110px;
 
 }
 
-#me:hover{
-    opacity: 1;
-    transition: 1s;
+#me:hover {
+  opacity: 1;
+  transition: 1s;
 }
 
 div.circle {
-    position: relative;
-    width: 117px;
-    height: 117px;
-    border-radius: 100px;
-    border: solid 1px;
+  position: relative;
+  width: 117px;
+  height: 117px;
+  border-radius: 100px;
+  border: solid 1px;
 }
 
-div.circle p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    padding: 20px;
-    color: white;
-    text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px,
+div.circle p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  text-shadow: black 0 0 1px, black 0 0 2px, black 0 0 3px,
     black 0 0 4px, black 0 0 5px, black 0 0 6px, black 0 0 7px;
 }
 
 #red {
-    background-color: red;
-    background-image: linear-gradient(to right, rgb(252, 40, 252), red,
-           orangered);
-    margin: 0px auto auto 115px;
-    animation-name: red;
-    animation-duration: 4s;
-    animation-timing-function: linear;
-  }
-  
-  @keyframes red {
-    0%  {left: 0px; top:400px;}
-    100%{left: 0px; top:0px;}
+  background-color: red;
+  background-image: linear-gradient(to right, rgb(252, 40, 252), red,
+      orangered);
+  margin: 0px auto auto 115px;
+  animation-name: red;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+}
+
+@keyframes red {
+  0% {
+    left: 0px;
+    top: 400px;
   }
 
-#red:hover{
-    box-shadow: 0 0 0 100px rgb(252, 40, 252, .5);
-    transition: 1s;
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+#red:hover {
+  box-shadow: 0 0 0 100px rgb(252, 40, 252, .5);
+  transition: 1s;
 }
 
 #orange {
-    background: linear-gradient(to top, orangered, orange, rgb(255, 208, 0));
-    margin: -184px auto auto 220px;
-    animation-name: orange;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-  }
-  
-  @keyframes orange {
-    0%  {left:0px; top:500px;}
-    100%{left:0px; top:0px;}
+  background: linear-gradient(to top, orangered, orange, rgb(255, 208, 0));
+  margin: -180px auto auto 220px;
+  animation-name: orange;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes orange {
+  0% {
+    left: 0px;
+    top: 500px;
   }
 
-#orange:hover{
-    box-shadow: 0 0 0 100px rgb(255, 69, 0, .5);
-    transition: 1s;
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+#orange:hover {
+  box-shadow: 0 0 0 100px rgb(255, 69, 0, .5);
+  transition: 1s;
 }
 
 #yellow {
-    background: linear-gradient(to top left, rgb(255, 208, 0), yellow, greenyellow);
-    margin: -241px auto auto 220px;
-    animation-name: yellow;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-  }
-  
-  @keyframes yellow {
-    0%  {left:0px; top:-500px;}
-    100%{left:0px; top:0px;}
+  background: linear-gradient(to top left, rgb(255, 208, 0), yellow, greenyellow);
+  margin: -239px auto auto 220px;
+  animation-name: yellow;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+}
+
+@keyframes yellow {
+  0% {
+    left: 0px;
+    top: -500px;
   }
 
-#yellow:hover{
-    box-shadow: 0 0 0 100px rgb(255, 208, 0, .5);
-    transition: 1s;
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+#yellow:hover {
+  box-shadow: 0 0 0 100px rgb(255, 208, 0, .5);
+  transition: 1s;
 }
 
 #green {
-    margin: -180px auto auto 114px;
-    background: linear-gradient(to left,yellowgreen, green, teal );
-    animation-name: green;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-  }
-  
-  @keyframes green {
-    0%  {left:0px; top: -500px;}
-    100%{left:0px; top:0px;}
+  margin: -180px auto auto 114px;
+  background: linear-gradient(to left, yellowgreen, green, teal);
+  animation-name: green;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+}
+
+@keyframes green {
+  0% {
+    left: 0px;
+    top: -500px;
   }
 
-#green:hover{
-    box-shadow: 0 0 0 100px rgb(173, 255, 47, .5);
-    transition: 1s;
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+#green:hover {
+  box-shadow: 0 0 0 100px rgb(173, 255, 47, .5);
+  transition: 1s;
 }
 
 #blue {
-    margin: -58px auto auto 8px;
-    background: linear-gradient( to bottom, teal, blue, blueviolet);
-    animation-name: blue;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-  }
-  
-  @keyframes blue {
-    0%  {left:0px; top: -500px;}
-    100%{left:0px; top:0px;}
+  margin: -55px auto auto 8px;
+  background: linear-gradient(to bottom, teal, blue, blueviolet);
+  animation-name: blue;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes blue {
+  0% {
+    left: 0px;
+    top: -500px;
   }
 
-#blue:hover{
-    box-shadow: 0 0 0 100px rgb(0, 128, 128, .5);
-    transition: 1s;
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+#blue:hover {
+  box-shadow: 0 0 0 100px rgb(0, 128, 128, .5);
+  transition: 1s;
 }
 
 #purple {
-    margin: 5px auto auto 8px;
-    background: linear-gradient( to bottom right, blueviolet, purple, rgb(252, 40, 252));
-    animation-name: purple;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-  }
-  
-  @keyframes purple {
-    0%  {left:0px; top:900px;}
-    100%{left:0px; top:0px;}
+  margin: 6px auto auto 8px;
+  background: linear-gradient(to bottom right, blueviolet, purple, rgb(252, 40, 252));
+  animation-name: purple;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+}
+
+@keyframes purple {
+  0% {
+    left: 0px;
+    top: 900px;
   }
 
-#purple:hover{
-    box-shadow: 0 0 0 100px rgb(138, 43, 226, .5);
-    transition: 1s;
+  100% {
+    left: 0px;
+    top: 0px;
+  }
 }
-footer{
-    height: 200px;
-    background: purple;
-    margin: 400px auto auto auto;
+
+#purple:hover {
+  box-shadow: 0 0 0 100px rgb(138, 43, 226, .5);
+  transition: 1s;
 }
-  
+
+footer {
+  height: 500px;
+  background: rgb(128, 0, 70);
+  margin: 200px auto auto auto;
+  border: 25px darkseagreen;
+  border-style: ridge none none none;
+}

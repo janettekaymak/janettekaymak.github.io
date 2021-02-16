@@ -1,0 +1,9 @@
+@media screen and (min-width: 768px){
+    
+    div.wrapper {
+        max-width: 900px;
+        border: ridge 25px darkseagreen;
+        border-radius: 25px;
+        margin-top: 0;
+      }
+}
