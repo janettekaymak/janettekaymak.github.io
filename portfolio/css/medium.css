@@ -7,9 +7,15 @@
     margin-top: 0;
   }
 
+  .roses {
+    width: 13%;
+    margin-left: 1.1%;
+  }
+
   #portfolio {
-    font-size: 45px;
-    margin: auto auto 70px -140px;
+    margin: -10px auto 100px auto;
+    font-size: 28px;
+
   }
 
 
@@ -18,11 +24,13 @@
   }
 
   #r8 {
-    margin: -20px -280px auto 280px;
+    margin-left: 220px;
+    margin-top: -20px;
   }
 
   #r9 {
-    margin: -75px 160px auto -160px;
+    margin-right: 220px;
+    margin-top: -20px;
   }
 
   #border1,
