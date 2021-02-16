@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
 
-body {
+div.wrapper {
+    max-width: 767px;
     background-color: rgb(238, 255, 205);
     display: block;
     margin: auto;
