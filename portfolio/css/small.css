@@ -8,6 +8,39 @@ div.wrapper {
     background-image: url(https://janettekaymak.github.io/zen-template/images/grass2.png);
  
 }
+#pinkcactus1{
+   position: relative;
+   margin: -10px auto -50px -200px;
+   animation-name: pink;
+   animation-duration: 4s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+@keyframes pink {
+  0%  {left:0px; top:0px;}
+  100%{left:700px; top:0px;}
+}
+#pinkcactus2{
+  position: absolute;
+  margin: 0 -200px auto auto;
+  animation-name: pink2;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes pink2 {
+ 0%  {right:0px; top:0px;}
+ 100%{right:700px; top:0px;}
+}
+#banner{
+  display: none;
+  max-width: 100%;
+  opacity: .7;
+}
 
 h1 {
     text-align: center;
