@@ -26,11 +26,11 @@ h2{
 div.bigCircle {
     display: block;
     margin: auto;
-    max-width: 355px;
-    min-height: 355px;
-    border: dotted 3px rgb(0,0,0, .5);
+    max-width: 360px;
+    min-height: 360px;
+    border: dotted 3px rgb(0,0,0, .0);
     border-radius: 300px;
-    background: radial-gradient(black, black,rgb(243, 255, 219),
+    background: radial-gradient(black,rgb(243, 255, 219),
     rgb(226, 250, 178));
 }
 nav p a{
@@ -44,7 +44,7 @@ nav p a{
     position: relative;
     width: 125px;
     border-radius: 150px;
-    margin: 112px auto auto 115px;
+    margin: 112px auto auto 110px;
 
 }
 
@@ -74,7 +74,7 @@ div.circle p{
     background-color: red;
     background-image: linear-gradient(to right, rgb(252, 40, 252), red,
            orangered);
-    margin: -5px auto auto 117px;
+    margin: 0px auto auto 115px;
     animation-name: red;
     animation-duration: 4s;
     animation-timing-function: linear;
@@ -92,7 +92,7 @@ div.circle p{
 
 #orange {
     background: linear-gradient(to top, orangered, orange, rgb(255, 208, 0));
-    margin: -177px auto auto 220px;
+    margin: -184px auto auto 220px;
     animation-name: orange;
     animation-duration: 2s;
     animation-timing-function: linear;
@@ -110,7 +110,7 @@ div.circle p{
 
 #yellow {
     background: linear-gradient(to top left, rgb(255, 208, 0), yellow, greenyellow);
-    margin: -237px auto auto 220px;
+    margin: -241px auto auto 220px;
     animation-name: yellow;
     animation-duration: 5s;
     animation-timing-function: linear;
@@ -127,7 +127,7 @@ div.circle p{
 }
 
 #green {
-    margin: -180px auto auto 119px;
+    margin: -180px auto auto 114px;
     background: linear-gradient(to left,yellowgreen, green, teal );
     animation-name: green;
     animation-duration: 3s;
@@ -145,7 +145,7 @@ div.circle p{
 }
 
 #blue {
-    margin: -61px auto auto 16px;
+    margin: -58px auto auto 8px;
     background: linear-gradient( to bottom, teal, blue, blueviolet);
     animation-name: blue;
     animation-duration: 2s;
@@ -163,7 +163,7 @@ div.circle p{
 }
 
 #purple {
-    margin: -0px auto auto 15px;
+    margin: 5px auto auto 8px;
     background: linear-gradient( to bottom right, blueviolet, purple, rgb(252, 40, 252));
     animation-name: purple;
     animation-duration: 3s;
