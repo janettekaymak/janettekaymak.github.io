@@ -18,9 +18,12 @@
 
   #portfolio {
     padding: 10px;
-    margin: -50px auto 70px auto;
+    margin: -50px auto 70px 40px;
     font-size: 28px;
+  }
 
+  div.bigCircle {
+    margin: -70px auto -70px auto;
   }
 
   div.row {
@@ -33,7 +36,7 @@
   }
 
   #r9 {
-    margin-right: 160px;
+    margin-right: 170px;
     margin-top: 30px;
   }
 
