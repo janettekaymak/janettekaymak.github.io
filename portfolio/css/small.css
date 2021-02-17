@@ -468,12 +468,12 @@ footer p{
 
 footer img{
   width: 80px;
-  border: ridge 15px rgb(143,188,143, 0);
+  border: solid 12.5px rgb(143,188,143, 0);
   border-radius: 50px;
 }
 
 footer img:hover{
-  border: ridge 15px rgb(143,188,143);
+  border: solid 12.5px rgb(73, 99, 73);
   border-radius: 50px;
   transition: 1s;
 }
