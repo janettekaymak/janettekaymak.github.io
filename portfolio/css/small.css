@@ -467,14 +467,13 @@ footer p{
 }
 
 footer img{
-  width: 80px;
   border: solid 12.5px rgb(143,188,143, 0);
-  border-radius: 50px;
+  border-radius: 60px;
 }
 
 footer img:hover{
-  border: solid 12.5px rgb(73, 99, 73);
-  border-radius: 50px;
+  border: solid 12.5px rgba(63, 105, 63, 0.5);
+  border-radius: 60px;
   transition: 1s;
 }
 
