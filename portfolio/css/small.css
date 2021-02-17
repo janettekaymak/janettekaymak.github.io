@@ -466,12 +466,14 @@ footer p{
   color: white;
 }
 
-#fbicon{
+footer img{
+  border: ridge 15px rgb(143,188,143, 0);
   border-radius: 50px;
 }
 
 footer img:hover{
-  width: 55px;
+  border: ridge 15px rgb(143,188,143);
+  border-radius: 50px;
   transition: 1s;
 }
 
