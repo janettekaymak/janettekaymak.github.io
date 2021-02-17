@@ -228,6 +228,9 @@ h1 {
     darkseagreen 0 0 4px, darkseagreen 0 0 5px, darkseagreen 0 0 6px, darkseagreen 0 0 7px,
     darkseagreen 0 0 8px, darkseagreen 0 0 9px, darkseagreen 0 0 10px;
 }
+h1.up{
+  margin-top: -70px;
+}
 
 h2{
   color: rgb(128, 0, 70);
