@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-body.pages{
-  display: grid;
-}
+
 .roses img {
   width: 100%;
 }
@@ -287,7 +285,7 @@ div.circle {
   border: solid 3px rgb(128, 0, 70);
 }
 
-div.circle p {
+div.circle p, .grid-box p {
   font-family: "Raleway", Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   padding: 20px;
