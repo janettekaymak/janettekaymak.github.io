@@ -220,10 +220,10 @@ div.wrapper {
 }
 
 h1 {
-  padding: 60px 0 0 0;
+  padding: 60px 5px 0 5px;
   text-align: center;
   font-family: Reggae One, cursive;
-  font-size: 50px;
+  font-size: 45px;
   text-shadow: darkseagreen 0 0 1px, darkseagreen 0 0 2px, darkseagreen 0 0 3px,
     darkseagreen 0 0 4px, darkseagreen 0 0 5px, darkseagreen 0 0 6px, darkseagreen 0 0 7px,
     darkseagreen 0 0 8px, darkseagreen 0 0 9px, darkseagreen 0 0 10px;
@@ -467,6 +467,7 @@ footer p{
 }
 
 footer img{
+  width: 80px;
   border: ridge 15px rgb(143,188,143, 0);
   border-radius: 50px;
 }
