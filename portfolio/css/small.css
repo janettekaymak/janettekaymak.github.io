@@ -270,8 +270,8 @@ nav p a {
   position: relative;
   width: 125px;
   border-radius: 150px;
-  margin: 112px auto auto 110px;
-  border: solid 3px rgb(128, 0, 70);
+  margin: 112px auto auto 115px;
+  border: solid 3px grey;
 
 }
 
@@ -285,7 +285,7 @@ div.circle {
   width: 117px;
   height: 117px;
   border-radius: 100px;
-  border: solid 3px rgb(128, 0, 70);
+  border: solid 3px grey;
 }
 
 div.circle p, .grid-box p {
@@ -301,7 +301,7 @@ div.circle p, .grid-box p {
   background-color: red;
   background-image: linear-gradient(to right, rgb(252, 40, 252), red,
       orangered);
-  margin: 0px auto auto 114px;
+  margin: -1px auto auto 119px;
   animation-name: red;
   animation-duration: 4s;
   animation-timing-function: linear;
@@ -326,7 +326,7 @@ div.circle p, .grid-box p {
 
 #orange {
   background: linear-gradient(to top, orangered, orange, rgb(255, 208, 0));
-  margin: -176px auto auto 219px;
+  margin: -176px auto auto 224px;
   animation-name: orange;
   animation-duration: 2s;
   animation-timing-function: linear;
@@ -351,7 +351,7 @@ div.circle p, .grid-box p {
 
 #yellow {
   background: linear-gradient(to top left, rgb(255, 208, 0), yellow, greenyellow);
-  margin: -238px auto auto 220px;
+  margin: -238px auto auto 225px;
   animation-name: yellow;
   animation-duration: 5s;
   animation-timing-function: linear;
@@ -375,7 +375,7 @@ div.circle p, .grid-box p {
 }
 
 #green {
-  margin: -177px auto auto 114px;
+  margin: -177px auto auto 119px;
   background: linear-gradient(to left, yellowgreen, green, teal);
   animation-name: green;
   animation-duration: 3s;
@@ -400,7 +400,7 @@ div.circle p, .grid-box p {
 }
 
 #blue {
-  margin: -57px auto auto 8px;
+  margin: -57px auto auto 13px;
   background: linear-gradient(to bottom, teal, blue, blueviolet);
   animation-name: blue;
   animation-duration: 2s;
@@ -425,7 +425,7 @@ div.circle p, .grid-box p {
 }
 
 #purple {
-  margin: 2px auto auto 10px;
+  margin: 2px auto auto 15px;
   background: linear-gradient(to bottom right, blueviolet, purple, rgb(252, 40, 252));
   animation-name: purple;
   animation-duration: 3s;
@@ -467,12 +467,11 @@ footer p{
 }
 
 #fbicon{
-  border:darkseagreen dashed 3px;
   border-radius: 50px;
 }
 
 footer img:hover{
-  width: 75px;
+  width: 55px;
   transition: 1s;
 }
 
