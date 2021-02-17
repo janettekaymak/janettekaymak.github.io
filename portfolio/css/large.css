@@ -16,8 +16,9 @@
         font-size: 38px;
         margin-top: 50px;;
       }
-      #portfolio:nth-child(2) {
-          margin-left: 50px;
+     
+      div.bigCircle {
+        margin: -70px auto;
       }
 
       #r8 {
