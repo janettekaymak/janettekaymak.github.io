@@ -38,7 +38,7 @@ div.row {
 #r8,
 #r9 {
   position: relative;
-  animation-duration: 10s;
+  animation-duration: 7s;
   animation-timing-function: linear;
   /*animation-iteration-count: infinite;*/
   z-index: 3;
@@ -166,7 +166,7 @@ div.row {
 #r8 {
   float: left;
   animation-name: eight;
-  animation-delay: 19s;
+  animation-delay: 21s;
   margin-left: 60px;
   z-index: 2;
 
@@ -187,7 +187,7 @@ div.row {
 #r9 {
   float: right;
   animation-name: nine;
-  animation-delay: 21s;
+  animation-delay: 23s;
   margin-right: 60px;
   z-index: 2;
 }
@@ -467,12 +467,12 @@ footer p{
 }
 
 footer img{
-  border: solid 12.5px rgb(143,188,143, 0);
+  border: solid 11px rgb(143,188,143, 0);
   border-radius: 60px;
 }
 
 footer img:hover{
-  border: solid 12.5px rgba(63, 105, 63, 0.5);
+  border: solid 11px rgb(82, 95, 82);
   border-radius: 60px;
   transition: 1s;
 }
