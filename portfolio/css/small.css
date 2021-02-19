@@ -166,7 +166,7 @@ div.row {
 #r8 {
   float: left;
   animation-name: eight;
-  animation-delay: 21s;
+  animation-delay: 19s;
   margin-left: 60px;
   z-index: 2;
 
@@ -187,7 +187,7 @@ div.row {
 #r9 {
   float: right;
   animation-name: nine;
-  animation-delay: 23s;
+  animation-delay: 21s;
   margin-right: 60px;
   z-index: 2;
 }
