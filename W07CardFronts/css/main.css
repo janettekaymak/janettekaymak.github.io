@@ -126,15 +126,16 @@
 
 div.button{
   width: 360px;
-  padding: 10px 57px;
+  padding: 30px 60px;
 }
 
 
 button{
+  width: 180px;
   padding: 10px;
   background-color: #bada55;
-  border-radius: 10px;
-  border: solid tan 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 0 15px rgb(209, 165, 108), 0 0 0 17px black;
 }
 button a{
   text-decoration: none;
