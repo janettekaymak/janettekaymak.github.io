@@ -124,18 +124,21 @@
   margin-left: 100%;
 }
 
-h1{
+h1 {
   padding: 0 40px;
 }
-h2{
+
+h2 {
   padding: 0 80px 20px 80px;
 }
-h1, h2{
-  color:rgb(240, 185, 113);
-  text-shadow: 0 0 1px rgb(56, 28, 16), 0 0 1px rgb(56, 28, 16), 0 0 1px rgb(56, 28, 16), 0 0 1px rgb(56, 28, 16), 0 0 1px rgb(56, 28, 16), 
-  0 0 1px rgb(56, 28, 16), 0 0 1px rgb(56, 28, 16), 0 0 1px rgb(56, 28, 16), 0 0 1px rgb(56, 28, 16), 
-  0 0 1px rgb(56, 28, 16), 0 0 1px rgb(56, 28, 16),
-  0 0 1px rgb(56, 28, 16), 0 0 7px rgb(56, 28, 16);
+
+h1,
+h2 {
+  color: rgb(240, 185, 113);
+  text-shadow: 0 0 1px rgb(56, 28, 16), 0 0 1px rgb(56, 28, 16), 0 0 1px rgb(56, 28, 16), 0 0 1px rgb(56, 28, 16), 0 0 1px rgb(56, 28, 16),
+    0 0 1px rgb(56, 28, 16), 0 0 1px rgb(56, 28, 16), 0 0 1px rgb(56, 28, 16), 0 0 1px rgb(56, 28, 16),
+    0 0 1px rgb(56, 28, 16), 0 0 1px rgb(56, 28, 16),
+    0 0 1px rgb(56, 28, 16), 0 0 7px rgb(56, 28, 16);
 }
 
 div.button {
