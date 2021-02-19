@@ -124,4 +124,21 @@
   margin-left: 100%;
 }
 
+div.button{
+  width: 360px;
+  padding: 10px 60px;
+}
+
+
+button{
+  padding: 10px;
+  background-color: #bada55;
+  border-radius: 10px;
+  border: solid tan 10px;
+}
+button a{
+  text-decoration: none;
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=main.css.map *//*# sourceMappingURL=main.css.map */
