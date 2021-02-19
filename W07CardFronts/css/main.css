@@ -9,7 +9,7 @@
   padding: 0;
 }
 
-.card {
+.card, .card3 {
   border: 1px solid grey;
   height: 350px;
   width: 250px;
@@ -18,9 +18,14 @@
   box-shadow: 2px 2px 4px grey;
 }
 
-.card-front {
+.card-front, .card-front3 {
   padding: 0.5em;
   font-family: sans-serif;
+}
+
+.card-front3{
+  color: rgb(107, 1, 1);
+  border: 2px dotted rgb(107, 1, 1);
 }
 
 .icon {
@@ -122,3 +127,11 @@
 .offset-8 {
   margin-left: 100%;
 }/*# sourceMappingURL=main.css.map */
+
+img{
+  margin-left:7px;
+}
+
+#lonely{
+  margin-right: -190px;
+}
