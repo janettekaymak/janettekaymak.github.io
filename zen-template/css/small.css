@@ -241,10 +241,12 @@ div.benefits h3 {
 }
 
 #cover4 {
+    width: 360px;
+    height: 325px;
     display: block;
     position: absolute;
-    margin-top: -329px;
-    margin-left: -6px;
+    margin-top: -349px;
+    margin-left: -14px;
 }
 
 #block5 {
