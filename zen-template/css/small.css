@@ -145,12 +145,12 @@ div.preamble h3 {
     margin-left: 40px;
 }
 
-#cover1 {
+svg.cover1 {
     display: block;
-    width: 352px;
+    width: 350px;
     position: absolute;
-    margin-top: -615px;
-    margin-left: 14px;
+    margin-top: -565px;
+    margin-left: 56px;
 
 }
 
@@ -309,7 +309,7 @@ svg.cover5 {
     fill: lightgrey;
   }
 
-#cover1:hover,
+svg.cover1:hover,
 #cover2:hover,
 #cover3:hover,
 #cover4:hover,
