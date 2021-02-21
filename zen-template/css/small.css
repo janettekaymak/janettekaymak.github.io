@@ -150,7 +150,7 @@ svg.cover1 {
     width: 350px;
     position: absolute;
     margin-top: -565px;
-    margin-left: 56px;
+    margin-left: 57.5px;
 
 }
 
@@ -216,6 +216,7 @@ div.participation h3 {
     margin-left: 15px;
     margin-top: -480px;
     width: 310px;
+    border-radius: 10px;
 }
 
 #block4 {
