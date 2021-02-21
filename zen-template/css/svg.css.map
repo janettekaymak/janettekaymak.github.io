@@ -1,7 +1,1 @@
-{
-    "version": 3,
-    "sources": ["svg.scss"],
-    "names": [],
-    "mappings": "AAAA,qBAAA;AAGA,qBAAA;AASA;EACE,UATY;AAAd;;AAWA;EACE,aAVY;AAEd;;AAUA;EACE,aAdY;AAOd;;AASA;EACE,aAfY;AASd;;AAQA;EACE,eAjBY;AAYd;;AAOA;EACE,aAAA;AAJF;;AAMA;EACE,kBAAA;EACA,YAAA;EACA,yBAAA;AAHF",
-    "file": "svg.css"
-}
+{"version":3,"sources":["svg.scss"],"names":[],"mappings":"AAAA,qBAAA;AAGA,qBAAA;AASA;EACE,UATY;AAAd;;AAWA;EACE,aAVY;AAEd;;AAUA;EACE,aAdY;AAOd;;AASA;EACE,aAfY;AASd;;AAQA;EACE,eAjBY;AAYd;;AAOA;EACE,aAAA;AAJF;;AAMA;EACE,kBAAA;EACA,YAAA;EACA,yBAAA;AAHF","file":"svg.css"}

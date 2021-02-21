@@ -23,3 +23,9 @@
 body {
   display: flex;
 }
+
+img {
+  position: absolute;
+  width: 271px;
+  margin: 0px auto auto 5px;
+}/*# sourceMappingURL=svg.css.map */
