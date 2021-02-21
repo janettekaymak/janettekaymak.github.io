@@ -20,12 +20,22 @@
   fill: lightgrey;
 }
 
-body {
-  display: flex;
+.redcolor1 {
+  fill: #9d2c4e;
 }
 
-img {
-  position: absolute;
-  width: 271px;
-  margin: 0px auto auto 5px;
+.redcolor2 {
+  fill: #9c2343;
+}
+
+.redcolor3 {
+  fill: #aa3553;
+}
+
+.redcolor4 {
+  fill: #a11d3e;
+}
+
+.back2 {
+  fill: #dcc0c7;
 }/*# sourceMappingURL=svg.css.map */

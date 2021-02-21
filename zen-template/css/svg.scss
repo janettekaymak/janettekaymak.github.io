@@ -7,29 +7,50 @@ $brickcolor3: #808080;
 $brickcolor2: #717171;
 $brickcolor4: dimgrey;
 $brickstroke: lightgrey;
+$redcolor1: #9d2c4e;
+$redcolor4: #a11d3e;
+$redcolor3: #aa3553;
+$redcolor2: #9c2343;
+$redstroke: #dcc0c7;
 
 //////////////////////
 
 .brickcolor1 {
   fill: $brickcolor1;
 }
+
 .brickcolor2 {
   fill: $brickcolor2;
 }
+
 .brickcolor3 {
   fill: $brickcolor3;
 }
+
 .brickcolor4 {
   fill: $brickcolor4;
 }
+
 .back {
   fill: $brickstroke;
 }
-body {
-  display: flex;
+
+.redcolor1 {
+  fill: $redcolor1;
 }
-img {
-  position: absolute;
-  width: 271px;
-  margin: 0px auto auto 5px;
+
+.redcolor2 {
+  fill: $redcolor2;
+}
+
+.redcolor3 {
+  fill: $redcolor3;
+}
+
+.redcolor4 {
+  fill: $redcolor4;
+}
+
+.back2 {
+  fill: $redstroke;
 }
