@@ -182,11 +182,11 @@ div.explanation h3 {
     line-height: 1em;
 }
 
-#cover2 {
+svg.cover2 {
     display: block;
     width: 297px;
-    margin-top: -480px;
-    margin-left: -22px;
+    margin-top: -494px;
+    margin-left: -5px;
 }
 
 /*BRICK COLORS PINKS*/
@@ -333,7 +333,7 @@ svg.cover5 {
   }
 
 svg.cover1:hover,
-#cover2:hover,
+svg.cover2:hover,
 #cover3:hover,
 #cover4:hover,
 svg.cover5:hover {
