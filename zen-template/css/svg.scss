@@ -1,7 +1,6 @@
 /*BRICK COLORS GREYS*/
 //variables
 
-/*BRICK COLORS GREYS*/
 $brickcolor1: grey;
 $brickcolor3: #808080;
 $brickcolor2: #717171;
@@ -12,6 +11,13 @@ $redcolor4: #a11d3e;
 $redcolor3: #aa3553;
 $redcolor2: #9c2343;
 $redstroke: #dcc0c7;
+$pinkcolor1: #ff9ece;
+$pinkcolor3: #ffa5d2;
+$pinkcolor2: #ffacd6;
+$pinkcolor4: #ffb4da;
+$pinkstroke: grey;
+
+//old pinkstroke color #fff8fb
 
 //////////////////////
 
@@ -54,3 +60,21 @@ $redstroke: #dcc0c7;
 .back2 {
   fill: $redstroke;
 }
+//////////////////////
+
+.pinkcolor1 {
+  fill: $pinkcolor1;
+}
+.pinkcolor2 {
+  fill: $pinkcolor2;
+}
+.pinkcolor3 {
+  fill: $pinkcolor3;
+}
+.pinkcolor4 {
+  fill: $pinkcolor4;
+}
+.pinkback {
+  fill: $pinkstroke;
+}
+

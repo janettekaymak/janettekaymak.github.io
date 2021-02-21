@@ -1,5 +1,4 @@
 /*BRICK COLORS GREYS*/
-/*BRICK COLORS GREYS*/
 .brickcolor1 {
   fill: grey;
 }
@@ -38,4 +37,24 @@
 
 .back2 {
   fill: #dcc0c7;
+}
+
+.pinkcolor1 {
+  fill: #ff9ece;
+}
+
+.pinkcolor2 {
+  fill: #ffacd6;
+}
+
+.pinkcolor3 {
+  fill: #ffa5d2;
+}
+
+.pinkcolor4 {
+  fill: #ffb4da;
+}
+
+.pinkback {
+  fill: grey;
 }/*# sourceMappingURL=svg.css.map */

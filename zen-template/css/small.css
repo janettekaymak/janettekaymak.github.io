@@ -189,6 +189,28 @@ div.explanation h3 {
     margin-left: -22px;
 }
 
+/*BRICK COLORS PINKS*/
+.pinkcolor1 {
+    fill: #ff9ece;
+  }
+  
+  .pinkcolor2 {
+    fill: #ffacd6;
+  }
+  
+  .pinkcolor3 {
+    fill: #ffa5d2;
+  }
+  
+  .pinkcolor4 {
+    fill: #ffb4da;
+  }
+  
+  .pinkback {
+    fill: #fff8fb;
+  }
+  
+
 #block3 {
     margin-top: -116px;
     margin-left: -10px;
