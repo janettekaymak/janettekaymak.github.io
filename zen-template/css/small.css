@@ -279,19 +279,39 @@ div.requirements h3 {
     text-align: left;
 }
 
-#cover5 {
+svg.cover5 {
     display: block;
     width: 275px;
     position: absolute;
-    margin-top: -918px;
-    margin-left: 52px;
+    margin-top: -916px;
+    margin-left: 54px;
 }
+
+.brickcolor1 {
+    fill: grey;
+  }
+  
+  .brickcolor2 {
+    fill: #717171;
+  }
+  
+  .brickcolor3 {
+    fill: #808080;
+  }
+  
+  .brickcolor4 {
+    fill: dimgrey;
+  }
+  
+  .back {
+    fill: lightgrey;
+  }
 
 #cover1:hover,
 #cover2:hover,
 #cover3:hover,
 #cover4:hover,
-#cover5:hover {
+svg.cover5:hover {
     opacity: 0;
     transition: 1.5s;
 }

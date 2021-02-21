@@ -127,9 +127,8 @@
         line-height: 1em;
     }
 
-    #cover5 {
-        margin-top: -918px;
-        margin-left: 440px;
+    svg.cover5 {
+        margin-left: 442px;
     }
 
     aside.sidebar {
