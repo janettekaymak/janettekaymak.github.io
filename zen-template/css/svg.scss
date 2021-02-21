@@ -1,0 +1,35 @@
+/*BRICK COLORS GREYS*/
+//variables
+
+/*BRICK COLORS GREYS*/
+$brickcolor1: grey;
+$brickcolor3: #808080;
+$brickcolor2: #717171;
+$brickcolor4: dimgrey;
+$brickstroke: lightgrey;
+
+//////////////////////
+
+.brickcolor1 {
+  fill: $brickcolor1;
+}
+.brickcolor2 {
+  fill: $brickcolor2;
+}
+.brickcolor3 {
+  fill: $brickcolor3;
+}
+.brickcolor4 {
+  fill: $brickcolor4;
+}
+.back {
+  fill: $brickstroke;
+}
+body {
+  display: flex;
+}
+img {
+  position: absolute;
+  width: 271px;
+  margin: 0px auto auto 5px;
+}
