@@ -53,34 +53,34 @@
     }
 
     .preamble {
-        margin-top: -580px;
+        margin-top: -605px;
         margin-bottom: -250px;
-        margin-left: 82px;
+        margin-left: 79px;
     }
 
     svg.cover1 {
-        margin-left: 68.5px;
+        margin-left: 64px;
     }
 
-    #block2 {
+    svg.block2 {
         margin-left: 410px;
         width: 360px;
         margin-top: -460px;
     }
 
     .explanation {
-        margin-top: -685px;
+        margin-top: -745px;
         margin-bottom: -250px;
-        margin-left: 450px;
+        margin-left: 445px;
     }
 
     .explanation p:nth-child(3) {
         width: 160px;
     }
 
-    #cover2 {
-        margin-top: -480px;
-        margin-left: -23px;
+    svg.cover2 {
+        margin-top: -473px;
+        margin-left: -12px;
     }
 
     #block3 {

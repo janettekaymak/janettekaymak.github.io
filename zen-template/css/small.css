@@ -114,7 +114,7 @@ h3 {
 
 svg.block1 {
     padding: 20px 5px 100px 0;
-    margin-left: -6px;
+    margin-left: -10px;
 }
 
 .preamble {
@@ -150,14 +150,13 @@ svg.cover1 {
     width: 350px;
     position: absolute;
     margin-top: -590px;
-    margin-left: 69px;
+    margin-left: 64px;
 
 }
 
-#block2 {
-    margin-left: -6px;
-    width: 360px;
-    margin-top: -20px;
+svg.block2 {
+ padding: 0 0  200px 0;
+ margin: auto auto auto -25px;
 }
 
 .explanation {
@@ -166,8 +165,8 @@ svg.cover1 {
     font-size: 17.5px;
     width: 241px;
     position: absolute;
-    margin-top: -685px;
-    margin-left: 34px;
+    margin-top: -745px;
+    margin-left: 30px;
     line-height: 1em;
 }
 
@@ -183,10 +182,9 @@ div.explanation h3 {
 }
 
 svg.cover2 {
-    display: block;
     width: 297px;
-    margin-top: -494px;
-    margin-left: -5px;
+    margin-top: -475px;
+    margin-left: -12px;
 }
 
 /*BRICK COLORS PINKS*/
