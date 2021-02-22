@@ -107,7 +107,7 @@ header::after {
 }
 
 h3 {
-    font-family: 'Merienda'cursive;
+    font-family: 'Merienda', cursive;
     margin-bottom: -10px;
     text-align: center;
 }
@@ -153,6 +153,25 @@ svg.cover1 {
     margin-left: 64px;
 
 }
+.redcolor1 {
+    fill: #9d2c4e;
+  }
+  
+  .redcolor2 {
+    fill: #9c2343;
+  }
+  
+  .redcolor3 {
+    fill: #aa3553;
+  }
+  
+  .redcolor4 {
+    fill: #a11d3e;
+  }
+  
+  .back2 {
+    fill: #dcc0c7;
+  }
 
 svg.block2 {
  padding: 0 0  200px 0;
@@ -205,7 +224,7 @@ svg.cover2 {
   }
   
   .pinkback {
-    fill: #fff8fb;
+    fill: grey;
   }
   
 
@@ -428,22 +447,4 @@ p.zelda:nth-child(3) {
     100%{left:100px; top:0px;}
   }
 
-  .redcolor1 {
-    fill: #9d2c4e;
-  }
-  
-  .redcolor2 {
-    fill: #9c2343;
-  }
-  
-  .redcolor3 {
-    fill: #aa3553;
-  }
-  
-  .redcolor4 {
-    fill: #a11d3e;
-  }
-  
-  .back2 {
-    fill: #dcc0c7;
   
