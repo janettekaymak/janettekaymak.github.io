@@ -3,9 +3,9 @@
 
 body {
     background-color: darkseagreen;
-    background-image: url(https://janettekaymak.github.io/zen-template/images/grass2.png), 
-    linear-gradient(purple, rgb(123, 212, 247), white, lemonchiffon, darkseagreen, 
-    darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple, purple);
+    background-image: url(https://janettekaymak.github.io/zen-template/images/grass2.png),
+        linear-gradient(purple, rgb(123, 212, 247), white, lemonchiffon, darkseagreen,
+            darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple, purple);
 }
 
 div.page-wrapper {
@@ -35,8 +35,15 @@ div.page-wrapper {
 }
 
 @keyframes myfirst {
-    0% {left:-500px; top:0px;}
-    100% {left:120%; top:0px;}
+    0% {
+        left: -500px;
+        top: 0px;
+    }
+
+    100% {
+        left: 120%;
+        top: 0px;
+    }
 }
 
 #dragonright {
@@ -44,8 +51,15 @@ div.page-wrapper {
 }
 
 @keyframes mysecond {
-  0%{right:-500px; top:0px;}
-  100%{right:120%; top:0px;}
+    0% {
+        right: -500px;
+        top: 0px;
+    }
+
+    100% {
+        right: 120%;
+        top: 0px;
+    }
 }
 
 #banner {
@@ -59,7 +73,8 @@ p.link {
     margin-left: 20px;
     text-align: center;
 }
-p.link img{
+
+p.link img {
     width: 90px;
 }
 
@@ -67,6 +82,7 @@ p.link:nth-child(2) {
     margin-top: 10px;
     margin-bottom: -90px;
 }
+
 p.link:nth-child(1) {
     position: relative;
     animation-name: link;
@@ -74,13 +90,24 @@ p.link:nth-child(1) {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-  }
-  
-  @keyframes link {
-    0%  {left:-150px; top:0px;}
-    50% {left: -10px; top:-80px;}
-    100%{left:130px; top:0px;}
-  }
+}
+
+@keyframes link {
+    0% {
+        left: -150px;
+        top: 0px;
+    }
+
+    50% {
+        left: -10px;
+        top: -80px;
+    }
+
+    100% {
+        left: 130px;
+        top: 0px;
+    }
+}
 
 section h1,
 section h2 {
@@ -156,29 +183,30 @@ svg.cover1 {
     margin-left: 64px;
 
 }
+
 .redcolor1 {
     fill: #9d2c4e;
-  }
-  
-  .redcolor2 {
+}
+
+.redcolor2 {
     fill: #9c2343;
-  }
-  
-  .redcolor3 {
+}
+
+.redcolor3 {
     fill: #aa3553;
-  }
-  
-  .redcolor4 {
+}
+
+.redcolor4 {
     fill: #a11d3e;
-  }
-  
-  .back2 {
+}
+
+.back2 {
     fill: #dcc0c7;
-  }
+}
 
 svg.block2 {
- padding: 0 0  200px 0;
- margin: auto auto auto -25px;
+    padding: 0 0 200px 0;
+    margin: auto auto auto -25px;
 }
 
 .explanation {
@@ -212,37 +240,37 @@ svg.cover2 {
 /*BRICK COLORS PINKS*/
 .pinkcolor1 {
     fill: #ff9ece;
-  }
-  
-  .pinkcolor2 {
-    fill: #ffacd6;
-  }
-  
-  .pinkcolor3 {
-    fill: #ffa5d2;
-  }
-  
-  .pinkcolor4 {
-    fill: #ffb4da;
-  }
-  
-  .pinkback {
-    fill: grey;
-  }
-  
+}
 
-#block3 {
-    margin-top: -116px;
-    margin-left: -10px;
+.pinkcolor2 {
+    fill: #ffacd6;
+}
+
+.pinkcolor3 {
+    fill: #ffa5d2;
+}
+
+.pinkcolor4 {
+    fill: #ffb4da;
+}
+
+.pinkback {
+    fill: grey;
+}
+
+
+svg.block3 {
+    margin: -116px auto 50px -10px;
 }
 
 div.participation {
     font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
     position: absolute;
-    width: 280px;
+    text-align: justify;
+    width: 250px;
     font-size: 16px;
-    margin-top: -500px;
-    margin-left: 32px;
+    margin-top: -585px;
+    margin-left: 45px;
 }
 
 div.participation h3 {
@@ -255,10 +283,11 @@ div.participation h3 {
 #cover3 {
     display: block;
     position: absolute;
-    margin-left: 15px;
-    margin-top: -482px;
-    width: 310px;
-    border-radius: 10px;
+    margin-left: 29px;
+    margin-top: -565px;
+    width: 281px;
+    height: 471px;
+    border-radius: 20px;
 }
 
 #block4 {
@@ -284,8 +313,6 @@ div.benefits h3 {
 }
 
 #cover4 {
-    width: 360px;
-    height: 325px;
     display: block;
     position: absolute;
     margin-top: -349px;
@@ -334,23 +361,23 @@ svg.cover5 {
 
 .brickcolor1 {
     fill: grey;
-  }
-  
-  .brickcolor2 {
+}
+
+.brickcolor2 {
     fill: #717171;
-  }
-  
-  .brickcolor3 {
+}
+
+.brickcolor3 {
     fill: #808080;
-  }
-  
-  .brickcolor4 {
+}
+
+.brickcolor4 {
     fill: dimgrey;
-  }
-  
-  .back {
+}
+
+.back {
     fill: lightgrey;
-  }
+}
 
 svg.cover1:hover,
 svg.cover2:hover,
@@ -439,17 +466,35 @@ p.zelda:nth-child(3) {
     animation-duration: 8s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-  }
-p.zelda img{
+}
+
+p.zelda img {
     width: 180px;
 }
-  
-  @keyframes zelda {
-    0%  {left:-10px; top:0px;}
-    35% {left:180px; top:0px;}
-    50% {left:180px; top:80px;}
-    85% {left:-10px; top:80px;}
-    100%{left:-10px; top:0px;}
-  }
 
-  
+@keyframes zelda {
+    0% {
+        left: -10px;
+        top: 0px;
+    }
+
+    35% {
+        left: 180px;
+        top: 0px;
+    }
+
+    50% {
+        left: 180px;
+        top: 80px;
+    }
+
+    85% {
+        left: -10px;
+        top: 80px;
+    }
+
+    100% {
+        left: -10px;
+        top: 0px;
+    }
+}
