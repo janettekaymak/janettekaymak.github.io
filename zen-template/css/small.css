@@ -59,6 +59,9 @@ p.link {
     margin-left: 20px;
     text-align: center;
 }
+p.link img{
+    width: 90px;
+}
 
 p.link:nth-child(2) {
     margin-top: 10px;
@@ -74,9 +77,9 @@ p.link:nth-child(1) {
   }
   
   @keyframes link {
-    0%  {left:-120px; top:0px;}
-    50% {left: -10px; top:-100px;}
-    100%{left:100px; top:0px;}
+    0%  {left:-150px; top:0px;}
+    50% {left: -10px; top:-80px;}
+    100%{left:130px; top:0px;}
   }
 
 section h1,
@@ -433,18 +436,20 @@ p.zelda:nth-child(3) {
 p.zelda:nth-child(3) {
     position: relative;
     animation-name: zelda;
-    animation-duration: 4s;
+    animation-duration: 8s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
   }
+p.zelda img{
+    width: 180px;
+}
   
   @keyframes zelda {
     0%  {left:-10px; top:0px;}
-    25% {left:10px; top:40px;}
-    50% {left:40px; top:0px;}
-    75% {left:80px; top:40px;}
-    100%{left:100px; top:0px;}
+    35% {left:180px; top:0px;}
+    50% {left:180px; top:80px;}
+    85% {left:-10px; top:80px;}
+    100%{left:-10px; top:0px;}
   }
 
   

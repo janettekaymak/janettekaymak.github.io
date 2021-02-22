@@ -22,7 +22,7 @@
     }
 
     section h1 {
-        margin-top: -260px;
+        margin-top: -170px;
         margin-left: 25px;
         text-align: left;
     }
@@ -65,7 +65,7 @@
     svg.block2 {
         margin-left: 410px;
         width: 360px;
-        margin-top: -460px;
+        margin-top: -580px;
     }
 
     .explanation {
@@ -84,33 +84,33 @@
     }
 
     #block3 {
-        margin-top: -302px;
-        margin-left: 35px;
+        margin-top: -222px;
+        margin-left: 0px;
     }
 
     div.participation {
         margin-top: -500px;
-        margin-left: 75px;
+        margin-left: 45px;
     }
 
     #cover3 {
-        margin-left: 59px;
+        margin-left: 25px;
         margin-top: -482px;
     }
 
     #block4 {
         position: absolute;
-        margin-top: -355px;
+        margin-top: -410px;
         margin-left: 399px;
     }
 
     div.benefits {
-        margin-top: -310px;
+        margin-top: -365px;
         margin-left: 470px;
     }
 
     #cover4 {
-        margin-top: -362px;
+        margin-top: -417px;
         margin-left: 390px;
     }
 
