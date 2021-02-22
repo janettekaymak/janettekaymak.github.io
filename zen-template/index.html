@@ -211,10 +211,12 @@
 				<rect width="90" height="110" x="241" y="360" rx="40" fill="url(#my3pattern)" stroke="black"
 					stroke-width="2" />
 				<rect width="61" height="95" x="255" y="375" rx="30" />
-				<rect width="90" height="40" x="241" y="432" rx="5" fill="url(#my3pattern)" stroke="black" stroke-width="2" />
+				<rect width="90" height="40" x="241" y="432" rx="5" fill="url(#my3pattern)" stroke="black"
+					stroke-width="2" />
 				<rect width="81" height="100" x="245" y="365" rx="40" fill="yellow" opacity=".3" />
 				<rect width="40" height="45" x="265" y="420" fill="crimson" rx="30" />
-				<rect width="8" height="15" x="280" y="445" fill="blue" rx="10" stroke="darkturquoise" stroke-width="2" />
+				<rect width="8" height="15" x="280" y="445" fill="blue" rx="10" stroke="darkturquoise"
+					stroke-width="2" />
 
 				<!--flame-->
 				<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -390,7 +392,34 @@
 			</p>
 		</div>
 		<img src="images/cover3A.png" id="cover3" alt="grass cover">
-		<div> <img src="images/block4fish2.png" id="block4" alt="blue pond with koi fish"></div>
+		<!--block4pond-->
+		<svg width="360" height="350" x="0" y="0" class="block4">
+			<defs>
+				<!--define grass pattern-->
+				<pattern id="grassPattern" patternUnits="userSpaceOnUse" x="0" y="0" height="50" width="30">
+					<line x1="0" y1="0" x2="15" y2="50" style="stroke:darkolivegreen;stroke-width:1" />
+					<line x1="15" y1="10" x2="15" y2="50" style="stroke:darkolivegreen;stroke-width:1" />
+					<line x1="30" y1="5" x2="15" y2="50" style="stroke:darkslategray;stroke-width:1" />
+					<line x1="20" y1="0" x2="31" y2="37" style="stroke:green;stroke-width:1" />
+					<line x1="15" y1="0" x2="27.5" y2="45" style="stroke:darkolivegreen;stroke-width:1" />
+					<line x1="25" y1="0" x2="35" y2="30" style="stroke:darkslategrey;stroke-width:1" />
+				</pattern>
+			</defs>
+
+			<!--build block4 pond-->
+			<rect width="360" height="335" x="0" y="15" rx="10" fill="olivedrab" />
+			<rect width="360" height="335" x="0" y="15" rx="10" fill="url(#grassPattern)" />
+			<rect width="100" height="50" x="0" y="0" fill="url(#treePattern)" />
+			<rect width="100" height="50" x="250" y="0" fill="url(#treePattern)" />
+			<rect width="50" height="50" x="0" y="50" fill="url(#treePattern)" />
+			<rect width="50" height="50" x="300" y="50" fill="url(#treePattern)" />
+			<rect width="350" height="50" x="0" y="300" fill="url(#treePattern)" />
+			<rect width="310" height="263" x=20 y="35" rx="200" fill="#23c8ff" />
+			<rect width="310" height="263" x=20 y="35" rx="200" fill="url(#waterPattern)" />
+			<rect width="50" height="50" x="300" y="250" fill="url(#treePattern)" />
+			<rect width="50" height="50" x="0" y="250" fill="url(#treePattern)" />
+
+		</svg>
 		<div class="benefits" id="zen-benefits" role="article">
 
 			<h3>Benefits</h3>
