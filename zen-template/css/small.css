@@ -212,12 +212,12 @@ svg.block2 {
 .explanation {
     text-align: justify;
     font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
-    font-size: 17.5px;
+    font-size: 17px;
     width: 241px;
     position: absolute;
-    margin-top: -745px;
-    margin-left: 30px;
-    line-height: 1em;
+    margin-top: -750px;
+    margin-left: 28px;
+    line-height: 1.11em;
 }
 
 .explanation p:nth-child(3) {
@@ -233,8 +233,8 @@ div.explanation h3 {
 
 svg.cover2 {
     width: 297px;
-    margin-top: -476px;
-    margin-left: -10px;
+    margin-top: -493px;
+    margin-left: -9px;
 }
 
 /*BRICK COLORS PINKS*/
