@@ -154,9 +154,9 @@ svg.block1 {
     width: 235px;
     text-align: justify;
     position: absolute;
-    margin-top: -605px;
+    margin-top: -610px;
     margin-left: 78px;
-    line-height: 1em;
+    line-height: 1.1em;
 }
 
 p {
@@ -296,9 +296,10 @@ svg.block4 {
 
 div.benefits {
     font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+    font-weight: bolder;
     position: absolute;
     width: 220px;
-    font-size: 16px;
+    font-size: 16.5px;
     margin-top: -370px;
     margin-left: 60px;
     text-align: center;
