@@ -336,7 +336,8 @@ svg.cover1:hover,
 svg.cover2:hover,
 #cover3:hover,
 #cover4:hover,
-svg.cover5:hover {
+svg.cover5:hover,
+svg.cover6:hover {
     opacity: 0;
     transition: 1.5s;
 }
@@ -354,18 +355,18 @@ button {
 /*The following images were obtained free from Klipartz,
 then it was changed so as not to mimic Zelda #dude and #tilt-dude, #zelda, #wave */
 
+svg.block6{
+ display: block;
+ margin: 50px auto auto -50px;
+}
+
 aside.sidebar {
+    position: absolute;
     padding: 30px;
     color: white;
-    line-height: 1.3em;
-    max-width: 300px;
-    background-image: url(https://janettekaymak.github.io/zen-template/images/bricks2.png);
-    background-color: hsl(342, 100%, 25%);
-    background-position: center;
-    background-size: contain;
-    border-radius: 25px;
-    margin-top: 60px;
-    margin-left: 0px;
+    width: 250px;
+    margin-top: 98px;
+    margin-left: -2px;
 
 }
 
@@ -382,16 +383,24 @@ aside.sidebar a:hover {
 
 aside.sidebar h3 {
     font-family: 'Merienda', cursive;
-    font-size: 30px;
+    font-size: 29px;
     text-align: center;
     color: purple;
     background-color: rgb(248, 248, 255, .5);
     padding: 5px;
     border-radius: 5px;
+    line-height: .7em;
+
 }
 
 aside.sidebar ul li {
     font-family: sans-serif;
+}
+
+svg.cover6{
+    display: block;
+    position: absolute;
+    margin: -625px auto auto 20px;
 }
 
 #dog {

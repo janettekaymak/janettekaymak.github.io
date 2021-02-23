@@ -145,24 +145,24 @@
 							<rect width="23.5" height="6.5" x="13" y="7.5" rx="1" class="redcolor3" />
 
 							<rect width="12" height="6.5" x="38" y="7.5" class="redcolor4" />
-							</pattern>
+						</pattern>
 
-							<!-- Define Window -->
+						<!-- Define Window -->
 
-							<svg id="window" viewBox="0 0 170 180">
-								<rect width="150" height="170" x="5" y="7" fill="#bebebe" rx="70" stroke="black" />
-								<rect width="90" height="135" x="35" y="37" rx="50" />
-								<rect width="150" height="60" x="5" y="117" fill="#bebebe" rx="5" stroke="black" />
-								<rect width="20" height="40" x="70" y="1" fill="darkgrey" rx="5" stroke="black" />
-								<rect width="40" height="20" x="1" y="70" fill="darkgrey" rx="5" stroke="black" />
-								<rect width="40" height="20" x="120" y="70" fill="darkgrey" rx="5" stroke="black" />
-								<rect width="20" height="20" x="120" y="120" fill="grey" rx="5" stroke="black" />
-								<rect width="20" height="20" x="100" y="140" fill="darkgrey" rx="5" stroke="black" />
-								<rect width="20" height="20" x="20" y="150" fill="grey" rx="5" stroke="black" />
-								<rect width="5" height="76" x="78" y="41" fill="slategrey" rx="5" />
-								<rect width="5" height="72" x="55" y="45" fill="slategrey" rx="5" />
-								<rect width="5" height="72" x="100" y="45" fill="slategrey" rx="5" />
-							</svg>
+						<svg id="window" viewBox="0 0 170 180">
+							<rect width="150" height="170" x="5" y="7" fill="#bebebe" rx="70" stroke="black" />
+							<rect width="90" height="135" x="35" y="37" rx="50" />
+							<rect width="150" height="60" x="5" y="117" fill="#bebebe" rx="5" stroke="black" />
+							<rect width="20" height="40" x="70" y="1" fill="darkgrey" rx="5" stroke="black" />
+							<rect width="40" height="20" x="1" y="70" fill="darkgrey" rx="5" stroke="black" />
+							<rect width="40" height="20" x="120" y="70" fill="darkgrey" rx="5" stroke="black" />
+							<rect width="20" height="20" x="120" y="120" fill="grey" rx="5" stroke="black" />
+							<rect width="20" height="20" x="100" y="140" fill="darkgrey" rx="5" stroke="black" />
+							<rect width="20" height="20" x="20" y="150" fill="grey" rx="5" stroke="black" />
+							<rect width="5" height="76" x="78" y="41" fill="slategrey" rx="5" />
+							<rect width="5" height="72" x="55" y="45" fill="slategrey" rx="5" />
+							<rect width="5" height="72" x="100" y="45" fill="slategrey" rx="5" />
+						</svg>
 					</defs>
 
 					<rect width="262" height="80" x="0" y="0" fill="url(#my4pattern)" opacity=".5" />
@@ -416,8 +416,8 @@
 			</defs>
 
 			<!--build block4 pond-->
-			<rect width="360" height="335" x="0" y="15" rx="30" fill="#77a03b" />
-			<rect width="360" height="335" x="0" y="15" rx="30" fill="url(#grassPattern)" />
+			<rect width="360" height="335" x="0" y="15" rx="30" fill="#83b226" />
+			<rect width="360" height="335" x="0" y="15" rx="30" fill="url(#grassPattern)" opacity=".5"/>
 			<rect width="100" height="50" x="0" y="0" fill="url(#treePattern)" />
 			<rect width="100" height="50" x="250" y="0" fill="url(#treePattern)" />
 			<rect width="50" height="50" x="0" y="50" fill="url(#treePattern)" />
@@ -584,7 +584,6 @@
 
 		<aside class="sidebar" role="complementary">
 			<div class="wrapper">
-
 				<div class="design-selection" id="design-selection">
 					<h3 class="select">Select a Design:</h3>
 					<nav role="navigation">
@@ -673,6 +672,30 @@
 				</div>
 			</div>
 		</aside>
+		<!--block6 container-->
+		<svg width="405" height="700" x="40" y="0" class="block6">
+			<!--build block6-->
+			<rect width="315" height="650" x="45" y="50" rx="30" fill="url(#my3pattern)" />
+			<rect width="265" height="600" x="70" y="75" rx="15" fill="url(#my4pattern)" />
+			<rect width="265" height="600" x="70" y="75" rx="15" fill="black" opacity=".5" />
+			<rect width="50" height="650" x="350" y="50" fill="url(#treePattern)" />
+			<rect width="150" height="50" x="50" y="0" fill="url(#treePattern)" />
+			<rect width="100" height="50" x="250" y="0" fill="url(#treePattern)" />
+		</svg>
+		<!--cover6-->
+		<svg width="265" height="600" class="cover6">
+			<rect width="265" height="25" x="0" y="0" fill="url(#floorPattern)" />
+			<rect width="265" height="45" x="0" y="25" opacity="0" />
+			<rect width="265" height="253" x="0" y="70" fill="url(#floorPattern)" />
+			<rect width="265" height="45" x="0" y="320" opacity="0" />
+			<rect width="265" height="58" x="0" y="367" fill="url(#floorPattern)" />
+			<rect width="265" height="45" x="0" y="425" opacity="0" />
+			<rect width="265" height="130" x="0" y="470" fill="url(#floorPattern)" />
+			<!-- Window -->
+			<svg width="272" height="250">
+				<use xlink:href="#window" x="25" y="40" width="100" />
+			</svg>
+		</svg>
 		<div class="functions">
 			<p class="zelda">
 				<button type="button" onclick="zwave(1)">Dazzle</button>
