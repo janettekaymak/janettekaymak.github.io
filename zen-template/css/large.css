@@ -1,4 +1,43 @@
-@media screen and (min-width: 1230px) {
+@media screen and (min-width: 1050px) {
+body{
+    width: 1050px;
+    display: block;
+    margin:auto;
+}
 
-    background-color: red;
+svg.block2{
+    margin-left: 500px;
+}
+
+svg.cover2{
+    margin-left: -10px;
+}
+div.explanation{
+    margin-left: 535px;
+}
+
+svg.block4{
+    margin-left: 140px;
+}
+
+div.benefits{
+    margin-left: 565px;
+}
+
+#cover4{
+    margin-left: 482px;
+}
+
+svg.block5{
+    margin-left: 480px;
+}
+
+div.requirements{
+    margin-left: 560px;
+}
+
+svg.cover5{
+    margin-left: 553px;
+}
+
 }
