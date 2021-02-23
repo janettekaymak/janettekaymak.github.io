@@ -120,6 +120,7 @@
 
     #block5inside {
         margin: -45px auto auto 455px;
+        z-index: 0;
     }
 
     div.requirements {
@@ -128,7 +129,10 @@
     }
 
     svg.cover5 {
-        margin-left: 442px;
+       display: block;
+       position:absolute;
+       z-index: 2;
+       margin: -917px auto auto 453px;
     }
 
     aside.sidebar {
