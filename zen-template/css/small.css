@@ -328,7 +328,7 @@ svg.block5 {
 #block5inside {
     position: absolute;
     opacity: 1;
-    margin: 12px auto auto auto;
+    margin: 60px auto auto 60px;
 }
 
 div.requirements {
@@ -339,7 +339,7 @@ div.requirements {
     font-size: 17px;
     line-height: .95em;
     margin-top: -935px;
-    margin-left: 73px;
+    margin-left: 71px;
     text-align: justify;
 }
 
@@ -358,10 +358,11 @@ div.requirements h3 {
 }
 
 svg.cover5 {
+    opacity:1;
     width: 275px;
     position: absolute;
-    margin-top: -920px;
-    margin-left: 61px;
+    margin-top: -918px;
+    margin-left: 58px;
 }
 
 .brickcolor1 {

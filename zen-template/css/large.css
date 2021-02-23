@@ -113,16 +113,18 @@
         margin-left: 378px;
     }
 
-    #block5 {
-        margin-top: 10px;
+    svg.block5 {
+        margin-top: -70px;
         margin-left: 380px;
+    }
+
+    #block5inside {
+        margin: -45px auto auto 455px;
     }
 
     div.requirements {
         margin-top: -935px;
-        margin-left: 450px;
-        text-align: justify;
-        line-height: 1em;
+        margin-left: 467px;
     }
 
     svg.cover5 {
@@ -131,7 +133,7 @@
 
     aside.sidebar {
         max-width: 260px;
-        margin-top: -925px;
+        margin-top: -895px;
         margin-left: 30px;
     }
 
