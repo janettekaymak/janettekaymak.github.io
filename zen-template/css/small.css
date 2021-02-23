@@ -71,6 +71,7 @@ p.link {
 
 p.link img {
     width: 100px;
+    margin-left: -30px;
 }
 
 p.link:nth-child(2) {
