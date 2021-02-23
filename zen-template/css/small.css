@@ -260,6 +260,7 @@ svg.block3 {
 }
 
 div.participation {
+    color: white;
     font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
     position: absolute;
     text-align: justify;
@@ -321,18 +322,12 @@ svg.block5 {
 
 }
 
-#block5inside {
-    position: absolute;
-    opacity: 1;
-    margin: 60px auto auto 60px;
-}
-
 div.requirements {
     font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
     position: absolute;
     width: 250px;
-    font-size: 16px;
-    line-height: 1.12em;
+    font-size: 16.5px;
+    line-height: 1.05em;
     margin-top: -945px;
     margin-left: 71px;
     text-align: justify;
@@ -348,12 +343,12 @@ div.requirements h3 {
 .requirements p:nth-child(6) {
     width: 145px;
     margin-left: 105px;
-    text-align: right;
+    text-align: left;
     margin-top: 15px;
 }
 
 svg.cover5 {
-    opacity: 1;
+    opacity:1;
     width: 275px;
     position: absolute;
     margin-top: -920px;
