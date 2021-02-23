@@ -1,8 +1,6 @@
 @media screen and (min-width: 1050px) {
 body{
-    width: 1050px;
-    display: block;
-    margin:auto;
+    max-width: 1200px;
 }
 p.link {
     margin-top: 0px;
@@ -43,6 +41,15 @@ div.requirements{
 
 svg.cover5{
     margin-left: 553px;
+}
+
+
+aside.sidebar {
+    margin-top: -882px;
+}
+
+svg.cover6{
+    border-radius: 15px;
 }
 
 }

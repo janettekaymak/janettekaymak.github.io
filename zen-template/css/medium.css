@@ -1,5 +1,9 @@
 @media screen and (min-width: 767px) {
-
+    body{
+        max-width: 800px;
+        display: block;
+        margin:auto;
+    }
     #banner {
         display: block;
         margin: auto;
@@ -115,16 +119,19 @@
     }
 
     svg.cover5 {
-        display: block;
-        position: absolute;
-        z-index: 2;
         margin: -925px auto auto 453px;
     }
 
+    svg.block6{
+        margin: -930px auto auto -45px;
+       }
+
     aside.sidebar {
-        max-width: 260px;
-        margin-top: -895px;
-        margin-left: 30px;
+        margin-top: -880px;
+        margin-left: 3px;
+    }
+    svg.cover6{
+        margin: -625px auto auto 25px;
     }
 
     p.zelda:nth-child(1) {
