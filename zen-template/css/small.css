@@ -299,6 +299,7 @@ div.benefits {
     margin-top: -370px;
     margin-left: 60px;
     text-align: center;
+    text-shadow: white 1px 1px 2px;
 }
 
 div.benefits h3 {
@@ -331,6 +332,7 @@ div.requirements {
     margin-top: -945px;
     margin-left: 71px;
     text-align: justify;
+    text-shadow: white 1px 1px 2px;
 }
 
 div.requirements h3 {
