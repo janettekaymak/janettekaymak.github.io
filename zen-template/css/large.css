@@ -4,6 +4,11 @@ body{
     display: block;
     margin:auto;
 }
+p.link {
+    margin-top: 0px;
+    margin-left: 480px;
+    text-align: center;
+}
 
 svg.block2{
     margin-left: 500px;
