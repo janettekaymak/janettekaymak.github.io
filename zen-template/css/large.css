@@ -129,10 +129,10 @@
     }
 
     svg.cover5 {
-       display: block;
-       position:absolute;
-       z-index: 2;
-       margin: -917px auto auto 453px;
+        display: block;
+        position: absolute;
+        z-index: 2;
+        margin: -917px auto auto 453px;
     }
 
     aside.sidebar {
