@@ -111,7 +111,6 @@
     }
 
     div.requirements {
-        margin-top: -945px;
         margin-left: 462px;
     }
 
@@ -119,7 +118,7 @@
         display: block;
         position: absolute;
         z-index: 2;
-        margin: -920px auto auto 453px;
+        margin: -925px auto auto 453px;
     }
 
     aside.sidebar {
