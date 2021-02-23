@@ -1,13 +1,5 @@
 @media screen and (min-width: 767px) {
 
-    #dragonright {
-        width: 270px;
-    }
-
-    #dragonleft {
-        width: 270px;
-    }
-
     #banner {
         display: block;
         margin: auto;
@@ -119,7 +111,7 @@
     }
 
     div.requirements {
-        margin-top: -950px;
+        margin-top: -945px;
         margin-left: 462px;
     }
 
@@ -127,7 +119,7 @@
         display: block;
         position: absolute;
         z-index: 2;
-        margin: -925px auto auto 453px;
+        margin: -920px auto auto 453px;
     }
 
     aside.sidebar {
