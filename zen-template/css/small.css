@@ -154,9 +154,9 @@ svg.block1 {
     width: 235px;
     text-align: justify;
     position: absolute;
-    margin-top: -605px;
+    margin-top: -610px;
     margin-left: 78px;
-    line-height: 1em;
+    line-height: 1.1em;
 }
 
 p {
@@ -212,12 +212,12 @@ svg.block2 {
 .explanation {
     text-align: justify;
     font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
-    font-size: 17.5px;
+    font-size: 17px;
     width: 241px;
     position: absolute;
-    margin-top: -745px;
-    margin-left: 30px;
-    line-height: 1em;
+    margin-top: -750px;
+    margin-left: 28px;
+    line-height: 1.11em;
 }
 
 .explanation p:nth-child(3) {
@@ -233,8 +233,8 @@ div.explanation h3 {
 
 svg.cover2 {
     width: 297px;
-    margin-top: -476px;
-    margin-left: -10px;
+    margin-top: -493px;
+    margin-left: -9px;
 }
 
 /*BRICK COLORS PINKS*/
@@ -285,23 +285,23 @@ div.participation h3 {
     position: absolute;
     margin-left: 29px;
     margin-top: -565px;
-    width: 281px;
-    height: 471px;
     border-radius: 20px;
 }
 
-#block4 {
+svg.block4 {
     margin-top: 27px;
-    margin-left: -6px;
+    margin-left: -7px;
+    padding: 0 0 50px 0;
 }
 
 div.benefits {
     font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+    font-weight: bolder;
     position: absolute;
     width: 220px;
-    font-size: 16px;
-    margin-top: -300px;
-    margin-left: 64px;
+    font-size: 16.5px;
+    margin-top: -370px;
+    margin-left: 60px;
     text-align: center;
 }
 
@@ -313,10 +313,9 @@ div.benefits h3 {
 }
 
 #cover4 {
-    display: block;
     position: absolute;
-    margin-top: -349px;
-    margin-left: -14px;
+    margin-top: -430px;
+    margin-left: -25px;
 }
 
 #block5 {

@@ -53,7 +53,6 @@
     }
 
     .preamble {
-        margin-top: -605px;
         margin-bottom: -250px;
         margin-left: 79px;
     }
@@ -79,8 +78,8 @@
     }
 
     svg.cover2 {
-        margin-top: -475px;
-        margin-left: -10px;
+        margin-top: -497px;
+        margin-left: -11px;
     }
 
     svg.block3 {
@@ -98,20 +97,20 @@
         margin-top: -565px;
     }
 
-    #block4 {
+    svg.block4 {
         position: absolute;
-        margin-top: -510px;
-        margin-left: 399px;
+        margin-top: -100px;
+        margin-left: 35px;
     }
 
     div.benefits {
-        margin-top: -465px;
-        margin-left: 470px;
+        margin-top: -505px;
+        margin-left: 460px;
     }
 
     #cover4 {
-        margin-top: -517px;
-        margin-left: 390px;
+        margin-top: -559px;
+        margin-left: 378px;
     }
 
     #block5 {
