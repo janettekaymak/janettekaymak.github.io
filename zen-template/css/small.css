@@ -331,13 +331,12 @@ svg.block5 {
 }
 
 div.requirements {
-    color: white;
     font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
     position: absolute;
     width: 250px;
     font-size: 17px;
-    line-height: .95em;
-    margin-top: -935px;
+    line-height: .9em;
+    margin-top: -950px;
     margin-left: 71px;
     text-align: justify;
 }
