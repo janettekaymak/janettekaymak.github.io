@@ -2,29 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
 body {
-    background-color: darkseagreen;
-    background-image: url(https://janettekaymak.github.io/zen-template/images/grass2.png),
-        linear-gradient(purple, rgb(123, 212, 247), white, lemonchiffon, darkseagreen,
-            darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple, purple);
+    background-color: rgb(215, 235, 192);
+    /*background-image: url(https://janettekaymak.github.io/zen-template/images/grass2.png),
+    linear-gradient(purple, rgb(123, 212, 247), white, lemonchiffon, darkseagreen,
+            darkseagreen, darkseagreen, lemonchiffon, white, rgb(123, 212, 247), purple, purple);*/
 }
 
 div.page-wrapper {
     max-width: 360px;
 }
 
-/*#dragonright
 #dragonleft {
     display: none;
-}*/
-
-#dragonleft {
-    display: inline;
     position: absolute;
     width: 140px;
 }
 
 #dragonright {
-    display: inline;
+    display: none;
     position: absolute;
     width: 140px;
     margin-left: 120%;
@@ -70,12 +65,12 @@ div.page-wrapper {
 
 p.link {
     margin-top: 0px;
-    margin-left: 20px;
+    margin-left: 0px;
     text-align: center;
 }
 
 p.link img {
-    width: 90px;
+    width: 100px;
 }
 
 p.link:nth-child(2) {
@@ -87,7 +82,7 @@ p.link:nth-child(1) {
     position: relative;
     animation-name: link;
     animation-duration: 2s;
-    animation-timing-function: linear;
+    /*animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -106,7 +101,7 @@ p.link:nth-child(1) {
     100% {
         left: 130px;
         top: 0px;
-    }
+    }*/
 }
 
 section h1,
@@ -359,8 +354,8 @@ svg.cover5 {
     opacity: 1;
     width: 275px;
     position: absolute;
-    margin-top: -918px;
-    margin-left: 58px;
+    margin-top: -925px;
+    margin-left: 60px;
 }
 
 .brickcolor1 {
@@ -461,19 +456,19 @@ p.zelda:nth-child(1) {
 
 p.zelda:nth-child(3) {
     margin-bottom: 250px;
-    margin-left: 0px;
+    margin-left: 80px;
 }
 
 p.zelda:nth-child(3) {
     position: relative;
-    animation-name: zelda;
+    /*animation-name: zelda;
     animation-duration: 8s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite;*/
 }
 
 p.zelda img {
-    width: 180px;
+    width: 200px;
 }
 
 @keyframes zelda {
