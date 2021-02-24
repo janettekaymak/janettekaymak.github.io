@@ -1,14 +1,18 @@
-		<!--cover6-->
-		<svg width="265" height="600" class="cover6">
-			<rect width="265" height="25" x="0" y="0" fill="url(#floorPattern)" />
-			<rect width="265" height="45" x="0" y="25" opacity="0" />
-			<rect width="265" height="253" x="0" y="70" fill="url(#floorPattern)" />
-			<rect width="265" height="45" x="0" y="320" opacity="0" />
-			<rect width="265" height="58" x="0" y="367" fill="url(#floorPattern)" />
-			<rect width="265" height="45" x="0" y="425" opacity="0" />
-			<rect width="265" height="130" x="0" y="470" fill="url(#floorPattern)" />
-			<!-- Window -->
-			<svg width="272" height="250">
-				<use xlink:href="#window" x="25" y="40" width="100" />
-			</svg>
-		</svg>
+<!--cover6-->
+<svg width="265" height="600"
+    xmlns="http://www.w3.org/2000/svg" class="cover6">
+    <defs>
+        <!--define floor pattern-->
+        <pattern id="floorPattern" patternUnits="userSpaceOnUse" x="0" y="0" height="24.1" width="24.2">
+            <rect width="25" height="25" x="0" y="0" fill="lightgrey" />
+            <rect width="24.1" height="24.2" x="0" y="0" rx="5" fill="rgb(190, 190, 190)" stroke="lightgrey" stroke-width="3" />
+        </pattern>
+    </defs>
+    <rect width="265" height="25" x="0" y="0" fill="url(#floorPattern)" />
+    <rect width="265" height="45" x="0" y="25" opacity="0" />
+    <rect width="265" height="253" x="0" y="70" fill="url(#floorPattern)" />
+    <rect width="265" height="45" x="0" y="320" opacity="0" />
+    <rect width="265" height="58" x="0" y="367" fill="url(#floorPattern)" />
+    <rect width="265" height="45" x="0" y="425" opacity="0" />
+    <rect width="265" height="130" x="0" y="470" fill="url(#floorPattern)" />
+</svg>

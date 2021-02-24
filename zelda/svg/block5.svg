@@ -29,7 +29,7 @@
 
             <rect width="12" height="6.5" x="38" y="7.5" fill="#a11d3e"/>
         </pattern>
-        <!-- grey bricks -->
+        <!--grey bricks-->
         <pattern id="my3pattern" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
             <rect width="50" height="15" x="0" y="0" fill="lightgrey"/>
             <rect width="23.5" height="6.5" x="0" y="0" rx="1" fill="grey" />
@@ -55,6 +55,6 @@
     <rect width="61" height="95" x="87" y="580" rx="30" />
     <rect width="90" height="40" x="73" y="637" fill="url(#my3pattern)" stroke="black" stroke-width="0" />
     <rect width="81" height="100" x="77" y="570" rx="40" fill="yellow" opacity=".3" />
-    <rect width="30" height="70" x="102.5" y="591" fill="red" rx="50" stroke="orange" stroke-width="10" />
+    <rect width="30" height="70" x="102.5" y="591" fill="red" rx="50" stroke="orange" stroke-width="7" />
     <rect width="10" height="30" x="112" y="625" fill="#23c8ff" rx="15" />
 </svg>
