@@ -187,7 +187,6 @@ h3 {
 
 .extra5 {
 	content: url(./svg/cover5.svg);
-	position: absolute;
 }
 
 .requirements::after {
@@ -229,7 +228,6 @@ aside.sidebar ul li {
 
 .extra6{
 	content: url(./svg/cover6.svg);
-	position:absolute;
 }
 
 .extra1:hover,
