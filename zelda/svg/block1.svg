@@ -2,7 +2,7 @@
 	<defs>
 <!-- grey bricks -->
 		<pattern id="my3pattern" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
-			<rect width="50" height="15" x="0" y="0" class="back" />
+			<rect width="50" height="15" x="0" y="0" fill="lightgrey"/>
             <rect width="23.5" height="6.5" x="0" y="0" rx="1" fill="grey" />
             <rect width="23.5" height="6.5" x="25" y="0" rx="1" fill="#717171" />
             <rect width="12" height="6.5" x="0" y="7.5" fill="dimgrey"/>
