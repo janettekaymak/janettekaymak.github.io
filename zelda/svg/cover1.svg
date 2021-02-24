@@ -1,4 +1,5 @@
-<svg width="364" height="463" xmlns="http://www.w3.org/2000/svg">
+<svg width="364" height="463"
+    xmlns="http://www.w3.org/2000/svg">
     <defs>
         <pattern id="prefix__a" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
             <path fill="#dcc0c7" d="M0 0h50v15H0z" />
@@ -7,7 +8,9 @@
             <path fill="#a11d3e" d="M0 7.5h12V14H0z" />
             <rect width="23.5" height="6.5" x="13" y="7.5" rx="1" fill="#aa3553" />
             <path fill="#a11d3e" d="M38 7.5h12V14H38z" />
-        </pattern><svg id="prefix__b" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 180">
+        </pattern>
+        <svg id="prefix__b"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 180">
             <rect width="150" height="170" x="5" y="7" fill="#bebebe" rx="70" stroke="#000" />
             <rect width="90" height="135" x="35" y="37" rx="50" />
             <rect width="150" height="60" x="5" y="117" fill="#bebebe" rx="5" stroke="#000" />
@@ -24,6 +27,9 @@
     </defs>
     <path fill="url(#prefix__a)" opacity=".5" d="M0 0h262v80H0z" />
     <path fill="url(#prefix__a)" d="M0 75h262v200H0zm44 200h180v188H44z" />
-    <svg width="272" height="250" xmlns="http://www.w3.org/2000/svg">
-        <use xlink:href="#prefix__b" x="20" y="25" width="100" xmlns:xlink="http://www.w3.org/1999/xlink" /></svg>
+    <svg width="272" height="250"
+        xmlns="http://www.w3.org/2000/svg">
+        <use xlink:href="#prefix__b" x="20" y="25" width="100"
+            xmlns:xlink="http://www.w3.org/1999/xlink" />
+    </svg>
 </svg>
