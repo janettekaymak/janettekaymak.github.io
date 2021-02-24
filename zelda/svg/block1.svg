@@ -16,7 +16,7 @@
 								style="fill:darkgreen;"/>				
 		</pattern>				
 	</defs>				
-<!--build block1 -->
+<!-- build block1 -->
             <rect width="310" height="326" x="50" y="50" fill="url(#my3pattern)"/>
             <rect width="228" height="188" x="94" y="373" fill="url(#my3pattern)"/>					
             <rect width="262" height="275" x="74" y="74" fill="#b30643" />					

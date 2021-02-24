@@ -1,7 +1,7 @@
 <svg width="364" height="463" xmlns="http://www.w3.org/2000/svg" id="cover1">
             <!-- define pattern -->
 	<defs>
-	        <!--red bricks-->
+	        <!-- red bricks -->
 	    <pattern id="my4pattern" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
 			<rect width="50" height="15" x="0" y="0" fill="#dcc0c7"/>
             <rect width="23.5" height="6.5" x="0" y="0" rx="1" fill="#9d2c4e"/>
@@ -10,7 +10,7 @@
 			<rect width="23.5" height="6.5" x="13" y="7.5" rx="1" fill="#aa3553"/>
             <rect width="12" height="6.5" x="38" y="7.5" fill="#a11d3e"/>
 		</pattern>
-            <!-- Define Window-->
+            <!-- Define Window -->
         <svg id="window" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 180">
 		    <rect width="150" height="170" x="5" y="7" fill="#bebebe" rx="70" stroke="black" />
 		    <rect width="90" height="135" x="35" y="37" rx="50" />
