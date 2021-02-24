@@ -54,13 +54,14 @@
     }
 
     svg.cover1 {
-        margin-left: 64px;
+        display:block;
+        margin-left: 75px;
     }
 
     svg.block2 {
         margin-left: 410px;
         width: 360px;
-        margin-top: -580px;
+        margin-top: -460px;
     }
 
     .explanation {
@@ -75,21 +76,22 @@
 
     svg.cover2 {
         margin-top: -498px;
-        margin-left: -12px;
+        margin-left: -10px;
     }
 
     svg.block3 {
         margin-top: -222px;
-        margin-left: 0px;
+        margin-left: 20px;
     }
 
     div.participation {
         margin-top: -585px;
-        margin-left: 55px;
+        margin-left: 75px;
     }
 
     #cover3 {
-        margin-left: 40px;
+        display:block;
+        margin-left: 60px;
         margin-top: -565px;
     }
 
@@ -101,37 +103,38 @@
 
     div.benefits {
         margin-top: -505px;
-        margin-left: 460px;
+        margin-left: 485px;
     }
 
     #cover4 {
         margin-top: -559px;
-        margin-left: 378px;
+        margin-left: 398px;
     }
 
     svg.block5 {
         margin-top: -70px;
-        margin-left: 380px;
+        margin-left: 410px;
     }
 
     div.requirements {
-        margin-left: 462px;
+        margin-left: 497px;
     }
 
     svg.cover5 {
-        margin: -925px auto auto 453px;
+        margin: -925px auto auto 482px;
     }
 
     svg.block6{
-        margin: -930px auto auto -45px;
+        display:block;
+        margin: -930px auto auto -25px;
        }
 
     aside.sidebar {
         margin-top: -880px;
-        margin-left: 3px;
+        margin-left: 23px;
     }
     svg.cover6{
-        margin: -625px auto auto 25px;
+        margin: -623px auto auto 45px;
     }
 
     p.zelda:nth-child(1) {

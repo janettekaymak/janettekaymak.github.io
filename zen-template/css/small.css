@@ -34,32 +34,6 @@ p.link:nth-child(2) {
     margin-bottom: -90px;
 }
 
-p.link:nth-child(1) {
-    position: relative;
-    animation-name: link;
-    animation-duration: 2s;
-    /*animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-
-@keyframes link {
-    0% {
-        left: -150px;
-        top: 0px;
-    }
-
-    50% {
-        left: -10px;
-        top: -80px;
-    }
-
-    100% {
-        left: 130px;
-        top: 0px;
-    }*/
-}
-
 section h1,
 section h2 {
     display: block;
@@ -105,8 +79,8 @@ h3 {
     width: 235px;
     text-align: justify;
     position: absolute;
-    margin-top: -610px;
-    margin-left: 78px;
+    margin-top: -510px;
+    margin-left: 89px;
     line-height: 1.1em;
 }
 
@@ -127,11 +101,11 @@ div.preamble h3 {
 }
 
 svg.cover1 {
-    display: block;
+    display:block;
     width: 350px;
     position: absolute;
-    margin-top: -589px;
-    margin-left: 64px;
+    margin-top: -489px;
+    margin-left: 74px;
 
 }
 
@@ -157,7 +131,7 @@ svg.cover1 {
 
 svg.block2 {
     padding: 0 0 200px 0;
-    margin: auto auto auto -25px;
+    margin: 100px auto auto -15px;
 }
 
 .explanation {
@@ -167,7 +141,7 @@ svg.block2 {
     width: 241px;
     position: absolute;
     margin-top: -750px;
-    margin-left: 28px;
+    margin-left: 38px;
     line-height: 1.11em;
 }
 
@@ -211,7 +185,7 @@ svg.cover2 {
 
 
 svg.block3 {
-    margin: -116px auto 50px -10px;
+    margin: -116px auto 50px 3px;
 }
 
 div.participation {
@@ -222,27 +196,25 @@ div.participation {
     width: 250px;
     font-size: 16px;
     margin-top: -585px;
-    margin-left: 45px;
+    margin-left: 58px;
 }
 
 div.participation h3 {
-    opacity: 1;
     font-size: 26px;
     line-height: 1em;
     font-family: 'Merienda', cursive;
 }
 
 #cover3 {
-    display: block;
     position: absolute;
-    margin-left: 29px;
+    margin-left: 42px;
     margin-top: -565px;
     border-radius: 20px;
 }
 
 svg.block4 {
     margin-top: 27px;
-    margin-left: -7px;
+    margin-left: 5px;
     padding: 0 0 50px 0;
 }
 
@@ -251,8 +223,8 @@ div.benefits {
     position: absolute;
     width: 220px;
     font-size: 16.5px;
-    margin-top: -370px;
-    margin-left: 60px;
+    margin-top: -380px;
+    margin-left: 70px;
     text-align: center;
     text-shadow: white 1px 1px 2px;
 }
@@ -267,14 +239,14 @@ div.benefits h3 {
 #cover4 {
     position: absolute;
     margin-top: -430px;
-    margin-left: -25px;
+    margin-left: -12px;
 }
 
 svg.block5 {
     display:block;
     margin-top: 35px;
     margin-bottom: 0px;
-    margin-left: -13px;
+    margin-left: 3px;
 
 }
 
@@ -285,7 +257,7 @@ div.requirements {
     font-size: 16.5px;
     line-height: 1.05em;
     margin-top: -950px;
-    margin-left: 71px;
+    margin-left: 84px;
     text-align: justify;
     text-shadow: white 1px 1px 2px;
 }
@@ -309,7 +281,7 @@ svg.cover5 {
     width: 275px;
     position: absolute;
     margin-top: -925px;
-    margin-left: 60px;
+    margin-left: 75px;
 }
 
 .brickcolor1 {
@@ -356,8 +328,7 @@ button {
 then it was changed so as not to mimic Zelda #dude and #tilt-dude, #zelda, #wave */
 
 svg.block6{
- display: block;
- margin: 50px auto auto -50px;
+ margin: 50px auto auto -35px;
 }
 
 aside.sidebar {
@@ -366,7 +337,7 @@ aside.sidebar {
     color: white;
     width: 250px;
     margin-top: 98px;
-    margin-left: -2px;
+    margin-left: 13px;
 
 }
 
@@ -398,9 +369,8 @@ aside.sidebar ul li {
 }
 
 svg.cover6{
-    display: block;
     position: absolute;
-    margin: -625px auto auto 20px;
+    margin: -629px auto auto 35px;
 }
 
 #dog {
