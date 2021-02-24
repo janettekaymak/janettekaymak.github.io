@@ -1,0 +1,460 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+body {
+    background-color: rgb(215, 235, 192);
+}
+
+p.link {
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+p.link img {
+    width: 100px;
+    margin-left: -30px;
+}
+
+p.link:nth-child(2) {
+    margin-top: 10px;
+    margin-bottom: -90px;
+}
+
+p.link:nth-child(1) {
+    position: relative;
+    animation-name: link;
+    animation-duration: 2s;
+    /*animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes link {
+    0% {
+        left: -150px;
+        top: 0px;
+    }
+
+    50% {
+        left: -10px;
+        top: -80px;
+    }
+
+    100% {
+        left: 130px;
+        top: 0px;
+    }*/
+}
+
+section h1,
+section h2 {
+    display: block;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    line-height: .25em;
+    color: purple;
+
+}
+
+section h1 {
+    font-size: 42px;
+    margin-top: 120px;
+    margin-bottom: 35px;
+}
+
+section h2 {
+    font-size: 20px;
+}
+
+header::after {
+    content: "Click on each block to reveal a hidden message!";
+    font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+h3 {
+    font-family: 'Merienda', cursive;
+    margin-bottom: -10px;
+    text-align: center;
+}
+
+svg.block1 {
+    padding: 20px 5px 100px 0;
+    margin-left: -10px;
+}
+
+.preamble {
+    font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+    font-size: 17.5px;
+    color: white;
+    width: 235px;
+    text-align: justify;
+    position: absolute;
+    margin-top: -610px;
+    margin-left: 78px;
+    line-height: 1.1em;
+}
+
+p {
+    margin-bottom: -10px;
+}
+
+div.preamble h3 {
+    font-family: 'Merienda', cursive;
+    font-size: 25px;
+    line-height: 1.2em;
+}
+
+.preamble p:nth-child(4) {
+    width: 160px;
+    text-align: justify;
+    margin-left: 40px;
+}
+
+svg.cover1 {
+    display: block;
+    width: 350px;
+    position: absolute;
+    margin-top: -589px;
+    margin-left: 64px;
+
+}
+
+.redcolor1 {
+    fill: #9d2c4e;
+}
+
+.redcolor2 {
+    fill: #9c2343;
+}
+
+.redcolor3 {
+    fill: #aa3553;
+}
+
+.redcolor4 {
+    fill: #a11d3e;
+}
+
+.back2 {
+    fill: #dcc0c7;
+}
+
+svg.block2 {
+    padding: 0 0 200px 0;
+    margin: auto auto auto -25px;
+}
+
+.explanation {
+    text-align: justify;
+    font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+    font-size: 17px;
+    width: 241px;
+    position: absolute;
+    margin-top: -750px;
+    margin-left: 28px;
+    line-height: 1.11em;
+}
+
+.explanation p:nth-child(3) {
+    width: 160px;
+}
+
+div.explanation h3 {
+    font-family: 'Merienda', cursive;
+    opacity: 1;
+    font-size: 21px;
+    line-height: 1em;
+}
+
+svg.cover2 {
+    width: 297px;
+    margin-top: -493px;
+    margin-left: -10px;
+}
+
+/*BRICK COLORS PINKS*/
+.pinkcolor1 {
+    fill: #ff9ece;
+}
+
+.pinkcolor2 {
+    fill: #ffacd6;
+}
+
+.pinkcolor3 {
+    fill: #ffa5d2;
+}
+
+.pinkcolor4 {
+    fill: #ffb4da;
+}
+
+.pinkback {
+    fill: grey;
+}
+
+
+svg.block3 {
+    margin: -116px auto 50px -10px;
+}
+
+div.participation {
+    color: white;
+    font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+    position: absolute;
+    text-align: justify;
+    width: 250px;
+    font-size: 16px;
+    margin-top: -585px;
+    margin-left: 45px;
+}
+
+div.participation h3 {
+    opacity: 1;
+    font-size: 26px;
+    line-height: 1em;
+    font-family: 'Merienda', cursive;
+}
+
+#cover3 {
+    display: block;
+    position: absolute;
+    margin-left: 29px;
+    margin-top: -565px;
+    border-radius: 20px;
+}
+
+svg.block4 {
+    margin-top: 27px;
+    margin-left: -7px;
+    padding: 0 0 50px 0;
+}
+
+div.benefits {
+    font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+    position: absolute;
+    width: 220px;
+    font-size: 16.5px;
+    margin-top: -370px;
+    margin-left: 60px;
+    text-align: center;
+    text-shadow: white 1px 1px 2px;
+}
+
+div.benefits h3 {
+    font-family: 'Merienda', cursive;
+    opacity: 1;
+    font-size: 30px;
+    line-height: 1em;
+}
+
+#cover4 {
+    position: absolute;
+    margin-top: -430px;
+    margin-left: -25px;
+}
+
+svg.block5 {
+    display:block;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    margin-left: -13px;
+
+}
+
+div.requirements {
+    font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+    position: absolute;
+    width: 250px;
+    font-size: 16.5px;
+    line-height: 1.05em;
+    margin-top: -950px;
+    margin-left: 71px;
+    text-align: justify;
+    text-shadow: white 1px 1px 2px;
+}
+
+div.requirements h3 {
+    font-family: 'Merienda', cursive;
+    font-size: 25px;
+    line-height: 1em;
+}
+
+.requirements p:nth-child(5),
+.requirements p:nth-child(6) {
+    width: 145px;
+    margin-left: 105px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+svg.cover5 {
+    opacity:1;
+    width: 275px;
+    position: absolute;
+    margin-top: -925px;
+    margin-left: 60px;
+}
+
+.brickcolor1 {
+    fill: grey;
+}
+
+.brickcolor2 {
+    fill: #717171;
+}
+
+.brickcolor3 {
+    fill: #808080;
+}
+
+.brickcolor4 {
+    fill: dimgrey;
+}
+
+.back {
+    fill: lightgrey;
+}
+
+svg.cover1:hover,
+svg.cover2:hover,
+#cover3:hover,
+#cover4:hover,
+svg.cover5:hover,
+svg.cover6:hover {
+    opacity: 0;
+    transition: 1.5s;
+}
+
+button {
+    color: purple;
+    background-color: rgb(188, 218, 23);
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: purple solid 2px;
+    font-family: sans-serif;
+}
+
+/*The following images were obtained free from Klipartz,
+then it was changed so as not to mimic Zelda #dude and #tilt-dude, #zelda, #wave */
+
+svg.block6{
+ display: block;
+ margin: 50px auto auto -50px;
+}
+
+aside.sidebar {
+    position: absolute;
+    padding: 30px;
+    color: white;
+    width: 250px;
+    margin-top: 98px;
+    margin-left: -2px;
+
+}
+
+aside.sidebar a:link,
+aside.sidebar a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+aside.sidebar a:hover {
+    color: purple;
+    text-shadow: white 1px 1px 1px;
+}
+
+aside.sidebar h3 {
+    font-family: 'Merienda', cursive;
+    font-size: 29px;
+    text-align: center;
+    color: purple;
+    background-color: rgb(248, 248, 255, .5);
+    padding: 5px;
+    border-radius: 5px;
+    line-height: .7em;
+
+}
+
+aside.sidebar ul li {
+    font-family: sans-serif;
+}
+
+svg.cover6{
+    display: block;
+    position: absolute;
+    margin: -625px auto auto 20px;
+}
+
+#dog {
+    width: 150px;
+}
+
+p.zelda {
+    width: 200px;
+    margin-top: 6px;
+    margin-left: 40px;
+}
+
+p.zelda:nth-child(1) {
+    margin: 20px auto -10px 100px;
+}
+
+p.zelda:nth-child(3) {
+    margin-bottom: 250px;
+    margin-left: 80px;
+}
+
+p.zelda:nth-child(3) {
+    position: relative;
+    /*animation-name: zelda;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;*/
+}
+
+p.zelda img {
+    width: 200px;
+}
+
+@keyframes zelda {
+    0% {
+        left: -10px;
+        top: 0px;
+    }
+
+    35% {
+        left: 180px;
+        top: 0px;
+    }
+
+    50% {
+        left: 180px;
+        top: 80px;
+    }
+
+    85% {
+        left: -10px;
+        top: 80px;
+    }
+
+    100% {
+        left: -10px;
+        top: 0px;
+    }
+}
