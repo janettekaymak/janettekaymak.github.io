@@ -38,7 +38,7 @@ h2 {
 	font-size: 20px;
 }
 
-div.summary::after {
+.summary::after {
 	content: "Click on each block to reveal a hidden message!";
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
 }
@@ -49,15 +49,15 @@ h3 {
 	text-align: center;
 }
 
-div.summary {
+.summary {
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
 }
 
-div.preamble::before {
+.preamble::before {
 	content: url(./svg/block1.svg);
 }
 
-div.preamble {
+.preamble {
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
 	font-size: 17.5px;
 	color: white;
@@ -66,29 +66,29 @@ div.preamble {
 	line-height: 1.1em;
 }
 
-div.preamble h3 {
+.preamble h3 {
 	font-family: 'Merienda', cursive;
 	font-size: 25px;
 	line-height: 1.2em;
 }
 
-div.preamble p:nth-child(4) {
+.preamble p:nth-child(4) {
 	width: 160px;
 	text-align: justify;
 	margin-left: 40px;
 }
 
-div.extra1 {
+.extra1 {
 	content: url(./svg/cover1.svg);
 	position: absolute;
 }
 
-explanation::before {
+.explanation::before {
 	content: url(./svg/block2.svg);
 
 }
 
-div.explanation {
+.explanation {
 	text-align: justify;
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
 	font-size: 17px;
@@ -96,26 +96,26 @@ div.explanation {
 	line-height: 1.11em;
 }
 
-div.explanation p:nth-child(3) {
+.explanation p:nth-child(3) {
 	width: 160px;
 }
 
-div.explanation h3 {
+.explanation h3 {
 	font-family: 'Merienda', cursive;
 	font-size: 21px;
 	line-height: 1em;
 }
 
-div.extra2 {
+.extra2 {
 	content: url(./svg/cover2.svg);
 	position: absolute;
 }
 
-div.participation::before {
+.participation::before {
 	content: url(./svg/block3.svg);
 }
 
-div.participation {
+.participation {
 	color: white;
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
 	text-align: justify;
@@ -123,32 +123,22 @@ div.participation {
 	font-size: 16px;
 }
 
-div.participation h3 {
+.participation h3 {
 	font-size: 26px;
 	line-height: 1em;
 	font-family: 'Merienda', cursive;
 }
 
-div.extra3 {
+.extra3 {
 	content: url(./images/cover3.png);
 	position: absolute;
 }
 
-div.extra1:hover,
-div.extra2:hover,
-div.extra3:hover,
-div.extra4:hover,
-div.extra5:hover,
-div.extra6:hover {
-	opacity: 0;
-	transition: 1.5s;
-}
-
-div.benefits::before {
+.benefits::before {
 	content: url(./svg/block4.svg);
 }
 
-div.benefits {
+.benefits {
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
 	width: 220px;
 	font-size: 16.5px;
@@ -156,23 +146,23 @@ div.benefits {
 	text-shadow: white 1px 1px 2px;
 }
 
-div.benefits h3 {
+.benefits h3 {
 	font-family: 'Merienda', cursive;
 	font-size: 30px;
 	line-height: 1em;
 }
 
-div.extra4 {
+.extra4 {
 	content: url(./images/cover4.png);
 	position: absolute;
 
 }
 
-div.requirements::before {
+.requirements::before {
 	content: url(./svg/block5.svg);
 }
 
-div.requirements {
+.requirements {
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
 	width: 250px;
 	font-size: 16.5px;
@@ -181,36 +171,26 @@ div.requirements {
 	text-shadow: white 1px 1px 2px;
 }
 
-div.requirements h3 {
+.requirements h3 {
 	font-family: 'Merienda', cursive;
 	font-size: 25px;
 	line-height: 1em;
 }
 
-div.requirements p:nth-child(5),
-div.requirements p:nth-child(6) {
+.requirements p:nth-child(5),
+.requirements p:nth-child(6) {
 	width: 145px;
 	margin-left: 105px;
 	text-align: left;
 	margin-top: 15px;
 }
 
-div.extra5 {
+.extra5 {
 	content: url(./svg/cover5.svg);
 	position: absolute;
 }
 
-/*button {
-	color: purple;
-	background-color: rgb(188, 218, 23);
-	font-size: 20px;
-	padding: 5px;
-	border-radius: 5px;
-	border: purple solid 2px;
-	font-family: sans-serif;
-}*/
-
-div.aside.sidebar::before {
+.requirements::after {
 	content: url(./svg/block6.svg);
 }
 
@@ -247,9 +227,19 @@ aside.sidebar ul li {
 	font-family: sans-serif;
 }
 
-div.extra6{
+.extra6{
 	content: url(./svg/cover6.svg);
 	position:absolute;
+}
+
+.extra1:hover,
+.extra2:hover,
+.extra3:hover,
+.extra4:hover,
+.extra5:hover,
+.extra6:hover {
+	opacity: 0;
+	transition: 1.5s;
 }
 
 aside.sidebar::after{

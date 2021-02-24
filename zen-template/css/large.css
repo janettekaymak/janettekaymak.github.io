@@ -2,6 +2,11 @@
 body{
     max-width: 1200px;
 }
+
+#banner{
+  width:1200px;
+}
+
 p.link {
     margin-top: 0px;
     margin-left: 480px;
@@ -49,7 +54,7 @@ aside.sidebar {
 }
 
 svg.cover6{
-    border-radius: 15px;
+    margin-top: -625px;
 }
 
 }

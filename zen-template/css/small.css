@@ -350,6 +350,7 @@ aside.sidebar ul li {
 
 svg.cover6{
     position: absolute;
+    border-radius: 15px;
     margin: -629px auto auto 35px;
 }
 
@@ -372,41 +373,6 @@ p.zelda:nth-child(3) {
     margin-left: 80px;
 }
 
-p.zelda:nth-child(3) {
-    position: relative;
-    /*animation-name: zelda;
-    animation-duration: 8s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;*/
-}
-
 p.zelda img {
     width: 200px;
-}
-
-@keyframes zelda {
-    0% {
-        left: -10px;
-        top: 0px;
-    }
-
-    35% {
-        left: 180px;
-        top: 0px;
-    }
-
-    50% {
-        left: 180px;
-        top: 80px;
-    }
-
-    85% {
-        left: -10px;
-        top: 80px;
-    }
-
-    100% {
-        left: -10px;
-        top: 0px;
-    }
 }

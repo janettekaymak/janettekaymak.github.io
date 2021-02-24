@@ -1,0 +1,14 @@
+		<!--cover6-->
+		<svg width="265" height="600" class="cover6">
+			<rect width="265" height="25" x="0" y="0" fill="url(#floorPattern)" />
+			<rect width="265" height="45" x="0" y="25" opacity="0" />
+			<rect width="265" height="253" x="0" y="70" fill="url(#floorPattern)" />
+			<rect width="265" height="45" x="0" y="320" opacity="0" />
+			<rect width="265" height="58" x="0" y="367" fill="url(#floorPattern)" />
+			<rect width="265" height="45" x="0" y="425" opacity="0" />
+			<rect width="265" height="130" x="0" y="470" fill="url(#floorPattern)" />
+			<!-- Window -->
+			<svg width="272" height="250">
+				<use xlink:href="#window" x="25" y="40" width="100" />
+			</svg>
+		</svg>
