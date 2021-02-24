@@ -15,8 +15,9 @@
 body {
 	background-color: rgb(215, 235, 192);
 }
-header::before{
-   content: url(./images/linkAttack100.png);
+
+header::before {
+	content: url(./images/linkAttack100.png);
 }
 
 h1,
@@ -43,16 +44,16 @@ div.summary::after {
 }
 
 h3 {
-    font-family: 'Merienda', cursive;
-    margin-bottom: -10px;
-    text-align: center;
+	font-family: 'Merienda', cursive;
+	margin-bottom: -10px;
+	text-align: center;
 }
 
-div.summary{
+div.summary {
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
 }
 
-div.preamble::before{
+div.preamble::before {
 	content: url(./svg/block1.svg);
 }
 
@@ -77,9 +78,14 @@ div.preamble p:nth-child(4) {
 	margin-left: 40px;
 }
 
-svg.block2 {
-	padding: 0 0 200px 0;
-	margin: auto auto auto -25px;
+div.extra1 {
+	content: url(./svg/cover1.svg);
+	position: absolute;
+}
+
+explanation::before {
+	content: url(./svg/block2.svg);
+
 }
 
 div.explanation {
@@ -100,10 +106,9 @@ div.explanation h3 {
 	line-height: 1em;
 }
 
-svg.cover2 {
-	width: 297px;
-	margin-top: -493px;
-	margin-left: -10px;
+div.extra2 {
+	content: url(./svg/cover2.svg);
+	position: absolute;
 }
 
 /*BRICK COLORS PINKS*/
@@ -127,9 +132,8 @@ svg.cover2 {
 	fill: grey;
 }
 
-
-svg.block3 {
-	margin: -116px auto 50px -10px;
+div.participation::before {
+	content: url(./svg/block3.svg);
 }
 
 div.participation {
@@ -146,14 +150,23 @@ div.participation h3 {
 	font-family: 'Merienda', cursive;
 }
 
-div.participation::after{
+div.extra3 {
 	content: url(./images/cover3.png);
+	position: absolute;
 }
 
-svg.block4 {
-	margin-top: 27px;
-	margin-left: -7px;
-	padding: 0 0 50px 0;
+div.extra1:hover,
+div.extra2:hover,
+div.extra3:hover,
+div.extra4:hover,
+div.extra5:hover,
+div.extra6:hover {
+	opacity: 0;
+	transition: 1.5s;
+}
+
+div.benefits::before {
+	content: url(./svg/block4.svg);
 }
 
 div.benefits {
@@ -170,9 +183,14 @@ div.benefits h3 {
 	line-height: 1em;
 }
 
-div.benefits::after{
-	content:url(./images/cover4.png);
-	
+div.extra4 {
+	content: url(./images/cover4.png);
+	position: absolute;
+
+}
+
+div.requirements::before {
+	content: url(./svg/block5.svg);
 }
 
 div.requirements {
@@ -198,7 +216,12 @@ div.requirements p:nth-child(6) {
 	margin-top: 15px;
 }
 
-button {
+div.extra5 {
+	content: url(./svg/cover5.svg);
+	position: absolute;
+}
+
+/*button {
 	color: purple;
 	background-color: rgb(188, 218, 23);
 	font-size: 20px;
@@ -206,6 +229,10 @@ button {
 	border-radius: 5px;
 	border: purple solid 2px;
 	font-family: sans-serif;
+}*/
+
+div.aside.sidebar::before {
+	content: url(./svg/block6.svg);
 }
 
 aside.sidebar {
@@ -239,6 +266,11 @@ aside.sidebar h3 {
 
 aside.sidebar ul li {
 	font-family: sans-serif;
+}
+
+div.extra6{
+	content: url(./svg/cover6.svg);
+	position:absolute;
 }
 
 .redcolor1 {

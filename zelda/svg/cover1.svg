@@ -1,0 +1,66 @@
+<svg width="364" height="463"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink" id="cover1">
+	<!-- define pattern -->
+	<defs>
+		<!--red bricks-->
+		<pattern id="my4pattern" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
+			<rect width="50" height="15" x="0" y="0" fill="#dcc0c7"/>
+
+			<rect width="23.5" height="6.5" x="0" y="0" rx="1" fill="#9d2c4e"/>
+
+			<rect width="23.5" height="6.5" x="25" y="0" rx="1" fill="#9c2343"/>
+
+			<rect width="12" height="6.5" x="0" y="7.5" fill="#a11d3e"/>
+			<rect width="23.5" height="6.5" x="13" y="7.5" rx="1" fill="#aa3553"/>
+
+			<rect width="12" height="6.5" x="38" y="7.5" fill="#a11d3e"/>
+		</pattern>
+
+		<!-- Define Window -->
+
+		<svg id="window" viewBox="0 0 170 180"
+			xmlns="http://www.w3.org/2000/svg"
+			xmlns:xlink="http://www.w3.org/1999/xlink">
+			<rect width="150" height="170" x="5" y="7" fill="#bebebe" rx="70" stroke="black" />
+			<rect width="90" height="135" x="35" y="37" rx="50" />
+			<rect width="150" height="60" x="5" y="117" fill="#bebebe" rx="5" stroke="black" />
+			<rect width="20" height="40" x="70" y="1" fill="darkgrey" rx="5" stroke="black" />
+			<rect width="40" height="20" x="1" y="70" fill="darkgrey" rx="5" stroke="black" />
+			<rect width="40" height="20" x="120" y="70" fill="darkgrey" rx="5" stroke="black" />
+			<rect width="20" height="20" x="120" y="120" fill="grey" rx="5" stroke="black" />
+			<rect width="20" height="20" x="100" y="140" fill="darkgrey" rx="5" stroke="black" />
+			<rect width="20" height="20" x="20" y="150" fill="grey" rx="5" stroke="black" />
+			<rect width="5" height="76" x="78" y="41" fill="slategrey" rx="5" />
+			<rect width="5" height="72" x="55" y="45" fill="slategrey" rx="5" />
+			<rect width="5" height="72" x="100" y="45" fill="slategrey" rx="5" />
+		</svg>
+	</defs>
+	<rect width="262" height="80" x="0" y="0" fill="url(#my4pattern)" opacity=".5" />
+
+	<rect width="262" height="200" x="0" y="75" fill="url(#my4pattern)" />
+
+	<rect width="180" height="188" x="44" y="275" fill="url(#my4pattern)" />
+
+	<!-- door -->
+	<svg width="130" height="210"
+		xmlns="http://www.w3.org/2000/svg"
+		xmlns:xlink="http://www.w3.org/1999/xlink" id="door">
+		<rect width="130" height="220" x="70" y="315" fill="#bebebe" rx="80" stroke="black" />
+		<rect width="80" height="170" x="95" y="340" fill="peru" rx="50" stroke="black" />
+		<rect width="20" height="35" x="125" y="310" fill="darkgrey" rx="5" stroke="black" />
+		<rect width="35" height="20" x="65" y="375" fill="darkgrey" rx="5" stroke="black" />
+		<rect width="35" height="20" x="65" y="420" fill="darkgrey" rx="5" stroke="black" />
+		<rect width="35" height="20" x="170" y="375" fill="darkgrey" rx="5" stroke="black" />
+		<rect width="35" height="20" x="170" y="420" fill="darkgrey" rx="5" stroke="black" />
+		<line x1="110" y1="351" x2="110" y2="466" style="stroke:saddlebrown;stroke-width:3" />
+		<line x1="130" y1="370" x2="130" y2="466" style="stroke:saddlebrown;stroke-width:5" />
+		<line x1="150" y1="344" x2="150" y2="445" style="stroke:saddlebrown;stroke-width:3" />
+		<rect width="20" height="10" x="100" y="405" rx="5" />
+		<svg>
+			<!-- Window -->
+			<svg width="272" height="250">
+				<use xlink:href="#window" x="20" y="25" width="100"/>
+			</svg>
+
+		</svg>
