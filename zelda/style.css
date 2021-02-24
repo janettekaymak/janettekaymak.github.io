@@ -17,7 +17,7 @@ body {
 }
 
 header::before {
-	content: url(./images/linkAttack100.png);
+	content: url(./images/linkAttack150.png);
 }
 
 h1,
@@ -250,4 +250,8 @@ aside.sidebar ul li {
 div.extra6{
 	content: url(./svg/cover6.svg);
 	position:absolute;
+}
+
+aside.sidebar::after{
+	content: url(./images/wave150.png);
 }
