@@ -55,6 +55,6 @@
     <rect width="61" height="95" x="87" y="580" rx="30" />
     <rect width="90" height="40" x="73" y="637" fill="url(#my3pattern)" stroke="black" stroke-width="0" />
     <rect width="81" height="100" x="77" y="570" rx="40" fill="yellow" opacity=".3" />
-    <rect width="30" height="70" x="102.5" y="591" fill="red" rx="50" stroke="orange" stroke-width="7" />
+    <rect width="40" height="60" x="97" y="593" fill="red" rx="50" stroke="orange" stroke-width="6" />
     <rect width="10" height="30" x="112" y="625" fill="#23c8ff" rx="15" />
 </svg>
