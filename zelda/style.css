@@ -37,7 +37,7 @@ h2 {
 	font-size: 20px;
 }
 
-.summary::after {
+div.summary::after {
 	content: "Click on each block to reveal a hidden message!";
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
 }
@@ -48,15 +48,15 @@ h3 {
     text-align: center;
 }
 
-.summary{
+div.summary{
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
 }
 
-.preamble::before{
+div.preamble::before{
 	content: url(./svg/block1.svg);
 }
 
-.preamble {
+div.preamble {
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
 	font-size: 17.5px;
 	color: white;
@@ -71,13 +71,10 @@ div.preamble h3 {
 	line-height: 1.2em;
 }
 
-.preamble p:nth-child(4) {
+div.preamble p:nth-child(4) {
 	width: 160px;
 	text-align: justify;
 	margin-left: 40px;
-}
-.preamble::after{
-	content: url(./svg/cover1.svg);
 }
 
 svg.block2 {
@@ -85,7 +82,7 @@ svg.block2 {
 	margin: auto auto auto -25px;
 }
 
-.explanation {
+div.explanation {
 	text-align: justify;
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
 	font-size: 17px;
@@ -93,7 +90,7 @@ svg.block2 {
 	line-height: 1.11em;
 }
 
-.explanation p:nth-child(3) {
+div.explanation p:nth-child(3) {
 	width: 160px;
 }
 
@@ -149,12 +146,8 @@ div.participation h3 {
 	font-family: 'Merienda', cursive;
 }
 
-#cover3 {
-	display: block;
-	position: absolute;
-	margin-left: 29px;
-	margin-top: -565px;
-	border-radius: 20px;
+div.participation::after{
+	content: url(./images/cover3.png);
 }
 
 svg.block4 {
@@ -177,6 +170,11 @@ div.benefits h3 {
 	line-height: 1em;
 }
 
+div.benefits::after{
+	content:url(./images/cover4.png);
+	
+}
+
 div.requirements {
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
 	width: 250px;
@@ -192,22 +190,12 @@ div.requirements h3 {
 	line-height: 1em;
 }
 
-.requirements p:nth-child(5),
-.requirements p:nth-child(6) {
+div.requirements p:nth-child(5),
+div.requirements p:nth-child(6) {
 	width: 145px;
 	margin-left: 105px;
 	text-align: left;
 	margin-top: 15px;
-}
-
-svg.cover1:hover,
-svg.cover2:hover,
-.cover3:hover,
-.cover4:hover,
-svg.cover5:hover,
-svg.cover6:hover {
-	opacity: 0;
-	transition: 1.5s;
 }
 
 button {
