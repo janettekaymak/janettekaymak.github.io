@@ -111,27 +111,6 @@ div.extra2 {
 	position: absolute;
 }
 
-/*BRICK COLORS PINKS*/
-.pinkcolor1 {
-	fill: #ff9ece;
-}
-
-.pinkcolor2 {
-	fill: #ffacd6;
-}
-
-.pinkcolor3 {
-	fill: #ffa5d2;
-}
-
-.pinkcolor4 {
-	fill: #ffb4da;
-}
-
-.pinkback {
-	fill: grey;
-}
-
 div.participation::before {
 	content: url(./svg/block3.svg);
 }
@@ -271,44 +250,4 @@ aside.sidebar ul li {
 div.extra6{
 	content: url(./svg/cover6.svg);
 	position:absolute;
-}
-
-.redcolor1 {
-	fill: #9d2c4e;
-}
-
-.redcolor2 {
-	fill: #9c2343;
-}
-
-.redcolor3 {
-	fill: #aa3553;
-}
-
-.redcolor4 {
-	fill: #a11d3e;
-}
-
-.back2 {
-	fill: #dcc0c7;
-}
-
-.brickcolor1 {
-	fill: grey;
-}
-
-.brickcolor2 {
-	fill: #717171;
-}
-
-.brickcolor3 {
-	fill: #808080;
-}
-
-.brickcolor4 {
-	fill: dimgrey;
-}
-
-.back {
-	fill: lightgrey;
 }
