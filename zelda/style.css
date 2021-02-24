@@ -15,7 +15,7 @@
 body {
 	background-color: rgb(215, 235, 192);
 }
-befor::header{
+before::header{
 	background-image: url(https://janettekaymak.github.io/zelda/images/linkAttack.png);
 }
 
