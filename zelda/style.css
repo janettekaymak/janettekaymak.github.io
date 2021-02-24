@@ -81,6 +81,7 @@ h3 {
 .extra1 {
 	content: url(./svg/cover1.svg);
 	position: absolute;
+	margin: -1000px auto auto auto;
 }
 
 .explanation::before {
