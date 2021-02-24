@@ -15,4 +15,18 @@
     <rect width="268" height="33" x="0" y="0" fill="url(#my3pattern)" opacity=".5" />
     <rect width="268" height="624" x="0" y="28" fill="url(#my3pattern)" />
     <rect width="177" height="617" x="91" y="650.5" fill="url(#my3pattern)" />
+    <!-- door -->
+    <rect width="150" height="240" x="105" y="730" fill="#bebebe" rx="80" stroke="black" />
+    <rect width="90" height="180" x="135" y="762" fill="peru" rx="50" stroke="black" />
+    <rect width="20" height="40" x="170" y="722" fill="darkgrey" rx="5" stroke="black" />
+    <rect width="40" height="20" x="95" y="805" fill="darkgrey" rx="5" stroke="black" />
+    <rect width="40" height="20" x="95" y="850" fill="darkgrey" rx="5" stroke="black" />
+    <rect width="40" height="20" x="225" y="805" fill="darkgrey" rx="5" stroke="black" />
+    <rect width="40" height="20" x="225" y="850" fill="darkgrey" rx="5" stroke="black" />
+    <line x1="150" y1="775" x2="150" y2="890" style="stroke:saddlebrown;stroke-width:3" />
+    <line x1="170" y1="805" x2="170" y2="890" style="stroke:saddlebrown;stroke-width:5" />
+    <line x1="210" y1="785" x2="210" y2="890" style="stroke:saddlebrown;stroke-width:3" />
+    <line x1="190" y1="763" x2="190" y2="880" style="stroke:saddlebrown;stroke-width:3" />
+    <rect width="20" height="10" x="140" y="840" rx="5" />
+
 </svg>
