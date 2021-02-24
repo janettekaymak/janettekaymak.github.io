@@ -15,45 +15,45 @@
 body {
 	background-color: rgb(215, 235, 192);
 }
-before::header{
-	background-image: url(https://janettekaymak.github.io/zelda/images/linkAttack.png);
+header::before{
+   content: url(./images/linkAttack100.png);
 }
 
-section h1,
-section h2 {
-	display: block;
-	text-align: center;
+h1,
+h2 {
 	font-family: 'Merienda', cursive;
 	line-height: .25em;
 	color: purple;
 
 }
 
-section h1 {
+h1 {
 	font-size: 42px;
 	margin-top: 120px;
 	margin-bottom: 35px;
 }
 
-section h2 {
+h2 {
 	font-size: 20px;
 }
 
 .summary::after {
 	content: "Click on each block to reveal a hidden message!";
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
-	font-size: 18px;
-	margin-left: 40px;
 }
 
 h3 {
-	font-family: 'Merienda', cursive;
-	margin-bottom: -10px;
-	text-align: center;
+    font-family: 'Merienda', cursive;
+    margin-bottom: -10px;
+    text-align: center;
 }
 
 .summary{
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+}
+
+.preamble::before{
+	content: url(./svg/block1.svg);
 }
 
 .preamble {
@@ -62,9 +62,6 @@ h3 {
 	color: white;
 	width: 235px;
 	text-align: justify;
-	position: absolute;
-	margin-top: -610px;
-	margin-left: 78px;
 	line-height: 1.1em;
 }
 
@@ -79,6 +76,9 @@ div.preamble h3 {
 	text-align: justify;
 	margin-left: 40px;
 }
+.preamble::after{
+	content: url(./svg/cover1.svg);
+}
 
 svg.block2 {
 	padding: 0 0 200px 0;
@@ -90,9 +90,6 @@ svg.block2 {
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
 	font-size: 17px;
 	width: 241px;
-	position: absolute;
-	margin-top: -750px;
-	margin-left: 28px;
 	line-height: 1.11em;
 }
 
@@ -102,7 +99,6 @@ svg.block2 {
 
 div.explanation h3 {
 	font-family: 'Merienda', cursive;
-	opacity: 1;
 	font-size: 21px;
 	line-height: 1em;
 }
@@ -142,16 +138,12 @@ svg.block3 {
 div.participation {
 	color: white;
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
-	position: absolute;
 	text-align: justify;
 	width: 250px;
 	font-size: 16px;
-	margin-top: -585px;
-	margin-left: 45px;
 }
 
 div.participation h3 {
-	opacity: 1;
 	font-size: 26px;
 	line-height: 1em;
 	font-family: 'Merienda', cursive;
@@ -173,30 +165,23 @@ svg.block4 {
 
 div.benefits {
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
-	position: absolute;
 	width: 220px;
 	font-size: 16.5px;
-	margin-top: -370px;
-	margin-left: 60px;
 	text-align: center;
 	text-shadow: white 1px 1px 2px;
 }
 
 div.benefits h3 {
 	font-family: 'Merienda', cursive;
-	opacity: 1;
 	font-size: 30px;
 	line-height: 1em;
 }
 
 div.requirements {
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
-	position: absolute;
 	width: 250px;
 	font-size: 16.5px;
 	line-height: 1.05em;
-	margin-top: -950px;
-	margin-left: 71px;
 	text-align: justify;
 	text-shadow: white 1px 1px 2px;
 }
@@ -236,13 +221,9 @@ button {
 }
 
 aside.sidebar {
-	position: absolute;
 	padding: 30px;
 	color: white;
 	width: 250px;
-	margin-top: 98px;
-	margin-left: -2px;
-
 }
 
 aside.sidebar a:link,

@@ -93,9 +93,9 @@ h3 {
     text-align: center;
 }
 
-svg.block1 {
+#block1 {
     padding: 20px 5px 100px 0;
-    margin-left: -10px;
+    margin-left: 100px;
 }
 
 .preamble {
