@@ -282,7 +282,7 @@ aside.sidebar {
 	background-repeat: no-repeat;
 	padding: 65px 20px;
 	width: 360px;
-	height: 1220px;
+	height: 1250px;
 	display:block;
 	margin: 1050px auto 100px -32px;
 
@@ -343,7 +343,7 @@ aside.sidebar ul li {
 aside.sidebar::after {
 	content: url(./images/wave100.png);
 	position: absolute;
-	margin: 100px auto 100px 110px;
+	margin: 100px auto 0px 130px;
 	padding-bottom: 50px;
 }
 
