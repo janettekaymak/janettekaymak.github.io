@@ -352,7 +352,7 @@ aside.sidebar::after {
 
 .requirements::after {
 	height: 500px;
-	content: "CONGRATULATIONS! YOU WON! Now . . . go forth and code your very own CSS Zen Garden!";
+	content: "CONGRATULATIONS! YOU WON!   . . . Go forth and code your very own CSS Zen Garden!";
 	font-family: 'Merienda', cursive;
 	text-align: center;
 	font-size: 25px;
