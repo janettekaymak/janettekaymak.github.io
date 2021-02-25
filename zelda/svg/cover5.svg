@@ -68,7 +68,7 @@
 	<!-- background -->
 	<rect width="268" height="33" x="0" y="0" fill="url(#greyBricks)" opacity=".5" />
 	<rect width="268" height="624" x="0" y="28" fill="url(#greyBricks)" />
-	<rect width="177" height="617" x="91" y="650.5" fill="url(#greyBricks)" />
+	<rect width="177" height="248" x="91" y="650.5" fill="url(#greyBricks)" />
 	<!-- windows -->
 	<rect width="134" height="180" x="0" y="28" fill="url(#windowPattern)" />
 	<rect width="134" height="180" x="134" y="208" fill="url(#windowCandle)" />
