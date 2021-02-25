@@ -72,7 +72,7 @@
 	<!-- windows -->
 	<rect width="134" height="180" x="0" y="28" fill="url(#windowPattern)" />
 	<rect width="134" height="180" x="134" y="208" fill="url(#windowCandle)" />
-	<rect width="134" height="180" x="0" y="388" fill="url(#windowPattern)" />
+	<rect width="134" height="180" x="0" y="380" fill="url(#windowPattern)" />
 	<rect width="134" height="150" x="125" y="528" fill="url(#windowPattern)" />
 	<!-- door -->
 	<rect width="150" height="240" x="105" y="730" fill="#bebebe" rx="80" stroke="black" />
