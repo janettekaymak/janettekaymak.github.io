@@ -282,7 +282,7 @@ aside.sidebar {
 	background-repeat: no-repeat;
 	padding: 78px 30px;
 	width: 360px;
-	height: 1270px;
+	height: 1220px;
 	display:block;
 	margin: 1050px auto 100px -32px;
 
@@ -344,4 +344,12 @@ aside.sidebar::after {
 	position: absolute;
 	margin: 100px auto 100px 110px;
 	padding-bottom: 50px;
+}
+
+
+
+@media screen and (max-width: 500px){
+     body{
+		 background-color: deeppink;
+	 }
 }
