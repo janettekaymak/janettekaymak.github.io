@@ -24,7 +24,7 @@ body {
 }
 
 header {
-	background-image: linear-gradient( rgb(210, 252, 210), darkturquoise, rgb(210, 252, 210));
+	background-image: linear-gradient(rgb(210, 252, 210), darkturquoise, rgb(210, 252, 210));
 	height: 200px;
 	background-position: bottom;
 	background-repeat: repeat;
@@ -473,7 +473,6 @@ aside.sidebar::after {
 
 	body {
 		max-width: 800px;
-		margin: auto;
 
 	}
 
@@ -565,6 +564,120 @@ aside.sidebar::after {
 	.requirements::after {
 		width: 580px;
 		margin: 1230px auto auto -40px;
+		border-radius: 600px;
+		font-size: 19px;
+	}
+
+}
+
+/*------------------1200------------------*/
+
+@media screen and (min-width: 1200px) {
+
+	body {
+		max-width: 1200px;
+		margin: auto;
+
+	}
+
+	header {
+		height: 180px;
+	}
+
+	h1 {
+		font-size: 67px;
+		margin-bottom: 65px;
+	}
+	
+	h2 {
+		font-size: 20px;
+	}
+
+	/* Link: */
+	header::after {
+		content: url(./images/linkAttack200.png);
+		margin-left: 145px;
+		margin-top: -90px;
+	}
+
+	h1,
+	h2 {
+		width: 1040px;
+	}
+
+	.summary {
+		margin-top: -100px;
+		padding: 0 145px 0 360px;
+		line-height: 1.5em;
+	}
+
+	/* block1 */
+	div.preamble {
+		margin: 55px auto 200px 439px;
+	}
+
+	/* cover1 */
+	.extra1 {
+		margin: -2792px auto auto 514px;
+	}
+
+	/* block2 */
+	.explanation {
+		margin: 0 auto 200px 442px;
+	}
+
+	/* cover2 */
+	.extra2 {
+		margin: -2141px auto auto 466px;
+	}
+
+	/* block3 */
+	.participation {
+		margin: 0 auto 200px 440px;
+	}
+
+	/* cover3 */
+	.extra3 {
+		margin-top: -1260px;
+		margin-left: 480px;
+		border-radius: 20px;
+	}
+
+	/* block4 */
+	.benefits {
+		margin: auto auto 200px 440px;
+	}
+
+	/* cover4 */
+	.extra4 {
+		margin: -573px auto auto 422px;
+
+	}
+
+	/* block5 */
+	.requirements {
+		margin: 0 auto 200px 428px;
+	}
+
+	/* cover5 */
+	.extra5 {
+		margin: 3241px auto auto 500px;
+	}
+
+	/* block6 */
+	aside.sidebar {
+		margin: 1150px auto 100px 400px;
+
+	}
+
+	aside.sidebar::after {
+		content: url(./images/wave200.png);
+		margin: 75px auto 0px 150px;
+	}
+
+	.requirements::after {
+		width: 580px;
+		margin: 1275px auto auto -100px;
 		border-radius: 600px;
 		font-size: 19px;
 	}
