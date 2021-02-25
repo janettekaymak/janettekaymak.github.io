@@ -35,8 +35,8 @@ header {
 header::after {
 	content: url(./images/linkAttack100.png);
 	margin-left: 5px;
-	position: fixed;
-	margin-top: 50px;
+	position: absolute;
+	margin-top: 100px;
 	z-index: 2;
 }
 
@@ -373,6 +373,7 @@ aside.sidebar::after {
 	}
 	/* Link: */
 	header::after {
+		position: fixed;
 		margin-left: 15px;
 	}
 
