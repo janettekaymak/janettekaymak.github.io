@@ -21,8 +21,6 @@ body {
 
 }
 
-div.page-wrapper {}
-
 header {
 	background-image: linear-gradient(rgb(195, 248, 195), darkturquoise, purple);
 	height: 125px;
@@ -284,7 +282,7 @@ aside.sidebar {
 	background-repeat: no-repeat;
 	padding: 65px 30px;
 	width: 360px;
-	height: 1250px;
+	height: 700px;
 	display: block;
 	margin: 1050px auto 100px -32px;
 
@@ -338,8 +336,7 @@ aside.sidebar ul li {
 .extra2:hover,
 .extra3:hover,
 .extra4:hover,
-.extra5:hover,
-.extra6:hover {
+.extra5:hover {
 	opacity: 0;
 	transition: 1.5s;
 }
@@ -351,10 +348,197 @@ aside.sidebar::after {
 	padding-bottom: 50px;
 }
 
+.requirements::after {
+	width: 500px;
+	height: 500px;
+	content: "CONGRATULATIONS! YOU WON! Go forth and code your very own CSS Zen Garden!";
+	font-family: 'Merienda', cursive;
+	text-align: center;
+	font-size: 25px;
+	background-color: purple;
+	background-image: linear-gradient(rgb(195, 248, 195), darkturquoise, purple);
+	width: 360px;
+	display: block;
+	padding-top: 50px;
+	margin: 1100px auto auto auto;
+}
 
+/*////////////////////////////////////////*/
 
 @media screen and (min-width: 500px) {
-	body {
-		background-color: violet;
+
+	/* Link: */
+	header::after {
+		margin-left: 15px;
 	}
+
+	h1,
+	h2 {
+		width: 470px;
+	}
+
+	.summary {
+		padding: 0 70px 0 120px;
+		line-height: 1.5em;
+	}
+
+	/* block1 */
+	div.preamble {
+		margin: -15px auto 100px 119px;
+	}
+
+	/* cover1 */
+	.extra1 {
+		margin-left: 194px;
+	}
+
+	/* block2 */
+	.explanation {
+		margin: 0 auto 100px 122px;
+	}
+
+	/* cover2 */
+	.extra2 {
+		margin: -1841px auto auto 146px;
+	}
+
+	/* block3 */
+	.participation {
+		margin: 0 auto 100px 120px;
+	}
+
+	/* cover3 */
+	.extra3 {
+		margin-left: 160px;
+		border-radius: 20px;
+	}
+
+	/* block4 */
+	.benefits {
+		margin: auto auto 100px 120px;
+	}
+
+	/* cover4 */
+	.extra4 {
+		margin: -475px auto auto 102px;
+
+	}
+
+	.requirements {
+		position: absolute;
+		width: 365px;
+		height: 950px;
+		display: block;
+		margin: 0 auto 100px 8px;
+		background-image: url(./svg/block5.svg);
+		background-repeat: no-repeat;
+	}
+
+	.requirements p {
+		width: 252px;
+		display: block;
+		margin: 5px auto auto 80px;
+		font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+		font-size: 16.5px;
+		line-height: 1.1em;
+		text-align: justify;
+		text-shadow: white 1px 1px 2px;
+	}
+
+	.requirements h3 {
+		font-family: 'Merienda', cursive;
+		font-size: 25px;
+		line-height: 1em;
+		padding: 0px 0 5px 40px;
+
+
+	}
+
+	.requirements p:nth-child(5),
+	.requirements p:nth-child(6) {
+		width: 160px;
+		margin-left: 185px;
+		text-align: left;
+		margin-top: 0px;
+	}
+
+	.extra5 {
+		content: url(./svg/cover5.svg);
+		position: absolute;
+		margin: 2948px auto auto 80px;
+	}
+
+	aside.sidebar {
+		position: absolute;
+		background-image: url(./svg/block6.svg);
+		background-repeat: no-repeat;
+		padding: 65px 30px;
+		width: 360px;
+		height: 1250px;
+		display: block;
+		margin: 1050px auto 100px -32px;
+
+	}
+
+	aside.sidebar a:link,
+	aside.sidebar a:visited {
+		color: white;
+		text-decoration: none;
+		text-shadow: rgb(248, 248, 255, .0) 1px 1px 1px;
+	}
+
+	aside.sidebar a:hover,
+	aside.sidebar:hover {
+		color: purple;
+		font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+		text-shadow: rgb(128, 0, 128) 1px 1px 1px;
+	}
+
+	li:hover {
+		background-color: rgb(248, 248, 255, .5);
+		border-radius: 5px;
+		padding: 3px 10px;
+	}
+
+	aside.sidebar h3 {
+		font-family: 'Merienda', cursive;
+		font-size: 29px;
+		text-align: center;
+		color: purple;
+		background-color: rgb(248, 248, 255, .5);
+		padding: 5px;
+		border-radius: 5px;
+		line-height: .7em;
+		width: 240px;
+		margin-left: 48px;
+
+	}
+
+	aside.sidebar ul li {
+		font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+		color: white;
+		width: 200px;
+		display: block;
+		margin-left: 30px;
+		font-size: 18px;
+
+	}
+
+	.extra1:hover,
+	.extra2:hover,
+	.extra3:hover,
+	.extra4:hover,
+	.extra5:hover,
+	.extra6:hover {
+		opacity: 0;
+		transition: 1.5s;
+	}
+
+	aside.sidebar::after {
+		content: url(./images/wave100.png);
+		position: absolute;
+		margin: 100px auto 0px 130px;
+		padding-bottom: 50px;
+	}
+
 }
