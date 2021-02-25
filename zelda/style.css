@@ -280,7 +280,7 @@ aside.sidebar {
 	position: absolute;
 	background-image: url(./svg/block6.svg);
 	background-repeat: no-repeat;
-	padding: 78px 30px;
+	padding: 65px 20px;
 	width: 360px;
 	height: 1220px;
 	display:block;
@@ -292,11 +292,18 @@ aside.sidebar a:link,
 aside.sidebar a:visited {
 	color: white;
 	text-decoration: none;
+	text-shadow:rgb(248, 248, 255, .0) 1px 1px 1px;
 }
 
-aside.sidebar a:hover {
+aside.sidebar a:hover, aside.sidebar:hover{
 	color: purple;
-	text-shadow: white 1px 1px 1px;
+	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+	text-shadow:rgb(128, 0, 128) 1px 1px 1px;
+}
+li:hover{
+	background-color: rgb(248, 248, 255, .5);
+	border-radius: 5px;
+	padding: 3px 10px;
 }
 
 aside.sidebar h3 {
@@ -314,11 +321,12 @@ aside.sidebar h3 {
 }
 
 aside.sidebar ul li {
-	font-family: sans-serif;
+	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
 	color: white;
 	width: 200px;
 	display: block;
-	margin-left: 50px;
+	margin-left: 30px;
+	font-size: 18px;
 
 }
 
