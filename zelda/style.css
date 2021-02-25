@@ -322,13 +322,6 @@ aside.sidebar ul li {
 
 }
 
-.extra6 {
-	content: url(./svg/cover6.svg);
-	position: absolute;
-	margin: 4048px auto auto 38px;
-	border-radius: 15px;
-}
-
 .extra1:hover,
 .extra2:hover,
 .extra3:hover,
@@ -350,6 +343,6 @@ aside.sidebar::after {
 
 @media screen and (max-width: 500px){
      body{
-		 background-color: deeppink;
+		 
 	 }
 }
