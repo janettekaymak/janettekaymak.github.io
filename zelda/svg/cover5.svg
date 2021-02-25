@@ -21,14 +21,14 @@
 		<!-- window pattern -->
 		<pattern id="windowPattern" patternUnits="userSpaceOnUse" x="8" y="80" width="150" height="160">
 			<!-- stone work -->
-			<rect width="93" height="105" x="3" y="4" fill="darkgrey" rx="43" stroke="black" />
-			<rect width="56" height="83" x="22" y="23" rx="31" stroke="black" fill="url(#redBricks)" />
-			<rect width="56" height="83" x="22" y="23" rx="31" opacity=".4" />
+			<rect width="93" height="105" x="3" y="4" fill="#bebebe" rx="43" stroke="black" />
+			<rect width="56" height="83" x="22" y="23" rx="31" stroke="black" fill="url(#greyBricks)" />
+			<rect width="56" height="83" x="22" y="23" rx="31" opacity=".5" />
 			<!-- more stone work -->
 			<rect width="93" height="37" x="3" y="72" fill="#bebebe" rx="3" stroke="black" />
-			<rect width="12" height="25" x="43" y=".7" fill="#bebebe" rx="3" stroke="black" />
-			<rect width="25" height="12" x=".7" y="43" fill="#bebebe" rx="3" stroke="black" />
-			<rect width="25" height="12" x="74" y="43" fill="#bebebe" rx="3" stroke="black" />
+			<rect width="12" height="25" x="43" y=".7" fill="darkgrey" rx="3" stroke="black" />
+			<rect width="25" height="12" x=".7" y="43" fill="darkgrey" rx="3" stroke="black" />
+			<rect width="25" height="12" x="74" y="43" fill="darkgrey" rx="3" stroke="black" />
 			<rect width="12" height="12" x="74" y="74" fill="grey" rx="3" stroke="black" />
 			<rect width="12" height="12" x="62" y="86" fill="darkgrey" rx="3" stroke="black" />
 			<rect width="12" height="12" x="12" y="93" fill="grey" rx="3" stroke="black" />
