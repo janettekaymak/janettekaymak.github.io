@@ -12,7 +12,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
-*{
+* {
 	position: relative;
 }
 
@@ -368,12 +368,14 @@ aside.sidebar::after {
 
 @media screen and (min-width: 500px) {
 
-	header{
+	header {
 		height: 150px;
 	}
+
 	/* Link: */
 	header::after {
 		position: fixed;
+		margin-top: -60px;
 		margin-left: 15px;
 	}
 
@@ -389,59 +391,60 @@ aside.sidebar::after {
 
 	/* block1 */
 	div.preamble {
-		margin: -15px auto 100px 119px;
+		margin: -15px auto 200px 119px;
 	}
 
 	/* cover1 */
 	.extra1 {
-		margin-left: 194px;
+		margin: -2792px auto auto 194px;
 	}
 
 	/* block2 */
 	.explanation {
-		margin: 0 auto 100px 122px;
+		margin: 0 auto 200px 122px;
 	}
 
 	/* cover2 */
 	.extra2 {
-		margin: -1841px auto auto 146px;
+		margin: -2141px auto auto 146px;
 	}
 
 	/* block3 */
 	.participation {
-		margin: 0 auto 100px 120px;
+		margin: 0 auto 200px 120px;
 	}
 
 	/* cover3 */
 	.extra3 {
+		margin-top: -1260px;
 		margin-left: 160px;
 		border-radius: 20px;
 	}
 
 	/* block4 */
 	.benefits {
-		margin: auto auto 100px 120px;
+		margin: auto auto 200px 120px;
 	}
 
 	/* cover4 */
 	.extra4 {
-		margin: -475px auto auto 102px;
+		margin: -575px auto auto 102px;
 
 	}
 
 	/* block5 */
 	.requirements {
-		margin: 0 auto 100px 108px;
+		margin: 0 auto 200px 108px;
 	}
 
 	/* cover5 */
 	.extra5 {
-		margin: 2987px auto auto 180px;
+		margin: 3412px auto auto 180px;
 	}
 
 	/* block6 */
 	aside.sidebar {
-		margin: 1050px auto 100px 80px;
+		margin: 1150px auto 100px 80px;
 
 	}
 
@@ -454,10 +457,10 @@ aside.sidebar::after {
 		font-size: 25px;
 		color: purple;
 		background-image: linear-gradient(rgb(195, 248, 195), darkturquoise, purple);
-		width: 320px;
+		width: 375px;
 		display: block;
 		padding-top: 50px;
-		margin: 1100px auto auto auto;
+		margin: 1200px auto auto 10px;
 	}
 
 }
