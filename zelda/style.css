@@ -355,7 +355,7 @@ aside.sidebar::after {
 	font-family: 'Merienda', cursive;
 	text-align: center;
 	font-size: 25px;
-	background-color: purple;
+	color: purple;
 	background-image: linear-gradient(rgb(195, 248, 195), darkturquoise, purple);
 	width: 360px;
 	display: block;
