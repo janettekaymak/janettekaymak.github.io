@@ -2,7 +2,7 @@
 	xmlns="http://www.w3.org/2000/svg" id="cover1">
 	<!-- define patterns -->
 	<defs>		<!--red bricks-->
-		<pattern id="my4pattern" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
+		<pattern id="redBricks" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
 			<rect width="50" height="15" x="0" y="0" fill="#dcc0c7"/>
 			<rect width="23.5" height="6.5" x="0" y="0" rx="1" fill="#9d2c4e"/>
 			<rect width="23.5" height="6.5" x="25" y="0" rx="1" fill="#9c2343"/>
@@ -12,7 +12,7 @@
 		</pattern>
 		<!--Castle Window-->
 		<!--grey brick pattern-->
-		<pattern id="my3pattern" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
+		<pattern id="greyBricks" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
 			<rect width="50" height="15" x="0" y="0" class="back" fill="lightgrey"/>
 			<rect width="23.5" height="6.5" x="0" y="0" rx="1" class="brickcolor1" fill="grey"/>
 			<rect width="23.5" height="6.5" x="25" y="0" rx="1" class="brickcolor2" fill="#717171"/>
@@ -25,7 +25,7 @@
 		viewBox="-20 -100 200 220">
 			<!--stone work-->
 			<rect width="150" height="170" x="5" y="7" fill="#bebebe" rx="70" stroke="black" />
-			<rect width="90" height="135" x="35" y="37" rx="50" stroke="black" fill="url(#my3pattern)" />
+			<rect width="90" height="135" x="35" y="37" rx="50" stroke="black" fill="url(#redBricks)" />
 			<rect width="90" height="135" x="35" y="37" rx="50" opacity=".3" />
 			<!--candle-->
 			<rect width="21" height="35" x="69" y="84" rx="2" fill="white" />
@@ -47,9 +47,9 @@
 			<rect width="4" height="66" x="107.5" y="51" rx="5" />
 		</pattern>
 	</defs>
-	<rect width="262" height="80" x="0" y="0" fill="url(#my4pattern)" opacity=".5"/>
-	<rect width="262" height="200" x="0" y="75" fill="url(#my4pattern)" />
-	<rect width="180" height="188" x="44" y="275" fill="url(#my4pattern)" />
+	<rect width="262" height="65" x="0" y="0" fill="url(#redBricks)" opacity=".5"/>
+	<rect width="262" height="215" x="0" y="60" fill="url(#redBricks)" />
+	<rect width="180" height="188" x="44" y="275" fill="url(#redBricks)" />
 	<!-- door -->
 	<rect width="130" height="220" x="70" y="315" fill="#bebebe" rx="80" stroke="black"/>
 	<rect width="80" height="170" x="95" y="340" fill="peru" rx="50" stroke="black"/>

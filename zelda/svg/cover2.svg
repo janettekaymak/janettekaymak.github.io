@@ -3,6 +3,19 @@
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 488">
     <!-- define pattern -->
     <defs>
+    <!--red bricks-->
+        <pattern id="redBricks" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
+            <rect width="50" height="15" x="0" y="0" fill="#dcc0c7"/>
+
+            <rect width="23.5" height="6.5" x="0" y="0" rx="1" fill="#9d2c4e"/>
+
+            <rect width="23.5" height="6.5" x="25" y="0" rx="1" fill="#9c2343"/>
+
+            <rect width="12" height="6.5" x="0" y="7.5" fill="#a11d3e"/>
+            <rect width="23.5" height="6.5" x="13" y="7.5" rx="1" fill="#aa3553"/>
+
+            <rect width="12" height="6.5" x="38" y="7.5" fill="#a11d3e"/>
+        </pattern>
         <!--pink bricks-->
         <pattern id="my5pattern" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
             <rect width="323" height="580" x="0" y="0" fill="grey"/>
@@ -26,7 +39,7 @@
   <pattern id="windowPattern" patternUnits="userSpaceOnUse" x="29" y="42" width="150" height="160">
     <!--stone work-->
     <rect width="93" height="105" x="3" y="4" fill="#bebebe" rx="43" stroke="black" />
-    <rect width="56" height="83" x="22" y="23" rx="31" stroke="black" fill="url(#my3pattern)" />
+    <rect width="56" height="83" x="22" y="23" rx="31" stroke="black" fill="url(#redBricks)" />
     <rect width="56" height="83" x="22" y="23" rx="31" opacity=".3" />
     <!--candle-->
     <rect width="13" height="22" x="43" y="52" rx="1" fill="white" />

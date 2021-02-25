@@ -12,30 +12,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
+
 body {
 	background-color: rgb(215, 235, 192);
+	display: grid;
+	margin: -80px auto auto -10px;
 }
 
-header::before {
+div.page-wrapper {}
+
+header {
+	background-image: url(./images/mountain-banner2.jpg);
+	height: 155px;
+	background-position: bottom;
+	background-repeat: repeat;
+	background-size: cover;
+	position: relative;
+}
+
+header::after {
 	content: url(./images/linkAttack150.png);
+	margin-left: 13px;
+	position: absolute;
+	margin-top: 40px;
 }
 
 h1,
 h2 {
+	width: 360px;
+	display: block;
+	margin: 0;
+	text-align: right;
 	font-family: 'Merienda', cursive;
-	line-height: .25em;
-	color: purple;
-
+	line-height: .1em;
 }
 
 h1 {
-	font-size: 42px;
+	font-size: 37px;
 	margin-top: 120px;
 	margin-bottom: 35px;
+	color: purple;
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 18px;
+	color: purple;
 }
 
 .summary::after {
@@ -50,123 +71,186 @@ h3 {
 }
 
 .summary {
+	max-width: 360px;
+	padding: 0 0 0 160px;
+	margin: auto 14px 0 10px;
+	text-align: flex-wrap;
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+	line-height: 1.1em;
 }
 
-.preamble::before {
-	content: url(./svg/block1.svg);
+.summary p a {
+	text-decoration: none;
+	font-family: 'Merienda', cursive;
+	color: purple;
 }
 
-.preamble {
+div.preamble {
+	position:relative;
+	display:block;
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
 	font-size: 17.5px;
 	color: white;
-	width: 235px;
+	width: 360px;
+	height: 560px;
 	text-align: justify;
-	line-height: 1.1em;
+	line-height: 1em;
+	background-image: url(./svg/block1.svg);
+	background-repeat: no-repeat;
+	margin: -15px auto 100px 9px;
+}
+
+.preamble p {
+	padding: 0px 40px;
+	margin: 20px 0 0 45px;
 }
 
 .preamble h3 {
 	font-family: 'Merienda', cursive;
 	font-size: 25px;
-	line-height: 1.2em;
+	line-height: 1em;
+	padding: 80px 50px 0 90px;
+	;
 }
 
 .preamble p:nth-child(4) {
 	width: 160px;
 	text-align: justify;
-	margin-left: 40px;
+	margin-left: 90px;
 }
 
 .extra1 {
 	content: url(./svg/cover1.svg);
 	position: absolute;
+	margin-top: 494px;
+	margin-left: 83px;
 }
-
-.explanation::before {
-	content: url(./svg/block2.svg);
-
+.explanation h3 {
+	font-family: 'Merienda', cursive;
+	font-size: 21px;
+	line-height: 1em;
+	margin-left: -45px;
+	padding-top: 30px;
+	padding-bottom: 10px;
 }
 
 .explanation {
+	position: relative;
+	display:block;
+	background-image: url(./svg/block2.svg);
+	background-repeat: no-repeat;
 	text-align: justify;
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
 	font-size: 17px;
-	width: 241px;
+	width: 360px;
+	height: 558px;
 	line-height: 1.11em;
+	margin: 0 auto 100px 12px;
+}
+
+.explanation p{
+	width: 245px;
+	display: block;
+	padding: 0px 40px;
+	margin-left: -7px;
 }
 
 .explanation p:nth-child(3) {
 	width: 160px;
 }
 
-.explanation h3 {
-	font-family: 'Merienda', cursive;
-	font-size: 21px;
-	line-height: 1em;
-}
-
 .extra2 {
 	content: url(./svg/cover2.svg);
 	position: absolute;
-}
-
-.participation::before {
-	content: url(./svg/block3.svg);
+	margin: 1045px auto auto 36px;
 }
 
 .participation {
-	color: white;
-	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
-	text-align: justify;
-	width: 250px;
-	font-size: 16px;
+	position: relative;
+	display:block;
+	width: 360px;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-image: url(./svg/block3.svg);
+	margin: 0 auto 100px 10px;
 }
 
 .participation h3 {
 	font-size: 26px;
-	line-height: 1em;
+	line-height: 1.2em;
 	font-family: 'Merienda', cursive;
+	padding-top: 95px;
+}
+
+.participation p{
+	font-size: 16px;
+	color: white;
+	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+	text-align: justify;
+	width: 260px;
+	display: block;
+	margin: 12px auto auto auto;
 }
 
 .extra3 {
 	content: url(./images/cover3.png);
 	position: absolute;
-}
-
-.benefits::before {
-	content: url(./svg/block4.svg);
+	margin-top: 1825px;
+	margin-left: 50px;
+	border-radius: 20px;
 }
 
 .benefits {
+	position: relative;
+	width: 360px;
+	height:350px;
+	background-image: url(./svg/block4.svg);
+	background-repeat: no-repeat;
+	margin: auto auto 100px 10px;
+}
+
+.benefits p{
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
-	width: 220px;
 	font-size: 16.5px;
 	text-align: center;
 	text-shadow: white 1px 1px 2px;
+	width: 250px;
+	display: block;
+	margin: auto;
 }
 
 .benefits h3 {
 	font-family: 'Merienda', cursive;
 	font-size: 30px;
 	line-height: 1em;
+	padding-top: 50px;
+	padding-bottom: 20px;
 }
 
 .extra4 {
 	content: url(./images/cover4.png);
 	position: absolute;
+	margin: 2410px auto auto -8px;
 
-}
-
-.requirements::before {
-	content: url(./svg/block5.svg);
 }
 
 .requirements {
+	position: absolute;
+	width: 365px;
+	height: 950px;
+	display: block;
+	margin: 0 auto 100px auto;
+	background-image:url(./svg/block5.svg);
+	background-repeat: no-repeat;
+}
+
+.requirements p{
+	width: 252px;
+	display: block;
+	margin: 5px auto auto 80px;
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
-	width: 250px;
 	font-size: 16.5px;
-	line-height: 1.05em;
+	line-height: 1.1em;
 	text-align: justify;
 	text-shadow: white 1px 1px 2px;
 }
@@ -175,28 +259,34 @@ h3 {
 	font-family: 'Merienda', cursive;
 	font-size: 25px;
 	line-height: 1em;
+	padding: 25px 0 5px 40px;
+
+
 }
 
 .requirements p:nth-child(5),
 .requirements p:nth-child(6) {
-	width: 145px;
-	margin-left: 105px;
+	width: 160px;
+	margin-left: 185px;
 	text-align: left;
-	margin-top: 15px;
+	margin-top: 0px;
 }
 
 .extra5 {
 	content: url(./svg/cover5.svg);
-}
-
-.requirements::after {
-	content: url(./svg/block6.svg);
+	position:absolute;
+	margin: 2910px auto auto 73px;
 }
 
 aside.sidebar {
-	padding: 30px;
-	color: white;
-	width: 250px;
+	position: absolute;
+	background-image: url(./svg/block6.svg);
+	background-repeat: no-repeat;
+	padding: 78px 30px;
+	width: 360px;
+	display:block;
+	margin: 1050px auto 100px -32px;
+
 }
 
 aside.sidebar a:link,
@@ -219,15 +309,25 @@ aside.sidebar h3 {
 	padding: 5px;
 	border-radius: 5px;
 	line-height: .7em;
+	width: 240px;
+	margin-left: 48px;
 
 }
 
 aside.sidebar ul li {
 	font-family: sans-serif;
+	color: white;
+	width: 200px;
+	display: block;
+	margin-left: 50px;
+
 }
 
-.extra6{
+.extra6 {
 	content: url(./svg/cover6.svg);
+	position: absolute;
+	margin: 4028px auto auto 38px;
+	border-radius: 15px;
 }
 
 .extra1:hover,
@@ -240,6 +340,9 @@ aside.sidebar ul li {
 	transition: 1.5s;
 }
 
-aside.sidebar::after{
-	content: url(./images/zelda150.png);
+aside.sidebar::after {
+	content: url(./images/wave150.png);
+	position: absolute;
+	margin: 150px auto 100px 100px;
+	padding-bottom: 100px;
 }
