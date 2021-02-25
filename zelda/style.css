@@ -17,15 +17,15 @@
 }
 
 body {
-	background-color: rgb(195, 248, 195);
+	background-color: rgb(210, 252, 210);
 	display: grid;
 	margin: -80px auto auto -10px;
 
 }
 
 header {
-	background-image: linear-gradient(rgb(195, 248, 195), darkturquoise, purple);
-	height: 125px;
+	background-image: linear-gradient( rgb(210, 252, 210), darkturquoise, rgb(210, 252, 210));
+	height: 200px;
 	background-position: bottom;
 	background-repeat: repeat;
 	background-size: cover;
@@ -34,9 +34,9 @@ header {
 
 header::after {
 	content: url(./images/linkAttack100.png);
-	margin-left: 5px;
+	margin-left: 20px;
 	position: absolute;
-	margin-top: 100px;
+	margin-top: -20px;
 	z-index: 2;
 }
 
@@ -54,12 +54,16 @@ h1 {
 	font-size: 37px;
 	margin-top: 120px;
 	margin-bottom: 35px;
-	color: purple;
 }
 
 h2 {
 	font-size: 18px;
-	color: purple;
+}
+
+h1,
+h2 {
+	color: rgb(173, 1, 173);
+
 }
 
 .summary::after {
@@ -74,18 +78,19 @@ h3 {
 }
 
 .summary {
-	padding: 0 85px 0 95px;
+	padding: 0 75px 0 105px;
 	margin: auto 14px 0 10px;
 	text-align: right;
 	font-family: 'Merienda', cursive;
 	line-height: 1.1em;
-	color: darkslategray;
+	color: rgb(85, 84, 84);
+	margin-top: -60px;
 }
 
 .summary p a {
 	text-decoration: none;
 	font-family: 'Merienda', cursive;
-	color: purple;
+	color: rgb(188, 4, 224);
 }
 
 div.preamble {
@@ -275,7 +280,7 @@ footer {
 .extra5 {
 	content: url(./svg/cover5.svg);
 	position: absolute;
-	margin: 3348px auto auto 80px;
+	margin: 3363px auto auto 80px;
 }
 
 aside.sidebar {
@@ -352,24 +357,32 @@ aside.sidebar::after {
 
 .requirements::after {
 	height: 500px;
-	content: "CONGRATULATIONS! YOU WON!   . . . Go forth and code your very own CSS Zen Garden!";
+	content: "CONGRATULATIONS! YOU WON!   . . . Now go forth into the world and code your very own CSS Zen Garden!";
 	font-family: 'Merienda', cursive;
 	text-align: center;
-	font-size: 25px;
+	font-size: 20px;
 	color: purple;
 	background-image: linear-gradient(rgb(195, 248, 195), darkturquoise, purple);
 	width: 360px;
 	display: block;
 	padding-top: 50px;
-	margin: 1200px auto auto auto;
+	margin: 1150px auto auto auto;
+	border-radius: 600px 0 0 600px;
 }
 
-/*////////////////////////////////////////*/
+/*--------------------500----------------------*/
 
 @media screen and (min-width: 500px) {
 
+	body {
+		max-width: 500px;
+		margin: auto;
+
+	}
+
 	header {
 		height: 150px;
+		margin-top: -50px;
 	}
 
 	/* Link: */
@@ -439,7 +452,7 @@ aside.sidebar::after {
 
 	/* cover5 */
 	.extra5 {
-		margin: 3412px auto auto 180px;
+		margin: 3302px auto auto 180px;
 	}
 
 	/* block6 */
@@ -449,18 +462,111 @@ aside.sidebar::after {
 	}
 
 	.requirements::after {
-		width: 500px;
-		height: 500px;
-		content: "CONGRATULATIONS! YOU WON! Go forth and code your very own CSS Zen Garden!";
-		font-family: 'Merienda', cursive;
-		text-align: center;
-		font-size: 25px;
-		color: purple;
-		background-image: linear-gradient(rgb(195, 248, 195), darkturquoise, purple);
 		width: 375px;
-		display: block;
-		padding-top: 50px;
-		margin: 1200px auto auto 10px;
+	}
+
+}
+
+/*------------------800------------------*/
+
+@media screen and (min-width: 800px) {
+
+	body {
+		max-width: 800px;
+		margin: auto;
+
+	}
+
+	header {
+		height: 180px;
+	}
+
+	/* Link: */
+	header::after {
+		content: url(./images/linkAttack150.png);
+		margin-left: 50px;
+		margin-top: -90px;
+	}
+
+	h1,
+	h2 {
+		width: 755px;
+	}
+
+	.summary {
+		padding: 0 30px 0 360px;
+		line-height: 1.5em;
+	}
+
+	/* block1 */
+	div.preamble {
+		margin: -15px auto 200px 239px;
+	}
+
+	/* cover1 */
+	.extra1 {
+		margin: -2792px auto auto 314px;
+	}
+
+	/* block2 */
+	.explanation {
+		margin: 0 auto 200px 242px;
+	}
+
+	/* cover2 */
+	.extra2 {
+		margin: -2141px auto auto 266px;
+	}
+
+	/* block3 */
+	.participation {
+		margin: 0 auto 200px 240px;
+	}
+
+	/* cover3 */
+	.extra3 {
+		margin-top: -1260px;
+		margin-left: 280px;
+		border-radius: 20px;
+	}
+
+	/* block4 */
+	.benefits {
+		margin: auto auto 200px 240px;
+	}
+
+	/* cover4 */
+	.extra4 {
+		margin: -575px auto auto 222px;
+
+	}
+
+	/* block5 */
+	.requirements {
+		margin: 0 auto 200px 228px;
+	}
+
+	/* cover5 */
+	.extra5 {
+		margin: 3260px auto auto 300px;
+	}
+
+	/* block6 */
+	aside.sidebar {
+		margin: 1150px auto 100px 200px;
+
+	}
+
+	aside.sidebar::after {
+		content: url(./images/wave150.png);
+		margin: 100px auto 0px 130px;
+	}
+
+	.requirements::after {
+		width: 580px;
+		margin: 1230px auto auto -40px;
+		border-radius: 600px;
+		font-size: 19px;
 	}
 
 }
