@@ -24,7 +24,7 @@ body {
 div.page-wrapper {}
 
 header {
-	background-image: linear-gradient(rgb(195, 248, 195),darkturquoise, purple);
+	background-image: linear-gradient(rgb(195, 248, 195), darkturquoise, purple);
 	height: 125px;
 	background-position: bottom;
 	background-repeat: repeat;
@@ -89,7 +89,7 @@ h3 {
 }
 
 div.preamble {
-	display:block;
+	display: block;
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
 	font-size: 17.5px;
 	color: white;
@@ -126,6 +126,7 @@ div.preamble {
 	margin-top: -2395px;
 	margin-left: 84px;
 }
+
 .explanation h3 {
 	font-family: 'Merienda', cursive;
 	font-size: 21px;
@@ -136,7 +137,7 @@ div.preamble {
 }
 
 .explanation {
-	display:block;
+	display: block;
 	background-image: url(./svg/block2.svg);
 	background-repeat: no-repeat;
 	text-align: justify;
@@ -148,7 +149,7 @@ div.preamble {
 	margin: 0 auto 100px 12px;
 }
 
-.explanation p{
+.explanation p {
 	width: 245px;
 	display: block;
 	padding: 0px 40px;
@@ -165,7 +166,7 @@ div.preamble {
 }
 
 .participation {
-	display:block;
+	display: block;
 	width: 360px;
 	height: 600px;
 	background-repeat: no-repeat;
@@ -180,7 +181,7 @@ div.preamble {
 	padding-top: 95px;
 }
 
-.participation p{
+.participation p {
 	font-size: 16px;
 	color: white;
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
@@ -199,13 +200,13 @@ div.preamble {
 
 .benefits {
 	width: 360px;
-	height:350px;
+	height: 350px;
 	background-image: url(./svg/block4.svg);
 	background-repeat: no-repeat;
 	margin: auto auto 100px 10px;
 }
 
-.benefits p{
+.benefits p {
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
 	font-size: 16.5px;
 	text-align: center;
@@ -228,8 +229,9 @@ div.preamble {
 	margin: -475px auto auto -8px;
 
 }
-footer{
-    display:none;
+
+footer {
+	display: none;
 }
 
 .requirements {
@@ -238,11 +240,11 @@ footer{
 	height: 950px;
 	display: block;
 	margin: 0 auto 100px 8px;
-	background-image:url(./svg/block5.svg);
+	background-image: url(./svg/block5.svg);
 	background-repeat: no-repeat;
 }
 
-.requirements p{
+.requirements p {
 	width: 252px;
 	display: block;
 	margin: 5px auto auto 80px;
@@ -272,7 +274,7 @@ footer{
 
 .extra5 {
 	content: url(./svg/cover5.svg);
-	position:absolute;
+	position: absolute;
 	margin: 2948px auto auto 80px;
 }
 
@@ -280,10 +282,10 @@ aside.sidebar {
 	position: absolute;
 	background-image: url(./svg/block6.svg);
 	background-repeat: no-repeat;
-	padding: 65px 20px;
+	padding: 65px 30px;
 	width: 360px;
 	height: 1250px;
-	display:block;
+	display: block;
 	margin: 1050px auto 100px -32px;
 
 }
@@ -292,15 +294,17 @@ aside.sidebar a:link,
 aside.sidebar a:visited {
 	color: white;
 	text-decoration: none;
-	text-shadow:rgb(248, 248, 255, .0) 1px 1px 1px;
+	text-shadow: rgb(248, 248, 255, .0) 1px 1px 1px;
 }
 
-aside.sidebar a:hover, aside.sidebar:hover{
+aside.sidebar a:hover,
+aside.sidebar:hover {
 	color: purple;
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
-	text-shadow:rgb(128, 0, 128) 1px 1px 1px;
+	text-shadow: rgb(128, 0, 128) 1px 1px 1px;
 }
-li:hover{
+
+li:hover {
 	background-color: rgb(248, 248, 255, .5);
 	border-radius: 5px;
 	padding: 3px 10px;
@@ -349,8 +353,8 @@ aside.sidebar::after {
 
 
 
-@media screen and (max-width: 500px){
-     body{
-		 
-	 }
+@media screen and (min-width: 500px) {
+	body {
+		background-color: violet;
+	}
 }
