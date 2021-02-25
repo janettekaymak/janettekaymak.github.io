@@ -13,17 +13,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
 
+
 body {
-	background-color: rgb(215, 235, 192);
+	background-color: rgb(195, 248, 195);
 	display: grid;
 	margin: -80px auto auto -10px;
+
 }
 
 div.page-wrapper {}
 
 header {
-	background-image: url(./images/mountain-banner2.jpg);
-	height: 155px;
+	background-image: linear-gradient(rgb(195, 248, 195),darkturquoise, purple);
+	height: 125px;
 	background-position: bottom;
 	background-repeat: repeat;
 	background-size: cover;
@@ -31,10 +33,11 @@ header {
 }
 
 header::after {
-	content: url(./images/linkAttack150.png);
-	margin-left: 13px;
-	position: absolute;
-	margin-top: 40px;
+	content: url(./images/linkAttack100.png);
+	margin-left: 5px;
+	position: fixed;
+	margin-top: 50px;
+	z-index: 2;
 }
 
 h1,
@@ -61,7 +64,7 @@ h2 {
 
 .summary::after {
 	content: "Click on each block to reveal a hidden message!";
-	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+	font-family: 'Merienda', cursive;
 }
 
 h3 {
@@ -71,12 +74,12 @@ h3 {
 }
 
 .summary {
-	max-width: 360px;
-	padding: 0 0 0 160px;
+	padding: 0 85px 0 95px;
 	margin: auto 14px 0 10px;
-	text-align: flex-wrap;
-	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+	text-align: right;
+	font-family: 'Merienda', cursive;
 	line-height: 1.1em;
+	color: darkslategray;
 }
 
 .summary p a {
@@ -86,7 +89,6 @@ h3 {
 }
 
 div.preamble {
-	position:relative;
 	display:block;
 	font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
 	font-size: 17.5px;
@@ -121,9 +123,8 @@ div.preamble {
 
 .extra1 {
 	content: url(./svg/cover1.svg);
-	position: absolute;
-	margin-top: 494px;
-	margin-left: 83px;
+	margin-top: -2395px;
+	margin-left: 84px;
 }
 .explanation h3 {
 	font-family: 'Merienda', cursive;
@@ -135,7 +136,6 @@ div.preamble {
 }
 
 .explanation {
-	position: relative;
 	display:block;
 	background-image: url(./svg/block2.svg);
 	background-repeat: no-repeat;
@@ -161,12 +161,10 @@ div.preamble {
 
 .extra2 {
 	content: url(./svg/cover2.svg);
-	position: absolute;
-	margin: 1045px auto auto 36px;
+	margin: -1841px auto auto 36px;
 }
 
 .participation {
-	position: relative;
 	display:block;
 	width: 360px;
 	height: 600px;
@@ -194,14 +192,12 @@ div.preamble {
 
 .extra3 {
 	content: url(./images/cover3.png);
-	position: absolute;
-	margin-top: 1825px;
+	margin-top: -1060px;
 	margin-left: 50px;
 	border-radius: 20px;
 }
 
 .benefits {
-	position: relative;
 	width: 360px;
 	height:350px;
 	background-image: url(./svg/block4.svg);
@@ -223,15 +219,17 @@ div.preamble {
 	font-family: 'Merienda', cursive;
 	font-size: 30px;
 	line-height: 1em;
-	padding-top: 50px;
+	padding-top: 55px;
 	padding-bottom: 20px;
 }
 
 .extra4 {
 	content: url(./images/cover4.png);
-	position: absolute;
-	margin: 2410px auto auto -8px;
+	margin: -475px auto auto -8px;
 
+}
+footer{
+    display:none;
 }
 
 .requirements {
@@ -239,7 +237,7 @@ div.preamble {
 	width: 365px;
 	height: 950px;
 	display: block;
-	margin: 0 auto 100px auto;
+	margin: 0 auto 100px 8px;
 	background-image:url(./svg/block5.svg);
 	background-repeat: no-repeat;
 }
@@ -259,7 +257,7 @@ div.preamble {
 	font-family: 'Merienda', cursive;
 	font-size: 25px;
 	line-height: 1em;
-	padding: 25px 0 5px 40px;
+	padding: 0px 0 5px 40px;
 
 
 }
@@ -275,7 +273,7 @@ div.preamble {
 .extra5 {
 	content: url(./svg/cover5.svg);
 	position:absolute;
-	margin: 2910px auto auto 73px;
+	margin: 2948px auto auto 80px;
 }
 
 aside.sidebar {
@@ -284,6 +282,7 @@ aside.sidebar {
 	background-repeat: no-repeat;
 	padding: 78px 30px;
 	width: 360px;
+	height: 1270px;
 	display:block;
 	margin: 1050px auto 100px -32px;
 
@@ -326,7 +325,7 @@ aside.sidebar ul li {
 .extra6 {
 	content: url(./svg/cover6.svg);
 	position: absolute;
-	margin: 4028px auto auto 38px;
+	margin: 4048px auto auto 38px;
 	border-radius: 15px;
 }
 
@@ -341,8 +340,8 @@ aside.sidebar ul li {
 }
 
 aside.sidebar::after {
-	content: url(./images/wave150.png);
+	content: url(./images/wave100.png);
 	position: absolute;
-	margin: 150px auto 100px 100px;
-	padding-bottom: 100px;
+	margin: 100px auto 100px 110px;
+	padding-bottom: 50px;
 }
