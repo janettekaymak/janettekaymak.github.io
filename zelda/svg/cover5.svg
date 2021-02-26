@@ -20,6 +20,8 @@
 		</pattern>
 		<!-- window pattern -->
 		<pattern id="windowPattern" patternUnits="userSpaceOnUse" x="8" y="80" width="150" height="160">
+			<!-- drop shadow for window -->
+			<rect width="93" height="37" x="3" y="80" opacity=".3" rx="3" />
 			<!-- stone work -->
 			<rect width="93" height="105" x="3" y="4" fill="#bebebe" rx="43" stroke="black" />
 			<rect width="56" height="83" x="22" y="23" rx="31" stroke="black" fill="url(#greyBricks)" />
@@ -41,6 +43,8 @@
 		</pattern>
 		<!-- window with candle pattern -->
 		<pattern id="windowCandle" patternUnits="userSpaceOnUse" x="8" y="80" width="150" height="160">
+			<!-- drop shadow for window -->
+			<rect width="93" height="37" x="3" y="80" opacity=".3" rx="3" />
 			<!-- stone work -->
 			<rect width="93" height="105" x="3" y="4" fill="#bebebe" rx="43" stroke="black" />
 			<rect width="56" height="83" x="22" y="23" rx="31" stroke="black" fill="url(#redBricks)" />
@@ -70,7 +74,7 @@
 	<rect width="268" height="624" x="0" y="28" fill="url(#greyBricks)" />
 	<rect width="177" height="248" x="91" y="650.5" fill="url(#greyBricks)" />
 	<!-- windows -->
-	<rect width="134" height="180" x="0" y="28" fill="url(#windowPattern)" />
+	<rect width="134" height="175" x="0" y="40" fill="url(#windowPattern)" />
 	<rect width="134" height="180" x="134" y="208" fill="url(#windowCandle)" />
 	<rect width="134" height="180" x="0" y="380" fill="url(#windowPattern)" />
 	<rect width="134" height="150" x="125" y="528" fill="url(#windowPattern)" />
