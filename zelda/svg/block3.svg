@@ -29,4 +29,6 @@
 	<rect width="330" height="520" fill="#23c8ff" x="15" y="65" rx="30" />
 	<rect width="330" height="520" fill="url(#waterPattern)" x="15" y="65" rx="30" />
 	<rect width="280" height="470" fill="peru" x="40" y="90" rx="20" />
+	<rect width="150" height="50" fill="url(#treePattern)" x="0" y="550" />
+	<rect width="150" height="50" fill="url(#treePattern)" x="200" y="550" />
 </svg>
