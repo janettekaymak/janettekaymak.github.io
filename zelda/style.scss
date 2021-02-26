@@ -34,6 +34,7 @@ header {
 	background-repeat: repeat;
 	background-size: cover;
 	position: relative;
+	z-index: -1;
 }
 
 header::after {
@@ -50,25 +51,22 @@ h2 {
 	display: block;
 	margin: 0;
 	text-align: right;
-	font-family: $Font-H;
 	line-height: .1em;
+	color: $BGcolor3A;
 }
 
 h1 {
 	font-size: 37px;
 	margin-top: 120px;
 	margin-bottom: 35px;
+	font-family: $Font-H;
 }
 
 h2 {
-	font-size: 18px;
+	font-size: 20px;
+	font-family: $Font-p;
 }
 
-h1,
-h2 {
-	color: $BGcolor3A;
-
-}
 
 .summary::after {
 	content: "Click on each block to reveal a hidden message!";
@@ -93,7 +91,8 @@ h3 {
 
 .summary p a {
 	text-decoration: none;
-	font-family: $Font-H;
+	font-family: $Font-p;
+	font-size: 20px;
 	color: $BGcolor3A;
 }
 
@@ -234,7 +233,7 @@ div.preamble {
 }
 
 .extra4 {
-	content: url(./images/cover4.png);
+	content: url(./images/cover4fish.png);
 	margin: -575px auto auto -8px;
 
 }
@@ -491,6 +490,15 @@ aside.sidebar::after {
 		margin-top: -90px;
 	}
 
+	h1{
+		font-size: 45px;
+		line-height: .5;
+	}
+
+	h2{
+		font-size: 22px;
+	}
+
 	h1,
 	h2 {
 		width: 755px;
@@ -589,12 +597,12 @@ aside.sidebar::after {
 	}
 
 	h1 {
-		font-size: 67px;
+		font-size: 60px;
 		margin-bottom: 65px;
 	}
 	
 	h2 {
-		font-size: 20px;
+		font-size: 25px;
 	}
 
 	/* Link: */
@@ -610,7 +618,7 @@ aside.sidebar::after {
 	}
 
 	.summary {
-		margin-top: -100px;
+		margin-top: -50px;
 		padding: 0 145px 0 360px;
 		line-height: 1.5em;
 	}

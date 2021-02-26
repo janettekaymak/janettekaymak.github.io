@@ -1,7 +1,5 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
 body {
   background-color: #d2fcd2;
   display: grid;
@@ -32,23 +30,20 @@ h2 {
   display: block;
   margin: 0;
   text-align: right;
-  font-family: "Merienda", cursive;
   line-height: 0.1em;
+  color: #ad01ad;
 }
 
 h1 {
   font-size: 37px;
   margin-top: 120px;
   margin-bottom: 35px;
+  font-family: "Merienda", cursive;
 }
 
 h2 {
-  font-size: 18px;
-}
-
-h1,
-h2 {
-  color: #ad01ad;
+  font-size: 20px;
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
 }
 
 .summary::after {
@@ -74,7 +69,8 @@ h3 {
 
 .summary p a {
   text-decoration: none;
-  font-family: "Merienda", cursive;
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  font-size: 20px;
   color: #ad01ad;
 }
 
@@ -455,6 +451,15 @@ h2 {
     margin-top: -90px;
   }
 
+  h1 {
+    font-size: 45px;
+    line-height: 0.5;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
   h1,
 h2 {
     width: 755px;
@@ -546,12 +551,12 @@ h2 {
   }
 
   h1 {
-    font-size: 67px;
+    font-size: 60px;
     margin-bottom: 65px;
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   /* Link: */
@@ -567,7 +572,7 @@ h2 {
   }
 
   .summary {
-    margin-top: -100px;
+    margin-top: -50px;
     padding: 0 145px 0 360px;
     line-height: 1.5em;
   }
