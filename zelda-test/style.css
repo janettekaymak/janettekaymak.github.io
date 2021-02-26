@@ -88,16 +88,11 @@ div.preamble {
   margin: -15px auto 200px 9px;
 }
 
-.preamble::after:hover{
-    opacity:0;
-}
-
 .explanation::before{
     content: url(./svg/test.svg);
     display:block;
-    margin: -200px auto auto 100px;
+    margin: -200px auto auto 0px;
     position: absolute;
-    z-index: -1;
 }
 
 .preamble p {
