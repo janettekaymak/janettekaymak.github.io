@@ -120,7 +120,7 @@ blockquote::before,
 blockquote::after,
 q::before,
 q::after {
-  content: "";
+  content: '';
   content: none;
 }
 
@@ -137,7 +137,8 @@ body {
   background: #000;
   border: 1px solid #fff;
   border-radius: 3px;
-  box-shadow: 0 1px 1px #000, 0.05;
+  -webkit-box-shadow: 0 1px 1px #000, 0.05;
+          box-shadow: 0 1px 1px #000, 0.05;
   padding: 6px;
 }
 
@@ -148,16 +149,19 @@ header {
 .cd-main-nav {
   background: #ffe733;
 }
+
 .cd-main-nav li a {
   border-color: #ffea4d;
   color: #000;
 }
+
 @media only screen and (min-width: 1024px) {
   .cd-main-nav li li a {
     color: #e22840;
   }
   .cd-main-nav li li a .selected {
-    box-shadow: 0 2px 0 #8fd4ff;
+    -webkit-box-shadow: 0 2px 0 #8fd4ff;
+            box-shadow: 0 2px 0 #8fd4ff;
     color: #000;
   }
   .cd-main-nav li li a:hover {
@@ -168,6 +172,7 @@ header {
 .cd-nav-trigger span {
   background-color: #000;
 }
+
 .cd-nav-trigger span::before, .cd-nav-trigger span::after {
   background-color: #000;
 }
@@ -175,6 +180,7 @@ header {
 .nav-is-visible .cd-nav-trigger span {
   background-color: #000, 0;
 }
+
 .nav-is-visible .cd-nav-trigger span::before, .nav-is-visible .cd-nav-trigger span::after {
   background-color: #000, 1;
 }
@@ -189,13 +195,15 @@ h1 {
   font-size: 2.4rem;
   font-weight: 300;
   line-height: 1.2;
-  margin: 0 0 0.4em;
+  margin: 0 0 .4em;
 }
+
 @media only screen and (min-width: 768px) {
   h1 {
     font-size: 3.2rem;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   h1 {
     font-size: 4rem;
@@ -205,6 +213,7 @@ h1 {
 h2 {
   margin: 1em 0;
 }
+
 @media only screen and (min-width: 768px) {
   h2 {
     font-size: 1.8rem;
@@ -221,10 +230,12 @@ p {
   font-size: 1.4rem;
   line-height: 1.4;
 }
+
 p a {
   color: #8fd4ff;
   text-decoration: underline;
 }
+
 @media only screen and (min-width: 768px) {
   p {
     font-size: 1.6rem;
@@ -235,40 +246,51 @@ p a {
 .btn {
   background: #8fd4ff;
   border: 0;
-  border-radius: 0.25em;
-  box-shadow: none;
+  border-radius: .25em;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   color: #000;
   cursor: pointer;
   font: 1.4rem "Press Start 2P", cursive;
-  padding: 0.6em 2.2em;
+  padding: .6em 2.2em;
 }
+
 .btn:focus {
   outline: none;
 }
+
 .no-touch .btn:hover {
   background: #a9deff;
 }
+
 .btn.btn-success {
   background: #6fce72;
 }
+
 .no-touch .btn.btn-success:hover {
   background: #82d485;
 }
+
 .btn.btn-alert {
   background: #e22840;
 }
+
 .no-touch .btn.btn-alert:hover {
   background: #e53e54;
 }
+
 .btn.btn-outline {
   background: transparent;
-  box-shadow: inset 0 0 0 1px #8fd4ff;
+  -webkit-box-shadow: inset 0 0 0 1px #8fd4ff;
+          box-shadow: inset 0 0 0 1px #8fd4ff;
   color: #8fd4ff;
 }
+
 .no-touch .btn.btn-outline:hover {
   background: #8fd4ff;
   color: #000;
 }
+
 @media only screen and (min-width: 768px) {
   .btn {
     font-size: 1.6rem;
@@ -282,6 +304,7 @@ p a {
 *,
 *::after,
 *::before {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -308,7 +331,8 @@ img {
 }
 
 header {
-  box-shadow: 0 1px 1px #000, 0.1;
+  -webkit-box-shadow: 0 1px 1px #000, 0.1;
+          box-shadow: 0 1px 1px #000, 0.1;
   height: 50px;
   left: 0;
   position: fixed;
@@ -316,16 +340,18 @@ header {
   width: 100%;
   z-index: 10;
 }
+
 header nav {
   display: inline-block;
 }
+
 @media only screen and (min-width: 1024px) {
   header {
     height: 80px;
   }
   header::after {
     clear: both;
-    content: "";
+    content: '';
     display: block;
   }
 }
@@ -341,7 +367,9 @@ header nav {
   white-space: nowrap;
   width: 50px;
 }
+
 .cd-nav-trigger span {
+  -webkit-transition: background-color 0.3s 0.3s;
   transition: background-color 0.3s 0.3s;
   height: 2px;
   left: 50%;
@@ -351,23 +379,34 @@ header nav {
   top: 50%;
   width: 20px;
 }
+
 .cd-nav-trigger span::before, .cd-nav-trigger span::after {
+  -webkit-transform: translateZ(0);
   transform: translateZ(0);
+  -webkit-transition: transform 0.3s 0.3s;
+  -webkit-transition: -webkit-transform 0.3s 0.3s;
+  transition: -webkit-transform 0.3s 0.3s;
   transition: transform 0.3s 0.3s;
+  transition: transform 0.3s 0.3s, -webkit-transform 0.3s 0.3s;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  content: "";
+  content: '';
   height: 100%;
   position: absolute;
   width: 100%;
   will-change: transform;
 }
+
 .cd-nav-trigger span::before {
+  -webkit-transform: translateY(-6px);
   transform: translateY(-6px);
 }
+
 .cd-nav-trigger span::after {
+  -webkit-transform: translateY(6px);
   transform: translateY(6px);
 }
+
 @media only screen and (min-width: 1024px) {
   .cd-nav-trigger {
     display: none;
@@ -375,8 +414,13 @@ header nav {
 }
 
 .cd-main-nav {
+  -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
+  -webkit-transition: transform 0.3s;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
   height: 100vh;
   left: 0;
   padding: 50px 0;
@@ -385,6 +429,7 @@ header nav {
   top: 0;
   width: 100%;
 }
+
 .cd-main-nav li a {
   border-bottom-width: 1px;
   border-style: solid;
@@ -392,11 +437,14 @@ header nav {
   font-size: 1.8rem;
   padding: 1em 0;
 }
+
 .cd-main-nav li:first-of-type a {
   border-top-width: 1px;
 }
+
 @media only screen and (min-width: 1024px) {
   .cd-main-nav {
+    -webkit-transform: translateY(0);
     transform: translateY(0);
     background: transparent;
     display: table;
@@ -412,16 +460,18 @@ header nav {
     vertical-align: middle;
   }
   .cd-main-nav li a {
+    -webkit-transition: all 0.2s;
     transition: all 0.2s;
     border-bottom: 0;
     display: inline-block;
     font-size: 1.6rem;
-    padding: 0.4em 0.2em;
+    padding: .4em .2em;
   }
   .cd-main-nav li:first-of-type a {
     border-top: 0;
   }
 }
+
 @media only screen and (min-width: 1600px) {
   .cd-main-nav {
     display: none;
@@ -429,12 +479,17 @@ header nav {
 }
 
 .nav-is-visible .cd-nav-trigger span::before {
+  -webkit-transform: translateY(0) rotate(-45deg);
   transform: translateY(0) rotate(-45deg);
 }
+
 .nav-is-visible .cd-nav-trigger span::after {
+  -webkit-transform: translateY(0) rotate(45deg);
   transform: translateY(0) rotate(45deg);
 }
+
 .nav-is-visible .cd-nav-trigger .cd-main-nav {
+  -webkit-transform: translateY(0);
   transform: translateY(0);
 }
 
@@ -444,15 +499,18 @@ main {
   padding: 50px 0;
   width: 90%;
 }
+
 main > h1 {
   margin: 3em 0;
   text-align: center;
 }
+
 @media only screen and (min-width: 1024px) {
   main {
     padding-top: 80px;
   }
 }
+
 @media only screen and (min-width: 1600px) {
   main {
     max-width: none;
@@ -474,46 +532,59 @@ main > h1 {
 section {
   margin: 3em 0;
 }
+
 section::after {
   clear: both;
-  content: "";
+  content: '';
   display: block;
 }
+
 section:nth-of-type(1) h2::before {
-  content: "1. ";
+  content: '1. ';
 }
+
 section:nth-of-type(2) h2::before {
-  content: "2. ";
+  content: '2. ';
 }
+
 section:nth-of-type(3) h2::before {
-  content: "3. ";
+  content: '3. ';
 }
+
 section:nth-of-type(4) h2::before {
-  content: "4. ";
+  content: '4. ';
 }
+
 section:nth-of-type(5) h2::before {
-  content: "5. ";
+  content: '5. ';
 }
+
 section:nth-of-type(6) h2::before {
-  content: "6. ";
+  content: '6. ';
 }
+
 section:nth-of-type(7) h2::before {
-  content: "7. ";
+  content: '7. ';
 }
+
 section:nth-of-type(8) h2::before {
-  content: "8. ";
+  content: '8. ';
 }
+
 section:nth-of-type(9) h2::before {
-  content: "9. ";
+  content: '9. ';
 }
+
 section:nth-of-type(10) h2::before {
-  content: "10. ";
+  content: '10. ';
 }
+
 @media only screen and (min-width: 768px) {
   section {
     margin: 3em 0 5em;
   }
 }
+
 @media only screen and (min-width: 1600px) {
   section {
     float: left;
@@ -531,72 +602,93 @@ section:nth-of-type(10) h2::before {
   margin: 0 4% 1em 0;
   text-align: center;
 }
+
 .cd-colors li:nth-of-type(2n) {
   margin-right: 0;
 }
+
 .cd-colors .cd-color-swatch {
   padding: 50% 0;
   position: relative;
   width: 100%;
 }
+
 .cd-colors .cd-color-swatch::before, .cd-colors .cd-color-swatch::after {
   bottom: 0;
-  content: "";
+  content: '';
   height: 20%;
   position: absolute;
   width: 50%;
 }
+
 .cd-colors .cd-color-swatch::before {
   left: 0;
 }
+
 .cd-colors .cd-color-swatch::after {
   right: 0;
 }
+
 .cd-colors li:nth-of-type(1) .cd-color-swatch {
   background: #8fd4ff;
 }
+
 .cd-colors li:nth-of-type(1) .cd-color-swatch::before {
   background: #a9deff;
 }
+
 .cd-colors li:nth-of-type(1) .cd-color-swatch::after {
   background: #76caff;
 }
+
 .cd-colors li:nth-of-type(2) .cd-color-swatch {
   background: #ffe733;
 }
+
 .cd-colors li:nth-of-type(2) .cd-color-swatch::before {
   background: #ffea4d;
 }
+
 .cd-colors li:nth-of-type(2) .cd-color-swatch::after {
   background: #ffe41a;
 }
+
 .cd-colors li:nth-of-type(3) .cd-color-swatch {
   background: #e22840;
 }
+
 .cd-colors li:nth-of-type(3) .cd-color-swatch::before {
   background: #e53e54;
 }
+
 .cd-colors li:nth-of-type(3) .cd-color-swatch::after {
   background: #d41d34;
 }
+
 .cd-colors li:nth-of-type(4) .cd-color-swatch {
   background: #fff;
 }
+
 .cd-colors li:nth-of-type(4) .cd-color-swatch::before {
   background: white;
 }
+
 .cd-colors li:nth-of-type(4) .cd-color-swatch::after {
   background: #f2f2f2;
 }
+
 .cd-colors li:nth-of-type(5) .cd-color-swatch {
   background: #000;
 }
+
 .cd-colors li:nth-of-type(5) .cd-color-swatch::before {
   background: #0d0d0d;
 }
+
 .cd-colors li:nth-of-type(5) .cd-color-swatch::after {
   background: black;
 }
+
 @media only screen and (min-width: 768px) {
   .cd-colors li {
     float: left;
@@ -615,32 +707,37 @@ section:nth-of-type(10) h2::before {
 .cd-buttons .cd-box {
   padding: 1em;
 }
+
 @media only screen and (min-width: 768px) {
   .cd-typography .cd-box .cd-box,
-.cd-buttons .cd-box .cd-box {
+  .cd-buttons .cd-box .cd-box {
     padding: 2em;
   }
 }
 
 .cd-typography h1::before {
   color: #8fd4ff;
-  content: "Aa - ";
+  content: 'Aa - ';
 }
 
 .cd-buttons .cd-box:first-of-type {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
+
 .cd-buttons .cd-box:last-of-type {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   margin-top: -1px;
 }
+
 .cd-buttons button {
-  margin: 0.4em;
+  margin: .4em;
 }
+
 @media only screen and (min-width: 1024px) {
   .cd-buttons button {
     margin: 1em;
   }
-}/*# sourceMappingURL=style-guide.css.map */
+}
+/*# sourceMappingURL=style-guide.css.map */
