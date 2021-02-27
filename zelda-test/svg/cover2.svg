@@ -61,6 +61,4 @@
 	<rect width="181" height="69" x="0" y="461" fill="url(#pinkBricks)" />
 	<rect width="150" height="160" x="150" y="320" fill="url(#windowPattern)" />
 	<rect width="150" height="160" x="0" y="160" fill="url(#windowPattern)" />
-	<!--bridge cover-->
-	<rect width="360" height="250" x="0" y="530" fill="lightgreen" />
 </svg>
