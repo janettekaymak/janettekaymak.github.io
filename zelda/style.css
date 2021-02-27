@@ -446,8 +446,8 @@ h2 {
     width: 375px;
   }
 }
-/*------------------800------------------*/
-@media screen and (min-width: 800px) {
+/*------------------767------------------*/
+@media screen and (min-width: 767px) {
   body {
     max-width: 800px;
   }
