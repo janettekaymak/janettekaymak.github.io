@@ -82,10 +82,21 @@ div.preamble {
   width: 360px;
   height: 560px;
   text-align: justify;
-  line-height: 1em;
+  line-height: 1.1em;
   background-image: url(./svg/block1.svg);
   background-repeat: no-repeat;
   margin: -15px auto 200px 9px;
+}
+
+div.preamble p{
+  margin-top: 10px;
+}
+
+.explanation::before{
+    content: url(./svg/bridge1.svg);
+    display:block;
+    margin: -220px auto auto 0px;
+    position: absolute;
 }
 
 .preamble p {
@@ -97,7 +108,7 @@ div.preamble {
   font-family: "Merienda", cursive;
   font-size: 25px;
   line-height: 1em;
-  padding: 80px 50px 0 90px;
+  padding: 80px 50px 15px 90px;
 }
 
 .preamble p:nth-child(4) {
@@ -131,7 +142,7 @@ div.preamble {
   width: 360px;
   height: 558px;
   line-height: 1.11em;
-  margin: 0 auto 200px 12px;
+  margin: auto 200px 12px;
 }
 
 .explanation p {
@@ -167,7 +178,8 @@ div.preamble {
 }
 
 .participation p {
-  font-size: 16px;
+  line-height: 1;
+  font-size: 17px;
   color: white;
   font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
   text-align: justify;
