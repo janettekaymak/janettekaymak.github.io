@@ -161,7 +161,16 @@ div.preamble p{
   margin: -2141px auto auto 36px;
 }
 
+.participation::before{
+  content: url(./svg/bridge2.svg);
+  display:block;
+  margin: -200px auto auto 0px;
+  position: absolute;
+  z-index: -1;
+}
+
 .participation {
+  color: white;
   display: block;
   width: 360px;
   height: 600px;
@@ -187,12 +196,15 @@ div.preamble p{
   display: block;
   margin: 12px auto auto auto;
 }
+.participation a{
+  text-decoration: none;
+  color: orange;
+}
 
 .extra3 {
-  content: url(./images/cover3.png);
-  margin-top: -1260px;
+  content: url(./svg/cover3.svg);
+  margin-top: -1300px;
   margin-left: 50px;
-  border-radius: 20px;
 }
 
 .benefits {
@@ -412,9 +424,7 @@ h2 {
 
   /* cover3 */
   .extra3 {
-    margin-top: -1260px;
     margin-left: 160px;
-    border-radius: 20px;
   }
 
   /* block4 */
@@ -509,9 +519,7 @@ h2 {
 
   /* cover3 */
   .extra3 {
-    margin-top: -1260px;
     margin-left: 280px;
-    border-radius: 20px;
   }
 
   /* block4 */
@@ -616,9 +624,7 @@ h2 {
 
   /* cover3 */
   .extra3 {
-    margin-top: -1260px;
     margin-left: 480px;
-    border-radius: 20px;
   }
 
   /* block4 */

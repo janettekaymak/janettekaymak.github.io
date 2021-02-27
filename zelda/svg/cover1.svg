@@ -1,1 +1,67 @@
-<svg height="463" width="364" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><pattern id="a" height="15" patternUnits="userSpaceOnUse" width="50"><path d="m0 0h50v15h-50z" fill="#dcc0c7"/><rect fill="#9d2c4e" height="6.5" rx="1" width="23.5"/><rect fill="#9c2343" height="6.5" rx="1" width="23.5" x="25"/><path d="m0 7.5h12v6.5h-12z" fill="#a11d3e"/><rect fill="#aa3553" height="6.5" rx="1" width="23.5" x="13" y="7.5"/><path d="m38 7.5h12v6.5h-12z" fill="#a11d3e"/></pattern><pattern id="b" height="220" patternUnits="userSpaceOnUse" viewBox="-20 -100 200 220" width="120"><rect fill="#bebebe" height="170" rx="70" stroke="#000" width="150" x="5" y="7"/><rect fill="url(#a)" height="135" rx="50" stroke="#000" width="90" x="35" y="37"/><rect height="135" opacity=".3" rx="50" width="90" x="35" y="37"/><rect fill="#fff" height="35" rx="2" width="21" x="69" y="84"/><rect fill="#ffd700" height="40" opacity=".8" rx="20" width="40" x="59" y="42"/><rect fill="#dc143c" height="25" opacity=".9" rx="20" width="15" x="72" y="55"/><rect fill="#bebebe" height="60" rx="5" stroke="#000" width="150" x="5" y="117"/><rect fill="#a9a9a9" height="40" rx="5" stroke="#000" width="20" x="70" y="1"/><rect fill="#a9a9a9" height="20" rx="5" stroke="#000" width="40" x="1" y="70"/><rect fill="#a9a9a9" height="20" rx="5" stroke="#000" width="40" x="120" y="70"/><rect fill="#808080" height="20" rx="5" stroke="#000" width="20" x="120" y="120"/><rect fill="#a9a9a9" height="20" rx="5" stroke="#000" width="20" x="100" y="140"/><rect fill="#808080" height="20" rx="5" stroke="#000" width="20" x="20" y="150"/><rect height="66" rx="5" width="4" x="47.5" y="51"/><rect height="76" rx="5" width="4" x="62.5" y="41"/><rect height="76" rx="5" width="4" x="77.5" y="41"/><rect height="76" rx="5" width="4" x="92.5" y="41"/><rect height="66" rx="5" width="4" x="107.5" y="51"/></pattern><path d="m0 0h262v65h-262z" fill="url(#a)" opacity=".5"/><path d="m0 60h262v215h-262z" fill="url(#a)"/><path d="m44 275h180v188h-180z" fill="url(#a)"/><g stroke="#000"><rect fill="#bebebe" height="220" rx="80" width="130" x="70" y="315"/><rect fill="#cd853f" height="170" rx="50" width="80" x="95" y="340"/><rect fill="#a9a9a9" height="35" rx="5" width="20" x="125" y="310"/><rect fill="#a9a9a9" height="20" rx="5" width="35" x="65" y="375"/><rect fill="#a9a9a9" height="20" rx="5" width="35" x="65" y="420"/><rect fill="#a9a9a9" height="20" rx="5" width="35" x="170" y="375"/><rect fill="#a9a9a9" height="20" rx="5" width="35" x="170" y="420"/></g><path d="m110 351v115" stroke="#8b4513" stroke-width="3"/><path d="m130 370v96" stroke="#8b4513" stroke-width="5"/><path d="m150 344v101" stroke="#8b4513" stroke-width="3"/><rect height="10" rx="5" width="20" x="100" y="405"/><path d="m0 0h120v220h-120z" fill="url(#b)"/></svg>
+<svg width="364" height="463" x="0" y="0"
+	xmlns="http://www.w3.org/2000/svg" id="cover1">
+	<!-- define patterns -->
+	<defs>		<!--red bricks-->
+		<pattern id="redBricks" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
+			<rect width="50" height="15" x="0" y="0" fill="#dcc0c7"/>
+			<rect width="23.5" height="6.5" x="0" y="0" rx="1" fill="#9d2c4e"/>
+			<rect width="23.5" height="6.5" x="25" y="0" rx="1" fill="#9c2343"/>
+			<rect width="12" height="6.5" x="0" y="7.5" fill="#a11d3e"/>
+			<rect width="23.5" height="6.5" x="13" y="7.5" rx="1" fill="#aa3553"/>
+			<rect width="12" height="6.5" x="38" y="7.5" fill="#a11d3e"/>
+		</pattern>
+		<!--Castle Window-->
+		<!--grey brick pattern-->
+		<pattern id="greyBricks" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
+			<rect width="50" height="15" x="0" y="0" class="back" fill="lightgrey"/>
+			<rect width="23.5" height="6.5" x="0" y="0" rx="1" class="brickcolor1" fill="grey"/>
+			<rect width="23.5" height="6.5" x="25" y="0" rx="1" class="brickcolor2" fill="#717171"/>
+			<rect width="12" height="6.5" x="0" y="7.5" class="brickcolor4" fill="dimgrey"/>
+			<rect width="23.5" height="6.5" x="13" y="7.5" rx="1" class="brickcolor3" fill="#808080"/>
+			<rect width="12" height="6.5" x="38" y="7.5" class="brickcolor4" fill="dimgrey"/>
+		</pattern>
+		<!--window pattern-->
+		<pattern id="windowPattern" patternUnits="userSpaceOnUse" x="0" y="0" width="120" height="220" 
+		viewBox="-20 -100 200 220">
+			<!--stone work-->
+			<rect width="150" height="170" x="5" y="7" fill="#bebebe" rx="70" stroke="black" />
+			<rect width="90" height="135" x="35" y="37" rx="50" stroke="black" fill="url(#redBricks)" />
+			<rect width="90" height="135" x="35" y="37" rx="50" opacity=".3" />
+			<!--candle-->
+			<rect width="21" height="35" x="69" y="84" rx="2" fill="white" />
+			<rect width="40" height="40" x="59" y="42" rx="20" fill="gold" opacity=".8" />
+			<rect width="15" height="25" x="72" y="55" rx="20" fill="crimson" opacity=".9" />
+			<!--more stone work-->
+			<rect width="150" height="60" x="5" y="117" fill="#bebebe" rx="5" stroke="black" />
+			<rect width="20" height="40" x="70" y="1" fill="darkgrey" rx="5" stroke="black" />
+			<rect width="40" height="20" x="1" y="70" fill="darkgrey" rx="5" stroke="black" />
+			<rect width="40" height="20" x="120" y="70" fill="darkgrey" rx="5" stroke="black" />
+			<rect width="20" height="20" x="120" y="120" fill="grey" rx="5" stroke="black" />
+			<rect width="20" height="20" x="100" y="140" fill="darkgrey" rx="5" stroke="black" />
+			<rect width="20" height="20" x="20" y="150" fill="grey" rx="5" stroke="black" />
+			<!--bars-->
+			<rect width="4" height="66" x="47.5" y="51" rx="5" />
+			<rect width="4" height="76" x="62.5" y="41" rx="5" />
+			<rect width="4" height="76" x="77.5" y="41" rx="5" />
+			<rect width="4" height="76" x="92.5" y="41" rx="5" />
+			<rect width="4" height="66" x="107.5" y="51" rx="5" />
+		</pattern>
+	</defs>
+	<rect width="262" height="65" x="0" y="0" fill="url(#redBricks)" opacity=".5"/>
+	<rect width="262" height="215" x="0" y="60" fill="url(#redBricks)" />
+	<rect width="180" height="188" x="44" y="275" fill="url(#redBricks)" />
+	<!-- door -->
+	<rect width="130" height="220" x="70" y="315" fill="#bebebe" rx="80" stroke="black"/>
+	<rect width="80" height="170" x="95" y="340" fill="peru" rx="50" stroke="black"/>
+	<rect width="20" height="35" x="125" y="310" fill="darkgrey" rx="5" stroke="black"/>
+	<rect width="35" height="20" x="65" y="375" fill="darkgrey" rx="5" stroke="black"/>
+	<rect width="35" height="20" x="65" y="420" fill="darkgrey" rx="5" stroke="black"/>
+	<rect width="35" height="20" x="170" y="375" fill="darkgrey" rx="5" stroke="black"/>
+	<rect width="35" height="20" x="170" y="420" fill="darkgrey" rx="5" stroke="black"/>
+	<line x1="110" y1="351" x2="110" y2="466" style="stroke:saddlebrown;stroke-width:3"/>
+	<line x1="130" y1="370" x2="130" y2="466" style="stroke:saddlebrown;stroke-width:5"/>
+	<line x1="150" y1="344" x2="150" y2="445" style="stroke:saddlebrown;stroke-width:3"/>
+	<rect width="20" height="10" x="100" y="405" rx="5"/>
+	<!--build a window-->
+  <rect width="120" height="220" x="0" y="0" fill="url(#windowPattern)"/>
+</svg>

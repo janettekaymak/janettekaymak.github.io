@@ -159,6 +159,14 @@ div.preamble {
   margin: -2141px auto auto 36px;
 }
 
+.participation::before {
+  content: url(./svg/bridge2.svg);
+  display: block;
+  margin: -200px auto auto 0px;
+  position: absolute;
+  z-index: -1;
+}
+
 .participation {
   display: block;
   width: 360px;
