@@ -61,8 +61,8 @@
 	<rect width="50" height="50" x="250" y="150" fill="urll(#treePattern)" />-->
 	<rect width="50" height="50" x="300" y="100" fill="url(#treePattern)" />
 	<rect width="50" height="50" x="300" y="50" fill="url(#treePattern)" />
-	<rect width="115" height="60" x="147" y="78" rx="40" fill="url(#greyBricks)" />
+	<rect width="115" height="60" x="147" y="78" rx="40" fill="url(#greyBricks)" stroke="dimgrey" />
 	<rect width="95" height="40" x="157" y="88" rx="28" fill="#23c8ff" />
-	<rect width="95" height="40" x="157" y="88" rx="28" fill="url(#waterPattern" />
+	<rect width="95" height="40" x="157" y="88" rx="28" fill="url(#waterPattern" stroke="dimgrey"/>
 	<rect width="50" height="100" x="50" y="50" fill="url(#treePattern)" />
 </svg>
