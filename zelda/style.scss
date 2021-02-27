@@ -10,6 +10,7 @@ $BGcolor3: purple;
 $BGcolor3A:rgb(173, 1, 173);
 $BGcolor4: lightgrey;
 $BGcolor5:grey;
+$FontLight: white;
 
 //Fonts
 $Font-H: 'Merienda', cursive;
@@ -101,7 +102,7 @@ div.preamble {
 	display: block;
 	font-family: $Font-p;
 	font-size: 17.5px;
-	color: white;
+	color: $FontLight;
 	width: $MobileWidth;
 	height: 560px;
 	text-align: justify;
@@ -191,6 +192,7 @@ div.preamble {
 }
 
 .participation h3 {
+	color: $FontLight;
 	font-size: 26px;
 	line-height: 1.2em;
 	font-family: $Font-H;
@@ -199,7 +201,7 @@ div.preamble {
 
 .participation p {
 	font-size: 16px;
-	color: white;
+	color: $FontLight;
 	font-family:$Font-p;
 	text-align: justify;
 	width: 260px;
@@ -225,7 +227,7 @@ div.preamble {
 	font-family: $Font-p;
 	font-size: 16.5px;
 	text-align: center;
-	text-shadow: white 1px 1px 2px;
+	text-shadow: $FontLight 1px 1px 2px;
 	width: 250px;
 	display: block;
 	margin: auto;
@@ -267,7 +269,7 @@ footer {
 	font-size: 16.5px;
 	line-height: 1.1em;
 	text-align: justify;
-	text-shadow: white 1px 1px 2px;
+	text-shadow: $FontLight 1px 1px 2px;
 }
 
 .requirements h3 {
@@ -307,7 +309,7 @@ aside.sidebar {
 
 aside.sidebar a:link,
 aside.sidebar a:visited {
-	color: white;
+	color: $FontLight;
 	text-decoration: none;
 	text-shadow: $BGcolor4 1px 1px 1px;
 }
@@ -341,7 +343,7 @@ aside.sidebar h3 {
 
 aside.sidebar ul li {
 	font-family:$Font-p;
-	color: white;
+	color: $FontLight;
 	width: 200px;
 	display: block;
 	margin-left: 30px;
