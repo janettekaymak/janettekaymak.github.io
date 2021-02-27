@@ -12,13 +12,13 @@
 			<rect width="12" height="6.5" x="38" y="7.5" fill="#a11d3e" />
 		</pattern>
 		<!-- pink bricks -->
-		<pattern id="my5pattern" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
-			<rect width="323" height="580" x="0" y="0" fill="grey" />
-			<rect width="23.5" height="6.5" x="0" y="0" rx="1" fill="#ff9ece" />
-			<rect width="23.5" height="6.5" x="25" y="0" rx="1" fill="#ffacd6" />
-			<rect width="12" height="6.5" x="0" y="7.5" fill="#ffb4da" />
-			<rect width="23.5" height="6.5" x="13" y="7.5" rx="1" fill="#ffa5d2" />
-			<rect width="12" height="6.5" x="38" y="7.5" fill="#ffb4da" />
+		<pattern id="pinkBricks" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
+			<rect width="323" height="580" x="0" y="0" fill="#f9e9f9" />
+			<rect width="23.5" height="6.5" x="0" y="0" rx="1" fill="#ce88c6" />
+			<rect width="23.5" height="6.5" x="25" y="0" rx="1" fill="#cc8fc3" />
+			<rect width="12" height="6.5" x="0" y="7.5" fill="#cb96c1" />
+			<rect width="23.5" height="6.5" x="13" y="7.5" rx="1" fill="#cf8ac6" />
+			<rect width="12" height="6.5" x="38" y="7.5" fill="#cb96c1" />
 		</pattern>
 		<!-- Castle Window -->
 		<!-- grey brick pattern -->
@@ -54,11 +54,11 @@
 		</pattern>
 	</defs>
 	<!-- build cover2 -->
-	<rect width="273" height="44" x="0" y="0" fill="url(#my5pattern)" opacity=".5" />
-	<rect width="273" height="239" x="0" y="44" fill="url(#my5pattern)" />
-	<rect width="181" height="73" x="0" y="281" fill="url(#my5pattern)" />
-	<rect width="283" height="130" x="0" y="342" fill="url(#my5pattern)" />
-	<rect width="181" height="69" x="0" y="461" fill="url(#my5pattern)" />
+	<rect width="273" height="44" x="0" y="0" fill="url(#pinkBricks)" opacity=".5" />
+	<rect width="273" height="239" x="0" y="44" fill="url(#pinkBricks)" />
+	<rect width="181" height="73" x="0" y="281" fill="url(#pinkBricks)" />
+	<rect width="283" height="130" x="0" y="342" fill="url(#pinkBricks)" />
+	<rect width="181" height="69" x="0" y="461" fill="url(#pinkBricks)" />
 	<rect width="150" height="190" x="0" y="5" fill="url(#windowPattern)" />
 	<rect width="150" height="190" x="0" y="325" fill="url(#windowPattern)" />
 </svg>

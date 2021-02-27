@@ -89,9 +89,9 @@ div.preamble {
 }
 
 .explanation::before{
-    content: url(./svg/test.svg);
+    content: url(./svg/bridge1.svg);
     display:block;
-    margin: -200px auto auto 0px;
+    margin: -220px auto auto 0px;
     position: absolute;
 }
 
