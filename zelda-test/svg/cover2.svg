@@ -1,5 +1,5 @@
 <!-- cover2 -->
-<svg width="280" height="580" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 488">
+<svg width="280" height="830" xmlns="http://www.w3.org/2000/svg">
 	<!-- define pattern -->
 	<defs>
 		<!-- red bricks -->
@@ -31,7 +31,7 @@
 			<rect width="12" height="6.5" x="38" y="7.5" class="brickcolor4" fill="dimgrey" />
 		</pattern>
 		<!-- window pattern -->
-		<pattern id="windowPattern" patternUnits="userSpaceOnUse" x="29" y="42" width="150" height="160">
+		<pattern id="windowPattern" patternUnits="userSpaceOnUse" x="20" y="25" width="150" height="160">
 			<!-- drop shadow for window -->
 			<rect width="93" height="37" x="3" y="83" opacity=".2" rx="3" />
 			<!-- stone work -->
@@ -54,11 +54,13 @@
 		</pattern>
 	</defs>
 	<!-- build cover2 -->
-	<rect width="273" height="44" x="0" y="0" fill="url(#pinkBricks)" opacity=".5" />
-	<rect width="273" height="239" x="0" y="44" fill="url(#pinkBricks)" />
+	<rect width="263" height="28" x="0" y="16" fill="url(#pinkBricks)" opacity=".5" />
+	<rect width="263" height="245" x="0" y="44" fill="url(#pinkBricks)" />
 	<rect width="181" height="73" x="0" y="281" fill="url(#pinkBricks)" />
 	<rect width="283" height="130" x="0" y="342" fill="url(#pinkBricks)" />
 	<rect width="181" height="69" x="0" y="461" fill="url(#pinkBricks)" />
-	<rect width="150" height="190" x="0" y="5" fill="url(#windowPattern)" />
-	<rect width="150" height="190" x="0" y="325" fill="url(#windowPattern)" />
+	<rect width="150" height="160" x="150" y="320" fill="url(#windowPattern)" />
+	<rect width="150" height="160" x="0" y="160" fill="url(#windowPattern)" />
+	<!--bridge cover-->
+	<rect width="360" height="250" x="0" y="530" fill="lightgreen" />
 </svg>
