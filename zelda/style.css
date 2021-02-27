@@ -88,7 +88,7 @@ div.preamble {
   margin: -15px auto 200px 9px;
 }
 
-.preamble p {
+div.preamble p {
   padding: 0px 40px;
   margin: 20px 0 0 45px;
 }
@@ -399,7 +399,7 @@ h2 {
 
   /* cover3 */
   .extra3 {
-    margin-top: -1260px;
+    margin-top: -1300px;
     margin-left: 160px;
     border-radius: 20px;
   }
@@ -434,11 +434,8 @@ h2 {
   }
 }
 /*------------------767------------------*/
-<<<<<<< HEAD
 @media screen and (min-width: 800px) {
-=======
 @media screen and (min-width: 767px) {
->>>>>>> 9c714800ce50e56d35834be0b8a6db729b2a690d
   body {
     max-width: 800px;
   }
@@ -500,7 +497,7 @@ h2 {
 
   /* cover3 */
   .extra3 {
-    margin-top: -1260px;
+    margin-top: -1300px;
     margin-left: 280px;
     border-radius: 20px;
   }
@@ -607,7 +604,7 @@ h2 {
 
   /* cover3 */
   .extra3 {
-    margin-top: -1260px;
+    margin-top: -1300px;
     margin-left: 480px;
     border-radius: 20px;
   }
