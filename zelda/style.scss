@@ -9,6 +9,7 @@ $BGcolor2: darkturquoise;
 $BGcolor3: purple;
 $BGcolor3A:rgb(173, 1, 173);
 $BGcolor4: lightgrey;
+$BGcolor5:grey;
 
 //Fonts
 $Font-H: 'Merienda', cursive;
@@ -313,7 +314,7 @@ aside.sidebar a:visited {
 }
 
 li:hover {
-	background-color: grey;
+	background-color: $BGcolor5;
 	border-radius: 5px;
 	padding: 3px 10px;
 }
