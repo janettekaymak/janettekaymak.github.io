@@ -434,7 +434,11 @@ h2 {
   }
 }
 /*------------------767------------------*/
+<<<<<<< HEAD
 @media screen and (min-width: 800px) {
+=======
+@media screen and (min-width: 767px) {
+>>>>>>> 9c714800ce50e56d35834be0b8a6db729b2a690d
   body {
     max-width: 800px;
   }
