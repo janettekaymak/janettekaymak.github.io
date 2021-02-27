@@ -23,7 +23,7 @@ header::after {
   margin-top: -20px;
   z-index: 2;
 }
-    
+
 h1,
 h2 {
   width: 360px;
@@ -47,7 +47,7 @@ h2 {
 }
 
 .summary::after {
-  content: "Click or hover on each block to reveal a hidden message!";
+  content: "Click on each block to reveal a hidden message!";
   font-family: "Merienda", cursive;
 }
 
@@ -82,21 +82,10 @@ div.preamble {
   width: 360px;
   height: 560px;
   text-align: justify;
-  line-height: 1.1em;
+  line-height: 1em;
   background-image: url(./svg/block1.svg);
   background-repeat: no-repeat;
   margin: -15px auto 200px 9px;
-}
-
-div.preamble p{
-  margin-top: 10px;
-}
-
-.explanation::before{
-    content: url(./svg/bridge1.svg);
-    display:block;
-    margin: -220px auto auto 0px;
-    position: absolute;
 }
 
 .preamble p {
@@ -108,7 +97,7 @@ div.preamble p{
   font-family: "Merienda", cursive;
   font-size: 25px;
   line-height: 1em;
-  padding: 80px 50px 15px 90px;
+  padding: 80px 50px 0 90px;
 }
 
 .preamble p:nth-child(4) {
@@ -142,7 +131,7 @@ div.preamble p{
   width: 360px;
   height: 558px;
   line-height: 1.11em;
-  margin: auto auto 200px 12px;
+  margin: 0 auto 200px 12px;
 }
 
 .explanation p {
@@ -178,8 +167,7 @@ div.preamble p{
 }
 
 .participation p {
-  line-height: 1;
-  font-size: 17px;
+  font-size: 16px;
   color: white;
   font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
   text-align: justify;
@@ -189,10 +177,9 @@ div.preamble p{
 }
 
 .extra3 {
-  content: url(./images/cover3.png);
-  margin-top: -1260px;
+  content: url(./svg/cover3.svg);
+  margin-top: -1300px;
   margin-left: 50px;
-  border-radius: 20px;
 }
 
 .benefits {
@@ -372,7 +359,7 @@ aside.sidebar::after {
   header::after {
     position: fixed;
     margin-top: -60px;
-    margin-left: 5px;
+    margin-left: 15px;
   }
 
   h1,
@@ -446,7 +433,7 @@ h2 {
     width: 375px;
   }
 }
-/*------------------800------------------*/
+/*------------------767------------------*/
 @media screen and (min-width: 800px) {
   body {
     max-width: 800px;
@@ -531,7 +518,7 @@ h2 {
 
   /* cover5 */
   .extra5 {
-    margin: 3288px auto auto 300px;
+    margin: 3263px auto auto 300px;
   }
 
   /* block6 */
