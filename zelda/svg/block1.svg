@@ -22,6 +22,6 @@
             <rect width="262" height="275" x="74" y="74" fill="#9d2c4e" />					
 			<rect width="180" height="188" x="118" y="349" fill="#9d2c4e" />
 			<rect width="300" height="50" x="50" y="0" fill="url(#treePattern)"/>
-			<rect width="50" height="450" x="0" y="0" fill="url(#treePattern)" />
+			<rect width="50" height="300" x="0" y="50" fill="url(#treePattern)" />
 			<rect width="50" height="150" x="50" y="400" fill="url(#treePattern)"/>											
 </svg>
