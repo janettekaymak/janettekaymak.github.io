@@ -153,7 +153,6 @@ div.preamble {
 }
 
 .extra2 {
-  display:none;
   content: url(./svg/cover2.svg);
   margin: -2141px auto auto 36px;
 }
