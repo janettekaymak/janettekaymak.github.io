@@ -360,7 +360,7 @@ aside.sidebar::after {
   text-align: center;
   font-size: 20px;
   color: purple;
-  background-image: linear-gradient(#d2fcd2, darkturquoise, purple);
+  background-image: linear-gradient(rgb(195, 248, 89), darkturquoise, purple);
   width: 360px;
   display: block;
   padding-top: 50px;
