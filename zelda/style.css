@@ -372,7 +372,7 @@ aside.sidebar::after {
   header::after {
     position: fixed;
     margin-top: -60px;
-    margin-left: 15px;
+    margin-left: 5px;
   }
 
   h1,
@@ -531,7 +531,7 @@ h2 {
 
   /* cover5 */
   .extra5 {
-    margin: 3263px auto auto 300px;
+    margin: 3288px auto auto 300px;
   }
 
   /* block6 */
