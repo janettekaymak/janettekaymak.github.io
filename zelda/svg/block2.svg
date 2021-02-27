@@ -4,7 +4,7 @@
     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="60 0 320 560">
     <defs>
         <!-- grey bricks -->
-        <pattern id="my3pattern" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
+        <pattern id="greyBricks" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
             <rect width="50" height="15" x="0" y="0" fill="lightgrey"/>
             <rect width="23.5" height="6.5" x="0" y="0" rx="1" fill="grey" />
             <rect width="23.5" height="6.5" x="25" y="0" rx="1" fill="#717171" />
@@ -45,14 +45,15 @@
     <rect width="50" height="500" x="350" y="0" fill="url(#treePattern)" />
     <rect width="150" height="50" x="250" y="500" fill="url(#treePattern)" />
     <!--basin-->
-    <rect width="75" height="75" x="247" y="215" rx="40" fill="#23c8ff" stroke="grey" stroke-width="5" />
-    <rect width="75" height="75" x="247" y="215" rx="40" fill="url(#waterPattern)" stroke="darkgrey" stroke-width="5" />
+    <rect width="80" height="80" x="246" y="215" rx="40" fill="url(#greyBricks)" stroke="black" />
+    <rect width="65" height="65" x="253" y="222" rx="40" fill="#23c8ff" stroke="black" />
+    <rect width="65" height="65" x="253" y="222" rx="40" fill="url(#waterPattern)" stroke="black" />
     <!--fireplace-->
-    <rect width="90" height="110" x="241" y="360" rx="40" fill="url(#my3pattern)" stroke="black" stroke-width="2" />
+    <rect width="90" height="110" x="241" y="360" rx="40" fill="url(#greyBricks)" stroke="black" stroke-width="2" />
     <rect width="61" height="95" x="255" y="375" rx="30" />
-    <rect width="90" height="40" x="241" y="432" rx="5" fill="url(#my3pattern)" stroke="black" stroke-width="2" />
-	<rect width="50" height="52" x="261" y="380" fill="orange" rx="50" />
-	<rect width="35" height="40" x="268" y="390" fill="red" rx="50" />
-	<rect width="10" height="20" x="280" y="407" fill="#23c8ff" rx="15" />
-	<rect width="20" height="25" x="271" y="380" rx="15" />
+    <rect width="90" height="40" x="241" y="432" rx="5" fill="url(#greyBricks)" stroke="black" stroke-width="2" />
+    <rect width="50" height="52" x="261" y="380" fill="orange" rx="50" />
+    <rect width="35" height="40" x="268" y="390" fill="red" rx="50" />
+    <rect width="10" height="20" x="280" y="407" fill="#23c8ff" rx="15" />
+    <rect width="20" height="25" x="271" y="380" rx="15" />
 </svg>
