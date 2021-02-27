@@ -10,7 +10,7 @@
   </defs>
   <!--build cover3-->
   <rect width="282" height="80" x="0" y="40" fill="olivedrab" opacity=".5" rx="20" />
-  <rect width="282" height="430" x="0" y="80" fill="olivedrab"  rx="20" />
+  <rect width="282" height="432" x="0" y="78" fill="olivedrab"  rx="20" />
   <rect width="282" height="430" x="0" y="80" rx="20" fill="url(#carrots)" />
   <rect width="282" height="30" x="0" y="480" rx="20" fill="olivedrab"/>
 </svg>
