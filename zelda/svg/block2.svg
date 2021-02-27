@@ -39,9 +39,9 @@
     <rect width="310" height="318" x="40" y="0" fill="url(#my4pattern)" />
     <rect width="224" height="318" x="40" y="294" fill="url(#my4pattern)" />
     <rect width="98" height="171" x="264" y="331" fill="url(#my4pattern)" />
-    <rect width="262" height="272" x="64" y="24" fill="#f8cede" />
-    <rect width="176" height="242" x="64" y="294" fill="#f8cede" />
-    <rect width="99" height="125" x="239" y="354" fill="#f8cede" />
+    <rect width="262" height="272" x="64" y="24" fill="#f8d4f4" />
+    <rect width="176" height="242" x="64" y="294" fill="#f8d4f4" />
+    <rect width="99" height="125" x="239" y="354" fill="#f8d4f4" />
     <rect width="50" height="500" x="350" y="0" fill="url(#treePattern)" />
     <rect width="150" height="50" x="250" y="500" fill="url(#treePattern)" />
     <!--basin-->
