@@ -45,16 +45,16 @@
 
 	<rect width="50" height="50" x="100" y="0" fill="url(#treePattern)" />
 	<rect width="50" height="50" x="250" y="0" fill="url(#treePattern)" />
-	<rect width="95" height="200" x="150" fill="url(#greyBricks)" />
-	<rect width="200" height="140" x="95" y="30" rx="80" fill="url(#greyBricks)" />
-	<rect width="160" height="100" x="115" y="50" rx="50" fill="url(#floorPattern)" />
-	<rect width="55" height="200" x="170" fill="url(#floorPattern)" />
+	<rect width="95" height="200" x="160" fill="url(#greyBricks)" />
+	<rect width="200" height="140" x="105" y="30" rx="80" fill="url(#greyBricks)" />
+	<rect width="160" height="100" x="125" y="50" rx="50" fill="url(#floorPattern)" />
+	<rect width="55" height="200" x="180" fill="url(#floorPattern)" />
 	<rect width="50" height="50" x="100" y="150" fill="url(#treePattern)" />
 	<rect width="50" height="50" x="250" y="150" fill="url(#treePattern)" />
 	<rect width="50" height="50" x="300" y="100" fill="url(#treePattern)" />
 	<rect width="50" height="50" x="300" y="50" fill="url(#treePattern)" />
-	<rect width="115" height="60" x="137" y="68" rx="40" fill="url(#greyBricks)" />
-	<rect width="95" height="40" x="147" y="78" rx="28" fill="#23c8ff" />
-	<rect width="95" height="40" x="147" y="78" rx="28" fill="url(#waterPattern" />
+	<rect width="115" height="60" x="147" y="68" rx="40" fill="url(#greyBricks)" />
+	<rect width="95" height="40" x="157" y="78" rx="28" fill="#23c8ff" />
+	<rect width="95" height="40" x="157" y="78" rx="28" fill="url(#waterPattern" />
 	<rect width="50" height="100" x="50" y="50" fill="url(#treePattern)" />
 </svg>
