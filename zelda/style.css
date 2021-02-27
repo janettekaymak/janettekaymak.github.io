@@ -142,7 +142,7 @@ div.preamble p{
   width: 360px;
   height: 558px;
   line-height: 1.11em;
-  margin: auto 200px 12px;
+  margin: auto auto 200px 12px;
 }
 
 .explanation p {
