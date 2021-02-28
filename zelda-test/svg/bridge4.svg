@@ -17,8 +17,8 @@
 		</pattern>
 	</defs>
 
-	<rect width="150" height="263" x="100" y="80" fill="#83b226" />
-		<rect width="150" height="263" x="100" y="80" fill="url(#grassPattern)" opacity=".5" />
+	<rect width="110" height="263" x="120" y="80" fill="#83b226" />
+		<rect width="110" height="263" x="120" y="80" fill="url(#grassPattern)" opacity=".5" />
 	<rect width="50" height="300" x="200" y="42" fill="url(#treePattern)" />
 	<rect width="50" height="300" x="100" y="42" fill="url(#treePattern)" />
 </svg>
