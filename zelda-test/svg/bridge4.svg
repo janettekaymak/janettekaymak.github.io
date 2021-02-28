@@ -52,8 +52,8 @@
 			<rect width="12" height="6.5" x="38" y="7.5" fill="#cb96c1" />
 		</pattern>
 	</defs>
-	<rect width="70" height="300" x="40" fill="olivedrab" />
-	<rect width="70" height="300" x="40" fill="url(#grassPattern)" />
+	<rect width="70" height="300" x="40" fill="#83b226" />
+	<rect width="70" height="300" x="40" fill="url(#grassPattern)" opacity=".5"/>
 	<rect width="50" height="300" x="0" y="0" fill="url(#treePattern)" />
 	<rect width="50" height="300" x="100" y="0" fill="url(#treePattern)" />
 </svg>
