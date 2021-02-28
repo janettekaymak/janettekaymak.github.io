@@ -98,7 +98,7 @@ extra6 {
   max-width: 360px;
   margin: auto;
   border:transparent solid 1px;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
 }
 
 .extra1,
@@ -249,7 +249,7 @@ div.preamble {
   font-family: "Merienda", cursive;
   font-size: 30px;
   line-height: 1em;
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 20px;
 }
 

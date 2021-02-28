@@ -24,7 +24,7 @@
     <!--build block4 pond-->
     <rect width="350" height="345" x="0" y="15" rx="30" fill="#83b226" />
     <rect width="350" height="345" x="0" y="15" rx="30" fill="url(#grassPattern)" opacity=".5"/>
-        <rect width="310" height="263" x="20" y="55" rx="200" fill="#23c8ff" />
+    <rect width="310" height="263" x="20" y="55" rx="200" fill="#23c8ff" />
     <rect width="310" height="263" x="20" y="55" rx="200" fill="url(#waterPattern)" />
     <rect width="100" height="50" x="0" y="0" fill="url(#treePattern)" />
     <rect width="100" height="50" x="250" y="0" fill="url(#treePattern)" />
@@ -34,5 +34,7 @@
     <rect width="100" height="50" x="250" y="300" fill="url(#treePattern)" />
     <rect width="50" height="50" x="300" y="250" fill="url(#treePattern)" />
     <rect width="50" height="50" x="0" y="250" fill="url(#treePattern)" />
+    <rect width="50" height="50" x="200" y="0" fill="url(#treePattern)" />
+    <rect width="50" height="50" x="100" y="0" fill="url(#treePattern)" />
 
 </svg>

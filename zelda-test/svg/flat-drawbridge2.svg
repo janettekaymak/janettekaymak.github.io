@@ -6,6 +6,10 @@
     <polygon points="0,0 0,500 20,500 20,0 40,0 40,500 60,500 60,0 80,0 80,500 100,500 100,0" 
     style="stroke:saddlebrown;stroke-width:2;fill:burlywood;" />
     </pattern>
+     <!-- water pattern -->
+        <pattern id="waterPattern" patternUnits="userSpaceOnUse" x="0" y="0" height="10" width="20">
+            <circle cx="10" cy="-10" r="15" fill="transparent" stroke="aqua" stroke-width="1" />
+        </pattern>
     </defs>
-    <rect width="80" height="242" fill="url(#planks)" stroke="saddlebrown" stroke-width="2" x="75" y="23" />
+    <rect width="80" height="192" fill="url(#planks)" stroke="saddlebrown" stroke-width="2" x="75" y="23" />
 </svg>
