@@ -37,9 +37,6 @@
 	<rect width="360" height="550" fill="url(#waterPattern)" x="0" y="50" rx="40" />
 	<rect width="330" height="520" fill="#23c8ff" x="15" y="65" rx="30" />
 	<rect width="330" height="520" fill="url(#waterPattern)" x="15" y="65" rx="30" />
-		<!-- path -->
-	<rect width="70" height="40" fill="url(#redBricks)" x="90" y="50" />
-	<rect width="30" height="40" fill="#f8d4f4" x="110" y="50" />
 	<rect width="280" height="471" fill="saddlebrown" x="40" y="89" rx="20" />
 	
 	<!--<rect width="49" height="35" x="100" y="54" rx="15" fill="black" opacity=".2" />

@@ -1,4 +1,4 @@
-<svg width="350" height="200" xmlns="http://www.w3.org/2000/svg" id="bridge2">
+<svg width="95" height="265" xmlns="http://www.w3.org/2000/svg" id="bridge2">
 	<defs>
 		<!-- define floor pattern -->
 		<pattern id="floorPattern" patternUnits="userSpaceOnUse" x="0" y="0" height="24.1" width="24.2">
@@ -50,22 +50,6 @@
 			<rect width="12" height="6.5" x="38" y="7.5" fill="#cb96c1" />
 		</pattern>
 	</defs>
-	<!-- creek -->
-	<rect width="40" height="135" x="2" y="0" rx="20" fill="#23c8ff" />
-	<rect width="243" height="40" x="2" y="103" rx="20" fill="#23c8ff" />
-	<rect width="40" height="167" x="206" y="103" rx="20" fill="#23c8ff" />
-	<rect width="40" height="40" x="2" y="0" rx="0" fill="#23c8ff" />
-	<rect width="40" height="135" x="2" y="0" rx="20" fill="url(#waterPattern)" />
-	<rect width="243" height="40" x="2" y="103" rx="20" fill="url(#waterPattern)" />
-	<rect width="40" height="167" x="206" y="103" rx="20" fill="url(#waterPattern)" />
-	<rect width="40" height="40" x="2" y="0" rx="0" fill="url(#waterPattern)" />
-	<!-- path -->
-	<rect width="70" height="250" fill="url(#redBricks)" x="90" y="0" />
-	<rect width="30" height="250" fill="#f8d4f4" x="110" y="0" />
-	<!-- trees -->
-	<!--<rect width="50" height="50" fill="url(#treePattern)" x="50" y="0" />
-	<rect width="50" height="50" fill="url(#treePattern)" x="150" y="0" />-->
-	<!--<rect width="50" height="50" fill="url(#treePattern)" x="50" y="200" />
-	<rect width="50" height="50" fill="url(#treePattern)" x="150" y="200" />
-	<rect width="50" height="50" fill="url(#treePattern)" x="250" y="200" />-->
+		<rect width="95" height="245" x="0" y="20" fill="url(#redBricks)" />
+	<rect width="55" height="265" x="20" fill="#f8d4f4" />
 </svg>

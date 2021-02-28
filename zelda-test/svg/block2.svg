@@ -56,6 +56,4 @@
 	<rect width="35" height="40" x="268" y="390" fill="red" rx="50" />
 	<rect width="10" height="20" x="280" y="407" fill="#23c8ff" rx="15" />
 	<rect width="20" height="25" x="271" y="380" rx="15" />
-    	<!-- path -->
-	<rect width="30.5" height="25" fill="#f8d4f4" x="147.5" y="535" />
 </svg>

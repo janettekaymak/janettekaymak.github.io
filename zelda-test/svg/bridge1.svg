@@ -1,4 +1,4 @@
-<svg width="350" height="244" xmlns="http://www.w3.org/2000/svg" class="bridge">
+<svg width="95" height="265" xmlns="http://www.w3.org/2000/svg" class="bridge">
 	<defs>
 		<!-- define floor pattern -->
 		<pattern id="floorPattern" patternUnits="userSpaceOnUse" x="0" y="0" height="24.1" width="24.2">
@@ -53,16 +53,7 @@
 	<!-- courtyard bridge -->
 	<!--<rect width="50" height="50" x="100" y="0" fill="url(#treePattern)" />
 	<rect width="50" height="50" x="250" y="0" fill="url(#treePattern)" />-->
-	<rect width="95" height="225" x="160" y="20" fill="url(#greyBricks)" />
-	<rect width="200" height="165" x="105" y="40" rx="80" fill="url(#greyBricks)" />
-	<rect width="160" height="125" x="125" y="60" rx="50" fill="url(#floorPattern)" />
-	<rect width="55" height="245" x="180" fill="url(#floorPattern)" />
-	<!--<rect width="50" height="50" x="100" y="150" fill="url(#treePattern)" />
-	<rect width="50" height="50" x="250" y="150" fill="url(#treePattern)" />
-	<rect width="50" height="50" x="300" y="100" fill="url(#treePattern)" />
-	<rect width="50" height="50" x="300" y="50" fill="url(#treePattern)" />-->
-	<rect width="115" height="85" x="147" y="78" rx="40" fill="url(#greyBricks)" />
-	<rect width="95" height="65" x="157" y="88" rx="28" fill="#23c8ff" />
-	<rect width="95" height="65" x="157" y="88" rx="28" fill="url(#waterPattern" />
-	<!--<rect width="50" height="100" x="50" y="50" fill="url(#treePattern)" />-->
+	<rect width="95" height="225" x="0" y="20" fill="url(#greyBricks)" />
+	<rect width="55" height="265" x="20" fill="url(#floorPattern)" />
+
 </svg>
