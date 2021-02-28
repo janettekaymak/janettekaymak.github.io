@@ -43,8 +43,8 @@
 	<rect width="267" height="651.5" x="73" y="24" fill="url(#floorPattern)" />
 	<rect width="176" height="197" x="164" y="675" fill="url(#floorPattern)" />
 	<!-- swimming pool -->
-	<rect width="184" height="305" x="114" y="66" stroke="lightgrey" stroke-width="35" fill="#23c8ff" opacity="1" />
-	<rect width="184" height="305" x="114" y="66" stroke="lightgrey" stroke-width="35" fill="url(#waterPattern)" opacity="1" />
+	<!--<rect width="184" height="305" x="114" y="66" stroke="lightgrey" stroke-width="35" fill="#23c8ff" opacity="1" />
+	<rect width="184" height="305" x="114" y="66" stroke="lightgrey" stroke-width="35" fill="url(#waterPattern)" opacity="1" />-->
 	<!-- fireplace -->
 	<rect width="90" height="110" x="73" y="590" rx="40" fill="url(#greyBricks)" stroke="black" stroke-width="0" />
 	<rect width="61" height="95" x="87" y="605" rx="30" />
