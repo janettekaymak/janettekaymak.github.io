@@ -1,0 +1,64 @@
+<!-- cover2 -->
+<svg width="280" height="580" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 488">
+	<!-- define pattern -->
+	<defs>
+		<!-- red bricks -->
+		<pattern id="redBricks" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
+			<rect width="50" height="15" x="0" y="0" fill="#dcc0c7" />
+			<rect width="23.5" height="6.5" x="0" y="0" rx="1" fill="#9d2c4e" />
+			<rect width="23.5" height="6.5" x="25" y="0" rx="1" fill="#9c2343" />
+			<rect width="12" height="6.5" x="0" y="7.5" fill="#a11d3e" />
+			<rect width="23.5" height="6.5" x="13" y="7.5" rx="1" fill="#aa3553" />
+			<rect width="12" height="6.5" x="38" y="7.5" fill="#a11d3e" />
+		</pattern>
+		<!-- pink bricks -->
+		<pattern id="pinkBricks" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
+			<rect width="323" height="580" x="0" y="0" fill="#f9e9f9" />
+			<rect width="23.5" height="6.5" x="0" y="0" rx="1" fill="#ce88c6" />
+			<rect width="23.5" height="6.5" x="25" y="0" rx="1" fill="#cc8fc3" />
+			<rect width="12" height="6.5" x="0" y="7.5" fill="#cb96c1" />
+			<rect width="23.5" height="6.5" x="13" y="7.5" rx="1" fill="#cf8ac6" />
+			<rect width="12" height="6.5" x="38" y="7.5" fill="#cb96c1" />
+		</pattern>
+		<!-- Castle Window -->
+		<!-- grey brick pattern -->
+		<pattern id="my3pattern" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
+			<rect width="50" height="15" x="0" y="0" class="back" fill="lightgrey" />
+			<rect width="23.5" height="6.5" x="0" y="0" rx="1" class="brickcolor1" fill="grey" />
+			<rect width="23.5" height="6.5" x="25" y="0" rx="1" class="brickcolor2" fill="#717171" />
+			<rect width="12" height="6.5" x="0" y="7.5" class="brickcolor4" fill="dimgrey" />
+			<rect width="23.5" height="6.5" x="13" y="7.5" rx="1" class="brickcolor3" fill="#808080" />
+			<rect width="12" height="6.5" x="38" y="7.5" class="brickcolor4" fill="dimgrey" />
+		</pattern>
+		<!-- window pattern -->
+		<pattern id="windowPattern" patternUnits="userSpaceOnUse" x="29" y="42" width="150" height="160">
+			<!-- drop shadow for window -->
+			<rect width="93" height="37" x="3" y="83" opacity=".2" rx="3" />
+			<!-- stone work -->
+			<rect width="93" height="105" x="3" y="4" fill="#bebebe" rx="43" stroke="black" />
+			<rect width="56" height="83" x="22" y="23" rx="31" stroke="black" fill="url(#redBricks)" />
+			<rect width="56" height="83" x="22" y="23" rx="31" opacity=".5" />
+			<rect width="93" height="37" x="3" y="72" fill="#bebebe" rx="3" stroke="black" />
+			<rect width="12" height="25" x="43" y=".7" fill="darkgrey" rx="3" stroke="black" />
+			<rect width="25" height="12" x=".7" y="43" fill="darkgrey" rx="3" stroke="black" />
+			<rect width="25" height="12" x="74" y="43" fill="darkgrey" rx="3" stroke="black" />
+			<rect width="12" height="12" x="74" y="74" fill="grey" rx="3" stroke="black" />
+			<rect width="12" height="12" x="62" y="86" fill="darkgrey" rx="3" stroke="black" />
+			<rect width="12" height="12" x="12" y="93" fill="grey" rx="3" stroke="black" />
+			<!-- bars -->
+			<rect width="2.5" height="41" x="29" y="31" rx="5" />
+			<rect width="2.5" height="47" x="39" y="25" rx="5" />
+			<rect width="2.5" height="47" x="48" y="25" rx="5" />
+			<rect width="2.5" height="47" x="57" y="25" rx="5" />
+			<rect width="2.5" height="41" x="66" y="31" rx="5" />
+		</pattern>
+	</defs>
+	<!-- build cover2 -->
+	<rect width="273" height="44" x="0" y="0" fill="url(#pinkBricks)" opacity=".5" />
+	<rect width="273" height="239" x="0" y="44" fill="url(#pinkBricks)" />
+	<rect width="181" height="73" x="0" y="281" fill="url(#pinkBricks)" />
+	<rect width="283" height="130" x="0" y="342" fill="url(#pinkBricks)" />
+	<rect width="181" height="69" x="0" y="461" fill="url(#pinkBricks)" />
+	<rect width="150" height="190" x="0" y="5" fill="url(#windowPattern)" />
+	<rect width="150" height="190" x="0" y="325" fill="url(#windowPattern)" />
+</svg>
