@@ -284,6 +284,13 @@ footer {
   margin: 3366px auto auto 80px;
 }
 
+aside.sidebar::before{
+  content: url(./svg/bridge5.svg);
+  position:absolute;
+  margin-top: -293px;
+  margin-left: 60px;
+}
+
 aside.sidebar {
   position: absolute;
   background-image: url(./svg/block6.svg);

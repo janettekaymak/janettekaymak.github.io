@@ -1,4 +1,5 @@
-<svg width="350" height="250" xmlns="http://www.w3.org/2000/svg" id="bridge2">
+<svg width="360" height="275"
+	xmlns="http://www.w3.org/2000/svg" id="bridge5">
 	<defs>
 		<!-- define floor pattern -->
 		<pattern id="floorPattern" patternUnits="userSpaceOnUse" x="0" y="0" height="24.1" width="24.2">
@@ -50,22 +51,23 @@
 			<rect width="12" height="6.5" x="38" y="7.5" fill="#cb96c1" />
 		</pattern>
 	</defs>
-	<!-- creek -->
-	<rect width="40" height="135" x="2" y="0" rx="20" fill="#23c8ff" />
-	<rect width="243" height="40" x="2" y="103" rx="20" fill="#23c8ff" />
-	<rect width="40" height="167" x="206" y="103" rx="20" fill="#23c8ff" />
-	<rect width="40" height="40" x="2" y="0" rx="0" fill="#23c8ff" />
-	<rect width="40" height="135" x="2" y="0" rx="20" fill="url(#waterPattern)" />
-	<rect width="243" height="40" x="2" y="103" rx="20" fill="url(#waterPattern)" />
-	<rect width="40" height="167" x="206" y="103" rx="20" fill="url(#waterPattern)" />
-	<rect width="40" height="40" x="2" y="0" rx="0" fill="url(#waterPattern)" />
-	<!-- path -->
-	<rect width="70" height="250" fill="url(#redBricks)" x="90" y="0" />
-	<rect width="30" height="250" fill="#f8d4f4" x="110" y="0" />
-	<!-- trees -->
-	<!--<rect width="50" height="50" fill="url(#treePattern)" x="50" y="0" />
-	<rect width="50" height="50" fill="url(#treePattern)" x="150" y="0" />-->
-	<rect width="50" height="50" fill="url(#treePattern)" x="50" y="200" />
-	<rect width="50" height="50" fill="url(#treePattern)" x="150" y="200" />
-	<rect width="50" height="50" fill="url(#treePattern)" x="250" y="200" />
+	<!--moat-->
+	<rect width="345" height="285" x="15" y="-80" rx="250" fill="#23c8ff" />
+	<rect width="345" height="285" x="15" y="-80" rx="250" fill="url(#waterPattern)" />
+	<rect width="240" height="125" x="70" y="-40" rx="250" fill="olivedrab" />
+	<rect width="240" height="125" x="70" y="-40" rx="250" fill="url(#grassPattern)" />
+	<!--draw bridge-->
+	<rect width="225" height="25" x="78" y="0" fill="url(#redBricks)" />
+	<polygon points="145,1 60,200 300,200 235,1 " style="stroke:saddlebrown;stroke-width:3;fill:burlywood;" />
+	<polygon points="160,1 100,200 160,1 175,1 140,200 175,1 190,1 180,200 190,1 205,1 220,200 205,1 220,1 260,200 220,1" 
+	style="stroke:saddlebrown;fill:transparent;"/>
+	<rect width="244" height="15" x="59" y="205" rx="3" opacity=".2"/>
+		<rect width="41" height="15" x="260" y="200" rx="3" fill="peru" stroke="saddlebrown" stroke-width="3" />
+	
+	<rect width="41" height="15" x="59" y="200" rx="3" fill="peru" stroke="saddlebrown" stroke-width="3" />
+	<rect width="41" height="15" x="99" y="200" rx="3" fill="peru" stroke="saddlebrown" stroke-width="3" />
+	<rect width="41" height="15" x="139" y="200" rx="3" fill="peru" stroke="saddlebrown" stroke-width="3" />
+	<rect width="41" height="15" x="179" y="200" rx="3" fill="peru" stroke="saddlebrown" stroke-width="3" />
+	<rect width="41" height="15" x="220" y="200" rx="3" fill="peru" stroke="saddlebrown" stroke-width="3" />
+
 </svg>
