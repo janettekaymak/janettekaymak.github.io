@@ -34,11 +34,11 @@
 			<rect width="12" height="6.5" x="38" y="7.5" fill="dimgrey" />
 		</pattern>
 	</defs>
-	<rect width="50" height="700" x="0" y="0" fill="url(#treePattern)" />
+	<rect width="50" height="750" x="0" y="0" fill="url(#treePattern)" />
 	<rect width="315" height="700" x="50" y="0" fill="url(#my4pattern)" />
 	<rect width="225" height="249" x="140" y="700" fill="url(#my4pattern)" />
 	<rect width="100" height="50" x="50" y="700" fill="url(#treePattern)" />
-	<rect width="50" height="150" x="100" y="750" fill="url(#treePattern)" />
+	<rect width="50" height="200" x="100" y="750" fill="url(#treePattern)" />
 	<!-- floor -->
 	<rect width="267" height="651.5" x="73" y="24" fill="url(#floorPattern)" />
 	<rect width="176" height="247" x="164" y="675" fill="url(#floorPattern)" />

@@ -2,11 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
 body {
   background-color: #d2fcd2;
+  display: -ms-grid;
   display: grid;
   margin: -80px auto auto -10px;
 }
 
 header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d2fcd2), color-stop(darkturquoise), to(#d2fcd2));
   background-image: linear-gradient(#d2fcd2, darkturquoise, #d2fcd2);
   height: 200px;
   background-position: bottom;
@@ -23,14 +25,14 @@ header::after {
   margin-top: -20px;
   z-index: 2;
 }
-    
+
 h1,
 h2 {
   width: 360px;
   display: block;
   margin: 0;
   text-align: right;
-  line-height: 0.1em;
+  line-height: .1em;
   color: #ad01ad;
 }
 
@@ -47,7 +49,7 @@ h2 {
 }
 
 .summary::after {
-  content: "Click or hover on each block to reveal a hidden message!";
+  content: "Click on each block to reveal a hidden message!";
   font-family: "Merienda", cursive;
 }
 
@@ -82,21 +84,10 @@ div.preamble {
   width: 360px;
   height: 560px;
   text-align: justify;
-  line-height: 1.1em;
+  line-height: 1em;
   background-image: url(./svg/block1.svg);
   background-repeat: no-repeat;
   margin: -15px auto 200px 9px;
-}
-
-div.preamble p{
-  margin-top: 10px;
-}
-
-.explanation::before{
-    content: url(./svg/bridge1.svg);
-    display:block;
-    margin: -220px auto auto 0px;
-    position: absolute;
 }
 
 .preamble p {
@@ -108,7 +99,7 @@ div.preamble p{
   font-family: "Merienda", cursive;
   font-size: 25px;
   line-height: 1em;
-  padding: 80px 50px 15px 90px;
+  padding: 80px 50px 0 90px;
 }
 
 .preamble p:nth-child(4) {
@@ -119,8 +110,15 @@ div.preamble p{
 
 .extra1 {
   content: url(./svg/cover1.svg);
-  margin-top: -2795px;
+  margin-top: -2745px;
   margin-left: 84px;
+}
+
+.explanation::before {
+  content: url(./svg/bridge1.svg);
+  display: block;
+  margin: -220px auto auto 0px;
+  position: absolute;
 }
 
 .explanation h3 {
@@ -142,7 +140,7 @@ div.preamble p{
   width: 360px;
   height: 558px;
   line-height: 1.11em;
-  margin: auto auto 200px 12px;
+  margin: 0 auto 200px 12px;
 }
 
 .explanation p {
@@ -157,29 +155,32 @@ div.preamble p{
 }
 
 .extra2 {
+  display:block;
+  position:absolute;
   content: url(./svg/cover2.svg);
-  margin: -2100px auto auto 36px;
+  margin: 1240px auto auto 36px;
 }
 
-.participation::before{
+.explanation::after {
   content: url(./svg/bridge2.svg);
-  display:block;
-  margin: -200px auto auto 0px;
-  position: absolute;
-  z-index: -1;
+  position:absolute;
+  margin-top: 24px;
+  margin-left: -2px;
 }
 
 .participation {
-  color: white;
-  display: block;
   width: 360px;
   height: 600px;
   background-repeat: no-repeat;
   background-image: url(./svg/block3.svg);
-  margin: 0 auto 200px 10px;
+  margin-top: -50px;
+  margin-left: 10px;
+  margin-bottom: 200px;
+
 }
 
 .participation h3 {
+  color: white;
   font-size: 26px;
   line-height: 1.2em;
   font-family: "Merienda", cursive;
@@ -187,8 +188,7 @@ div.preamble p{
 }
 
 .participation p {
-  line-height: 1;
-  font-size: 17px;
+  font-size: 16px;
   color: white;
   font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
   text-align: justify;
@@ -196,14 +196,12 @@ div.preamble p{
   display: block;
   margin: 12px auto auto auto;
 }
-.participation a{
-  text-decoration: none;
-  color: orange;
-}
 
 .extra3 {
+  display:block;
+  position:absolute;
   content: url(./svg/cover3.svg);
-  margin-top: -1300px;
+  margin-top: 1990px;
   margin-left: 50px;
 }
 
@@ -279,16 +277,10 @@ footer {
 }
 
 .extra5 {
+  display:block;
   content: url(./svg/cover5.svg);
   position: absolute;
-  margin: 3366px auto auto 80px;
-}
-
-aside.sidebar::before{
-  content: url(./svg/bridge5.svg);
-  position:absolute;
-  margin-top: -293px;
-  margin-left: 60px;
+  margin: 3316px auto auto 80px;
 }
 
 aside.sidebar {
@@ -306,20 +298,20 @@ aside.sidebar a:link,
 aside.sidebar a:visited {
   color: white;
   text-decoration: none;
-  text-shadow: rgba(248, 248, 255, 0) 1px 1px 1px;
+  text-shadow: lightgrey 1px 1px 1px;
+}
+
+li:hover {
+  background-color: grey;
+  border-radius: 5px;
+  padding: 3px 10px;
 }
 
 aside.sidebar a:hover,
 aside.sidebar:hover {
-  color: purple;
+  color: #ad01ad;
   font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
   text-shadow: purple 1px 1px 1px;
-}
-
-li:hover {
-  background-color: rgba(248, 248, 255, 0.5);
-  border-radius: 5px;
-  padding: 3px 10px;
 }
 
 aside.sidebar h3 {
@@ -327,10 +319,10 @@ aside.sidebar h3 {
   font-size: 29px;
   text-align: center;
   color: purple;
-  background-color: rgba(248, 248, 255, 0.5);
+  background-color: lightgrey;
   padding: 5px;
   border-radius: 5px;
-  line-height: 0.7em;
+  line-height: .7em;
   width: 240px;
   margin-left: 48px;
 }
@@ -350,6 +342,7 @@ aside.sidebar ul li {
 .extra4:hover,
 .extra5:hover {
   opacity: 0;
+  -webkit-transition: 1.5s;
   transition: 1.5s;
 }
 
@@ -367,7 +360,8 @@ aside.sidebar::after {
   text-align: center;
   font-size: 20px;
   color: purple;
-  background-image: linear-gradient(rgb(195, 248, 89), darkturquoise, purple);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#66f766), color-stop(darkturquoise), to(purple));
+  background-image: linear-gradient(#66f766, darkturquoise, purple);
   width: 360px;
   display: block;
   padding-top: 50px;
@@ -381,293 +375,245 @@ aside.sidebar::after {
     max-width: 500px;
     margin: auto;
   }
-
   header {
     height: 150px;
     margin-top: -50px;
   }
-
   /* Link: */
   header::after {
     position: fixed;
     margin-top: -60px;
-    margin-left: 5px;
+    margin-left: 15px;
   }
-
   h1,
-h2 {
+  h2 {
     width: 470px;
   }
-
   .summary {
     padding: 0 70px 0 120px;
     line-height: 1.5em;
   }
-
   /* block1 */
   div.preamble {
     margin: -15px auto 200px 119px;
   }
-
   /* cover1 */
   .extra1 {
-    margin: -2792px auto auto 194px;
+    margin: -2742px auto auto 194px;
   }
-
   /* block2 */
   .explanation {
     margin: 0 auto 200px 122px;
   }
-
   /* cover2 */
   .extra2 {
-    margin: -2101px auto auto 146px;
+    margin: 1155px auto auto 146px;
   }
-
   /* block3 */
   .participation {
-    margin: 0 auto 200px 120px;
+    margin: -50px auto 200px 120px;
   }
-
   /* cover3 */
   .extra3 {
     margin-left: 160px;
+    margin-top: 1905px;
   }
-
   /* block4 */
   .benefits {
     margin: auto auto 200px 120px;
   }
-
   /* cover4 */
   .extra4 {
     margin: -575px auto auto 102px;
   }
-
   /* block5 */
   .requirements {
-    margin: 0 auto 200px 108px;
+    margin: 0 auto 200px 118px;
   }
-
   /* cover5 */
   .extra5 {
-    margin: 3280px auto auto 180px;
+    margin: 3230px auto auto 190px;
   }
-
   /* block6 */
   aside.sidebar {
     margin: 1150px auto 100px 80px;
   }
-
   .requirements::after {
-    width: 375px;
+    width: 385px;
   }
 }
-/*------------------767------------------*/
+
+/*------------------800------------------*/
 @media screen and (min-width: 767px) {
   body {
-    max-width: 800px;
+    max-width: 767px;
   }
-
   header {
     height: 180px;
   }
-
   /* Link: */
   header::after {
     content: url(./images/linkAttack150.png);
     margin-left: 50px;
     margin-top: -90px;
   }
-
   h1 {
     font-size: 45px;
-    line-height: 0.5;
+    line-height: .5;
   }
-
   h2 {
     font-size: 22px;
   }
-
   h1,
-h2 {
+  h2 {
     width: 755px;
   }
-
   .summary {
     padding: 0 30px 0 360px;
     line-height: 1.5em;
   }
-
   /* block1 */
   div.preamble {
     margin: -15px auto 200px 239px;
   }
-
   /* cover1 */
   .extra1 {
     margin: -2792px auto auto 314px;
   }
-
   /* block2 */
   .explanation {
     margin: 0 auto 200px 242px;
   }
-
   /* cover2 */
   .extra2 {
-    margin: -2101px auto auto 266px;
+    margin: 1191px auto auto 266px;
   }
-
   /* block3 */
   .participation {
-    margin: 0 auto 200px 240px;
+    margin: -50px auto 200px 240px;
   }
-
   /* cover3 */
   .extra3 {
     margin-left: 280px;
+    margin-top: 1936px;
   }
-
   /* block4 */
   .benefits {
     margin: auto auto 200px 240px;
   }
-
   /* cover4 */
   .extra4 {
     margin: -575px auto auto 222px;
   }
-
   /* block5 */
   .requirements {
-    margin: 0 auto 200px 228px;
+    margin: 50px auto 200px 228px;
   }
-
   /* cover5 */
   .extra5 {
-    margin: 3288px auto auto 300px;
+    margin: 3310px auto auto 300px;
   }
-
   /* block6 */
   aside.sidebar {
     margin: 1150px auto 100px 200px;
   }
-
   aside.sidebar::after {
     content: url(./images/wave150.png);
     margin: 100px auto 0px 130px;
   }
-
   .requirements::after {
     width: 580px;
-    margin: 1230px auto auto -40px;
+    margin: 1180px auto auto -40px;
     border-radius: 600px;
     font-size: 19px;
   }
 }
+
 /*------------------1200------------------*/
 @media screen and (min-width: 1200px) {
   body {
     max-width: 1200px;
     margin: auto;
   }
-
   header {
     height: 180px;
   }
-
   h1 {
     font-size: 60px;
     margin-bottom: 65px;
   }
-
   h2 {
     font-size: 25px;
   }
-
   /* Link: */
   header::after {
     content: url(./images/linkAttack200.png);
     margin-left: 145px;
     margin-top: -90px;
   }
-
   h1,
-h2 {
+  h2 {
     width: 1040px;
   }
-
   .summary {
     margin-top: -50px;
     padding: 0 145px 0 360px;
     line-height: 1.5em;
   }
-
   /* block1 */
   div.preamble {
     margin: 55px auto 200px 439px;
   }
-
   /* cover1 */
   .extra1 {
-    margin: -2792px auto auto 514px;
+    margin: -2742px auto auto 514px;
   }
-
   /* block2 */
   .explanation {
     margin: 0 auto 200px 442px;
   }
-
   /* cover2 */
   .extra2 {
-    margin: -2101px auto auto 466px;
+    margin: 1167px auto auto 466px;
   }
-
   /* block3 */
   .participation {
-    margin: 0 auto 200px 440px;
+    margin: -50px auto 200px 440px;
   }
-
   /* cover3 */
   .extra3 {
     margin-left: 480px;
+    margin-top: 1919px;
   }
-
   /* block4 */
   .benefits {
     margin: auto auto 200px 440px;
   }
-
   /* cover4 */
   .extra4 {
     margin: -573px auto auto 422px;
   }
-
   /* block5 */
   .requirements {
     margin: 0 auto 200px 428px;
   }
-
   /* cover5 */
   .extra5 {
-    margin: 3293px auto auto 500px;
+    margin: 3250px auto auto 500px;
   }
-
   /* block6 */
   aside.sidebar {
     margin: 1150px auto 100px 400px;
   }
-
   aside.sidebar::after {
     content: url(./images/wave200.png);
     margin: 75px auto 0px 150px;
   }
-
   .requirements::after {
     width: 580px;
     margin: 1275px auto auto -100px;
     border-radius: 600px;
     font-size: 19px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */

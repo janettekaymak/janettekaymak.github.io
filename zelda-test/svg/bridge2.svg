@@ -1,4 +1,4 @@
-<svg width="350" height="250" xmlns="http://www.w3.org/2000/svg" id="bridge2">
+<svg width="350" height="200" xmlns="http://www.w3.org/2000/svg" id="bridge2">
 	<defs>
 		<!-- define floor pattern -->
 		<pattern id="floorPattern" patternUnits="userSpaceOnUse" x="0" y="0" height="24.1" width="24.2">
@@ -65,7 +65,7 @@
 	<!-- trees -->
 	<!--<rect width="50" height="50" fill="url(#treePattern)" x="50" y="0" />
 	<rect width="50" height="50" fill="url(#treePattern)" x="150" y="0" />-->
-	<rect width="50" height="50" fill="url(#treePattern)" x="50" y="200" />
+	<!--<rect width="50" height="50" fill="url(#treePattern)" x="50" y="200" />
 	<rect width="50" height="50" fill="url(#treePattern)" x="150" y="200" />
-	<rect width="50" height="50" fill="url(#treePattern)" x="250" y="200" />
+	<rect width="50" height="50" fill="url(#treePattern)" x="250" y="200" />-->
 </svg>
