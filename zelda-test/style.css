@@ -301,6 +301,9 @@ footer {
   margin-top: 0px;
 }
 
+.requirements::after{
+  content: url(./svg/drawbridge.svg);
+}
 .extra5 {
   content: url(./svg/cover5.svg);
 }

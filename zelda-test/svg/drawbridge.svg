@@ -52,10 +52,10 @@
 		</pattern>
 	</defs>
 	<!--moat-->
-	<rect width="310" height="265" x="35" y="-80" rx="250" fill="#23c8ff" />
+	<!--<rect width="310" height="265" x="35" y="-80" rx="250" fill="#23c8ff" />
 	<rect width="310" height="265" x="35" y="-80" rx="250" fill="url(#waterPattern)" />
 	<rect width="240" height="165" x="70" y="-40" rx="250" fill="olivedrab" />
-	<rect width="240" height="165" x="70" y="-40" rx="250" fill="url(#grassPattern)" />
+	<rect width="240" height="165" x="70" y="-40" rx="250" fill="url(#grassPattern)" />-->
 	<!--draw bridge-->
 	<!--<rect width="225" height="25" x="78" y="0" fill="url(#redBricks)" />-->
 	<polygon points="145,1 60,200 300,200 235,1 " style="stroke:saddlebrown;stroke-width:3;fill:burlywood;" />
