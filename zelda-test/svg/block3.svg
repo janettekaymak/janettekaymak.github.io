@@ -33,7 +33,6 @@
 	<!--build block3-->
 	<rect width="360" height="550" fill="#23c8ff" x="0" y="0" rx="40" />
 	<rect width="360" height="550" fill="url(#waterPattern)" x="0" y="0" rx="40" />
-
 	<rect width="280" height="471" fill="saddlebrown" x="40" y="39" rx="20" />
 	
 	<!--<rect width="49" height="35" x="100" y="54" rx="15" fill="black" opacity=".2" />

@@ -1,5 +1,5 @@
-<svg width="360" height="175"
-	xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 275">
+<svg width="360" height="250"
+	xmlns="http://www.w3.org/2000/svg" viewBox="-200 25 560 275">
 	<defs>
 		<!-- define floor pattern -->
 		<pattern id="floorPattern" patternUnits="userSpaceOnUse" x="0" y="0" height="24.1" width="24.2">

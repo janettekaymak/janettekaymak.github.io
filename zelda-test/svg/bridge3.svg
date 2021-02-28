@@ -1,11 +1,6 @@
-<svg width="150" height="300"
+<svg width="360" height="500"
 	xmlns="http://www.w3.org/2000/svg" id="bridge2">
 	<defs>
-		<!-- define floor pattern -->
-		<pattern id="floorPattern" patternUnits="userSpaceOnUse" x="0" y="0" height="24.1" width="24.2">
-			<rect width="25" height="25" x="0" y="0" fill="lightgrey" />
-			<rect width="24.1" height="24.2" x="0" y="0" rx="5" fill="rgb(190, 190, 190)" stroke="lightgrey" stroke-width="3" />
-		</pattern>
 		<!-- tree pattern -->
 		<pattern id="treePattern" patternUnits="userSpaceOnUse" x="0" y="0" height="50" width="50">
 			<rect width="10" height="10" x="20" y="40" fill="maroon" />
@@ -14,24 +9,6 @@
 		<!-- water pattern -->
 		<pattern id="waterPattern" patternUnits="userSpaceOnUse" x="0" y="0" height="10" width="20">
 			<circle cx="10" cy="-10" r="15" fill="transparent" stroke="aqua" stroke-width="1" />
-		</pattern>
-		<!-- red bricks -->
-		<pattern id="redBricks" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
-			<rect width="50" height="15" x="0" y="0" fill="#dcc0c7" />
-			<rect width="23.5" height="6.5" x="0" y="0" rx="1" fill="#9d2c4e" />
-			<rect width="23.5" height="6.5" x="25" y="0" rx="1" fill="#9c2343" />
-			<rect width="12" height="6.5" x="0" y="7.5" fill="#a11d3e" />
-			<rect width="23.5" height="6.5" x="13" y="7.5" rx="1" fill="#aa3553" />
-			<rect width="12" height="6.5" x="38" y="7.5" fill="#a11d3e" />
-		</pattern>
-		<!-- grey bricks -->
-		<pattern id="greyBricks" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
-			<rect width="50" height="15" x="0" y="0" fill="lightgrey" />
-			<rect width="23.5" height="6.5" x="0" y="0" rx="1" fill="grey" />
-			<rect width="23.5" height="6.5" x="25" y="0" rx="1" fill="#717171" />
-			<rect width="12" height="6.5" x="0" y="7.5" fill="dimgrey" />
-			<rect width="23.5" height="6.5" x="13" y="7.5" rx="1" fill="#808080" />
-			<rect width="12" height="6.5" x="38" y="7.5" fill="dimgrey" />
 		</pattern>
 		<!--grass pattern-->
 		<pattern id="grassPattern" patternUnits="userSpaceOnUse" x="0" y="0" height="50" width="30">
@@ -42,18 +19,9 @@
 			<line x1="15" y1="0" x2="27.5" y2="45" style="stroke:darkolivegreen;stroke-width:1" />
 			<line x1="25" y1="0" x2="35" y2="30" style="stroke:darkslategrey;stroke-width:1" />
 		</pattern>
-		<!-- pink bricks -->
-		<pattern id="pinkBricks" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
-			<rect width="323" height="580" x="0" y="0" fill="#f9e9f9" />
-			<rect width="23.5" height="6.5" x="0" y="0" rx="1" fill="#ce88c6" />
-			<rect width="23.5" height="6.5" x="25" y="0" rx="1" fill="#cc8fc3" />
-			<rect width="12" height="6.5" x="0" y="7.5" fill="#cb96c1" />
-			<rect width="23.5" height="6.5" x="13" y="7.5" rx="1" fill="#cf8ac6" />
-			<rect width="12" height="6.5" x="38" y="7.5" fill="#cb96c1" />
-		</pattern>
 	</defs>
-	<rect width="70" height="300" x="40" fill="#23c8ff" />
-	<rect width="70" height="300" x="40" fill="url(#waterPattern)" />
-	<rect width="50" height="300" x="0" y="0" fill="url(#treePattern)" />
-	<rect width="50" height="300" x="100" y="0" fill="url(#treePattern)" />
+	<rect width="70" height="315" x="140" y="66" fill="#23c8ff" />
+	<rect width="70" height="315" x="140" y="66" fill="url(#waterPattern)" />
+	<rect width="50" height="300" x="200" y="50" fill="url(#treePattern)" />
+	<rect width="50" height="300" x="100" y="50" fill="url(#treePattern)" />
 </svg>
