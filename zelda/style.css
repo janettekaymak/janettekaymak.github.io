@@ -113,7 +113,7 @@ div.preamble {
 }
 
 .explanation::before {
-  content: url(./svg/bridge1.svg);
+  content: url(./svg/flat-drawbridge.svg);
   display: block;
   margin: -220px auto auto 0px;
   position: absolute;
