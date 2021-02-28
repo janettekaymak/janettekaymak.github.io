@@ -106,6 +106,10 @@ h3 {
   padding: 80px 50px 0 90px;
 }
 
+.explanation::before {
+  content: url(./svg/bridge1.svg);
+}
+
 .explanation {
   display: block;
   background-image: url(./svg/block2.svg);
