@@ -152,7 +152,7 @@ div.preamble {
 }
 
 .preamble::after {
-  content: url(./svg/bridge1.svg);
+  content: url(./svg/flat-drawbridge.svg);
 }
 
 .explanation h3 {

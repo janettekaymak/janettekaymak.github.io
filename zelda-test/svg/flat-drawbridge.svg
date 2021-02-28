@@ -1,0 +1,7 @@
+<svg width="80" height="250"
+    xmlns="http://www.w3.org/2000/svg">
+
+    <rect width="80" height="250" fill="burlywood" stroke="saddlebrown" stroke-width="2" />
+    <polygon points="0,0 0,250 20,250 20,0 40,0 40,250 60,250 60,0 80,0 80,250 100,250 100,0" 
+    style="stroke:saddlebrown;stroke-width:2;fill:burlywood;" />
+</svg>
