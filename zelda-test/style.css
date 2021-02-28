@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+
 body {
   background-color: #d2fcd2;
   max-width: 360px;
-margin:auto;
-  }
+  display:grid;
+  grid-template-columns: auto 360px auto;
+  margin: auto;
+}
 
 header {
   background-image: linear-gradient(#d2fcd2, darkturquoise, #d2fcd2);
@@ -14,7 +17,6 @@ header {
   background-size: cover;
   position: relative;
   z-index: -1;
-  margin-left: -15px;
 }
 
 header::after {
@@ -92,18 +94,27 @@ h3 {
 .extra5,
 .aside.sidebar,
 .aside.sidebar::after,
-extra6{
+extra6 {
   max-width: 360px;
-  margin:auto;
-  margin-left: 0px;
+  margin: auto;
+  border: red solid 1px;
+  margin-bottom: 250px;
 }
+
 .extra1,
 .extra2,
 .extra3,
 .extra4,
-.extra5{
-  position:absolute;
-  margin-top: 4000px;
+.extra5 {
+  position: absolute;
+  margin-top: 5000px;
+}
+
+.preamble::after,
+.explanation::after,
+.participation::after,
+.benefits::after,
+.requirements::after{
 }
 
 div.preamble {
@@ -208,6 +219,10 @@ div.preamble {
   margin: 12px auto auto auto;
 }
 
+.participation::after{
+  content: url(./svg/bridge3.svg);
+}
+
 .extra3 {
   content: url(./svg/cover3.svg);
 
@@ -236,6 +251,10 @@ div.preamble {
   line-height: 1em;
   padding-top: 55px;
   padding-bottom: 20px;
+}
+
+.benefits::after{
+  content: url(./svg/bridge4.svg);
 }
 
 .extra4 {
@@ -366,7 +385,7 @@ extra6 {
 /*--------------------500----------------------*/
 @media screen and (min-width: 500px) {
   body {
-    max-width: 500px;
+     
   }
 
 }
