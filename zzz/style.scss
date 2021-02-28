@@ -1,0 +1,685 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+$barlowFont:'Barlow Condensed', 'Arial Narrow', sans-serif;
+$meriendaFont: 'Merienda', cursive;
+$bodyBackground: rgb(210, 252, 210);
+
+@mixin h1and2{
+  width: 360px;
+	display: block;
+	margin: 0;
+	text-align: right;
+	font-family: $meriendaFont;
+	line-height: .1em;
+  color: rgb(173, 1, 173);
+}
+
+@mixin extraHover {
+  opacity: 0;
+	transition: 1.5s;
+}
+
+body {
+	background-color: $bodyBackground;
+	display: grid;
+	grid-template-columns: auto 360px auto;
+	//margin: -80px auto auto -10px;
+  position: relative;
+}
+
+header {
+	background-image: linear-gradient($bodyBackground, darkturquoise, $bodyBackground);
+	height: 200px;
+	background-position: bottom;
+	background-repeat: repeat;
+	background-size: cover;
+	position: relative;
+  &::after {
+    content: url(./images/linkAttack100.png);
+    margin-left: 20px;
+    position: absolute;
+    margin-top: -20px;
+    z-index: 2;
+  }
+}
+
+h1 {
+  @include h1and2();
+	font-size: 37px;
+	margin-top: 120px;
+	margin-bottom: 35px;
+}
+
+h2 {
+  @include h1and2();
+	font-size: 18px;
+}
+
+h3 {
+	font-family: $meriendaFont;
+	margin-bottom: -10px;
+	text-align: center;
+}
+
+.summary {
+	padding: 0; // 75px 0 105px;
+	//margin: auto 14px 0 10px;
+	text-align: right;
+	font-family: $meriendaFont;
+	line-height: 1.1em;
+	color: rgb(85, 84, 84);
+	//margin-top: -60px;
+  ::after {
+    content: "Click on each block to reveal a hidden message!";
+    font-family: $meriendaFont;
+  }
+  p{
+    a{
+      text-decoration: none;
+      font-family: $meriendaFont;
+      color: rgb(188, 4, 224);
+    }
+  }
+}
+
+
+.preamble {
+	display: block;
+	font-family: $barlowFont;
+	font-size: 17.5px;
+	color: white;
+	width: 360px;
+	height: 560px;
+	text-align: justify;
+	line-height: 1em;
+	background-image: url(./svg/block1.svg);
+	background-repeat: no-repeat;
+	margin: -15px auto 200px 9px;
+  p {
+    padding: 0px 40px;
+    margin: 20px 0 0 45px;
+    &:nth-child(4) {
+      width: 160px;
+      text-align: justify;
+      margin-left: 90px;
+    }
+  }
+  h3 {
+    font-family: $meriendaFont;
+    font-size: 25px;
+    line-height: 1em;
+    padding: 80px 50px 0 90px;
+    ;
+  }
+}
+
+.explanation {
+	display: block;
+	background-image: url(./svg/block2.svg);
+	background-repeat: no-repeat;
+	text-align: justify;
+	font-family: $barlowFont;
+	font-size: 17px;
+	//width: 360px;
+	height: 558px;
+	line-height: 1.11em;
+	//margin: 0 auto 200px 12px;
+  h3 {
+    font-family: $meriendaFont;
+    font-size: 21px;
+    line-height: 1em;
+    //margin-left: -45px;
+    padding-top: 30px;
+    //padding-bottom: 10px;
+  }
+  p {
+    width: 245px;
+    display: block;
+    padding: 0px 50px;
+    //margin-left: -7px;
+    &:nth-child(3) {
+      width: 160px;
+    }
+  }
+}
+
+.participation {
+	display: block;
+	width: 360px;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-image: url(./svg/block3.svg);
+	//margin: 0 auto 200px 10px;
+  h3 {
+    font-size: 26px;
+    line-height: 1.2em;
+    font-family: $meriendaFont;
+    padding-top: 95px;
+  }
+  p {
+    font-size: 16px;
+    color: white;
+    font-family: $barlowFont;
+    text-align: justify;
+    width: 260px;
+    display: block;
+    margin: 12px auto auto auto;
+  }
+}
+
+.benefits {
+	width: 360px;
+	height: 350px;
+	background-image: url(./svg/block4.svg);
+	background-repeat: no-repeat;
+	//margin: auto auto 200px 10px;
+  p {
+    font-family: $barlowFont;
+    font-size: 16.5px;
+    text-align: center;
+    text-shadow: white 1px 1px 2px;
+    width: 250px;
+    display: block;
+    margin: auto;
+  }
+  h3 {
+    font-family: $meriendaFont;
+    font-size: 30px;
+    line-height: 1em;
+    padding-top: 55px;
+    padding-bottom: 20px;
+  }
+}
+
+footer {
+	display: none;
+}
+
+.requirements {
+	position: absolute;
+	width: 365px;
+	height: 950px;
+	display: block;
+	margin: 0 auto 200px 8px;
+	background-image: url(./svg/block5.svg);
+	background-repeat: no-repeat;
+  p {
+    width: 252px;
+    display: block;
+    margin: 5px auto auto 80px;
+    font-family: $barlowFont;
+    font-size: 16.5px;
+    line-height: 1.1em;
+    text-align: justify;
+    text-shadow: white 1px 1px 2px;
+    &:nth-child(5),
+    &:nth-child(6) {
+	    width: 160px;
+	    margin-left: 185px;
+	    text-align: left;
+	    margin-top: 0px;
+    }
+  }
+  h3 {
+    font-family: $meriendaFont;
+    font-size: 25px;
+    line-height: 1em;
+    padding: 0px 0 5px 40px;
+  }
+  &::after {
+    height: 500px;
+    content: "CONGRATULATIONS! YOU WON!   . . . Now go forth into the world and code your very own CSS Zen Garden!";
+    font-family: $meriendaFont;
+    text-align: center;
+    font-size: 20px;
+    color: purple;
+    background-image: linear-gradient(rgb(195, 248, 195), darkturquoise, purple);
+    width: 360px;
+    display: block;
+    padding-top: 50px;
+    margin: 1150px auto auto auto;
+    border-radius: 600px 0 0 600px;
+  }
+}
+
+aside{
+  .sidebar {
+    position: absolute;
+    background-image: url(./svg/block6.svg);
+    background-repeat: no-repeat;
+    padding: 65px 30px;
+    width: 360px;
+    height: 700px;
+    display: block;
+    //margin: 1150px auto 100px -32px;
+  }
+  a{
+    &:link,
+    &:visited {
+      color: white;
+      text-decoration: none;
+      text-shadow: rgb(248, 248, 255, .0) 1px 1px 1px;
+    }
+    &:hover{
+      color: purple;
+      font-family: $barlowFont;
+      text-shadow: rgb(128, 0, 128) 1px 1px 1px;
+    }
+  }
+  &:hover{
+    color: purple;
+    font-family: $barlowFont;
+    text-shadow: rgb(128, 0, 128) 1px 1px 1px;
+  }
+  h3{
+    font-family: $meriendaFont;
+    font-size: 29px;
+    text-align: center;
+    color: purple;
+    background-color: rgb(248, 248, 255, .5);
+    padding: 5px;
+    border-radius: 5px;
+    line-height: .7em;
+    width: 240px;
+    margin-left: 48px;
+  }
+  ul{
+    li{
+      font-family: $barlowFont;
+      color: white;
+      width: 200px;
+      display: block;
+      margin-left: 30px;
+      font-size: 18px;
+    }
+  }
+  &::after{
+    content: url(./images/wave100.png);
+    position: absolute;
+    //margin: 100px auto 0px 130px;
+    padding-bottom: 50px;
+  }
+}
+
+li{
+  &:hover{
+    background-color: rgb(248, 248, 255, .5);
+    border-radius: 5px;
+    padding: 3px 10px;
+  }
+}
+
+.extra1:hover,
+.extra2:hover,
+.extra3:hover,
+.extra4:hover,
+.extra5:hover {
+	opacity: 0;
+	transition: 1.5s;
+}
+
+.extra1 {
+	display: none;
+	content: url(./svg/cover1.svg);
+	//margin-top: -2795px;
+	//margin-left: 84px;
+}
+.extra2 {
+	display: none;
+	content: url(./svg/cover2.svg);
+	//margin: -2141px auto auto 36px;
+}
+.extra3 {
+	display: none;
+	content: url(./images/cover3.png);
+	//margin-top: -1260px;
+	//margin-left: 50px;
+	border-radius: 20px;
+}
+.extra4 {
+	display: none;
+	content: url(./images/cover4.png);
+	//margin: -575px auto auto -8px;
+
+}
+.extra5 {
+	display: none;
+	content: url(./svg/cover5.svg);
+	position: absolute;
+	//margin: 3363px auto auto 80px;
+}
+
+// @for $index from 1 to 6{
+//   .extra#{$index}{
+//     content: url(./svg/cover#{$index}.svg);
+//     position: absolute;
+//     &:hover{
+//       @include extraHover();
+//     }  
+//   }
+// }
+
+/*--------------------500----------------------*/
+
+@media screen and (min-width: 500px) {
+
+	body {
+		max-width: 500px;
+		margin: auto;
+	}
+
+	header {
+		height: 150px;
+		margin-top: -50px;
+	}
+
+	/* Link: */
+	header::after {
+		position: fixed;
+		margin-top: -60px;
+		margin-left: 15px;
+	}
+
+	h1,
+	h2 {
+		width: 470px;
+	}
+
+	.summary {
+		padding: 0 70px 0 120px;
+		line-height: 1.5em;
+	}
+
+	/* block1 */
+	div.preamble {
+		margin: -15px auto 200px 119px;
+	}
+
+	/* cover1 */
+	.extra1 {
+		margin: -2792px auto auto 194px;
+	}
+
+	/* block2 */
+	.explanation {
+		margin: 0 auto 200px 122px;
+	}
+
+	/* cover2 */
+	.extra2 {
+		margin: -2141px auto auto 146px;
+	}
+
+	/* block3 */
+	.participation {
+		margin: 0 auto 200px 120px;
+	}
+
+	/* cover3 */
+	.extra3 {
+		margin-top: -1260px;
+		margin-left: 160px;
+		border-radius: 20px;
+	}
+
+	/* block4 */
+	.benefits {
+		margin: auto auto 200px 120px;
+	}
+
+	/* cover4 */
+	.extra4 {
+		margin: -575px auto auto 102px;
+
+	}
+
+	/* block5 */
+	.requirements {
+		margin: 0 auto 200px 108px;
+	}
+
+	/* cover5 */
+	.extra5 {
+		margin: 3302px auto auto 180px;
+	}
+
+	/* block6 */
+	aside.sidebar {
+		margin: 1150px auto 100px 80px;
+
+	}
+
+	.requirements::after {
+		width: 375px;
+	}
+
+}
+
+/*------------------800------------------*/
+
+@media screen and (min-width: 800px) {
+
+	body {
+		max-width: 800px;
+
+	}
+
+	header {
+		height: 180px;
+	}
+
+	/* Link: */
+	header::after {
+		content: url(./images/linkAttack150.png);
+		margin-left: 50px;
+		margin-top: -90px;
+	}
+
+	h1,
+	h2 {
+		width: 755px;
+	}
+
+	.summary {
+		padding: 0 30px 0 360px;
+		line-height: 1.5em;
+	}
+
+	/* block1 */
+	div.preamble {
+		margin: -15px auto 200px 239px;
+	}
+
+	/* cover1 */
+	.extra1 {
+		margin: -2792px auto auto 314px;
+	}
+
+	/* block2 */
+	.explanation {
+		margin: 0 auto 200px 242px;
+	}
+
+	/* cover2 */
+	.extra2 {
+		margin: -2141px auto auto 266px;
+	}
+
+	/* block3 */
+	.participation {
+		margin: 0 auto 200px 240px;
+	}
+
+	/* cover3 */
+	.extra3 {
+		margin-top: -1260px;
+		margin-left: 280px;
+		border-radius: 20px;
+	}
+
+	/* block4 */
+	.benefits {
+		margin: auto auto 200px 240px;
+	}
+
+	/* cover4 */
+	.extra4 {
+		margin: -575px auto auto 222px;
+
+	}
+
+	/* block5 */
+	.requirements {
+		margin: 0 auto 200px 228px;
+	}
+
+	/* cover5 */
+	.extra5 {
+		margin: 3260px auto auto 300px;
+	}
+
+	/* block6 */
+	aside.sidebar {
+		margin: 1150px auto 100px 200px;
+
+	}
+
+	aside.sidebar::after {
+		content: url(./images/wave150.png);
+		margin: 100px auto 0px 130px;
+	}
+
+	.requirements::after {
+		width: 580px;
+		margin: 1230px auto auto -40px;
+		border-radius: 600px;
+		font-size: 19px;
+	}
+
+}
+
+/*------------------1200------------------*/
+
+@media screen and (min-width: 1200px) {
+
+	body {
+		max-width: 1200px;
+		margin: auto;
+
+	}
+
+	header {
+		height: 180px;
+	}
+
+	h1 {
+		font-size: 67px;
+		margin-bottom: 65px;
+	}
+	
+	h2 {
+		font-size: 20px;
+	}
+
+	/* Link: */
+	header::after {
+		content: url(./images/linkAttack200.png);
+		margin-left: 145px;
+		margin-top: -90px;
+	}
+
+	h1,
+	h2 {
+		width: 1040px;
+	}
+
+	.summary {
+		//margin-top: -100px;
+		padding: 0 145px 0 360px;
+		line-height: 1.5em;
+	}
+
+	/* block1 */
+	div.preamble {
+		margin: 55px auto 200px 439px;
+	}
+
+	/* cover1 */
+	.extra1 {
+		margin: -2792px auto auto 514px;
+	}
+
+	/* block2 */
+	.explanation {
+		margin: 0 auto 200px 442px;
+	}
+
+	/* cover2 */
+	.extra2 {
+		margin: -2141px auto auto 466px;
+	}
+
+	/* block3 */
+	.participation {
+		margin: 0 auto 200px 440px;
+	}
+
+	/* cover3 */
+	.extra3 {
+		margin-top: -1260px;
+		margin-left: 480px;
+		border-radius: 20px;
+	}
+
+	/* block4 */
+	.benefits {
+		margin: auto auto 200px 440px;
+	}
+
+	/* cover4 */
+	.extra4 {
+		margin: -573px auto auto 422px;
+
+	}
+
+	/* block5 */
+	.requirements {
+		margin: 0 auto 200px 428px;
+	}
+
+	/* cover5 */
+	.extra5 {
+		margin: 3241px auto auto 500px;
+	}
+
+	/* block6 */
+	aside.sidebar {
+		margin: 1150px auto 100px 400px;
+
+	}
+
+	aside.sidebar::after {
+		content: url(./images/wave200.png);
+		margin: 75px auto 0px 150px;
+	}
+
+	.requirements::after {
+		width: 580px;
+		margin: 1275px auto auto -100px;
+		border-radius: 600px;
+		font-size: 19px;
+	}
+
+}
