@@ -4,8 +4,6 @@
 body {
   background-color: #d2fcd2;
   max-width: 360px;
-  display:grid;
-  grid-template-columns: auto 360px auto;
   margin: auto;
 }
 
@@ -97,7 +95,6 @@ h3 {
 extra6 {
   max-width: 360px;
   margin: auto;
-  border:transparent solid 1px;
   margin-bottom: 150px;
 }
 
@@ -108,6 +105,7 @@ extra6 {
 .extra5 {
   position: absolute;
   margin-top: 5000px;
+  display:none;
 }
 
 .preamble::after,
@@ -138,13 +136,13 @@ div.preamble {
   font-family: "Merienda", cursive;
   font-size: 25px;
   line-height: 1em;
-  padding: 60px 50px 0 90px;
+  padding: 80px 50px 0 90px;
 }
 
 .preamble p:nth-child(4) {
   width: 160px;
   text-align: justify;
-  margin-left: 90px;
+  margin-left: 88px;
 }
 
 .extra1 {
@@ -152,7 +150,7 @@ div.preamble {
 }
 
 .preamble::after {
-  content: url(./svg/flat-drawbridge.svg);
+  content: url(./svg/flat-drawbridge1.svg);
 }
 
 .explanation h3 {
@@ -160,7 +158,7 @@ div.preamble {
   font-size: 21px;
   line-height: 1em;
   margin-left: -45px;
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 10px;
 }
 
@@ -207,7 +205,7 @@ div.preamble {
   font-size: 26px;
   line-height: 1.2em;
   font-family: "Merienda", cursive;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .participation p {
@@ -249,7 +247,7 @@ div.preamble {
   font-family: "Merienda", cursive;
   font-size: 30px;
   line-height: 1em;
-  padding-top: 50px;
+  padding-top: 80px;
   padding-bottom: 20px;
 }
 
@@ -388,6 +386,23 @@ extra6 {
 /*--------------------500----------------------*/
 @media screen and (min-width: 500px) {
   body {
+    max-width: 500px;
+     
+  }
+
+}
+/*--------------------767----------------------*/
+@media screen and (min-width: 500px) {
+  body {
+    max-width: 767px;
+     
+  }
+
+}
+/*--------------------1050----------------------*/
+@media screen and (min-width: 500px) {
+  body {
+    max-width: 1050px;
      
   }
 

@@ -20,8 +20,8 @@
 			<line x1="25" y1="0" x2="35" y2="30" style="stroke:darkslategrey;stroke-width:1" />
 		</pattern>
 	</defs>
-	<rect width="80" height="315" x="135" y="66" fill="#23c8ff" />
-	<rect width="80" height="315" x="135" y="66" fill="url(#waterPattern)" />
+	<rect width="80" height="265" x="135" y="70" fill="#23c8ff" />
+	<rect width="80" height="260" x="135" y="70" fill="url(#waterPattern)" />
 	<rect width="50" height="50" x="100" y="250" fill="url(#treePattern)" />
 	<rect width="50" height="50" x="200" y="250" fill="url(#treePattern)" />
 
