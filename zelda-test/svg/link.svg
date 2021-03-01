@@ -1,0 +1,58 @@
+<svg width="360" height="500"
+    xmlns="http://www.w3.org/2000/svg">
+    <!--row 1-->
+    <rect width="50" height="10" fill="black" x="130" y="0" />
+    <!--row 2-->
+    <rect width="20" height="10" fill="black" x="110" y="10" />
+    <rect width="50" height="10" fill="green" x="130" y="10" />
+    <rect width="20" height="10" fill="black" x="180" y="10" />
+    <!--row 3-->
+    <rect width="10" height="10" fill="black" x="50" y="20" />
+    <rect width="20" height="10" fill="black" x="90" y="20" />
+    <rect width="30" height="10" fill="green" x="110" y="20" />
+    <rect width="40" height="10" fill="darkseagreen" x="140" y="20" />
+    <rect width="20" height="10" fill="green" x="180" y="20" />
+    <rect width="20" height="10" fill="black" x="200" y="20" />
+    <!--row 4-->
+    <rect width="10" height="10" fill="black" x="40" y="30" />
+    <rect width="10" height="10" fill="paleturquoise" x="50" y="30" />
+    <rect width="10" height="10" fill="black" x="60" y="30" />
+    <rect width="20" height="10" fill="black" x="80" y="30" />
+    <rect width="20" height="10" fill="green" x="100" y="30" />
+    <rect width="80" height="10" fill="darkseagreen" x="120" y="30" />
+    <rect width="20" height="10" fill="green" x="190" y="30" />
+    <rect width="20" height="10" fill="darkseagreen" x="120" y="30" />
+    <rect width="10" height="10" fill="black" x="210" y="30" />
+    <!--row 5-->
+    <rect width="10" height="10" fill="black" x="30" y="40" />
+    <rect width="10" height="10" fill="white" x="40" y="40" />
+    <rect width="10" height="10" fill="lightgrey" x="50" y="40" />
+    <rect width="10" height="10" fill="paleturquoise" x="60" y="40" />
+    <rect width="20" height="10" fill="black" x="70" y="40" />
+    <rect width="20" height="10" fill="green" x="90" y="40" />
+    <rect width="30" height="10" fill="darkseagreen" x="110" y="40" />
+    <rect width="20" height="10" fill="green" x="140" y="40" />
+    <rect width="20" height="10" fill="#7d5b38" x="160" y="40" class="brown" />
+    <rect width="20" height="10" fill="darkseagreen" x="180" y="40" />
+    <rect width="20" height="10" fill="green" x="200" y="40" />
+    <rect width="10" height="10" fill="black" x="220" y="40" />
+    <!--row 6-->
+    <rect width="10" height="10" fill="black" x="30" y="50" />
+    <rect width="10" height="10" fill="white" x="40" y="50" />
+    <rect width="10" height="10" fill="lightgrey" x="50" y="50" />
+    <rect width="10" height="10" fill="paleturquoise" x="60" y="50" />
+    <rect width="20" height="10" fill="black" x="70" y="50" />
+    <rect width="20" height="10" fill="green" x="90" y="50" />
+    <rect width="10" height="10" fill="darkseagreen" x="110" y="50" />
+    <rect width="30" height="10" fill="green" x="120" y="50" />
+    <rect width="10" height="10" fill="#7d5b38" x="150" y="50" class="brown" />
+    <rect width="10" height="10" fill="gold" x="160" y="50" />
+    <rect width="10" height="10" fill="yellow" x="170" y="50" />
+    <rect width="10" height="10" fill="#7d5b38" x="180" y="50" class="brown" />
+    <rect width="10" height="10" fill="green" x="190" y="50" />
+    <rect width="20" height="10" fill="#7d5b38" x="200" y="50" class="brown" />
+    <rect width="20" height="10" fill="gold" x="220" y="50" />
+
+
+
+</svg>
