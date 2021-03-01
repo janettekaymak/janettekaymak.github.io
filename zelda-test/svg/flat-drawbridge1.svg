@@ -16,6 +16,6 @@
         </pattern>
     </defs>
     <!--<rect width="250" height="50" fill="#23c8ff" x="80" y="62" rx="80" />-->
-    <rect width="80" height="197" fill="url(#planks)" stroke="saddlebrown" stroke-width="2" x="167" y="33" />
+    <rect width="80" height="197" fill="url(#planks)" stroke="saddlebrown" stroke-width="2" x="167" y="44" />
 
 </svg>
