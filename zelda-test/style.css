@@ -443,13 +443,12 @@ aside.sidebar::after {
 
   .preamble::after {
     position: absolute;
-    margin-top: 10px;
     margin-left: 3px;
   }
 
   /* cover1 */
   .extra1 {
-    margin: -4499px auto auto 195px;
+    margin: -4498px auto auto 195px;
   }
 
   /* block2 */
