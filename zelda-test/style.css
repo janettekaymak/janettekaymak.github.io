@@ -3,8 +3,9 @@
 
 body {
   background-color: #d2fcd2;
+  grid-template-columns: auto 360px auto;
   max-width: 360px;
-  margin: auto;
+  margin: auto; 
 }
 
 header {
@@ -13,13 +14,12 @@ header {
   background-position: bottom;
   background-repeat: repeat;
   background-size: cover;
-  position: relative;
   z-index: -1;
 }
 
 header::after {
   content: url(./images/linkAttack100.png);
-  margin-left: 20px;
+  margin-left: 5px;
   position: absolute;
   margin-top: -20px;
   z-index: 2;
@@ -27,9 +27,7 @@ header::after {
 
 h1,
 h2 {
-  width: 360px;
-  display: block;
-  margin: 0;
+  width: 325px;
   text-align: right;
   line-height: 0.1em;
   color: #ad01ad;
@@ -59,7 +57,7 @@ h3 {
 }
 
 .summary {
-  padding: 0 75px 0 105px;
+  padding: 0 20px 0 105px;
   margin: auto 14px 0 10px;
   text-align: right;
   font-family: "Merienda", cursive;
@@ -90,29 +88,21 @@ h3 {
 .requirements,
 .requirements::after,
 .extra5,
-.aside.sidebar,
-.aside.sidebar::after,
-extra6 {
+aside.sidebar,
+aside.sidebar::after,
+.extra6 {
   max-width: 360px;
   margin: auto;
   margin-bottom: 150px;
+  
 }
 
-.extra1,
-.extra2,
-.extra3,
-.extra4,
-.extra5 {
-  position: absolute;
-  margin-top: 5000px;
-  display:none;
-}
-
-.preamble::after,
-.explanation::after,
-.participation::after,
-.benefits::after,
-.requirements::after{
+.extra1, 
+.extra2, 
+.extra3, 
+.extra4, 
+.extra5{
+position: absolute;
 }
 
 div.preamble {
@@ -125,18 +115,19 @@ div.preamble {
   line-height: 1em;
   background-image: url(./svg/block1.svg);
   background-repeat: no-repeat;
+  grid-area: block1;
 }
 
 .preamble p {
   padding: 0px 40px;
-  margin: 20px 0 0 45px;
+  margin: 10px 0 0 45px;
 }
 
 .preamble h3 {
   font-family: "Merienda", cursive;
   font-size: 25px;
   line-height: 1em;
-  padding: 80px 50px 0 90px;
+  padding: 80px 50px 20px 90px;
 }
 
 .preamble p:nth-child(4) {
@@ -147,10 +138,16 @@ div.preamble {
 
 .extra1 {
   content: url(./svg/cover1.svg);
+  grid-area: cover1;
+  margin-top:-4580px;
+  margin-left: 75px;
+  margin-bottom: 180px;
+  margin-right: -20px;
 }
 
 .preamble::after {
   content: url(./svg/flat-drawbridge1.svg);
+  grid-area: bridge1;
 }
 
 .explanation h3 {
@@ -171,6 +168,7 @@ div.preamble {
   width: 360px;
   height: 558px;
   line-height: 1.11em;
+  grid-area: block2;
 }
 
 .explanation p {
@@ -185,11 +183,14 @@ div.preamble {
 
 .extra2 {
   content: url(./svg/cover2.svg);
-
+  grid-area: cover2;
+  margin-top: -3940px;
+  margin-left: 23px;
 }
 
 .explanation::after {
   content: url(./svg/flat-drawbridge2.svg);
+  grid-area: bridge2;
 }
 
 .participation {
@@ -197,7 +198,7 @@ div.preamble {
   height: 600px;
   background-repeat: no-repeat;
   background-image: url(./svg/block3.svg);
-
+  grid-area: block3;
 }
 
 .participation h3 {
@@ -205,7 +206,7 @@ div.preamble {
   font-size: 26px;
   line-height: 1.2em;
   font-family: "Merienda", cursive;
-  padding-top: 40px;
+  padding-top: 50px;
 }
 
 .participation p {
@@ -219,11 +220,14 @@ div.preamble {
 
 .participation::after{
   content: url(./svg/bridge3.svg);
+  grid-area: bridge3;
 }
 
 .extra3 {
   content: url(./svg/cover3.svg);
-
+  grid-area: cover3;
+  margin-top: -3240px;
+  margin-left: 38px;
 }
 
 .benefits {
@@ -231,6 +235,8 @@ div.preamble {
   height: 360px;
   background-image: url(./svg/block4.svg);
   background-repeat: no-repeat;
+  grid-area: block4;
+  margin-bottom: 240px;
 }
 
 .benefits p {
@@ -253,24 +259,23 @@ div.preamble {
 
 .benefits::after{
   content: url(./svg/bridge4.svg);
+  grid-area: bridge4;
 }
 
 .extra4 {
   content: url(./images/cover4fish.png);
-}
-
-footer {
-  display: none;
+  grid-area: cover4;
+  margin-top: -2493px;
+  margin-left: -15px;
 }
 
 .requirements {
-  position: absolute;
   width: 365px;
   height: 950px;
   display: block;
-  margin: 0 auto 200px 8px;
   background-image: url(./svg/block5.svg);
   background-repeat: no-repeat;
+  grid-area: block5;
 }
 
 .requirements p {
@@ -288,30 +293,36 @@ footer {
   font-family: "Merienda", cursive;
   font-size: 25px;
   line-height: 1em;
-  padding: 0px 0 5px 40px;
+  padding: 30px 0 5px 40px;
 }
 
 .requirements p:nth-child(5),
 .requirements p:nth-child(6) {
   width: 160px;
-  margin-left: 185px;
+  margin-left: 175px;
   text-align: left;
   margin-top: 0px;
 }
 
 .requirements::after{
   content: url(./svg/drawbridge.svg);
+  grid-area: bridge5;
 }
 .extra5 {
   content: url(./svg/cover5.svg);
+  grid-area: cover5;
+  margin-top: -1865px;
+  margin-left: 72px;
 }
 
 aside.sidebar {
   background-image: url(./svg/block6.svg);
   background-repeat: no-repeat;
-  padding: 65px 30px;
+  padding: 15px 30px;
   width: 360px;
   height: 700px;
+  grid-area: block6;
+  margin-top: -90px;
 }
 
 aside.sidebar a:link,
@@ -344,7 +355,7 @@ aside.sidebar h3 {
   border-radius: 5px;
   line-height: .7em;
   width: 240px;
-  margin-left: 48px;
+  margin-left: 50px;
 }
 
 aside.sidebar ul li {
@@ -365,22 +376,30 @@ aside.sidebar ul li {
   transition: 1.5s;
 }
 
-extra6 {
+.extra6 {
   content: url(./images/wave100.png);
+  grid-area: zelda;
+  margin-top: -150px;
+  margin-bottom: 700px;
+}
+footer{
+  display:none;
 }
 
-.aside.sidebar::after {
-  height: 500px;
-  content: "CONGRATULATIONS! YOU WON!   . . . Now go forth into the world and code your very own CSS Zen Garden!";
+aside.sidebar::after{
+  display:block;
+  content: "CONGRATULATIONS! YOU WON! Now go forth into the world and code your very own CSS Zen Garden!";
   font-family: "Merienda", cursive;
   text-align: center;
   font-size: 20px;
   color: purple;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#66f766), color-stop(darkturquoise), to(purple));
-  background-image: linear-gradient(#66f766, darkturquoise, purple);
-  width: 360px;
-  padding-top: 50px;
-  border-radius: 600px 0 0 600px;
+  grid-area: world;
+  width:350px;
+  height: 350px;
+  background-image: linear-gradient(#d2fcd2, darkturquoise, purple);
+  border-radius: 600px;
+  margin-top: 290px;
+  margin-left: -25px;
 }
 
 /*--------------------500----------------------*/
