@@ -71,8 +71,8 @@
 		</pattern>
 	</defs>
 	<!-- background -->
-	<rect width="268" height="33" x="0" y="0" fill="url(#greyBricks)" opacity=".5" />
-	<rect width="268" height="624" x="0" y="28" fill="url(#greyBricks)" />
+	<rect width="268" height="38" x="0" y="0" fill="url(#greyBricks)" opacity=".5" />
+	<rect width="268" height="619" x="0" y="33" fill="url(#greyBricks)" />
 	<rect width="177" height="248" x="91" y="650.5" fill="url(#greyBricks)" />
 	<!-- windows -->
 	<rect width="134" height="175" x="0" y="40" fill="url(#windowPattern)" />
