@@ -18,7 +18,7 @@
         <!-- green fish pattern -->
         <pattern id="greenFish" patternUnits="userSpaceOnUse" x="100" y="-5" width="120" height="66">
             <rect width="90" height="35" x="25" y="22" rx="50" fill="#152f13" stroke="darkgreen" stroke-width="2" />
-            <rect width="25" height="30" x="78" y="24" rx="50" fill="teal" stroke="darkgreen" stroke-width="2" />
+            <rect width="25" height="30" x="78" y="24" rx="50" fill="teal" />
             <polygon points="26,38 2,22 2,60" style="fill:indigo;stroke:darkgreen;stroke-width:2;" />
             <polygon points="25,22 45,11 75,22" style="fill:purple;stroke:darkgreen;stroke-width:2;" />
             <polygon points="25,55 45,65 65,57" style="fill:fuchsia;stroke:darkgreen;stroke-width:2;" />
@@ -28,7 +28,7 @@
         <!-- red fish pattern -->
         <pattern id="redFish" patternUnits="userSpaceOnUse" x="13" y="-5" width="71" height="66">
             <rect width="50" height="30" x="2" y="22" rx="30" fill="firebrick" stroke="maroon" stroke-width="2" />
-            <rect width="25" height="28" x="6" y="23" rx="30" fill="orangered" stroke="maroon" stroke-width="2" />
+            <rect width="25" height="28" x="6" y="23" rx="30" fill="orangered" />
             <polygon points="52,37 70,22 65,60" style="fill:red;stroke:maroon;stroke-width:2;" />
             <polygon points="25,22 45,11 55,22" style="fill:red;stroke:maroon;stroke-width:2;" />
             <polygon points="25,53 45,65 55,54" style="fill:red;stroke:maroon;stroke-width:2;" />
