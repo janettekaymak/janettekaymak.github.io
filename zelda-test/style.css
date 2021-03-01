@@ -686,7 +686,7 @@ h2 {
 
   /* block4 */
   .benefits {
-    margin: auto auto 240px 440px;
+    margin: auto auto 239px 440px;
   }
 
   /* cover4 */
@@ -701,17 +701,17 @@ h2 {
 
   /* cover5 */
   .extra5 {
-    margin: -1818px auto auto 500px;
+    margin: -1815px auto auto 500px;
   }
 
   /* block6 */
   aside.sidebar {
-    margin: 0px auto 100px 450px;
+    margin: 0px auto 100px 465px;
   }
 
   .extra6 {
     content: url(./images/wave150.png);
-    margin: -90px auto 700px 560px;
+    margin: -85px auto 700px 580px;
   
   }
 
