@@ -1,5 +1,5 @@
-<svg width="320" height="430" viewBox="0 0 320 430"
-    xmlns="http://www.w3.org/2000/svg" id="largeLink">
+<svg width="320" height="430" viewBox="7 200 950 850"
+    xmlns="http://www.w3.org/2000/svg" id="smallLink">
     <!--row 1-->
     <rect width="50" height="10" fill="black" x="130" y="0" />
     <!--row 2-->
@@ -573,34 +573,4 @@
     <!--row 41-->
     <rect width="60" height="10" x="60" y="420" fill="black"/>
     <rect width="90" height="10" x="190" y="420" fill="black"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</svg>
+    </svg>

@@ -18,11 +18,9 @@ header {
 }
 
 header::after {
-  content: url(./images/linkAttack100.png);
-  margin-left: 5px;
+  content: url(./svg/smallLink.svg);
   position: absolute;
-  margin-top: -20px;
-  z-index: 2;
+  margin-top: -25px;
 }
 
 h1,
@@ -57,13 +55,13 @@ h3 {
 }
 
 .summary {
-  padding: 0 20px 0 105px;
+  padding: 0 0 0 105px;
   margin: auto 14px 0 10px;
-  text-align: right;
   font-family: "Merienda", cursive;
   line-height: 1.1em;
   color: #555454;
   margin-top: -60px;
+  margin-left: 50px;
 }
 
 .summary p a {
