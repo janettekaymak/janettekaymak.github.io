@@ -511,7 +511,7 @@ aside.sidebar::after {
     margin: -100px auto 750px 275px;
   }
   .extra6:hover{
-    transform:translate(-180px, -180px);
+    transform:translate(-180px, 0px);
     transition:transform 3s ease-in-out;
   }
 
