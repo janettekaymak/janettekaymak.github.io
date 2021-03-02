@@ -44,7 +44,7 @@ h2 {
 }
 
 .summary::after {
-  content: "Click on each block to reveal a hidden message!";
+  content: "Click or hover on each block to reveal a hidden message!";
   font-family: "Merienda", cursive;
 }
 
@@ -377,17 +377,17 @@ aside.sidebar ul li {
 }
 
 .extra6 {
-  content: url(./images/wave100.png);
+  content: url(./svg/block7.svg);
   grid-area: zelda;
   margin-top: -150px;
-  margin-bottom: 700px;
+  margin-bottom: 233px;
 }
 
 footer {
   display: none;
 }
 
-aside.sidebar::after {
+/*aside.sidebar::after {
   display: block;
   content: "CONGRATULATIONS! YOU WON! . . . . Now, go forth into the world and code your very own CSS Zen Garden! . . . .   (Note: every single one of the images are original Scalable Vector Graphics, built from scratch. This Zen Garden was created by Michael Kendall, Donivan Killpack and Janette Kaymak.)";
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -401,7 +401,7 @@ aside.sidebar::after {
   border-radius: 600px;
   margin-top: 290px;
   margin-left: -25px;
-}
+}*/
 
 /*--------------------500----------------------*/
 @media screen and (min-width: 500px) {
@@ -424,12 +424,14 @@ aside.sidebar::after {
 
   h1,
   h2 {
-    width: 465px;
+    width: 450px;
   }
 
   .summary {
     padding: 0 20px 0 120px;
     line-height: 1.5em;
+    text-align: right;
+  
   }
 
   /* block1 */
@@ -503,17 +505,22 @@ aside.sidebar::after {
 
   /* block6 */
   aside.sidebar {
-    margin: 60px auto 100px 140px;
+    margin: 60px auto 100px 125px;
   }
 
   /*zelda*/
   .extra6 {
-    margin: -100px auto 750px 275px;
+    margin: -100px auto 265px 125px;
   }
+<<<<<<< HEAD
   .extra6:hover{
     transform:translate(-180px, 0px);
+=======
+ /* .extra6:hover{
+    transform:translate(-125px, -40px);
+>>>>>>> 013ce577d971e8b54eed266120b09c9004c834d5
     transition:transform 3s ease-in-out;
-  }
+  }*/
 
 }
 
@@ -545,11 +552,11 @@ aside.sidebar::after {
 
   h1,
   h2 {
-    width: 725px;
+    width: 705px;
   }
 
   .summary {
-    padding: 0 30px 0 360px;
+    padding: 0 40px 0 260px;
     line-height: 1.5em;
     text-align: right;
   }
@@ -610,8 +617,7 @@ aside.sidebar::after {
   }
 
   .extra6 {
-    content: url(./images/wave150.png);
-    margin: -85px auto 650px 360px;
+    margin: -85px auto 265px 250px;
 
   }
 
@@ -649,12 +655,12 @@ aside.sidebar::after {
 
   h1,
   h2 {
-    width: 1040px;
+    width: 910px;
   }
 
   .summary {
     margin-top: -50px;
-    padding: 0 145px 0 360px;
+    padding: 0 125px 0 360px;
     line-height: 1.5em;
   }
 
@@ -714,9 +720,12 @@ aside.sidebar::after {
   }
 
   .extra6 {
-    content: url(./images/wave150.png);
-    margin: -85px auto 700px 580px;
+    margin: -100px auto 280px 470px;
 
+  }
+   .extra6:hover{
+    transform:translate(-155px, 0px);
+    transition:transform 3s ease-in-out;
   }
 
   aside.sidebar::after {
