@@ -651,12 +651,12 @@ footer {
 
   h1,
   h2 {
-    width: 1040px;
+    width: 910px;
   }
 
   .summary {
     margin-top: -50px;
-    padding: 0 145px 0 360px;
+    padding: 0 125px 0 360px;
     line-height: 1.5em;
   }
 
@@ -716,9 +716,12 @@ footer {
   }
 
   .extra6 {
-    content: url(./images/wave150.png);
-    margin: -85px auto 700px 580px;
+    margin: -100px auto 280px 470px;
 
+  }
+   .extra6:hover{
+    transform:translate(-155px, 0px);
+    transition:transform 3s ease-in-out;
   }
 
   aside.sidebar::after {
