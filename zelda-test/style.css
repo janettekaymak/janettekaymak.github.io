@@ -44,7 +44,7 @@ h2 {
 }
 
 .summary::after {
-  content: "Click on each block to reveal a hidden message!";
+  content: "Click or hover on each block to reveal a hidden message!";
   font-family: "Merienda", cursive;
 }
 
@@ -613,7 +613,7 @@ footer {
   }
 
   .extra6 {
-    margin: -85px auto 650px 360px;
+    margin: -85px auto 265px 360px;
 
   }
 
