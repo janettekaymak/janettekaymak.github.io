@@ -510,6 +510,10 @@ aside.sidebar::after {
   .extra6 {
     margin: -100px auto 750px 275px;
   }
+  .extra6:hover{
+    transform:translate(-180px, -180px);
+    transition:transform 3s ease-in-out;
+  }
 
 }
 
@@ -525,7 +529,7 @@ aside.sidebar::after {
 
   /* Link: */
   header::after {
-    content: url(./images/linkAttack150.png);
+    content: url(./svg/link.svg);
     margin-left: 50px;
     margin-top: -90px;
   }
@@ -547,6 +551,7 @@ aside.sidebar::after {
   .summary {
     padding: 0 30px 0 360px;
     line-height: 1.5em;
+    text-align: right;
   }
 
   /* block1 */
@@ -617,9 +622,9 @@ aside.sidebar::after {
 }
 
 /*------------------1200------------------*/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1050px) {
   body {
-    max-width: 1200px;
+    max-width: 1050px;
     margin: auto;
   }
 
@@ -717,23 +722,5 @@ aside.sidebar::after {
   aside.sidebar::after {
     margin: 380px auto auto -40px;
 
-  }
-}
-
-/*------------------1400------------------*/
-@media screen and (min-width: 1400px) {
-  
-
-  
-  body {
-    max-width: 1200px;
-    display:block;
-    margin: auto;
-  }
-/* Link: */
-   header::after {
-    content: url(./svg/link.svg);
-    margin-left: 0px;
-    margin-top: -160px;
   }
 }
