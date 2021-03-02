@@ -608,10 +608,10 @@
 		</pattern>
 	</defs>
 	<!-- block 7 -->
-	<rect width="360" height="405" rx="35" fill="plum"/>
-	<rect width="360" height="46" x="0" y="0" fill="url(#jewels)" />
-	<rect width="46" height="360" x="0" y="0" fill="url(#jewels)" />
-	<rect width="46" height="360" x="316" y="0" fill="url(#jewels)" />
+	<rect width="360" height="405" rx="70" fill="plum"/>
+	<rect width="275" height="46" x="46" y="0" fill="url(#jewels)" />
+	<rect width="46" height="320" x="0" y="46" fill="url(#jewels)" />
+	<rect width="46" height="320" x="316" y="46" fill="url(#jewels)" />
 	<rect width="150" height="250" x="50" y="50" fill="url(#link)" />
 	<text x="165" y="60" fill="black" font-family=" 'Lucida Grande', sans-serif" font-size="16">
 		I am not Zelda yet.
@@ -628,5 +628,5 @@
 			You won!
 		</tspan>
 	</text>
-	<rect width="350" height="50" x="5" y="350" fill="url(#treePattern)" />
+	<rect width="250" height="50" x="55" y="350" fill="url(#treePattern)" />
 </svg>

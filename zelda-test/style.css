@@ -377,7 +377,7 @@ aside.sidebar ul li {
 }
 
 .extra6 {
-  content: url(./images/wave100.png);
+  content: url(./svg/block7.svg);
   grid-area: zelda;
   margin-top: -150px;
   margin-bottom: 700px;
@@ -387,7 +387,7 @@ footer {
   display: none;
 }
 
-aside.sidebar::after {
+/*aside.sidebar::after {
   display: block;
   content: "CONGRATULATIONS! YOU WON! . . . . Now, go forth into the world and code your very own CSS Zen Garden! . . . .   (Note: every single one of the images are original Scalable Vector Graphics, built from scratch. This Zen Garden was created by Michael Kendall, Donivan Killpack and Janette Kaymak.)";
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -401,7 +401,7 @@ aside.sidebar::after {
   border-radius: 600px;
   margin-top: 290px;
   margin-left: -25px;
-}
+}*/
 
 /*--------------------500----------------------*/
 @media screen and (min-width: 500px) {
@@ -511,7 +511,7 @@ aside.sidebar::after {
     margin: -100px auto 750px 275px;
   }
   .extra6:hover{
-    transform:translate(-180px, -180px);
+    transform:translate(-180px, 0px);
     transition:transform 3s ease-in-out;
   }
 
@@ -610,7 +610,6 @@ aside.sidebar::after {
   }
 
   .extra6 {
-    content: url(./images/wave150.png);
     margin: -85px auto 650px 360px;
 
   }
