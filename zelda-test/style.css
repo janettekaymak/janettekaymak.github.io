@@ -417,6 +417,7 @@ footer {
 
   /* Link: */
   header::after {
+    content: url(./svg/link.svg);
     position: fixed;
     margin-top: -60px;
     margin-left: 5px;
@@ -436,81 +437,92 @@ footer {
 
   /* block1 */
   div.preamble {
-    margin: -15px auto 150px 119px;
+    margin: -15px auto 150px 139px;
   }
 
   /* bridge1 */
 
   .preamble::after {
     position: absolute;
-    margin-left: 3px;
+    margin-left: 23px;
   }
 
   /* cover1 */
   .extra1 {
-    margin: -4498px auto auto 195px;
+    margin: -4498px auto auto 215px;
   }
 
   /* block2 */
   .explanation {
-    margin: 0 auto 130px 122px;
+    margin: 0 auto 130px 142px;
   }
 
   /* bridge2 */
   .explanation::after {
     position: absolute;
     margin-top: -22px;
+    margin-Left: 20px;
   }
 
   /* cover2 */
   .extra2 {
-    margin: -3860px auto auto 145px;
+    margin: -3860px auto auto 165px;
   }
 
   /* block3 */
   .participation {
-    margin: 0 auto 140px 120px;
+    margin: 0 auto 140px 140px;
   }
 
   /* bridge3 */
   .participation::after {
     position: absolute;
     margin-top: -18px;
+    margin-left: 20px;
   }
 
   /* cover3 */
   .extra3 {
-    margin: -3178px auto auto 159px;
+    margin: -3178px auto auto 179px;
   }
 
   /* block4 */
   .benefits {
-    margin: auto auto 238px 120px;
+    margin: auto auto 238px 150px;
   }
-
+/*bridge4*/
+.benefits::after{
+  margin-left: 20px;
+}
   /* cover4 */
   .extra4 {
-    margin: -2320px auto auto 137px;
+    margin: -2320px auto auto 167px;
   }
 
   /* block5 */
   .requirements {
-    margin: 0 auto 0px 108px;
+    margin: 0 auto 0px 140px;
   }
 
   /* cover5 */
   .extra5 {
-    margin: -1815px auto auto 180px;
+    margin: -1815px auto auto 212px;
+  }
+
+  /*bridge5*/
+
+  .requirements::after{
+
   }
 
   /* block6 */
   aside.sidebar {
-    margin: 60px auto 100px 125px;
+    margin: 60px auto 100px 140px;
   }
 
   /*zelda*/
   .extra6 {
-    margin: -100px auto 265px 125px;
+    margin: -100px auto 520px 145px;
   }
  /* .extra6:hover{
     transform:translate(-125px, -40px);
@@ -525,15 +537,15 @@ footer {
     max-width: 767px;
   }
 
-  header {
-    height: 180px;
-  }
-
-  /* Link: */
-  header::after {
+   /* Link: */
+  /*header::after {
     content: url(./svg/link.svg);
     margin-left: 50px;
     margin-top: -90px;
+  }*/
+
+  header {
+    height: 180px;
   }
 
   h1 {
