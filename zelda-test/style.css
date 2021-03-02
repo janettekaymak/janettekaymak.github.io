@@ -148,6 +148,7 @@ div.preamble {
 .preamble::after {
   content: url(./svg/flat-drawbridge1.svg);
   grid-area: bridge1;
+  z-index: -1;
 }
 
 .explanation h3 {
@@ -380,7 +381,7 @@ aside.sidebar ul li {
   content: url(./svg/block7.svg);
   grid-area: zelda;
   margin-top: -150px;
-  margin-bottom: 700px;
+  margin-bottom: 233px;
 }
 
 footer {
