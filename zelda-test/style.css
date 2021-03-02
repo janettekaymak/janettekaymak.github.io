@@ -512,13 +512,8 @@ footer {
   .extra6 {
     margin: -100px auto 265px 125px;
   }
-<<<<<<< HEAD
-  .extra6:hover{
-    transform:translate(-180px, 0px);
-=======
  /* .extra6:hover{
     transform:translate(-125px, -40px);
->>>>>>> 013ce577d971e8b54eed266120b09c9004c834d5
     transition:transform 3s ease-in-out;
   }*/
 
