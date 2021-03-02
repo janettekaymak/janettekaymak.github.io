@@ -503,17 +503,17 @@ footer {
 
   /* block6 */
   aside.sidebar {
-    margin: 60px auto 100px 140px;
+    margin: 60px auto 100px 125px;
   }
 
   /*zelda*/
   .extra6 {
-    margin: -100px auto 750px 275px;
+    margin: -100px auto 265px 125px;
   }
-  .extra6:hover{
-    transform:translate(-180px, 0px);
+ /* .extra6:hover{
+    transform:translate(-125px, -40px);
     transition:transform 3s ease-in-out;
-  }
+  }*/
 
 }
 
