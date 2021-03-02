@@ -721,3 +721,21 @@ aside.sidebar::after {
 
   }
 }
+
+/*------------------1400------------------*/
+@media screen and (min-width: 1400px) {
+  
+
+  
+  body {
+    max-width: 1200px;
+    display:block;
+    margin: auto;
+  }
+/* Link: */
+   header::after {
+    content: url(./svg/link.svg);
+    margin-left: 0px;
+    margin-top: -160px;
+  }
+}
