@@ -608,7 +608,7 @@
 		</pattern>
 	</defs>
 	<!-- block 7 -->
-	<rect width="360" height="405" rx="25" fill="plum"/>
+	<rect width="360" height="405" rx="35" fill="plum"/>
 	<rect width="360" height="46" x="0" y="0" fill="url(#jewels)" />
 	<rect width="46" height="360" x="0" y="0" fill="url(#jewels)" />
 	<rect width="46" height="360" x="316" y="0" fill="url(#jewels)" />
