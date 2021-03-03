@@ -254,12 +254,11 @@ div.preamble {
 @media screen and (min-width: 500px) {
   /* block1 */
   div.preamble {
-    background-image: url(./svg/block1hover.svg);
     margin: -15px auto 0px 119px;
   }
   /* cover1 */
   .extra1 {
-    margin: -3308px auto auto 194px;
+    margin: -2878px auto auto 194px;
   }
 }
 
@@ -323,11 +322,11 @@ div.preamble {
 @media screen and (min-width: 500px) {
   /* block2 */
   .explanation {
-    margin: 0 auto 200px 122px;
+    margin: 0 auto -50px 122px;
   }
   /* cover2 */
   .extra2 {
-    margin: -2141px auto auto 146px;
+    margin: -2170px auto auto 146px;
   }
 }
 
@@ -391,10 +390,11 @@ div.preamble {
 @media screen and (min-width: 500px) {
   /* block3 */
   .participation {
-    margin: 0 auto 200px 120px;
+    margin: 0 auto 200px 122px;
   }
   /* cover3 */
   .extra3 {
+    margin-top: -1400px;
     margin-left: 160px;
   }
 }
@@ -451,11 +451,11 @@ div.preamble {
 @media screen and (min-width: 500px) {
   /* block4 */
   .benefits {
-    margin: auto auto 200px 120px;
+    margin: auto auto 0px 120px;
   }
   /* cover4 */
   .extra4 {
-    margin: -575px auto auto 102px;
+    margin: -485px auto auto 136px;
   }
 }
 
@@ -524,14 +524,14 @@ div.preamble {
 @media screen and (min-width: 500px) {
   /* block5 */
   .requirements {
-    margin: 0 auto 200px 108px;
+    margin: 0 auto 0px 108px;
   }
   .requirements::after {
     width: 375px;
   }
   /* cover5 */
   .extra5 {
-    margin: 3280px auto auto 180px;
+    margin: 3380px auto auto 180px;
   }
 }
 
@@ -629,7 +629,7 @@ aside.sidebar::after {
 @media screen and (min-width: 500px) {
   /* block6 */
   aside.sidebar {
-    margin: 1150px auto 100px 80px;
+    margin: 1010px auto 0px 125px;
   }
 }
 
