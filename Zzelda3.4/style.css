@@ -297,13 +297,12 @@ footer {
   z-index: 2;
 }
 
-.extra5 {
-  content: url(./svg/cover5.svg);
-  position: absolute;
-  margin: 3450px auto auto 80px;
-  z-index: 3;
-}
-
+/*.extra5 {
+	content: url(./svg/cover5.svg);
+	position: absolute;
+	margin: 3450px auto auto 80px;
+	z-index: 3;
+}*/
 aside.sidebar {
   position: absolute;
   background-image: url(./svg/block6.svg);
