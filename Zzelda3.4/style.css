@@ -483,7 +483,8 @@ footer {
 aside.sidebar::before {
   content: url(./svg/together.svg);
   position: absolute;
-  margin-top: 1000px;
+  margin-top: 1030px;
+  margin-left: -25px;
   z-index: 2;
 }
 
@@ -500,14 +501,14 @@ aside.sidebar::after {
   background-image: linear-gradient(#d2fcd2, darkturquoise, purple);
   border-radius: 600px;
   margin: 300px auto 0 -28px;
-  font-weight: 900;
 }
 
 .extra6 {
   content: url(./svg/stairs.svg);
   position: absolute;
-  margin-top: 5120px;
+  margin-top: 5085px;
   margin-left: 10px;
+  z-index: -1;
 }
 
 /*--------------------500----------------------*/
