@@ -92,3 +92,16 @@ aside.sidebar::after {
 	z-index: -1;
 }
 
+/*--------------------500----------------------*/
+
+@media screen and (min-width: $SmallRespWidth) {
+
+	/* block6 */
+	aside.sidebar {
+		margin: 1150px auto 100px 80px;
+
+	}
+
+}
+
+

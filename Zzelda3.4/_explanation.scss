@@ -49,3 +49,18 @@
 .explanation p:nth-child(3) {
 	width: 160px;
 }
+
+/*--------------------500----------------------*/
+
+@media screen and (min-width: $SmallRespWidth) {
+
+	/* block2 */
+	.explanation {
+		margin: 0 auto 200px 122px;
+	}
+
+	/* cover2 */
+	.extra2 {
+		margin: -2141px auto auto 146px;
+	}
+}

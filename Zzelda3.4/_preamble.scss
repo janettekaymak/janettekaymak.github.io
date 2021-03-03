@@ -78,8 +78,6 @@
       }
   }*/
   
-  
-  
   div.preamble {
 	display: block;
 	font-family: $Font-p;
@@ -131,4 +129,19 @@
 .preamble:hover::after {
 	transform: translate(0px, 250px);
 	transition: transform 2s;
+}
+
+/*--------------------500----------------------*/
+
+@media screen and (min-width: $SmallRespWidth) {
+
+	/* block1 */
+	div.preamble {
+		margin: -15px auto 200px 119px;
+	}
+
+	/* cover1 */
+	.extra1 {
+		margin: -2792px auto auto 194px;
+	}
 }

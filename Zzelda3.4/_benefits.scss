@@ -42,3 +42,19 @@
 	transition: transform 2s ease-in-out;
 	z-index: 3;
 }
+
+/*--------------------500----------------------*/
+
+@media screen and (min-width: $SmallRespWidth) {
+
+	/* block4 */
+	.benefits {
+		margin: auto auto 200px 120px;
+	}
+
+	/* cover4 */
+	.extra4 {
+		margin: -575px auto auto 102px;
+
+	}
+}

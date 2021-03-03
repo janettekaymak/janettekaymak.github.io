@@ -7,6 +7,15 @@ body {
   margin: -80px auto auto -10px;
 }
 
+.extra1:hover,
+.extra2:hover,
+.extra3:hover,
+.extra4:hover,
+.extra5:hover {
+  opacity: 0;
+  transition: 1.5s;
+}
+
 header {
   background-image: linear-gradient(#d2fcd2, darkturquoise, #d2fcd2);
   height: 200px;
@@ -53,15 +62,6 @@ h3 {
   text-align: center;
 }
 
-.extra1:hover,
-.extra2:hover,
-.extra3:hover,
-.extra4:hover,
-.extra5:hover {
-  opacity: 0;
-  transition: 1.5s;
-}
-
 .summary::after {
   content: "CLICK or HOVER on each BLOCK to reveal a hidden message!";
   font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
@@ -86,6 +86,35 @@ h3 {
   color: #ad01ad;
 }
 
+/*--------------------500----------------------*/
+@media screen and (min-width: 500px) {
+  body {
+    max-width: 500px;
+    margin: auto;
+  }
+
+  header {
+    height: 150px;
+    margin-top: -50px;
+  }
+
+  /* Link: */
+  header::after {
+    position: fixed;
+    margin-top: -60px;
+    margin-left: 15px;
+  }
+
+  h1,
+h2 {
+    width: 470px;
+  }
+
+  .summary {
+    padding: 0 70px 0 120px;
+    line-height: 1.5em;
+  }
+}
 /*.preamble {
     display: grid;
       grid-template-columns: repeat(18, 20px);
@@ -217,6 +246,18 @@ div.preamble {
   transition: transform 2s;
 }
 
+/*--------------------500----------------------*/
+@media screen and (min-width: 500px) {
+  /* block1 */
+  div.preamble {
+    margin: -15px auto 200px 119px;
+  }
+
+  /* cover1 */
+  .extra1 {
+    margin: -2792px auto auto 194px;
+  }
+}
 .explanation h3 {
   font-family: "Merienda", cursive;
   font-size: 21px;
@@ -269,6 +310,18 @@ div.preamble {
   width: 160px;
 }
 
+/*--------------------500----------------------*/
+@media screen and (min-width: 500px) {
+  /* block2 */
+  .explanation {
+    margin: 0 auto 200px 122px;
+  }
+
+  /* cover2 */
+  .extra2 {
+    margin: -2141px auto auto 146px;
+  }
+}
 .participation {
   display: block;
   width: 360px;
@@ -321,6 +374,18 @@ div.preamble {
   margin-left: 50px;
 }
 
+/*--------------------500----------------------*/
+@media screen and (min-width: 500px) {
+  /* block3 */
+  .participation {
+    margin: 0 auto 200px 120px;
+  }
+
+  /* cover3 */
+  .extra3 {
+    margin-left: 160px;
+  }
+}
 .benefits {
   width: 360px;
   height: 600px;
@@ -365,6 +430,18 @@ div.preamble {
   z-index: 3;
 }
 
+/*--------------------500----------------------*/
+@media screen and (min-width: 500px) {
+  /* block4 */
+  .benefits {
+    margin: auto auto 200px 120px;
+  }
+
+  /* cover4 */
+  .extra4 {
+    margin: -575px auto auto 102px;
+  }
+}
 .requirements {
   position: absolute;
   width: 365px;
@@ -422,6 +499,22 @@ div.preamble {
   z-index: 3;
 }
 
+/*--------------------500----------------------*/
+@media screen and (min-width: 500px) {
+  /* block5 */
+  .requirements {
+    margin: 0 auto 200px 108px;
+  }
+
+  .requirements::after {
+    width: 375px;
+  }
+
+  /* cover5 */
+  .extra5 {
+    margin: 3280px auto auto 180px;
+  }
+}
 aside.sidebar {
   position: absolute;
   background-image: url(./svg/block6.svg);
@@ -514,90 +607,9 @@ aside.sidebar::after {
 
 /*--------------------500----------------------*/
 @media screen and (min-width: 500px) {
-  body {
-    max-width: 500px;
-    margin: auto;
-  }
-
-  header {
-    height: 150px;
-    margin-top: -50px;
-  }
-
-  /* Link: */
-  header::after {
-    position: fixed;
-    margin-top: -60px;
-    margin-left: 15px;
-  }
-
-  h1,
-h2 {
-    width: 470px;
-  }
-
-  .summary {
-    padding: 0 70px 0 120px;
-    line-height: 1.5em;
-  }
-
-  /* block1 */
-  div.preamble {
-    margin: -15px auto 200px 119px;
-  }
-
-  /* cover1 */
-  .extra1 {
-    margin: -2792px auto auto 194px;
-  }
-
-  /* block2 */
-  .explanation {
-    margin: 0 auto 200px 122px;
-  }
-
-  /* cover2 */
-  .extra2 {
-    margin: -2141px auto auto 146px;
-  }
-
-  /* block3 */
-  .participation {
-    margin: 0 auto 200px 120px;
-  }
-
-  /* cover3 */
-  .extra3 {
-    margin-left: 160px;
-  }
-
-  /* block4 */
-  .benefits {
-    margin: auto auto 200px 120px;
-  }
-
-  /* cover4 */
-  .extra4 {
-    margin: -575px auto auto 102px;
-  }
-
-  /* block5 */
-  .requirements {
-    margin: 0 auto 200px 108px;
-  }
-
-  /* cover5 */
-  .extra5 {
-    margin: 3280px auto auto 180px;
-  }
-
   /* block6 */
   aside.sidebar {
     margin: 1150px auto 100px 80px;
-  }
-
-  .requirements::after {
-    width: 375px;
   }
 }
 /*------------------800------------------*/

@@ -55,3 +55,22 @@
 	margin: 3455px auto auto 80px;
 	z-index: 3;
 }
+
+/*--------------------500----------------------*/
+
+@media screen and (min-width: $SmallRespWidth) {
+
+	/* block5 */
+	.requirements {
+		margin: 0 auto 200px 108px;
+	}
+
+	.requirements::after {
+		width: 375px;
+	}
+
+	/* cover5 */
+	.extra5 {
+		margin: 3280px auto auto 180px;
+	}
+}

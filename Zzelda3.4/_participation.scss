@@ -49,3 +49,18 @@
 	margin-top: -1401px;
 	margin-left: 50px;
 }
+
+/*--------------------500----------------------*/
+
+@media screen and (min-width: $SmallRespWidth) {
+
+	/* block3 */
+	.participation {
+		margin: 0 auto 200px 120px;
+	}
+
+	/* cover3 */
+	.extra3 {
+		margin-left: 160px;
+	}
+}
