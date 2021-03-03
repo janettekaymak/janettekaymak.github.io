@@ -335,7 +335,7 @@ div.preamble {
 .requirements {
   position: absolute;
   width: 365px;
-  height: 950px;
+  height: 1050px;
   display: block;
   margin: 0 auto 0 8px;
   background-image: url(./svg/block5.svg);
@@ -368,26 +368,27 @@ div.preamble {
   margin-top: 0px;
 }
 
-.requirements p:nth-child(6)::after {
+.requirements::after {
   content: url(./svg/drawbridge.svg);
   position: absolute;
-  margin-left: -160px;
-  margin-top: -200px;
+  margin-left: 130px;
+  margin-top: -315px;
+  z-index: -1;
+}
+
+.requirements:hover::after {
+  transform: translate(0px, 300px);
+  transition: transform 1s ease-in-out;
   z-index: 2;
 }
 
-.requirements p:nth-child(6):hover::after {
-  transform: translate(0px, 202px);
-  transition: transform 3s ease-in-out;
-  z-index: 2;
+.extra5 {
+  content: url(./svg/cover5.svg);
+  position: absolute;
+  margin: 3405px auto auto 80px;
+  z-index: 3;
 }
 
-/*.extra5 {
-	content: url(./svg/cover5.svg);
-	position: absolute;
-	margin: 3450px auto auto 80px;
-	z-index: 3;
-}*/
 aside.sidebar {
   position: absolute;
   background-image: url(./svg/block6.svg);
