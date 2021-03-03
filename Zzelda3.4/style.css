@@ -288,7 +288,7 @@ div.preamble {
 
 .participation:hover::after {
   transform: translate(0px, 365px);
-  transition: transform 3s;
+  transition: transform 2s ease-in-out;
   z-index: 2;
 }
 
@@ -361,7 +361,7 @@ div.preamble {
 
 .benefits:hover::after {
   transform: translate(0px, 280px);
-  transition: transform 1s ease-in-out;
+  transition: transform 2s ease-in-out;
   z-index: 3;
 }
 
@@ -430,7 +430,7 @@ aside.sidebar {
   width: 360px;
   height: 700px;
   display: block;
-  margin: 1000px auto 100px 11px;
+  margin: 1000px auto auto 11px;
   z-index: 1;
 }
 
@@ -483,7 +483,7 @@ footer {
 .extra6 {
   content: url(./svg/together.svg);
   position: absolute;
-  margin-top: 5030px;
+  margin-top: 5075px;
 }
 
 aside.sidebar::after {

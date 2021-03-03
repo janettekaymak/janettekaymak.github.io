@@ -7,7 +7,7 @@ aside.sidebar {
 	width: 360px;
 	height: 700px;
 	display: block;
-	margin: 1000px auto 100px 11px;
+	margin: 1000px auto auto 11px;
 	z-index: 1;
 
 }
@@ -63,7 +63,7 @@ footer {
 .extra6 {
 	content: url(./svg/together.svg);
 	position: absolute;
-	margin-top: 5030px;
+	margin-top: 5075px;
 }
 
 aside.sidebar::after {
