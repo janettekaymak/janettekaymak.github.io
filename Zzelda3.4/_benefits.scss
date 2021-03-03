@@ -25,8 +25,8 @@
 }
 
 .extra4 {
-	content: url(./images/cover4fish.png);
-	margin: -575px auto auto -8px;
+	content: url(./svg/cover4.svg);
+	margin: -485px auto auto 33px;
 
 }
 
@@ -38,7 +38,7 @@
   }
   
   .benefits:hover::after{
-	transform: translate(0px, 279px);
+	transform: translate(0px, 280px);
 	transition: transform 1s ease-in-out;
 	z-index: 3;
 }
