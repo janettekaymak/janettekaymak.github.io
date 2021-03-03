@@ -278,6 +278,20 @@ div.preamble {
   margin: 0 auto 200px 10px;
 }
 
+.participation::after {
+  position: absolute;
+  content: url(./svg/bridge3.svg);
+  margin-top: -380px;
+  margin-left: 2px;
+  z-index: -1;
+}
+
+.participation:hover::after {
+  transform: translate(0px, 365px);
+  transition: transform 3s;
+  z-index: 2;
+}
+
 .participation h3 {
   color: white;
   font-size: 26px;
@@ -296,9 +310,14 @@ div.preamble {
   margin: 12px auto auto auto;
 }
 
+.participation a {
+  color: orange;
+  text-decoration: none;
+}
+
 .extra3 {
   content: url(./svg/cover3.svg);
-  margin-top: -1300px;
+  margin-top: -1401px;
   margin-left: 50px;
 }
 

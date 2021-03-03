@@ -1,5 +1,5 @@
 <!--block3-->
-<svg width="360" height="550" x="0" y="0"
+<svg width="360" height="850" x="0" y="0"
 	xmlns="http://www.w3.org/2000/svg" class="block3">
 	<defs>
 		<!-- grey bricks -->
@@ -35,4 +35,7 @@
 	<rect width="360" height="550" fill="url(#waterPattern)" x="0" y="0" rx="40" />
 	<rect width="280" height="471" fill="saddlebrown" x="40" y="39" rx="20" />
 	<rect width="82" height="40" fill="saddlebrown" x="141" y="0" />
+	<text x="140" y="570" fill="teal" font-family="sans-serif" font-size="18">
+		click here
+	</text>
 </svg>
