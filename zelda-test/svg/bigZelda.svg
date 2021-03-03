@@ -1,35 +1,6 @@
-<svg width="360" height="405"
-	xmlns="http://www.w3.org/2000/svg" id="block1">
-	<defs>
-		<!-- define jewel pattern -->
-		<pattern id="jewels" patternUnits="userSpaceOnUse" x="0" y="0" height="46" width="46">
-			<rect width="10" height="5" x="5" y="0" fill="black" />
-			<rect width="15" height="5" x="20" y="0" fill="black" />
-			<rect width="5" height="15" x="0" y="5" fill="black" />
-			<rect width="5" height="10" x="5" y="5" fill="white" />
-			<rect width="5" height="5" x="5" y="15" fill="red" />
-			<rect width="5" height="5" x="5" y="20" fill="black" />
-			<rect width="5" height="20" x="10" y="5" fill="red" />
-			<rect width="5" height="5" x="10" y="25" fill="black" />
-			<rect width="5" height="5" x="15" y="5" fill="black" />
-			<rect width="5" height="20" x="10" y="5" fill="red" />
-			<rect width="5" height="15" x="15" y="10" fill="red" />
-			<rect width="5" height="5" x="15" y="25" fill="maroon" />
-			<rect width="5" height="5" x="15" y="30" fill="black" />
-			<rect width="5" height="20" x="20" y="5" fill="red" />
-			<rect width="5" height="5" x="20" y="25" fill="maroon" />
-			<rect width="5" height="5" x="20" y="30" fill="black" />
-			<rect width="5" height="15" x="25" y="5" fill="red" />
-			<rect width="5" height="5" x="25" y="20" fill="maroon" />
-			<rect width="5" height="5" x="25" y="25" fill="black" />
-			<rect width="5" height="15" x="30" y="5" fill="maroon" />
-			<rect width="5" height="5" x="30" y="20" fill="black" />
-			<rect width="5" height="15" x="35" y="5" fill="black" />
-		</pattern>
-		<!-- link pattern -->
-		<pattern width="320" height="470" id="zelda" patternUnits="userSpaceOnUse" x="130" y="-10" viewBox="0 0 890 870">>
-
-			<!--row 1-->
+<svg width="320" height="470"
+    xmlns="http://www.w3.org/2000/svg" id="largeZelda" viewBox="0 0 320 470">
+    <!--row 1-->
 			<rect width="60" height="10" x="110" y="0" fill="black" />
 			<!--row 2-->
 			<rect width="30" height="10" x="90" y="10" fill="black" />
@@ -444,35 +415,11 @@
 			<rect height="10" width="30" y="150" x="170" fill="#f8c0bc" class="skin" />
 			<rect height="10" width="20" y="220" x="130" fill="hotpink" />
 			<rect height="10" width="20" y="190" x="130" fill="#ffa5d2" />
-		</pattern>
-		<!-- grey bricks -->
-		<pattern id="greyBricks" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
-			<rect width="50" height="15" x="0" y="0" fill="lightgrey" />
-			<rect width="23.5" height="6.5" x="0" y="0" rx="1" fill="grey" />
-			<rect width="23.5" height="6.5" x="25" y="0" rx="1" fill="#717171" />
-			<rect width="12" height="6.5" x="0" y="7.5" fill="dimgrey" />
-			<rect width="23.5" height="6.5" x="13" y="7.5" rx="1" fill="#808080" />
-			<rect width="12" height="6.5" x="38" y="7.5" fill="dimgrey" />
-		</pattern>
-	</defs>
-	<!-- block 7 -->
-	<rect width="360" height="405" rx="0" fill="url(#greyBricks)" />
-	<rect width="260" height="305" x="50" y="50" rx="10" fill="#d2fcd2" />
-	<rect width="275" height="46" x="46" y="0" fill="url(#jewels)" />
-	<rect width="46" height="320" x="0" y="46" fill="url(#jewels)" />
-	<rect width="46" height="320" x="316" y="46" fill="url(#jewels)" />
-	<rect width="250" height="250" x="50" y="50" fill="url(#zelda)" />
-	<text x="53" y="275" fill="black" font-family="'Lucida Grande', sans-serif" font-size="25">
-		CONGRATULATIONS!
-		<tspan x="120" y="300">
-			You won!
-		</tspan>
-	</text>
-	<text x="102" y="320" fill="black" font-family="'Lucida Grande', sans-serif" font-size="16">
-		Now you can make 
-		<tspan x="90" y="338">
-			your own Zen Garden.
-		</tspan>
-	</text>
-	<rect width="270" height="50" x="46" y="360" fill="url(#jewels)" />
+
+
+
+
+
+
+
 </svg>

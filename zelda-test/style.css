@@ -18,9 +18,10 @@ header {
 }
 
 header::after {
-  content: url(./svg/smallLink.svg);
+  content: url(./svg/link.svg);
   position: absolute;
   margin-top: -25px;
+  margin-left:10px;
 }
 
 h1,
@@ -55,13 +56,12 @@ h3 {
 }
 
 .summary {
-  padding: 0 0 0 105px;
-  margin: auto 14px 0 10px;
+  padding: 0 20px 0 155px;
+  margin: -150px 14px 0 10px;
   font-family: "Merienda", cursive;
   line-height: 1.1em;
   color: #555454;
-  margin-top: -60px;
-  margin-left: 50px;
+  text-align: right;
 }
 
 .summary p a {
@@ -139,7 +139,7 @@ div.preamble {
 .extra1 {
   content: url(./svg/cover1.svg);
   grid-area: cover1;
-  margin-top: -4580px;
+  margin-top: -4445px;
   margin-left: 75px;
   margin-bottom: 180px;
   margin-right: -20px;
@@ -147,7 +147,7 @@ div.preamble {
 
 .preamble::after {
   content: url(./svg/flat-drawbridge1.svg);
-  grid-area: bridge1;
+  z-index:-1;
 }
 
 .explanation h3 {
@@ -168,7 +168,6 @@ div.preamble {
   width: 360px;
   height: 558px;
   line-height: 1.11em;
-  grid-area: block2;
 }
 
 .explanation p {
@@ -184,12 +183,13 @@ div.preamble {
 .extra2 {
   content: url(./svg/cover2.svg);
   grid-area: cover2;
-  margin-top: -3940px;
+  margin-top: -3805px;
   margin-left: 23px;
 }
 
 .explanation::after {
   content: url(./svg/flat-drawbridge2.svg);
+  z-index:-1;
 }
 
 .participation {
@@ -197,7 +197,8 @@ div.preamble {
   height: 600px;
   background-repeat: no-repeat;
   background-image: url(./svg/block3.svg);
-  grid-area: block3;
+  margin-bottom: 100px;
+  margin-left: 10px;
 }
 
 .participation h3 {
@@ -225,17 +226,17 @@ div.preamble {
 .extra3 {
   content: url(./svg/cover3.svg);
   grid-area: cover3;
-  margin-top: -3240px;
-  margin-left: 38px;
+  margin-top: -3105px;
+  margin-left: 48px;
 }
 
 .benefits {
-  width: 360px;
+  width: 350px;
   height: 360px;
   background-image: url(./svg/block4.svg);
   background-repeat: no-repeat;
   grid-area: block4;
-  margin-bottom: 240px;
+  margin-bottom: 235px;
 }
 
 .benefits p {
@@ -258,14 +259,14 @@ div.preamble {
 
 .benefits::after {
   content: url(./svg/bridge4.svg);
-  grid-area: bridge4;
+  margin-left: 10px;
 }
 
 .extra4 {
   content: url(./svg/cover4.svg);
   grid-area: cover4;
-  margin-top: -2375px;
-  margin-left: 18px;
+  margin-top: -2290px;
+  margin-left: 23px;
 }
 
 .requirements {
@@ -311,7 +312,7 @@ div.preamble {
 .extra5 {
   content: url(./svg/cover5.svg);
   grid-area: cover5;
-  margin-top: -1865px;
+  margin-top: -1785px;
   margin-left: 72px;
 }
 
@@ -320,9 +321,9 @@ aside.sidebar {
   background-repeat: no-repeat;
   padding: 15px 30px;
   width: 360px;
-  height: 700px;
-  grid-area: block6;
+  height: 800px;
   margin-top: -90px;
+  margin-bottom: -30px;
 }
 
 aside.sidebar a:link,
@@ -379,7 +380,7 @@ aside.sidebar ul li {
 .extra6 {
   content: url(./svg/block7.svg);
   grid-area: zelda;
-  margin-top: -150px;
+  margin-top: 0px;
   margin-bottom: 233px;
 }
 
@@ -419,20 +420,20 @@ footer {
   header::after {
     content: url(./svg/link.svg);
     position: fixed;
-    margin-top: -60px;
+    margin-top: -100px;
     margin-left: 5px;
   }
 
   h1,
   h2 {
-    width: 450px;
+    width: 465px;
   }
-
+ 
   .summary {
-    padding: 0 20px 0 120px;
+    padding: 50px 20px 0 140px;
     line-height: 1.5em;
     text-align: right;
-  
+
   }
 
   /* block1 */
@@ -444,12 +445,12 @@ footer {
 
   .preamble::after {
     position: absolute;
-    margin-left: 23px;
+    margin-left: 0px;
   }
 
   /* cover1 */
   .extra1 {
-    margin: -4498px auto auto 215px;
+    margin: -4598px auto auto 215px;
   }
 
   /* block2 */
@@ -466,7 +467,7 @@ footer {
 
   /* cover2 */
   .extra2 {
-    margin: -3860px auto auto 165px;
+    margin: -3960px auto auto 165px;
   }
 
   /* block3 */
@@ -483,20 +484,22 @@ footer {
 
   /* cover3 */
   .extra3 {
-    margin: -3178px auto auto 179px;
+    margin: -3278px auto auto 179px;
   }
 
   /* block4 */
   .benefits {
     margin: auto auto 238px 150px;
   }
-/*bridge4*/
-.benefits::after{
-  margin-left: 20px;
-}
+
+  /*bridge4*/
+  .benefits::after {
+    margin-left: 20px;
+  }
+
   /* cover4 */
   .extra4 {
-    margin: -2320px auto auto 167px;
+    margin: -2420px auto auto 167px;
   }
 
   /* block5 */
@@ -506,14 +509,12 @@ footer {
 
   /* cover5 */
   .extra5 {
-    margin: -1815px auto auto 212px;
+    margin: -1915px auto auto 212px;
   }
 
   /*bridge5*/
 
-  .requirements::after{
-
-  }
+  .requirements::after {}
 
   /* block6 */
   aside.sidebar {
@@ -522,9 +523,10 @@ footer {
 
   /*zelda*/
   .extra6 {
-    margin: -100px auto 520px 145px;
+    margin: -130px auto 560px 140px;
   }
- /* .extra6:hover{
+
+  /* .extra6:hover{
     transform:translate(-125px, -40px);
     transition:transform 3s ease-in-out;
   }*/
@@ -537,12 +539,11 @@ footer {
     max-width: 767px;
   }
 
-   /* Link: */
-  /*header::after {
-    content: url(./svg/link.svg);
-    margin-left: 50px;
+  /* Link: */
+ header::after {
+    margin-left: 70px;
     margin-top: -90px;
-  }*/
+  }
 
   header {
     height: 180px;
@@ -559,11 +560,11 @@ footer {
 
   h1,
   h2 {
-    width: 705px;
+    width: 680px;
   }
 
   .summary {
-    padding: 0 40px 0 260px;
+    padding: 50px 75px 0 240px;
     line-height: 1.5em;
     text-align: right;
   }
@@ -573,9 +574,14 @@ footer {
     margin: -15px auto 150px 239px;
   }
 
+  /*bridge1*/
+  div.preamble::after{
+    margin-left: 2px;
+  }
+
   /* cover1 */
   .extra1 {
-    margin: -4504px auto auto 314px;
+    margin: -4594px auto auto 314px;
   }
 
   /* block2 */
@@ -585,17 +591,21 @@ footer {
 
   /* cover2 */
   .extra2 {
-    margin: -3867px auto auto 266px;
+    margin: -3956px auto auto 266px;
   }
 
   /* block3 */
   .participation {
-    margin: 0 auto 145px 240px;
+    margin: 0 auto 135px 240px;
+  }
+  /*bridge3*/
+  .participation::after{
+    margin-left: 0px;
   }
 
   /* cover3 */
   .extra3 {
-    margin: -3185px auto auto 280px;
+    margin: -3274px auto auto 280px;
   }
 
   /* block4 */
@@ -605,7 +615,7 @@ footer {
 
   /* cover4 */
   .extra4 {
-    margin: -2320px auto auto 258px;
+    margin: -2420px auto auto 258px;
   }
 
   /* block5 */
@@ -615,16 +625,16 @@ footer {
 
   /* cover5 */
   .extra5 {
-    margin: -1815px auto auto 300px;
+    margin: -1915px auto auto 300px;
   }
 
   /* block6 */
   aside.sidebar {
     margin: 0px auto 100px 250px;
   }
-
+  /*block7 zelda*/
   .extra6 {
-    margin: -85px auto 265px 250px;
+    margin: -135px auto 530px 250px;
 
   }
 
@@ -678,7 +688,7 @@ footer {
 
   /* cover1 */
   .extra1 {
-    margin: -4504px auto auto 514px;
+    margin: -4604px auto auto 514px;
   }
 
   /* block2 */
@@ -688,7 +698,7 @@ footer {
 
   /* cover2 */
   .extra2 {
-    margin: -3867px auto auto 466px;
+    margin: -3967px auto auto 466px;
   }
 
   /* block3 */
@@ -698,7 +708,7 @@ footer {
 
   /* cover3 */
   .extra3 {
-    margin: -3185px auto auto 480px;
+    margin: -3285px auto auto 480px;
   }
 
   /* block4 */
@@ -708,7 +718,7 @@ footer {
 
   /* cover4 */
   .extra4 {
-    margin: -2320px auto auto 458px;
+    margin: -2420px auto auto 458px;
   }
 
   /* block5 */
@@ -718,7 +728,7 @@ footer {
 
   /* cover5 */
   .extra5 {
-    margin: -1815px auto auto 500px;
+    margin: -1915px auto auto 500px;
   }
 
   /* block6 */
@@ -727,12 +737,13 @@ footer {
   }
 
   .extra6 {
-    margin: -100px auto 280px 470px;
+    margin: -130px auto 550px 465px;
 
   }
-   .extra6:hover{
-    transform:translate(-155px, 0px);
-    transition:transform 3s ease-in-out;
+
+  .extra6:hover {
+    transform: translate(-175px, 0px);
+    transition: transform 3s ease-in-out;
   }
 
   aside.sidebar::after {
