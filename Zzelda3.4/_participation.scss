@@ -1,0 +1,32 @@
+.participation {
+	display: block;
+	width: $MobileWidth;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-image: url(./svg/block3.svg);
+	margin: 0 auto 200px 10px;
+}
+
+.participation h3 {
+	color: $FontLight;
+	font-size: 26px;
+	line-height: 1.2em;
+	font-family: $Font-H;
+	padding-top: 45px;
+}
+
+.participation p {
+	font-size: 16px;
+	color: $FontLight;
+	font-family: $Font-p;
+	text-align: justify;
+	width: 260px;
+	display: block;
+	margin: 12px auto auto auto;
+}
+
+.extra3 {
+	content: url(./svg/cover3.svg);
+	margin-top: -1300px;
+	margin-left: 50px;
+}

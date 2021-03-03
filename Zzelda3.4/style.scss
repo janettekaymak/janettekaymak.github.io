@@ -40,7 +40,7 @@ header {
 }
 
 header::after {
-	content: url(./images/linkAttack100.png);
+	content: url(./svg/smallLink.svg);
 	margin-left: 20px;
 	position: absolute;
 	margin-top: -20px;
@@ -78,50 +78,6 @@ h3 {
 	text-align: center;
 }
 
-@import 'summary.scss';
-
-@import 'preamble.scss';
-
-@import 'explanation.scss';
-
-@import 'participation.scss';
-
-@import 'benefits.scss';
-
-@import 'requirements.scss';
-
-@import 'sidebar.scss';
-
-.extra1 {
-	display: none;
-	content: url(./svg/cover1.svg);
-	margin-top: -2795px;
-	margin-left: 84px;
-}
-
-.extra2 {
-	content: url(./svg/cover2.svg);
-	margin: -2141px auto auto 36px;
-}
-
-.extra3 {
-	content: url(./svg/cover3.svg);
-	margin-top: -1300px;
-	margin-left: 50px;
-}
-
-.extra4 {
-	content: url(./images/cover4fish.png);
-	margin: -575px auto auto -8px;
-}
-
-.extra5 {
-	content: url(./svg/cover5.svg);
-	position: absolute;
-	margin: 3366px auto auto 80px;
-}
-
-
 .extra1:hover,
 .extra2:hover,
 .extra3:hover,
@@ -132,10 +88,13 @@ h3 {
 }
 
 
-footer {
-	display: none;
-}
-
+@import 'summary.scss';
+@import 'preamble.scss';
+@import 'explanation.scss';
+@import 'participation.scss';
+@import 'benefits.scss';
+@import 'requirements.scss';
+@import 'sidebar.scss';
 
 /*--------------------500----------------------*/
 
@@ -249,7 +208,7 @@ footer {
 
 	/* Link: */
 	header::after {
-		content: url(./images/linkAttack150.png);
+		content: url(./svg/link.svg);
 		margin-left: 50px;
 		margin-top: -90px;
 	}

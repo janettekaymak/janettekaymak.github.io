@@ -1,0 +1,51 @@
+.explanation h3 {
+	font-family: $Font-H;
+	font-size: 21px;
+	line-height: 1em;
+	margin-left: -45px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.explanation {
+	display: block;
+	background-image: url(./svg/block2.svg);
+	background-repeat: no-repeat;
+	text-align: justify;
+	font-family: $Font-p;
+	font-size: 17px;
+	width: $MobileWidth;
+	height: 800px;
+	line-height: 1.11em;
+	margin: 0 auto -50px 10px;
+}
+
+.explanation p {
+	width: 245px;
+	display: block;
+	padding: 0px 40px;
+	margin-left: -7px;
+}
+
+.extra2 {
+	content: url(./svg/cover2.svg);
+	margin: -2119px auto auto 34px;
+}
+
+
+.explanation::after {
+	content: url(./svg/flat-drawbridge.svg);
+	display: block;
+	margin-top: -290px;
+	margin-left: 102px;
+	position: absolute;
+	z-index: -1;
+}
+.explanation:hover::after {
+	transform: translate(0px, 300px);
+	transition: transform 3s;
+}
+
+.explanation p:nth-child(3) {
+	width: 160px;
+}

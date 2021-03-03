@@ -1,0 +1,21 @@
+.summary::after {
+	content: "CLICK or HOVER on each BLOCK to reveal a hidden message!";
+	font-family: $Font-p;
+	font-size: 22px;
+	color: $BGcolor3A;
+}
+.summary {
+	padding: 0 75px 0 105px;
+	margin: auto 14px 0 10px;
+	text-align: right;
+	font-family: $Font-H;
+	line-height: 1.1em;
+	color: rgb(85, 84, 84);
+	margin-top: -60px;
+}
+.summary p a {
+	text-decoration: none;
+	font-family: $Font-p;
+	font-size: 20px;
+	color: $BGcolor3A;
+}

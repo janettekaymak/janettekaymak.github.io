@@ -1,0 +1,57 @@
+.requirements {
+	position: absolute;
+	width: 365px;
+	height: 950px;
+	display: block;
+	margin: 0 auto 0 8px;
+	background-image: url(./svg/block5.svg);
+	background-repeat: no-repeat;
+}
+
+.requirements p {
+	width: 252px;
+	display: block;
+	margin: 5px auto auto 80px;
+	font-family: $Font-p;
+	font-size: 16.5px;
+	line-height: 1.1em;
+	text-align: justify;
+	text-shadow: $FontLight 1px 1px 2px;
+}
+
+.requirements h3 {
+	font-family: $Font-H;
+	font-size: 25px;
+	line-height: 1em;
+	padding: 0px 0 5px 40px;
+
+
+}
+
+.requirements p:nth-child(5),
+.requirements p:nth-child(6) {
+	width: 160px;
+	margin-left: 185px;
+	text-align: left;
+	margin-top: 0px;
+}
+
+.requirements p:nth-child(6)::after{
+	content: url(./svg/drawbridge.svg);
+	position:absolute;
+	margin-left: -160px;
+	margin-top: -200px;
+	z-index: 2;
+}
+.requirements p:nth-child(6):hover::after{
+	transform: translate(0px, 202px);
+	transition: transform 3s ease-in-out;
+	z-index: 2;
+}
+
+/*.extra5 {
+	content: url(./svg/cover5.svg);
+	position: absolute;
+	margin: 3450px auto auto 80px;
+	z-index: 3;
+}*/
