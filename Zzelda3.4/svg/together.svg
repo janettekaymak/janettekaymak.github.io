@@ -1,4 +1,4 @@
-<svg width="1000" height="1000" viewBox="-50 250 1800 1000"
+<svg width="1000" height="1000" viewBox="0 250 1700 1000"
     xmlns="http://www.w3.org/2000/svg" id="together">
 
     <defs>
@@ -1032,7 +1032,5 @@
         <!--Link and Zelda together-->
         <rect width="320" height="470" x="0" y="0" fill="url(#link)"/>
         <rect width="320" height="470" x="320" y="0" fill="url(#zelda)"/>
-            <rect width="46" height="46" x="270" y="85" fill="url(#jewels)"/>
-
-
+        <rect width="46" height="46" x="270" y="85" fill="url(#jewels)"/>
     </svg>
