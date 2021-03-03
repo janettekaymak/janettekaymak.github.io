@@ -3,7 +3,7 @@
 
     <defs>
         <!-- define jewel pattern -->
-        <pattern id="jewels" patternUnits="userSpaceOnUse" x="0" y="0" height="46" width="46">
+        <pattern id="jewels" patternUnits="userSpaceOnUse" x="0" y="0" height="46" width="46" viewBox="0 0 46 46" >
             <rect width="10" height="5" x="5" y="0" fill="black" />
             <rect width="15" height="5" x="20" y="0" fill="black" />
             <rect width="5" height="15" x="0" y="5" fill="black" />
