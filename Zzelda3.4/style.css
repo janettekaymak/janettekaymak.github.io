@@ -198,7 +198,7 @@ div.preamble {
 
 .extra1 {
   content: url(./svg/cover1.svg);
-  margin-top: -2831px;
+  margin-top: -2881px;
   margin-left: 84px;
 }
 
@@ -247,20 +247,20 @@ div.preamble {
 
 .extra2 {
   content: url(./svg/cover2.svg);
-  margin: -2119px auto auto 34px;
+  margin: -2169px auto auto 34px;
 }
 
 .explanation::after {
   content: url(./svg/flat-drawbridge.svg);
   display: block;
-  margin-top: -290px;
+  margin-top: -340px;
   margin-left: 102px;
   position: absolute;
   z-index: -1;
 }
 
 .explanation:hover::after {
-  transform: translate(0px, 300px);
+  transform: translate(0px, 350px);
   transition: transform 3s;
 }
 
@@ -303,33 +303,46 @@ div.preamble {
 
 .benefits {
   width: 360px;
-  height: 350px;
+  height: 600px;
   background-image: url(./svg/block4.svg);
   background-repeat: no-repeat;
-  margin: auto auto 200px 15px;
+  margin: auto auto 0px 15px;
 }
 
 .benefits p {
   font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
   font-size: 16.5px;
   text-align: center;
-  text-shadow: white 1px 1px 2px;
   width: 250px;
   display: block;
   margin: auto;
+  padding-right: 10px;
 }
 
 .benefits h3 {
   font-family: "Merienda", cursive;
   font-size: 30px;
   line-height: 1em;
-  padding-top: 55px;
+  padding-top: 75px;
   padding-bottom: 20px;
 }
 
 .extra4 {
   content: url(./images/cover4fish.png);
   margin: -575px auto auto -8px;
+}
+
+.benefits::after {
+  position: absolute;
+  content: url(./svg/bridge4.svg);
+  z-index: -1;
+  margin-top: -300px;
+}
+
+.benefits:hover::after {
+  transform: translate(0px, 279px);
+  transition: transform 1s ease-in-out;
+  z-index: 3;
 }
 
 .requirements {
@@ -385,7 +398,7 @@ div.preamble {
 .extra5 {
   content: url(./svg/cover5.svg);
   position: absolute;
-  margin: 3405px auto auto 80px;
+  margin: 3455px auto auto 80px;
   z-index: 3;
 }
 

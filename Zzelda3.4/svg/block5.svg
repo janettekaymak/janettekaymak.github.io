@@ -55,7 +55,7 @@
 	<rect width="10" height="20" x="112" y="637" fill="#23c8ff" rx="15" />
 	<rect width="20" height="25" x="103" y="610" rx="15" />
 		<!--bridge button-->
-	<text x="212" y="915" fill="saddlebrown" font-family="'Lucida Grande', sans-serif" font-size="14">
-		CLICK HERE
+	<text x="212" y="915" fill="saddlebrown" font-family="sans-serif" font-size="18">
+		click here
 	</text>
 </svg>
