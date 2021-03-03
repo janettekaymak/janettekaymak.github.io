@@ -34,10 +34,5 @@
 	<rect width="360" height="550" fill="#23c8ff" x="0" y="0" rx="40" />
 	<rect width="360" height="550" fill="url(#waterPattern)" x="0" y="0" rx="40" />
 	<rect width="280" height="471" fill="saddlebrown" x="40" y="39" rx="20" />
-	
-	<!--<rect width="49" height="35" x="100" y="54" rx="15" fill="black" opacity=".2" />
-    <rect width="45" height="25" x="102" y="56" rx="10" fill="darkslategrey" />
-    <rect width="40" height="17" x="104" y="54" rx="19" fill="darkgrey" />
-	<rect width="150" height="50" fill="url(#treePattern)" x="0" y="550" />
-	<rect width="150" height="50" fill="url(#treePattern)" x="200" y="550" />-->
+	<rect width="82" height="40" fill="saddlebrown" x="141" y="0" />
 </svg>
