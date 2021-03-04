@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
 body {
   background-color: #d2fcd2;
-  display: -ms-grid;
   display: grid;
   margin: -80px auto auto -10px;
 }
@@ -14,12 +13,10 @@ body {
 .extra4:hover,
 .extra5:hover {
   opacity: 0;
-  -webkit-transition: 1.5s;
   transition: 1.5s;
 }
 
 header {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#d2fcd2), color-stop(darkturquoise), to(#d2fcd2));
   background-image: linear-gradient(#d2fcd2, darkturquoise, #d2fcd2);
   height: 200px;
   background-position: bottom;
@@ -43,7 +40,7 @@ h2 {
   display: block;
   margin: 0;
   text-align: right;
-  line-height: .1em;
+  line-height: 0.1em;
   color: #ad01ad;
 }
 
@@ -95,26 +92,64 @@ h3 {
     max-width: 500px;
     margin: auto;
   }
+
   header {
     height: 150px;
     margin-top: -50px;
   }
+
   /* Link: */
   header::after {
     position: fixed;
     margin-top: -60px;
     margin-left: 5px;
   }
+
   h1,
-  h2 {
+h2 {
     width: 470px;
   }
+
   .summary {
     padding: 0 70px 0 120px;
     line-height: 1.5em;
   }
 }
+/*--------------------767----------------------*/
+@media screen and (min-width: 767px) {
+  body {
+    background-color: coral;
+  }
 
+  h1,
+h2 {
+    width: 610px;
+    text-align: center;
+  }
+
+  .summary {
+    text-align: center;
+    padding: 0 120px;
+  }
+
+  h2::after {
+    content: url(./svg/littleZelda.svg);
+    position: fixed;
+    margin-top: -213px;
+    margin-left: 100px;
+  }
+}
+/*--------------------1200----------------------*/
+@media screen and (min-width: 1200px) {
+  h1,
+h2 {
+    width: 545px;
+  }
+
+  .summary {
+    padding: 0 0 0 150px;
+  }
+}
 /*.preamble {
     display: grid;
       grid-template-columns: repeat(18, 20px);
@@ -148,7 +183,7 @@ h3 {
           z-index: 3;
           opacity: 0;
           transition: opacity 5s;
-          
+
           &:nth-of-type(1){
               grid-column: 5/17;
               grid-row: 9/14;
@@ -242,12 +277,8 @@ div.preamble {
 }
 
 .preamble:hover::after {
-  -webkit-transform: translate(0px, 250px);
-          transform: translate(0px, 250px);
-  -webkit-transition: -webkit-transform 3s ease-in-out;
-  transition: -webkit-transform 3s ease-in-out;
+  transform: translate(0px, 250px);
   transition: transform 3s ease-in-out;
-  transition: transform 3s ease-in-out, -webkit-transform 3s ease-in-out;
 }
 
 /*--------------------500----------------------*/
@@ -256,12 +287,12 @@ div.preamble {
   div.preamble {
     margin: -15px auto -50px 125px;
   }
+
   /* cover1 */
   .extra1 {
-    margin: -3008px auto auto 199px;
+    margin: -2810px auto auto 199px;
   }
 }
-
 .explanation h3 {
   font-family: "Merienda", cursive;
   font-size: 21px;
@@ -306,12 +337,8 @@ div.preamble {
 }
 
 .explanation:hover::after {
-  -webkit-transform: translate(0px, 350px);
-          transform: translate(0px, 350px);
-  -webkit-transition: -webkit-transform 3s;
-  transition: -webkit-transform 3s;
+  transform: translate(0px, 350px);
   transition: transform 3s;
-  transition: transform 3s, -webkit-transform 3s;
 }
 
 .explanation p:nth-child(3) {
@@ -324,12 +351,12 @@ div.preamble {
   .explanation {
     margin: 0 auto -100px 122px;
   }
+
   /* cover2 */
   .extra2 {
-    margin: -2343px auto auto 146px;
+    margin: -2148px auto auto 146px;
   }
 }
-
 .participation {
   display: block;
   width: 360px;
@@ -348,12 +375,8 @@ div.preamble {
 }
 
 .participation:hover::after {
-  -webkit-transform: translate(0px, 365px);
-          transform: translate(0px, 365px);
-  -webkit-transition: -webkit-transform 4s ease-in-out;
-  transition: -webkit-transform 4s ease-in-out;
+  transform: translate(0px, 365px);
   transition: transform 4s ease-in-out;
-  transition: transform 4s ease-in-out, -webkit-transform 4s ease-in-out;
 }
 
 .participation h3 {
@@ -391,13 +414,13 @@ div.preamble {
   .participation {
     margin: 0 auto -50px 122px;
   }
+
   /* cover3 */
   .extra3 {
     margin-top: -1430px;
     margin-left: 160px;
   }
 }
-
 .benefits {
   width: 360px;
   height: 600px;
@@ -437,12 +460,8 @@ div.preamble {
 }
 
 .benefits:hover::after {
-  -webkit-transform: translate(0px, 292px);
-          transform: translate(0px, 292px);
-  -webkit-transition: -webkit-transform 2s ease-in-out;
-  transition: -webkit-transform 2s ease-in-out;
+  transform: translate(0px, 292px);
   transition: transform 2s ease-in-out;
-  transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
   z-index: 1;
 }
 
@@ -452,21 +471,18 @@ div.preamble {
   .benefits {
     margin-left: 127px;
   }
+
   /* cover4 */
   .extra4 {
     margin: -505px auto auto 144px;
   }
+
   .benefits:hover::after {
-    -webkit-transform: translate(0px, 292px);
-            transform: translate(0px, 292px);
-    -webkit-transition: -webkit-transform 3s ease-in-out;
-    transition: -webkit-transform 3s ease-in-out;
+    transform: translate(0px, 292px);
     transition: transform 3s ease-in-out;
-    transition: transform 3s ease-in-out, -webkit-transform 3s ease-in-out;
     z-index: -1;
   }
 }
-
 .requirements {
   position: absolute;
   width: 365px;
@@ -512,12 +528,8 @@ div.preamble {
 }
 
 .requirements:hover::after {
-  -webkit-transform: translate(0px, 300px);
-          transform: translate(0px, 300px);
-  -webkit-transition: -webkit-transform 1s ease-in-out;
-  transition: -webkit-transform 1s ease-in-out;
+  transform: translate(0px, 300px);
   transition: transform 1s ease-in-out;
-  transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
   z-index: 2;
 }
 
@@ -534,15 +546,16 @@ div.preamble {
   .requirements {
     margin: 0 auto 0px 108px;
   }
+
   .requirements::after {
     width: 375px;
   }
+
   /* cover5 */
   .extra5 {
     margin: 3301px auto auto 180px;
   }
 }
-
 aside.sidebar {
   position: absolute;
   background-image: url(./svg/block6.svg);
@@ -583,7 +596,7 @@ aside.sidebar h3 {
   background-color: lightgrey;
   padding: 5px;
   border-radius: 5px;
-  line-height: .7em;
+  line-height: 0.7em;
   width: 240px;
   margin-left: 48px;
 }
@@ -619,7 +632,6 @@ aside.sidebar::after {
   grid-area: world;
   width: 350px;
   height: 350px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#d2fcd2), color-stop(darkturquoise), to(purple));
   background-image: linear-gradient(#d2fcd2, darkturquoise, purple);
   border-radius: 600px;
   margin: 350px auto 0 -28px;
@@ -640,177 +652,4 @@ aside.sidebar::after {
   aside.sidebar {
     margin: 1010px auto 0px 125px;
   }
-}
-
-/*------------------800------------------*/
-@media screen and (min-width: 767px) {
-  body {
-    max-width: 767px;
-  }
-  header {
-    height: 180px;
-  }
-  /* Link: */
-  header::after {
-    content: url(./svg/link.svg);
-    margin-left: 50px;
-    margin-top: -90px;
-  }
-  h1 {
-    font-size: 45px;
-    line-height: .5;
-  }
-  h2 {
-    font-size: 22px;
-  }
-  h1,
-  h2 {
-    width: 755px;
-  }
-  .summary {
-    padding: 0 30px 0 360px;
-    line-height: 1.5em;
-  }
-  /* block1 */
-  div.preamble {
-    margin: -15px auto 200px 239px;
-  }
-  /* cover1 */
-  .extra1 {
-    margin: -2792px auto auto 314px;
-  }
-  /* block2 */
-  .explanation {
-    margin: 0 auto 200px 242px;
-  }
-  /* cover2 */
-  .extra2 {
-    margin: -2141px auto auto 266px;
-  }
-  /* block3 */
-  .participation {
-    margin: 0 auto 200px 240px;
-  }
-  /* cover3 */
-  .extra3 {
-    margin-left: 280px;
-  }
-  /* block4 */
-  .benefits {
-    margin: auto auto 200px 240px;
-  }
-  /* cover4 */
-  .extra4 {
-    margin: -575px auto auto 222px;
-  }
-  /* block5 */
-  .requirements {
-    margin: 0 auto 200px 228px;
-  }
-  /* cover5 */
-  .extra5 {
-    margin: 3263px auto auto 300px;
-  }
-  /* block6 */
-  aside.sidebar {
-    margin: 1150px auto 100px 200px;
-  }
-  aside.sidebar::after {
-    content: url(./images/wave150.png);
-    margin: 100px auto 0px 130px;
-  }
-  .requirements::after {
-    width: 580px;
-    margin: 1230px auto auto -40px;
-    border-radius: 600px;
-    font-size: 19px;
-  }
-}
-
-/*------------------1200------------------*/
-@media screen and (min-width: 1200px) {
-  body {
-    max-width: 1200px;
-    margin: auto;
-  }
-  header {
-    height: 180px;
-  }
-  h1 {
-    font-size: 60px;
-    margin-bottom: 65px;
-  }
-  h2 {
-    font-size: 25px;
-  }
-  /* Link: */
-  header::after {
-    content: url(./images/linkAttack200.png);
-    margin-left: 145px;
-    margin-top: -90px;
-  }
-  h1,
-  h2 {
-    width: 1040px;
-  }
-  .summary {
-    margin-top: -50px;
-    padding: 0 145px 0 360px;
-    line-height: 1.5em;
-  }
-  /* block1 */
-  div.preamble {
-    margin: 55px auto 200px 439px;
-  }
-  /* cover1 */
-  .extra1 {
-    margin: -2792px auto auto 514px;
-  }
-  /* block2 */
-  .explanation {
-    margin: 0 auto 200px 442px;
-  }
-  /* cover2 */
-  .extra2 {
-    margin: -2141px auto auto 466px;
-  }
-  /* block3 */
-  .participation {
-    margin: 0 auto 200px 440px;
-  }
-  /* cover3 */
-  .extra3 {
-    margin-left: 480px;
-  }
-  /* block4 */
-  .benefits {
-    margin: auto auto 200px 440px;
-  }
-  /* cover4 */
-  .extra4 {
-    margin: -573px auto auto 422px;
-  }
-  /* block5 */
-  .requirements {
-    margin: 0 auto 200px 428px;
-  }
-  /* cover5 */
-  .extra5 {
-    margin: 3293px auto auto 500px;
-  }
-  /* block6 */
-  aside.sidebar {
-    margin: 1150px auto 100px 400px;
-  }
-  aside.sidebar::after {
-    content: url(./images/wave200.png);
-    margin: 75px auto 0px 150px;
-  }
-  .requirements::after {
-    width: 580px;
-    margin: 1275px auto auto -100px;
-    border-radius: 600px;
-    font-size: 19px;
-  }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
