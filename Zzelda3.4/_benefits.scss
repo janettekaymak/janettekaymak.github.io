@@ -49,12 +49,19 @@
 
 	/* block4 */
 	.benefits {
-		margin: -250 auto 0px 120px;
+		margin-left:127px;
 	}
 
 	/* cover4 */
 	.extra4 {
-		margin: -235px auto auto 136px;
+		margin: -505px auto auto 144px;
 
 	}
+
+	.benefits:hover::after{
+		transform: translate(0px, 292px);
+		transition: transform 3s ease-in-out;
+		z-index: -1;
+	}
+
 }

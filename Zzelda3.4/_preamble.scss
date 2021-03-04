@@ -128,7 +128,7 @@
 
 .preamble:hover::after {
 	transform: translate(0px, 250px);
-	transition: transform 2s;
+	transition: transform 3s ease-in-out;
 }
 
 /*--------------------500----------------------*/
@@ -142,6 +142,6 @@
 
 	/* cover1 */
 	.extra1 {
-		margin: -2756px auto auto 199px;
+		margin: -3008px auto auto 199px;
 	}
 }

@@ -43,5 +43,4 @@
 	<text x="140" y="570" fill="teal" font-family="sans-serif" font-size="18">
 		click here
 	</text>
-	<rect width="360" height="300" x="0" y="550" fill="transparent" stroke="deeppink" />
 </svg>
