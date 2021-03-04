@@ -254,11 +254,11 @@ div.preamble {
 @media screen and (min-width: 500px) {
   /* block1 */
   div.preamble {
-    margin: -15px auto 0px 119px;
+    margin: -15px auto -50px 125px;
   }
   /* cover1 */
   .extra1 {
-    margin: -2878px auto auto 194px;
+    margin: -2756px auto auto 199px;
   }
 }
 
@@ -322,11 +322,11 @@ div.preamble {
 @media screen and (min-width: 500px) {
   /* block2 */
   .explanation {
-    margin: 0 auto -50px 122px;
+    margin: 0 auto -100px 122px;
   }
   /* cover2 */
   .extra2 {
-    margin: -2170px auto auto 146px;
+    margin: -2090px auto auto 146px;
   }
 }
 
@@ -390,11 +390,20 @@ div.preamble {
 @media screen and (min-width: 500px) {
   /* block3 */
   .participation {
-    margin: 0 auto 200px 122px;
+    margin: 0 auto 175px 122px;
+  }
+  .participation:hover::after {
+    -webkit-transform: translate(0px, 345px);
+            transform: translate(0px, 345px);
+    -webkit-transition: -webkit-transform 2s ease-in-out;
+    transition: -webkit-transform 2s ease-in-out;
+    transition: transform 2s ease-in-out;
+    transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
+    z-index: 1;
   }
   /* cover3 */
   .extra3 {
-    margin-top: -1400px;
+    margin-top: -1380px;
     margin-left: 160px;
   }
 }
@@ -444,7 +453,6 @@ div.preamble {
   transition: -webkit-transform 2s ease-in-out;
   transition: transform 2s ease-in-out;
   transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
-  z-index: 3;
 }
 
 /*--------------------500----------------------*/
@@ -531,7 +539,7 @@ div.preamble {
   }
   /* cover5 */
   .extra5 {
-    margin: 3380px auto auto 180px;
+    margin: 3247px auto auto 180px;
   }
 }
 
@@ -603,7 +611,7 @@ aside.sidebar::before {
 
 aside.sidebar::after {
   display: block;
-  content: "CONGRATULATIONS! YOU WON! . . . Now, go forth into the world and code your very own CSS Zen Garden! . . .   NOTE: every single one of the images are original Scalable Vector Graphics, built from scratch. This Zen Garden was created by Michael Kendall, Donivan Killpack and Janette Kaymak. Please do not use our artwork without permission © 2021.";
+  content: "CONGRATULATIONS! YOU WON! . . . Now, go forth into the world and code your very own CSS Zen Garden! . . . This Zen Garden was created by Michael Kendall, Donivan Killpack and Janette Kaymak. All of the images are original Scalable Vector Graphics, lovingly hand-coded by us. Please do not use our artwork without permission © 2021";
   font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
   text-align: center;
   font-size: 22px;

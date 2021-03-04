@@ -56,12 +56,18 @@
 
 	/* block3 */
 	.participation {
-		margin: 0 auto 200px 122px;
+		margin: 0 auto 175px 122px;
+	}
+
+	.participation:hover::after {
+		transform: translate(0px, 345px);
+		transition: transform 2s ease-in-out;
+		z-index: 1;
 	}
 
 	/* cover3 */
 	.extra3 {
-		margin-top: -1400px;
+		margin-top: -1380px;
 		margin-left: 160px;
 	}
 }

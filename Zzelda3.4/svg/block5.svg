@@ -3,8 +3,8 @@
 	<defs>
 		<!-- define floor pattern -->
 		<pattern id="floorPattern" patternUnits="userSpaceOnUse" x="0" y="0" height="24.1" width="24.2">
-			<rect width="25" height="25" x="0" y="0" fill="lightgrey" />
-			<rect width="24.1" height="24.2" x="0" y="0" rx="5" fill="rgb(190, 190, 190)" stroke="lightgrey" stroke-width="3" />
+			<rect width="25" height="25" x="0" y="0" fill="#e1e1e1" />
+			<rect width="24.1" height="24.2" x="0" y="0" rx="5" fill="whitesmoke" stroke="#e1e1e1" stroke-width="3" />
 		</pattern>
 		<!-- tree pattern -->
 		<pattern id="treePattern" patternUnits="userSpaceOnUse" x="0" y="0" height="50" width="50">
