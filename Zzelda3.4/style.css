@@ -447,7 +447,7 @@ div.preamble {
 .benefits:hover::after {
   transform: translate(0px, 292px);
   transition: transform 2s ease-in-out;
-  z-index: 1;
+  z-index: -1;
 }
 
 /*--------------------500----------------------*/
@@ -465,7 +465,6 @@ div.preamble {
   .benefits:hover::after {
     transform: translate(0px, 292px);
     transition: transform 3s ease-in-out;
-    z-index: -1;
   }
 }
 .requirements {
