@@ -228,7 +228,7 @@ div.preamble {
 
 .extra1 {
   content: url(./svg/cover1.svg);
-  margin-top: -2881px;
+  margin-top: -2913px;
   margin-left: 84px;
 }
 
@@ -293,7 +293,7 @@ div.preamble {
 
 .extra2 {
   content: url(./svg/cover2.svg);
-  margin: -2169px auto auto 34px;
+  margin: -2199px auto auto 34px;
 }
 
 .explanation::after {
@@ -326,35 +326,34 @@ div.preamble {
   }
   /* cover2 */
   .extra2 {
-    margin: -2090px auto auto 146px;
+    margin: -2092px auto auto 146px;
   }
 }
 
 .participation {
   display: block;
   width: 360px;
-  height: 600px;
+  height: 850px;
   background-repeat: no-repeat;
   background-image: url(./svg/block3.svg);
-  margin: 0 auto 200px 10px;
+  margin: 0 auto -50px 10px;
 }
 
 .participation::after {
   position: absolute;
   content: url(./svg/bridge3.svg);
   margin-top: -380px;
-  margin-left: 2px;
+  margin-left: 8px;
   z-index: -1;
 }
 
 .participation:hover::after {
   -webkit-transform: translate(0px, 365px);
           transform: translate(0px, 365px);
-  -webkit-transition: -webkit-transform 2s ease-in-out;
-  transition: -webkit-transform 2s ease-in-out;
-  transition: transform 2s ease-in-out;
-  transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
-  z-index: 2;
+  -webkit-transition: -webkit-transform 4s ease-in-out;
+  transition: -webkit-transform 4s ease-in-out;
+  transition: transform 4s ease-in-out;
+  transition: transform 4s ease-in-out, -webkit-transform 4s ease-in-out;
 }
 
 .participation h3 {
@@ -382,7 +381,7 @@ div.preamble {
 
 .extra3 {
   content: url(./svg/cover3.svg);
-  margin-top: -1401px;
+  margin-top: -1431px;
   margin-left: 50px;
 }
 
@@ -392,18 +391,9 @@ div.preamble {
   .participation {
     margin: 0 auto 175px 122px;
   }
-  .participation:hover::after {
-    -webkit-transform: translate(0px, 345px);
-            transform: translate(0px, 345px);
-    -webkit-transition: -webkit-transform 2s ease-in-out;
-    transition: -webkit-transform 2s ease-in-out;
-    transition: transform 2s ease-in-out;
-    transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
-    z-index: 1;
-  }
   /* cover3 */
   .extra3 {
-    margin-top: -1380px;
+    margin-top: -1627px;
     margin-left: 160px;
   }
 }
@@ -430,13 +420,13 @@ div.preamble {
   font-family: "Merienda", cursive;
   font-size: 30px;
   line-height: 1em;
-  padding-top: 75px;
+  padding-top: 55px;
   padding-bottom: 20px;
 }
 
 .extra4 {
   content: url(./svg/cover4.svg);
-  margin: -485px auto auto 33px;
+  margin: -505px auto auto 33px;
 }
 
 .benefits::after {
@@ -447,23 +437,24 @@ div.preamble {
 }
 
 .benefits:hover::after {
-  -webkit-transform: translate(0px, 280px);
-          transform: translate(0px, 280px);
+  -webkit-transform: translate(0px, 292px);
+          transform: translate(0px, 292px);
   -webkit-transition: -webkit-transform 2s ease-in-out;
   transition: -webkit-transform 2s ease-in-out;
   transition: transform 2s ease-in-out;
   transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
+  z-index: 1;
 }
 
 /*--------------------500----------------------*/
 @media screen and (min-width: 500px) {
   /* block4 */
   .benefits {
-    margin: auto auto 0px 120px;
+    margin: -250 auto 0px 120px;
   }
   /* cover4 */
   .extra4 {
-    margin: -485px auto auto 136px;
+    margin: -235px auto auto 136px;
   }
 }
 
@@ -524,7 +515,7 @@ div.preamble {
 .extra5 {
   content: url(./svg/cover5.svg);
   position: absolute;
-  margin: 3455px auto auto 80px;
+  margin: 3485px auto auto 80px;
   z-index: 3;
 }
 
@@ -604,7 +595,7 @@ footer {
 aside.sidebar::before {
   content: url(./svg/together.svg);
   position: absolute;
-  margin-top: 1030px;
+  margin-top: 1085px;
   margin-left: -15px;
   z-index: 2;
 }
@@ -622,13 +613,14 @@ aside.sidebar::after {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#d2fcd2), color-stop(darkturquoise), to(purple));
   background-image: linear-gradient(#d2fcd2, darkturquoise, purple);
   border-radius: 600px;
-  margin: 300px auto 0 -28px;
+  margin: 350px auto 0 -28px;
+  font-weight: bolder;
 }
 
 .extra6 {
   content: url(./svg/stairs.svg);
   position: absolute;
-  margin-top: 5085px;
+  margin-top: 5150px;
   margin-left: 10px;
   z-index: -1;
 }

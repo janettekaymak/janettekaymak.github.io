@@ -20,13 +20,13 @@
 	font-family: $Font-H;
 	font-size: 30px;
 	line-height: 1em;
-	padding-top: 75px;
+	padding-top: 55px;
 	padding-bottom: 20px;
 }
 
 .extra4 {
 	content: url(./svg/cover4.svg);
-	margin: -485px auto auto 33px;
+	margin: -505px auto auto 33px;
 
 }
 
@@ -38,8 +38,9 @@
   }
   
   .benefits:hover::after{
-	transform: translate(0px, 280px);
+	transform: translate(0px, 292px);
 	transition: transform 2s ease-in-out;
+	z-index: 1;
 }
 
 /*--------------------500----------------------*/
@@ -48,12 +49,12 @@
 
 	/* block4 */
 	.benefits {
-		margin: auto auto 0px 120px;
+		margin: -250 auto 0px 120px;
 	}
 
 	/* cover4 */
 	.extra4 {
-		margin: -485px auto auto 136px;
+		margin: -235px auto auto 136px;
 
 	}
 }

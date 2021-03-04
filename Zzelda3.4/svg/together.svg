@@ -1030,7 +1030,7 @@
 
 
         <!--Link and Zelda together-->
-        <rect width="320" height="470" x="0" y="0" fill="url(#link)"/>
+        <rect width="320" height="465" x="0" y="0" fill="url(#link)"/>
         <rect width="320" height="470" x="320" y="0" fill="url(#zelda)"/>
         <rect width="46" height="46" x="270" y="85" fill="url(#jewels)"/>
     </svg>

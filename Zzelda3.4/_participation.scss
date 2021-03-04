@@ -1,24 +1,23 @@
 .participation {
 	display: block;
 	width: $MobileWidth;
-	height: 600px;
+	height: 850px;
 	background-repeat: no-repeat;
 	background-image: url(./svg/block3.svg);
-	margin: 0 auto 200px 10px;
+	margin: 0 auto -50px 10px;
 }
 
 .participation::after{
 	position:absolute;
 	content: url(./svg/bridge3.svg);
 	margin-top: -380px;
-	margin-left: 2px;
+	margin-left: 8px;
 	z-index: -1;
 }
 
 .participation:hover::after {
 	transform: translate(0px, 365px);
-	transition: transform 2s ease-in-out;
-	z-index: 2;
+	transition: transform 4s ease-in-out;
 }
 
 .participation h3 {
@@ -46,7 +45,7 @@
 
 .extra3 {
 	content: url(./svg/cover3.svg);
-	margin-top: -1401px;
+	margin-top: -1431px;
 	margin-left: 50px;
 }
 
@@ -59,15 +58,9 @@
 		margin: 0 auto 175px 122px;
 	}
 
-	.participation:hover::after {
-		transform: translate(0px, 345px);
-		transition: transform 2s ease-in-out;
-		z-index: 1;
-	}
-
 	/* cover3 */
 	.extra3 {
-		margin-top: -1380px;
+		margin-top: -1627px;
 		margin-left: 160px;
 	}
 }
