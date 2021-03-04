@@ -61,7 +61,7 @@ footer {
 aside.sidebar::before {
 	content: url(./svg/together.svg);
 	position: absolute;
-	margin-top: 1085px;
+	margin-top: 1285px;
 	margin-left: -15px;
 	z-index: 2;
 }
@@ -78,7 +78,7 @@ aside.sidebar::after {
 	height: 350px;
 	background-image: linear-gradient(#d2fcd2, darkturquoise, purple);
 	border-radius: 600px;
-	margin: 350px auto 0 -28px;
+	margin: 420px auto 0 -28px;
 	font-weight: bolder;
 
 }
