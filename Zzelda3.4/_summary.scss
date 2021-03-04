@@ -107,7 +107,6 @@ h3 {
 /*--------------------767----------------------*/
 
 @media screen and (min-width: $KindleWidth ) {
-	body{background-color: coral;}
 
 
 	h1,
@@ -126,23 +125,6 @@ h3 {
 		position: fixed;
 		margin-top: -213px;
 		margin-left: 100px;
-	}
-
-}
-
-
-/*--------------------1200----------------------*/
-
-@media screen and (min-width: $LapTopWidth ) {
-
-	h1,
-	h2 {
-		width: 545px;
-	}
-
-	.summary {
-		padding: 0 0 0 150px;
-
 	}
 
 

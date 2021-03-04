@@ -18,7 +18,7 @@
 		<pattern id="waterPattern" patternUnits="userSpaceOnUse" x="-5" y="0" height="10" width="20">
 			<circle cx="10" cy="-10" r="15" fill="transparent" stroke="aqua" stroke-width="1" />
 		</pattern>
-		<!-- small green fish pattern -->
+		<!-- tropical fish pattern -->
         <pattern id="tropicalFish" patternUnits="userSpaceOnUse" x="0" y="35" width="71" height="70">
             <rect width="50" height="30" x="2" y="22" rx="30" fill="deeppink" stroke="darkgreen" stroke-width="2" />
 			<rect width="20" height="26" x="7" y="24" rx="30" fill="gold"/>

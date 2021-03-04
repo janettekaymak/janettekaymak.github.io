@@ -1,4 +1,3 @@
-
 aside.sidebar {
 	position: absolute;
 	background-image: url(./svg/block6.svg);
@@ -62,7 +61,7 @@ footer {
 aside.sidebar::before {
 	content: url(./svg/together.svg);
 	position: absolute;
-    margin-top: 1085px;
+	margin-top: 1085px;
 	margin-left: -15px;
 	z-index: 2;
 }
@@ -84,9 +83,9 @@ aside.sidebar::after {
 
 }
 
-.extra6{
+.extra6 {
 	content: url(./svg/stairs.svg);
-	position:absolute;
+	position: absolute;
 	margin-top: 5150px;
 	margin-left: 10px;
 	z-index: -1;
@@ -102,6 +101,30 @@ aside.sidebar::after {
 
 	}
 
+	/* link and zelda */
+	aside.sidebar::before {
+		margin-top: 1230px;
+		margin-left: -80px;
+	}
+
+	/* world */
+	aside.sidebar::after {
+		margin: 220px auto 0 -70px;
+		z-index:3;
+		font-weight: normal;
+
+	}
+/*stairs*/
+	.extra6 {
+		z-index: 0;
+		margin-top: 4980px;
+		margin-left: -100px;
+	}
+
 }
 
+/*--------------------767----------------------*/
 
+@media screen and (min-width: $KindleWidth) {
+
+}
