@@ -102,7 +102,7 @@ h3 {
   header::after {
     position: fixed;
     margin-top: -60px;
-    margin-left: 5px;
+    margin-left: 25px;
   }
 
   h1,
@@ -111,7 +111,7 @@ h2 {
   }
 
   .summary {
-    padding: 0 70px 0 120px;
+    padding: 0 90px 0 120px;
     line-height: 1.5em;
   }
 }
@@ -119,20 +119,25 @@ h2 {
 @media screen and (min-width: 767px) {
   body {
     max-width: 767px;
-    min-width: 800px;
     margin: auto;
     /*grid-template-columns: repeat(4, 1fr);*/
   }
 
   header {
+    max-width: 767px;
     height: 150px;
     margin-top: -50px;
   }
 
   h1,
 h2 {
-    width: 790px;
+    width: 767px;
     text-align: center;
+  }
+
+  h1 {
+    font-size: 45px;
+    line-height: 1em;
   }
 
   .summary {
@@ -144,14 +149,14 @@ h2 {
     content: url(./svg/littleZelda.svg);
     position: fixed;
     margin-top: -213px;
-    margin-left: 180px;
+    margin-left: 133px;
   }
 
   /* Link: */
   header::after {
     position: fixed;
     margin-top: -60px;
-    margin-left: 25px;
+    margin-left: 57px;
   }
 }
 /*.preamble {
@@ -289,12 +294,12 @@ div.preamble {
 @media screen and (min-width: 500px) {
   /* block1 */
   div.preamble {
-    margin: -15px auto -50px 125px;
+    margin: -15px auto -50px 139px;
   }
 
   /* cover1 */
   .extra1 {
-    margin: -2810px auto auto 199px;
+    margin: -2810px auto auto 213px;
   }
 }
 /*--------------------767----------------------*/
@@ -365,24 +370,24 @@ div.preamble {
 @media screen and (min-width: 500px) {
   /* block2 */
   .explanation {
-    margin: 0 auto -100px 122px;
+    margin: 0 auto -100px 140px;
   }
 
   /* cover2 */
   .extra2 {
-    margin: -2148px auto auto 146px;
+    margin: -2148px auto auto 164px;
   }
 }
 /*--------------------767----------------------*/
 @media screen and (min-width: 767px) {
   /* block2 */
   .explanation {
-    margin: 0 auto -100px 217px;
+    margin: 0 auto -100px 207px;
   }
 
   /* cover2 */
   .extra2 {
-    margin: -2148px auto auto 241px;
+    margin: -2148px auto auto 231px;
   }
 }
 .participation {
@@ -440,26 +445,26 @@ div.preamble {
 @media screen and (min-width: 500px) {
   /* block3 */
   .participation {
-    margin: 0 auto -50px 122px;
+    margin: 0 auto -50px 140px;
   }
 
   /* cover3 */
   .extra3 {
     margin-top: -1430px;
-    margin-left: 160px;
+    margin-left: 178px;
   }
 }
-/*--------------------500----------------------*/
+/*--------------------767----------------------*/
 @media screen and (min-width: 767px) {
   /* block3 */
   .participation {
-    margin: 0 auto -50px 217px;
+    margin: 0 auto -50px 207px;
   }
 
   /* cover3 */
   .extra3 {
     margin-top: -1430px;
-    margin-left: 255px;
+    margin-left: 245px;
   }
 }
 .benefits {
@@ -510,24 +515,24 @@ div.preamble {
 @media screen and (min-width: 500px) {
   /* block4 */
   .benefits {
-    margin-left: 127px;
+    margin-left: 145px;
   }
 
   /* cover4 */
   .extra4 {
-    margin: -505px auto auto 144px;
+    margin: -505px auto auto 162px;
   }
 }
 /*--------------------767----------------------*/
 @media screen and (min-width: 767px) {
   /* block4 */
   .benefits {
-    margin-left: 222px;
+    margin-left: 212px;
   }
 
   /* cover4 */
   .extra4 {
-    margin: -505px auto auto 239px;
+    margin: -505px auto auto 229px;
   }
 }
 .requirements {
@@ -591,24 +596,24 @@ div.preamble {
 @media screen and (min-width: 500px) {
   /* block5 */
   .requirements {
-    margin: 0 auto 0px 108px;
+    margin: 0 auto 0px 135px;
   }
 
   /* cover5 */
   .extra5 {
-    margin: 3303px auto auto 180px;
+    margin: 3303px auto auto 207px;
   }
 }
 /*--------------------767----------------------*/
 @media screen and (min-width: 767px) {
   /* block5 */
   .requirements {
-    margin: 0 auto 0px 208px;
+    margin: 0 auto 0px 198px;
   }
 
   /* cover5 */
   .extra5 {
-    margin: 3252px auto auto 280px;
+    margin: 3278px auto auto 270px;
   }
 }
 aside.sidebar {
@@ -716,7 +721,7 @@ aside.sidebar::after {
 
   /* world */
   aside.sidebar::after {
-    margin: 220px auto 0 -97px;
+    margin: 180px auto 0 -97px;
     z-index: 3;
     font-weight: normal;
   }
@@ -724,7 +729,7 @@ aside.sidebar::after {
   /*castle*/
   .extra6 {
     z-index: 0;
-    margin-top: 4980px;
+    margin-top: 4940px;
     margin-left: -110px;
   }
 }
@@ -732,25 +737,25 @@ aside.sidebar::after {
 @media screen and (min-width: 767px) {
   /* block6 */
   aside.sidebar {
-    margin: 1010px auto 0px 190px;
+    margin: 1010px auto 0px 180px;
   }
 
   /*castle*/
   .extra6 {
     z-index: 0;
-    margin-top: 4880px;
+    margin-top: 4920px;
     margin-left: 23px;
   }
 
   /* link and zelda */
   aside.sidebar::before {
     margin-top: 1270px;
-    margin-left: -15px;
+    margin-left: -5px;
   }
 
   /* world */
   aside.sidebar::after {
-    margin: 190px auto 0 -14px;
+    margin: 190px auto 0 -4px;
     z-index: 3;
     font-weight: normal;
   }
