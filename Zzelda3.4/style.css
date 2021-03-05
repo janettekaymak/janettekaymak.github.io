@@ -623,7 +623,7 @@ aside.sidebar::before {
   content: url(./svg/together.svg);
   position: absolute;
   margin-top: 1285px;
-  margin-left: -15px;
+  margin-left: 0px;
   z-index: 2;
 }
 
@@ -640,12 +640,12 @@ aside.sidebar::after {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#d2fcd2), color-stop(darkturquoise), to(purple));
   background-image: linear-gradient(#d2fcd2, darkturquoise, purple);
   border-radius: 600px;
-  margin: 420px auto 0 -28px;
+  margin: 180px auto 0 -28px;
   font-weight: bolder;
 }
 
 .extra6 {
-  content: url(./svg/pinkPalace.svg);
+  content: url(./svg/pinkCastle.svg);
   position: absolute;
   margin-top: 5150px;
   margin-left: 10px;
@@ -661,19 +661,19 @@ aside.sidebar::after {
   /* link and zelda */
   aside.sidebar::before {
     margin-top: 1285px;
-    margin-left: -65px;
+    margin-left: -90px;
   }
   /* world */
   aside.sidebar::after {
-    margin: 220px auto 0 -70px;
+    margin: 220px auto 0 -85px;
     z-index: 3;
     font-weight: normal;
   }
-  /*palace*/
+  /*castle*/
   .extra6 {
     z-index: 0;
     margin-top: 4980px;
-    margin-left: -100px;
+    margin-left: -115px;
   }
 }
 
