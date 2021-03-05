@@ -110,11 +110,12 @@ aside.sidebar::after {
 	/* world */
 	aside.sidebar::after {
 		margin: 220px auto 0 -85px;
-		z-index:3;
+		z-index: 3;
 		font-weight: normal;
 
 	}
-/*castle*/
+
+	/*castle*/
 	.extra6 {
 		z-index: 0;
 		margin-top: 4980px;
@@ -126,5 +127,26 @@ aside.sidebar::after {
 /*--------------------767----------------------*/
 
 @media screen and (min-width: $KindleWidth) {
+
+	/*castle*/
+	.extra6 {
+		z-index: 0;
+		margin-top: 4980px;
+		margin-left: -50px;
+	}
+
+	/* link and zelda */
+	aside.sidebar::before {
+		margin-top: 1285px;
+		margin-left: -40px;
+	}
+
+	/* world */
+	aside.sidebar::after {
+		margin: 220px auto 0 -35px;
+		z-index: 3;
+		font-weight: normal;
+
+	}
 
 }

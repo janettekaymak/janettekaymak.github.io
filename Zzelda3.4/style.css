@@ -1,13 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
-body {
-  background-color: #d2fcd2;
-  display: -ms-grid;
-  display: grid;
-  margin: -80px auto auto -10px;
-}
-
 .extra1:hover,
 .extra2:hover,
 .extra3:hover,
@@ -16,6 +9,13 @@ body {
   opacity: 0;
   -webkit-transition: 1.5s;
   transition: 1.5s;
+}
+
+body {
+  background-color: #d2fcd2;
+  display: -ms-grid;
+  display: grid;
+  margin: -80px auto auto -10px;
 }
 
 header {
@@ -117,6 +117,10 @@ h3 {
 
 /*--------------------767----------------------*/
 @media screen and (min-width: 767px) {
+  body {
+    max-width: 500px;
+    margin: auto;
+  }
   h1,
   h2 {
     width: 600px;
@@ -678,4 +682,23 @@ aside.sidebar::after {
 }
 
 /*--------------------767----------------------*/
+@media screen and (min-width: 767px) {
+  /*castle*/
+  .extra6 {
+    z-index: 0;
+    margin-top: 4980px;
+    margin-left: -50px;
+  }
+  /* link and zelda */
+  aside.sidebar::before {
+    margin-top: 1285px;
+    margin-left: -40px;
+  }
+  /* world */
+  aside.sidebar::after {
+    margin: 220px auto 0 -35px;
+    z-index: 3;
+    font-weight: normal;
+  }
+}
 /*# sourceMappingURL=style.css.map */
