@@ -43,7 +43,7 @@
 }
 .explanation:hover::after {
 	transform: translate(0px, 350px);
-	transition: transform 3s;
+	transition: transform 3s ease-in-out;
 }
 
 .explanation p:nth-child(3) {
@@ -62,5 +62,21 @@
 	/* cover2 */
 	.extra2 {
 		margin: -2148px auto auto 146px;
+	}
+}
+
+
+/*--------------------767----------------------*/
+
+@media screen and (min-width: $KindleWidth) {
+
+	/* block2 */
+	.explanation {
+		margin: 0 auto -100px 217px;
+	}
+
+	/* cover2 */
+	.extra2 {
+		margin: -2148px auto auto 241px;
 	}
 }

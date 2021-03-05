@@ -65,12 +65,23 @@
 		margin: 0 auto 0px 108px;
 	}
 
-	.requirements::after {
-		width: 375px;
-	} 
+	/* cover5 */
+	.extra5 {
+		margin: 3303px auto auto 180px;
+	}
+}
+
+/*--------------------767----------------------*/
+
+@media screen and (min-width: $KindleWidth) {
+
+	/* block5 */
+	.requirements {
+		margin: 0 auto 0px 208px;
+	}
 
 	/* cover5 */
 	.extra5 {
-		margin: 3301px auto auto 180px;
+		margin: 3252px auto auto 280px;
 	}
 }

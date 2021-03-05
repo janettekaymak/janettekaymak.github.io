@@ -118,26 +118,40 @@ h2 {
 /*--------------------767----------------------*/
 @media screen and (min-width: 767px) {
   body {
-    max-width: 500px;
+    max-width: 767px;
+    min-width: 800px;
     margin: auto;
+    /*grid-template-columns: repeat(4, 1fr);*/
+  }
+
+  header {
+    height: 150px;
+    margin-top: -50px;
   }
 
   h1,
 h2 {
-    width: 600px;
+    width: 790px;
     text-align: center;
   }
 
   .summary {
     text-align: center;
-    padding: 0 120px;
+    padding: 0 160px;
   }
 
   h2::after {
     content: url(./svg/littleZelda.svg);
     position: fixed;
     margin-top: -213px;
-    margin-left: 120px;
+    margin-left: 180px;
+  }
+
+  /* Link: */
+  header::after {
+    position: fixed;
+    margin-top: -60px;
+    margin-left: 25px;
   }
 }
 /*.preamble {
@@ -283,6 +297,18 @@ div.preamble {
     margin: -2810px auto auto 199px;
   }
 }
+/*--------------------767----------------------*/
+@media screen and (min-width: 767px) {
+  /* block1 */
+  div.preamble {
+    margin: -15px auto -50px 200px;
+  }
+
+  /* cover1 */
+  .extra1 {
+    margin: -2810px auto auto 274px;
+  }
+}
 .explanation h3 {
   font-family: "Merienda", cursive;
   font-size: 21px;
@@ -328,7 +354,7 @@ div.preamble {
 
 .explanation:hover::after {
   transform: translate(0px, 350px);
-  transition: transform 3s;
+  transition: transform 3s ease-in-out;
 }
 
 .explanation p:nth-child(3) {
@@ -345,6 +371,18 @@ div.preamble {
   /* cover2 */
   .extra2 {
     margin: -2148px auto auto 146px;
+  }
+}
+/*--------------------767----------------------*/
+@media screen and (min-width: 767px) {
+  /* block2 */
+  .explanation {
+    margin: 0 auto -100px 217px;
+  }
+
+  /* cover2 */
+  .extra2 {
+    margin: -2148px auto auto 241px;
   }
 }
 .participation {
@@ -411,6 +449,19 @@ div.preamble {
     margin-left: 160px;
   }
 }
+/*--------------------500----------------------*/
+@media screen and (min-width: 767px) {
+  /* block3 */
+  .participation {
+    margin: 0 auto -50px 217px;
+  }
+
+  /* cover3 */
+  .extra3 {
+    margin-top: -1430px;
+    margin-left: 255px;
+  }
+}
 .benefits {
   width: 360px;
   height: 600px;
@@ -451,7 +502,7 @@ div.preamble {
 
 .benefits:hover::after {
   transform: translate(0px, 292px);
-  transition: transform 2s ease-in-out;
+  transition: transform 3s ease-in-out;
   z-index: -1;
 }
 
@@ -466,10 +517,17 @@ div.preamble {
   .extra4 {
     margin: -505px auto auto 144px;
   }
+}
+/*--------------------767----------------------*/
+@media screen and (min-width: 767px) {
+  /* block4 */
+  .benefits {
+    margin-left: 222px;
+  }
 
-  .benefits:hover::after {
-    transform: translate(0px, 292px);
-    transition: transform 3s ease-in-out;
+  /* cover4 */
+  .extra4 {
+    margin: -505px auto auto 239px;
   }
 }
 .requirements {
@@ -536,13 +594,21 @@ div.preamble {
     margin: 0 auto 0px 108px;
   }
 
-  .requirements::after {
-    width: 375px;
+  /* cover5 */
+  .extra5 {
+    margin: 3303px auto auto 180px;
+  }
+}
+/*--------------------767----------------------*/
+@media screen and (min-width: 767px) {
+  /* block5 */
+  .requirements {
+    margin: 0 auto 0px 208px;
   }
 
   /* cover5 */
   .extra5 {
-    margin: 3301px auto auto 180px;
+    margin: 3252px auto auto 280px;
   }
 }
 aside.sidebar {
@@ -639,18 +705,18 @@ aside.sidebar::after {
 @media screen and (min-width: 500px) {
   /* block6 */
   aside.sidebar {
-    margin: 1010px auto 0px 125px;
+    margin: 1010px auto 0px 140px;
   }
 
   /* link and zelda */
   aside.sidebar::before {
     margin-top: 1285px;
-    margin-left: -90px;
+    margin-left: -98px;
   }
 
   /* world */
   aside.sidebar::after {
-    margin: 220px auto 0 -85px;
+    margin: 220px auto 0 -97px;
     z-index: 3;
     font-weight: normal;
   }
@@ -659,27 +725,32 @@ aside.sidebar::after {
   .extra6 {
     z-index: 0;
     margin-top: 4980px;
-    margin-left: -115px;
+    margin-left: -110px;
   }
 }
 /*--------------------767----------------------*/
 @media screen and (min-width: 767px) {
+  /* block6 */
+  aside.sidebar {
+    margin: 1010px auto 0px 190px;
+  }
+
   /*castle*/
   .extra6 {
     z-index: 0;
-    margin-top: 4980px;
-    margin-left: -50px;
+    margin-top: 4880px;
+    margin-left: 23px;
   }
 
   /* link and zelda */
   aside.sidebar::before {
-    margin-top: 1285px;
-    margin-left: -40px;
+    margin-top: 1270px;
+    margin-left: -15px;
   }
 
   /* world */
   aside.sidebar::after {
-    margin: 220px auto 0 -35px;
+    margin: 190px auto 0 -14px;
     z-index: 3;
     font-weight: normal;
   }

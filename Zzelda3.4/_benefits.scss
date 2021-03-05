@@ -39,7 +39,7 @@
   
   .benefits:hover::after{
 	transform: translate(0px, 292px);
-	transition: transform 2s ease-in-out;
+	transition: transform 3s ease-in-out;
 	z-index: -1;
 }
 
@@ -58,9 +58,22 @@
 
 	}
 
-	.benefits:hover::after{
-		transform: translate(0px, 292px);
-		transition: transform 3s ease-in-out;
+}
+
+/*--------------------767----------------------*/
+
+@media screen and (min-width: $KindleWidth) {
+
+	/* block4 */
+	.benefits {
+		margin-left: 222px;
 	}
+
+	/* cover4 */
+	.extra4 {
+		margin: -505px auto auto 239px;
+
+	}
+
 
 }

@@ -116,28 +116,42 @@ h3 {
 @media screen and (min-width: $KindleWidth ) {
 
 	body {
-		max-width: $SmallRespWidth;
+		max-width: $KindleWidth;
+		min-width: 800px;
 		margin: auto;
+		/*grid-template-columns: repeat(4, 1fr);*/
 
+	}
+
+	header {
+		height: 150px;
+		margin-top: -50px;
 	}
 
 	h1,
 	h2 {
-		width: 600px;
+		width: 790px;
 		text-align: center;
 	}
 
 	.summary {
 		text-align: center;
-		padding: 0 120px;
+		padding: 0 160px;
 	}
 
 	h2::after{
 		content:url(./svg/littleZelda.svg);
 		position: fixed;
 		margin-top: -213px;
-		margin-left: 120px;
+		margin-left: 180px;
 	}
+
+		/* Link: */
+		header::after {
+			position: fixed;
+			margin-top: -60px;
+			margin-left: 25px;
+		}
 
 
 }
