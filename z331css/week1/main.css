@@ -8,7 +8,6 @@ header {
   margin-left: -40px;
   margin-right: -35px;
 }
-
 header ul li a {
   line-height: 2em;
   color: #FAEBD7;
@@ -37,15 +36,12 @@ h1 a {
 h2 {
   font-family: Lora, serif, cursive;
 }
-
 h2 a {
   color: black;
 }
-
 h2 a:active {
   color: #a19585;
 }
-
 h2 a:hover {
   color: #6495ED;
   text-decoration: underline;
@@ -67,7 +63,6 @@ article {
 nav a:active {
   color: #DEB887;
 }
-
 nav a:hover {
   color: white;
   text-decoration: underline;
@@ -77,11 +72,9 @@ p a:link,
 p a:visited {
   color: #6495ED;
 }
-
 p a:active {
   color: #DEB887;
 }
-
 p a:hover {
   text-decoration: underline;
 }
@@ -94,20 +87,20 @@ img {
 
 @media screen and (min-width: 805px) {
   body {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
+
   header {
     float: left;
     height: 100%;
   }
+
   main {
     margin-left: 400px;
     margin-right: 50px;
   }
+
   article {
     margin-bottom: 50px;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
