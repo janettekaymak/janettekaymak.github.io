@@ -103,7 +103,7 @@ h3 {
   header::after {
     position: fixed;
     margin-top: -60px;
-    margin-left: 25px;
+    margin-left: 10px;
   }
   h1,
   h2 {
@@ -293,11 +293,11 @@ div.preamble {
 @media screen and (min-width: 500px) {
   /* block1 */
   div.preamble {
-    margin: -15px auto -50px 139px;
+    margin: -15px auto -50px 124px;
   }
   /* cover1 */
   .extra1 {
-    margin: -2810px auto auto 213px;
+    margin: -2810px auto auto 198px;
   }
 }
 
@@ -373,11 +373,11 @@ div.preamble {
 @media screen and (min-width: 500px) {
   /* block2 */
   .explanation {
-    margin: 0 auto -100px 140px;
+    margin: 0 auto -100px 125px;
   }
   /* cover2 */
   .extra2 {
-    margin: -2148px auto auto 164px;
+    margin: -2148px auto auto 149px;
   }
 }
 
@@ -452,12 +452,12 @@ div.preamble {
 @media screen and (min-width: 500px) {
   /* block3 */
   .participation {
-    margin: 0 auto -50px 140px;
+    margin: 0 auto -50px 125px;
   }
   /* cover3 */
   .extra3 {
     margin-top: -1430px;
-    margin-left: 178px;
+    margin-left: 163px;
   }
 }
 
@@ -526,11 +526,11 @@ div.preamble {
 @media screen and (min-width: 500px) {
   /* block4 */
   .benefits {
-    margin-left: 145px;
+    margin-left: 130px;
   }
   /* cover4 */
   .extra4 {
-    margin: -505px auto auto 162px;
+    margin: -505px auto auto 147px;
   }
 }
 
@@ -603,7 +603,7 @@ div.preamble {
 .extra5 {
   content: url(./svg/cover5.svg);
   position: absolute;
-  margin: 3490px auto auto 80px;
+  margin: 3489px auto auto 80px;
   z-index: 3;
 }
 
@@ -611,11 +611,11 @@ div.preamble {
 @media screen and (min-width: 500px) {
   /* block5 */
   .requirements {
-    margin: 0 auto 0px 135px;
+    margin: 0 auto 0px 110px;
   }
   /* cover5 */
   .extra5 {
-    margin: 3303px auto auto 207px;
+    margin: 3328px auto auto 182px;
   }
 }
 
@@ -726,24 +726,24 @@ aside.sidebar::after {
 @media screen and (min-width: 500px) {
   /* block6 */
   aside.sidebar {
-    margin: 1010px auto 0px 140px;
+    margin: 1010px auto 0px 125px;
   }
   /* link and zelda */
   aside.sidebar::before {
-    margin-top: 1285px;
-    margin-left: -98px;
+    margin-top: 1280px;
+    margin-left: -83px;
   }
   /* world */
   aside.sidebar::after {
-    margin: 180px auto 0 -97px;
+    margin: 170px auto 0 -47px;
     z-index: 3;
     font-weight: normal;
   }
   /*castle*/
   .extra6 {
     z-index: 0;
-    margin-top: 4940px;
-    margin-left: -110px;
+    margin-top: 4965px;
+    margin-left: -75px;
   }
 }
 
