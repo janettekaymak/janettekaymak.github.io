@@ -240,7 +240,7 @@ h2{
 }
 
 #portfolio {
-  color: rgb(128, 0, 70);
+  color: transparent;
   text-align: center;
   font-family: "Raleway", Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
@@ -253,7 +253,7 @@ div.bigCircle {
   margin: auto auto -60px auto;
   max-width: 360px;
   min-height: 360px;
-  border: dotted 3px rgb(0, 0, 0, .0);
+  border: solid 3px black;
   border-radius: 300px;
   /*background: radial-gradient(black, rgb(243, 255, 219),
       rgb(226, 250, 178));*/
@@ -450,7 +450,7 @@ div.circle p, .grid-box p {
 }
 
 #purple:hover {
-border: solid 3px yellow;
+border: solid 3px purple;
   transition: 1s;
 }
 
