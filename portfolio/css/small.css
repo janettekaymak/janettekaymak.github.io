@@ -210,11 +210,11 @@ THE ROSES ARE ABOVE ^ AND EVERYTHING ELSE IS BELOW \/
 
 div.wrapper {
   max-width: 767px;
-  background-color: rgb(238, 255, 205);
+  background-color: /*rgb(238, 255, 205);*/darkgreen;
   display: block;
   margin: -8px auto auto auto;
-  background-image: url(https://janettekaymak.github.io/portfolio/images/grass.png);
-  border: 25px darkseagreen;
+  /*background-image: url(https://janettekaymak.github.io/portfolio/images/grass.png);
+  border: 25px darkseagreen;*/
   border-style: ridge none none none;
 
 }
@@ -224,18 +224,18 @@ h1 {
   text-align: center;
   font-family: Reggae One, cursive;
   font-size: 45px;
-  text-shadow: darkseagreen 0 0 1px, darkseagreen 0 0 2px, darkseagreen 0 0 3px,
-    darkseagreen 0 0 4px, darkseagreen 0 0 5px, darkseagreen 0 0 6px, darkseagreen 0 0 7px,
-    darkseagreen 0 0 8px, darkseagreen 0 0 9px, darkseagreen 0 0 10px;
+  text-shadow: white 0 0 1px, white 0 0 2px, white 0 0 3px,
+    white 0 0 4px/*, white 0 0 5px, white 0 0 6px, white 0 0 7px,
+    white 0 0 8px, white 0 0 9px, white 0 0 10px;*/;
 }
 h1.up{
   margin-top: -70px;
 }
 
 h2{
-  color: rgb(128, 0, 70);
+  color: transparent;
   text-align: center;
-  font-family: "Raleway", Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Calibri, sans-serif;
   font-size: 20px;
 }
 
@@ -255,8 +255,9 @@ div.bigCircle {
   min-height: 360px;
   border: dotted 3px rgb(0, 0, 0, .0);
   border-radius: 300px;
-  background: radial-gradient(black, rgb(243, 255, 219),
-      rgb(226, 250, 178));
+  /*background: radial-gradient(black, rgb(243, 255, 219),
+      rgb(226, 250, 178));*/
+      background-color: black;
 }
 
 nav p a {
@@ -265,18 +266,18 @@ nav p a {
 }
 
 #me {
-  opacity: .5;
+  /*opacity: .5;*/
   display: block;
   position: relative;
   width: 125px;
   border-radius: 150px;
   margin: 112px auto auto 115px;
-  border: solid 3px grey;
+  border: solid 3px /*grey*/ black;
 
 }
 
 #me:hover {
-  opacity: 1;
+  box-shadow: 0 0 0 120px rgb(170, 2, 36);
   transition: 1s;
 }
 
@@ -285,7 +286,7 @@ div.circle {
   width: 117px;
   height: 117px;
   border-radius: 100px;
-  border: solid 3px grey;
+  border: solid 3px /*grey*/black;
 }
 
 div.circle p, .grid-box p {
@@ -320,8 +321,9 @@ div.circle p, .grid-box p {
 }
 
 #red:hover {
-  box-shadow: 0 0 0 100px rgb(252, 40, 252, .5);
+
   transition: 1s;
+  border: solid 3px red;
 }
 
 #orange {
@@ -345,8 +347,8 @@ div.circle p, .grid-box p {
 }
 
 #orange:hover {
-  box-shadow: 0 0 0 100px rgb(255, 69, 0, .5);
   transition: 1s;
+  border: solid 3px orange;
 }
 
 #yellow {
@@ -370,8 +372,9 @@ div.circle p, .grid-box p {
 }
 
 #yellow:hover {
-  box-shadow: 0 0 0 100px rgb(255, 208, 0, .5);
+
   transition: 1s;
+  border: solid 3px yellow;
 }
 
 #green {
@@ -395,8 +398,9 @@ div.circle p, .grid-box p {
 }
 
 #green:hover {
-  box-shadow: 0 0 0 100px rgb(173, 255, 47, .5);
+
   transition: 1s;
+  border: solid 3px green;
 }
 
 #blue {
@@ -420,7 +424,8 @@ div.circle p, .grid-box p {
 }
 
 #blue:hover {
-  box-shadow: 0 0 0 100px rgb(0, 128, 128, .5);
+
+  border:solid blue 3px;
   transition: 1s;
 }
 
@@ -445,7 +450,7 @@ div.circle p, .grid-box p {
 }
 
 #purple:hover {
-  box-shadow: 0 0 0 100px rgb(138, 43, 226, .5);
+border: solid 3px yellow;
   transition: 1s;
 }
 
@@ -478,8 +483,8 @@ footer img:hover{
 }
 
 footer {
-  height: 300px;
-  background: rgb(128, 0, 70);
+  height: 200px;
+  background: /*rgb(128, 0, 70)*/rgb(156, 2, 33);
   margin: 200px auto auto auto;
-  border: ridge 25px darkseagreen;
+  border: ridge 25px rgb(134, 2, 28);
 }

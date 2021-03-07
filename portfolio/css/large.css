@@ -2,7 +2,7 @@
 
     div.wrapper {
         max-width: 1000px;
-        border: ridge 25px darkseagreen;
+        border: ridge 25px rgb(134, 2, 28);
         border-radius: 25px;
         margin-top: 0;
     }

@@ -2,7 +2,7 @@
 
   div.wrapper {
     max-width: 900px;
-    border: ridge 25px darkseagreen;
+    border: ridge 25px rgb(156, 2, 33);
     border-radius: 25px;
     margin-top: 0;
   }
@@ -46,7 +46,7 @@
   }
 
   footer {
-    border: 25px darkseagreen;
+    border: 25px rgb(134, 2, 28);
     border-style: ridge none none none;
   }
 
