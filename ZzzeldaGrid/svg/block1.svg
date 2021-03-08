@@ -1,0 +1,31 @@
+<svg width="360" height="760"
+	xmlns="http://www.w3.org/2000/svg" id="block1">
+	<defs>
+		<!-- grey bricks -->
+		<pattern id="my3pattern" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
+			<rect width="50" height="15" x="0" y="0" fill="lightgrey"/>
+			<rect width="23.5" height="6.5" x="0" y="0" rx="1" fill="grey" />
+			<rect width="23.5" height="6.5" x="25" y="0" rx="1" fill="#717171" />
+			<rect width="12" height="6.5" x="0" y="7.5" fill="dimgrey"/>
+			<rect width="23.5" height="6.5" x="13" y="7.5" rx="1" fill="#808080" />
+			<rect width="12" height="6.5" x="38" y="7.5" fill="dimgrey"/>
+		</pattern>
+		<!-- define tree pattern -->
+		<pattern id="treePattern" patternUnits="userSpaceOnUse" x="0" y="0" height="50" width="50">
+			<rect width="10" height="10" x="20" y="40" fill="maroon" />
+			<polygon points="25,0 40,15 30,15 45,25 35,25 50,40 0,40 15,25 5,25 20,15 10,15 " style="fill:darkgreen;"/>
+		</pattern>
+	</defs>
+	<!-- build block1 -->
+	<rect width="310" height="326" x="50" y="50" fill="url(#my3pattern)"/>
+	<rect width="228" height="188" x="94" y="373" fill="url(#my3pattern)"/>
+	<rect width="262" height="275" x="74" y="74" fill="#9d2c4e" />
+	<rect width="180" height="188" x="118" y="349" fill="#9d2c4e" />
+	<rect width="350" height="50" x="0" y="0" fill="url(#treePattern)"/>
+	<rect width="50" height="400" x="0" y="50" fill="url(#treePattern)" />
+	<rect width="50" height="150" x="50" y="400" fill="url(#treePattern)"/>
+	<!--bridge button-->
+	<text x="172" y="580" fill="saddlebrown" font-family="sans-serif" font-size="18">
+		click here
+	</text>
+</svg>

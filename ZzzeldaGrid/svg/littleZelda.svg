@@ -1,0 +1,425 @@
+<svg width="320" height="470"
+    xmlns="http://www.w3.org/2000/svg" id="largeZelda" viewBox="0 0 1100 470">
+    <!--row 1-->
+			<rect width="60" height="10" x="110" y="0" fill="black" />
+			<!--row 2-->
+			<rect width="30" height="10" x="90" y="10" fill="black" />
+			<rect width="40" height="10" x="120" y="10" fill="gold" />
+			<rect width="30" height="10" x="160" y="10" fill="black" />
+			<!--row 3-->
+			<rect width="30" height="10" x="70" y="20" fill="black" />
+			<rect width="80" height="10" x="100" y="20" fill="gold" />
+			<rect width="30" height="10" x="180" y="20" fill="black" />
+			<!--row 4-->
+			<rect width="20" height="10" x="60" y="30" fill="black" />
+			<rect width="120" height="10" x="80" y="30" fill="gold" />
+			<rect width="20" height="10" x="200" y="30" fill="black" />
+			<!--row 5-->
+			<rect width="20" height="10" x="50" y="40" fill="black" />
+			<rect width="140" height="10" x="70" y="40" fill="gold" />
+			<rect width="20" height="10" x="210" y="40" fill="black" />
+			<!--row 6-->
+			<rect width="10" height="10" x="50" y="50" fill="black" />
+			<rect width="160" height="10" x="60" y="50" fill="gold" />
+			<rect width="10" height="10" x="220" y="50" fill="black" />
+			<!--row 7-->
+			<rect width="20" height="10" x="40" y="60" fill="black" />
+			<rect width="160" height="10" x="60" y="60" fill="gold" />
+			<rect width="20" height="10" x="220" y="60" fill="black" />
+			<!--row 8-->
+			<rect width="10" height="10" x="40" y="70" fill="black" />
+			<rect width="50" height="10" x="50" y="70" fill="gold" />
+			<rect width="20" height="10" x="100" y="70" fill="black" />
+			<rect width="10" height="10" x="120" y="70" fill="gold" />
+			<rect width="20" height="10" x="130" y="70" fill="black" />
+			<rect width="10" height="10" x="150" y="70" fill="gold" />
+			<rect width="20" height="10" x="160" y="70" fill="black" />
+			<rect width="50" height="10" x="180" y="70" fill="gold" />
+			<rect width="10" height="10" x="230" y="70" fill="black" />
+			<!--row 9-->
+			<rect width="20" height="10" x="30" y="80" fill="black" />
+			<rect width="10" height="10" x="50" y="80" fill="gold" />
+			<rect width="20" height="10" x="60" y="80" fill="black" />
+			<rect width="10" height="10" x="80" y="80" fill="gold" />
+			<rect width="10" height="10" x="90" y="80" fill="black" />
+			<rect width="20" height="10" x="100" y="80" fill="limegreen" />
+			<rect width="10" height="10" x="120" y="80" fill="black" />
+			<rect width="20" height="10" x="130" y="80" fill="#b200ff" />
+			<rect width="10" height="10" x="150" y="80" fill="black" />
+			<rect width="20" height="10" x="160" y="80" fill="limegreen" />
+			<rect width="10" height="10" x="180" y="80" fill="black" />
+			<rect width="10" height="10" x="190" y="80" fill="gold" />
+			<rect width="20" height="10" x="200" y="80" fill="black" />
+			<rect width="10" height="10" x="220" y="80" fill="gold" />
+			<rect width="20" height="10" x="230" y="80" fill="black" />
+			<!--row 10-->
+			<rect width="10" height="10" x="30" y="90" fill="black" />
+			<rect width="10" height="10" x="40" y="90" fill="limegreen" />
+			<rect width="20" height="10" x="50" y="90" fill="black" />
+			<rect width="10" height="10" x="70" y="90" fill="limegreen" />
+			<rect width="10" height="10" x="80" y="90" fill="black" />
+			<rect width="10" height="10" x="90" y="90" fill="limegreen" />
+			<rect width="20" height="10" x="100" y="90" fill="black" />
+			<rect width="10" height="10" x="120" y="90" fill="limegreen" />
+			<rect width="20" height="10" x="130" y="90" fill="#b200ff" />
+			<rect width="10" height="10" x="150" y="90" fill="limegreen" />
+			<rect width="20" height="10" x="160" y="90" fill="black" />
+			<rect width="10" height="10" x="180" y="90" fill="limegreen" />
+			<rect width="10" height="10" x="190" y="90" fill="black" />
+			<rect width="10" height="10" x="200" y="90" fill="limegreen" />
+			<rect width="20" height="10" x="210" y="90" fill="black" />
+			<rect width="10" height="10" x="230" y="90" fill="limegreen" />
+			<rect width="10" height="10" x="240" y="90" fill="black" />
+			<!--row 11-->
+			<rect width="10" height="10" x="30" y="100" fill="black" />
+			<rect width="20" height="10" x="40" y="100" fill="limegreen" />
+			<rect width="10" height="10" x="60" y="100" fill="black" />
+			<rect width="20" height="10" x="70" y="100" fill="limegreen" />
+			<rect width="10" height="10" x="90" y="100" fill="black" />
+			<rect width="10" height="10" x="100" y="100" fill="limegreen" />
+			<rect width="10" height="10" x="110" y="100" fill="black" />
+			<rect width="10" height="10" x="120" y="100" fill="limegreen" />
+			<rect width="20" height="10" x="130" y="100" fill="#b200ff" />
+			<rect width="10" height="10" x="150" y="100" fill="limegreen" />
+			<rect width="10" height="10" x="160" y="100" fill="black" />
+			<rect width="10" height="10" x="170" y="100" fill="limegreen" />
+			<rect width="10" height="10" x="180" y="100" fill="black" />
+			<rect width="20" height="10" x="190" y="100" fill="limegreen" />
+			<rect width="10" height="10" x="210" y="100" fill="black" />
+			<rect width="20" height="10" x="220" y="100" fill="limegreen" />
+			<rect width="10" height="10" x="240" y="100" fill="black" />
+
+			<!--switch here to columns-->
+			<!--column 1-->
+			<rect height="40" width="10" y="110" x="0" fill="black" />
+			<!--column 2-->
+			<rect height="10" width="10" y="110" x="10" fill="black" />
+			<rect height="30" width="10" y="120" x="10" fill="#ffa5d2" />
+			<rect height="10" width="10" y="150" x="10" fill="black" />
+			<!--column 3-->
+			<rect height="10" width="10" y="120" x="20" fill="black" />
+			<rect height="30" width="10" y="130" x="20" fill="#f8c0bc" class="skin" />
+			<rect height="10" width="10" y="160" x="20" fill="black" />
+			<rect height="30" width="10" y="310" x="20" fill="black" />
+			<!--column 4-->
+			<rect height="160" width="10" y="110" x="30" fill="black" />
+			<rect height="20" width="10" y="290" x="30" fill="black" />
+			<rect height="30" width="10" y="310" x="30" fill="white" />
+			<rect height="10" width="10" y="340" x="30" fill="black" />
+			<rect height="30" width="10" y="390" x="30" fill="black" />
+			<!--column 5-->
+			<rect height="10" width="10" y="110" x="40" fill="black" />
+			<rect height="150" width="10" y="120" x="40" fill="gold" />
+			<rect height="20" width="10" y="270" x="40" fill="black" />
+			<rect height="50" width="10" y="290" x="40" fill="white" />
+			<rect height="10" width="10" y="340" x="40" fill="black" />
+			<rect height="30" width="10" y="360" x="40" fill="black" />
+			<rect height="30" width="10" y="390" x="40" fill="#b200ff" />
+			<rect height="20" width="10" y="420" x="40" fill="black" />
+			<!--column 6-->
+			<rect height="170" width="10" y="110" x="50" fill="black" />
+			<rect height="10" width="10" y="280" x="50" fill="white" />
+			<rect height="10" width="10" y="290" x="50" fill="black" />
+			<rect height="30" width="10" y="300" x="50" fill="white" />
+			<rect height="30" width="10" y="330" x="50" fill="black" />
+			<rect height="70" width="10" y="360" x="50" fill="#b200ff" />
+			<rect height="10" width="10" y="430" x="50" fill="black" />
+			<!--column 7-->
+			<rect height="170" width="10" y="110" x="60" fill="gold" />
+			<rect height="10" width="10" y="280" x="60" fill="black" />
+			<rect height="10" width="10" y="290" x="60" fill="white" />
+			<rect height="50" width="10" y="300" x="60" fill="black" />
+			<rect height="80" width="10" y="350" x="60" fill="purple" />
+			<rect height="20" width="10" y="430" x="60" fill="black" />
+			<!--column 8-->
+			<rect height="10" width="10" y="110" x="70" fill="black" />
+			<rect height="20" width="10" y="120" x="70" fill="gold" />
+			<rect height="30" width="10" y="140" x="70" fill="black" />
+			<rect height="30" width="10" y="170" x="70" fill="#f8c0bc" class="skin" />
+			<rect height="130" width="10" y="200" x="70" fill="black" />
+			<rect height="120" width="10" y="330" x="70" fill="#b200ff" />
+			<rect height="10" width="10" y="450" x="70" fill="black" />
+			<!--column 9-->
+			<rect height="30" width="10" y="110" x="80" fill="black" />
+			<rect height="10" width="10" y="140" x="80" fill="#b200ff" />
+			<rect height="10" width="10" y="150" x="80" fill="black" />
+			<rect height="20" width="10" y="160" x="80" fill="#f8c0bc" class="skin" />
+			<rect height="20" width="10" y="180" x="80" fill="black" />
+			<rect height="10" width="10" y="200" x="80" fill="#f8c0bc" class="skin" />
+			<rect height="10" width="10" y="210" x="80" fill="black" />
+			<rect height="20" width="10" y="220" x="80" fill="gold" />
+			<rect height="40" width="10" y="240" x="80" fill="black" />
+			<rect height="30" width="10" y="280" x="80" fill="deeppink" />
+			<rect height="10" width="10" y="310" x="80" fill="black" />
+			<rect height="130" width="10" y="320" x="80" fill="#b200ff" />
+			<rect height="10" width="10" y="450" x="80" fill="black" />
+			<!--column 10-->
+			<rect height="30" width="10" y="110" x="90" fill="limegreen" />
+			<rect height="20" width="10" y="140" x="90" fill="black" />
+			<rect height="10" width="10" y="160" x="90" fill="#f8c0bc" class="skin" />
+			<rect height="10" width="10" y="170" x="90" fill="black" />
+			<rect height="10" width="10" y="180" x="90" fill="black" />
+			<rect height="10" width="10" y="190" x="90" fill="deepskyblue" />
+			<rect height="20" width="10" y="200" x="90" fill="#ffa5d2" />
+			<rect height="20" width="10" y="220" x="90" fill="black" />
+			<rect height="20" width="10" y="240" x="90" fill="#b200ff" />
+			<rect height="20" width="10" y="260" x="90" fill="deeppink" />
+			<rect height="10" width="10" y="280" x="90" fill="limegreen" />
+			<rect height="10" width="10" y="290" x="90" fill="deeppink" />
+			<rect height="10" width="10" y="300" x="90" fill="black" />
+			<rect height="20" width="10" y="310" x="90" fill="#b200ff" />
+			<rect height="10" width="10" y="330" x="90" fill="limegreen" />
+			<rect height="110" width="10" y="340" x="90" fill="purple" />
+			<rect height="10" width="10" y="450" x="90" fill="black" />
+			<!--column 11-->
+			<rect height="20" width="10" y="110" x="100" fill="limegreen" />
+			<rect height="10" width="10" y="130" x="100" fill="black" />
+			<rect height="10" width="10" y="140" x="100" fill="limegreen" />
+			<rect height="10" width="10" y="150" x="100" fill="black" />
+			<rect height="10" width="10" y="160" x="100" fill="#f8c0bc" class="skin" />
+			<rect height="10" width="10" y="170" x="100" fill="black" />
+			<rect height="10" width="10" y="180" x="100" fill="deepskyblue" />
+			<rect height="10" width="10" y="190" x="100" fill="white" />
+			<rect height="20" width="10" y="200" x="100" fill="#ffa5d2" />
+			<rect height="10" width="10" y="220" x="100" fill="black" />
+			<rect height="20" width="10" y="230" x="100" fill="limegreen" />
+			<rect height="20" width="10" y="250" x="100" fill="#b200ff" />
+			<rect height="20" width="10" y="270" x="100" fill="deeppink" />
+			<rect height="10" width="10" y="290" x="100" fill="limegreen" />
+			<rect height="10" width="10" y="300" x="100" fill="black" />
+			<rect height="10" width="10" y="310" x="100" fill="#b200ff" />
+			<rect height="20" width="10" y="320" x="100" fill="limegreen" />
+			<rect height="120" width="10" y="340" x="100" fill="#b200ff" />
+			<rect height="10" width="10" y="460" x="100" fill="black" />
+			<!--column 12-->
+			<rect height="20" width="10" y="110" x="110" fill="black" />
+			<rect height="10" width="10" y="130" x="110" fill="#b200ff" />
+			<rect height="10" width="10" y="140" x="110" fill="black" />
+			<rect height="10" width="10" y="150" x="110" fill="#b200ff" />
+			<rect height="20" width="10" y="160" x="110" fill="#f8c0bc" class="skin" />
+			<rect height="20" width="10" y="180" x="110" fill="black" />
+			<rect height="30" width="10" y="200" x="110" fill="#f8c0bc" class="skin" />
+			<rect height="10" width="10" y="230" x="110" fill="black" />
+			<rect height="10" width="10" y="240" x="110" fill="limegreen" />
+			<rect height="10" width="10" y="250" x="110" fill="black" />
+			<rect height="20" width="10" y="260" x="110" fill="#b200ff" />
+			<rect height="20" width="10" y="280" x="110" fill="deeppink" />
+			<rect height="10" width="10" y="300" x="110" fill="limegreen" />
+			<rect height="10" width="10" y="310" x="110" fill="#b200ff" />
+			<rect height="10" width="10" y="320" x="110" fill="limegreen" />
+			<rect height="10" width="10" y="330" x="110" fill="#b200ff" />
+			<rect height="70" width="10" y="340" x="110" fill="yellow" />
+			<rect height="50" width="10" y="410" x="110" fill="#b200ff" />
+			<rect height="10" width="10" y="460" x="110" fill="black" />
+			<!--column 13-->
+			<rect height="20" width="10" y="110" x="120" fill="limegreen" />
+			<rect height="30" width="10" y="130" x="120" fill="black" />
+			<rect height="70" width="10" y="160" x="120" fill="#f8c0bc" class="skin" />
+			<rect height="10" width="10" y="230" x="120" fill="black" />
+			<rect height="10" width="10" y="240" x="120" fill="#f8c0bc" class="skin" />
+			<rect height="10" width="10" y="250" x="120" fill="limegreen" />
+			<rect height="10" width="10" y="260" x="120" fill="black" />
+			<rect height="10" width="10" y="270" x="120" fill="#b200ff" />
+			<rect height="10" width="10" y="280" x="120" fill="deeppink" />
+			<rect height="10" width="10" y="290" x="120" fill="black" />
+			<rect height="10" width="10" y="300" x="120" fill="#b200ff" />
+			<rect height="10" width="10" y="310" x="120" fill="limegreen" />
+			<rect height="10" width="10" y="320" x="120" fill="#b200ff" />
+			<rect height="10" width="10" y="330" x="120" fill="yellow" />
+			<rect height="70" width="10" y="340" x="120" fill="blue" />
+			<rect height="10" width="10" y="410" x="120" fill="yellow" />
+			<rect height="40" width="10" y="420" x="120" fill="#b200ff" />
+			<rect height="10" width="10" y="460" x="120" fill="black" />
+			<!--column 14-->
+			<rect height="50" width="10" y="110" x="130" fill="limegreen" />
+			<rect height="10" width="10" y="160" x="130" fill="black" />
+			<rect height="40" width="10" y="170" x="130" fill="#f8c0bc" class="skin" />
+			<rect height="20" width="10" y="210" x="130" fill="deeppink" />
+			<rect height="10" width="10" y="230" x="130" fill="#f8c0bc" class="skin" />
+			<rect height="10" width="10" y="240" x="130" fill="black" />
+			<rect height="10" width="10" y="250" x="130" fill="#f8c0bc" class="skin" />
+			<rect height="10" width="10" y="260" x="130" fill="limegreen" />
+			<rect height="10" width="10" y="270" x="130" fill="#b200ff" />
+			<rect height="10" width="10" y="280" x="130" fill="black" />
+			<rect height="30" width="10" y="290" x="130" fill="#b200ff" />
+			<rect height="10" width="10" y="320" x="130" fill="limegreen" />
+			<rect height="10" width="10" y="330" x="130" fill="#b200ff" />
+			<rect height="10" width="10" y="340" x="130" fill="yellow" />
+			<rect height="60" width="10" y="350" x="130" fill="deepskyblue" />
+			<rect height="10" width="10" y="410" x="130" fill="blue" />
+			<rect height="10" width="10" y="420" x="130" fill="yellow" />
+			<rect height="30" width="10" y="430" x="130" fill="#b200ff" />
+			<rect height="10" width="10" y="460" x="130" fill="black" />
+			<!--column 14a-->
+			<rect height="50" width="10" y="110" x="140" fill="limegreen" />
+			<rect height="10" width="10" y="160" x="140" fill="black" />
+			<rect height="40" width="10" y="170" x="140" fill="#f8c0bc" class="skin" />
+			<rect height="20" width="10" y="210" x="140" fill="deeppink" />
+			<rect height="10" width="10" y="230" x="140" fill="#f8c0bc" class="skin" />
+			<rect height="10" width="10" y="240" x="140" fill="black" />
+			<rect height="10" width="10" y="250" x="140" fill="#f8c0bc" class="skin" />
+			<rect height="10" width="10" y="260" x="140" fill="limegreen" />
+			<rect height="10" width="10" y="270" x="140" fill="#b200ff" />
+			<rect height="10" width="10" y="280" x="140" fill="black" />
+			<rect height="30" width="10" y="290" x="140" fill="#b200ff" />
+			<rect height="10" width="10" y="320" x="140" fill="limegreen" />
+			<rect height="10" width="10" y="330" x="140" fill="#b200ff" />
+			<rect height="10" width="10" y="340" x="140" fill="yellow" />
+			<rect height="60" width="10" y="350" x="140" fill="deepskyblue" />
+			<rect height="10" width="10" y="410" x="140" fill="blue" />
+			<rect height="10" width="10" y="420" x="140" fill="yellow" />
+			<rect height="30" width="10" y="430" x="140" fill="#b200ff" />
+			<rect height="10" width="10" y="460" x="140" fill="black" />
+			<!--column 13a-->
+			<rect height="20" width="10" y="110" x="150" fill="limegreen" />
+			<rect height="30" width="10" y="130" x="150" fill="black" />
+			<rect height="70" width="10" y="160" x="150" fill="#f8c0bc" class="skin" />
+			<rect height="10" width="10" y="230" x="150" fill="black" />
+			<rect height="10" width="10" y="240" x="150" fill="#f8c0bc" class="skin" />
+			<rect height="10" width="10" y="250" x="150" fill="limegreen" />
+			<rect height="10" width="10" y="260" x="150" fill="black" />
+			<rect height="10" width="10" y="270" x="150" fill="#b200ff" />
+			<rect height="10" width="10" y="280" x="150" fill="deeppink" />
+			<rect height="10" width="10" y="290" x="150" fill="black" />
+			<rect height="10" width="10" y="300" x="150" fill="#b200ff" />
+			<rect height="10" width="10" y="310" x="150" fill="limegreen" />
+			<rect height="10" width="10" y="320" x="150" fill="#b200ff" />
+			<rect height="10" width="10" y="330" x="150" fill="yellow" />
+			<rect height="70" width="10" y="340" x="150" fill="blue" />
+			<rect height="10" width="10" y="410" x="150" fill="yellow" />
+			<rect height="40" width="10" y="420" x="150" fill="#b200ff" />
+			<rect height="10" width="10" y="460" x="150" fill="black" />
+			<!--column 12a-->
+			<rect height="20" width="10" y="110" x="160" fill="black" />
+			<rect height="10" width="10" y="130" x="160" fill="#b200ff" />
+			<rect height="10" width="10" y="140" x="160" fill="black" />
+			<rect height="10" width="10" y="150" x="160" fill="#b200ff" />
+			<rect height="20" width="10" y="160" x="160" fill="#f8c0bc" class="skin" />
+			<rect height="20" width="10" y="180" x="160" fill="black" />
+			<rect height="30" width="10" y="200" x="160" fill="#f8c0bc" class="skin" />
+			<rect height="10" width="10" y="230" x="160" fill="black" />
+			<rect height="10" width="10" y="240" x="160" fill="limegreen" />
+			<rect height="10" width="10" y="250" x="160" fill="black" />
+			<rect height="20" width="10" y="260" x="160" fill="#b200ff" />
+			<rect height="20" width="10" y="280" x="160" fill="deeppink" />
+			<rect height="10" width="10" y="300" x="160" fill="limegreen" />
+			<rect height="10" width="10" y="310" x="160" fill="#b200ff" />
+			<rect height="10" width="10" y="320" x="160" fill="limegreen" />
+			<rect height="10" width="10" y="330" x="160" fill="#b200ff" />
+			<rect height="70" width="10" y="340" x="160" fill="yellow" />
+			<rect height="50" width="10" y="410" x="160" fill="#b200ff" />
+			<rect height="10" width="10" y="460" x="160" fill="black" />
+			<!--column 11a-->
+			<rect height="20" width="10" y="110" x="170" fill="limegreen" />
+			<rect height="10" width="10" y="130" x="170" fill="black" />
+			<rect height="10" width="10" y="140" x="170" fill="limegreen" />
+			<rect height="10" width="10" y="150" x="170" fill="black" />
+			<rect height="10" width="10" y="160" x="170" fill="#f8c0bc" class="skin" />
+			<rect height="10" width="10" y="170" x="170" fill="black" />
+			<rect height="10" width="10" y="180" x="170" fill="black" />
+			<rect height="10" width="10" y="190" x="170" fill="deepskyblue" />
+			<rect height="20" width="10" y="200" x="170" fill="#ffa5d2" />
+			<rect height="10" width="10" y="220" x="170" fill="black" />
+			<rect height="20" width="10" y="230" x="170" fill="limegreen" />
+			<rect height="20" width="10" y="250" x="170" fill="#b200ff" />
+			<rect height="20" width="10" y="270" x="170" fill="deeppink" />
+			<rect height="10" width="10" y="290" x="170" fill="limegreen" />
+			<rect height="10" width="10" y="300" x="170" fill="black" />
+			<rect height="10" width="10" y="310" x="170" fill="#b200ff" />
+			<rect height="20" width="10" y="320" x="170" fill="limegreen" />
+			<rect height="120" width="10" y="340" x="170" fill="#b200ff" />
+			<rect height="10" width="10" y="460" x="170" fill="black" />
+			<!--column 10a-->
+			<rect height="30" width="10" y="110" x="180" fill="limegreen" />
+			<rect height="20" width="10" y="140" x="180" fill="black" />
+			<rect height="10" width="10" y="160" x="180" fill="#f8c0bc" class="skin" />
+			<rect height="10" width="10" y="170" x="180" fill="black" />
+			<rect height="10" width="10" y="180" x="180" fill="deepskyblue" />
+			<rect height="10" width="10" y="190" x="180" fill="white" />
+			<rect height="20" width="10" y="200" x="180" fill="#ffa5d2" />
+			<rect height="20" width="10" y="220" x="180" fill="black" />
+			<rect height="20" width="10" y="240" x="180" fill="#b200ff" />
+			<rect height="20" width="10" y="260" x="180" fill="deeppink" />
+			<rect height="10" width="10" y="280" x="180" fill="limegreen" />
+			<rect height="10" width="10" y="290" x="180" fill="deeppink" />
+			<rect height="10" width="10" y="300" x="180" fill="black" />
+			<rect height="20" width="10" y="310" x="180" fill="#b200ff" />
+			<rect height="10" width="10" y="330" x="180" fill="limegreen" />
+			<rect height="110" width="10" y="340" x="180" fill="purple" />
+			<rect height="10" width="10" y="450" x="180" fill="black" />
+			<!--column 9a-->
+			<rect height="30" width="10" y="110" x="190" fill="black" />
+			<rect height="10" width="10" y="140" x="190" fill="#b200ff" />
+			<rect height="10" width="10" y="150" x="190" fill="black" />
+			<rect height="20" width="10" y="160" x="190" fill="#f8c0bc" class="skin" />
+			<rect height="20" width="10" y="180" x="190" fill="black" />
+			<rect height="10" width="10" y="200" x="190" fill="#f8c0bc" class="skin" />
+			<rect height="10" width="10" y="210" x="190" fill="black" />
+			<rect height="20" width="10" y="220" x="190" fill="gold" />
+			<rect height="40" width="10" y="240" x="190" fill="black" />
+			<rect height="30" width="10" y="280" x="190" fill="deeppink" />
+			<rect height="10" width="10" y="310" x="190" fill="black" />
+			<rect height="130" width="10" y="320" x="190" fill="#b200ff" />
+			<rect height="10" width="10" y="450" x="190" fill="black" />
+			<!--column 8a-->
+			<rect height="10" width="10" y="110" x="200" fill="black" />
+			<rect height="20" width="10" y="120" x="200" fill="gold" />
+			<rect height="30" width="10" y="140" x="200" fill="black" />
+			<rect height="30" width="10" y="170" x="200" fill="#f8c0bc" class="skin" />
+			<rect height="130" width="10" y="200" x="200" fill="black" />
+			<rect height="120" width="10" y="330" x="200" fill="#b200ff" />
+			<rect height="10" width="10" y="450" x="200" fill="black" />
+			<!--column 7a-->
+			<rect height="170" width="10" y="110" x="210" fill="gold" />
+			<rect height="10" width="10" y="280" x="210" fill="black" />
+			<rect height="10" width="10" y="290" x="210" fill="white" />
+			<rect height="50" width="10" y="300" x="210" fill="black" />
+			<rect height="80" width="10" y="350" x="210" fill="purple" />
+			<rect height="20" width="10" y="430" x="210" fill="black" />
+			<!--column 6a-->
+			<rect height="170" width="10" y="110" x="220" fill="black" />
+			<rect height="10" width="10" y="280" x="220" fill="white" />
+			<rect height="10" width="10" y="290" x="220" fill="black" />
+			<rect height="30" width="10" y="300" x="220" fill="white" />
+			<rect height="30" width="10" y="330" x="220" fill="black" />
+			<rect height="70" width="10" y="360" x="220" fill="#b200ff" />
+			<rect height="10" width="10" y="430" x="220" fill="black" />
+			<!--column 5a-->
+			<rect height="10" width="10" y="110" x="230" fill="black" />
+			<rect height="150" width="10" y="120" x="230" fill="gold" />
+			<rect height="20" width="10" y="270" x="230" fill="black" />
+			<rect height="50" width="10" y="290" x="230" fill="white" />
+			<rect height="10" width="10" y="340" x="230" fill="black" />
+			<rect height="30" width="10" y="360" x="230" fill="black" />
+			<rect height="30" width="10" y="390" x="230" fill="#b200ff" />
+			<rect height="20" width="10" y="420" x="230" fill="black" />
+			<!--column 4a-->
+			<rect height="160" width="10" y="110" x="240" fill="black" />
+			<rect height="20" width="10" y="290" x="240" fill="black" />
+			<rect height="30" width="10" y="310" x="240" fill="white" />
+			<rect height="10" width="10" y="340" x="240" fill="black" />
+			<rect height="30" width="10" y="390" x="240" fill="black" />
+			<!--column 3a-->
+			<rect height="10" width="10" y="120" x="250" fill="black" />
+			<rect height="30" width="10" y="130" x="250" fill="#f8c0bc" class="skin" />
+			<rect height="10" width="10" y="160" x="250" fill="black" />
+			<rect height="30" width="10" y="310" x="250" fill="black" />
+			<!--column 2a-->
+			<rect height="10" width="10" y="110" x="260" fill="black" />
+			<rect height="30" width="10" y="120" x="260" fill="#ffa5d2" />
+			<rect height="10" width="10" y="150" x="260" fill="black" />
+			<!--column 1a-->
+			<rect height="40" width="10" y="110" x="270" fill="black" />
+			<!--additional face stuff-->
+			<rect height="10" width="30" y="150" x="80" fill="#f8c0bc" class="skin" />
+			<rect height="10" width="30" y="150" x="170" fill="#f8c0bc" class="skin" />
+			<rect height="10" width="20" y="220" x="130" fill="hotpink" />
+			<rect height="10" width="20" y="190" x="130" fill="#ffa5d2" />
+
+
+
+
+
+
+
+</svg>

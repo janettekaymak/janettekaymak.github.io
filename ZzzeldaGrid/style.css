@@ -18,14 +18,29 @@ body {
   margin: -80px auto auto -10px;
 }
 
+* {
+  position: relative;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 0px;
+  grid-auto-rows: -webkit-max-content;
+  grid-auto-rows: max-content;
+}
+
 header {
+  -ms-grid-row: 1;
+  grid-row: 1;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#d2fcd2), color-stop(darkturquoise), to(#d2fcd2));
   background-image: linear-gradient(#d2fcd2, darkturquoise, #d2fcd2);
   height: 200px;
   background-position: bottom;
   background-repeat: repeat;
   background-size: cover;
-  position: relative;
   z-index: -1;
 }
 
@@ -73,7 +88,7 @@ h3 {
 }
 
 .summary {
-  padding: 0 75px 0 105px;
+  padding: 0 5px 0 110px;
   margin: auto 14px 0 10px;
   text-align: right;
   font-family: "Merienda", cursive;
@@ -234,7 +249,8 @@ h3 {
       }
   }*/
 div.preamble {
-  display: block;
+  -ms-grid-row: 2;
+  grid-row: 2;
   font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
   font-size: 17.5px;
   color: white;
@@ -244,7 +260,6 @@ div.preamble {
   line-height: 1em;
   background-image: url(./svg/block1.svg);
   background-repeat: no-repeat;
-  margin: -15px auto 0px 9px;
 }
 
 .preamble p {
@@ -267,8 +282,8 @@ div.preamble {
 
 .extra1 {
   content: url(./svg/cover1.svg);
-  margin-top: -2913px;
-  margin-left: 84px;
+  -ms-grid-row: 2;
+  grid-row: 2;
 }
 
 .preamble::after {
@@ -323,7 +338,8 @@ div.preamble {
 }
 
 .explanation {
-  display: block;
+  -ms-grid-row: 3;
+  grid-row: 3;
   background-image: url(./svg/block2.svg);
   background-repeat: no-repeat;
   text-align: justify;
@@ -332,7 +348,6 @@ div.preamble {
   width: 360px;
   height: 800px;
   line-height: 1.11em;
-  margin: 0 auto -50px 10px;
 }
 
 .explanation p {

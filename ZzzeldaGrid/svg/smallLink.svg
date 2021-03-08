@@ -1,0 +1,576 @@
+<svg width="320" height="430" viewBox="7 200 950 850"
+    xmlns="http://www.w3.org/2000/svg" id="smallLink">
+    <!--row 1-->
+    <rect width="50" height="10" fill="black" x="130" y="0" />
+    <!--row 2-->
+    <rect width="20" height="10" fill="black" x="110" y="10" />
+    <rect width="50" height="10" fill="green" x="130" y="10" />
+    <rect width="20" height="10" fill="black" x="180" y="10" />
+    <!--row 3-->
+    <rect width="10" height="10" fill="black" x="50" y="20" />
+    <rect width="20" height="10" fill="black" x="90" y="20" />
+    <rect width="30" height="10" fill="green" x="110" y="20" />
+    <rect width="40" height="10" fill="darkseagreen" x="140" y="20" />
+    <rect width="20" height="10" fill="green" x="180" y="20" />
+    <rect width="20" height="10" fill="black" x="200" y="20" />
+    <!--row 4-->
+    <rect width="10" height="10" fill="black" x="40" y="30" />
+    <rect width="10" height="10" fill="paleturquoise" x="50" y="30" />
+    <rect width="10" height="10" fill="black" x="60" y="30" />
+    <rect width="20" height="10" fill="black" x="80" y="30" />
+    <rect width="20" height="10" fill="green" x="100" y="30" />
+    <rect width="80" height="10" fill="darkseagreen" x="120" y="30" />
+    <rect width="20" height="10" fill="green" x="190" y="30" />
+    <rect width="20" height="10" fill="darkseagreen" x="120" y="30" />
+    <rect width="10" height="10" fill="black" x="210" y="30" />
+    <!--row 5-->
+    <rect width="10" height="10" fill="black" x="30" y="40" />
+    <rect width="10" height="10" fill="white" x="40" y="40" />
+    <rect width="10" height="10" fill="lightgrey" x="50" y="40" />
+    <rect width="10" height="10" fill="paleturquoise" x="60" y="40" />
+    <rect width="20" height="10" fill="black" x="70" y="40" />
+    <rect width="20" height="10" fill="green" x="90" y="40" />
+    <rect width="30" height="10" fill="darkseagreen" x="110" y="40" />
+    <rect width="20" height="10" fill="green" x="140" y="40" />
+    <rect width="20" height="10" fill="#7d5b38" x="160" y="40" class="brown" />
+    <rect width="20" height="10" fill="darkseagreen" x="180" y="40" />
+    <rect width="20" height="10" fill="green" x="200" y="40" />
+    <rect width="10" height="10" fill="black" x="220" y="40" />
+    <!--row 6-->
+    <rect width="10" height="10" fill="black" x="30" y="50" />
+    <rect width="10" height="10" fill="white" x="40" y="50" />
+    <rect width="10" height="10" fill="lightgrey" x="50" y="50" />
+    <rect width="10" height="10" fill="paleturquoise" x="60" y="50" />
+    <rect width="20" height="10" fill="black" x="70" y="50" />
+    <rect width="20" height="10" fill="green" x="90" y="50" />
+    <rect width="10" height="10" fill="darkseagreen" x="110" y="50" />
+    <rect width="30" height="10" fill="green" x="120" y="50" />
+    <rect width="10" height="10" fill="#7d5b38" x="150" y="50" class="brown" />
+    <rect width="10" height="10" fill="gold" x="160" y="50" />
+    <rect width="10" height="10" fill="yellow" x="170" y="50" />
+    <rect width="10" height="10" fill="#7d5b38" x="180" y="50" class="brown" />
+    <rect width="10" height="10" fill="green" x="190" y="50" />
+    <rect width="20" height="10" fill="#7d5b38" x="200" y="50" class="brown" />
+    <rect width="20" height="10" fill="gold" x="220" y="50" />
+    <!--row 7-->
+    <rect width="10" height="10" fill="black" x="30" y="60" />
+    <rect width="10" height="10" fill="white" x="40" y="60" />
+    <rect width="10" height="10" fill="lightgrey" x="50" y="60" />
+    <rect width="10" height="10" fill="paleturquoise" x="60" y="60" />
+    <rect width="10" height="10" fill="black" x="70" y="60" />
+    <rect width="70" height="10" fill="green" x="80" y="60" />
+    <rect width="10" height="10" fill="gold" x="150" y="60" />
+    <rect width="20" height="10" fill="yellow" x="160" y="60" />
+    <rect width="10" height="10" fill="gold" x="180" y="60" />
+    <rect width="20" height="10" fill="#7d5b38" x="190" y="60" class="brown" />
+    <rect width="10" height="10" fill="gold" x="210" y="60" />
+    <rect width="20" height="10" fill="yellow" x="220" y="60" />
+    <rect width="10" height="10" fill="gold" x="240" y="60" />
+    <!--row 8-->
+    <rect width="10" height="10" x="30" y="70" fill="black" />
+    <rect width="10" height="10" fill="white" x="40" y="70" />
+    <rect width="20" height="10" fill="lightgrey" x="50" y="70" />
+    <rect width="10" height="10" fill="black" x="70" y="70" />
+    <rect width="30" height="10" fill="green" x="80" y="70" />
+    <rect width="20" height="10" fill="black" x="110" y="70" />
+    <rect width="10" height="10" fill="green" x="130" y="70" />
+    <rect width="10" height="10" fill="gold" x="140" y="70" />
+    <rect width="20" height="10" fill="yellow" x="150" y="70" />
+    <rect width="10" height="10" fill="burlywood" x="170" y="70" />
+    <rect width="10" height="10" fill="yellow" x="180" y="70" />
+    <rect width="10" height="10" fill="#7d5b38" x="190" y="70" class="brown" />
+    <rect width="10" height="10" fill="gold" x="200" y="70" />
+    <rect width="20" height="10" fill="#7d5b38" x="210" y="70" class="brown" />
+    <rect width="30" height="10" fill="yellow" x="230" y="70" />
+    <!--row 9-->
+    <rect width="10" height="10" x="30" y="80" fill="black"/>
+    <rect width="20" height="10" x="40" y="80" fill="white"/>
+    <rect width="10" height="10" x="60" y="80" fill="lightgrey"/>
+    <rect width="10" height="10" x="70" y="80" fill="black"/>
+    <rect width="20" height="10" x="80" y="80" fill="green"/>
+    <rect width="20" height="10" x="100" y="80" fill="black"/>
+    <rect width="10" height="10" x="120" y="80" fill="#7d5b38" class="brown" />
+    <rect width="10" height="10" x="130" y="80" fill="gold"/>
+    <rect width="10" height="10" x="140" y="80" fill="yellow"/>
+    <rect width="10" height="10" x="150" y="80" fill="gold"/>
+    <rect width="10" height="10" x="160" y="80" fill="#7d5b38" class="brown" />
+    <rect width="10" height="10" x="170" y="80" fill="burlywood"/>
+    <rect width="40" height="10" x="180" y="80" fill="#7d5b38" class="brown" />
+    <rect width="10" height="10" x="220" y="80" fill="yellow"/>
+    <rect width="10" height="10" x="230" y="80" fill="gold"/>
+    <rect width="10" height="10" x="240" y="80" fill="yellow"/>
+    <rect width="10" height="10" x="250" y="80" fill="#7d5b38" class="brown" />
+    <!--row 10-->
+    <rect width="10" height="10" x="30" y="90" fill="black"/>
+    <rect width="20" height="10" x="40" y="90" fill="white"/>
+    <rect width="10" height="10" x="60" y="90" fill="paleturquoise"/>
+    <rect width="40" height="10" x="70" y="90" fill="black"/>
+    <rect width="10" height="10" x="110" y="90" fill="green"/>
+    <rect width="10" height="10" x="120" y="90" fill="yellow"/>
+    <rect width="10" height="10" x="130" y="90" fill="#7d5b38" class="brown" />
+    <rect width="10" height="10" x="140" y="90" fill="gold"/>
+    <rect width="10" height="10" x="150" y="90" fill="#7d5b38" class="brown" />
+    <rect width="10" height="10" x="160" y="90" fill="gold"/>
+    <rect width="10" height="10" x="170" y="90" fill="#7d5b38" class="brown" />
+    <rect width="10" height="10" x="180" y="90" fill="burlywood"/>
+    <rect width="20" height="10" x="190" y="90" fill="#7d5b38" class="brown" />
+    <rect width="10" height="10" x="210" y="90" fill="black"/>
+    <rect width="10" height="10" x="220" y="90" fill="yellow"/>
+    <rect width="10" height="10" x="230" y="90" fill="gold"/>
+    <rect width="10" height="10" x="240" y="90" fill="yellow"/>
+    <rect width="10" height="10" x="250" y="90" fill="#7d5b38" class="brown" />
+    <!--row 11-->
+    <rect width="10" height="10" x="30" y="100" fill="black"/>
+    <rect width="10" height="10" x="40" y="100" fill="white"/>
+    <rect width="10" height="10" x="50" y="100" fill="lightgrey"/>
+    <rect width="10" height="10" x="60" y="100" fill="paleturquoise"/>
+    <rect width="10" height="10" x="70" y="100" fill="black"/>
+    <rect width="20" height="10" x="80" y="100" fill="#7d5b38" class="brown" />
+    <rect width="20" height="10" x="100" y="100" fill="black"/>
+    <rect width="10" height="10" x="120" y="100" fill="#7d5b38" class="brown" />
+    <rect width="10" height="10" x="130" y="100" fill="gold"/>
+    <rect width="10" height="10" x="140" y="100" fill="#7d5b38" class="brown" />
+    <rect width="30" height="10" x="150" y="100" fill="black"/>
+    <rect width="20" height="10" x="180" y="100" fill="burlywood"/>
+    <rect width="20" height="10" x="200" y="100" fill="black"/>
+    <rect width="10" height="10" x="220" y="100" fill="yellow" />
+    <rect width="10" height="10" x="230" y="100" fill="#7d5b38" class="brown"/>
+    <rect width="10" height="10" x="240" y="100" fill="gold"/>
+    <rect width="10" height="10" x="250" y="100" fill="#7d5b38" class="brown" />
+    <!--row 12-->
+    <rect width="10" height="10" x="30" y="110" fill="black"/>
+    <rect width="10" height="10" x="40" y="110" fill="white"/>
+    <rect width="10" height="10" x="50" y="110" fill="lightgrey"/>
+    <rect width="10" height="10" x="60" y="110" fill="paleturquoise"/>
+    <rect width="20" height="10" x="70" y="110" fill="black"/>
+    <rect width="20" height="10" x="90" y="110" fill='burlywood' />
+    <rect width="30" height="10" x="110" y="110" fill="#7d5b38" class="brown" />
+    <rect width="10" height="10" x="140" y="110" fill="black" />
+    <rect width="10" height="10" x="150" y="110" fill="white"/>
+    <rect width="10" height="10" x="160" y="110" fill="black" />
+    <rect width="30" height="10" x="170" y="110" fill="burlywood"/>
+    <rect width="10" height="10" x="200" y="110" fill="black"/>
+    <rect width="10" height="10" x="210" y="110" fill="#7d5b38" class="brown"/>
+    <rect width="10" height="10" x="220" y="110" fill="gold" />
+    <rect width="30" height="10" x="230" y="110" fill="#7d5b38" class="brown"/>
+    <!--row 13-->
+    <rect width="10" height="10" x="30" y="120" fill="black"/>
+    <rect width="10" height="10" x="40" y="120" fill="white"/>
+    <rect width="20" height="10" x="50" y="120" fill="lightgrey"/>
+    <rect width="10" height="10" x="70" y="120" fill="black"/>
+    <rect width="10" height="10" x="80" y="120" fill="green"/>
+    <rect width="10" height="10" x="90" y="120" fill="black"/>
+    <rect width="10" height="10" x="100" y="120" fill='burlywood' />
+    <rect width="10" height="10" x="110" y="120" fill="#7d5b38" class="brown" />
+    <rect width="10" height="10" x="120" y="120" fill="yellow" />
+    <rect width="10" height="10" x="130" y="120" fill="gold" />
+    <rect width="10" height="10" x="140" y="120" fill="white"/>
+    <rect width="10" height="10" x="150" y="120" fill="deepskyblue" />
+    <rect width="10" height="10" x="160" y="120" fill="black"/>
+    <rect width="30" height="10" x="170" y="120" fill="burlywood"/>
+    <rect width="10" height="10" x="200" y="120" fill="black"/>
+    <rect width="20" height="10" x="210" y="120" fill="#7d5b38" class="brown"/>
+    <rect width="10" height="10" x="250" y="120" fill="#7d5b38" class="brown"/>
+    <!--row 14-->
+    <rect width="10" height="10" x="30" y="130" fill="black"/>
+    <rect width="20" height="10" x="40" y="130" fill="white"/>
+    <rect width="10" height="10" x="60" y="130" fill="paleturquoise"/>
+    <rect width="10" height="10" x="70" y="130" fill="black"/>
+    <rect width="20" height="10" x="80" y="130" fill="green"/>
+    <rect width="10" height="10" x="100" y="130" fill="black"/>
+    <rect width="10" height="10" x="110" y="130" fill="#7d5b38" class="brown" />
+    <rect width="10" height="10" x="120" y="130" fill="yellow" />
+    <rect width="10" height="10" x="130" y="130" fill="gold" />
+    <rect width="70" height="10" x="140" y="130" fill="burlywood"/>
+    <rect width="20" height="10" x="210" y="130" fill="#7d5b38" class="brown"/>
+    <!--row 15-->
+    <rect width="10" height="10" x="30" y="140" fill="black"/>
+    <rect width="10" height="10" x="40" y="140" fill="white"/>
+    <rect width="10" height="10" x="50" y="140" fill="lightgrey"/>
+    <rect width="10" height="10" x="60" y="140" fill="paleturquoise"/>
+    <rect width="10" height="10" x="70" y="140" fill="black"/>
+    <rect width="20" height="10" x="80" y="140" fill="green"/>
+    <rect width="20" height="10" x="100" y="140" fill="black"/>
+    <rect width="10" height="10" x="120" y="140" fill="yellow" />
+    <rect width="10" height="10" x="130" y="140" fill="gold" />
+    <rect width="60" height="10" x="140" y="140" fill="burlywood" />
+    <rect width="10" height="10" x="200" y="140" fill="black" />
+    <rect width="10" height="10" x="210" y="140" fill="#7d5b38" class="brown"/>
+    <!--row 16-->
+    <rect width="10" height="10" x="30" y="150" fill="black"/>
+    <rect width="10" height="10" x="40" y="150" fill="white"/>
+    <rect width="10" height="10" x="50" y="150" fill="lightgrey"/>
+    <rect width="10" height="10" x="60" y="150" fill="paleturquoise"/>
+    <rect width="10" height="10" x="70" y="150" fill="black"/>
+    <rect width="30" height="10" x="80" y="150" fill="green"/>
+    <rect width="20" height="10" x="110" y="150" fill="black"/>
+    <rect width="10" height="10" x="130" y="150" fill="gold" />
+    <rect width="20" height="10" x="140" y="150" fill="black" />
+    <rect width="30" height="10" x="160" y="150" fill="burlywood" />
+    <rect width="30" height="10" x="190" y="150" fill="black" />
+    <!--row 17-->
+    <rect width="10" height="10" x="30" y="160" fill="black"/>
+    <rect width="10" height="10" x="40" y="160" fill="white"/>
+    <rect width="10" height="10" x="50" y="160" fill="lightgrey"/>
+    <rect width="10" height="10" x="60" y="160" fill="paleturquoise"/>
+    <rect width="10" height="10" x="70" y="160" fill="black"/>
+    <rect width="20" height="10" x="80" y="160" fill="green"/>
+    <rect width="10" height="10" x="100" y="160" fill="black"/>
+    <rect width="10" height="10" x="110" y="160" fill="green" />
+    <rect width="10" height="10" x="120" y="160" fill="black" />
+    <rect width="30" height="10" x="130" y="160" fill="green" />
+    <rect width="40" height="10" x="160" y="160" fill="black" />
+    <rect width="10" height="10" x="200" y="160" fill="green" />
+    <rect width="10" height="10" x="210" y="160" fill="darkseagreen" />
+    <rect width="50" height="10" x="230" y="160" fill="black" />
+    <!--row 18-->
+    <rect width="10" height="10" x="40" y="170" fill="black"/>
+    <rect width="10" height="10" x="50" y="170" fill="lightgrey"/>
+    <rect width="10" height="10" x="60" y="170" fill="black"/>
+    <rect width="10" height="10" x="80" y="170" fill="green"/>
+    <rect width="10" height="10" x="90" y="170" fill="black"/>
+    <rect width="20" height="10" x="100" y="170" fill="green" />
+    <rect width="30" height="10" x="120" y="170" fill="black" />
+    <rect width="10" height="10" x="150" y="170" fill="green" />
+    <rect width="20" height="10" x="160" y="170" fill="darkseagreen" />
+    <rect width="40" height="10" x="180" y="170" fill="green" />
+    <rect width="10" height="10" x="220" y="170" fill="black" />
+    <rect width="50" height="10" x="230" y="170" fill="grey" />
+    <rect width="10" height="10" x="280" y="170" fill="black" />
+    <!--row 19-->
+    <rect width="10" height="10" x="40" y="180" fill="black"/>
+    <rect width="10" height="10" x="50" y="180" fill="lightgrey"/>
+    <rect width="10" height="10" x="60" y="180" fill="black"/>
+    <rect width="10" height="10" x="80" y="180" fill="black"/>
+    <rect width="20" height="10" x="90" y="180" fill="green"/>
+    <rect width="10" height="10" x="110" y="180" fill="darkseagreen" />
+    <rect width="10" height="10" x="120" y="180" fill="green" />
+    <rect width="30" height="10" x="130" y="180" fill="black" />
+    <rect width="10" height="10" x="160" y="180" fill="green" />
+    <rect width="40" height="10" x="170" y="180" fill="darkseagreen" />
+    <rect width="10" height="10" x="210" y="180" fill="green" />
+    <rect width="10" height="10" x="220" y="180" fill="black" />
+    <rect width="10" height="10" x="230" y="180" fill="grey" />
+    <rect width="10" height="10" x="240" y="180" fill="black" />
+    <rect width="30" height="10" x="250" y="180" fill="rebeccapurple" />
+    <rect width="10" height="10" x="280" y="180" fill="yellow" />
+    <rect width="10" height="10" x="290" y="180" fill="black" />
+    <!--row 20-->
+    <rect width="20" height="10" x="10" y="190" fill="black"/>
+    <rect width="10" height="10" x="40" y="190" fill="black"/>
+    <rect width="10" height="10" x="50" y="190" fill="lightgrey"/>
+    <rect width="10" height="10" x="60" y="190" fill="black"/>
+    <rect width="20" height="10" x="80" y="190" fill="black"/>
+    <rect width="20" height="10" x="100" y="190" fill="darkseagreen"/>
+    <rect width="20" height="10" x="120" y="190" fill="green" />
+    <rect width="20" height="10" x="140" y="190" fill="black" />
+    <rect width="60" height="10" x="160" y="190" fill="green" />
+    <rect width="10" height="10" x="220" y="190" fill="black" />
+    <rect width="10" height="10" x="230" y="190" fill="grey" />
+    <rect width="10" height="10" x="240" y="190" fill="black" />
+    <rect width="20" height="10" x="250" y="190" fill="rebeccapurple" />
+    <rect width="10" height="10" x="270" y="190" fill="yellow" />
+    <rect width="10" height="10" x="280" y="190" fill="rebeccapurple" />
+    <rect width="10" height="10" x="290" y="190" fill="yellow" />
+    <rect width="10" height="10" x="300" y="190" fill="black" />
+    <!--row 21-->
+    <rect width="10" height="10" x="0" y="200" fill="black"/>
+    <rect width="10" height="10" x="10" y="200" fill="rebeccapurple"/>
+    <rect width="10" height="10" x="20" y="200" fill="mediumpurple"/>
+    <rect width="20" height="10" x="30" y="200" fill="black"/>
+    <rect width="10" height="10" x="50" y="200" fill="paleturquoise"/>
+    <rect width="20" height="10" x="60" y="200" fill="black"/>
+    <rect width="20" height="10" x="80" y="200" fill="mediumpurple"/>
+    <rect width="10" height="10" x="100" y="200" fill="black" />
+    <rect width="10" height="10" x="110" y="200" fill="darkseagreen" />
+    <rect width="20" height="10" x="120" y="200" fill="green" />
+    <rect width="10" height="10" x="140" y="200" fill="darkseagreen" />
+    <rect width="10" height="10" x="150" y="200" fill="black" />
+    <rect width="10" height="10" x="160" y="200" fill="yellow" />
+    <rect width="10" height="10" x="170" y="200" fill="black" />
+    <rect width="40" height="10" x="180" y="200" fill="green" />
+    <rect width="10" height="10" x="220" y="200" fill="black" />
+    <rect width="10" height="10" x="230" y="200" fill="grey" />
+    <rect width="10" height="10" x="240" y="200" fill="black" />
+    <rect width="30" height="10" x="250" y="200" fill="rebeccapurple" />
+    <rect width="10" height="10" x="280" y="200" fill="white" />
+    <rect width="10" height="10" x="290" y="200" fill="rebeccapurple" />
+    <rect width="10" height="10" x="300" y="200" fill="black" />
+    <!--row 22-->
+    <rect width="10" height="10" x="0" y="210" fill="black"/>
+    <rect width="10" height="10" x="10" y="210" fill="rebeccapurple"/>
+    <rect width="10" height="10" x="20" y="210" fill="mediumpurple"/>
+    <rect width="10" height="10" x="30" y="210" fill="black"/>
+    <rect width="10" height="10" x="40" y="210" fill="yellow"/>
+    <rect width="10" height="10" x="50" y="210" fill="black"/>
+    <rect width="10" height="10" x="60" y="210" fill="yellow"/>
+    <rect width="10" height="10" x="70" y="210" fill="black"/>
+    <rect width="10" height="10" x="80" y="210" fill="rebeccapurple"/>
+    <rect width="10" height="10" x="90" y="210" fill="mediumpurple"/>
+    <rect width="10" height="10" x="100" y="210" fill="black" />
+    <rect width="10" height="10" x="110" y="210" fill="darkseagreen" />
+    <rect width="30" height="10" x="120" y="210" fill="green" />
+    <rect width="10" height="10" x="150" y="210" fill="darkseagreen" />
+    <rect width="10" height="10" x="160" y="210" fill="black" />
+    <rect width="10" height="10" x="170" y="210" fill="grey" />
+    <rect width="10" height="10" x="180" y="210" fill="black" />
+    <rect width="30" height="10" x="190" y="210" fill="green" />
+    <rect width="10" height="10" x="220" y="210" fill="black" />
+    <rect width="10" height="10" x="230" y="210" fill="grey" />
+    <rect width="10" height="10" x="240" y="210" fill="black" />
+    <rect width="20" height="10" x="250" y="210" fill="red" />
+    <rect width="30" height="10" x="270" y="210" fill="rebeccapurple" />
+    <rect width="10" height="10" x="300" y="210" fill="black" />
+    <!--row 23-->
+    <rect width="10" height="10" x="0" y="220" fill="black"/>
+    <rect width="10" height="10" x="10" y="220" fill="rebeccapurple"/>
+    <rect width="20" height="10" x="20" y="220" fill="mediumpurple"/>
+    <rect width="10" height="10" x="40" y="220" fill="black"/>
+    <rect width="10" height="10" x="50" y="220" fill="yellow"/>
+    <rect width="10" height="10" x="60" y="220" fill="black"/>
+    <rect width="10" height="10" x="70" y="220" fill="rebeccapurple"/>
+    <rect width="20" height="10" x="80" y="220" fill="mediumpurple"/>
+    <rect width="10" height="10" x="100" y="220" fill="black"/>
+    <rect width="10" height="10" x="110" y="220" fill="green" />
+    <rect width="40" height="10" x="120" y="220" fill="black"/>
+    <rect width="10" height="10" x="160" y="220" fill="darkseagreen" />
+    <rect width="50" height="10" x="170" y="220" fill="black" />
+    <rect width="10" height="10" x="220" y="220" fill="grey" />
+    <rect width="10" height="10" x="230" y="220" fill="black" />
+    <rect width="20" height="10" x="240" y="220" fill="rebeccapurple" />
+    <rect width="10" height="10" x="260" y="220" fill="red" />
+    <rect width="10" height="10" x="270" y="220" fill="rebeccapurple" />
+    <rect width="10" height="10" x="280" y="220" fill="red" />
+    <rect width="10" height="10" x="290" y="220" fill="rebeccapurple" />
+    <rect width="10" height="10" x="300" y="220" fill="red" />
+    <rect width="10" height="10" x="310" y="220" fill="black" />
+    <!--row 24-->
+    <rect width="10" height="10" x="10" y="230" fill="black"/>
+    <rect width="10" height="10" x="20" y="230" fill="rebeccapurple"/>
+    <rect width="50" height="10" x="30" y="230" fill="mediumpurple"/>
+    <rect width="10" height="10" x="80" y="230" fill="rebeccapurple"/>
+    <rect width="10" height="10" x="90" y="230" fill="black"/>
+    <rect width="20" height="10" x="100" y="230" fill="darkseagreen"/>
+    <rect width="30" height="10" x="120" y="230" fill="black"/>
+    <rect width="10" height="10" x="150" y="230" fill="yellow"/>
+    <rect width="10" height="10" x="160" y="230" fill="grey"/>
+    <rect width="60" height="10" x="170" y="230" fill="black" />
+    <rect width="10" height="10" x="230" y="230" fill="grey" />
+    <rect width="10" height="10" x="240" y="230" fill="black" />
+    <rect width="20" height="10" x="250" y="230" fill="rebeccapurple" />
+    <rect width="10" height="10" x="270" y="230" fill="red" />
+    <rect width="10" height="10" x="280" y="230" fill="rebeccapurple" />
+    <rect width="10" height="10" x="290" y="230" fill="red" />
+    <rect width="10" height="10" x="300" y="230" fill="rebeccapurple" />
+    <rect width="10" height="10" x="310" y="230" fill="black" />
+    <!--row 25-->
+    <rect width="70" height="10" x="20" y="240" fill="black"/>
+    <rect width="10" height="10" x="90" y="240" fill="darkgrey"/>
+    <rect width="20" height="10" x="100" y="240" fill="black"/>
+    <rect width="10" height="10" x="130" y="240" fill="black"/>
+    <rect width="10" height="10" x="140" y="240" fill="green"/>
+    <rect width="40" height="10" x="150" y="240" fill="black"/>
+    <rect width="10" height="10" x="190" y="240" fill="green"/>
+    <rect width="10" height="10" x="200" y="240" fill="black" />
+    <rect width="10" height="10" x="210" y="240" fill="#7d5b38" class="brown"/>
+    <rect width="20" height="10" x="220" y="240" fill="black" />
+    <rect width="10" height="10" x="240" y="240" fill="grey" />
+    <rect width="10" height="10" x="250" y="240" fill="black" />
+    <rect width="50" height="10" x="260" y="240" fill="rebeccapurple" />
+    <rect width="10" height="10" x="310" y="240" fill="black" />
+    <!--row 26-->
+    <rect width="10" height="10" x="30" y="250" fill="black"/>
+    <rect width="20" height="10" x="40" y="250" fill="#7d5b38" class="brown"/>
+    <rect width="10" height="10" x="60" y="250" fill="black"/>
+    <rect width="10" height="10" x="70" y="250" fill="burlywood"/>
+    <rect width="10" height="10" x="80" y="250" fill="#7d5b38" class="brown"/>
+    <rect width="10" height="10" x="90" y="250" fill="black"/>
+    <rect width="10" height="10" x="130" y="250" fill="black"/>
+    <rect width="10" height="10" x="140" y="250" fill="darkseagreen" />
+    <rect width="50" height="10" x="150" y="250" fill="green" />
+    <rect width="10" height="10" x="200" y="250" fill="black" />
+    <rect width="10" height="10" x="210" y="250" fill="burlywood" />
+    <rect width="10" height="10" x="220" y="250" fill="#7d5b38" class="brown"/>
+    <rect width="10" height="10" x="230" y="250" fill="black" />
+    <rect width="10" height="10" x="240" y="250" fill="grey" />
+    <rect width="10" height="10" x="250" y="250" fill="black" />
+    <rect width="10" height="10" x="260" y="250" fill="red" />
+    <rect width="10" height="10" x="270" y="250" fill="rebeccapurple" />
+    <rect width="10" height="10" x="280" y="250" fill="red" />
+    <rect width="10" height="10" x="290" y="250" fill="rebeccapurple" />
+    <rect width="10" height="10" x="300" y="250" fill="black" />
+    <!--row 27-->
+    <rect width="10" height="10" x="30" y="260" fill="#7d5b38" class="brown"/>
+    <rect width="20" height="10" x="40" y="260" fill="peru"/>
+    <rect width="10" height="10" x="60" y="260" fill="black"/>
+    <rect width="10" height="10" x="70" y="260" fill="burlywood"/>
+    <rect width="20" height="10" x="80" y="260" fill="black" />
+    <rect width="10" height="10" x="120" y="260" fill="black"/>
+    <rect width="10" height="10" x="130" y="260" fill="green"/>
+    <rect width="10" height="10" x="140" y="260" fill="darkseagreen" />
+    <rect width="20" height="10" x="150" y="260" fill="green" />
+    <rect width="10" height="10" x="170" y="260" fill="darkseagreen" />
+    <rect width="20" height="10" x="180" y="260" fill="green" />
+    <rect width="10" height="10" x="200" y="260" fill="black" />
+    <rect width="10" height="10" x="210" y="260" fill="burlywood" />
+    <rect width="10" height="10" x="220" y="260" fill="#7d5b38" class="brown"/>
+    <rect width="10" height="10" x="230" y="260" fill="black" />
+    <rect width="10" height="10" x="240" y="260" fill="grey" />
+    <rect width="10" height="10" x="250" y="260" fill="black" />
+    <rect width="10" height="10" x="260" y="260" fill="rebeccapurple" />
+    <rect width="10" height="10" x="270" y="260" fill="red" />
+    <rect width="10" height="10" x="280" y="260" fill="rebeccapurple" />
+    <rect width="10" height="10" x="290" y="260" fill="red" />
+    <rect width="10" height="10" x="300" y="260" fill="black" />
+    <!--row 28-->
+    <rect width="10" height="10" x="30" y="270" fill="#7d5b38" class="brown"/>
+    <rect width="20" height="10" x="40" y="270" fill="peru"/>
+    <rect width="10" height="10" x="60" y="270" fill="black"/>
+    <rect width="10" height="10" x="70" y="270" fill="#7d5b38" class="brown"/>
+    <rect width="10" height="10" x="80" y="270" fill="black" />
+    <rect width="10" height="10" x="120" y="270" fill="black"/>
+    <rect width="20" height="10" x="130" y="270" fill="darkseagreen" />
+    <rect width="20" height="10" x="150" y="270" fill="green" />
+    <rect width="10" height="10" x="170" y="270" fill="darkseagreen" />
+    <rect width="10" height="10" x="180" y="270" fill="green" />
+    <rect width="10" height="10" x="190" y="270" fill="darkseagreen" />
+    <rect width="10" height="10" x="200" y="270" fill="green" />
+    <rect width="30" height="10" x="210" y="270" fill="black" />
+    <rect width="10" height="10" x="240" y="270" fill="grey"/>
+    <rect width="10" height="10" x="250" y="270" fill="black" />
+    <rect width="20" height="10" x="260" y="270" fill="rebeccapurple" />
+    <rect width="10" height="10" x="280" y="270" fill="yellow" />
+    <rect width="10" height="10" x="290" y="270" fill="black" />
+    <!--row 29-->
+    <rect width="10" height="10" x="30" y="280" fill="#7d5b38" class="brown"/>
+    <rect width="10" height="10" x="40" y="280" fill="peru"/>
+    <rect width="10" height="10" x="50" y="280" fill="#7d5b38" class="brown"/>
+    <rect width="30" height="10" x="60" y="280" fill="black" />
+    <rect width="10" height="10" x="110" y="280" fill="black"/>
+    <rect width="10" height="10" x="120" y="280" fill="green" />
+    <rect width="20" height="10" x="130" y="280" fill="darkseagreen" />
+    <rect width="20" height="10" x="150" y="280" fill="green" />
+    <rect width="10" height="10" x="170" y="280" fill="darkseagreen" />
+    <rect width="10" height="10" x="180" y="280" fill="green" />
+    <rect width="20" height="10" x="190" y="280" fill="darkseagreen" />
+    <rect width="10" height="10" x="240" y="280" fill="black" />
+    <rect width="10" height="10" x="250" y="280" fill="grey"/>
+    <rect width="40" height="10" x="260" y="280" fill="black" />
+    <!--row 30-->
+    <rect width="10" height="10" x="30" y="290" fill="black"/>
+    <rect width="10" height="10" x="40" y="290" fill="#7d5b38" class="brown"/>
+    <rect width="10" height="10" x="50" y="290" fill="black"/>
+    <rect width="10" height="10" x="60" y="290" fill="burlywood" />
+    <rect width="10" height="10" x="70" y="290" fill="black"/>
+    <rect width="30" height="10" x="110" y="290" fill="black" />
+    <rect width="30" height="10" x="140" y="290" fill="green" />
+    <rect width="20" height="10" x="170" y="290" fill="darkseagreen" />
+    <rect width="10" height="10" x="190" y="290" fill="green" />
+    <rect width="20" height="10" x="200" y="290" fill="black" />
+    <rect width="10" height="10" x="250" y="290" fill="black"/>
+    <rect width="20" height="10" x="260" y="290" fill="grey" />
+    <rect width="10" height="10" x="280" y="290" fill="black" />
+    <!--row 31-->
+    <rect width="30" height="10" x="40" y="300" fill="black"/>
+    <rect width="10" height="10" x="110" y="300" fill="black" />
+    <rect width="20" height="10" x="120" y="300" fill="darkgrey"/>
+    <rect width="10" height="10" x="140" y="300" fill="black" />
+    <rect width="30" height="10" x="150" y="300" fill="green" />
+    <rect width="20" height="10" x="180" y="300" fill="black" />
+    <rect width="10" height="10" x="200" y="300" fill="darkgray" />
+    <rect width="10" height="10" x="210" y="300" fill="black" />
+    <rect width="20" height="10" x="260" y="300" fill="black" />
+    <!--row 31-->
+    <rect width="10" height="10" x="30" y="310" fill="black"/>
+    <rect width="10" height="10" x="40" y="310" fill="rebeccapurple" />
+    <rect width="10" height="10" x="50" y="310" fill="mediumpurple" />
+    <rect width="10" height="10" x="60" y="310" fill="black"/>
+    <rect width="10" height="10" x="110" y="310" fill="black" />
+    <rect width="20" height="10" x="120" y="310" fill="white" />
+    <rect width="40" height="10" x="140" y="310" fill="black" />
+    <rect width="20" height="10" x="180" y="310" fill="darkgray" />
+    <rect width="10" height="10" x="200" y="310" fill="white" />
+    <rect width="10" height="10" x="210" y="310" fill="darkgrey" />
+    <rect width="10" height="10" x="220" y="310" fill="black" />
+    <!--row 32-->
+    <rect width="20" height="10" x="40" y="320" fill="black"/>
+    <rect width="10" height="10" x="100" y="320" fill="black" />
+    <rect width="10" height="10" x="110" y="320" fill="darkgrey"/>
+    <rect width="20" height="10" x="120" y="320" fill="white" />
+    <rect width="10" height="10" x="140" y="320" fill="darkgrey" />
+    <rect width="10" height="10" x="180" y="320" fill="black" />
+    <rect width="10" height="10" x="190" y="320" fill="darkgray" />
+    <rect width="10" height="10" x="200" y="320" fill="white" />
+    <rect width="10" height="10" x="210" y="320" fill="darkgrey" />
+    <rect width="10" height="10" x="220" y="320" fill="black" />
+    <!--row 33-->
+    <rect width="20" height="10" x="90" y="330" fill="black"/>
+    <rect width="30" height="10" x="110" y="330" fill="darkgrey"/>
+    <rect width="10" height="10" x="140" y="330" fill="black" />
+    <rect width="10" height="10" x="180" y="330" fill="black" />
+    <rect width="30" height="10" x="190" y="330" fill="darkgray" />
+    <rect width="10" height="10" x="220" y="330" fill="black" />
+    <!--row 34-->
+    <rect width="70" height="10" x="80" y="340" fill="black"/>
+    <rect width="60" height="10" x="180" y="340" fill="black"/>
+    <!--row 35-->
+    <rect width="10" height="10" x="80" y="350" fill="black"/>
+    <rect width="10" height="10" x="90" y="350" fill="burlywood"/>
+    <rect width="10" height="10" x="100" y="350" fill="saddlebrown" />
+    <rect width="10" height="10" x="110" y="350" fill="black" />
+    <rect width="20" height="10" x="120" y="350" fill="burlywood" />
+    <rect width="10" height="10" x="140" y="350" fill="black" />
+    <rect width="10" height="10" x="180" y="350" fill="black"/>
+    <rect width="10" height="10" x="190" y="350" fill="saddlebrown"/>
+    <rect width="20" height="10" x="200" y="350" fill="burlywood" />
+    <rect width="10" height="10" x="220" y="350" fill="black" />
+    <rect width="10" height="10" x="230" y="350" fill="saddlebrown" />
+    <rect width="10" height="10" x="240" y="350" fill="black" />
+    <!--row 36-->
+    <rect width="10" height="10" x="80" y="360" fill="black"/>
+    <rect width="10" height="10" x="90" y="360" fill="saddlebrown"/>
+    <rect width="20" height="10" x="100" y="360" fill="black" />
+    <rect width="10" height="10" x="120" y="360" fill="burlywood" />
+    <rect width="10" height="10" x="130" y="360" fill="saddlebrown" />
+    <rect width="10" height="10" x="140" y="360" fill="black" />
+    <rect width="20" height="10" x="180" y="360" fill="black"/>
+    <rect width="10" height="10" x="200" y="360" fill="saddlebrown"/>
+    <rect width="10" height="10" x="210" y="360" fill="burlywood" />
+    <rect width="10" height="10" x="220" y="360" fill="black" />
+    <rect width="10" height="10" x="230" y="360" fill="saddlebrown" />
+    <rect width="10" height="10" x="240" y="360" fill="black" />
+    <!--row 37-->
+    <rect width="70" height="10" x="70" y="370" fill="black"/>
+    <rect width="70" height="10" x="180" y="370" fill="black"/>
+    <!--row 38-->
+    <rect width="20" height="10" x="70" y="380" fill="black"/>
+    <rect width="20" height="10" x="90" y="380" fill="saddlebrown"/>
+    <rect width="30" height="10" x="110" y="380" fill="black"/>
+    <rect width="40" height="10" x="180" y="380" fill="black"/>
+    <rect width="20" height="10" x="220" y="380" fill="saddlebrown"/>
+    <rect width="20" height="10" x="240" y="380" fill="black"/>
+    <!--row 39-->
+    <rect width="60" height="10" x="70" y="390" fill="black"/>
+    <rect width="90" height="10" x="190" y="390" fill="black"/>
+    <!--row 40-->
+    <rect width="10" height="10" x="60" y="400" fill="black"/>
+    <rect width="10" height="10" x="70" y="400" fill="saddlebrown"/>
+    <rect width="20" height="10" x="80" y="400" fill="burlywood"/>
+    <rect width="10" height="10" x="100" y="400" fill="saddlebrown"/>
+    <rect width="20" height="10" x="110" y="400" fill="black"/>
+    <rect width="40" height="10" x="190" y="400" fill="black"/>
+    <rect width="10" height="10" x="230" y="400" fill="saddlebrown"/>
+    <rect width="20" height="10" x="240" y="400" fill="burlywood"/>
+    <rect width="10" height="10" x="260" y="400" fill="saddlebrown"/>
+    <rect width="10" height="10" x="270" y="400" fill="black"/>
+    <!--row 40-->
+    <rect width="20" height="10" x="60" y="410" fill="black"/>
+    <rect width="20" height="10" x="80" y="410" fill="saddlebrown"/>
+    <rect width="30" height="10" x="100" y="410" fill="black"/>
+    <rect width="50" height="10" x="190" y="410" fill="black"/>
+    <rect width="20" height="10" x="240" y="410" fill="saddlebrown"/>
+    <rect width="20" height="10" x="260" y="410" fill="black"/>
+    <!--row 41-->
+    <rect width="60" height="10" x="60" y="420" fill="black"/>
+    <rect width="90" height="10" x="190" y="420" fill="black"/>
+    </svg>
