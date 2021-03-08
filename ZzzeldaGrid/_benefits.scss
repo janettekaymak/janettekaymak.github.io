@@ -1,9 +1,10 @@
 .benefits {
 	width: $MobileWidth;
-	height: 600px;
+	height: 575px;
 	background-image: url(./svg/block4.svg);
 	background-repeat: no-repeat;
-	margin: auto auto 0px 15px;
+	grid-row: 5;
+	margin-left: 10px;
 }
 
 .benefits p {
@@ -26,18 +27,19 @@
 
 .extra4 {
 	content: url(./svg/cover4.svg);
-	margin: -505px auto auto 33px;
+	margin-top: -2750px;
+	margin-left: 33px;
 
 }
 
 .benefits::after {
-	position:absolute;
+	position: absolute;
 	content: url(./svg/bridge4.svg);
 	z-index: -1;
 	margin-top: -300px;
-  }
-  
-  .benefits:hover::after{
+}
+
+.benefits:hover::after {
 	transform: translate(0px, 292px);
 	transition: transform 3s ease-in-out;
 	z-index: -1;
@@ -49,7 +51,7 @@
 
 	/* block4 */
 	.benefits {
-		margin-left:130px;
+		margin-left: 130px;
 	}
 
 	/* cover4 */

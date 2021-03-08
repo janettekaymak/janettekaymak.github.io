@@ -7,19 +7,16 @@
 .extra4:hover,
 .extra5:hover {
   opacity: 0;
-  -webkit-transition: 1.5s;
   transition: 1.5s;
 }
 
 body {
   background-color: #d2fcd2;
-  display: -ms-grid;
   display: grid;
   margin: -80px auto auto -10px;
 }
 
 header {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#d2fcd2), color-stop(darkturquoise), to(#d2fcd2));
   background-image: linear-gradient(#d2fcd2, darkturquoise, #d2fcd2);
   height: 200px;
   background-position: bottom;
@@ -43,7 +40,7 @@ h2 {
   display: block;
   margin: 0;
   text-align: right;
-  line-height: .1em;
+  line-height: 0.1em;
   color: #ad01ad;
 }
 
@@ -95,26 +92,29 @@ h3 {
     max-width: 500px;
     margin: auto;
   }
+
   header {
     height: 150px;
     margin-top: -50px;
   }
+
   /* Link: */
   header::after {
     position: fixed;
     margin-top: -60px;
     margin-left: 10px;
   }
+
   h1,
-  h2 {
+h2 {
     width: 470px;
   }
+
   .summary {
     padding: 0 90px 0 120px;
     line-height: 1.5em;
   }
 }
-
 /*--------------------767----------------------*/
 @media screen and (min-width: 767px) {
   body {
@@ -122,30 +122,36 @@ h3 {
     margin: auto;
     /*grid-template-columns: repeat(4, 1fr);*/
   }
+
   header {
     max-width: 767px;
     height: 150px;
     margin-top: -50px;
   }
+
   h1,
-  h2 {
+h2 {
     width: 767px;
     text-align: center;
   }
+
   h1 {
     font-size: 45px;
     line-height: 1em;
   }
+
   .summary {
     text-align: center;
     padding: 0 160px;
   }
+
   h2::after {
     content: url(./svg/littleZelda.svg);
     position: fixed;
     margin-top: -213px;
     margin-left: 133px;
   }
+
   /* Link: */
   header::after {
     position: fixed;
@@ -153,7 +159,6 @@ h3 {
     margin-left: 57px;
   }
 }
-
 /*.preamble {
     display: grid;
       grid-template-columns: repeat(18, 20px);
@@ -187,7 +192,7 @@ h3 {
           z-index: 3;
           opacity: 0;
           transition: opacity 5s;
-          
+
           &:nth-of-type(1){
               grid-column: 5/17;
               grid-row: 9/14;
@@ -281,12 +286,8 @@ div.preamble {
 }
 
 .preamble:hover::after {
-  -webkit-transform: translate(0px, 250px);
-          transform: translate(0px, 250px);
-  -webkit-transition: -webkit-transform 3s ease-in-out;
-  transition: -webkit-transform 3s ease-in-out;
+  transform: translate(0px, 250px);
   transition: transform 3s ease-in-out;
-  transition: transform 3s ease-in-out, -webkit-transform 3s ease-in-out;
 }
 
 /*--------------------500----------------------*/
@@ -295,24 +296,24 @@ div.preamble {
   div.preamble {
     margin: -15px auto -50px 124px;
   }
+
   /* cover1 */
   .extra1 {
     margin: -2810px auto auto 198px;
   }
 }
-
 /*--------------------767----------------------*/
 @media screen and (min-width: 767px) {
   /* block1 */
   div.preamble {
     margin: -15px auto -50px 200px;
   }
+
   /* cover1 */
   .extra1 {
     margin: -2810px auto auto 274px;
   }
 }
-
 .explanation h3 {
   font-family: "Merienda", cursive;
   font-size: 21px;
@@ -357,12 +358,8 @@ div.preamble {
 }
 
 .explanation:hover::after {
-  -webkit-transform: translate(0px, 350px);
-          transform: translate(0px, 350px);
-  -webkit-transition: -webkit-transform 3s ease-in-out;
-  transition: -webkit-transform 3s ease-in-out;
+  transform: translate(0px, 350px);
   transition: transform 3s ease-in-out;
-  transition: transform 3s ease-in-out, -webkit-transform 3s ease-in-out;
 }
 
 .explanation p:nth-child(3) {
@@ -375,24 +372,24 @@ div.preamble {
   .explanation {
     margin: 0 auto -100px 125px;
   }
+
   /* cover2 */
   .extra2 {
     margin: -2148px auto auto 149px;
   }
 }
-
 /*--------------------767----------------------*/
 @media screen and (min-width: 767px) {
   /* block2 */
   .explanation {
     margin: 0 auto -100px 207px;
   }
+
   /* cover2 */
   .extra2 {
     margin: -2148px auto auto 231px;
   }
 }
-
 .participation {
   display: block;
   width: 360px;
@@ -411,12 +408,8 @@ div.preamble {
 }
 
 .participation:hover::after {
-  -webkit-transform: translate(0px, 360px);
-          transform: translate(0px, 360px);
-  -webkit-transition: -webkit-transform 4s ease-in-out;
-  transition: -webkit-transform 4s ease-in-out;
+  transform: translate(0px, 360px);
   transition: transform 4s ease-in-out;
-  transition: transform 4s ease-in-out, -webkit-transform 4s ease-in-out;
 }
 
 .participation h3 {
@@ -454,26 +447,26 @@ div.preamble {
   .participation {
     margin: 0 auto -50px 125px;
   }
+
   /* cover3 */
   .extra3 {
     margin-top: -1430px;
     margin-left: 163px;
   }
 }
-
 /*--------------------767----------------------*/
 @media screen and (min-width: 767px) {
   /* block3 */
   .participation {
     margin: 0 auto -50px 207px;
   }
+
   /* cover3 */
   .extra3 {
     margin-top: -1430px;
     margin-left: 245px;
   }
 }
-
 .benefits {
   width: 360px;
   height: 600px;
@@ -513,12 +506,8 @@ div.preamble {
 }
 
 .benefits:hover::after {
-  -webkit-transform: translate(0px, 292px);
-          transform: translate(0px, 292px);
-  -webkit-transition: -webkit-transform 3s ease-in-out;
-  transition: -webkit-transform 3s ease-in-out;
+  transform: translate(0px, 292px);
   transition: transform 3s ease-in-out;
-  transition: transform 3s ease-in-out, -webkit-transform 3s ease-in-out;
   z-index: -1;
 }
 
@@ -528,24 +517,24 @@ div.preamble {
   .benefits {
     margin-left: 130px;
   }
+
   /* cover4 */
   .extra4 {
     margin: -505px auto auto 147px;
   }
 }
-
 /*--------------------767----------------------*/
 @media screen and (min-width: 767px) {
   /* block4 */
   .benefits {
     margin-left: 212px;
   }
+
   /* cover4 */
   .extra4 {
     margin: -505px auto auto 229px;
   }
 }
-
 .requirements {
   position: absolute;
   width: 365px;
@@ -591,12 +580,8 @@ div.preamble {
 }
 
 .requirements:hover::after {
-  -webkit-transform: translate(0px, 300px);
-          transform: translate(0px, 300px);
-  -webkit-transition: -webkit-transform 1.5s ease-in-out;
-  transition: -webkit-transform 1.5s ease-in-out;
+  transform: translate(0px, 300px);
   transition: transform 1.5s ease-in-out;
-  transition: transform 1.5s ease-in-out, -webkit-transform 1.5s ease-in-out;
   z-index: 2;
 }
 
@@ -613,24 +598,24 @@ div.preamble {
   .requirements {
     margin: 0 auto 0px 110px;
   }
+
   /* cover5 */
   .extra5 {
     margin: 3328px auto auto 182px;
   }
 }
-
 /*--------------------767----------------------*/
 @media screen and (min-width: 767px) {
   /* block5 */
   .requirements {
     margin: 0 auto 0px 198px;
   }
+
   /* cover5 */
   .extra5 {
     margin: 3278px auto auto 270px;
   }
 }
-
 aside.sidebar {
   position: absolute;
   background-image: url(./svg/block6.svg);
@@ -671,7 +656,7 @@ aside.sidebar h3 {
   background-color: lightgrey;
   padding: 5px;
   border-radius: 5px;
-  line-height: .7em;
+  line-height: 0.7em;
   width: 240px;
   margin-left: 48px;
 }
@@ -707,7 +692,6 @@ aside.sidebar::after {
   grid-area: world;
   width: 350px;
   height: 350px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#d2fcd2), color-stop(darkturquoise), to(purple));
   background-image: linear-gradient(#d2fcd2, darkturquoise, purple);
   border-radius: 600px;
   margin: 180px auto 0 -28px;
@@ -728,17 +712,20 @@ aside.sidebar::after {
   aside.sidebar {
     margin: 1010px auto 0px 125px;
   }
+
   /* link and zelda */
   aside.sidebar::before {
     margin-top: 1280px;
     margin-left: -83px;
   }
+
   /* world */
   aside.sidebar::after {
     margin: 170px auto 0 -47px;
     z-index: 3;
     font-weight: normal;
   }
+
   /*castle*/
   .extra6 {
     z-index: 0;
@@ -746,29 +733,30 @@ aside.sidebar::after {
     margin-left: -75px;
   }
 }
-
 /*--------------------767----------------------*/
 @media screen and (min-width: 767px) {
   /* block6 */
   aside.sidebar {
     margin: 1010px auto 0px 180px;
   }
+
   /*castle*/
   .extra6 {
     z-index: 0;
     margin-top: 4920px;
     margin-left: 23px;
   }
+
   /* link and zelda */
   aside.sidebar::before {
     margin-top: 1270px;
     margin-left: -5px;
   }
+
   /* world */
   aside.sidebar::after {
     margin: 190px auto 0 -4px;
     z-index: 3;
     font-weight: normal;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

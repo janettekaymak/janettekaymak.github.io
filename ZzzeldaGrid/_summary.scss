@@ -1,16 +1,7 @@
 body {
 	background-color: $BGcolor1;
 	display: grid;
-	margin: -80px auto auto -10px;
-
-}
-
-*{
-	position:relative;
-}
-
-body {
-	display: grid;
+	margin: -60px auto auto -10px;
 	grid-template-columns: 1fr;
 	grid-gap: 0px;
 	grid-auto-rows: max-content;
@@ -31,7 +22,7 @@ header::after {
 	margin-left: 20px;
 	position: absolute;
 	margin-top: -20px;
-	z-index: 2;
+	z-index: 0;
 }
 
 h1,
@@ -73,7 +64,7 @@ h3 {
 }
 
 .summary {
-	padding: 0 5px 0 110px;
+	padding: 0 280px 0 120px;
 	margin: auto 14px 0 10px;
 	text-align: right;
 	font-family: $Font-H;

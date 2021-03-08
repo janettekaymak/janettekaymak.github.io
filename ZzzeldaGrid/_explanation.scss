@@ -15,8 +15,9 @@
 	font-family: $Font-p;
 	font-size: 17px;
 	width: $MobileWidth;
-	height: 800px;
+	height: 750px;
 	line-height: 1.11em;
+	margin-left: 10px;
 }
 
 .explanation p {
@@ -28,13 +29,13 @@
 
 .extra2 {
 	content: url(./svg/cover2.svg);
-	margin: -2199px auto auto 34px;
+	margin-top: -4443px;
+	margin-left: 33px;
 }
 
 
 .explanation::after {
 	content: url(./svg/flat-drawbridge.svg);
-	display: block;
 	margin-top: -340px;
 	margin-left: 102px;
 	position: absolute;

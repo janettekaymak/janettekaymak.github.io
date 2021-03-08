@@ -89,6 +89,7 @@ div.preamble {
     line-height: 1em;
     background-image: url(./svg/block1.svg);
     background-repeat: no-repeat;
+    margin-left: 10px;
 }
 
 .preamble p {
@@ -111,13 +112,13 @@ div.preamble {
 }
 
 .extra1 {
+    margin-top: -5158px;
     content: url(./svg/cover1.svg);
-    grid-row: 2;
+    margin-left: 84px;
 }
 
 .preamble::after {
     content: url(./svg/flat-drawbridge.svg);
-    display: block;
     margin-top: -250px;
     margin-left: 130px;
     position: absolute;
