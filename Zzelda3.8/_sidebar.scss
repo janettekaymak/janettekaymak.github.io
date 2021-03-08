@@ -1,12 +1,13 @@
 aside.sidebar {
-	grid-row: 7;
+	position: absolute;
 	background-image: url(./svg/block6.svg);
 	background-repeat: no-repeat;
 	padding: 20px 15px 15px 32px;
 	width: 360px;
 	height: 1200px;
+	display: block;
+	margin: 1000px auto auto 11px;
 	z-index: 1;
-	margin-left: 10px;
 
 }
 
@@ -60,9 +61,9 @@ footer {
 aside.sidebar::before {
 	content: url(./svg/together.svg);
 	position: absolute;
+	margin-top: 1285px;
+	margin-left: 0px;
 	z-index: 2;
-	margin-top: 1280px;
-	margin-left: -15px;
 }
 
 aside.sidebar::after {
@@ -70,23 +71,24 @@ aside.sidebar::after {
 	content: "CONGRATULATIONS! YOU WON! . . . Now, go forth into the world and code your very own CSS Zen Garden! . . . This Zen Garden was created by Michael Kendall, Donivan Killpack and Janette Kaymak. All of the images are original Scalable Vector Graphics, lovingly hand-coded. Please do not use our artwork without permission © 2021";
 	font-family: $Font-p;
 	text-align: center;
-	font-size: 20px;
+	font-size: 22px;
 	color: $BGcolor6;
-	width: 320px;
-	height: 320px;
+	grid-area: world;
+	width: 350px;
+	height: 350px;
 	background-image: linear-gradient(#d2fcd2, darkturquoise, purple);
 	border-radius: 600px;
-	margin-top: 220px;
+	margin: 180px auto 0 -28px;
 	font-weight: bolder;
-
 
 }
 
 .extra6 {
 	content: url(./svg/pinkCastle.svg);
+	position: absolute;
+	margin-top: 5150px;
+	margin-left: 10px;
 	z-index: -1;
-	margin-top: -580px;
-	margin-left: -70px;
 }
 
 /*--------------------500----------------------*/
@@ -102,7 +104,7 @@ aside.sidebar::after {
 	/* link and zelda */
 	aside.sidebar::before {
 		margin-top: 1280px;
-		margin-left: -83px;
+		margin-left: -53px;
 	}
 
 	/* world */
@@ -131,7 +133,7 @@ aside.sidebar::after {
 		margin: 1010px auto 0px 180px;
 
 	}
-
+	
 	/*castle*/
 	.extra6 {
 		z-index: 0;

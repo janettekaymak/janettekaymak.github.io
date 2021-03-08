@@ -1,14 +1,14 @@
 .participation {
-	grid-row: 4;
+	display: block;
 	width: $MobileWidth;
-	height: 800px;
+	height: 850px;
 	background-repeat: no-repeat;
 	background-image: url(./svg/block3.svg);
-	margin-left: 10px;
+	margin: 0 auto -50px 10px;
 }
 
-.participation::after {
-	position: absolute;
+.participation::after{
+	position:absolute;
 	content: url(./svg/bridge3.svg);
 	margin-top: -380px;
 	margin-left: 8px;
@@ -38,15 +38,15 @@
 	margin: 12px auto auto auto;
 }
 
-.participation a {
+.participation a{
 	color: orange;
 	text-decoration: none;
 }
 
 .extra3 {
 	content: url(./svg/cover3.svg);
-	margin-top: -3676px;
-	margin-left: 49px;
+	margin-top: -1431px;
+	margin-left: 50px;
 }
 
 /*--------------------500----------------------*/

@@ -77,86 +77,87 @@
               z-index:1;}
       }
   }*/
-
-div.preamble {
-    grid-row: 2;
-    font-family: $Font-p;
-    font-size: 17.5px;
-    color: $FontLight;
-    width: $MobileWidth;
-    height: 760px;
-    text-align: justify;
-    line-height: 1em;
-    background-image: url(./svg/block1.svg);
-    background-repeat: no-repeat;
-    margin-left: 10px;
+  
+  div.preamble {
+	display: block;
+	font-family: $Font-p;
+	font-size: 17.5px;
+	color: $FontLight;
+	width: $MobileWidth;
+	height: 760px;
+	text-align: justify;
+	line-height: 1em;
+	background-image: url(./svg/block1.svg);
+	background-repeat: no-repeat;
+	margin: -15px auto 0px 9px;
 }
 
 .preamble p {
-    padding: 0px 40px;
-    margin: 20px 0 0 45px;
+	padding: 0px 40px;
+	margin: 20px 0 0 45px;
 }
 
 .preamble h3 {
-    font-family: $Font-H;
-    font-size: 25px;
-    line-height: 1em;
-    padding: 80px 50px 0 90px;
-    ;
+	font-family: $Font-H;
+	font-size: 25px;
+	line-height: 1em;
+	padding: 80px 50px 0 90px;
+	;
 }
 
 .preamble p:nth-child(4) {
-    width: 160px;
-    text-align: justify;
-    margin-left: 90px;
+	width: 160px;
+	text-align: justify;
+	margin-left: 90px;
 }
 
 .extra1 {
-    margin-top: -5158px;
-    content: url(./svg/cover1.svg);
-    margin-left: 84px;
+	content: url(./svg/cover1.svg);
+	margin-top: -2913px;
+	margin-left: 84px;
 }
 
 .preamble::after {
-    content: url(./svg/flat-drawbridge.svg);
-    margin-top: -250px;
-    margin-left: 130px;
-    position: absolute;
-    z-index: -1;
+	content: url(./svg/flat-drawbridge.svg);
+	display: block;
+	margin-top: -250px;
+	margin-left: 130px;
+	position: absolute;
+	z-index: -1;
 }
 
 .preamble:hover::after {
-    transform: translate(0px, 250px);
-    transition: transform 3s ease-in-out;
+	transform: translate(0px, 250px);
+	transition: transform 3s ease-in-out;
 }
 
 /*--------------------500----------------------*/
 
 @media screen and (min-width: $SmallRespWidth) {
 
-    /* block1 */
-    div.preamble {
-        margin: -15px auto -50px 124px;
-    }
+	/* block1 */
+	div.preamble {
+		margin: -15px auto -50px 124px;
+	}
 
-    /* cover1 */
-    .extra1 {
-        margin: -2810px auto auto 198px;
-    }
+	/* cover1 */
+	.extra1 {
+		margin: -2810px auto auto 198px;
+	}
 }
 
 /*--------------------767----------------------*/
 
 @media screen and (min-width: $KindleWidth) {
 
-    /* block1 */
-    div.preamble {
-        margin: -15px auto -50px 200px;
-    }
+	/* block1 */
+	div.preamble {
+		margin: -15px auto -50px 200px;
+	}
 
-    /* cover1 */
-    .extra1 {
-        margin: -2810px auto auto 274px;
-    }
+	/* cover1 */
+	.extra1 {
+		margin: -2810px auto auto 274px;
+	}
 
 }

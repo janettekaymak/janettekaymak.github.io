@@ -1,19 +1,17 @@
 body {
 	background-color: $BGcolor1;
 	display: grid;
-	margin: -60px auto auto -10px;
-	grid-template-columns: 1fr;
-	grid-gap: 0px;
-	grid-auto-rows: max-content;
+	margin: -80px auto auto -10px;
+
 }
 
 header {
-	grid-row: 1;
 	background-image: linear-gradient($BGcolor1, $BGcolor2, $BGcolor1);
 	height: 200px;
 	background-position: bottom;
 	background-repeat: repeat;
 	background-size: cover;
+	position: relative;
 	z-index: -1;
 }
 
@@ -22,7 +20,7 @@ header::after {
 	margin-left: 20px;
 	position: absolute;
 	margin-top: -20px;
-	z-index: 0;
+	z-index: 2;
 }
 
 h1,
@@ -64,7 +62,7 @@ h3 {
 }
 
 .summary {
-	padding: 0 280px 0 120px;
+	padding: 0 75px 0 105px;
 	margin: auto 14px 0 10px;
 	text-align: right;
 	font-family: $Font-H;
@@ -115,7 +113,7 @@ h3 {
 
 /*--------------------767----------------------*/
 
-@media screen and (min-width: $KindleWidth) {
+@media screen and (min-width: $KindleWidth ) {
 
 	body {
 		max-width: $KindleWidth;
@@ -136,7 +134,7 @@ h3 {
 		text-align: center;
 	}
 
-	h1 {
+	h1{
 		font-size: 45px;
 		line-height: 1em;
 	}
@@ -146,19 +144,19 @@ h3 {
 		padding: 0 160px;
 	}
 
-	h2::after {
-		content: url(./svg/littleZelda.svg);
+	h2::after{
+		content:url(./svg/littleZelda.svg);
 		position: fixed;
 		margin-top: -213px;
 		margin-left: 133px;
 	}
 
-	/* Link: */
-	header::after {
-		position: fixed;
-		margin-top: -60px;
-		margin-left: 57px;
-	}
+		/* Link: */
+		header::after {
+			position: fixed;
+			margin-top: -60px;
+			margin-left: 57px;
+		}
 
 
 }

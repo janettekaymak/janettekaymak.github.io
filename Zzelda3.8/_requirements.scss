@@ -1,11 +1,11 @@
 .requirements {
-	grid-row: 6;
+	position: absolute;
 	width: 365px;
-	height: 1010px;
+	height: 1050px;
 	display: block;
+	margin: 0 auto 0 8px;
 	background-image: url(./svg/block5.svg);
 	background-repeat: no-repeat;
-	margin-left: 5px;
 }
 
 .requirements p {
@@ -23,7 +23,7 @@
 	font-family: $Font-H;
 	font-size: 25px;
 	line-height: 1em;
-	padding: 28px 0 5px 40px;
+	padding: 0px 0 5px 40px;
 
 
 }
@@ -36,24 +36,23 @@
 	margin-top: 0px;
 }
 
-.requirements::after {
+.requirements::after{
 	content: url(./svg/drawbridge.svg);
-	position: absolute;
+	position:absolute;
 	margin-left: 131px;
-	margin-top: -245px;
+	margin-top: -315px;
 	z-index: -1;
 }
-
-.requirements:hover::after {
-	transform: translate(0px, 224px);
+.requirements:hover::after{
+	transform: translate(0px, 300px);
 	transition: transform 1.5s ease-in-out;
 	z-index: 2;
 }
 
 .extra5 {
 	content: url(./svg/cover5.svg);
-	margin-top: -2220px;
-	margin-left: 78px;
+	position: absolute;
+	margin: 3489px auto auto 80px;
 	z-index: 3;
 }
 
