@@ -1,0 +1,79 @@
+.benefits {
+	width: $MobileWidth;
+	height: 600px;
+	background-image: url(./svg/block4.svg);
+	background-repeat: no-repeat;
+	margin: auto auto 0px 15px;
+}
+
+.benefits p {
+	font-family: $Font-p;
+	font-size: 16.5px;
+	text-align: center;
+	width: 250px;
+	display: block;
+	margin: auto;
+	padding-right: 10px;
+}
+
+.benefits h3 {
+	font-family: $Font-H;
+	font-size: 30px;
+	line-height: 1em;
+	padding-top: 55px;
+	padding-bottom: 20px;
+}
+
+.extra4 {
+	content: url(./svg/cover4.svg);
+	margin: -505px auto auto 33px;
+
+}
+
+.benefits::after {
+	position:absolute;
+	content: url(./svg/bridge4.svg);
+	z-index: -1;
+	margin-top: -300px;
+  }
+  
+  .benefits:hover::after{
+	transform: translate(0px, 292px);
+	transition: transform 3s ease-in-out;
+	z-index: -1;
+}
+
+/*--------------------500----------------------*/
+
+@media screen and (min-width: $SmallRespWidth) {
+
+	/* block4 */
+	.benefits {
+		margin-left:130px;
+	}
+
+	/* cover4 */
+	.extra4 {
+		margin: -505px auto auto 147px;
+
+	}
+
+}
+
+/*--------------------767----------------------*/
+
+@media screen and (min-width: $KindleWidth) {
+
+	/* block4 */
+	.benefits {
+		margin-left: 212px;
+	}
+
+	/* cover4 */
+	.extra4 {
+		margin: -505px auto auto 229px;
+
+	}
+
+
+}

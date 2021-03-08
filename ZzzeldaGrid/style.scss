@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+//Variables
+
+//Colors
+$BGcolor1: rgb(210, 252, 210);
+$BGcolor2: darkturquoise;
+$BGcolor3: purple;
+$BGcolor3A:rgb(173, 1, 173);
+$BGcolor4: lightgrey;
+$BGcolor5:grey;
+$FontLight: white;
+$BGcolor6: indigo;
+
+//Fonts
+$Font-H: 'Merienda', cursive;
+$Font-p: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+
+//Widths
+$MobileWidth: 360px;
+$SmallRespWidth: 500px;
+$KindleWidth: 767px;
+$LapTopWidth: 1200px;
+
+
+.extra1:hover,
+.extra2:hover,
+.extra3:hover,
+.extra4:hover,
+.extra5:hover {
+	opacity: 0;
+	transition: 1.5s;
+}
+
+
+@import 'summary.scss';
+@import 'preamble.scss';
+@import 'explanation.scss';
+@import 'participation.scss';
+@import 'benefits.scss';
+@import 'requirements.scss';
+@import 'sidebar.scss';
+

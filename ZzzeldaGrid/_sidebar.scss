@@ -1,0 +1,158 @@
+aside.sidebar {
+	position: absolute;
+	background-image: url(./svg/block6.svg);
+	background-repeat: no-repeat;
+	padding: 20px 15px 15px 32px;
+	width: 360px;
+	height: 1200px;
+	display: block;
+	margin: 1000px auto auto 11px;
+	z-index: 1;
+
+}
+
+aside.sidebar a:link,
+aside.sidebar a:visited {
+	color: $FontLight;
+	text-decoration: none;
+	text-shadow: $BGcolor4 1px 1px 1px;
+}
+
+li:hover {
+	background-color: $BGcolor5;
+	border-radius: 5px;
+	padding: 3px 10px;
+}
+
+aside.sidebar a:hover,
+aside.sidebar:hover {
+	color: $BGcolor3A;
+	font-family: $Font-p;
+	text-shadow: $BGcolor3 1px 1px 1px;
+}
+
+aside.sidebar h3 {
+	font-family: $Font-H;
+	font-size: 29px;
+	text-align: center;
+	color: $BGcolor3;
+	background-color: $BGcolor4;
+	padding: 5px;
+	border-radius: 5px;
+	line-height: .7em;
+	width: 240px;
+	margin-left: 48px;
+}
+
+aside.sidebar ul li {
+	font-family: $Font-p;
+	color: $FontLight;
+	width: 200px;
+	display: block;
+	margin-left: 30px;
+	font-size: 18px;
+
+}
+
+footer {
+	display: none;
+}
+
+aside.sidebar::before {
+	content: url(./svg/together.svg);
+	position: absolute;
+	margin-top: 1285px;
+	margin-left: 0px;
+	z-index: 2;
+}
+
+aside.sidebar::after {
+	display: block;
+	content: "CONGRATULATIONS! YOU WON! . . . Now, go forth into the world and code your very own CSS Zen Garden! . . . This Zen Garden was created by Michael Kendall, Donivan Killpack and Janette Kaymak. All of the images are original Scalable Vector Graphics, lovingly hand-coded. Please do not use our artwork without permission © 2021";
+	font-family: $Font-p;
+	text-align: center;
+	font-size: 22px;
+	color: $BGcolor6;
+	grid-area: world;
+	width: 350px;
+	height: 350px;
+	background-image: linear-gradient(#d2fcd2, darkturquoise, purple);
+	border-radius: 600px;
+	margin: 180px auto 0 -28px;
+	font-weight: bolder;
+
+}
+
+.extra6 {
+	content: url(./svg/pinkCastle.svg);
+	position: absolute;
+	margin-top: 5150px;
+	margin-left: 10px;
+	z-index: -1;
+}
+
+/*--------------------500----------------------*/
+
+@media screen and (min-width: $SmallRespWidth) {
+
+	/* block6 */
+	aside.sidebar {
+		margin: 1010px auto 0px 125px;
+
+	}
+
+	/* link and zelda */
+	aside.sidebar::before {
+		margin-top: 1280px;
+		margin-left: -83px;
+	}
+
+	/* world */
+	aside.sidebar::after {
+		margin: 170px auto 0 -47px;
+		z-index: 3;
+		font-weight: normal;
+
+	}
+
+	/*castle*/
+	.extra6 {
+		z-index: 0;
+		margin-top: 4965px;
+		margin-left: -75px;
+	}
+
+}
+
+/*--------------------767----------------------*/
+
+@media screen and (min-width: $KindleWidth) {
+
+	/* block6 */
+	aside.sidebar {
+		margin: 1010px auto 0px 180px;
+
+	}
+	
+	/*castle*/
+	.extra6 {
+		z-index: 0;
+		margin-top: 4920px;
+		margin-left: 23px;
+	}
+
+	/* link and zelda */
+	aside.sidebar::before {
+		margin-top: 1270px;
+		margin-left: -5px;
+	}
+
+	/* world */
+	aside.sidebar::after {
+		margin: 190px auto 0 -4px;
+		z-index: 3;
+		font-weight: normal;
+
+	}
+
+}

@@ -1,0 +1,87 @@
+.requirements {
+	position: absolute;
+	width: 365px;
+	height: 1050px;
+	display: block;
+	margin: 0 auto 0 8px;
+	background-image: url(./svg/block5.svg);
+	background-repeat: no-repeat;
+}
+
+.requirements p {
+	width: 252px;
+	display: block;
+	margin: 5px auto auto 80px;
+	font-family: $Font-p;
+	font-size: 16.5px;
+	line-height: 1.1em;
+	text-align: justify;
+	text-shadow: $FontLight 1px 1px 2px;
+}
+
+.requirements h3 {
+	font-family: $Font-H;
+	font-size: 25px;
+	line-height: 1em;
+	padding: 0px 0 5px 40px;
+
+
+}
+
+.requirements p:nth-child(5),
+.requirements p:nth-child(6) {
+	width: 160px;
+	margin-left: 175px;
+	text-align: left;
+	margin-top: 0px;
+}
+
+.requirements::after{
+	content: url(./svg/drawbridge.svg);
+	position:absolute;
+	margin-left: 131px;
+	margin-top: -315px;
+	z-index: -1;
+}
+.requirements:hover::after{
+	transform: translate(0px, 300px);
+	transition: transform 1.5s ease-in-out;
+	z-index: 2;
+}
+
+.extra5 {
+	content: url(./svg/cover5.svg);
+	position: absolute;
+	margin: 3489px auto auto 80px;
+	z-index: 3;
+}
+
+/*--------------------500----------------------*/
+
+@media screen and (min-width: $SmallRespWidth) {
+
+	/* block5 */
+	.requirements {
+		margin: 0 auto 0px 110px;
+	}
+
+	/* cover5 */
+	.extra5 {
+		margin: 3328px auto auto 182px;
+	}
+}
+
+/*--------------------767----------------------*/
+
+@media screen and (min-width: $KindleWidth) {
+
+	/* block5 */
+	.requirements {
+		margin: 0 auto 0px 198px;
+	}
+
+	/* cover5 */
+	.extra5 {
+		margin: 3278px auto auto 270px;
+	}
+}
