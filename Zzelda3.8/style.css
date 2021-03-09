@@ -323,7 +323,7 @@ div.preamble {
 
   /* cover1 */
   .extra1 {
-    margin: -2810px auto auto 198px;
+    margin: -2760px auto auto 198px;
   }
 }
 /*--------------------767----------------------*/
@@ -413,7 +413,7 @@ div.preamble {
 
   /* cover2 */
   .extra2 {
-    margin: -2148px auto auto 149px;
+    margin: -2098px auto auto 149px;
   }
 }
 /*--------------------767----------------------*/
@@ -514,7 +514,7 @@ div.preamble {
 
   /* cover3 */
   .extra3 {
-    margin-top: -1430px;
+    margin-top: -1380px;
     margin-left: 163px;
   }
 }
@@ -607,7 +607,7 @@ div.preamble {
 
   /* cover4 */
   .extra4 {
-    margin: -505px auto auto 147px;
+    margin: -455px auto auto 147px;
   }
 }
 /*--------------------767----------------------*/
@@ -728,7 +728,7 @@ div.preamble {
 
   /* cover5 */
   .extra5 {
-    margin: 3328px auto auto 182px;
+    margin: 3278px auto auto 182px;
   }
 }
 /*--------------------767----------------------*/
@@ -879,7 +879,7 @@ aside.sidebar::after {
   /*castle*/
   .extra6 {
     z-index: 0;
-    margin-top: 4965px;
+    margin-top: 4915px;
     margin-left: -110px;
   }
 }
