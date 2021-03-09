@@ -271,7 +271,7 @@ div.preamble {
   height: 760px;
   text-align: justify;
   line-height: 1em;
-  background-image: url(./svg/block1text.svg);
+  background-image: url(./svg/block1.svg);
   background-repeat: no-repeat;
   margin: -15px auto 0px 9px;
 }
@@ -363,7 +363,7 @@ div.preamble {
 
 .explanation {
   display: block;
-  background-image: url(./svg/block2text.svg);
+  background-image: url(./svg/block2.svg);
   background-repeat: no-repeat;
   text-align: justify;
   font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
