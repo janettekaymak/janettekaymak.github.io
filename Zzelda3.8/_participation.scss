@@ -97,4 +97,14 @@
 		margin-top: -1430px;
 		margin-left: 745px;
 	}
+
+	.participation::after{
+		margin-top: -380px;
+	}
+	
+	.participation:hover::after {
+		transform: translate(0px, 333px);
+		transition: transform 4s ease-in-out;
+	}
+
 }

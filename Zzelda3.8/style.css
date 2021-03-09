@@ -544,6 +544,15 @@ div.preamble {
     margin-top: -1430px;
     margin-left: 745px;
   }
+
+  .participation::after {
+    margin-top: -380px;
+  }
+
+  .participation:hover::after {
+    transform: translate(0px, 333px);
+    transition: transform 4s ease-in-out;
+  }
 }
 .benefits {
   width: 360px;
@@ -618,6 +627,7 @@ div.preamble {
   /* block4 */
   .benefits {
     margin-left: 707px;
+    margin-top: -150px;
   }
 
   /* cover4 */
