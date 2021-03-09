@@ -90,7 +90,7 @@
 
 	/* cover4 */
 	.extra4 {
-		margin: -505px auto auto 726px;
+		margin: -455px auto auto 730px;
 	}
 
 	.benefits::after {
@@ -102,6 +102,20 @@
 		transform: translate(-202px, 0px);
 		transition: transform 3s ease-in-out;
 		z-index: -1;
+	}
+	
+	.benefits h3 {
+		font-family: $Font-H;
+		font-size: 30px;
+		line-height: 1em;
+		padding-top: 105px;
+		padding-bottom: 20px;
+	}
+	.benefits p:nth-child(2)::after{
+		content: url(./svg/ladder.svg);
+		position:absolute;
+		margin-top: 115px;
+		margin-left: 10px;
 	}
 	
 }
