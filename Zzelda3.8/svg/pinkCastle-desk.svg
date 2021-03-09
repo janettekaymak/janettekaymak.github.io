@@ -24,7 +24,8 @@
         <pattern id="windowPattern" patternUnits="userSpaceOnUse" x="0" y="10" width="300" height="160" viewBox="0 0 100 110">
             <!-- stone work -->
             <rect width="93" height="105" x="3" y="4" fill="#bebebe" rx="43" stroke="black" />
-            <rect width="56" height="83" x="22" y="23" rx="31" stroke="black" fill="#d2fcd2" />
+            <rect width="56" height="83" x="22" y="23" rx="31" stroke="black" fill="url(#redBricks)"/>
+             <rect width="56" height="83" x="22" y="23" rx="31" stroke="black" opacity=".5"/>
             <!-- more stone work -->
             <rect width="93" height="37" x="3" y="72" fill="#bebebe" rx="3" stroke="black" />
             <rect width="12" height="25" x="43" y=".7" fill="darkgrey" rx="3" stroke="black" />
@@ -129,13 +130,18 @@
 <rect width="40" height="40" x="540" y="120" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
 
 <!--second tower-->
+<rect width="80" height="350" x="890" y="90" fill="url(#redBricks)"/>
+<rect width="80" height="350" x="890" y="90" opacity=".5"/>
 <rect width="280" height="40" x="790" y="80" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
 <rect width="280" height="40" x="790" y="120" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
 <rect width="280" height="40" x="790" y="160" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
 
 <rect width="180" height="40" x="850" y="200" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="180" height="40" x="850" y="240" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="180" height="40" x="850" y="280" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+<rect width="60" height="40" x="850" y="240" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+<rect width="60" height="40" x="970" y="240" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+<rect width="60" height="40" x="850" y="280" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+<rect width="60" height="40" x="970" y="280" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+
 <rect width="180" height="40" x="850" y="320" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
 <rect width="180" height="40" x="850" y="360" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
 
