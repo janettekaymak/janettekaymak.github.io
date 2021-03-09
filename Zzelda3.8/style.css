@@ -349,7 +349,7 @@ div.preamble {
 
   /* cover1 */
   .extra1 {
-    margin: -2310px auto auto 204px;
+    margin: -2210px auto auto 204px;
   }
 }
 .explanation h3 {
@@ -438,7 +438,7 @@ div.preamble {
 
   /* cover2 */
   .extra2 {
-    margin: -1648px auto auto 174px;
+    margin: -1548px auto auto 174px;
   }
 
   /*bridge*/
@@ -541,7 +541,7 @@ div.preamble {
 
   /* cover3 */
   .extra3 {
-    margin-top: -1430px;
+    margin-top: -1330px;
     margin-left: 745px;
   }
 
@@ -731,7 +731,7 @@ div.preamble {
 @media screen and (min-width: 1200px) {
   /* block5 */
   .requirements {
-    margin: -1050px auto 0px 140px;
+    margin: -950px auto 0px 140px;
   }
 
   /* cover5 */
@@ -839,12 +839,12 @@ aside.sidebar::after {
   /* link and zelda */
   aside.sidebar::before {
     margin-top: 1280px;
-    margin-left: -53px;
+    margin-left: -85px;
   }
 
   /* world */
   aside.sidebar::after {
-    margin: 170px auto 0 -47px;
+    margin: 170px auto 0 -82px;
     z-index: 3;
     font-weight: normal;
   }
@@ -853,7 +853,7 @@ aside.sidebar::after {
   .extra6 {
     z-index: 0;
     margin-top: 4965px;
-    margin-left: -75px;
+    margin-left: -110px;
   }
 }
 /*--------------------767----------------------*/
@@ -889,7 +889,7 @@ aside.sidebar::after {
   aside.sidebar {
     background-image: url(./svg/block6desk.svg);
     background-repeat: no-repeat;
-    margin: -2530px auto 0px 670px;
+    margin: -2430px auto 0px 670px;
     z-index: 3;
     padding: 210px 15px 15px 32px;
   }

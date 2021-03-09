@@ -104,12 +104,12 @@ aside.sidebar::after {
 	/* link and zelda */
 	aside.sidebar::before {
 		margin-top: 1280px;
-		margin-left: -53px;
+		margin-left: -85px;
 	}
 
 	/* world */
 	aside.sidebar::after {
-		margin: 170px auto 0 -47px;
+		margin: 170px auto 0 -82px;
 		z-index: 3;
 		font-weight: normal;
 
@@ -119,7 +119,7 @@ aside.sidebar::after {
 	.extra6 {
 		z-index: 0;
 		margin-top: 4965px;
-		margin-left: -75px;
+		margin-left: -110px;
 	}
 
 }
@@ -165,7 +165,7 @@ aside.sidebar::after {
 	aside.sidebar {
 		background-image: url(./svg/block6desk.svg);
 		background-repeat: no-repeat;
-		margin: -2530px auto 0px 670px;
+		margin: -2430px auto 0px 670px;
 		z-index: 3;
 		padding: 210px 15px 15px 32px;
 
