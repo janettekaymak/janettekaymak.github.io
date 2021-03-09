@@ -143,7 +143,7 @@
 <rect width="40" height="40" x="870" y="40" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
 <rect width="40" height="40" x="950" y="40" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
 <rect width="40" height="40" x="1030" y="40" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="200" height="200" x="790" y="80" fill="url(#jewels)"/>
+<!--<rect width="200" height="200" x="790" y="80" fill="url(#jewels)"/>-->
 
 <!--end of second tower-->
 
