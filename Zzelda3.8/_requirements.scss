@@ -98,5 +98,15 @@
 	.extra5 {
 		margin: 1678px auto auto 212px;
 	}
+
+	.requirements::after{
+		margin-top: -315px;
+		z-index: -1;
+	}
+	.requirements:hover::after{
+		transform: translate(0px, 325px);
+		transition: transform 1.5s ease-in-out;
+		z-index: 2;
+	}
 	
 	}
