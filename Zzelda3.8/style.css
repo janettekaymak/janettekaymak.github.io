@@ -296,7 +296,7 @@ div.preamble {
 
 .extra1 {
   content: url(./svg/cover1.svg);
-  margin-top: -2913px;
+  margin-top: -2863px;
   margin-left: 84px;
 }
 
@@ -383,7 +383,7 @@ div.preamble {
 
 .extra2 {
   content: url(./svg/cover2.svg);
-  margin: -2199px auto auto 34px;
+  margin: -2149px auto auto 34px;
 }
 
 .explanation::after {
@@ -501,7 +501,7 @@ div.preamble {
 
 .extra3 {
   content: url(./svg/cover3.svg);
-  margin-top: -1431px;
+  margin-top: -1381px;
   margin-left: 50px;
 }
 
@@ -559,7 +559,7 @@ div.preamble {
   height: 600px;
   background-image: url(./svg/block4.svg);
   background-repeat: no-repeat;
-  margin: auto auto 0px 10px;
+  margin: -100px auto 0px 10px;
 }
 
 .benefits p {
@@ -576,13 +576,13 @@ div.preamble {
   font-family: "Merienda", cursive;
   font-size: 30px;
   line-height: 1em;
-  padding-top: 55px;
+  padding-top: 105px;
   padding-bottom: 20px;
 }
 
 .extra4 {
   content: url(./svg/cover4.svg);
-  margin: -505px auto auto 33px;
+  margin: -455px auto auto 33px;
 }
 
 .benefits::after {
@@ -715,7 +715,7 @@ div.preamble {
 .extra5 {
   content: url(./svg/cover5.svg);
   position: absolute;
-  margin: 3489px auto auto 80px;
+  margin: 3439px auto auto 80px;
   z-index: 3;
 }
 
@@ -774,7 +774,7 @@ aside.sidebar {
   width: 360px;
   height: 1200px;
   display: block;
-  margin: 1000px auto auto 11px;
+  margin: 1010px auto auto 11px;
   z-index: 1;
 }
 
@@ -827,7 +827,7 @@ footer {
 aside.sidebar::before {
   content: url(./svg/together.svg);
   position: absolute;
-  margin-top: 1285px;
+  margin-top: 1290px;
   margin-left: 0px;
   z-index: 2;
 }
@@ -844,14 +844,14 @@ aside.sidebar::after {
   height: 350px;
   background-image: linear-gradient(#d2fcd2, darkturquoise, purple);
   border-radius: 600px;
-  margin: 180px auto 0 -28px;
+  margin: 150px auto 0 -28px;
   font-weight: bolder;
 }
 
 .extra6 {
   content: url(./svg/pinkCastle.svg);
   position: absolute;
-  margin-top: 5150px;
+  margin-top: 5080px;
   margin-left: 10px;
   z-index: -1;
 }

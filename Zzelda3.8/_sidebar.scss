@@ -6,7 +6,7 @@ aside.sidebar {
 	width: 360px;
 	height: 1200px;
 	display: block;
-	margin: 1000px auto auto 11px;
+	margin: 1010px auto auto 11px;
 	z-index: 1;
 
 }
@@ -61,7 +61,7 @@ footer {
 aside.sidebar::before {
 	content: url(./svg/together.svg);
 	position: absolute;
-	margin-top: 1285px;
+	margin-top: 1290px;
 	margin-left: 0px;
 	z-index: 2;
 }
@@ -78,7 +78,7 @@ aside.sidebar::after {
 	height: 350px;
 	background-image: linear-gradient(#d2fcd2, darkturquoise, purple);
 	border-radius: 600px;
-	margin: 180px auto 0 -28px;
+	margin: 150px auto 0 -28px;
 	font-weight: bolder;
 
 }
@@ -86,7 +86,7 @@ aside.sidebar::after {
 .extra6 {
 	content: url(./svg/pinkCastle.svg);
 	position: absolute;
-	margin-top: 5150px;
+	margin-top: 5080px;
 	margin-left: 10px;
 	z-index: -1;
 }
