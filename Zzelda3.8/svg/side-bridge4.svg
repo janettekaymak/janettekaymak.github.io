@@ -19,6 +19,6 @@
 
     <rect width="300" height="110" x="0" y="40" fill="#83b226" />
     <rect width="300" height="110" x="0" y="40" fill="url(#grassPattern)" opacity=".5" />
-    <rect width="300" height="50" x="0" y="0" fill="url(#treePattern)" />
-    <rect width="300" height="50" x="0" y="100" fill="url(#treePattern)" />
+    <rect width="200" height="50" x="0" y="0" fill="url(#treePattern)" />
+    <rect width="200" height="50" x="0" y="100" fill="url(#treePattern)" />
 </svg>

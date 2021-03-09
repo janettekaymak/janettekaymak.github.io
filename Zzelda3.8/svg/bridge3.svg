@@ -11,7 +11,7 @@
 			<polygon points="6,45 28,45 6,45" style="stroke:black;stroke-width:2;" />
 		</pattern>
 		<!-- tropical fish pattern -->
-        <pattern id="tropicalFish" patternUnits="userSpaceOnUse" x="0" y="35" width="71" height="70">
+        <pattern id="tropicalFish" patternUnits="userSpaceOnUse" x="0" y="36" width="71" height="65">
             <rect width="50" height="30" x="2" y="22" rx="30" fill="deeppink" stroke="darkgreen" stroke-width="2" />
 			<rect width="20" height="26" x="7" y="24" rx="30" fill="gold"/>
             <polygon points="52,37 70,22 65,60" style="fill:chartreuse;stroke:darkgreen;stroke-width:2;" />
@@ -26,7 +26,7 @@
 		</pattern>
 	</defs>
 	<rect width="80" height="330" x="135" y="70" fill="#23c8ff" />
-		<rect width="71" height="285" x="142" y="110" fill="url(#tropicalFish)" />
+		<rect width="71" height="260" x="142" y="110" fill="url(#tropicalFish)" />
 	<rect width="80" height="330" x="135" y="70" fill="url(#waterPattern)" />
 
 
