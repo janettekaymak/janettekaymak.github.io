@@ -1,5 +1,5 @@
 <!-- block5 -->
-<svg width="365" height="1050" x="0" y="0" xmlns="http://www.w3.org/2000/svg" class="block5">
+<svg width="365" height="1050" x="0" y="0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365 1050">
 	<defs>
 		<!-- define floor pattern -->
 		<pattern id="floorPattern" patternUnits="userSpaceOnUse" x="0" y="0" height="24.1" width="24.2">

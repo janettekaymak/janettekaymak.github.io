@@ -120,7 +120,6 @@ h2 {
   body {
     max-width: 767px;
     margin: auto;
-    /*grid-template-columns: repeat(4, 1fr);*/
   }
 
   header {
@@ -157,6 +156,31 @@ h2 {
     position: fixed;
     margin-top: -60px;
     margin-left: 57px;
+  }
+}
+/*--------------------1200----------------------*/
+@media screen and (min-width: 1200px) {
+  body {
+    max-width: 1200px;
+  }
+
+  header {
+    max-width: 1200px;
+  }
+
+  h1,
+h2 {
+    width: 1200px;
+  }
+
+  /*zelda*/
+  h2::after {
+    margin-left: 405px;
+  }
+
+  /*link*/
+  header::after {
+    margin-left: 20px;
   }
 }
 /*.preamble {
@@ -247,7 +271,7 @@ div.preamble {
   height: 760px;
   text-align: justify;
   line-height: 1em;
-  background-image: url(./svg/block1.svg);
+  background-image: url(./svg/block1text.svg);
   background-repeat: no-repeat;
   margin: -15px auto 0px 9px;
 }
@@ -314,6 +338,20 @@ div.preamble {
     margin: -2810px auto auto 274px;
   }
 }
+/*--------------------1200----------------------*/
+@media screen and (min-width: 1200px) {
+  /* block1 */
+  div.preamble {
+    background-image: url(./svg/block1.svg);
+    background-repeat: no-repeat;
+    margin: -15px auto -50px 130px;
+  }
+
+  /* cover1 */
+  .extra1 {
+    margin: -2310px auto auto 204px;
+  }
+}
 .explanation h3 {
   font-family: "Merienda", cursive;
   font-size: 21px;
@@ -325,7 +363,7 @@ div.preamble {
 
 .explanation {
   display: block;
-  background-image: url(./svg/block2.svg);
+  background-image: url(./svg/block2text.svg);
   background-repeat: no-repeat;
   text-align: justify;
   font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
@@ -388,6 +426,32 @@ div.preamble {
   /* cover2 */
   .extra2 {
     margin: -2148px auto auto 231px;
+  }
+}
+/*--------------------1200----------------------*/
+@media screen and (min-width: 1200px) {
+  /* block2 */
+  .explanation {
+    margin: 0 auto -100px 150px;
+    background-image: url(./svg/block2a.svg);
+  }
+
+  /* cover2 */
+  .extra2 {
+    margin: -1648px auto auto 174px;
+  }
+
+  /*bridge*/
+  .explanation::after {
+    content: url(./svg/side-drawbridge.svg);
+    margin-top: -220px;
+    margin-left: -20px;
+    z-index: -1;
+  }
+
+  .explanation:hover::after {
+    transform: translate(280px, 0px);
+    transition: transform 3s ease-in-out;
   }
 }
 .participation {
@@ -467,6 +531,20 @@ div.preamble {
     margin-left: 245px;
   }
 }
+/*--------------------1200----------------------*/
+@media screen and (min-width: 1200px) {
+  /* block3 */
+  .participation {
+    background-image: url(./svg/block3desk.svg);
+    margin: -600px auto -50px 707px;
+  }
+
+  /* cover3 */
+  .extra3 {
+    margin-top: -1430px;
+    margin-left: 745px;
+  }
+}
 .benefits {
   width: 360px;
   height: 600px;
@@ -533,6 +611,29 @@ div.preamble {
   /* cover4 */
   .extra4 {
     margin: -505px auto auto 229px;
+  }
+}
+/*--------------------1200----------------------*/
+@media screen and (min-width: 1200px) {
+  /* block4 */
+  .benefits {
+    margin-left: 707px;
+  }
+
+  /* cover4 */
+  .extra4 {
+    margin: -505px auto auto 726px;
+  }
+
+  .benefits::after {
+    content: url(./svg/side-bridge4.svg);
+    margin-top: -165px;
+  }
+
+  .benefits:hover::after {
+    transform: translate(-202px, 0px);
+    transition: transform 3s ease-in-out;
+    z-index: -1;
   }
 }
 .requirements {
@@ -614,6 +715,18 @@ div.preamble {
   /* cover5 */
   .extra5 {
     margin: 3278px auto auto 270px;
+  }
+}
+/*--------------------1200----------------------*/
+@media screen and (min-width: 1200px) {
+  /* block5 */
+  .requirements {
+    margin: -1050px auto 0px 140px;
+  }
+
+  /* cover5 */
+  .extra5 {
+    margin: 1678px auto auto 212px;
   }
 }
 aside.sidebar {
@@ -758,5 +871,41 @@ aside.sidebar::after {
     margin: 190px auto 0 -4px;
     z-index: 3;
     font-weight: normal;
+  }
+}
+/*--------------------1200----------------------*/
+@media screen and (min-width: 1200px) {
+  /* block6 */
+  aside.sidebar {
+    background-image: url(./svg/block6desk.svg);
+    background-repeat: no-repeat;
+    margin: -2530px auto 0px 670px;
+    z-index: 3;
+    padding: 210px 15px 15px 32px;
+  }
+
+  /*castle*/
+  .extra6 {
+    content: url(./svg/pinkCastle-desk.svg);
+    z-index: 0;
+    margin-top: 2480px;
+    margin-left: 0px;
+  }
+
+  /* link and zelda */
+  aside.sidebar::before {
+    margin-top: 2700px;
+    margin-left: -275px;
+  }
+
+  /* world */
+  aside.sidebar::after {
+    margin: 1690px auto 0 -505px;
+    z-index: 3;
+    font-weight: normal;
+    width: 330px;
+    height: 330px;
+    font-size: 21px;
+    font-weight: bolder;
   }
 }/*# sourceMappingURL=style.css.map */

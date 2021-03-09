@@ -87,7 +87,7 @@
 	height: 760px;
 	text-align: justify;
 	line-height: 1em;
-	background-image: url(./svg/block1.svg);
+	background-image: url(./svg/block1text.svg);
 	background-repeat: no-repeat;
 	margin: -15px auto 0px 9px;
 }
@@ -158,6 +158,23 @@
 	/* cover1 */
 	.extra1 {
 		margin: -2810px auto auto 274px;
+	}
+
+}
+
+/*--------------------1200----------------------*/
+
+@media screen and (min-width: $LapTopWidth){
+/* block1 */
+	div.preamble {
+        background-image: url(./svg/block1.svg);
+        background-repeat: no-repeat;
+		margin: -15px auto -50px 130px;
+	}
+
+	/* cover1 */
+	.extra1 {
+		margin: -2310px auto auto 204px;
 	}
 
 }

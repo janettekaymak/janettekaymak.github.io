@@ -24,8 +24,4 @@
 	<rect width="350" height="50" x="0" y="0" fill="url(#treePattern)"/>
 	<rect width="50" height="400" x="0" y="50" fill="url(#treePattern)" />
 	<rect width="50" height="150" x="50" y="400" fill="url(#treePattern)"/>
-	<!--bridge button-->
-	<text x="172" y="580" fill="saddlebrown" font-family="sans-serif" font-size="18">
-		click here
-	</text>
 </svg>

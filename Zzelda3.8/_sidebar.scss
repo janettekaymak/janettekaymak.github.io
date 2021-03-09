@@ -133,7 +133,7 @@ aside.sidebar::after {
 		margin: 1010px auto 0px 180px;
 
 	}
-	
+
 	/*castle*/
 	.extra6 {
 		z-index: 0;
@@ -152,6 +152,49 @@ aside.sidebar::after {
 		margin: 190px auto 0 -4px;
 		z-index: 3;
 		font-weight: normal;
+
+	}
+
+}
+
+/*--------------------1200----------------------*/
+
+@media screen and (min-width: $LapTopWidth) {
+
+	/* block6 */
+	aside.sidebar {
+		background-image: url(./svg/block6desk.svg);
+		background-repeat: no-repeat;
+		margin: -2530px auto 0px 670px;
+		z-index: 3;
+		padding: 210px 15px 15px 32px;
+
+	}
+
+	/*castle*/
+	.extra6 {
+		content: url(./svg/pinkCastle-desk.svg);
+		z-index: 0;
+		margin-top: 2480px;
+		margin-left: 0px;
+	}
+
+	/* link and zelda */
+	aside.sidebar::before {
+		margin-top: 2700px;
+		margin-left: -275px;
+
+	}
+
+	/* world */
+	aside.sidebar::after {
+		margin: 1690px auto 0 -505px;
+		z-index: 3;
+		font-weight: normal;
+		width: 330px;
+		height: 330px;
+		font-size: 21px;
+		font-weight: bolder;
 
 	}
 

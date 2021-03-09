@@ -9,7 +9,7 @@
 
 .explanation {
 	display: block;
-	background-image: url(./svg/block2.svg);
+	background-image: url(./svg/block2text.svg);
 	background-repeat: no-repeat;
 	text-align: justify;
 	font-family: $Font-p;
@@ -78,5 +78,32 @@
 	/* cover2 */
 	.extra2 {
 		margin: -2148px auto auto 231px;
+	}
+}
+
+/*--------------------1200----------------------*/
+
+@media screen and (min-width: $LapTopWidth){
+
+	/* block2 */
+	.explanation {
+		margin: 0 auto -100px 150px;
+		background-image: url(./svg/block2a.svg);
+	}
+
+	/* cover2 */
+	.extra2 {
+		margin: -1648px auto auto 174px;
+	}
+	/*bridge*/
+	.explanation::after {
+		content: url(./svg/side-drawbridge.svg);
+		margin-top: -220px;
+		margin-left: -20px;
+		z-index: -1;
+	}
+	.explanation:hover::after {
+		transform: translate(280px, 0px);
+		transition: transform 3s ease-in-out;
 	}
 }

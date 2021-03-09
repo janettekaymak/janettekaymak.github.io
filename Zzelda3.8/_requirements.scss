@@ -85,3 +85,18 @@
 		margin: 3278px auto auto 270px;
 	}
 }
+
+/*--------------------1200----------------------*/
+
+@media screen and (min-width: $LapTopWidth){
+	/* block5 */
+	.requirements {
+		margin: -1050px auto 0px 140px;
+	}
+
+	/* cover5 */
+	.extra5 {
+		margin: 1678px auto auto 212px;
+	}
+	
+	}

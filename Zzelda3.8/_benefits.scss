@@ -31,13 +31,13 @@
 }
 
 .benefits::after {
-	position:absolute;
+	position: absolute;
 	content: url(./svg/bridge4.svg);
 	z-index: -1;
 	margin-top: -300px;
-  }
-  
-  .benefits:hover::after{
+}
+
+.benefits:hover::after {
 	transform: translate(0px, 292px);
 	transition: transform 3s ease-in-out;
 	z-index: -1;
@@ -49,7 +49,7 @@
 
 	/* block4 */
 	.benefits {
-		margin-left:125px;
+		margin-left: 125px;
 	}
 
 	/* cover4 */
@@ -76,4 +76,30 @@
 	}
 
 
+}
+
+/*--------------------1200----------------------*/
+
+@media screen and (min-width: $LapTopWidth) {
+
+	/* block4 */
+	.benefits {
+		margin-left: 707px;
+	}
+
+	/* cover4 */
+	.extra4 {
+		margin: -505px auto auto 726px;
+	}
+
+	.benefits::after {
+		content: url(./svg/side-bridge4.svg);
+		margin-top: -165px;
+	}
+	
+	.benefits:hover::after {
+		transform: translate(-202px, 0px);
+		transition: transform 3s ease-in-out;
+		z-index: -1;
+	}
 }

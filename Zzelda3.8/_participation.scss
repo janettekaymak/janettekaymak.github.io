@@ -80,3 +80,21 @@
 		margin-left: 245px;
 	}
 }
+
+
+/*--------------------1200----------------------*/
+
+@media screen and (min-width: $LapTopWidth){
+
+	/* block3 */
+	.participation {
+		background-image: url(./svg/block3desk.svg);
+		margin: -600px auto -50px 707px;
+	}
+
+	/* cover3 */
+	.extra3 {
+		margin-top: -1430px;
+		margin-left: 745px;
+	}
+}
