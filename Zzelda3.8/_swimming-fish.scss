@@ -1,31 +1,53 @@
 /*--------------------mobile 360----------------------*/
 .benefits p:nth-child(2):after {
-    content: url(./svg/fish-mobile-notebook.svg);
+    content: url(./svg/fish-mobile.svg);
     z-index: 2;
-    margin: 5010px auto auto 0px;
-    animation-name: swimA;
-    animation-duration: 7s;
+    margin: 5310px auto auto -100px;
+    animation-name: swim1;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     position: absolute;
     animation-timing-function: linear;
 }
 
-@keyframes swimA {
+@keyframes swim1 {
     0% {
         left: 0px;
         top: 0px;
     }
 
+    10% {
+        left: 0px;
+        top: -300px;
+    }
+
+    40% {
+        left: -130px;
+        top: 0px;
+        transform: rotateY(0deg);
+    }
+
     50% {
-        left: -40px;
+        left: -500px;
         top: 0px;
         transform: rotateY(180deg);
     }
 
+    85% {
+        left: -500px;
+        top: -300px;
+
+    }
+
+    90% {
+        left: -360px;
+        top: 0px;
+        transform: rotateY(180deg);
+    }
 
     100% {
-        top: 0px;
         left: 0px;
+        top: 0px;
         transform: rotateY(0deg);
     }
 }
@@ -36,7 +58,7 @@
 
     /* fish */
     .benefits p:nth-child(2):after {
-        margin: 4920px auto auto -20px;
+        margin: 5210px auto auto 0px;
     }
 
 }
@@ -47,24 +69,50 @@
 
     /* fish */
     .benefits p:nth-child(2):after {
-        margin: 4870px auto auto 100px;
+        margin: 5170px auto auto 50px;
 
     }
 
 }
 
-/*--------------------1000----------------------*/
+/*--------------------850----------------------*/
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 850px) {
 
     /* fish */
     .benefits p:nth-child(2):after {
-        margin: 4870px auto auto 230px;
-
+        margin-left: 100px;
     }
 
 }
 
+/*--------------------950----------------------*/
+
+@media screen and (min-width: 950px) {
+
+    /* fish */
+    .benefits p:nth-child(2):after {
+     margin-left: 150px;
+    }
+/*--------------------1050----------------------*/
+
+@media screen and (min-width: 1050px) {
+
+    /* fish */
+    .benefits p:nth-child(2):after {
+     margin-left: 200px;
+    }
+}
+
+/*--------------------1150----------------------*/
+
+@media screen and (min-width: 1150px) {
+
+    /* fish */
+    .benefits p:nth-child(2):after {
+     margin-left: 230px;
+    }
+}
 /*--------------------1200----------------------*/
 
 @media screen and (min-width: $LapTopWidth) {
@@ -203,4 +251,6 @@
     .benefits p:nth-child(2):after {
         padding: 0 400px;
     }
+}
+
 }

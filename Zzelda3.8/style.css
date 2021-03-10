@@ -947,13 +947,13 @@ aside.sidebar::after {
 }
 /*--------------------mobile 360----------------------*/
 .benefits p:nth-child(2):after {
-  content: url(./svg/fish-mobile-notebook.svg);
+  content: url(./svg/fish-mobile.svg);
   z-index: 2;
-  margin: 5010px auto auto 0px;
-  -webkit-animation-name: swimA;
-          animation-name: swimA;
-  -webkit-animation-duration: 7s;
-          animation-duration: 7s;
+  margin: 5310px auto auto -100px;
+  -webkit-animation-name: swim1;
+          animation-name: swim1;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   position: absolute;
@@ -961,36 +961,72 @@ aside.sidebar::after {
           animation-timing-function: linear;
 }
 
-@-webkit-keyframes swimA {
+@-webkit-keyframes swim1 {
   0% {
     left: 0px;
     top: 0px;
   }
+  10% {
+    left: 0px;
+    top: -300px;
+  }
+  40% {
+    left: -130px;
+    top: 0px;
+    transform: rotateY(0deg);
+  }
   50% {
-    left: -40px;
+    left: -500px;
+    top: 0px;
+    transform: rotateY(180deg);
+  }
+  85% {
+    left: -500px;
+    top: -300px;
+  }
+  90% {
+    left: -360px;
     top: 0px;
     transform: rotateY(180deg);
   }
   100% {
-    top: 0px;
     left: 0px;
+    top: 0px;
     transform: rotateY(0deg);
   }
 }
 
-@keyframes swimA {
+@keyframes swim1 {
   0% {
     left: 0px;
     top: 0px;
   }
+  10% {
+    left: 0px;
+    top: -300px;
+  }
+  40% {
+    left: -130px;
+    top: 0px;
+    transform: rotateY(0deg);
+  }
   50% {
-    left: -40px;
+    left: -500px;
+    top: 0px;
+    transform: rotateY(180deg);
+  }
+  85% {
+    left: -500px;
+    top: -300px;
+  }
+  90% {
+    left: -360px;
     top: 0px;
     transform: rotateY(180deg);
   }
   100% {
-    top: 0px;
     left: 0px;
+    top: 0px;
     transform: rotateY(0deg);
   }
 }
@@ -998,25 +1034,55 @@ aside.sidebar::after {
 @media screen and (min-width: 500px) {
   /* fish */
   .benefits p:nth-child(2):after {
-    margin: 4920px auto auto -20px;
+    margin: 5210px auto auto 0px;
   }
 }
 /*--------------------767----------------------*/
 @media screen and (min-width: 767px) {
   /* fish */
   .benefits p:nth-child(2):after {
-    margin: 4870px auto auto 100px;
+    margin: 5170px auto auto 50px;
   }
 }
-/*--------------------1000----------------------*/
-@media screen and (min-width: 1000px) {
+/*--------------------850----------------------*/
+@media screen and (min-width: 850px) {
   /* fish */
   .benefits p:nth-child(2):after {
-    margin: 4870px auto auto 230px;
+    margin-left: 100px;
   }
 }
-/*--------------------1200----------------------*/
-@media screen and (min-width: 1200px) {
+/*--------------------950----------------------*/
+@media screen and (min-width: 950px) {
+  /* fish */
+  .benefits p:nth-child(2):after {
+    margin-left: 150px;
+  }
+
+  /*--------------------1050----------------------*/
+  /*--------------------1150----------------------*/
+  /*--------------------1200----------------------*/
+  /*--------------------1300----------------------*/
+  /*--------------------1400----------------------*/
+  /*--------------------1500----------------------*/
+  /*--------------------1600----------------------*/
+  /*--------------------1700----------------------*/
+  /*--------------------1800----------------------*/
+  /*--------------------1900----------------------*/
+  /*--------------------2000----------------------*/
+}
+@media screen and (min-width: 950px) and (min-width: 1050px) {
+  /* fish */
+  .benefits p:nth-child(2):after {
+    margin-left: 200px;
+  }
+}
+@media screen and (min-width: 950px) and (min-width: 1150px) {
+  /* fish */
+  .benefits p:nth-child(2):after {
+    margin-left: 230px;
+  }
+}
+@media screen and (min-width: 950px) and (min-width: 1200px) {
   /* fish */
   .benefits p:nth-child(2):after {
     content: url(./svg/fish.svg);
@@ -1103,57 +1169,49 @@ aside.sidebar::after {
     }
   }
 }
-/*--------------------1300----------------------*/
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 950px) and (min-width: 1300px) {
   /* fish */
   .benefits p:nth-child(2):after {
     padding: 0 50px;
   }
 }
-/*--------------------1400----------------------*/
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 950px) and (min-width: 1400px) {
   /* fish */
   .benefits p:nth-child(2):after {
     padding: 0 100px;
   }
 }
-/*--------------------1500----------------------*/
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 950px) and (min-width: 1500px) {
   /* fish */
   .benefits p:nth-child(2):after {
     padding: 0 150px;
   }
 }
-/*--------------------1600----------------------*/
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 950px) and (min-width: 1600px) {
   /* fish */
   .benefits p:nth-child(2):after {
     padding: 0 200px;
   }
 }
-/*--------------------1700----------------------*/
-@media screen and (min-width: 1700px) {
+@media screen and (min-width: 950px) and (min-width: 1700px) {
   /* fish */
   .benefits p:nth-child(2):after {
     padding: 0 250px;
   }
 }
-/*--------------------1800----------------------*/
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 950px) and (min-width: 1800px) {
   /* fish */
   .benefits p:nth-child(2):after {
     padding: 0 300px;
   }
 }
-/*--------------------1900----------------------*/
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 950px) and (min-width: 1900px) {
   /* fish */
   .benefits p:nth-child(2):after {
     padding: 0 350px;
   }
 }
-/*--------------------2000----------------------*/
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 950px) and (min-width: 2000px) {
   /* fish */
   .benefits p:nth-child(2):after {
     padding: 0 400px;

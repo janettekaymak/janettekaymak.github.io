@@ -137,8 +137,8 @@
 <rect width="480" height="66" x="70" y="1320" fill="url(#greenFish)" />-->
 <rect width="720" height="1000" x="0" y="940" fill="url(#waterPattern)" />
 <!--<rect width="50" height="1000" x="0" y="940" fill="urll(#floorPattern)" />
-<rect width="50" height="1000" x="670" y="940" fill="urll(#floorPattern)" />-->
-<rect width="720" height="50" x="0" y="1660" fill="url(#floorPattern)" />
+<rect width="50" height="1000" x="670" y="940" fill="urll(#floorPattern)" />
+<rect width="720" height="50" x="0" y="1660" fill="url(#floorPattern)" />-->
 <rect width="720" height="100" x="0" y="890" fill="url(#floorPattern)" />
 
 
