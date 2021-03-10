@@ -14,8 +14,11 @@ $FontLight: white;
 $BGcolor6: indigo;
 
 //Fonts
-$Font-H: 'Merienda', cursive;
-$Font-p: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+$Font-H: 'Merienda',
+cursive;
+$Font-p: 'Barlow Condensed',
+'Arial Narrow',
+sans-serif;
 
 //Widths
 $MobileWidth: 360px;
@@ -42,4 +45,3 @@ $LapTopWidth: 1200px;
 @import 'requirements.scss';
 @import 'sidebar.scss';
 @import 'swimming-fish.scss';
-

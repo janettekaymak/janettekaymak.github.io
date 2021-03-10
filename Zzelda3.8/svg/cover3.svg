@@ -1,5 +1,5 @@
 <!--define cover3-->
-<svg width="282" height="513" x="0" y="0"  xmlns="http://www.w3.org/2000/svg" class="cover3">
+<svg width="282" height="513" x="0" y="0"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 282 513">
   <defs>
     <!--carrot pattern-->
     <pattern id="carrots" patternUnits="userSpaceOnUse" x="5" y="0" height="100" width="50">

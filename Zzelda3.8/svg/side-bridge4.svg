@@ -1,4 +1,4 @@
-<svg width="300" height="360"
+<svg width="300" height="360" viewBox="0 0 300 360"
     xmlns="http://www.w3.org/2000/svg" id="bridge2">
     <defs>
         <!-- tree pattern -->
@@ -16,7 +16,6 @@
             <line x1="25" y1="0" x2="35" y2="30" style="stroke:darkslategrey;stroke-width:1" />
         </pattern>
     </defs>
-
     <rect width="300" height="110" x="0" y="40" fill="#83b226" />
     <rect width="300" height="110" x="0" y="40" fill="url(#grassPattern)" opacity=".5" />
     <rect width="200" height="50" x="0" y="0" fill="url(#treePattern)" />

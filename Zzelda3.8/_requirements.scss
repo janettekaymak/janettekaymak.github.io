@@ -36,14 +36,15 @@
 	margin-top: 0px;
 }
 
-.requirements::after{
+.requirements::after {
 	content: url(./svg/drawbridge.svg);
-	position:absolute;
+	position: absolute;
 	margin-left: 131px;
 	margin-top: -315px;
 	z-index: -1;
 }
-.requirements:hover::after{
+
+.requirements:hover::after {
 	transform: translate(0px, 300px);
 	transition: transform 1.5s ease-in-out;
 	z-index: 2;
@@ -88,7 +89,8 @@
 
 /*--------------------1200----------------------*/
 
-@media screen and (min-width: $LapTopWidth){
+@media screen and (min-width: $LapTopWidth) {
+
 	/* block5 */
 	.requirements {
 		margin: -950px auto 0px 140px;
@@ -99,16 +101,17 @@
 		margin: 1678px auto auto 212px;
 	}
 
-	.requirements::after{
-		content:url(./svg/drawbridge.svg);
+	.requirements::after {
+		content: url(./svg/drawbridge.svg);
 		margin-top: -185px;
 		z-index: -1;
 	}
-	.requirements:hover::after{
+
+	.requirements:hover::after {
 		transform: translate(0px, 195px);
 		transition: transform 1s ease-in-out;
 		z-index: 2;
 
 	}
-	
-	}
+
+}

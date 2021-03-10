@@ -98,13 +98,13 @@
 		margin-top: -45px;
 		margin-left: 25px;
 	}
-	
+
 	.benefits:hover::after {
 		transform: translate(-227px, 0px);
 		transition: transform 3s ease-in-out;
 		z-index: -1;
 	}
-	
+
 	.benefits h3 {
 		font-family: $Font-H;
 		font-size: 30px;
@@ -112,5 +112,5 @@
 		padding-top: 105px;
 		padding-bottom: 20px;
 	}
-	
+
 }

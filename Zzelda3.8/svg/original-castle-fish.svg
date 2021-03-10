@@ -48,9 +48,6 @@
         
 </defs>
 
-
-
-
 <!--fish-->
 <rect width="460" height="66" x="177" y="1390" fill="url(#redFish)" />
 <rect width="530" height="66" x="100" y="1452" fill="url(#redFish)" />
@@ -63,11 +60,5 @@
 <rect width="280" height="66" x="268" y="1585" fill="url(#redFish)" />
 <rect width="480" height="66" x="70" y="1320" fill="url(#greenFish)" />
 <rect width="550" height="660" x="70" y="990" fill="url(#waterPattern)" rx="120" opacity=".5"/>
-
-
-
-
-
-
 
 </svg>

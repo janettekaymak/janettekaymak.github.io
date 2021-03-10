@@ -7,8 +7,8 @@
 	margin: 0 auto -50px 10px;
 }
 
-.participation::after{
-	position:absolute;
+.participation::after {
+	position: absolute;
 	content: url(./svg/bridge3.svg);
 	margin-top: -380px;
 	margin-left: 8px;
@@ -38,7 +38,7 @@
 	margin: 12px auto auto auto;
 }
 
-.participation a{
+.participation a {
 	color: orange;
 	text-decoration: none;
 }
@@ -84,7 +84,7 @@
 
 /*--------------------1200----------------------*/
 
-@media screen and (min-width: $LapTopWidth){
+@media screen and (min-width: $LapTopWidth) {
 
 	/* block3 */
 	.participation {
@@ -98,10 +98,10 @@
 		margin-left: 745px;
 	}
 
-	.participation::after{
+	.participation::after {
 		margin-top: -380px;
 	}
-	
+
 	.participation:hover::after {
 		transform: translate(0px, 333px);
 		transition: transform 4s ease-in-out;

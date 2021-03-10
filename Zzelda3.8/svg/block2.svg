@@ -1,7 +1,6 @@
 <!-- block2-->
 <svg width="360" height="800" class="block2"
-    xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 360 800" >
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 800">
     <defs>
         <!-- grey bricks -->
         <pattern id="greyBricks" patternUnits="userSpaceOnUse" x="0" y="0" width="50" height="15">
@@ -52,12 +51,12 @@
     <rect width="90" height="110" x="201" y="360" rx="40" fill="url(#greyBricks)" stroke="black" stroke-width="2" />
     <rect width="61" height="95" x="215" y="375" rx="30" />
     <rect width="90" height="40" x="201" y="432" rx="5" fill="url(#greyBricks)" stroke="black" stroke-width="2" />
-	<rect width="50" height="52" x="221" y="380" fill="orange" rx="50" />
-	<rect width="35" height="40" x="228" y="390" fill="red" rx="50" />
-	<rect width="10" height="20" x="240" y="407" fill="#23c8ff" rx="15" />
-	<rect width="20" height="25" x="231" y="380" rx="15" />
+    <rect width="50" height="52" x="221" y="380" fill="orange" rx="50" />
+    <rect width="35" height="40" x="228" y="390" fill="red" rx="50" />
+    <rect width="10" height="20" x="240" y="407" fill="#23c8ff" rx="15" />
+    <rect width="20" height="25" x="231" y="380" rx="15" />
     <!--bridge button-->
-	<text x="144" y="578" fill="saddlebrown" font-family="sans-serif" font-size="18">
+    <text x="144" y="578" fill="saddlebrown" font-family="sans-serif" font-size="18">
 		click here
-	</text>
+    </text>
 </svg>

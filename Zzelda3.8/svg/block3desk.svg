@@ -39,7 +39,7 @@
 	<rect width="360" height="550" fill="#23c8ff" x="0" y="0" rx="40" />
 	<rect width="360" height="550" fill="url(#waterPattern)" x="0" y="0" rx="40" />
 	<rect width="280" height="471" fill="saddlebrown" x="40" y="39" rx="20" />
-	
+
 	<text x="145" y="570" fill="teal" font-family="sans-serif" font-size="18">
 		click here
 	</text>

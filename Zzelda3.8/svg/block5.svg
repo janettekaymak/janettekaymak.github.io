@@ -1,5 +1,6 @@
 <!-- block5 -->
-<svg width="365" height="1050" x="0" y="0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365 1050">
+<svg width="365" height="1050" x="0" y="0"
+	xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365 1050">
 	<defs>
 		<!-- define floor pattern -->
 		<pattern id="floorPattern" patternUnits="userSpaceOnUse" x="0" y="0" height="24.1" width="24.2">
@@ -42,9 +43,6 @@
 	<!-- floor -->
 	<rect width="267" height="651.5" x="73" y="24" fill="url(#floorPattern)" />
 	<rect width="176" height="197" x="164" y="675" fill="url(#floorPattern)" />
-	<!-- swimming pool -->
-	<!--<rect width="184" height="305" x="114" y="66" stroke="lightgrey" stroke-width="35" fill="#23c8ff" opacity="1" />
-	<rect width="184" height="305" x="114" y="66" stroke="lightgrey" stroke-width="35" fill="url(#waterPattern)" opacity="1" />-->
 	<!-- fireplace -->
 	<rect width="90" height="110" x="73" y="590" rx="40" fill="url(#greyBricks)" stroke="black" stroke-width="0" />
 	<rect width="61" height="95" x="87" y="605" rx="30" />
@@ -54,7 +52,7 @@
 	<rect width="35" height="40" x="100" y="620" fill="red" rx="50" />
 	<rect width="10" height="20" x="112" y="637" fill="#23c8ff" rx="15" />
 	<rect width="20" height="25" x="103" y="610" rx="15" />
-		<!--bridge button-->
+	<!--bridge button-->
 	<text x="222" y="915" fill="purple" font-family="sans-serif" font-size="15">
 		click here
 	</text>
