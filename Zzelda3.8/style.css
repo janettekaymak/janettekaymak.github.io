@@ -944,4 +944,50 @@ aside.sidebar::after {
     font-size: 21px;
     font-weight: bolder;
   }
+
+  /* fish */
+  .benefits p:nth-child(2):after {
+    content: url(./svg/fish.svg);
+    z-index: 2;
+    margin: 2565px auto auto 1px;
+    -webkit-animation-name: swim;
+            animation-name: swim;
+    -webkit-animation-duration: 20s;
+            animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    position: absolute;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+  }
+
+  @-webkit-keyframes swim {
+    0% {
+      left: 1200px;
+      top: 0px;
+    }
+    50% {
+      left: 0px;
+      top: 50px;
+    }
+    100% {
+      left: -1200px;
+      top: -50px;
+    }
+  }
+
+  @keyframes swim {
+    0% {
+      left: 1200px;
+      top: 0px;
+    }
+    50% {
+      left: 0px;
+      top: 50px;
+    }
+    100% {
+      left: -1200px;
+      top: -50px;
+    }
+  }
 }/*# sourceMappingURL=style.css.map */

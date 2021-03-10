@@ -11,11 +11,6 @@
             <rect width="23.5" height="6.5" x="13" y="7.5" rx="1" fill="#cf8ac6" />
             <rect width="12" height="6.5" x="38" y="7.5" fill="#cb96c1" />
         </pattern>
-        <!--plank pattern-->
-        <pattern id="planks" patternUnits="userSpaceOnUse" x="0" y="0" width="100" height="500">
-            <rect width="80" height="500" fill="burlywood" stroke="saddlebrown" stroke-width="2" />
-            <polygon points="0,0 0,500 20,500 20,0 40,0 40,500 60,500 60,0 80,0 80,500 100,500 100,0" style="stroke:saddlebrown;stroke-width:2;fill:burlywood;" />
-        </pattern>
         <pattern id="floorPattern" patternUnits="userSpaceOnUse" x="0" y="0" height="24.1" width="24.2">
             <rect width="25" height="25" x="0" y="0" fill="#e1e1e1" />
             <rect width="24.1" height="24.2" x="0" y="0" rx="5" fill="whitesmoke" stroke="#e1e1e1" stroke-width="3" />
@@ -25,7 +20,7 @@
             <!-- stone work -->
             <rect width="93" height="105" x="3" y="4" fill="#bebebe" rx="43" stroke="black" />
             <rect width="56" height="83" x="22" y="23" rx="31" stroke="black" fill="url(#redBricks)"/>
-             <rect width="56" height="83" x="22" y="23" rx="31" stroke="black" opacity=".5"/>
+            <rect width="56" height="83" x="22" y="23" rx="31" stroke="black" opacity=".5"/>
             <!-- more stone work -->
             <rect width="93" height="37" x="3" y="72" fill="#bebebe" rx="3" stroke="black" />
             <rect width="12" height="25" x="43" y=".7" fill="darkgrey" rx="3" stroke="black" />
@@ -109,92 +104,86 @@
             <rect width="5" height="5" x="30" y="20" fill="black" />
             <rect width="5" height="15" x="35" y="5" fill="black" />
         </pattern>
-        
-</defs>
-<!--pink palace-->
-<!--<rect width="80" height="40" x="320" y="0" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />-->
-<rect width="440" height="40" x="140" y="160" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="440" height="40" x="140" y="200" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="440" height="40" x="140" y="240" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+
+    </defs>
+    <!--pink palace-->
+    <!--<rect width="80" height="40" x="320" y="0" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />-->
+    <rect width="440" height="40" x="140" y="160" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="440" height="40" x="140" y="200" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="440" height="40" x="140" y="240" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
 
 
-<rect width="400" height="40" x="160" y="280" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="400" height="40" x="160" y="320" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="400" height="40" x="160" y="360" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="400" height="40" x="160" y="280" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="400" height="40" x="160" y="320" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="400" height="40" x="160" y="360" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
 
-<rect width="40" height="40" x="140" y="120" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="40" height="40" x="220" y="120" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="40" height="40" x="300" y="120" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="40" height="40" x="380" y="120" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="40" height="40" x="460" y="120" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="40" height="40" x="540" y="120" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="40" height="40" x="140" y="120" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="40" height="40" x="220" y="120" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="40" height="40" x="300" y="120" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="40" height="40" x="380" y="120" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="40" height="40" x="460" y="120" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="40" height="40" x="540" y="120" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
 
-<!--second tower-->
-<rect width="80" height="350" x="890" y="90" fill="url(#redBricks)"/>
-<rect width="80" height="350" x="890" y="90" opacity=".5"/>
-<rect width="280" height="40" x="790" y="80" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="280" height="40" x="790" y="120" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="280" height="40" x="790" y="160" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <!--second tower-->
+    <rect width="80" height="350" x="890" y="90" fill="url(#redBricks)"/>
+    <rect width="80" height="350" x="890" y="90" opacity=".5"/>
+    <rect width="280" height="40" x="790" y="80" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="280" height="40" x="790" y="120" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="280" height="40" x="790" y="160" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
 
-<rect width="180" height="40" x="850" y="200" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="60" height="40" x="850" y="240" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="60" height="40" x="970" y="240" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="60" height="40" x="850" y="280" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="60" height="40" x="970" y="280" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="180" height="40" x="850" y="200" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="60" height="40" x="850" y="240" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="60" height="40" x="970" y="240" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="60" height="40" x="850" y="280" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="60" height="40" x="970" y="280" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
 
-<rect width="180" height="40" x="850" y="320" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="180" height="40" x="850" y="360" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="180" height="40" x="850" y="320" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="180" height="40" x="850" y="360" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
 
-<rect width="40" height="40" x="790" y="40" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="40" height="40" x="870" y="40" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="40" height="40" x="950" y="40" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="40" height="40" x="1030" y="40" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<!--<rect width="200" height="200" x="790" y="80" fill="url(#jewels)"/>-->
+    <rect width="40" height="40" x="790" y="40" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="40" height="40" x="870" y="40" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="40" height="40" x="950" y="40" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="40" height="40" x="1030" y="40" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <!--<rect width="200" height="200" x="790" y="80" fill="url(#jewels)"/>-->
 
-<!--end of second tower-->
+    <!--end of second tower-->
 
-<rect width="40" height="40" x="0" y="360" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="40" height="40" x="80" y="360" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="40" height="40" x="680" y="360" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="40" height="40" x="600" y="360" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="40" height="40" x="760" y="360" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="40" height="40" x="1080" y="360" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="40" height="40" x="1160" y="360" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-
-
-<rect width="1200" height="40" x="0" y="400" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="1200" height="40" x="0" y="440" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="1200" height="40" x="0" y="480" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="1200" height="40" x="0" y="520" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="1200" height="40" x="0" y="560" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="1200" height="40" x="0" y="600" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="1200" height="40" x="0" y="640" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="1200" height="40" x="0" y="680" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="1200" height="40" x="0" y="720" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-<rect width="1200" height="40" x="0" y="760" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
-
-<rect width="1200" height="160" x="0" y="490" fill="url(#windowPattern)" />
-
-<!--ocean-->
-<rect width="1200" height="500" x="0" y="940" fill="deepskyblue" />
-
-<rect width="650" height="66" x="257" y="990" fill="url(#tropicalFish)" />
-<rect width="820" height="66" x="170" y="1056" fill="url(#tropicalFish)" />
-<rect width="800" height="66" x="270" y="1119" fill="url(#tropicalFish)" />
-<rect width="840" height="66" x="190" y="1188" fill="url(#greenFish)" />
-<rect width="1028" height="66" x="180" y="1254" fill="url(#smallGreenFish)" />
-
-<rect width="840" height="66" x="70" y="1320" fill="url(#greenFish)" />
-<rect width="1200" height="500" x="0" y="940" fill="url(#waterPattern)" />
-<rect width="140" height="1000" x="0" y="800" fill="url(#floorPattern)" />
-<rect width="140" height="1000" x="1060" y="940" fill="url(#floorPattern)" />
-<rect width="1200" height="140" x="0" y="1430" fill="url(#floorPattern)" />
-<rect width="1200" height="140" x="0" y="800" fill="url(#floorPattern)" />
+    <rect width="40" height="40" x="0" y="360" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="40" height="40" x="80" y="360" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="40" height="40" x="680" y="360" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="40" height="40" x="600" y="360" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="40" height="40" x="760" y="360" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="40" height="40" x="1080" y="360" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="40" height="40" x="1160" y="360" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
 
 
+    <rect width="1200" height="40" x="0" y="400" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="1200" height="40" x="0" y="440" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="1200" height="40" x="0" y="480" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="1200" height="40" x="0" y="520" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="1200" height="40" x="0" y="560" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="1200" height="40" x="0" y="600" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="1200" height="40" x="0" y="640" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="1200" height="40" x="0" y="680" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="1200" height="40" x="0" y="720" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
+    <rect width="1200" height="40" x="0" y="760" fill="url(#redBricks)" stroke="dimgrey" rx="5" stroke-width="1" />
 
+    <rect width="1200" height="160" x="0" y="490" fill="url(#windowPattern)" />
 
+    <!--ocean-->
+    <rect width="1200" height="500" x="0" y="940" fill="deepskyblue" />
+    <rect width="1200" height="500" x="0" y="940" fill="url(#waterPattern)" />
+    <!--<rect width="650" height="66" x="257" y="990" fill="url(#tropicalFish)" />
+    <rect width="820" height="66" x="170" y="1056" fill="url(#tropicalFish)" />
+    <rect width="800" height="66" x="270" y="1119" fill="url(#tropicalFish)" />
+    <rect width="840" height="66" x="190" y="1188" fill="url(#greenFish)" />
+    <rect width="1028" height="66" x="180" y="1254" fill="url(#smallGreenFish)" />
 
-
+    <rect width="840" height="66" x="70" y="1320" fill="url(#greenFish)" />
+    <rect width="920" height="500" x="140" y="940" fill="url(#waterPattern)" />-->
+    <!--<rect width="140" height="1000" x="0" y="800" fill="url(#floorPattern)" />
+    <rect width="140" height="1000" x="1060" y="940" fill="url(#floorPattern)" />-->
+    <rect width="1200" height="140" x="0" y="1430" fill="url(#floorPattern)" />
+    <rect width="1200" height="140" x="0" y="800" fill="url(#floorPattern)" />
 
 </svg>

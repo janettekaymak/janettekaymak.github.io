@@ -196,4 +196,22 @@ aside.sidebar::after {
 
 	}
 
+	/* fish */
+	.benefits p:nth-child(2):after {
+		content: url(./svg/fish.svg);
+		z-index: 2;
+		margin: 2565px auto auto 1px;
+		animation-name: swim;
+		animation-duration: 20s;
+		animation-iteration-count: infinite;
+	    position:absolute;
+		animation-timing-function: ease-in-out;
+	  }
+	  
+	  @keyframes swim {
+		0%   {left:1200px; top:0px;}
+		50%  {left:0px; top:50px;}
+		100% {left:-1200px; top:-50px;}
+	  }
+
 }
