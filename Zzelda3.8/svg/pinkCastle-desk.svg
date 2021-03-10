@@ -1,5 +1,5 @@
 <!--block6 container-->
-<svg width="1200" height="1570" x="0" y="0" viewBox="0 0 1200 1570"
+<svg width="1200" height="1620" x="0" y="0" viewBox="0 0 1200 1570"
     xmlns="http://www.w3.org/2000/svg" class="block6">
     <defs>
         <!-- pink bricks -->
@@ -21,7 +21,7 @@
             <rect width="24.1" height="24.2" x="0" y="0" rx="5" fill="whitesmoke" stroke="#e1e1e1" stroke-width="3" />
         </pattern>
         <!-- window pattern -->
-        <pattern id="windowPattern" patternUnits="userSpaceOnUse" x="0" y="10" width="300" height="160" viewBox="0 0 100 110">
+        <pattern id="windowPattern" patternUnits="userSpaceOnUse" x="50" y="10" width="370" height="160" viewBox="0 0 100 110">
             <!-- stone work -->
             <rect width="93" height="105" x="3" y="4" fill="#bebebe" rx="43" stroke="black" />
             <rect width="56" height="83" x="22" y="23" rx="31" stroke="black" fill="url(#redBricks)"/>
@@ -83,31 +83,6 @@
             <polygon points="25,53 45,65 55,54" style="fill:gold;stroke:darkgreen;stroke-width:2;" />
             <rect width="10" height="10" rx="5" stroke="chartreuse" stroke-width="3" x="12" y="30" />
             <polygon points="6,45 20,45 6,45" style="stroke:darkgreen;stroke-width:2;" />
-        </pattern>
-        <!-- define jewel pattern -->
-        <pattern id="jewels" patternUnits="userSpaceOnUse" x="110" y="115" height="200" width="200" viewBox="0 0 150 150">
-            <rect width="10" height="5" x="5" y="0" fill="black" />
-            <rect width="15" height="5" x="20" y="0" fill="black" />
-            <rect width="5" height="15" x="0" y="5" fill="black" />
-            <rect width="5" height="10" x="5" y="5" fill="white" />
-            <rect width="5" height="5" x="5" y="15" fill="red" />
-            <rect width="5" height="5" x="5" y="20" fill="black" />
-            <rect width="5" height="20" x="10" y="5" fill="red" />
-            <rect width="5" height="5" x="10" y="25" fill="black" />
-            <rect width="5" height="5" x="15" y="5" fill="black" />
-            <rect width="5" height="20" x="10" y="5" fill="red" />
-            <rect width="5" height="15" x="15" y="10" fill="red" />
-            <rect width="5" height="5" x="15" y="25" fill="maroon" />
-            <rect width="5" height="5" x="15" y="30" fill="black" />
-            <rect width="5" height="20" x="20" y="5" fill="red" />
-            <rect width="5" height="5" x="20" y="25" fill="maroon" />
-            <rect width="5" height="5" x="20" y="30" fill="black" />
-            <rect width="5" height="15" x="25" y="5" fill="red" />
-            <rect width="5" height="5" x="25" y="20" fill="maroon" />
-            <rect width="5" height="5" x="25" y="25" fill="black" />
-            <rect width="5" height="15" x="30" y="5" fill="maroon" />
-            <rect width="5" height="5" x="30" y="20" fill="black" />
-            <rect width="5" height="15" x="35" y="5" fill="black" />
         </pattern>
         
 </defs>
@@ -175,8 +150,8 @@
 
 <rect width="1200" height="160" x="0" y="490" fill="url(#windowPattern)" />
 
-<!--ocean-->
-<rect width="1200" height="500" x="0" y="940" fill="deepskyblue" />
+<!--ocean tank-->
+<rect width="1200" height="550" x="0" y="940" fill="deepskyblue" />
 
 <rect width="650" height="66" x="257" y="990" fill="url(#tropicalFish)" />
 <rect width="820" height="66" x="170" y="1056" fill="url(#tropicalFish)" />
@@ -185,10 +160,10 @@
 <rect width="1028" height="66" x="180" y="1254" fill="url(#smallGreenFish)" />
 
 <rect width="840" height="66" x="70" y="1320" fill="url(#greenFish)" />
-<rect width="1200" height="500" x="0" y="940" fill="url(#waterPattern)" />
+<rect width="1200" height="550" x="0" y="940" fill="url(#waterPattern)" />
 <rect width="140" height="1000" x="0" y="800" fill="url(#floorPattern)" />
 <rect width="140" height="1000" x="1060" y="940" fill="url(#floorPattern)" />
-<rect width="1200" height="140" x="0" y="1430" fill="url(#floorPattern)" />
+<rect width="1200" height="140" x="0" y="1480" fill="url(#floorPattern)" />
 <rect width="1200" height="140" x="0" y="800" fill="url(#floorPattern)" />
 
 

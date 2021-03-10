@@ -335,7 +335,7 @@ div.preamble {
 
   /* cover1 */
   .extra1 {
-    margin: -2810px auto auto 274px;
+    margin: -2760px auto auto 274px;
   }
 }
 /*--------------------1200----------------------*/
@@ -425,7 +425,7 @@ div.preamble {
 
   /* cover2 */
   .extra2 {
-    margin: -2148px auto auto 231px;
+    margin: -2098px auto auto 231px;
   }
 }
 /*--------------------1200----------------------*/
@@ -527,7 +527,7 @@ div.preamble {
 
   /* cover3 */
   .extra3 {
-    margin-top: -1430px;
+    margin-top: -1380px;
     margin-left: 245px;
   }
 }
@@ -619,7 +619,7 @@ div.preamble {
 
   /* cover4 */
   .extra4 {
-    margin: -505px auto auto 229px;
+    margin: -455px auto auto 229px;
   }
 }
 /*--------------------1200----------------------*/
@@ -740,7 +740,7 @@ div.preamble {
 
   /* cover5 */
   .extra5 {
-    margin: 3278px auto auto 270px;
+    margin: 3228px auto auto 270px;
   }
 }
 /*--------------------1200----------------------*/
@@ -756,12 +756,13 @@ div.preamble {
   }
 
   .requirements::after {
-    margin-top: -315px;
+    content: url(./svg/bigger-drawbridge.svg);
+    margin-top: -215px;
     z-index: -1;
   }
 
   .requirements:hover::after {
-    transform: translate(0px, 325px);
+    transform: translate(0px, 180px);
     transition: transform 1.5s ease-in-out;
     z-index: 2;
   }
@@ -893,13 +894,13 @@ aside.sidebar::after {
   /*castle*/
   .extra6 {
     z-index: 0;
-    margin-top: 4920px;
+    margin-top: 4870px;
     margin-left: 23px;
   }
 
   /* link and zelda */
   aside.sidebar::before {
-    margin-top: 1270px;
+    margin-top: 1285px;
     margin-left: -5px;
   }
 
@@ -925,19 +926,19 @@ aside.sidebar::after {
   .extra6 {
     content: url(./svg/pinkCastle-desk.svg);
     z-index: 0;
-    margin-top: 2570px;
+    margin-top: 2575px;
     margin-left: 0px;
   }
 
   /* link and zelda */
   aside.sidebar::before {
-    margin-top: 2790px;
+    margin-top: 2818px;
     margin-left: -270px;
   }
 
   /* world */
   aside.sidebar::after {
-    margin: 1780px auto 0 -505px;
+    margin: 1825px auto 0 -507px;
     width: 330px;
     height: 330px;
     font-size: 21px;

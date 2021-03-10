@@ -82,7 +82,7 @@
 
 	/* cover5 */
 	.extra5 {
-		margin: 3278px auto auto 270px;
+		margin: 3228px auto auto 270px;
 	}
 }
 
@@ -100,13 +100,15 @@
 	}
 
 	.requirements::after{
-		margin-top: -315px;
+		content:url(./svg/bigger-drawbridge.svg);
+		margin-top: -215px;
 		z-index: -1;
 	}
 	.requirements:hover::after{
-		transform: translate(0px, 325px);
+		transform: translate(0px, 180px);
 		transition: transform 1.5s ease-in-out;
 		z-index: 2;
+
 	}
 	
 	}
