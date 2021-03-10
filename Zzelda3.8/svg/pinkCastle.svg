@@ -125,7 +125,7 @@
 
 <!--ocean-->
 <rect width="720" height="1000" x="0" y="940" fill="deepskyblue" />
-<rect width="460" height="66" x="177" y="1390" fill="url(#redFish)" />
+<!--<rect width="460" height="66" x="177" y="1390" fill="url(#redFish)" />
 <rect width="530" height="66" x="100" y="1452" fill="url(#redFish)" />
 <rect width="460" height="66" x="177" y="990" fill="url(#tropicalFish)" />
 <rect width="529" height="66" x="90" y="1056" fill="url(#tropicalFish)" />
@@ -134,10 +134,10 @@
 <rect width="528" height="66" x="92" y="1254" fill="url(#smallGreenFish)" />
 <rect width="460" height="66" x="177" y="1516" fill="url(#redFish)" />
 <rect width="280" height="66" x="268" y="1585" fill="url(#redFish)" />
-<rect width="480" height="66" x="70" y="1320" fill="url(#greenFish)" />
+<rect width="480" height="66" x="70" y="1320" fill="url(#greenFish)" />-->
 <rect width="720" height="1000" x="0" y="940" fill="url(#waterPattern)" />
-<rect width="50" height="1000" x="0" y="940" fill="url(#floorPattern)" />
-<rect width="50" height="1000" x="670" y="940" fill="url(#floorPattern)" />
+<!--<rect width="50" height="1000" x="0" y="940" fill="urll(#floorPattern)" />
+<rect width="50" height="1000" x="670" y="940" fill="urll(#floorPattern)" />-->
 <rect width="720" height="50" x="0" y="1660" fill="url(#floorPattern)" />
 <rect width="720" height="100" x="0" y="890" fill="url(#floorPattern)" />
 
