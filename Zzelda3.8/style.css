@@ -938,12 +938,12 @@ aside.sidebar::after {
     font-weight: bolder;
   }
 
-  .participation p:nth-child(2)::after {
-    content: url(./svg/ladder.svg);
-    position: absolute;
-    margin-top: 943px;
-    margin-left: 0px;
-  }
+  /*.participation p:nth-child(2)::after{
+  	content: url(./svg/ladder.svg);
+  	position:absolute;
+  	margin-top: 943px;
+  	margin-left: 0px;
+  }*/
 }
 /*--------------------mobile 360----------------------*/
 .benefits p:nth-child(2):after {
