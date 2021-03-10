@@ -35,29 +35,27 @@
             <polygon points="6,45 20,45 6,45" style="stroke:darkgreen;stroke-width:2;" />
         </pattern>
     </defs>
-
-    <rect width="840" height="66" fill="url(#greenFish)" x="-650" y="-1188" transform="rotate(-180 185 33)
+    <!--<rect width="1200" height="490" x="0" y="950" fill="deepskyblue" />
+     <rect width="1200" height="490" x="0" y="950" fill="url(#waterPattern)" />-->
+    <rect width="720" height="66" fill="url(#greenFish)" x="-530" y="-1188" transform="rotate(-180 185 33)
                 translate(0 0)
                 scale(1 1)" />
-    <rect width="840" height="66" fill="url(#greenFish)" x="-650" y="-1188" transform="rotate(-180 185 33)
+    <rect width="600" height="66" fill="url(#greenFish)" x="-530" y="-1320" transform="rotate(-180 185 33)
                 translate(0 0)
                 scale(1 1)" />
-    <rect width="720" height="66" fill="url(#greenFish)" x="-650" y="-1320" transform="rotate(-180 185 33)
-                translate(0 0)
-                scale(1 1)" />
-    <rect width="650" height="66" x="237" y="990" fill="url(#tropicalFish)" />
-    <rect width="820" height="66" x="150" y="1056" fill="url(#tropicalFish)" />
-    <rect width="805" height="66" x="250" y="1119" fill="url(#tropicalFish)" />
+    <rect width="470" height="66" x="237" y="990" fill="url(#tropicalFish)" />
+    <rect width="640" height="66" x="150" y="1056" fill="url(#tropicalFish)" />
+    <rect width="715" height="66" x="160" y="1119" fill="url(#tropicalFish)" />
     <!--<rect width="840" height="66" x="190" y="1188" fill="url(#greenFish)" />-->
-    <rect width="880" height="66" x="170" y="1254" fill="url(#smallGreenFish)" />
+    <rect width="610" height="66" x="260" y="1254" fill="url(#smallGreenFish)" />
     <!--<rect width="720" height="66" x="190" y="1320" fill="url(#greenFish)" />-->
     <!--<rect width="1200" height="490" x="0" y="950" fill="url(#waterPattern)" />-->
-    <rect width="840" height="66" x="190" y="1188" fill="url(#waterPattern)" opacity=".5"/>
-    <rect width="720" height="66" x="190" y="1320" fill="url(#waterPattern)" opacity=".5"/>
-      <rect width="650" height="66" x="237" y="990" fill="url(#waterPattern)" opacity=".5"/>
-         <rect width="820" height="66" x="150" y="1056" fill="url(#waterPattern)" opacity=".5"/>
-         <rect width="805" height="66" x="250" y="1119" fill="url(#waterPattern)" opacity=".5"/>
-           <rect width="880" height="66" x="170" y="1254" fill="url(#waterPattern)" opacity=".5"/>
-      
+    <rect width="715" height="66" x="185" y="1188" fill="url(#waterPattern)" opacity=".5" rx="50" />
+    <rect width="600" height="66" x="300" y="1320" fill="url(#waterPattern)" opacity=".5" rx="50" />
+    <rect width="430" height="66" x="257" y="990" fill="url(#waterPattern)" opacity=".5" rx="50" />
+    <rect width="620" height="66" x="160" y="1056" fill="url(#waterPattern)" opacity=".5" rx="50" />
+    <rect width="710" height="66" x="160" y="1119" fill="url(#waterPattern)" opacity=".5" rx="50" />
+    <rect width="610" height="66" x="260" y="1254" fill="url(#waterPattern)" opacity=".5" rx="50" />
+
 
 </svg>

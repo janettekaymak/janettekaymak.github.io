@@ -200,18 +200,135 @@ aside.sidebar::after {
 	.benefits p:nth-child(2):after {
 		content: url(./svg/fish.svg);
 		z-index: 2;
-		margin: 2565px auto auto 1px;
+		margin: 2620px auto auto 250px;
 		animation-name: swim;
-		animation-duration: 20s;
+		animation-duration: 5s;
 		animation-iteration-count: infinite;
-	    position:absolute;
-		animation-timing-function: ease-in-out;
-	  }
-	  
-	  @keyframes swim {
-		0%   {left:1200px; top:0px;}
-		50%  {left:0px; top:50px;}
-		100% {left:-1200px; top:-50px;}
-	  }
+		position: absolute;
+		animation-timing-function: linear;
+	}
 
+	@keyframes swim {
+		0% {
+			left: 0px;
+			top: 0px;
+		}
+
+		10% {
+			left: -100px;
+			top: -80px;
+		}
+
+		40% {
+			left: -360px;
+			top: 0px;
+			transform: rotateY(0deg);
+		}
+
+		50% {
+			left: -500px;
+			top: 0px;
+			transform: rotateY(180deg);
+		}
+
+		85% {
+			left: -400px;
+			top: -80px;
+
+		}
+
+		90% {
+			left: -150px;
+			top: 0px;
+			transform: rotateY(180deg);
+		}
+
+		100% {
+			left: 0px;
+			top: 0px;
+			left: 0px;
+			transform: rotateY(0deg);
+		}
+	}
+
+}
+
+/*--------------------1300----------------------*/
+
+@media screen and (min-width: 1300px) {
+
+	/* fish */
+	.benefits p:nth-child(2):after {
+		padding: 0 50px;
+	}
+}
+
+/*--------------------1400----------------------*/
+
+@media screen and (min-width: 1400px) {
+
+	/* fish */
+	.benefits p:nth-child(2):after {
+		padding: 0 100px;
+	}
+}
+
+/*--------------------1500----------------------*/
+
+@media screen and (min-width: 1500px) {
+
+	/* fish */
+	.benefits p:nth-child(2):after {
+		padding: 0 150px;
+	}
+}
+
+/*--------------------1600----------------------*/
+
+@media screen and (min-width: 1600px) {
+
+	/* fish */
+	.benefits p:nth-child(2):after {
+		padding: 0 200px;
+	}
+}
+
+/*--------------------1700----------------------*/
+
+@media screen and (min-width: 1700px) {
+
+	/* fish */
+	.benefits p:nth-child(2):after {
+		padding: 0 250px;
+	}
+}
+
+/*--------------------1800----------------------*/
+
+@media screen and (min-width: 1800px) {
+
+	/* fish */
+	.benefits p:nth-child(2):after {
+		padding: 0 300px;
+	}
+}
+
+/*--------------------1900----------------------*/
+
+@media screen and (min-width: 1900px) {
+
+	/* fish */
+	.benefits p:nth-child(2):after {
+		padding: 0 350px;
+	}
+}
+
+/*--------------------2000----------------------*/
+
+@media screen and (min-width: 2000px) {
+
+	/* fish */
+	.benefits p:nth-child(2):after {
+		padding: 0 400px;
+	}
 }
