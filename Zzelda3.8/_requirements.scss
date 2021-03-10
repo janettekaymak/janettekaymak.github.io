@@ -102,9 +102,7 @@
 	}
 
 	.requirements::after {
-		content: url(./svg/drawbridge.svg);
 		margin-top: -185px;
-		z-index: -1;
 	}
 
 	.requirements:hover::after {
