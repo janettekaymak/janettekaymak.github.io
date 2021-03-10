@@ -944,7 +944,9 @@ aside.sidebar::after {
     font-size: 21px;
     font-weight: bolder;
   }
-
+}
+/*--------------------1200----------------------*/
+@media screen and (min-width: 1200px) {
   /* fish */
   .benefits p:nth-child(2):after {
     content: url(./svg/fish.svg);
@@ -952,8 +954,8 @@ aside.sidebar::after {
     margin: 2620px auto auto 250px;
     -webkit-animation-name: swim;
             animation-name: swim;
-    -webkit-animation-duration: 5s;
-            animation-duration: 5s;
+    -webkit-animation-duration: 7s;
+            animation-duration: 7s;
     -webkit-animation-iteration-count: infinite;
             animation-iteration-count: infinite;
     position: absolute;
