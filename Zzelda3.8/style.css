@@ -184,84 +184,86 @@ h2 {
   }
 }
 /*.preamble {
-    display: grid;
-      grid-template-columns: repeat(18, 20px);
-      grid-template-rows: repeat(28, 20px);
-    font-family: $Font-p;
-    font-size: 17.5px;
-    color: white;
-      width: 100%;
-    text-align: justify;
-    line-height: 1em;
-    background-repeat: no-repeat;
-    position: relative;
-    z-index: 2;
-      &::before{
-          content: url(./svg/block1.svg);
-          z-index: 2;
-          grid-column: 1/-1;
-          grid-row: 1/-1;
-      }
-      h3 {
-          font-family: $Font-H;
-          font-size: 25px;
-          line-height: 1em;
-          grid-column: 5/18;
-          grid-row: 4/7;
-          z-index: 3;
-      }
-      p {
-          padding:0;
-          margin:0;
-          z-index: 3;
-          opacity: 0;
-          transition: opacity 5s;
+  display: grid;
+	grid-template-columns: repeat(18, 20px);
+	grid-template-rows: repeat(28, 20px);
+  font-family: $Font-p;
+  font-size: 17.5px;
+  color: white;
+	width: 100%;
+  text-align: justify;
+  line-height: 1em;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+	&::before{
+		content: url(./svg/block1.svg);
+		z-index: 2;
+		grid-column: 1/-1;
+		grid-row: 1/-1;
+	}
+	h3 {
+		font-family: $Font-H;
+		font-size: 25px;
+		line-height: 1em;
+		grid-column: 5/18;
+		grid-row: 4/7;
+		z-index: 3;
+	}
+	p {
+		padding:0;
+		margin:0;
+		z-index: 3;
+		opacity: 0;
+		transition: opacity 5s;
 
-          &:nth-of-type(1){
-              grid-column: 5/17;
-              grid-row: 9/14;
-          }
-          &:nth-of-type(2){
-              grid-column: 5/17;
-              grid-row: 13/18;
-          }
-          &:nth-of-type(3){
-              grid-column: 8/15;
-              grid-row: 18/28;
-          }
-          &:last-of-type{
-              &::after{
-                  content: url(./svg/flat-drawbridge2.svg);
-                  background-color: black;
-                  width:80px;
-                  height: 10px;
-                  z-index: 1;
-                  position: absolute;
-                  top: 305px;
-                  left: 170px;
-                  transition: transform 3s ease-in-out;
-              }
-              &:hover::after{
-                  transform: translate(0px, 230px);
-              }
-          }
-      }
-      &::after{
-          content: url(./svg/cover1.svg);
-          grid-column: 5/18;
-          grid-row: 5/28;
-          z-index: 5;
-          width: 100%;
-          margin-left:-6px;
-          margin-top:-6px;
-          transition: z-index .5s ease-in-out;
-      }
-      &:hover{
-          p{opacity: 100%;}
-          &::after{
-              z-index:1;}
-      }
-  }*/
+		&:nth-of-type(1){
+			grid-column: 5/17;
+			grid-row: 9/14;
+		}
+		&:nth-of-type(2){
+			grid-column: 5/17;
+			grid-row: 13/18;
+		}
+		&:nth-of-type(3){
+			grid-column: 8/15;
+			grid-row: 18/28;
+		}
+		&:last-of-type{
+			&::after{
+				content: url(./svg/flat-drawbridge2.svg);
+				background-color: black;
+				width:80px;
+				height: 10px;
+				z-index: 1;
+				position: absolute;
+				top: 305px;
+				left: 170px;
+				transition: transform 3s ease-in-out;
+			}
+			&:hover::after{
+				transform: translate(0px, 230px);
+			}
+		}
+	}
+	&::after{
+		content: url(./svg/cover1.svg);
+		grid-column: 5/18;
+		grid-row: 5/28;
+		z-index: 5;
+		width: 100%;
+		margin-left:-6px;
+		margin-top:-6px;
+		transition: z-index .5s ease-in-out;
+	}
+	&:hover{
+		p{opacity: 100%;}
+		&::after{
+			z-index:1;}
+	}
+}
+
+*/
 div.preamble {
   display: block;
   font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
