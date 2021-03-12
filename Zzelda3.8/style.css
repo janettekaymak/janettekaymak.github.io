@@ -474,7 +474,7 @@ div.preamble {
 }
 
 .participation:hover::after {
-  transform: translate(0px, 360px);
+  transform: translate(0px, 355px);
   transition: transform 4s ease-in-out;
 }
 
@@ -547,12 +547,13 @@ div.preamble {
     margin-left: 745px;
   }
 
+  /* bridge3 */
   .participation::after {
     margin-top: -380px;
   }
 
   .participation:hover::after {
-    transform: translate(0px, 333px);
+    transform: translate(0px, 325px);
     transition: transform 4s ease-in-out;
   }
 }
@@ -578,13 +579,13 @@ div.preamble {
   font-family: "Merienda", cursive;
   font-size: 30px;
   line-height: 1em;
-  padding-top: 105px;
+  padding-top: 55px;
   padding-bottom: 20px;
 }
 
 .extra4 {
   content: url(./svg/cover4.svg);
-  margin: -455px auto auto 33px;
+  margin: -505px auto auto 33px;
 }
 
 .benefits::after {
@@ -609,7 +610,7 @@ div.preamble {
 
   /* cover4 */
   .extra4 {
-    margin: -455px auto auto 147px;
+    margin: -505px auto auto 147px;
   }
 }
 /*--------------------767----------------------*/
@@ -621,7 +622,7 @@ div.preamble {
 
   /* cover4 */
   .extra4 {
-    margin: -455px auto auto 229px;
+    margin: -505px auto auto 229px;
   }
 }
 /*--------------------1200----------------------*/
@@ -634,12 +635,12 @@ div.preamble {
 
   /* cover4 */
   .extra4 {
-    margin: -455px auto auto 730px;
+    margin: -505px auto auto 730px;
   }
 
   .benefits::after {
     content: url(./svg/side-bridge4.svg);
-    margin-top: -45px;
+    margin-top: -95px;
     margin-left: 25px;
   }
 
@@ -653,7 +654,7 @@ div.preamble {
     font-family: "Merienda", cursive;
     font-size: 30px;
     line-height: 1em;
-    padding-top: 105px;
+    padding-top: 55px;
     padding-bottom: 20px;
   }
 }

@@ -16,7 +16,7 @@
 }
 
 .participation:hover::after {
-	transform: translate(0px, 360px);
+	transform: translate(0px, 355px);
 	transition: transform 4s ease-in-out;
 }
 
@@ -97,13 +97,13 @@
 		margin-top: -1330px;
 		margin-left: 745px;
 	}
-
+/* bridge3 */
 	.participation::after {
 		margin-top: -380px;
 	}
 
 	.participation:hover::after {
-		transform: translate(0px, 333px);
+		transform: translate(0px, 325px);
 		transition: transform 4s ease-in-out;
 	}
 
