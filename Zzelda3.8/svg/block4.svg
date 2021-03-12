@@ -19,15 +19,15 @@
 		<pattern id="waterPattern" patternUnits="userSpaceOnUse" x="-5" y="0" height="10" width="20">
 			<circle cx="10" cy="-10" r="15" fill="transparent" stroke="aqua" stroke-width="1" />
 		</pattern>
-		<!-- tropical fish pattern -->
-		<pattern id="tropicalFish" patternUnits="userSpaceOnUse" x="5" y="35" width="71" height="70">
-			<rect width="50" height="30" x="2" y="22" rx="30" fill="deeppink" stroke="darkgreen" stroke-width="2" />
-			<rect width="20" height="26" x="7" y="24" rx="30" fill="gold"/>
-			<polygon points="52,37 70,22 65,60" style="fill:chartreuse;stroke:darkgreen;stroke-width:2;" />
-			<polygon points="25,22 45,11 55,22" style="fill:gold;stroke:darkgreen;stroke-width:2;" />
-			<polygon points="25,53 45,65 55,54" style="fill:gold;stroke:darkgreen;stroke-width:2;" />
-			<rect width="10" height="10" rx="5" stroke="chartreuse" stroke-width="3" x="12" y="30" />
-			<polygon points="6,45 20,45 6,45" style="stroke:darkgreen;stroke-width:2;" />
+		<!-- red fish pattern -->
+		<pattern id="redFish" patternUnits="userSpaceOnUse" x="5" y="35" width="71" height="70">
+			<rect width="50" height="30" x="2" y="22" rx="30" fill="firebrick" stroke="maroon" stroke-width="2" />
+			<rect width="25" height="28" x="6" y="23" rx="30" fill="orangered" />
+			<polygon points="52,37 70,22 65,60" style="fill:red;stroke:maroon;stroke-width:2;" />
+			<polygon points="25,22 45,11 55,22" style="fill:red;stroke:maroon;stroke-width:2;" />
+			<polygon points="25,53 45,65 55,54" style="fill:red;stroke:maroon;stroke-width:2;" />
+			<rect width="10" height="10" x="10" y="30" rx="5" stroke="chartreuse" stroke-width="3" />
+			<polygon points="6,45 20,45 6,45" style="stroke:black;stroke-width:2;" />
 		</pattern>
 	</defs>
 	<!-- build block4 pond -->
@@ -36,7 +36,7 @@
 	<rect width="80" height="80" x="143" y="15" fill="#23c8ff" />
 	<rect width="80" height="80" x="143" y="15" fill="url(#waterPattern)" />
 	<rect width="310" height="263" x="25" y="55" rx="200" fill="#23c8ff" />
-	<rect width="71" height="70" x="148" y="245" fill="url(#tropicalFish)"/>
+	<rect width="71" height="70" x="148" y="245" fill="url(#redFish)"/>
 	<rect width="310" height="263" x="25" y="55" rx="200" fill="url(#waterPattern)" />
 	<rect width="100" height="50" x="5" y="0" fill="url(#treePattern)" />
 	<rect width="100" height="50" x="255" y="0" fill="url(#treePattern)" />
