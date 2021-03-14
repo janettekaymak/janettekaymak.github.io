@@ -640,7 +640,7 @@ div.preamble {
 
   .benefits::after {
     content: url(./svg/side-bridge4.svg);
-    margin-top: -95px;
+    margin-top: -45px;
     margin-left: 25px;
   }
 
