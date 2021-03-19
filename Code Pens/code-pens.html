@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>My Code Pens</title>
+
+    <link rel="stylesheet" media="screen" href="styles.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Janette Kaymak">
+    <meta name="description" content="All of my codepens that I want to keep safe">
+</head>
+
+<body>
+    <header>
+           <!-- curtain -->
+    <div id="menu" class="sliding-curtain">
+
+        <!-- Button to close the curtain -->
+        <a href="javascript:void(0)" class="button" onclick="closeNav()">&times;</a>
+
+        <!-- curtain content -->
+        <div class="curtain-content">
+            <a href="#">My Husband</a>
+            <a href="#">My Dog</a>
+            <a href="#">My Kids</a>
+            <a href="#">My Grandkids</a>
+        </div>
+
+    </div>
+    <!--the three barred menu button-->
+    <span onclick="openNav()">
+        <!--container for bars-->
+        <div class="menu-icon">
+            <!--bars-->
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </span>
+    </header>
+    <main>
+        <div id="minion">
+            <div id="l-arm"></div>
+            <div id="r-arm"></div>
+            <div id="thumb1"></div>
+            <div id="thumb2"></div>
+            <div id="strap1"></div>
+            <div id="strap2"></div>
+            <div id="goggle1"></div>
+            <div id="goggle2"></div>
+            <div id="eye1"></div>
+            <div id="eye2"></div>
+            <div id="mouth"></div>
+            <div id="overalls"></div>
+            <div id="pockets"></div>
+            <div id="legs"></div>
+            <div id="line"></div>
+            <div id="l-shoe"></div>
+            <div id="r-shoe"></div>
+    </main>
+    <div class="card-frame">
+        <p>Evil Eye</p>
+        <svg width="450" height="500">
+            <!-- define pattern -->
+            <defs>
+                <pattern id="mypattern" patternUnits="userSpaceOnUse" x="0" y="0" width="28" height="28">
+                    <rect width="28" height="28" x="0" y="0" class="backback" />
+                    <rect width="28" height="28" x="0" y="0" rx="5" stroke="black" stroke-width="1"
+                        class="background" />
+                    <circle cx="14" cy="14" r="14" class="circle1" />
+                    <circle cx="13" cy="13" r="10" class="circle2" stroke="black" stroke-width="2" />
+                    <circle cx="12" cy="12" r="6" class="circle3" />
+                    <circle cx="12" cy="12" r="3" class="eyeball" />
+                </pattern>
+            </defs>
+
+
+            <rect width="237" height="331" rx="10" x="162" y="38" fill="url(#mypattern)" background stroke-width="1"
+                stroke="black" />
+            <rect width="28" height="28" x="336" y="0" fill="url(#mypattern)" background stroke-width="1"
+                stroke="black" />
+        </svg>
+    </div>
+
+    <div class="card-frame">
+        <p>Gingham</p>
+        <svg width="450" height="500">
+            <!-- define pattern -->
+            <defs>
+                <pattern id="my2pattern" patternUnits="userSpaceOnUse" x="0" y="0" width="28" height="28">
+                    <rect width="28" height="28" x="0" y="0" class="mix" />
+                    <rect width="14" height="14" x="0" y="0" class="color1" />
+                    <rect width="14" height="14" x="14" y="14" class="color2" />
+                </pattern>
+            </defs>
+
+            <rect width="237" height="331" rx="10" x="168" y="38" fill="url(#my2pattern)" background stroke-width="1"
+                stroke="black" />
+            <rect width="28" height="28" x="336" y="0" fill="url(#my2pattern)" background stroke-width="1"
+                stroke="black" />
+        </svg>
+    </div>
+
+
+    <div class="card-frame">
+        <p>Brick Wall</p>
+        <svg width="450" height="500">
+            <!-- define pattern -->
+            <defs>
+                <pattern id="my3pattern" patternUnits="userSpaceOnUse" x="0" y="0" width="60" height="30">
+                    <rect width="60" height="30" x="0" y="0" class="back" />
+
+                    <rect width="28" height="13" x="0" y="0" class="brickcolor1" />
+
+                    <rect width="28" height="13" x="30" y="0" class="brickcolor2" />
+
+                    <rect width="14" height="13" x="0" y="15" class="brickcolor4" />
+                    <rect width="28" height="13" x="16" y="15" class="brickcolor3" />
+
+                    <rect width="14" height="13" x="46" y="15" class="brickcolor4" />
+
+                </pattern>
+            </defs>
+
+            <rect width="237" height="331" rx="10" x="168" y="38" fill="url(#my3pattern)" background stroke-width="1"
+                stroke="black" />
+            <rect width="60" height="30" x="329" y="-1" fill="url(#my3pattern)" background stroke-width="1"
+                stroke="black" />
+        </svg>
+    </div>
+    <h1>Snowflake Card Back</h1>
+    <svg width="450" height="550">
+        <defs>
+            <pattern id="pathPattern" x="0" y="0" width="62" height="60" patternUnits="userSpaceOnUse"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+                style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+
+                <rect width="62" height="60" fill="lightblue" />
+
+                <path id="g44941"
+                    d="M16.523,35.272l-4.72,7.851l-3.033,-0.04l-1.343,-2.722l3.218,-5.089l-7.432,0l-1.581,-2.755l1.581,-2.635l7.899,0l-3.363,-5.849l1.136,-2.349l3.236,0.003l4.695,8.224l7.486,-0.005c0.369,-1.22 1.011,-2.322 1.855,-3.234l-3.774,-6.552l-9.91,-0.275l-1.293,-2.259l1.463,-2.859l6.646,0.018l-3.649,-6.342l1.256,-2.747l-0.001,-0.002l3.414,0.061l3.587,6.244l3.156,-5.256l2.954,0.138l1.43,2.44l-4.565,7.851l4.014,6.982c0.448,-0.075 0.908,-0.114 1.376,-0.114c0.69,0 1.359,0.084 2,0.242l3.701,-6.422l-4.735,-8.71l1.307,-2.251l3.203,-0.17l3.323,5.759l3.653,-6.342l3.008,-0.29l1.657,2.983l-3.598,6.237l6.129,0.09l1.361,2.627l-1.394,2.461l-9.078,-0.007l-4.013,6.954c0.636,0.805 1.127,1.729 1.432,2.734l7.403,-0.005l5.176,-8.456l2.603,0.007l1.748,2.69l-3.327,5.755l7.316,-0.004l1.755,2.462l-1.755,2.928l-7.2,0l2.986,5.35l-1.592,2.494l-2.831,0.022l-4.528,-7.866l-7.939,0c-0.329,0.863 -0.797,1.657 -1.378,2.355l3.891,6.767l9.161,0.177l1.477,2.65l-1.69,2.523l-6.016,-0.254l3.706,6.443l-1.599,2.744l-3.074,-0.058l-3.938,-6.848l-3.395,5.831l-2.599,0.188l-1.611,-2.809l4.789,-8.169l-3.676,-6.385c-0.586,0.131 -1.194,0.2 -1.819,0.2c-0.407,0 -0.807,-0.029 -1.198,-0.086l-3.981,6.9l4.445,8.014l-1.553,2.61l-3.03,-0.199l-2.798,-5.332l-3.717,6.44l-3.175,-0.007l-1.491,-2.686l3.949,-6.845l-6.751,-0.007l-1.462,-2.158l1.618,-2.801l9.469,0.04l3.698,-6.421c-0.774,-0.801 -1.389,-1.757 -1.794,-2.817l-7.967,0Zm15.738,-6.272c1.829,0 3.314,1.485 3.314,3.314c0,1.828 -1.485,3.313 -3.314,3.313c-1.828,0 -3.313,-1.485 -3.313,-3.313c0,-1.829 1.485,-3.314 3.313,-3.314Z"
+                    style="fill: white; stroke: teal; stroke-width: 2;" />
+            </pattern>
+        </defs>
+
+        <rect x="55" y="50" width="375" height="495" stroke="teal" stroke-width="1" rx="15" fill="url(#pathPattern)" />
+    </svg>
+
+
+
+    <svg width="450" height="550">
+        <defs>
+            <pattern id="pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+                style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;" width="2%"
+                height="2%" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+                style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+
+                <rect width="80" height="80" fill="lightcyan" />
+
+                <path id="g44941"
+                    d="M16.523,35.272l-4.72,7.851l-3.033,-0.04l-1.343,-2.722l3.218,-5.089l-7.432,0l-1.581,-2.755l1.581,-2.635l7.899,0l-3.363,-5.849l1.136,-2.349l3.236,0.003l4.695,8.224l7.486,-0.005c0.369,-1.22 1.011,-2.322 1.855,-3.234l-3.774,-6.552l-9.91,-0.275l-1.293,-2.259l1.463,-2.859l6.646,0.018l-3.649,-6.342l1.256,-2.747l-0.001,-0.002l3.414,0.061l3.587,6.244l3.156,-5.256l2.954,0.138l1.43,2.44l-4.565,7.851l4.014,6.982c0.448,-0.075 0.908,-0.114 1.376,-0.114c0.69,0 1.359,0.084 2,0.242l3.701,-6.422l-4.735,-8.71l1.307,-2.251l3.203,-0.17l3.323,5.759l3.653,-6.342l3.008,-0.29l1.657,2.983l-3.598,6.237l6.129,0.09l1.361,2.627l-1.394,2.461l-9.078,-0.007l-4.013,6.954c0.636,0.805 1.127,1.729 1.432,2.734l7.403,-0.005l5.176,-8.456l2.603,0.007l1.748,2.69l-3.327,5.755l7.316,-0.004l1.755,2.462l-1.755,2.928l-7.2,0l2.986,5.35l-1.592,2.494l-2.831,0.022l-4.528,-7.866l-7.939,0c-0.329,0.863 -0.797,1.657 -1.378,2.355l3.891,6.767l9.161,0.177l1.477,2.65l-1.69,2.523l-6.016,-0.254l3.706,6.443l-1.599,2.744l-3.074,-0.058l-3.938,-6.848l-3.395,5.831l-2.599,0.188l-1.611,-2.809l4.789,-8.169l-3.676,-6.385c-0.586,0.131 -1.194,0.2 -1.819,0.2c-0.407,0 -0.807,-0.029 -1.198,-0.086l-3.981,6.9l4.445,8.014l-1.553,2.61l-3.03,-0.199l-2.798,-5.332l-3.717,6.44l-3.175,-0.007l-1.491,-2.686l3.949,-6.845l-6.751,-0.007l-1.462,-2.158l1.618,-2.801l9.469,0.04l3.698,-6.421c-0.774,-0.801 -1.389,-1.757 -1.794,-2.817l-7.967,0Zm15.738,-6.272c1.829,0 3.314,1.485 3.314,3.314c0,1.828 -1.485,3.313 -3.314,3.313c-1.828,0 -3.313,-1.485 -3.313,-3.313c0,-1.829 1.485,-3.314 3.313,-3.314Z"
+                    style="fill:teal;" />
+        </defs>
+
+        <rect x="55" y="50" width="375" height="495" stroke="teal" stroke-width="1" rx="15" fill="url(#pattern)" />
+    </svg>
+
+    <!--ORIGINAL SNOWFLAKE SVG FOUND ONLINE AT https://freesvg.org/snow-remixed2, SIZE REDUCED FROM 100% H AND W TO 375px COLOR CHANGED TO TEAL-->
+
+    <svg width="375" height="375" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+        style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;" id="flake">
+        <path id="g44941"
+            d="M16.523,35.272l-4.72,7.851l-3.033,-0.04l-1.343,-2.722l3.218,-5.089l-7.432,0l-1.581,-2.755l1.581,-2.635l7.899,0l-3.363,-5.849l1.136,-2.349l3.236,0.003l4.695,8.224l7.486,-0.005c0.369,-1.22 1.011,-2.322 1.855,-3.234l-3.774,-6.552l-9.91,-0.275l-1.293,-2.259l1.463,-2.859l6.646,0.018l-3.649,-6.342l1.256,-2.747l-0.001,-0.002l3.414,0.061l3.587,6.244l3.156,-5.256l2.954,0.138l1.43,2.44l-4.565,7.851l4.014,6.982c0.448,-0.075 0.908,-0.114 1.376,-0.114c0.69,0 1.359,0.084 2,0.242l3.701,-6.422l-4.735,-8.71l1.307,-2.251l3.203,-0.17l3.323,5.759l3.653,-6.342l3.008,-0.29l1.657,2.983l-3.598,6.237l6.129,0.09l1.361,2.627l-1.394,2.461l-9.078,-0.007l-4.013,6.954c0.636,0.805 1.127,1.729 1.432,2.734l7.403,-0.005l5.176,-8.456l2.603,0.007l1.748,2.69l-3.327,5.755l7.316,-0.004l1.755,2.462l-1.755,2.928l-7.2,0l2.986,5.35l-1.592,2.494l-2.831,0.022l-4.528,-7.866l-7.939,0c-0.329,0.863 -0.797,1.657 -1.378,2.355l3.891,6.767l9.161,0.177l1.477,2.65l-1.69,2.523l-6.016,-0.254l3.706,6.443l-1.599,2.744l-3.074,-0.058l-3.938,-6.848l-3.395,5.831l-2.599,0.188l-1.611,-2.809l4.789,-8.169l-3.676,-6.385c-0.586,0.131 -1.194,0.2 -1.819,0.2c-0.407,0 -0.807,-0.029 -1.198,-0.086l-3.981,6.9l4.445,8.014l-1.553,2.61l-3.03,-0.199l-2.798,-5.332l-3.717,6.44l-3.175,-0.007l-1.491,-2.686l3.949,-6.845l-6.751,-0.007l-1.462,-2.158l1.618,-2.801l9.469,0.04l3.698,-6.421c-0.774,-0.801 -1.389,-1.757 -1.794,-2.817l-7.967,0Zm15.738,-6.272c1.829,0 3.314,1.485 3.314,3.314c0,1.828 -1.485,3.313 -3.314,3.313c-1.828,0 -3.313,-1.485 -3.313,-3.313c0,-1.829 1.485,-3.314 3.313,-3.314Z"
+            style="fill:#fff;stroke:cyan;stroke-width:0.64px;" /></svg>
+
+            <!--The whole curtain, both sides -->
+<div class="curtain">
+
+    <!-- We need this to put both sides into and to define the size-->
+    <div class="curtain__wrapper">
+  
+      <!--Could this be switched to hover?-->
+      <input type="checkbox" checked>
+  
+      <!--Each panel gets it's own division and class.-->
+      <div class="curtain__panel curtain__panel--left">
+  
+      </div> <!-- curtain__panel -->
+  
+      <!--I put my own thing inside here and made sure it was centered and sized. Because it was an svg, it works a little differently than if it had been a css image.-->
+      <div class="curtain__prize">
+        <svg height="300" width="800" id="runtFish" viewBox="-15 0 90 71">
+  
+          <rect width="50" height="30" x="2" y="22" rx="30" fill="red" stroke="maroon" stroke-width="2" />
+          <polygon points="52,37 70,22 65,60" style="fill:tomato;stroke:maroon;stroke-width:2;" />
+          <polygon points="25,22 45,11 55,22" style="fill:orangered;stroke:maroon;stroke-width:2;" />
+          <polygon points="25,53 45,65 55,54" style="fill:orangered;stroke:maroon;stroke-width:2;" />
+          <rect width="10" height="10" rx="5" stroke="chartreuse" stroke-width="3" x="12" y="30" />
+          <polygon points="6,45 28,45 6,45" style="stroke:black;stroke-width:2;" />
+        </svg>
+        <h1>
+          Congratulations...You caught a fish.
+        </h1>
+      </div>
+  
+      <!-- Right curtain panel -->
+      <div class="curtain__panel curtain__panel--right">
+  
+      </div>
+  
+    </div>
+  
+  </div>
+    <footer>
+
+    </footer>
+    <script src="javaScript.js"></script>
+
+</body>
+
+</html>

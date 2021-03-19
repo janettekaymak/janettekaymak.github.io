@@ -1,0 +1,433 @@
+//Cardbacks
+
+/* EVIL EYE COLORS*/
+$backback: gold;
+$background: aqua;
+$circle1: darkblue;
+$circle2: white;
+$circle3: dodgerblue;
+$eyeball: black;
+
+$text: sans-serif;
+
+/*GINGHAM COLORS1*/
+$color1: hotpink;
+$color2: white;
+$mix: pink;
+
+/*GINGHAM COLORS2*/
+/*$color1: grey;
+$color2: white;
+$mix: lightgrey;*/
+
+/*GINGHAM COLORS3*/
+/*$color1: yellow;
+$color2: red;
+$mix: orange;*/
+
+/*BRICK COLORS REDS*/
+$brickcolor1: firebrick;
+$brickcolor2: brown;
+$brickcolor3: darkred;
+$brickcolor4: #A23333;
+$brickstroke: slategrey;
+
+/*BRICK COLORS GREYS*/
+/*$brickcolor1: grey;
+$brickcolor3: lightslategrey;
+$brickcolor2: darkgrey;
+$brickcolor4: dimgrey;
+$brickstroke: lightgrey;*/
+
+/*BRICK COLORS PINKS*/
+/*$brickcolor1: #e494ae;
+$brickcolor3: #df7e9e;
+$brickcolor2: #ffccd5;
+$brickcolor4: #e8a4ba;
+$brickstroke: grey;*/
+
+body{
+  display: flex;
+  flex-wrap: wrap;
+}
+.backback{
+  fill: $backback;
+} 
+ .background{
+  fill: $background;
+}
+.circle1{
+  fill: $circle1;
+}
+.circle2{
+  fill: $circle2;
+}
+.circle3{
+  fill: $circle3;
+}
+.eyeball{
+  fill: $eyeball;
+}
+
+p{
+  font-size: 25px;
+  font-family: $text;
+  margin-left: 210px;
+  margin-bottom: -30px;
+ 
+}
+.color1{
+  fill: $color1;
+}
+.color2{
+  fill: $color2;
+}
+.mix{
+  fill:$mix;
+}
+.brickcolor1{
+  fill:$brickcolor1;
+ 
+}
+.brickcolor2{
+  fill:$brickcolor2;
+
+}
+.brickcolor3{
+  fill:$brickcolor3;
+ 
+}
+.brickcolor4{
+  fill:$brickcolor4;
+  
+}
+.back{
+  fill: $brickstroke;
+}
+
+//Minion
+
+main {
+    width: 250px;
+    display: inline-block;
+    margin: 20px auto;
+  }
+    #minion{
+    background: gold;
+    width: 200px;
+    height: 160px;
+    border: 2px;
+    border-style: solid solid none solid;
+    border-radius: 110px 110px 0 0;
+  }
+  #goggle1, #goggle2 {
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    background: white;
+    border-radius: 60px;
+    border: solid 18px darkgrey;
+  }
+  #goggle1{
+     margin: 20px auto auto -4px;
+  }
+  #goggle2{
+      margin: 20px auto auto 91px;
+  }
+  #eye1, #eye2{
+    background: black;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    border-radius: 10px; 
+  }
+  #eye1{
+    margin: 65px auto auto 60px;
+    box-shadow: 0 0 0 7px darkolivegreen, 0 0 0 8px black;
+  }
+  #eye2{
+    margin: 65px auto auto 128px;
+    box-shadow: 0 0 0 7px saddlebrown, 0 0 0 8px black;
+  }
+  #mouth{
+    background: hotpink;
+    width: 50px;
+    height: 15px;
+    margin: 133px auto auto auto;
+    border-radius: 0 0 110px 110px;
+    border: 7px white;
+    border-style: solid none none none;
+    box-shadow: 0 0 0 2px black;
+  }
+  #overalls{
+    background: dodgerblue;
+    width: 200px;
+    height: 100px;
+    border: solid 2px;
+    position: absolute;
+    margin: 5px auto auto -2px;
+    border-radius: 0 0 60px 60px;
+  }
+  #strap1, #strap2{
+    background: dodgerblue;
+    width: 12px;
+    height: 85px;
+    position: absolute;
+    border: 6px;
+    border-style: none double none double;
+  }
+  #strap1{
+     margin: 75px auto auto -2px;
+  }
+  #strap2{
+     margin: 75px auto auto 178px;
+  }
+  #pockets{
+    background: dodgerblue;
+    width: 170px;
+    height: 70px;
+    border: double 6px;
+    position: absolute;
+    margin: 15px auto auto 10px;
+    border-radius: 0 0 50px 50px;
+  }
+  #legs{
+    background: dodgerblue;
+    width: 60px;
+    height: 20px;
+    border: 2px;
+    border-style: none solid solid solid;
+    position: absolute;
+    margin: 106px auto auto 67px;
+    border-radius: 0 0 10px 10px
+  }
+  #line{
+    position:absolute;
+    background: dodgerblue;
+    width: 2px;
+    height: 109px;
+    border: solid 2px;
+    margin: 15px auto auto 95px;
+  }
+  #l-arm, #r-arm {
+    width: 20px;
+    height: 105px;
+    background: gold;
+    position: absolute;
+    border: 30px;
+    border-style: solid none none none;
+    box-shadow: 0 0 0 2px black;
+    border-radius: 20px 20px 0px 0px;
+  }
+  #l-arm{
+    margin: 28px auto auto -41px;
+    -ms-transform: rotate(-35deg); 
+    transform: rotate(-35deg);
+  }
+  #r-arm{
+    margin: 28px auto auto 221px;
+    -ms-transform: rotate(35deg); 
+    transform: rotate(35deg);
+  }
+  #thumb1, #thumb2 {
+    position: absolute;
+    width: 10px;
+    height: 21px;
+    background: black;
+    border-radius: 15px 15px 0 0;
+  }
+  #thumb1{
+    margin: 37px auto auto -53px;
+  }
+  #thumb2{
+    margin: 37px auto auto 243px;
+  }
+  #l-shoe, #r-shoe{
+    position: absolute;
+    width: 45px;
+    height: 20px;
+    background: black;
+    border-radius: 20px 20px 5px 5px;
+  }
+  #l-shoe{
+    margin: 122px auto auto 52px;
+  }
+  #r-shoe{
+    margin: 122px auto auto 101px;
+  }
+
+  //Snowflake card backs
+  #pathPattern, #pattern{
+    -ms-transform: rotate(37deg); 
+  transform: rotate(37deg);
+}
+h1{
+  width: 655px;
+  text-align: right;
+  color: teal;
+  font-family: Verdana;
+  margin-bottom: -40px;
+}
+#flake{
+  position: relative;
+  margin: auto;
+  
+}
+
+//Sliding Curtian with arrow icon
+
+/*Variables*/
+$FunkyColor: #b200ff;
+$BGColor: deepskyblue;
+
+/*these are the three bars that make up the menu icon*/
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  margin: 5px 0;
+  border-radius: 30px;
+  background-color: black;
+  transition: 0.3s;
+}
+/*this is the container for the menu bars*/
+.menu-icon {
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+/*on hover of the container area, make the three black bars change to a fuschia arrow*/
+.menu-icon:hover {
+  //nesting here!
+  .bar1 {
+    -webkit-transform: rotate(45deg) translate(16px, -10px);
+    transform: rotate(45deg) translate(16px, -10px);
+    width: 20px;
+    background-color: $FunkyColor;
+  }
+
+  .bar2 {
+    background-color: $FunkyColor;
+  }
+
+  .bar3 {
+    -webkit-transform: rotate(-45deg) translate(16px, 10px);
+    transform: rotate(-45deg) translate(16px, 10px);
+    width: 20px;
+    background-color: $FunkyColor;
+  }
+}
+
+/* The curtain (background) */
+.sliding-curtain {
+  height: 120%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  background-color: $BGColor;
+  overflow-x: hidden;
+  transition: 1s;
+  margin-top: -20px;
+}
+
+.curtain-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+}
+
+.sliding-curtain a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  font-family: sans-serif;
+  display: block;
+  transition: 0.5s;
+  color: white;
+}
+
+.sliding-curtain a:hover,
+.sliding-curtain a:focus {
+  color: $FunkyColor;
+}
+
+.sliding-curtain .button {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  font-size: 60px;
+}
+
+//Sliding Curtain with two sides
+
+.curtain {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden; /* I like this. */
+}
+
+.curtain__wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.curtain__panel {
+  background: darkblue;
+  width: 50%;
+  height: 100vh; 
+  float: left; /*  The good old float. */
+  position: relative;
+  z-index: 2;
+  transition: all 1s ease-out;/*Animation shorthand*/
+}
+
+
+.curtain__panel--left {
+  transform: translateX(-100%);
+}
+
+
+.curtain__panel--right {
+  transform: translateX(100%);
+}
+
+.curtain__prize {
+  background: aqua;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  min-width: 360px;
+}
+
+#runtFish{
+  display:block;
+  max-width:200px;
+  margin: auto;
+}
+
+input[type="checkbox"] {
+  position: absolute; 
+  cursor: pointer; 
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  opacity: 0;
+}
+
+input[type="checkbox"]:checked ~ div.curtain__panel--left {
+  transform: translateX(0);
+}
+
+
+input[type="checkbox"]:checked ~ div.curtain__panel--right {
+  transform: translateX(0);
+}
+
+h1 {
+  font-family: fantasy, cursive;
+  text-align: center;
+}
