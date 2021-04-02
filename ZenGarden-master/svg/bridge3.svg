@@ -1,0 +1,23 @@
+<svg width="360" height="500" viewBox="0 0 360 500"
+	xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<!-- red fish pattern -->
+		<pattern id="redFish" patternUnits="userSpaceOnUse" x="0" y="56" width="71" height="65">
+			<rect width="50" height="30" x="2" y="22" rx="30" fill="firebrick" stroke="maroon" stroke-width="2" />
+			<rect width="25" height="28" x="6" y="23" rx="30" fill="orangered" />
+			<polygon points="52,37 70,22 65,60" style="fill:red;stroke:maroon;stroke-width:2;" />
+			<polygon points="25,22 45,11 55,22" style="fill:red;stroke:maroon;stroke-width:2;" />
+			<polygon points="25,53 45,65 55,54" style="fill:red;stroke:maroon;stroke-width:2;" />
+			<rect width="10" height="10" x="10" y="30" rx="5" stroke="chartreuse" stroke-width="3" />
+			<polygon points="6,45 20,45 6,45" style="stroke:black;stroke-width:2;" />
+		</pattern>
+		<!-- water pattern -->
+		<pattern id="waterPattern" patternUnits="userSpaceOnUse" x="0" y="0" height="10" width="20">
+			<circle cx="10" cy="-10" r="15" fill="transparent" stroke="aqua" stroke-width="1" />
+		</pattern>
+	</defs>
+	<rect width="80" height="330" x="135" y="70" fill="#23c8ff" />
+	<rect width="71" height="195" x="142" y="130" fill="url(#redFish)" />
+	<rect width="80" height="330" x="135" y="70" fill="url(#waterPattern)" />
+
+</svg>

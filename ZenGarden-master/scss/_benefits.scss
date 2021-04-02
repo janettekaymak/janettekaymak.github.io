@@ -1,0 +1,116 @@
+.benefits {
+	width: $MobileWidth;
+	height: 600px;
+	background-image: url(./svg/block4.svg);
+	background-repeat: no-repeat;
+	margin: -100px auto 0px 10px;
+}
+
+.benefits p {
+	font-family: $Font-p;
+	font-size: 16.5px;
+	text-align: center;
+	width: 250px;
+	display: block;
+	margin: auto;
+	padding-right: 10px;
+}
+
+.benefits h3 {
+	font-family: $Font-H;
+	font-size: 30px;
+	line-height: 1em;
+	padding-top: 55px;
+	padding-bottom: 20px;
+}
+
+.extra4 {
+	content: url(./svg/cover4.svg);
+	margin: -505px auto auto 33px;
+
+}
+
+.benefits::after {
+	position: absolute;
+	content: url(./svg/bridge4.svg);
+	z-index: -1;
+	margin-top: -300px;
+}
+
+.benefits:hover::after {
+	transform: translate(0px, 292px);
+	transition: transform 3s ease-in-out;
+	z-index: -1;
+}
+
+/*--------------------500----------------------*/
+
+@media screen and (min-width: $SmallRespWidth) {
+
+	/* block4 */
+	.benefits {
+		margin-left: 125px;
+	}
+
+	/* cover4 */
+	.extra4 {
+		margin: -505px auto auto 147px;
+
+	}
+
+}
+
+/*--------------------767----------------------*/
+
+@media screen and (min-width: $KindleWidth) {
+
+	/* block4 */
+	.benefits {
+		margin-left: 207px;
+	}
+
+	/* cover4 */
+	.extra4 {
+		margin: -505px auto auto 229px;
+
+	}
+
+
+}
+
+/*--------------------1200----------------------*/
+
+@media screen and (min-width: $LapTopWidth) {
+
+	/* block4 */
+	.benefits {
+		margin-left: 707px;
+		margin-top: -150px;
+	}
+
+	/* cover4 */
+	.extra4 {
+		margin: -505px auto auto 730px;
+	}
+
+	.benefits::after {
+		content: url(./svg/side-bridge4.svg);
+		margin-top: -45px;
+		margin-left: 25px;
+	}
+
+	.benefits:hover::after {
+		transform: translate(-227px, 0px);
+		transition: transform 3s ease-in-out;
+		z-index: -1;
+	}
+
+	.benefits h3 {
+		font-family: $Font-H;
+		font-size: 30px;
+		line-height: 1em;
+		padding-top: 55px;
+		padding-bottom: 20px;
+	}
+
+}

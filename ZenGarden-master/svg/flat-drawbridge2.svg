@@ -1,0 +1,9 @@
+<svg viewBox='0 0 80 250' preserveAspectRatio="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <pattern id="bridge" patternUnits="userSpaceOnUse" x="0" y="0" width="20" height="250">
+            <rect id="plank" width="20" height="250" fill="burlywood" stroke="saddlebrown" stroke-width="2" />
+        </pattern>
+    </defs>
+    <rect x="0" y="0" rx="0" ry="0" width="80" height="250" fill="url(#bridge)" stroke-width="1" stroke="saddlebrown"/>
+</svg>

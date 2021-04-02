@@ -1,0 +1,23 @@
+<svg width="300" height="360" viewBox="0 0 300 360"
+    xmlns="http://www.w3.org/2000/svg" id="bridge2">
+    <defs>
+        <!-- tree pattern -->
+        <pattern id="treePattern" patternUnits="userSpaceOnUse" x="0" y="0" height="50" width="50">
+            <rect width="10" height="10" x="20" y="40" fill="maroon" />
+            <polygon points="25,0 40,15 30,15 45,25 35,25 50,40 0,40 15,25 5,25 20,15 10,15 " style="fill:darkgreen;" />
+        </pattern>
+        <!--grass pattern-->
+        <pattern id="grassPattern" patternUnits="userSpaceOnUse" x="0" y="0" height="50" width="30">
+            <line x1="0" y1="0" x2="15" y2="50" style="stroke:darkolivegreen;stroke-width:1" />
+            <line x1="15" y1="10" x2="15" y2="50" style="stroke:darkolivegreen;stroke-width:1" />
+            <line x1="30" y1="5" x2="15" y2="50" style="stroke:darkslategray;stroke-width:1" />
+            <line x1="20" y1="0" x2="31" y2="37" style="stroke:green;stroke-width:1" />
+            <line x1="15" y1="0" x2="27.5" y2="45" style="stroke:darkolivegreen;stroke-width:1" />
+            <line x1="25" y1="0" x2="35" y2="30" style="stroke:darkslategrey;stroke-width:1" />
+        </pattern>
+    </defs>
+    <rect width="300" height="110" x="0" y="40" fill="#83b226" />
+    <rect width="300" height="110" x="0" y="40" fill="url(#grassPattern)" opacity=".5" />
+    <rect width="200" height="50" x="0" y="0" fill="url(#treePattern)" />
+    <rect width="200" height="50" x="0" y="100" fill="url(#treePattern)" />
+</svg>

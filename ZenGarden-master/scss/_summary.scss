@@ -1,0 +1,191 @@
+body {
+	background-color: $BGcolor1;
+	display: grid;
+	margin: -80px auto auto -10px;
+
+}
+
+header {
+	background-image: linear-gradient($BGcolor1, $BGcolor2, $BGcolor1);
+	height: 200px;
+	background-position: bottom;
+	background-repeat: repeat;
+	background-size: cover;
+	position: relative;
+	z-index: -1;
+}
+
+header::after {
+	content: url(./svg/smallLink.svg);
+	margin-left: 20px;
+	position: absolute;
+	margin-top: -20px;
+	z-index: 2;
+}
+
+h1,
+h2 {
+	width: $MobileWidth;
+	display: block;
+	margin: 0;
+	text-align: right;
+	line-height: .1em;
+	color: $BGcolor3A;
+}
+
+h1 {
+	font-size: 37px;
+	margin-top: 120px;
+	margin-bottom: 35px;
+	font-family: $Font-H;
+}
+
+h2 {
+	font-size: 20px;
+	font-family: $Font-p;
+}
+
+
+
+
+h3 {
+	font-family: $Font-H;
+	margin-bottom: -10px;
+	text-align: center;
+}
+
+.summary::after {
+	content: "CLICK or HOVER on each BLOCK to reveal a hidden message!";
+	font-family: $Font-p;
+	font-size: 22px;
+	color: $BGcolor3A;
+}
+
+.summary {
+	padding: 0 75px 0 105px;
+	margin: auto 14px 0 10px;
+	text-align: right;
+	font-family: $Font-H;
+	line-height: 1.1em;
+	color: rgb(85, 84, 84);
+	margin-top: -60px;
+}
+
+.summary p a {
+	text-decoration: none;
+	font-family: $Font-p;
+	font-size: 20px;
+	color: $BGcolor3A;
+}
+
+/*--------------------500----------------------*/
+
+@media screen and (min-width: $SmallRespWidth) {
+
+	body {
+		max-width: $SmallRespWidth;
+		margin: auto;
+
+	}
+
+	header {
+		height: 150px;
+		margin-top: -50px;
+	}
+
+	/* Link: */
+	header::after {
+		position: fixed;
+		margin-top: -60px;
+		margin-left: 10px;
+	}
+
+	h1,
+	h2 {
+		width: 470px;
+	}
+
+	.summary {
+		padding: 0 90px 0 120px;
+		line-height: 1.5em;
+	}
+}
+
+/*--------------------767----------------------*/
+
+@media screen and (min-width: $KindleWidth) {
+
+	body {
+		max-width: $KindleWidth;
+		margin: auto;
+
+	}
+
+	header {
+		max-width: $KindleWidth;
+		height: 150px;
+		margin-top: -50px;
+	}
+
+	h1,
+	h2 {
+		width: $KindleWidth;
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 45px;
+		line-height: 1em;
+	}
+
+	.summary {
+		text-align: center;
+		padding: 0 160px;
+	}
+
+	h2::after {
+		content: url(./svg/littleZelda.svg);
+		position: fixed;
+		margin-top: -213px;
+		margin-left: 133px;
+	}
+
+	/* Link: */
+	header::after {
+		position: fixed;
+		margin-top: -60px;
+		margin-left: 57px;
+	}
+
+
+}
+
+/*--------------------1200----------------------*/
+
+@media screen and (min-width: $LapTopWidth) {
+
+	body {
+		max-width: $LapTopWidth;
+
+	}
+
+	header {
+		max-width: $LapTopWidth;
+	}
+
+	h1,
+	h2 {
+		width: $LapTopWidth;
+	}
+
+	/*zelda*/
+	h2::after {
+		margin-left: 405px;
+	}
+
+	/*link*/
+	header::after {
+		margin-left: 20px;
+
+	}
+}

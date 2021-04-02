@@ -1,0 +1,72 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+/* Donivan's mixins:
+@mixin h1and2{
+  width: 360px;
+	display: block;
+	margin: 0;
+	text-align: right;
+	font-family: $meriendaFont;
+	line-height: .1em;
+  color: rgb(173, 1, 173);
+}
+
+@mixin extraHover {
+  opacity: 0;
+	transition: 1.5s;
+}*/
+
+//Variables
+
+//Colors
+$BGcolor1: rgb(210, 252, 210);
+$BGcolor2: darkturquoise;
+$BGcolor3: purple;
+$BGcolor3A:rgb(173, 1, 173);
+$BGcolor4: lightgrey;
+$BGcolor5:grey;
+$FontLight: white;
+$BGcolor6: indigo;
+
+//Fonts
+$Font-H: 'Merienda',
+cursive;
+$Font-p: 'Barlow Condensed',
+'Arial Narrow',
+sans-serif;
+
+//Widths
+$MobileWidth: 360px;
+$SmallRespWidth: 500px;
+$KindleWidth: 767px;
+$LapTopWidth: 1200px;
+
+
+.extra1:hover,
+.extra2:hover,
+.extra3:hover,
+.extra4:hover,
+.extra5:hover {
+	opacity: 0;
+	transition: 1.5s;
+}
+
+
+@import 'summary.scss';
+@import 'preamble.scss';
+@import 'explanation.scss';
+@import 'participation.scss';
+@import 'benefits.scss';
+@import 'requirements.scss';
+@import 'sidebar.scss';
+@import 'swimming-fish.scss';
