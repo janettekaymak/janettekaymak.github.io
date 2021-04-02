@@ -35,11 +35,11 @@
 			<rect width="12" height="12" x="62" y="86" fill="darkgrey" rx="3" stroke="black" />
 			<rect width="12" height="12" x="12" y="93" fill="grey" rx="3" stroke="black" />
 			<!-- bars -->
-			<rect width="2.5" height="42" x="29" y="31" rx="5" />
-			<rect width="2.5" height="48" x="39" y="25" rx="5" />
-			<rect width="2.5" height="48" x="48" y="25" rx="5" />
-			<rect width="2.5" height="48" x="57" y="25" rx="5" />
-			<rect width="2.5" height="42" x="66" y="31" rx="5" />
+			<rect width="2.5" height="41" x="30" y="31" rx="5" />
+			<rect width="2.5" height="47" x="39" y="25" rx="5" />
+			<rect width="2.5" height="47" x="48" y="25" rx="5" />
+			<rect width="2.5" height="47" x="57" y="25" rx="5" />
+			<rect width="2.5" height="41" x="66" y="31" rx="5" />
 		</pattern>
 		<!-- window with candle pattern -->
 		<pattern id="windowCandle" patternUnits="userSpaceOnUse" x="8" y="80" width="150" height="160">
@@ -63,11 +63,11 @@
 			<rect width="12" height="12" x="62" y="86" fill="darkgrey" rx="3" stroke="black" />
 			<rect width="12" height="12" x="12" y="93" fill="grey" rx="3" stroke="black" />
 			<!-- bars -->
-			<rect width="2.5" height="42" x="29" y="31" rx="5" />
-			<rect width="2.5" height="48" x="39" y="25" rx="5" />
-			<rect width="2.5" height="48" x="48" y="25" rx="5" />
-			<rect width="2.5" height="48" x="57" y="25" rx="5" />
-			<rect width="2.5" height="42" x="66" y="31" rx="5" />
+			<rect width="2.5" height="41" x="30" y="31" rx="5" />
+			<rect width="2.5" height="47" x="39" y="25" rx="5" />
+			<rect width="2.5" height="47" x="48" y="25" rx="5" />
+			<rect width="2.5" height="47" x="57" y="25" rx="5" />
+			<rect width="2.5" height="41" x="66" y="31" rx="5" />
 		</pattern>
 	</defs>
 	<!-- background -->

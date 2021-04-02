@@ -21,7 +21,7 @@
         top: -300px;
     }
 
-    40% {
+    49% {
         left: -130px;
         top: 0px;
         transform: rotateY(0deg);
@@ -39,7 +39,7 @@
 
     }
 
-    90% {
+    99% {
         left: -360px;
         top: 0px;
         transform: rotateY(180deg);
@@ -50,6 +50,7 @@
         top: 0px;
         transform: rotateY(0deg);
     }
+
 }
 
 /*--------------------500----------------------*/
@@ -130,7 +131,6 @@
             position: absolute;
             animation-timing-function: linear;
         }
-
         @keyframes swim {
             0% {
                 left: 0px;
@@ -142,7 +142,7 @@
                 top: -80px;
             }
 
-            40% {
+            49% {
                 left: -360px;
                 top: 0px;
                 transform: rotateY(0deg);
@@ -160,7 +160,7 @@
 
             }
 
-            90% {
+            99% {
                 left: -150px;
                 top: 0px;
                 transform: rotateY(180deg);
@@ -172,6 +172,7 @@
                 transform: rotateY(0deg);
             }
         }
+        
 
     }
 
