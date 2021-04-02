@@ -1,50 +1,3 @@
-<<<<<<< HEAD
-<svg width="315" height="268" x="0" y="0"
-    xmlns="http://www.w3.org/2000/svg" id="cover4">
-    <defs>
-
-        <!--water pattern-->
-        <pattern id="waterPattern" patternUnits="userSpaceOnUse" x="0" y="0" height="10" width="20">
-            <circle cx="10" cy="-10" r="15" fill="transparent" stroke="aqua" stroke-width="1" />
-        </pattern>
-        <!-- small green fish pattern -->
-        <pattern id="smallGreenFish" patternUnits="userSpaceOnUse" x="0" y="0" width="71" height="70">
-            <rect width="50" height="30" x="2" y="22" rx="30" fill="green" stroke="darkgreen" stroke-width="2" />
-            <polygon points="52,37 70,22 65,60" style="fill:chartreuse;stroke:darkgreen;stroke-width:2;" />
-            <polygon points="25,22 45,11 55,22" style="fill:chartreuse;stroke:darkgreen;stroke-width:2;" />
-            <polygon points="25,53 45,65 55,54" style="fill:chartreuse;stroke:darkgreen;stroke-width:2;" />
-            <rect width="10" height="10" rx="5" stroke="red" stroke-width="3" x="12" y="30" />
-            <polygon points="6,45 28,45 6,45" style="stroke:black;stroke-width:2;" />
-        </pattern>
-        <!-- green fish pattern -->
-        <pattern id="greenFish" patternUnits="userSpaceOnUse" x="100" y="-5" width="120" height="66">
-            <rect width="90" height="35" x="25" y="22" rx="50" fill="#152f13" stroke="darkgreen" stroke-width="2" />
-            <rect width="25" height="30" x="78" y="24" rx="50" fill="teal" />
-            <polygon points="26,38 2,22 2,60" style="fill:indigo;stroke:darkgreen;stroke-width:2;" />
-            <polygon points="25,22 45,11 75,22" style="fill:purple;stroke:darkgreen;stroke-width:2;" />
-            <polygon points="25,55 45,65 65,57" style="fill:fuchsia;stroke:darkgreen;stroke-width:2;" />
-            <rect width="11" height="11" x="88" y="30" rx="10" stroke="magenta" stroke-width="4" />
-            <polygon points="108,48 88,48 108,48" style="stroke:black;stroke-width:2;" />
-        </pattern>
-        <!-- red fish pattern -->
-        <pattern id="redFish" patternUnits="userSpaceOnUse" x="13" y="-5" width="71" height="66">
-            <rect width="50" height="30" x="2" y="22" rx="30" fill="firebrick" stroke="maroon" stroke-width="2" />
-            <rect width="25" height="28" x="6" y="23" rx="30" fill="orangered" />
-            <polygon points="52,37 70,22 65,60" style="fill:red;stroke:maroon;stroke-width:2;" />
-            <polygon points="25,22 45,11 55,22" style="fill:red;stroke:maroon;stroke-width:2;" />
-            <polygon points="25,53 45,65 55,54" style="fill:red;stroke:maroon;stroke-width:2;" />
-            <rect width="10" height="10" x="10" y="30" rx="5" stroke="chartreuse" stroke-width="3" />
-            <polygon points="6,45 20,45 6,45" style="stroke:black;stroke-width:2;" />
-        </pattern>
-    </defs>
-    <rect width="315" height="268" x="0" y="-60" rx="200" fill="#23c8ff" />
-    <rect width="315" height="268" x="0" y="-60" rx="200" fill="url(#waterPattern)" />
-
-    <rect width="120" height="66" x="100" y="0" fill="url(#greenFish)" />
-    <rect width="120" height="66" x="100" y="128" fill="url(#greenFish)" />
-    <rect width="285" height="66" x="13" y="66" fill="url(#redFish)" />
-</svg>
-=======
 <svg width="315" height="250" x="0" y="0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 315 250">
 	<defs>
 		<!-- water pattern -->
@@ -78,4 +31,3 @@
 	<rect width="285" height="66" x="13" y="66" fill="url(#redFish)" />
 	<rect width="315" height="268" x="0" y="-40" rx="200" fill="url(#waterPattern)" />
 </svg>
->>>>>>> d449df4347776062ae8e3d3a301aa09e5e79f6ef

@@ -1,0 +1,1160 @@
+@charset "UTF-8";
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+/* Donivan's mixins:
+@mixin h1and2{
+  width: 360px;
+	display: block;
+	margin: 0;
+	text-align: right;
+	font-family: $meriendaFont;
+	line-height: .1em;
+  color: rgb(173, 1, 173);
+}
+
+@mixin extraHover {
+  opacity: 0;
+	transition: 1.5s;
+}*/
+.extra1:hover,
+.extra2:hover,
+.extra3:hover,
+.extra4:hover,
+.extra5:hover {
+  opacity: 0;
+  transition: 1.5s;
+}
+
+body {
+  background-color: #d2fcd2;
+  display: grid;
+  margin: -80px auto auto -10px;
+}
+
+header {
+  background-image: linear-gradient(#d2fcd2, darkturquoise, #d2fcd2);
+  height: 200px;
+  background-position: bottom;
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+}
+
+header::after {
+  content: url(./svg/smallLink.svg);
+  margin-left: 20px;
+  position: absolute;
+  margin-top: -20px;
+  z-index: 2;
+}
+
+h1,
+h2 {
+  width: 360px;
+  display: block;
+  margin: 0;
+  text-align: right;
+  line-height: 0.1em;
+  color: #ad01ad;
+}
+
+h1 {
+  font-size: 37px;
+  margin-top: 120px;
+  margin-bottom: 35px;
+  font-family: "Merienda", cursive;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+}
+
+h3 {
+  font-family: "Merienda", cursive;
+  margin-bottom: -10px;
+  text-align: center;
+}
+
+.summary::after {
+  content: "CLICK or HOVER on each BLOCK to reveal a hidden message!";
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  font-size: 22px;
+  color: #ad01ad;
+}
+
+.summary {
+  padding: 0 75px 0 105px;
+  margin: auto 14px 0 10px;
+  text-align: right;
+  font-family: "Merienda", cursive;
+  line-height: 1.1em;
+  color: #555454;
+  margin-top: -60px;
+}
+
+.summary p a {
+  text-decoration: none;
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  font-size: 20px;
+  color: #ad01ad;
+}
+
+/*--------------------500----------------------*/
+@media screen and (min-width: 500px) {
+  body {
+    max-width: 500px;
+    margin: auto;
+  }
+
+  header {
+    height: 150px;
+    margin-top: -50px;
+  }
+
+  /* Link: */
+  header::after {
+    position: fixed;
+    margin-top: -60px;
+    margin-left: 10px;
+  }
+
+  h1,
+h2 {
+    width: 470px;
+  }
+
+  .summary {
+    padding: 0 90px 0 120px;
+    line-height: 1.5em;
+  }
+}
+/*--------------------767----------------------*/
+@media screen and (min-width: 767px) {
+  body {
+    max-width: 767px;
+    margin: auto;
+  }
+
+  header {
+    max-width: 767px;
+    height: 150px;
+    margin-top: -50px;
+  }
+
+  h1,
+h2 {
+    width: 767px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 45px;
+    line-height: 1em;
+  }
+
+  .summary {
+    text-align: center;
+    padding: 0 160px;
+  }
+
+  h2::after {
+    content: url(./svg/littleZelda.svg);
+    position: fixed;
+    margin-top: -213px;
+    margin-left: 133px;
+  }
+
+  /* Link: */
+  header::after {
+    position: fixed;
+    margin-top: -60px;
+    margin-left: 57px;
+  }
+}
+/*--------------------1200----------------------*/
+@media screen and (min-width: 1200px) {
+  body {
+    max-width: 1200px;
+  }
+
+  header {
+    max-width: 1200px;
+  }
+
+  h1,
+h2 {
+    width: 1200px;
+  }
+
+  /*zelda*/
+  h2::after {
+    margin-left: 405px;
+  }
+
+  /*link*/
+  header::after {
+    margin-left: 20px;
+  }
+}
+/*.preamble {
+  display: grid;
+	grid-template-columns: repeat(18, 20px);
+	grid-template-rows: repeat(28, 20px);
+  font-family: $Font-p;
+  font-size: 17.5px;
+  color: white;
+	width: 100%;
+  text-align: justify;
+  line-height: 1em;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+	&::before{
+		content: url(./svg/block1.svg);
+		z-index: 2;
+		grid-column: 1/-1;
+		grid-row: 1/-1;
+	}
+	h3 {
+		font-family: $Font-H;
+		font-size: 25px;
+		line-height: 1em;
+		grid-column: 5/18;
+		grid-row: 4/7;
+		z-index: 3;
+	}
+	p {
+		padding:0;
+		margin:0;
+		z-index: 3;
+		opacity: 0;
+		transition: opacity 5s;
+
+		&:nth-of-type(1){
+			grid-column: 5/17;
+			grid-row: 9/14;
+		}
+		&:nth-of-type(2){
+			grid-column: 5/17;
+			grid-row: 13/18;
+		}
+		&:nth-of-type(3){
+			grid-column: 8/15;
+			grid-row: 18/28;
+		}
+		&:last-of-type{
+			&::after{
+				content: url(./svg/flat-drawbridge2.svg);
+				background-color: black;
+				width:80px;
+				height: 10px;
+				z-index: 1;
+				position: absolute;
+				top: 305px;
+				left: 170px;
+				transition: transform 3s ease-in-out;
+			}
+			&:hover::after{
+				transform: translate(0px, 230px);
+			}
+		}
+	}
+	&::after{
+		content: url(./svg/cover1.svg);
+		grid-column: 5/18;
+		grid-row: 5/28;
+		z-index: 5;
+		width: 100%;
+		margin-left:-6px;
+		margin-top:-6px;
+		transition: z-index .5s ease-in-out;
+	}
+	&:hover{
+		p{opacity: 100%;}
+		&::after{
+			z-index:1;}
+	}
+}
+
+*/
+div.preamble {
+  display: block;
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  font-size: 17.5px;
+  color: white;
+  width: 360px;
+  height: 760px;
+  text-align: justify;
+  line-height: 1em;
+  background-image: url(./svg/block1.svg);
+  background-repeat: no-repeat;
+  margin: -15px auto 0px 9px;
+}
+
+.preamble p {
+  padding: 0px 40px;
+  margin: 20px 0 0 45px;
+}
+
+.preamble h3 {
+  font-family: "Merienda", cursive;
+  font-size: 25px;
+  line-height: 1em;
+  padding: 80px 50px 0 90px;
+}
+
+.preamble p:nth-child(4) {
+  width: 160px;
+  text-align: justify;
+  margin-left: 90px;
+}
+
+.extra1 {
+  content: url(./svg/cover1.svg);
+  margin-top: -2863px;
+  margin-left: 84px;
+}
+
+.preamble::after {
+  content: url(./svg/flat-drawbridge.svg);
+  display: block;
+  margin-top: -250px;
+  margin-left: 130px;
+  position: absolute;
+  z-index: -1;
+}
+
+.preamble:hover::after {
+  transform: translate(0px, 250px);
+  transition: transform 3s ease-in-out;
+}
+
+/*--------------------500----------------------*/
+@media screen and (min-width: 500px) {
+  /* block1 */
+  div.preamble {
+    margin: -15px auto -50px 124px;
+  }
+
+  /* cover1 */
+  .extra1 {
+    margin: -2760px auto auto 198px;
+  }
+}
+/*--------------------767----------------------*/
+@media screen and (min-width: 767px) {
+  /* block1 */
+  div.preamble {
+    margin: -15px auto -50px 200px;
+  }
+
+  /* cover1 */
+  .extra1 {
+    margin: -2760px auto auto 274px;
+  }
+}
+/*--------------------1200----------------------*/
+@media screen and (min-width: 1200px) {
+  /* block1 */
+  div.preamble {
+    background-image: url(./svg/block1.svg);
+    background-repeat: no-repeat;
+    margin: -15px auto -50px 130px;
+  }
+
+  /* cover1 */
+  .extra1 {
+    margin: -2210px auto auto 204px;
+  }
+}
+.explanation h3 {
+  font-family: "Merienda", cursive;
+  font-size: 21px;
+  line-height: 1em;
+  margin-left: -45px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.explanation {
+  display: block;
+  background-image: url(./svg/block2.svg);
+  background-repeat: no-repeat;
+  text-align: justify;
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  font-size: 17px;
+  width: 360px;
+  height: 800px;
+  line-height: 1.11em;
+  margin: 0 auto -50px 10px;
+}
+
+.explanation p {
+  width: 245px;
+  display: block;
+  padding: 0px 40px;
+  margin-left: -7px;
+}
+
+.extra2 {
+  content: url(./svg/cover2.svg);
+  margin: -2149px auto auto 34px;
+}
+
+.explanation::after {
+  content: url(./svg/flat-drawbridge.svg);
+  display: block;
+  margin-top: -340px;
+  margin-left: 102px;
+  position: absolute;
+  z-index: -1;
+}
+
+.explanation:hover::after {
+  transform: translate(0px, 350px);
+  transition: transform 3s ease-in-out;
+}
+
+.explanation p:nth-child(3) {
+  width: 160px;
+}
+
+/*--------------------500----------------------*/
+@media screen and (min-width: 500px) {
+  /* block2 */
+  .explanation {
+    margin: 0 auto -100px 125px;
+  }
+
+  /* cover2 */
+  .extra2 {
+    margin: -2098px auto auto 149px;
+  }
+}
+/*--------------------767----------------------*/
+@media screen and (min-width: 767px) {
+  /* block2 */
+  .explanation {
+    margin: 0 auto -100px 207px;
+  }
+
+  /* cover2 */
+  .extra2 {
+    margin: -2098px auto auto 231px;
+  }
+}
+/*--------------------1200----------------------*/
+@media screen and (min-width: 1200px) {
+  /* block2 */
+  .explanation {
+    margin: 0 auto -100px 150px;
+    background-image: url(./svg/block2a.svg);
+  }
+
+  /* cover2 */
+  .extra2 {
+    margin: -1548px auto auto 174px;
+  }
+
+  /*bridge*/
+  .explanation::after {
+    content: url(./svg/side-drawbridge.svg);
+    margin-top: -220px;
+    margin-left: -20px;
+    z-index: -1;
+  }
+
+  .explanation:hover::after {
+    transform: translate(280px, 0px);
+    transition: transform 3s ease-in-out;
+  }
+}
+.participation {
+  display: block;
+  width: 360px;
+  height: 850px;
+  background-repeat: no-repeat;
+  background-image: url(./svg/block3.svg);
+  margin: 0 auto -50px 10px;
+}
+
+.participation::after {
+  position: absolute;
+  content: url(./svg/bridge3.svg);
+  margin-top: -380px;
+  margin-left: 8px;
+  z-index: -1;
+}
+
+.participation:hover::after {
+  transform: translate(0px, 355px);
+  transition: transform 4s ease-in-out;
+}
+
+.participation h3 {
+  color: white;
+  font-size: 26px;
+  line-height: 1.2em;
+  font-family: "Merienda", cursive;
+  padding-top: 45px;
+}
+
+.participation p {
+  font-size: 16px;
+  color: white;
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  text-align: justify;
+  width: 260px;
+  display: block;
+  margin: 12px auto auto auto;
+}
+
+.participation a {
+  color: orange;
+  text-decoration: none;
+}
+
+.extra3 {
+  content: url(./svg/cover3.svg);
+  margin-top: -1381px;
+  margin-left: 50px;
+}
+
+/*--------------------500----------------------*/
+@media screen and (min-width: 500px) {
+  /* block3 */
+  .participation {
+    margin: 0 auto -50px 125px;
+  }
+
+  /* cover3 */
+  .extra3 {
+    margin-top: -1380px;
+    margin-left: 163px;
+  }
+}
+/*--------------------767----------------------*/
+@media screen and (min-width: 767px) {
+  /* block3 */
+  .participation {
+    margin: 0 auto -50px 207px;
+  }
+
+  /* cover3 */
+  .extra3 {
+    margin-top: -1380px;
+    margin-left: 245px;
+  }
+}
+/*--------------------1200----------------------*/
+@media screen and (min-width: 1200px) {
+  /* block3 */
+  .participation {
+    background-image: url(./svg/block3desk.svg);
+    margin: -600px auto -50px 707px;
+  }
+
+  /* cover3 */
+  .extra3 {
+    margin-top: -1330px;
+    margin-left: 745px;
+  }
+
+  /* bridge3 */
+  .participation::after {
+    margin-top: -380px;
+  }
+
+  .participation:hover::after {
+    transform: translate(0px, 325px);
+    transition: transform 4s ease-in-out;
+  }
+}
+.benefits {
+  width: 360px;
+  height: 600px;
+  background-image: url(./svg/block4.svg);
+  background-repeat: no-repeat;
+  margin: -100px auto 0px 10px;
+}
+
+.benefits p {
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  font-size: 16.5px;
+  text-align: center;
+  width: 250px;
+  display: block;
+  margin: auto;
+  padding-right: 10px;
+}
+
+.benefits h3 {
+  font-family: "Merienda", cursive;
+  font-size: 30px;
+  line-height: 1em;
+  padding-top: 55px;
+  padding-bottom: 20px;
+}
+
+.extra4 {
+  content: url(./svg/cover4.svg);
+  margin: -505px auto auto 33px;
+}
+
+.benefits::after {
+  position: absolute;
+  content: url(./svg/bridge4.svg);
+  z-index: -1;
+  margin-top: -300px;
+}
+
+.benefits:hover::after {
+  transform: translate(0px, 292px);
+  transition: transform 3s ease-in-out;
+  z-index: -1;
+}
+
+/*--------------------500----------------------*/
+@media screen and (min-width: 500px) {
+  /* block4 */
+  .benefits {
+    margin-left: 125px;
+  }
+
+  /* cover4 */
+  .extra4 {
+    margin: -505px auto auto 147px;
+  }
+}
+/*--------------------767----------------------*/
+@media screen and (min-width: 767px) {
+  /* block4 */
+  .benefits {
+    margin-left: 207px;
+  }
+
+  /* cover4 */
+  .extra4 {
+    margin: -505px auto auto 229px;
+  }
+}
+/*--------------------1200----------------------*/
+@media screen and (min-width: 1200px) {
+  /* block4 */
+  .benefits {
+    margin-left: 707px;
+    margin-top: -150px;
+  }
+
+  /* cover4 */
+  .extra4 {
+    margin: -505px auto auto 730px;
+  }
+
+  .benefits::after {
+    content: url(./svg/side-bridge4.svg);
+    margin-top: -45px;
+    margin-left: 25px;
+  }
+
+  .benefits:hover::after {
+    transform: translate(-227px, 0px);
+    transition: transform 3s ease-in-out;
+    z-index: -1;
+  }
+
+  .benefits h3 {
+    font-family: "Merienda", cursive;
+    font-size: 30px;
+    line-height: 1em;
+    padding-top: 55px;
+    padding-bottom: 20px;
+  }
+}
+.requirements {
+  position: absolute;
+  width: 365px;
+  height: 1050px;
+  display: block;
+  margin: 0 auto 0 8px;
+  background-image: url(./svg/block5.svg);
+  background-repeat: no-repeat;
+}
+
+.requirements p {
+  width: 252px;
+  display: block;
+  margin: 5px auto auto 80px;
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  font-size: 16.5px;
+  line-height: 1.1em;
+  text-align: justify;
+  text-shadow: white 1px 1px 2px;
+}
+
+.requirements h3 {
+  font-family: "Merienda", cursive;
+  font-size: 25px;
+  line-height: 1em;
+  padding: 0px 0 5px 40px;
+}
+
+.requirements p:nth-child(5),
+.requirements p:nth-child(6) {
+  width: 160px;
+  margin-left: 175px;
+  text-align: left;
+  margin-top: 0px;
+}
+
+.requirements::after {
+  content: url(./svg/drawbridge.svg);
+  position: absolute;
+  margin-left: 131px;
+  margin-top: -315px;
+  z-index: -1;
+}
+
+.requirements:hover::after {
+  transform: translate(0px, 300px);
+  transition: transform 1.5s ease-in-out;
+  z-index: 2;
+}
+
+.extra5 {
+  content: url(./svg/cover5.svg);
+  position: absolute;
+  margin: 3439px auto auto 80px;
+  z-index: 3;
+}
+
+/*--------------------500----------------------*/
+@media screen and (min-width: 500px) {
+  /* block5 */
+  .requirements {
+    margin: 0 auto 0px 110px;
+  }
+
+  /* cover5 */
+  .extra5 {
+    margin: 3278px auto auto 182px;
+  }
+}
+/*--------------------767----------------------*/
+@media screen and (min-width: 767px) {
+  /* block5 */
+  .requirements {
+    margin: 0 auto 0px 198px;
+  }
+
+  /* cover5 */
+  .extra5 {
+    margin: 3228px auto auto 270px;
+  }
+}
+/*--------------------1200----------------------*/
+@media screen and (min-width: 1200px) {
+  /* block5 */
+  .requirements {
+    margin: -950px auto 0px 140px;
+  }
+
+  /* cover5 */
+  .extra5 {
+    margin: 1678px auto auto 212px;
+  }
+
+  .requirements::after {
+    margin-top: -185px;
+  }
+
+  .requirements:hover::after {
+    transform: translate(0px, 195px);
+    transition: transform 1s ease-in-out;
+    z-index: 2;
+  }
+}
+aside.sidebar {
+  position: absolute;
+  background-image: url(./svg/block6.svg);
+  background-repeat: no-repeat;
+  padding: 20px 15px 15px 32px;
+  width: 360px;
+  height: 1200px;
+  display: block;
+  margin: 1010px auto auto 11px;
+  z-index: 1;
+}
+
+aside.sidebar a:link,
+aside.sidebar a:visited {
+  color: white;
+  text-decoration: none;
+  text-shadow: lightgrey 1px 1px 1px;
+}
+
+li:hover {
+  background-color: grey;
+  border-radius: 5px;
+  padding: 3px 10px;
+}
+
+aside.sidebar a:hover,
+aside.sidebar:hover {
+  color: #ad01ad;
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  text-shadow: purple 1px 1px 1px;
+}
+
+aside.sidebar h3 {
+  font-family: "Merienda", cursive;
+  font-size: 29px;
+  text-align: center;
+  color: purple;
+  background-color: lightgrey;
+  padding: 5px;
+  border-radius: 5px;
+  line-height: 0.7em;
+  width: 240px;
+  margin-left: 48px;
+}
+
+aside.sidebar ul li {
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  color: white;
+  width: 200px;
+  display: block;
+  margin-left: 30px;
+  font-size: 18px;
+}
+
+footer {
+  display: none;
+}
+
+aside.sidebar::before {
+  content: url(./svg/together.svg);
+  position: absolute;
+  margin-top: 1290px;
+  margin-left: 0px;
+  z-index: 2;
+}
+
+aside.sidebar::after {
+  display: block;
+  content: "CONGRATULATIONS! YOU WON! . . . Now, go forth into the world and code your very own CSS Zen Garden! . . . This Zen Garden was created by Michael Kendall, Donivan Killpack and Janette Kaymak. All of the images are original Scalable Vector Graphics, lovingly hand-coded. Please do not use our artwork without permission © 2021";
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  text-align: center;
+  font-size: 22px;
+  color: indigo;
+  grid-area: world;
+  width: 350px;
+  height: 350px;
+  background-image: linear-gradient(#d2fcd2, darkturquoise, purple);
+  border-radius: 600px;
+  margin: 150px auto 0 -28px;
+  font-weight: bolder;
+}
+
+.extra6 {
+  content: url(./svg/pinkCastle.svg);
+  position: absolute;
+  margin-top: 5080px;
+  margin-left: 10px;
+  z-index: -1;
+}
+
+/*--------------------500----------------------*/
+@media screen and (min-width: 500px) {
+  /* block6 */
+  aside.sidebar {
+    margin: 1010px auto 0px 125px;
+    width: 320px;
+  }
+
+  /* link and zelda */
+  aside.sidebar::before {
+    margin-top: 1280px;
+    margin-left: -85px;
+  }
+
+  /* world */
+  aside.sidebar::after {
+    margin: 170px auto 0 -82px;
+    z-index: 3;
+    font-weight: normal;
+  }
+
+  /*castle*/
+  .extra6 {
+    z-index: 0;
+    margin-top: 4915px;
+    margin-left: -110px;
+  }
+}
+/*--------------------767----------------------*/
+@media screen and (min-width: 767px) {
+  /* block6 */
+  aside.sidebar {
+    margin: 1010px auto 0px 180px;
+    width: 360px;
+  }
+
+  /*castle*/
+  .extra6 {
+    z-index: 0;
+    margin-top: 4870px;
+    margin-left: 23px;
+  }
+
+  /* link and zelda */
+  aside.sidebar::before {
+    margin-top: 1285px;
+    margin-left: -5px;
+  }
+
+  /* world */
+  aside.sidebar::after {
+    margin: 190px auto 0 -4px;
+    z-index: 3;
+    font-weight: normal;
+  }
+}
+/*--------------------1200----------------------*/
+@media screen and (min-width: 1200px) {
+  /* block6 */
+  aside.sidebar {
+    background-image: url(./svg/block6desk.svg);
+    background-repeat: no-repeat;
+    margin: -2430px auto 0px 670px;
+    z-index: 3;
+    padding: 210px 15px 15px 32px;
+  }
+
+  /*castle*/
+  .extra6 {
+    content: url(./svg/pinkCastle-desk.svg);
+    z-index: 0;
+    margin-top: 2575px;
+    margin-left: 0px;
+  }
+
+  /* link and zelda */
+  aside.sidebar::before {
+    margin-top: 2792px;
+    margin-left: -270px;
+  }
+
+  /* world */
+  aside.sidebar::after {
+    margin: 1785px auto 0 -507px;
+    width: 330px;
+    height: 330px;
+    font-size: 21px;
+    font-weight: bolder;
+  }
+}
+/*--------------------mobile 360----------------------*/
+.benefits p:nth-child(2):after {
+  content: url(./svg/fish-mobile.svg);
+  z-index: 2;
+  margin: 5310px auto auto -100px;
+  animation-name: swim1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: absolute;
+  animation-timing-function: linear;
+}
+
+@keyframes swim1 {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  10% {
+    left: 0px;
+    top: -300px;
+  }
+  49% {
+    left: -130px;
+    top: 0px;
+    transform: rotateY(0deg);
+  }
+  50% {
+    left: -500px;
+    top: 0px;
+    transform: rotateY(180deg);
+  }
+  85% {
+    left: -500px;
+    top: -300px;
+  }
+  99% {
+    left: -360px;
+    top: 0px;
+    transform: rotateY(180deg);
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+    transform: rotateY(0deg);
+  }
+}
+/*--------------------500----------------------*/
+@media screen and (min-width: 500px) {
+  /* fish */
+  .benefits p:nth-child(2):after {
+    margin: 5210px auto auto 0px;
+  }
+}
+/*--------------------767----------------------*/
+@media screen and (min-width: 767px) {
+  /* fish */
+  .benefits p:nth-child(2):after {
+    margin: 5170px auto auto 50px;
+  }
+}
+/*--------------------850----------------------*/
+@media screen and (min-width: 850px) {
+  /* fish */
+  .benefits p:nth-child(2):after {
+    margin-left: 100px;
+  }
+}
+/*--------------------950----------------------*/
+@media screen and (min-width: 950px) {
+  /* fish */
+  .benefits p:nth-child(2):after {
+    margin-left: 150px;
+  }
+
+  /*--------------------1050----------------------*/
+  /*--------------------1150----------------------*/
+  /*--------------------1200----------------------*/
+  /*--------------------1300----------------------*/
+  /*--------------------1400----------------------*/
+  /*--------------------1500----------------------*/
+  /*--------------------1600----------------------*/
+  /*--------------------1700----------------------*/
+  /*--------------------1800----------------------*/
+  /*--------------------1900----------------------*/
+  /*--------------------2000----------------------*/
+}
+@media screen and (min-width: 950px) and (min-width: 1050px) {
+  /* fish */
+  .benefits p:nth-child(2):after {
+    margin-left: 200px;
+  }
+}
+@media screen and (min-width: 950px) and (min-width: 1150px) {
+  /* fish */
+  .benefits p:nth-child(2):after {
+    margin-left: 230px;
+  }
+}
+@media screen and (min-width: 950px) and (min-width: 1200px) {
+  /* fish */
+  .benefits p:nth-child(2):after {
+    content: url(./svg/fish.svg);
+    z-index: 2;
+    margin: 2620px auto auto 250px;
+    animation-name: swim;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    animation-timing-function: linear;
+  }
+
+  @keyframes swim {
+    0% {
+      left: 0px;
+      top: 0px;
+    }
+    10% {
+      left: -100px;
+      top: -80px;
+    }
+    49% {
+      left: -360px;
+      top: 0px;
+      transform: rotateY(0deg);
+    }
+    50% {
+      left: -500px;
+      top: 0px;
+      transform: rotateY(180deg);
+    }
+    85% {
+      left: -400px;
+      top: -80px;
+    }
+    99% {
+      left: -150px;
+      top: 0px;
+      transform: rotateY(180deg);
+    }
+    100% {
+      left: 0px;
+      top: 0px;
+      transform: rotateY(0deg);
+    }
+  }
+}
+@media screen and (min-width: 950px) and (min-width: 1300px) {
+  /* fish */
+  .benefits p:nth-child(2):after {
+    padding: 0 50px;
+  }
+}
+@media screen and (min-width: 950px) and (min-width: 1400px) {
+  /* fish */
+  .benefits p:nth-child(2):after {
+    padding: 0 100px;
+  }
+}
+@media screen and (min-width: 950px) and (min-width: 1500px) {
+  /* fish */
+  .benefits p:nth-child(2):after {
+    padding: 0 150px;
+  }
+}
+@media screen and (min-width: 950px) and (min-width: 1600px) {
+  /* fish */
+  .benefits p:nth-child(2):after {
+    padding: 0 200px;
+  }
+}
+@media screen and (min-width: 950px) and (min-width: 1700px) {
+  /* fish */
+  .benefits p:nth-child(2):after {
+    padding: 0 250px;
+  }
+}
+@media screen and (min-width: 950px) and (min-width: 1800px) {
+  /* fish */
+  .benefits p:nth-child(2):after {
+    padding: 0 300px;
+  }
+}
+@media screen and (min-width: 950px) and (min-width: 1900px) {
+  /* fish */
+  .benefits p:nth-child(2):after {
+    padding: 0 350px;
+  }
+}
+@media screen and (min-width: 950px) and (min-width: 2000px) {
+  /* fish */
+  .benefits p:nth-child(2):after {
+    padding: 0 400px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
